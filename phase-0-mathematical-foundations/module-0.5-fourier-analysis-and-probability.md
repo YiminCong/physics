@@ -22,7 +22,7 @@ The **Dirac delta** δ(x) is the identity element of this transform: δ̃(k) = 1
 
   f̃(k) = σ√(2π) e^{−σ²k²/2}.
 
-When σ is large (broad in x), σ² is large and f̃ is narrow in k. When σ is small (narrow in x), f̃ is wide in k. Quantitatively, Δx · Δk ≥ 1/2, where Δ denotes the standard deviation. This **reciprocal spread** is a mathematical identity of Fourier pairs — it has nothing to do with measurement disturbance yet. Its physical interpretation arrives in Module 3.1.
+When σ is large (broad in x), f̃ is narrow in k. When σ is small (narrow in x), f̃ is wide in k. Quantitatively, Δx · Δk ≥ 1/2. This **reciprocal spread** is a mathematical identity of Fourier pairs — it has nothing to do with measurement disturbance yet. Its physical interpretation arrives in Module 3.1.
 
 **Application.** In quantum mechanics, the momentum-space wavefunction ψ̃(p) is exactly the Fourier transform of the position-space wavefunction ψ(x), with k = p/ℏ (Module 3.1). The Gaussian demonstration above is then the Heisenberg uncertainty principle ΔxΔp ≥ ℏ/2. In condensed matter, the **reciprocal lattice** is the Fourier transform of the crystal's Bravais lattice, and Bragg diffraction is Fourier analysis of the charge density (Module 4.2). The convolution theorem underpins how detectors and sources broaden spectral lines.
 
@@ -30,7 +30,7 @@ When σ is large (broad in x), σ² is large and f̃ is narrow in k. When σ is 
 
 ## 2. Probability
 
-**Definition.** A **random variable** X has a **probability distribution** P(x) (for discrete X) or a **probability density** p(x) (for continuous X, with p(x) ≥ 0 and ∫p(x)dx = 1). The **mean** (expectation value) and **variance** are:
+**Definition.** A **random variable** X has a **probability density** p(x) (with p(x) ≥ 0 and ∫p(x)dx = 1). The **mean** (expectation value) and **variance** are:
 
   ⟨x⟩ = ∫ x p(x) dx,   σ² = ⟨(x − ⟨x⟩)²⟩ = ⟨x²⟩ − ⟨x⟩².
 
@@ -38,7 +38,7 @@ The standard deviation σ = √(⟨x²⟩ − ⟨x⟩²) measures the spread. Th
 
   p(x) = (1/σ√(2π)) e^{−(x−μ)²/2σ²}.
 
-It is its own Fourier transform (up to rescaling), normalized to 1, and maximizes entropy for a fixed mean and variance. The **central limit theorem** states that the sum of many independent random variables — regardless of their individual distributions — converges in distribution to a Gaussian.
+It is its own Fourier transform (up to rescaling), normalized to 1, and maximizes entropy for fixed mean and variance. The **central limit theorem** states that the sum of many independent random variables — regardless of their individual distributions — converges in distribution to a Gaussian.
 
 **Application.** In quantum mechanics, |ψ(x)|² is a probability density: the expectation value of position is ⟨x⟩ = ∫ x|ψ|² dx and the uncertainty Δx = √(⟨x²⟩ − ⟨x⟩²) is exactly the standard deviation applied to |ψ|² (Module 3.1). The central limit theorem explains why the Gaussian appears in thermal noise, diffusion, and the ground-state wavefunction of the harmonic oscillator. The **density of states** — the probability density of finding an energy level near E — feeds directly into Fermi's golden rule for transition rates (Module 3.8) and into the Fermi–Dirac and Bose–Einstein distributions in statistical mechanics.
 
