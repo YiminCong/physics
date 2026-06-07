@@ -47,4 +47,4 @@ Charge conservation ∂_μ J^μ = 0 follows from the antisymmetry of F^{μν}: �
 
 ---
 
-← Previous: [Module 1.14 — Relativistic Dynamics & E = mc²](./module-1.14-relativistic-dynamics-energy-momentum.md) · [Phase 1 index](./README.md)
+← Previous: [Module 1.14 — Relativistic Dynamics & E = mc²](./module-1.14-relativistic-dynamics-energy-momentum.md) · [Phase 1 index](./README.md) · Next: [Module 1.16 — Mechanical Waves & Acoustics](./module-1.16-mechanical-waves-acoustics.md) →

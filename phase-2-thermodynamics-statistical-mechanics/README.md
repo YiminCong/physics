@@ -18,6 +18,7 @@ This phase builds the two pillars that support all subsequent condensed-matter a
 | [2.4](./module-2.4-classical-statistical-mechanics.md) | Classical Statistical Mechanics | |
 | [2.5](./module-2.5-quantum-statistics.md) | Quantum Statistics | ⭐ |
 | [2.6](./module-2.6-quantum-gases-applications.md) | Quantum Gases & Applications | |
+| [2.7](./module-2.7-kinetic-theory-and-transport.md) | Kinetic Theory & Transport | |
 
 ## Phase 2 Checkpoint (blank page)
 
@@ -29,6 +30,7 @@ Work through these without notes before moving on.
 4. Define the canonical partition function Z, and show how F = −k_BT ln Z connects it to thermodynamics. Apply the equipartition theorem to find U and C_V for a monatomic ideal gas.
 5. Write down both the Fermi–Dirac and Bose–Einstein distributions. Explain why the Pauli principle forces the +1 in the denominator for fermions, and what happens when μ → ε_0 for bosons.
 6. A metal at low temperature has heat capacity C(T) = γT + βT³. Identify the physical origin of each term and state which phase of this curriculum each term connects to.
+7. Sketch the Maxwell–Boltzmann speed distribution and define the mean free path. Starting from the relaxation-time Boltzmann equation, outline how the Drude conductivity σ = ne²τ/m and Ohm's law emerge.
 
 ---
 

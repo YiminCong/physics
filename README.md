@@ -10,7 +10,7 @@ so you always see *what* a concept is, *how* it works on a concrete example, and
 is used later. Modules marked ⭐ are load-bearing for what follows; ⭐⭐ are pivotal.
 
 The curriculum is organized into **9 phases**, each a directory; each **module** is its own
-file. There are **71 modules** in total.
+file. There are **76 modules** in total.
 
 ---
 
@@ -82,7 +82,7 @@ The toolkit for everything that follows.
 | 0.6 | [Vector Calculus, Tensors & Differential Forms](./phase-0-mathematical-foundations/module-0.6-vector-calculus-tensors-and-differential-forms.md) | |
 
 ### [Phase 1 — Classical Physics](./phase-1-classical-physics/)
-Mechanics, electromagnetism, and their relativistic completion.
+Mechanics, electromagnetism, waves & fluids, nonlinear dynamics, and special relativity.
 | # | Module | |
 |---|--------|---|
 | 1.1 | [Newtonian Mechanics](./phase-1-classical-physics/module-1.1-newtonian-mechanics.md) | |
@@ -100,6 +100,10 @@ Mechanics, electromagnetism, and their relativistic completion.
 | 1.13 | [Special Relativity — Kinematics](./phase-1-classical-physics/module-1.13-special-relativity-kinematics.md) | ⭐ |
 | 1.14 | [Relativistic Dynamics & E = mc²](./phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum.md) | ⭐ |
 | 1.15 | [Covariant Electromagnetism](./phase-1-classical-physics/module-1.15-covariant-electromagnetism.md) | |
+| 1.16 | [Mechanical Waves & Acoustics](./phase-1-classical-physics/module-1.16-mechanical-waves-acoustics.md) | |
+| 1.17 | [Fluid Mechanics](./phase-1-classical-physics/module-1.17-fluid-mechanics.md) | |
+| 1.18 | [Continuum Mechanics & Elasticity](./phase-1-classical-physics/module-1.18-continuum-mechanics-elasticity.md) | |
+| 1.19 | [Nonlinear Dynamics & Chaos](./phase-1-classical-physics/module-1.19-nonlinear-dynamics-chaos.md) | |
 
 ### [Phase 2 — Thermodynamics & Statistical Mechanics](./phase-2-thermodynamics-statistical-mechanics/)
 From heat engines to quantum statistics.
@@ -111,6 +115,7 @@ From heat engines to quantum statistics.
 | 2.4 | [Classical Statistical Mechanics](./phase-2-thermodynamics-statistical-mechanics/module-2.4-classical-statistical-mechanics.md) | |
 | 2.5 | [Quantum Statistics](./phase-2-thermodynamics-statistical-mechanics/module-2.5-quantum-statistics.md) | ⭐ |
 | 2.6 | [Quantum Gases & Applications](./phase-2-thermodynamics-statistical-mechanics/module-2.6-quantum-gases-applications.md) | |
+| 2.7 | [Kinetic Theory & Transport](./phase-2-thermodynamics-statistical-mechanics/module-2.7-kinetic-theory-and-transport.md) | |
 
 ### [Phase 3 — Quantum Mechanics](./phase-3-quantum-mechanics/)
 The core of modern physics. Modules 3.1–3.12.

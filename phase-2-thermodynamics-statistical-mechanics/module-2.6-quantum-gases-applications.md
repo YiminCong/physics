@@ -65,4 +65,4 @@ where the first term is electronic (Fermi gas) and the second is phononic (Debye
 
 ---
 
-← Previous: [Module 2.5 — Quantum Statistics](./module-2.5-quantum-statistics.md) · [Phase 2 index](./README.md)
+← Previous: [Module 2.5 — Quantum Statistics](./module-2.5-quantum-statistics.md) · [Phase 2 index](./README.md) · Next: [Module 2.7 — Kinetic Theory & Transport](./module-2.7-kinetic-theory-and-transport.md) →

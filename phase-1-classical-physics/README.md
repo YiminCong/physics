@@ -1,6 +1,6 @@
 # Phase 1 — Classical Physics
 
-Classical physics encompasses Newtonian and analytical mechanics, electromagnetism, and their relativistic completion in special relativity — the indispensable foundation on which all of modern physics is built. Each module follows the **Definition → Demonstration → Application** format: a precise statement of the core idea, a worked or illustrative example that makes it concrete, and a signpost to where the idea recurs at deeper levels.
+Classical physics encompasses Newtonian and analytical mechanics, electromagnetism, the mechanics of waves, fluids and deformable bodies, nonlinear dynamics, and the relativistic completion of it all in special relativity — the indispensable foundation on which all of modern physics is built. Each module follows the **Definition → Demonstration → Application** format: a precise statement of the core idea, a worked or illustrative example that makes it concrete, and a signpost to where the idea recurs at deeper levels.
 
 ## Prerequisites
 
@@ -43,6 +43,17 @@ Fourier methods (Module 0.5) are needed for optics and waves; linear algebra (Mo
 | [1.14](./module-1.14-relativistic-dynamics-energy-momentum.md) | Relativistic Dynamics & E = mc² ⭐ | Four-vectors, p^μ, E² = (pc)² + (mc²)², relativistic force |
 | [1.15](./module-1.15-covariant-electromagnetism.md) | Covariant Electromagnetism | Four-potential A^μ, field tensor Fμν, covariant Maxwell equations |
 
+### Continuum, Fluids & Nonlinear Dynamics (1.16–1.19)
+
+*These extend classical mechanics to continuous media and to nonlinear systems. They depend only on the mechanics block (1.1–1.7), so you may read them right after Module 1.7 if you prefer a strict mechanics-first path.*
+
+| Module | Title | Notes |
+|--------|-------|-------|
+| [1.16](./module-1.16-mechanical-waves-acoustics.md) | Mechanical Waves & Acoustics | Wave equation, d'Alembert, standing waves, sound, Doppler, group velocity |
+| [1.17](./module-1.17-fluid-mechanics.md) | Fluid Mechanics | Continuity, Euler, Bernoulli, Navier–Stokes, Reynolds number, turbulence |
+| [1.18](./module-1.18-continuum-mechanics-elasticity.md) | Continuum Mechanics & Elasticity | Stress/strain tensors, Hooke's law, elastic (P/S) waves, seismology |
+| [1.19](./module-1.19-nonlinear-dynamics-chaos.md) | Nonlinear Dynamics & Chaos | Phase space, fixed points, bifurcations, Lyapunov exponent, logistic map |
+
 ## Phase 1 Checkpoint (blank page)
 
 Work through these without notes — they span the whole phase.
@@ -55,6 +66,8 @@ Work through these without notes — they span the whole phase.
 6. A pendulum of length ℓ and mass m is released from small angle θ₀. Use the Hamiltonian formalism to show the phase-space orbit is an ellipse and identify the adiabatic invariant.
 7. Two masses m connected to fixed walls and each other by identical springs of constant k form a symmetric coupled oscillator. Find the normal mode frequencies and sketch the corresponding motions.
 8. Explain physically why a purely electric Coulomb field in the rest frame of a charge acquires a magnetic component in a frame where the charge moves. Which transformation law makes this precise?
+9. Derive the wave speed c = √(T/μ) on a string, and separately state the Bernoulli and Navier–Stokes equations, identifying which term in Navier–Stokes is responsible for turbulence.
+10. Define the Lyapunov exponent and the strain tensor. Explain how the long-wavelength limit of the elastic wave equation (1.18) connects to the acoustic phonons of Phase 4.
 
 ---
 
