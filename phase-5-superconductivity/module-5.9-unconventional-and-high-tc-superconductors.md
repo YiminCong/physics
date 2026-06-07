@@ -14,4 +14,4 @@
 
 ---
 
-← Previous: [Module 5.8 — Josephson Effects](./module-5.8-josephson-effects.md) · [Phase 5 index](./README.md) · Next: [Phase 6 — Going Deeper](./phase-6-going-deeper.md) →
+← Previous: [Module 5.8 — Josephson Effects](./module-5.8-josephson-effects.md) · [Phase 5 index](./README.md) · Next: [Phase 6 — Quantum Field Theory & Many-Body Physics](../phase-6-quantum-field-theory/README.md) →

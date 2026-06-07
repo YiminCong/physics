@@ -1,6 +1,6 @@
 # Phase 5 — Superconductivity (the destination)
 
-Modules 5.1–5.9 (plus a Phase 6 orientation), in **Definition → Demonstration → Application**
+Modules 5.1–5.9, in **Definition → Demonstration → Application**
 format. This is where everything converges. Watch how each module cashes in an earlier ⭐:
 free energy (2.3), quantum statistics (2.5), the Fermi surface and phonons (4.3–4.5),
 second quantization and singlet pairing (3.11–3.12), and the complex phase (0.4).
@@ -18,7 +18,7 @@ second quantization and singlet pairing (3.11–3.12), and the complex phase (0.
 | 5.7 | [Type II Superconductors & Vortices](./module-5.7-type-ii-superconductors-and-vortices.md) | ⭐ |
 | 5.8 | [Josephson Effects](./module-5.8-josephson-effects.md) | ⭐ |
 | 5.9 | [Unconventional & High-Tᶜ Superconductors](./module-5.9-unconventional-and-high-tc-superconductors.md) | |
-| 6 | [Phase 6 — Going Deeper (optional, research-level)](./phase-6-going-deeper.md) | |
+| → | [Phase 6 — Quantum Field Theory & Many-Body Physics](../phase-6-quantum-field-theory/README.md) | research toolkit |
 
 ## Phase 5 Checkpoint (blank page)
 
@@ -33,4 +33,4 @@ second quantization and singlet pairing (3.11–3.12), and the complex phase (0.
 9. Explain why high-T_c cuprates resist a simple BCS (phonon, s-wave) description.
 
 When these are automatic, continue to the optional
-**[Phase 6 — Going Deeper](./phase-6-going-deeper.md)** for the research-level toolkit.
+**[Phase 6 — Quantum Field Theory & Many-Body Physics](../phase-6-quantum-field-theory/README.md)** for the research-level toolkit.
