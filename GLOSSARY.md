@@ -192,6 +192,9 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Relaxation time | 弛豫时间 | The timescale for a system to return to equilibrium. |
 | Transport coefficients | 输运系数 | Conductivity, viscosity, diffusivity relating flux to gradient. |
 | Drude conductivity | 德鲁德电导 | σ = ne²τ/m for electrons in a metal. |
+| Brownian motion | 布朗运动 | Random jittering of a microscopic particle from molecular collisions. |
+| Einstein relation | 爱因斯坦关系 | D = μ k_B T, linking diffusion to mobility and temperature. |
+| Fluctuation–dissipation theorem | 涨落–耗散定理 | Relates random fluctuations of a system to its dissipative response. |
 
 ---
 
@@ -246,6 +249,14 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Anticommutator | 反对易子 | The sum AB + BA; defines fermion algebra. |
 | Occupation number | 占据数 | The number of particles in a given mode. |
 | Fock space | 福克空间 | The state space of variable particle number. |
+| Photoelectric effect | 光电效应 | Ejection of electrons by light when hν exceeds the work function. |
+| Wave–particle duality | 波粒二象性 | Quantum objects show both wave and particle behaviour. |
+| de Broglie wavelength | 德布罗意波长 | The matter wavelength λ = h/p. |
+| Bohr model | 玻尔模型 | Early quantized-orbit model of the hydrogen atom. |
+| Compton effect | 康普顿效应 | X-ray wavelength shift on scattering off electrons; shows photon momentum. |
+| Entanglement | 量子纠缠 | A joint state that cannot be factorized into independent parts. |
+| EPR paradox | EPR 佯谬 | The Einstein–Podolsky–Rosen argument questioning QM's completeness. |
+| Bell's theorem | 贝尔定理 | Local hidden-variable theories obey an inequality that QM violates. |
 
 ---
 
@@ -341,6 +352,11 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Renormalization group | 重整化群 | The flow of couplings with energy scale. |
 | Running coupling | 跑动耦合 | A coupling constant that varies with energy. |
 | Universality | 普适性 | Shared critical behavior across different systems. |
+| Yang–Baxter equation | 杨–巴克斯特方程 | The consistency condition behind exactly solvable (integrable) models. |
+| Bethe ansatz | 贝特拟设 | An exact method for solving certain 1D quantum many-body models. |
+| Lee–Yang theorem | 李–杨定理 | Transitions occur where partition-function zeros approach the real axis. |
+| Off-diagonal long-range order (ODLRO) | 非对角长程序 | Yang's rigorous criterion for superfluid / superconducting order. |
+| Byers–Yang theorem | 拜尔斯–杨定理 | Gauge invariance forces flux quantization in units of h/2e. |
 
 ---
 
@@ -409,6 +425,9 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Baryogenesis | 重子生成 | The origin of the matter–antimatter asymmetry. |
 | Inflation | 暴胀 | A burst of early exponential expansion. |
 | WIMP / axion | 弱相互作用大质量粒子 / 轴子 | Leading dark-matter particle candidates. |
+| Parity | 宇称 | Symmetry under spatial inversion (mirror reflection). |
+| Parity violation | 宇称不守恒 | The weak interaction is not mirror-symmetric (Lee–Yang; Wu experiment). |
+| Chirality (handedness) | 手征性 | The weak force couples only to left-handed fermions. |
 
 ---
 

@@ -10,7 +10,7 @@ so you always see *what* a concept is, *how* it works on a concrete example, and
 is used later. Modules marked ⭐ are load-bearing for what follows; ⭐⭐ are pivotal.
 
 The curriculum is organized into **9 phases**, each a directory; each **module** is its own
-file. There are **76 modules** in total.
+file. There are **81 modules** in total.
 
 ---
 
@@ -117,11 +117,13 @@ From heat engines to quantum statistics.
 | 2.5 | [Quantum Statistics](./phase-2-thermodynamics-statistical-mechanics/module-2.5-quantum-statistics.md) | ⭐ |
 | 2.6 | [Quantum Gases & Applications](./phase-2-thermodynamics-statistical-mechanics/module-2.6-quantum-gases-applications.md) | |
 | 2.7 | [Kinetic Theory & Transport](./phase-2-thermodynamics-statistical-mechanics/module-2.7-kinetic-theory-and-transport.md) | |
+| 2.8 | [Brownian Motion & the Einstein Relation](./phase-2-thermodynamics-statistical-mechanics/module-2.8-brownian-motion-and-the-einstein-relation.md) | |
 
 ### [Phase 3 — Quantum Mechanics](./phase-3-quantum-mechanics/)
 The core of modern physics. Modules 3.1–3.12.
 | # | Module | |
 |---|--------|---|
+| 3.0 | [Old Quantum Theory & the Photoelectric Effect](./phase-3-quantum-mechanics/module-3.0-old-quantum-theory-and-photoelectric-effect.md) | |
 | 3.1 | [The Wave Function](./phase-3-quantum-mechanics/module-3.1-the-wave-function.md) | |
 | 3.2 | [Time-Independent Schrödinger Equation](./phase-3-quantum-mechanics/module-3.2-time-independent-schrodinger-equation.md) | ⭐ |
 | 3.3 | [Formalism](./phase-3-quantum-mechanics/module-3.3-formalism.md) | ⭐ |
@@ -134,6 +136,7 @@ The core of modern physics. Modules 3.1–3.12.
 | 3.10 | [Quantum Dynamics](./phase-3-quantum-mechanics/module-3.10-quantum-dynamics.md) | ⭐ |
 | 3.11 | [Angular Momentum, Advanced](./phase-3-quantum-mechanics/module-3.11-angular-momentum-advanced.md) | ⭐ |
 | 3.12 | [Symmetry, Identical Particles & Second Quantization](./phase-3-quantum-mechanics/module-3.12-second-quantization.md) | ⭐⭐ |
+| 3.13 | [Entanglement, EPR & Bell's Theorem](./phase-3-quantum-mechanics/module-3.13-entanglement-epr-and-bell.md) | ⭐ |
 
 ### [Phase 4 — Condensed Matter / Solid State](./phase-4-condensed-matter/)
 Electrons and phonons in a crystal. Modules 4.1–4.5.
@@ -169,6 +172,7 @@ The modern research toolkit; the shared language of condensed matter and particl
 | 6.4 | [Path Integrals & Field Theory](./phase-6-quantum-field-theory/module-6.4-path-integrals.md) | ⭐ |
 | 6.5 | [Canonical Quantization of Fields](./phase-6-quantum-field-theory/module-6.5-canonical-quantization.md) | ⭐ |
 | 6.6 | [Renormalization & the Renormalization Group](./phase-6-quantum-field-theory/module-6.6-renormalization.md) | ⭐⭐ |
+| 6.7 | [Exactly Solvable Models & Long-Range Order](./phase-6-quantum-field-theory/module-6.7-exactly-solvable-models-and-long-range-order.md) | |
 
 ### [Phase 7 — General Relativity & Cosmology](./phase-7-general-relativity-and-cosmology/)
 Gravity as the geometry of spacetime.
@@ -191,6 +195,7 @@ The quantum field theory of the fundamental particles and forces.
 | 8.4 | [Electroweak Theory & the Higgs](./phase-8-particle-physics-and-standard-model/module-8.4-electroweak-theory-and-higgs.md) | ⭐⭐ |
 | 8.5 | [The Standard Model & Beyond](./phase-8-particle-physics-and-standard-model/module-8.5-standard-model-and-beyond.md) | |
 | 8.6 | [Particle Physics & Cosmology](./phase-8-particle-physics-and-standard-model/module-8.6-particle-physics-and-cosmology.md) | |
+| 8.7 | [Parity Violation & the Weak Interaction (Lee–Yang)](./phase-8-particle-physics-and-standard-model/module-8.7-parity-violation-and-the-weak-interaction.md) | |
 
 ---
 

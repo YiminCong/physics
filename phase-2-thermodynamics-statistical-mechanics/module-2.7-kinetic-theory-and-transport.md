@@ -31,4 +31,4 @@
 
 ---
 
-← Previous: [Module 2.6 — Quantum Gases & Applications](./module-2.6-quantum-gases-applications.md) · [Phase 2 index](./README.md)
+← Previous: [Module 2.6 — Quantum Gases & Applications](./module-2.6-quantum-gases-applications.md) · [Phase 2 index](./README.md) · Next: [Module 2.8 — Brownian Motion & the Einstein Relation](./module-2.8-brownian-motion-and-the-einstein-relation.md) →

@@ -8,6 +8,7 @@ and superconductivity (Phase 5).
 
 | # | Title | |
 |---|-------|---|
+| 3.0 | [Old Quantum Theory & the Photoelectric Effect](./module-3.0-old-quantum-theory-and-photoelectric-effect.md) | historical prelude |
 | 3.1 | [The Wave Function](./module-3.1-the-wave-function.md) | |
 | 3.2 | [Time-Independent Schrödinger Equation](./module-3.2-time-independent-schrodinger-equation.md) | ⭐ |
 | 3.3 | [Formalism](./module-3.3-formalism.md) | ⭐ |
@@ -20,6 +21,7 @@ and superconductivity (Phase 5).
 | 3.10 | [Quantum Dynamics](./module-3.10-quantum-dynamics.md) | ⭐ |
 | 3.11 | [Angular Momentum, Advanced](./module-3.11-angular-momentum-advanced.md) | ⭐ |
 | 3.12 | [Symmetry, Identical Particles & Second Quantization](./module-3.12-second-quantization.md) | ⭐⭐ |
+| 3.13 | [Entanglement, EPR & Bell's Theorem](./module-3.13-entanglement-epr-and-bell.md) | ⭐ |
 
 ## Phase 3 Checkpoint (blank page)
 

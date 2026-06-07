@@ -22,6 +22,7 @@ Phase 8 develops the quantum field theory of the fundamental particles and force
 | [8.4](./module-8.4-electroweak-theory-and-higgs.md) | Electroweak Theory & the Higgs | ⭐⭐ |
 | [8.5](./module-8.5-standard-model-and-beyond.md) | The Standard Model & Beyond | |
 | [8.6](./module-8.6-particle-physics-and-cosmology.md) | Particle Physics & Cosmology | |
+| [8.7](./module-8.7-parity-violation-and-the-weak-interaction.md) | Parity Violation & the Weak Interaction (Lee–Yang) | |
 
 ---
 

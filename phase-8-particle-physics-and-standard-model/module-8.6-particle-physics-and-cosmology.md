@@ -32,4 +32,4 @@
 
 ---
 
-← Previous: [Module 8.5 — The Standard Model & Beyond](./module-8.5-standard-model-and-beyond.md) · [Phase 8 index](./README.md)
+← Previous: [Module 8.5 — The Standard Model & Beyond](./module-8.5-standard-model-and-beyond.md) · [Phase 8 index](./README.md) · Next: [Module 8.7 — Parity Violation & the Weak Interaction (Lee–Yang)](./module-8.7-parity-violation-and-the-weak-interaction.md) →

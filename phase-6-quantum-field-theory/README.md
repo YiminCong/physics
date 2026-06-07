@@ -19,6 +19,7 @@ This phase delivers the research-level toolkit that underpins both modern conden
 | [6.4](./module-6.4-path-integrals.md) | Path Integrals & Field Theory | ⭐ |
 | [6.5](./module-6.5-canonical-quantization.md) | Canonical Quantization of Fields | ⭐ |
 | [6.6](./module-6.6-renormalization.md) | Renormalization & the Renormalization Group | ⭐⭐ |
+| [6.7](./module-6.7-exactly-solvable-models-and-long-range-order.md) | Exactly Solvable Models & Long-Range Order | |
 
 ## Further Reading
 

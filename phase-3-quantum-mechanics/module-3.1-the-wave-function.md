@@ -18,4 +18,4 @@
 
 ---
 
-← *Phase 3 index: [Quantum Mechanics](./README.md)* · Next: [Module 3.2 — Time-Independent Schrödinger Equation](./module-3.2-time-independent-schrodinger-equation.md) →
+← Previous: [Module 3.0 — Old Quantum Theory & the Photoelectric Effect](./module-3.0-old-quantum-theory-and-photoelectric-effect.md) · [Phase 3 index](./README.md) · Next: [Module 3.2 — Time-Independent Schrödinger Equation](./module-3.2-time-independent-schrodinger-equation.md) →

@@ -19,6 +19,7 @@ This phase builds the two pillars that support all subsequent condensed-matter a
 | [2.5](./module-2.5-quantum-statistics.md) | Quantum Statistics | ⭐ |
 | [2.6](./module-2.6-quantum-gases-applications.md) | Quantum Gases & Applications | |
 | [2.7](./module-2.7-kinetic-theory-and-transport.md) | Kinetic Theory & Transport | |
+| [2.8](./module-2.8-brownian-motion-and-the-einstein-relation.md) | Brownian Motion & the Einstein Relation | |
 
 ## Phase 2 Checkpoint (blank page)
 
