@@ -21,6 +21,7 @@ file. There are **76 modules** in total.
 - Each phase folder has a **README** with the phase's modules, its **prerequisites**, and a
   **blank-page checkpoint** (self-test). Pass the checkpoint before moving on.
 - Each module ends with **prev / next navigation** so you can read a phase straight through.
+- Keep the **[bilingual glossary (English ｜ 中文)](./GLOSSARY.md)** open as you read — it lists the key terminology of every phase with Chinese equivalents and short definitions.
 - **Re-derive the ⭐ results by hand** — that's where real understanding comes from.
 
 ---
