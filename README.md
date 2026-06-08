@@ -28,6 +28,10 @@ file. There are **106 modules** in total.
 - Each phase folder has a **README** with the phase's modules, its **prerequisites**, and a
   **blank-page checkpoint** (self-test). Pass the checkpoint before moving on.
 - Each module ends with **prev / next navigation** so you can read a phase straight through.
+- Every `*-derivations.md` companion file that has been reviewed carries a green-check
+  **✅ Verified** badge near the top. See **[VERIFICATION.md](./VERIFICATION.md)** for the full
+  status index and a one-liner that lists only the files changed since they were last verified
+  (so re-verification can skip everything still marked ✅).
 - Keep the **[bilingual glossary (English ｜ 中文)](./GLOSSARY.md)** open as you read — it lists the key terminology of every phase with Chinese equivalents and short definitions.
 - See **[`ROADMAP-THOOFT.md`](./ROADMAP-THOOFT.md)** for how this curriculum maps onto Nobel laureate Gerard 't Hooft's *How to become a GOOD Theoretical Physicist*.
 - **Re-derive the ⭐ results by hand** — that's where real understanding comes from.

@@ -1,6 +1,9 @@
 # Derivations — Module 0.4: Complex Analysis
 # 推导 — 模块 0.4：复分析
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 0.4](./module-0.4-complex-analysis.md). Full step-by-step proofs of every non-trivial result stated there: Euler's formula from the Taylor series; the Cauchy–Riemann equations as necessary conditions for analyticity; the residue theorem for a simple pole, including the key integral ∮dz/(z−z₀) = 2πi; and evaluation of a real integral by residues. English first, then 中文.
 > [模块 0.4](./module-0.4-complex-analysis.md) 的配套文档：对该模块所引用的每一个非平凡结果进行完整逐步证明：从泰勒级数推导欧拉公式；柯西–黎曼方程是解析性的必要条件；简单极点的留数定理（包括关键积分 ∮dz/(z−z₀) = 2πi）；以及用留数定理计算实数积分。先英文，后中文。
 

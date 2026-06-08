@@ -1,6 +1,9 @@
 # Derivations — Module 2.1: The Laws of Thermodynamics
 # 推导 — 模块 2.1：热力学定律
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 2.1](./module-2.1-laws-of-thermodynamics.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 2.1](./module-2.1-laws-of-thermodynamics.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
 

@@ -1,6 +1,9 @@
 # Derivations — Module 3.9: Fundamental Concepts (Sakurai)
 # 推导 — 模块 3.9：基本概念（樱井）
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 3.9](./module-3.9-fundamental-concepts.md). Full step-by-step proofs of the spin-½ measurement probabilities, the S_z/S_x basis change, the momentum eigenfunction ⟨x|p⟩, and the Fourier-transform connection between position and momentum representations. English first, then 中文.
 > [模块 3.9](./module-3.9-fundamental-concepts.md) 的配套文档：自旋-½ 测量概率、S_z/S_x 基变换、动量本征函数 ⟨x|p⟩、以及位置与动量表象之间傅里叶变换关系的完整逐步证明。先英文，后中文。
 

@@ -1,6 +1,9 @@
 # Derivations — Module 8.9: Deep Inelastic Scattering & Partons
 # 推导 — 模块 8.9：深度非弹性散射与部分子
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 8.9](./module-8.9-deep-inelastic-scattering-and-partons.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 8.9](./module-8.9-deep-inelastic-scattering-and-partons.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
 

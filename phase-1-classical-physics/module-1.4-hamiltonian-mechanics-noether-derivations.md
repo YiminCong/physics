@@ -1,6 +1,9 @@
 # Derivations — Module 1.4: Hamiltonian Mechanics & Noether's Theorem
 # 推导 — 模块 1.4：哈密顿力学与诺特定理
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 1.4](./module-1.4-hamiltonian-mechanics-noether.md). Full step-by-step proofs of every result quoted there. English first, then 中文.
 > [模块 1.4](./module-1.4-hamiltonian-mechanics-noether.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
 

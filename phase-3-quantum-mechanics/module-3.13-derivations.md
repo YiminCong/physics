@@ -1,6 +1,9 @@
 # Derivations — Module 3.13: Entanglement, EPR & Bell's Theorem
 # 推导 — 模块 3.13：纠缠、EPR 与贝尔定理
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 3.13](./module-3.13-entanglement-epr-and-bell.md). Full step-by-step proofs that the singlet is rotationally invariant and not a product state; derivation of the spin correlation E(a,b) = −cos θ_{ab}; derivation of the CHSH inequality |S| ≤ 2 for local hidden variables; and proof that quantum mechanics gives the Tsirelson bound |S| = 2√2. English first, then 中文.
 > [模块 3.13](./module-3.13-entanglement-epr-and-bell.md) 的配套文档：单态是转动不变且非直积态的完整证明；自旋关联 E(a,b) = −cos θ_{ab} 的推导；局域隐变量的 CHSH 不等式 |S| ≤ 2 的推导；以及量子力学给出齐列尔逊界 |S| = 2√2 的证明。先英文，后中文。
 
