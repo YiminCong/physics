@@ -102,4 +102,4 @@ where α = e²/(4πε₀ℏc) ≈ 1/137 is the fine-structure constant and j is 
 
 ---
 
-← Previous: [Module 3.14 — Density Matrix & Open Quantum Systems](./module-3.14-density-matrix-and-open-quantum-systems.md) · [Phase 3 index](./README.md)
+← Previous: [Module 3.14 — Density Matrix & Open Quantum Systems](./module-3.14-density-matrix-and-open-quantum-systems.md) · [Phase 3 index](./README.md) · Next: [Module 3.16 — Quantum Computation & Information](./module-3.16-quantum-computation-and-information.md) →
