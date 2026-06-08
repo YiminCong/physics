@@ -1,11 +1,11 @@
 # Phase 3 — Quantum Mechanics (the core)
 **第 3 阶段 — 量子力学（核心）**
 
-Modules 3.0–3.15, in **Definition → Demonstration → Application** format. This phase is
+Modules 3.0–3.17, in **Definition → Demonstration → Application** format. This phase is
 the core of the curriculum; the ⭐ modules are load-bearing for condensed matter (Phase 4)
 and superconductivity (Phase 5).
 
-模块 3.0–3.15，采用**定义 → 演示 → 应用**格式。本阶段是课程的核心；⭐ 模块是凝聚态物理（第 4 阶段）和超导性（第 5 阶段）的重要基础。
+模块 3.0–3.17，采用**定义 → 演示 → 应用**格式。本阶段是课程的核心；⭐ 模块是凝聚态物理（第 4 阶段）和超导性（第 5 阶段）的重要基础。
 
 ## Modules · 模块
 
@@ -27,6 +27,8 @@ and superconductivity (Phase 5).
 | 3.13 | [Entanglement, EPR & Bell's Theorem](./module-3.13-entanglement-epr-and-bell.md) · 纠缠、EPR 与贝尔定理 | ⭐ |
 | 3.14 | [Density Matrix & Open Quantum Systems](./module-3.14-density-matrix-and-open-quantum-systems.md) · 密度矩阵与开放量子系统 | ⭐ |
 | 3.15 | [Relativistic Quantum Mechanics](./module-3.15-relativistic-quantum-mechanics.md) · 相对论量子力学 | ⭐ |
+| 3.16 | [Quantum Computation & Information](./module-3.16-quantum-computation-and-information.md) · [量子计算与量子信息](./module-3.16-quantum-computation-and-information.md) | |
+| 3.17 | [Quantum Algorithms & Error Correction](./module-3.17-quantum-algorithms-and-error-correction.md) · [量子算法与量子纠错](./module-3.17-quantum-algorithms-and-error-correction.md) | |
 
 ## Phase 3 Checkpoint (blank page)
 
@@ -43,6 +45,8 @@ and superconductivity (Phase 5).
 11. Write the density operator for a pure state and for a classical mixture; state the criterion Tr ρ² = 1 for purity; compute the reduced density matrix of a Bell state and its von Neumann entropy.
 12. Write the Lindblad master equation, identify the dissipator, and solve for the dephasing time T₂ of a qubit.
 13. Write the Dirac equation in covariant notation; state the Clifford algebra {γ^μ,γ^ν} = 2g^{μν}; derive g = 2 and the spin–orbit coupling from the non-relativistic limit.
+14. Write a general qubit state on the Bloch sphere; apply H, X, Z, and CNOT; prove the no-cloning theorem from linearity; trace through the teleportation circuit and state Bob's four corrections.
+15. Describe the Deutsch–Jozsa circuit and explain why one query suffices; give the Grover iteration count for N items; state how the QFT enables Shor's period-finding; sketch the BB84 protocol and the eavesdropper detection mechanism; encode a qubit in the 3-qubit bit-flip code, measure the syndrome, and correct the error.
 
 **第 3 阶段检查点（空白页）**
 
@@ -59,6 +63,8 @@ and superconductivity (Phase 5).
 11. 写出纯态和经典混合态的密度算符；陈述 Tr ρ² = 1 的纯度判据；计算贝尔态的约化密度矩阵及其冯·诺依曼熵。
 12. 写出 Lindblad 主方程，指明耗散子，并求解量子比特的退相位时间 T₂。
 13. 用协变符号写出狄拉克方程；陈述 Clifford 代数 {γ^μ,γ^ν} = 2g^{μν}；从非相对论极限推导 g = 2 和自旋–轨道耦合。
+14. 在布洛赫球上写出一般量子比特态；施加 H、X、Z 和 CNOT；由线性性证明不可克隆定理；逐步追踪隐形传态电路，陈述 Bob 的四种修正。
+15. 描述 Deutsch–Jozsa 电路并解释为何一次查询就足够；给出 N 个项的 Grover 迭代次数；陈述 QFT 如何支撑 Shor 的周期求解；概述 BB84 协议及窃听者检测机制；将量子比特编码进 3 量子比特比特翻转码，测量症状并纠正错误。
 
 When 3.2, 3.5, 3.11, and 3.12 feel automatic, you're ready for
 **[Phase 4 — Condensed Matter / Solid State](../phase-4-condensed-matter/)**.

@@ -31,6 +31,7 @@ Phase 8 develops the quantum field theory of the fundamental particles and force
 | [8.7](./module-8.7-parity-violation-and-the-weak-interaction.md) | Parity Violation & the Weak Interaction (Lee–Yang) · 宇称不守恒与弱相互作用（李–杨） | |
 | [8.8](./module-8.8-quark-model-and-hadron-spectroscopy.md) | The Quark Model & Hadron Spectroscopy · 夸克模型与强子谱学 | |
 | [8.9](./module-8.9-deep-inelastic-scattering-and-partons.md) | Deep Inelastic Scattering & Partons · 深度非弹性散射与部分子 | |
+| [8.10](./module-8.10-neutrino-physics-and-experiment.md) | Neutrino Physics & Experimental Particle Physics · 中微子物理与实验粒子物理 | |
 
 ---
 
@@ -50,6 +51,10 @@ The single most elegant conceptual thread in the curriculum runs from Phase 2 th
 4. What are the three Sakharov conditions? Does the Standard Model satisfy them? If so, why is additional baryogenesis physics required?
 5. What is the hierarchy problem, and how does supersymmetry address it? What does the absence of LHC superpartner signals up to ∼ 2 TeV imply?
 6. Sketch how the three Standard Model gauge couplings run with energy. What happens at ∼ 10^{16} GeV in a supersymmetric extension, and why is this significant?
+7. State the two-flavor neutrino oscillation probability P(ν_α → ν_β) and identify each factor. What does the L/E dependence tell us, and what is the oscillation length? How did SNO resolve the solar neutrino problem?
+8. What is the MSW effect and what is the resonance condition? Explain how it drives near-complete νₑ conversion inside the Sun despite a relatively small vacuum mixing angle. What is the difference between Dirac and Majorana neutrinos, and how does neutrinoless double-beta decay distinguish them?
+9. Define integrated luminosity and derive the event-rate relation N = L_int · σ. For a process with σ = 10 pb and L_int = 30 fb⁻¹, how many events are produced? List the three main detector subsystems of a multipurpose collider detector and state what each measures.
+10. Explain invariant-mass reconstruction: write down M²_inv for a two-body decay X → 1 + 2, and explain why a Breit–Wigner peak at M_X appears in the M_inv spectrum. Apply this to the discovery of the Higgs at the LHC in the γγ channel.
 
 **自测（空白页）**
 
@@ -59,6 +64,10 @@ The single most elegant conceptual thread in the curriculum runs from Phase 2 th
 4. 萨哈罗夫的三个条件是什么？标准模型满足这些条件吗？若满足，为何还需要额外的重子生成物理？
 5. 等级问题是什么，超对称如何解决它？大型强子对撞机未能在 ∼ 2 TeV 以下发现超对称伴子意味着什么？
 6. 描绘标准模型三个规范耦合常数随能量的跑动情况。在超对称扩展中，∼ 10^{16} GeV 处发生了什么，这为何具有重要意义？
+7. 写出两味中微子振荡概率 P(ν_α → ν_β) 并解释每个因子。L/E 依赖性告诉我们什么，振荡长度是多少？SNO 如何解决了太阳中微子问题？
+8. MSW 效应是什么，共振条件是什么？解释尽管真空混合角相对较小，它如何驱动太阳内部近乎完全的 νₑ 转换。狄拉克中微子与马约拉纳中微子有何区别，无中微子双 β 衰变如何区分二者？
+9. 定义积分亮度并推导事例率关系 N = L_int · σ。对于截面 σ = 10 pb 和 L_int = 30 fb⁻¹ 的过程，产生多少事例？列举多用途对撞机探测器的三个主要子系统，并说明每个子系统测量什么。
+10. 解释不变质量重建：写出两体衰变 X → 1 + 2 的 M²_inv，并解释为何 M_inv 谱中在 M_X 处出现布莱特–维格纳峰。将此应用于 LHC 在 γγ 道发现希格斯玻色子的情形。
 
 ---
 

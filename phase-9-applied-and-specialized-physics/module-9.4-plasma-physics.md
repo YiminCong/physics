@@ -180,4 +180,4 @@ The **frozen-in flux theorem**: in ideal MHD, magnetic field lines are "frozen i
 
 ---
 
-← Previous: [Module 9.3 — Nuclear Physics](./module-9.3-nuclear-physics.md) · [Phase 9 index](./README.md)
+← Previous: [Module 9.3 — Nuclear Physics](./module-9.3-nuclear-physics.md) · [Phase 9 index](./README.md) · Next: [Module 9.5 — Nuclear Reactions & Astrophysics](./module-9.5-nuclear-reactions-and-astrophysics.md) →

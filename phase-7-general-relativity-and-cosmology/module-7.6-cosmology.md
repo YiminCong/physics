@@ -102,4 +102,4 @@ The Friedmann equation with Ω_m + Ω_Λ = 1 predicts deceleration (ä < 0) for 
 
 ---
 
-← Previous: [Module 7.5 — Black Holes & Gravitational Waves](./module-7.5-black-holes-and-gravitational-waves.md) · [Phase 7 index](./README.md)
+← Previous: [Module 7.5 — Black Holes & Gravitational Waves](./module-7.5-black-holes-and-gravitational-waves.md) · [Phase 7 index](./README.md) · Next: [Module 7.7 — Tests of GR & Gravitational-Wave Astronomy](./module-7.7-tests-of-gr-and-gravitational-wave-astronomy.md) →

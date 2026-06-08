@@ -46,4 +46,4 @@
 
 ---
 
-← Previous: [Module 8.8 — The Quark Model & Hadron Spectroscopy](./module-8.8-quark-model-and-hadron-spectroscopy.md) · [Phase 8 index](./README.md)
+← Previous: [Module 8.8 — The Quark Model & Hadron Spectroscopy](./module-8.8-quark-model-and-hadron-spectroscopy.md) · [Phase 8 index](./README.md) · Next: [Module 8.10 — Neutrino Physics & Experimental Particle Physics](./module-8.10-neutrino-physics-and-experiment.md) →

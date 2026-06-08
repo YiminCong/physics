@@ -24,6 +24,8 @@ General Relativity reframes gravity not as a force but as the curvature of space
 | [7.4](./module-7.4-einsteins-field-equations.md) | Einstein's Field Equations · 爱因斯坦场方程 | ⭐⭐ |
 | [7.5](./module-7.5-black-holes-and-gravitational-waves.md) | Black Holes & Gravitational Waves · 黑洞与引力波 | ⭐ |
 | [7.6](./module-7.6-cosmology.md) | Cosmology · 宇宙学 | |
+| [7.7](./module-7.7-tests-of-gr-and-gravitational-wave-astronomy.md) | Tests of GR & Gravitational-Wave Astronomy · 广义相对论的检验与引力波天文学 | ⭐ |
+| [7.8](./module-7.8-global-structure-and-singularity-theorems.md) | Global Structure & Singularity Theorems · 整体结构与奇点定理 | ⭐⭐ |
 
 ## Phase 7 Checkpoint (blank page)
 
@@ -33,6 +35,10 @@ General Relativity reframes gravity not as a force but as the curvature of space
 4. Write down Einstein's field equations with cosmological constant. Identify every tensor. Explain why ∇μ Tμν = 0 follows automatically, and what this means physically.
 5. What is the Schwarzschild radius? Describe what happens — physically and mathematically — at r = r_s and at r = 0 for the Schwarzschild solution. How does the Kerr metric differ?
 6. Write down the FLRW metric and the two Friedmann equations. What energy components drive the current accelerated expansion? What observational evidence establishes the existence of dark matter and dark energy?
+7. State the four classical tests of GR (perihelion precession, light deflection, gravitational redshift, Shapiro delay) and give the key numerical prediction for each. What is the Lense–Thirring effect and how was it measured?
+8. Define the chirp mass Mc and show how it is extracted from the GW frequency evolution df/dt. Describe the multi-messenger significance of GW170817.
+9. Define a trapped surface and state the three hypotheses of the Penrose singularity theorem. How does the Raychaudhuri equation force focusing?
+10. Explain why the Schwarzschild singularity at r = 2GM/c² is a coordinate singularity while r = 0 is a genuine one. Describe the four regions of the Kruskal extension.
 
 **自测（空白页）**
 
@@ -42,6 +48,10 @@ General Relativity reframes gravity not as a force but as the curvature of space
 4. 写出含宇宙学常数的爱因斯坦场方程，标明每个张量，解释为何 ∇μ Tμν = 0 自动成立，以及其物理意义。
 5. 史瓦西半径是什么？描述史瓦西解在 r = r_s 和 r = 0 处的物理与数学行为。克尔度规有何不同？
 6. 写出 FLRW 度规和两个弗里德曼方程。哪些能量成分驱动当前的加速膨胀？哪些观测证据确立了暗物质和暗能量的存在？
+7. 陈述广义相对论的四个经典检验（近日点进动、光线偏折、引力红移、夏皮罗延迟），并给出每个检验的关键数值预测。楞次–蒂林效应是什么，如何测量？
+8. 定义啁啾质量 Mc，并说明如何从引力波频率演化 df/dt 中提取它。描述 GW170817 多信使观测的意义。
+9. 定义囚禁面，陈述彭罗斯奇点定理的三个假设。雷乔杜里方程如何迫使测地线聚焦？
+10. 解释为何史瓦西解在 r = 2GM/c² 处的奇点是坐标奇点，而 r = 0 处的是真实奇点。描述克鲁斯卡尔延拓的四个区域。
 
 ---
 
