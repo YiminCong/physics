@@ -310,17 +310,17 @@ Since K₀ > 0 always, the interaction is **repulsive** for same-sign vortices. 
 
   β_A = ⟨|Ψ|⁴⟩ / ⟨|Ψ|²⟩²,
 
-which equals 1.18 for the triangular lattice and 1.16 for the square lattice (the triangular lattice wins). The free energy near H_c2 is
+which equals ≈ 1.1596 for the triangular lattice and ≈ 1.1803 for the square lattice. The free energy near H_c2 is
 
   F = F_n − α²/(2β β_A),
 
-where α and β are GL coefficients, confirming the mixed state is thermodynamically favorable.
+where α and β are GL coefficients, confirming the mixed state is thermodynamically favorable. Since F is minimized by the **smallest** β_A, the triangular lattice (1.1596 < 1.1803) is the ground state.
 
 **第 2 步 — 格子能量最小化。** 每单位面积有 n_v = B/Φ₀ 个涡旋（携带外加磁通 B），三角格子的格间距 a 满足 n_v · (√3/2) a² = 1，给出 a = (2/√3)^{1/2} (Φ₀/B)^{1/2}。每单位体积的总自由能包括涡旋自能之和加上所有对相互作用能。对格子几何结构（比较三角、方形及其他布拉维格子）做最小化，显示三角格子能量最低。阿布里科索夫定义参数
 
   β_A = ⟨|Ψ|⁴⟩ / ⟨|Ψ|²⟩²，
 
-三角格子 β_A = 1.18，方格子 β_A = 1.16（三角格子胜出）。H_c2 附近的自由能为
+三角格子 β_A ≈ 1.1596，方格子 β_A ≈ 1.1803（F 由最小的 β_A 极小化，故三角格子胜出）。H_c2 附近的自由能为
 
   F = F_n − α²/(2β β_A)，
 
