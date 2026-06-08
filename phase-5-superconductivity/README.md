@@ -21,6 +21,8 @@ second quantization and singlet pairing (3.11–3.12), and the complex phase (0.
 | 5.7 | [Type II Superconductors & Vortices · II 型超导体与涡旋](./module-5.7-type-ii-superconductors-and-vortices.md) | ⭐ |
 | 5.8 | [Josephson Effects · 约瑟夫森效应](./module-5.8-josephson-effects.md) | ⭐ |
 | 5.9 | [Unconventional & High-Tᶜ Superconductors · 非常规与高温超导体](./module-5.9-unconventional-and-high-tc-superconductors.md) | |
+| 5.10 | [Bogoliubov–de Gennes & Andreev Reflection · BdG 方程与安德烈夫反射](./module-5.10-bogoliubov-de-gennes-and-andreev-reflection.md) | |
+| 5.11 | [Topological Superconductivity & Majorana Modes · 拓扑超导与马约拉纳模](./module-5.11-topological-superconductivity-and-majorana.md) | |
 | → | [Phase 6 — Quantum Field Theory & Many-Body Physics](../phase-6-quantum-field-theory/README.md) | research toolkit |
 
 ## Phase 5 Checkpoint (blank page)
@@ -34,6 +36,8 @@ second quantization and singlet pairing (3.11–3.12), and the complex phase (0.
 7. Describe the vortex (mixed) state and why flux pinning enables high currents.
 8. State the DC and AC Josephson relations and how a SQUID works.
 9. Explain why high-T_c cuprates resist a simple BCS (phonon, s-wave) description.
+10. Write down the BdG Hamiltonian in Nambu space, state the self-consistency condition on Δ(r), and explain Andreev reflection and retro-reflection at a clean N–S interface.
+11. Define a Majorana fermion operator; state the topological criterion for the Kitaev chain; and explain why non-Abelian braiding enables fault-tolerant quantum computation.
 
 **自测（空白页）**
 
@@ -46,6 +50,8 @@ second quantization and singlet pairing (3.11–3.12), and the complex phase (0.
 7. 描述涡旋（混合）态，以及为何磁通钉扎能使高电流成为可能。
 8. 陈述直流和交流约瑟夫森关系，以及 SQUID 的工作原理。
 9. 解释为何高温铜氧化物超导体难以用简单的 BCS（声子、s 波）描述。
+10. 写出 Nambu 空间中的 BdG 哈密顿量，陈述 Δ(r) 的自洽条件，并解释洁净 N–S 界面处的安德烈夫反射与逆反射。
+11. 定义马约拉纳费米子算符；陈述基塔耶夫链的拓扑判据；并解释为何非阿贝尔编织能够实现容错量子计算。
 
 When these are automatic, continue to the optional
 **[Phase 6 — Quantum Field Theory & Many-Body Physics](../phase-6-quantum-field-theory/README.md)** for the research-level toolkit.
