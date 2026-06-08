@@ -24,4 +24,4 @@
 
 ---
 
-← Previous: [Module 5.8 — Josephson Effects](./module-5.8-josephson-effects.md) · [Phase 5 index](./README.md) · Next: [Phase 6 — Quantum Field Theory & Many-Body Physics](../phase-6-quantum-field-theory/README.md) →
+← Previous: [Module 5.8 — Josephson Effects](./module-5.8-josephson-effects.md) · [Phase 5 index](./README.md) · Next: [Module 5.10 — Bogoliubov–de Gennes & Andreev Reflection](./module-5.10-bogoliubov-de-gennes-and-andreev-reflection.md) →

@@ -30,4 +30,4 @@
 
 ---
 
-← Previous: [Module 4.4 — Electrons in a Periodic Potential](./module-4.4-electrons-in-a-periodic-potential.md) · *Phase 4 index: [Condensed Matter](./README.md)*
+← Previous: [Module 4.4 — Electrons in a Periodic Potential](./module-4.4-electrons-in-a-periodic-potential.md) · [Phase 4 index](./README.md) · Next: [Module 4.6 — Magnetism & Spin Waves](./module-4.6-magnetism-and-spin-waves.md) →

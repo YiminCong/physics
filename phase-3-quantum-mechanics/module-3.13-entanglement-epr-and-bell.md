@@ -50,4 +50,4 @@
 
 ---
 
-← Previous: [Module 3.12 — Symmetry, Identical Particles & Second Quantization](./module-3.12-second-quantization.md) · [Phase 3 index](./README.md)
+← Previous: [Module 3.12 — Symmetry, Identical Particles & Second Quantization](./module-3.12-second-quantization.md) · [Phase 3 index](./README.md) · Next: [Module 3.14 — Density Matrix & Open Quantum Systems](./module-3.14-density-matrix-and-open-quantum-systems.md) →
