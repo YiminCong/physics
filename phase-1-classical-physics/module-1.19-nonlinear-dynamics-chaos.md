@@ -3,6 +3,8 @@
 
 > **Phase 1 — [Classical Physics](./README.md)** · Format: Definition → Demonstration → Application
 > **第 1 阶段 — 经典物理 · 格式：定义 → 演示 → 应用**
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-1.19-nonlinear-dynamics-chaos-derivations.md)
 
 ---
 
