@@ -113,9 +113,9 @@ Minima: cos²(πd sin θ/λ) = 0, i.e. πd sin θ/λ = (m + ½)π:
 
 ## C. Single-Slit Diffraction as the Fourier Transform of the Aperture · 单缝衍射作为孔径的傅里叶变换
 
-**Claim.** The far-field (Fraunhofer) diffraction amplitude from a slit of width a is proportional to the Fourier transform of the aperture function, giving intensity I(θ) = I₀ sinc²(πa sin θ/λ).
+**Claim.** The far-field (Fraunhofer) diffraction amplitude from a slit of width a is proportional to the Fourier transform of the aperture function, giving intensity I(θ) = I₀ sinc²(a sin θ/λ).
 
-**命题。** 宽度为 a 的缝的远场（夫琅禾费）衍射振幅正比于孔径函数的傅里叶变换，给出强度 I(θ) = I₀ sinc²(πa sin θ/λ)。
+**命题。** 宽度为 a 的缝的远场（夫琅禾费）衍射振幅正比于孔径函数的傅里叶变换，给出强度 I(θ) = I₀ sinc²(a sin θ/λ)。
 
 **Step 1 — Huygens-Fresnel integral.** By Huygens' principle, each infinitesimal element dy′ of the slit at position y′ ∈ [−a/2, +a/2] acts as a secondary source of wavelets. At a distant point P at angle θ, the path from position y′ is longer (or shorter) by y′ sin θ compared with the path from the centre (y′ = 0). The total complex amplitude at P is the integral of these contributions:
 
@@ -152,7 +152,7 @@ Define β = πa sin θ/λ. Then E ∝ sin(β)/β and:
 
 定义 β = πa sin θ/λ。则 E ∝ sin(β)/β，且：
 
-  **I(θ) = I₀ (sin β / β)² = I₀ sinc²(πa sin θ / λ).** ∎
+  **I(θ) = I₀ (sin β / β)² = I₀ sinc²(a sin θ / λ),   sinc(u) = sin(πu)/(πu).** ∎
 
 **Step 4 — Features of the pattern.** Central maximum at θ = 0 (β → 0, sinc → 1). First zeros at β = ±π, i.e. sin θ = ±λ/a: the central maximum has half-angular width λ/a (full width 2λ/a). Secondary maxima at β ≈ ±3π/2, ±5π/2, … with intensities approximately I₀/(3π/2)² ≈ 0.045 I₀, I₀/(5π/2)² ≈ 0.016 I₀, … — progressively weaker, consistent with the spreading of Fourier components.
 

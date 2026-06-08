@@ -62,7 +62,7 @@ where ζ(3/2) ≈ 2.612, the normal states are saturated — they can hold no mo
 
 其中 ζ(3/2) ≈ 2.612，正常态饱和——不能再容纳更多玻色子——任何额外的粒子宏观地占据单一基态。在 T_BEC 以下，凝聚体分数为
 
-N_0/N = 1 − (T/T_BEC)³.
+N_0/N = 1 − (T/T_BEC)^{3/2}     (uniform 3D gas).
 
 The **Debye model** treats lattice vibrations (phonons) as a gas of bosons with μ = 0 (like photons, phonons are not conserved). The key modification over the Einstein model is a realistic linear dispersion ω ∝ k up to a cut-off frequency ω_D set by the condition that the total mode count equals 3N (three degrees of freedom per atom). The resulting heat capacity at low T is the **Debye T³ law**:
 

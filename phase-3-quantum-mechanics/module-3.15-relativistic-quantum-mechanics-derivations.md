@@ -126,9 +126,9 @@ This is a sum of squared moduli of the four spinor components — manifestly non
 
 ## C. Non-Relativistic Reduction: the Pauli Equation, g = 2, and Spin–Orbit Coupling · 非相对论约化：泡利方程、g = 2 与自旋–轨道耦合
 
-**Claim.** In the non-relativistic limit v ≪ c, the Dirac equation in an electromagnetic field reduces to the Pauli equation, yielding g = 2 and the spin–orbit coupling H_SO = (ℏ/2m²c²)(1/r)(dV/dr) S·L.
+**Claim.** In the non-relativistic limit v ≪ c, the Dirac equation in an electromagnetic field reduces to the Pauli equation, yielding g = 2 and the spin–orbit coupling H_SO = (1/2m²c²)(1/r)(dV/dr) S·L.
 
-**命题。** 在非相对论极限 v ≪ c 下，电磁场中的狄拉克方程约化为泡利方程，给出 g = 2 和自旋–轨道耦合 H_SO = (ℏ/2m²c²)(1/r)(dV/dr) S·L。
+**命题。** 在非相对论极限 v ≪ c 下，电磁场中的狄拉克方程约化为泡利方程，给出 g = 2 和自旋–轨道耦合 H_SO = (1/2m²c²)(1/r)(dV/dr) S·L。
 
 **Step 1 — Minimal coupling.** Replace ∂_μ → ∂_μ + (ie/ℏc) A_μ (SI: ∂_μ + (ie/ℏ) A_μ with A_μ = (φ/c, −A)). The Dirac equation becomes (iℏ γ^μ D_μ − mc)ψ = 0 with D_μ = ∂_μ − (ie/ℏ) A_μ.
 
@@ -189,13 +189,13 @@ The magnetic moment is **μ = (eℏ/2m) σ = (e/m) S**, where S = ℏσ/2. Compa
 
 **第 6 步 — 下一阶：自旋–轨道耦合（Foldy–Wouthuysen）。** 通过 Foldy–Wouthuysen 变换进行到 (v/c)² 阶，出现附加项。在中心势 V(r) 中，关键项为
 
-  H_SO = 1/(4m²c²) σ·(∇V × p).
+  H_SO = (ℏ/4m²c²) σ·(∇V × p).
 
 Using ∇V = (dV/dr)(r/r) and L = r×p so that (r/r)×p = L/r:
 
 利用 ∇V = (dV/dr)(r/r) 以及 L = r×p，故 (r/r)×p = L/r：
 
-  H_SO = (1/4m²c²)(1/r)(dV/dr) σ·L = (ℏ/2m²c²)(1/r)(dV/dr) S·L,
+  H_SO = (ℏ/4m²c²)(1/r)(dV/dr) σ·L = (1/2m²c²)(1/r)(dV/dr) S·L,
 
 where S = ℏσ/2. For the hydrogen potential V = −e²/(4πε₀r), (1/r)(dV/dr) = e²/(4πε₀r³), reproducing the standard spin–orbit coupling of Module 3.6. ∎
 

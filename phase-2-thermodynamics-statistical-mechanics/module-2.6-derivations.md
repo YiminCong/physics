@@ -229,9 +229,9 @@ This is the phase-space density condition: BEC occurs when the inter-particle sp
 
   **T_BEC = (2πℏ²/mk_B)(n/ζ(3/2))^{2/3}.** ∎
 
-Below T_BEC, the condensate fraction is N_0/N = 1 − (T/T_BEC)³, since N_ex ∝ T^{3/2} and N_ex(T_BEC) = N.
+Below T_BEC, the condensate fraction is N_0/N = 1 − (T/T_BEC)^{3/2}, since for a uniform 3D gas N_ex ∝ T^{3/2} and N_ex(T_BEC) = N. (A harmonic trap instead gives N_ex ∝ T³ and N_0/N = 1 − (T/T_c)³.)
 
-在 T_BEC 以下，凝聚体分数为 N_0/N = 1 − (T/T_BEC)³，因为 N_ex ∝ T^{3/2} 且 N_ex(T_BEC) = N。
+在 T_BEC 以下，凝聚体分数为 N_0/N = 1 − (T/T_BEC)^{3/2}，因为对均匀三维气体 N_ex ∝ T^{3/2} 且 N_ex(T_BEC) = N。（谐振子阱中则为 N_ex ∝ T³、N_0/N = 1 − (T/T_c)³。）
 
 ---
 
