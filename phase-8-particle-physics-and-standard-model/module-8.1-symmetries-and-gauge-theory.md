@@ -3,6 +3,8 @@
 
 > **Phase 8 — [Particle Physics & the Standard Model](./README.md)** · Format: Definition → Demonstration → Application
 > **第 8 阶段 — 粒子物理与标准模型 · 格式：定义 → 演示 → 应用**
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-8.1-derivations.md)
 
 ---
 

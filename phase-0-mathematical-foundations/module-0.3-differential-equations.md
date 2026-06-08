@@ -3,6 +3,8 @@
 
 > **Phase 0 — [Mathematical Foundations](./README.md)** · Format: Definition → Demonstration → Application
 > **第 0 阶段 — 数学基础** · 格式：定义 → 演示 → 应用
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-0.3-differential-equations-derivations.md)
 
 Physics is written in differential equations. The second-order linear ODE in particular
 is *the* equation you'll meet again and again — oscillators, waves, and the Schrödinger

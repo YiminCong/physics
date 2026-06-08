@@ -3,6 +3,8 @@
 
 > **Phase 2 — [Thermodynamics & Statistical Mechanics](./README.md)** · Format: Definition → Demonstration → Application
 > **第 2 阶段 — 热力学与统计力学 · 格式：定义 → 演示 → 应用**
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-2.7-derivations.md)
 
 ---
 

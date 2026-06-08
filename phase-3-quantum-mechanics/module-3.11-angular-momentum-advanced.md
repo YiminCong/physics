@@ -3,6 +3,8 @@
 
 > **Phase 3 — [Quantum Mechanics](./README.md)** · Format: Definition → Demonstration → Application
 > **第 3 阶段 — 量子力学 · 格式：定义 → 演示 → 应用**
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-3.11-derivations.md)
 
 ---
 

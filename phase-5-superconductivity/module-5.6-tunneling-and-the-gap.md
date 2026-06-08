@@ -3,6 +3,8 @@
 
 > **Phase 5 — [Superconductivity](./README.md)** · Format: Definition → Demonstration → Application
 > **第 5 阶段 — 超导 · 格式：定义 → 演示 → 应用**
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-5.6-tunneling-and-the-gap-derivations.md)
 
 ---
 

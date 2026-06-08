@@ -3,6 +3,8 @@
 
 > **Phase 7 — [General Relativity & Cosmology](./README.md)** · Format: Definition → Demonstration → Application
 > **第 7 阶段 — 广义相对论与宇宙学 · 格式：定义 → 演示 → 应用**
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-7.1-equivalence-principle-and-curved-spacetime-derivations.md)
 
 ---
 

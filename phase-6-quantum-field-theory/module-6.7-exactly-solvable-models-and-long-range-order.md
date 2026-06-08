@@ -3,6 +3,8 @@
 
 > **Phase 6 — [Quantum Field Theory & Many-Body Physics](./README.md)** · Format: Definition → Demonstration → Application
 > **第 6 阶段 — 量子场论与多体物理 · 格式：定义 → 演示 → 应用**
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-6.7-exactly-solvable-models-and-long-range-order-derivations.md)
 
 *A set of exact, rigorous results in many-body physics — several due to C. N. Yang — that anchor the approximate methods of the rest of this phase.*
 

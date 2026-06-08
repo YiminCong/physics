@@ -3,6 +3,8 @@
 
 > **Phase 0 — [Mathematical Foundations](./README.md)** · Format: Definition → Demonstration → Application
 > **第 0 阶段 — 数学基础** · 格式：定义 → 演示 → 应用
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-0.6-vector-calculus-tensors-and-differential-forms-derivations.md)
 
 Vector calculus is the native language of fields — electric, magnetic, gravitational. Tensors extend that language to curved spacetime, and differential forms give it a coordinate-free elegance that pays off in general relativity and advanced electrodynamics.
 

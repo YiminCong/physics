@@ -3,6 +3,8 @@
 
 > **Phase 4 — [Condensed Matter / Solid State](./README.md)** · Format: Definition → Demonstration → Application
 > **第 4 阶段 — 凝聚态 / 固体物理 · 格式：定义 → 演示 → 应用**
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-4.2-derivations.md)
 
 ---
 
