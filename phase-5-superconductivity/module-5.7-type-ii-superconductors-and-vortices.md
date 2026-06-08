@@ -22,6 +22,20 @@
 
 **应用。** 每一种实用高场超导磁体——**核磁共振扫描仪、聚变反应堆、粒子加速器**——都依赖于钉扎的 II 型超导体。金兹堡–朗道理论（5.3）预言了整个涡旋态。
 
+**Self-test (blank page)**
+
+1. State the two critical fields H_c1 and H_c2 of a type-II superconductor and describe what happens in each of the three regions (H < H_c1, H_c1 < H < H_c2, H > H_c2). How does this differ from a type-I superconductor?
+2. Each Abrikosov vortex carries exactly one flux quantum Φ₀ = h/2e. Using GL theory, explain why flux comes in units of Φ₀ rather than some other value, and why a vortex has a normal core of radius ~ξ surrounded by circulating supercurrent decaying over ~λ.
+3. Explain the concept of flux pinning. Why do vortices dissipate energy when they move, and how does pinning on defects allow a type-II superconductor to carry a large dissipation-free current even in a high applied field?
+4. Estimate H_c2 ~ Φ₀/(2πξ²) from the condition that vortex cores (each of area ~ξ²) begin to overlap. What does this imply for designing high-field magnets — should ξ be large or small?
+
+**自测（空白页）**
+
+1. 写出 II 型超导体的两个临界场 H_c1 和 H_c2，并描述三个区域（H < H_c1、H_c1 < H < H_c2、H > H_c2）各自发生什么。这与 I 型超导体有何不同？
+2. 每个阿布里科索夫涡旋携带恰好一个磁通量子 Φ₀ = h/2e。用 GL 理论解释为何磁通以 Φ₀ 为单位出现，以及为何涡旋有一个半径约为 ξ 的正常态核心，外围环流超电流在约 λ 的尺度上衰减。
+3. 解释磁通钉扎的概念。为何运动的涡旋会耗散能量？钉扎在缺陷上如何使 II 型超导体即便在高外加磁场中也能承载大的无耗散电流？
+4. 从涡旋核心（每个面积约为 ξ²）开始重叠的条件估算 H_c2 ~ Φ₀/(2πξ²)。这对设计高场磁体意味着什么——ξ 应该大还是小？
+
 ---
 
 ← Previous: [Module 5.6 — Tunneling & the Gap](./module-5.6-tunneling-and-the-gap.md) · [Phase 5 index](./README.md) · Next: [Module 5.8 — Josephson Effects](./module-5.8-josephson-effects.md) →

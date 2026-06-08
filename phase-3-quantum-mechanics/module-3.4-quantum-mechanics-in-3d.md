@@ -30,4 +30,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. State the eigenvalue equations for L̂² and L̂_z acting on the spherical harmonics Yₗᵐ(θ,φ). What are the allowed values of ℓ and m?
+2. Write the energy levels Eₙ of the hydrogen atom and identify the three quantum numbers (n, ℓ, m) and their allowed ranges.
+3. Describe spin-½: what are the eigenvalues of Ŝ_z, and how are spin states represented using Pauli matrices?
+
+**自测（空白页）**
+
+1. 写出 L̂² 和 L̂_z 作用于球谐函数 Yₗᵐ(θ,φ) 的本征值方程，ℓ 和 m 的允许取值是什么？
+2. 写出氢原子的能级 Eₙ，并说明三个量子数 (n, ℓ, m) 及其取值范围。
+3. 描述自旋-½：Ŝ_z 的本征值是什么？如何用泡利矩阵表示自旋态？
+
+---
+
 ← Previous: [Module 3.3 — Formalism](./module-3.3-formalism.md) · [Phase 3 index](./README.md) · Next: [Module 3.5 — Identical Particles](./module-3.5-identical-particles.md) →

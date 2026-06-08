@@ -40,6 +40,20 @@ and the famous universal ratio **2Δ(0) ≈ 3.5 k_B T_c**, plus a characteristic
 
 **应用。** 这是将整个课程贯穿起来的成就：它解释了零电阻、能隙、同位素效应和热力学——并使用了*每一个*关键模块（二次量子化、费米面、声子、自由能、单态配对）。如果你理解了能隙方程，就理解了常规超导性。
 
+**Self-test (blank page)**
+
+1. Write the BCS gap equation in the weak-coupling limit and show that its solution is Δ ≈ 2ℏω_D e^{−1/(g N(0))}. What is the physical meaning of the Debye frequency ω_D appearing here?
+2. State the universal BCS ratio 2Δ(0) ≈ 3.5 k_B T_c. Derive it qualitatively or explain its origin. Is this ratio material-dependent in BCS theory?
+3. Write the Bogoliubov quasiparticle energy E_k = √(ε_k² + Δ²). What is the minimum energy to create an excitation, and what does the gap Δ mean for the tunneling conductance?
+4. Describe the characteristic jump in electronic heat capacity at T_c predicted by BCS. How does the size of this jump, relative to the normal-state value γT_c, test the theory?
+
+**自测（空白页）**
+
+1. 写出弱耦合极限下的 BCS 能隙方程，并说明其解为 Δ ≈ 2ℏω_D e^{−1/(g N(0))}。方程中出现的德拜频率 ω_D 的物理意义是什么？
+2. 写出普适 BCS 比值 2Δ(0) ≈ 3.5 k_B T_c。定性推导或解释其来源。在 BCS 理论中，这个比值与材料有关吗？
+3. 写出博戈留波夫准粒子能量 E_k = √(ε_k² + Δ²)。产生一个激发所需的最小能量是多少？能隙 Δ 对隧穿电导意味着什么？
+4. 描述 BCS 理论预言的在 T_c 处电子热容的特征跳变。相对于正常态值 γT_c，跳变的大小如何检验该理论？
+
 ---
 
 ← Previous: [Module 5.4 — The Cooper Problem](./module-5.4-the-cooper-problem.md) · [Phase 5 index](./README.md) · Next: [Module 5.6 — Tunneling & the Gap](./module-5.6-tunneling-and-the-gap.md) →

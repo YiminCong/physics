@@ -30,4 +30,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. State the Sommerfeld result for the electronic heat capacity. Why is it linear in T, and what does the coefficient γ measure?
+2. Write down the low-temperature total heat capacity C = γT + βT³. Explain the physical origin of each term and how you would extract γ and β from a measurement.
+3. The Drude model and the Sommerfeld model both give Ohm's law, but differ sharply on heat capacity. What physical ingredient does Sommerfeld add, and why does it reduce the electronic heat capacity by a factor of order T/T_F?
+4. The jump in heat capacity at the superconducting transition temperature T_c is a key experimental signature. What does its magnitude, relative to γT_c, tell you about the nature of the transition?
+
+**自测（空白页）**
+
+1. 写出索末菲模型给出的电子热容表达式，解释为何它正比于 T，以及系数 γ 测量什么物理量。
+2. 写出低温总热容 C = γT + βT³，分别解释两项的物理来源，并说明如何从实验数据中提取 γ 和 β。
+3. 德鲁德模型与索末菲模型都能给出欧姆定律，但在热容上差别很大。索末菲模型加入了什么关键物理成分？为何它使电子热容减小了量级为 T/T_F 的因子？
+4. 在超导转变温度 T_c 处热容发生跳跃是重要的实验特征。其大小（相对于 γT_c）能告诉我们关于转变本质的什么信息？
+
+---
+
 ← *Phase 4 index: [Condensed Matter](./README.md)* · Next: [Module 4.2 — Crystal Structure & Reciprocal Space](./module-4.2-crystal-structure-and-reciprocal-space.md) →

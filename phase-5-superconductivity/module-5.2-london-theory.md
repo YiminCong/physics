@@ -24,4 +24,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Write the solution B(x) = B₀ e^{−x/λ_L} for the magnetic field inside a superconductor and state the formula for the London penetration depth λ_L in terms of the superconducting carrier density n_s, mass m, and charge e.
+2. Derive qualitatively how the second London equation combined with Ampère's law leads to ∇²B = B/λ_L². What does this tell you about how magnetic field behaves inside the bulk?
+3. How does λ_L depend on temperature as T → T_c? What happens to the Meissner effect as you approach the transition?
+4. λ_L is one of the two fundamental length scales of superconductivity. Name the other, state what physical length it characterises, and explain why their ratio determines the type of superconductor.
+
+**自测（空白页）**
+
+1. 写出超导体内磁场的解 B(x) = B₀ e^{−x/λ_L}，并写出伦敦穿透深度 λ_L 关于超导载流子密度 n_s、质量 m 和电荷 e 的表达式。
+2. 定性推导第二伦敦方程与安培定律联立如何给出 ∇²B = B/λ_L²。这告诉我们磁场在超导体内部如何变化？
+3. 当 T → T_c 时 λ_L 如何随温度变化？趋近转变温度时迈斯纳效应发生什么变化？
+4. λ_L 是超导性的两个基本长度尺度之一。写出另一个，说明它描述什么物理长度，并解释二者之比如何决定超导体的类型。
+
+---
+
 ← Previous: [Module 5.1 — Phenomenology](./module-5.1-phenomenology.md) · [Phase 5 index](./README.md) · Next: [Module 5.3 — Ginzburg–Landau Theory](./module-5.3-ginzburg-landau-theory.md) →

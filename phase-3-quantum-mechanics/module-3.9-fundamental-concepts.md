@@ -24,4 +24,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Explain the bra–ket notation: what is the relationship between a ket |ψ⟩, its dual bra ⟨ψ|, and the inner product ⟨φ|ψ⟩? How do position-space wave functions emerge from this abstract formalism?
+2. Using the spin-½ system as an example, show how a measurement in sequence (first along z, then along x) illustrates the incompatibility of non-commuting observables.
+3. Why is the abstract, basis-independent formulation of QM preferable to working directly with wave functions when changing representations? Give a specific example of a representation change.
+
+**自测（空白页）**
+
+1. 解释右矢–左矢符号：右矢 |ψ⟩、其对偶左矢 ⟨ψ| 与内积 ⟨φ|ψ⟩ 之间的关系是什么？位置空间波函数如何从这一抽象形式体系中得到？
+2. 以自旋-½ 系统为例，说明序列测量（先沿 z 轴，再沿 x 轴）如何展示不对易可观测量的不相容性。
+3. 为什么在表象变换时抽象的、与基无关的量子力学表述优于直接使用波函数？请给出一个具体的表象变换例子。
+
+---
+
 ← Previous: [Module 3.8 — Time-Dependent Perturbation Theory & Scattering](./module-3.8-time-dependent-perturbation-theory-and-scattering.md) · [Phase 3 index](./README.md) · Next: [Module 3.10 — Quantum Dynamics](./module-3.10-quantum-dynamics.md) →

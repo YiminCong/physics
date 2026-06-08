@@ -30,4 +30,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. State the Born rule: what physical quantity does |ψ(x,t)|² represent, and what normalization condition must ψ satisfy?
+2. Write down the time-dependent Schrödinger equation and identify the kinetic-energy and potential-energy terms in the Hamiltonian Ĥ for a particle in one dimension.
+3. Define the expectation value ⟨Q⟩ of an observable Q̂ and the associated uncertainty ΔQ in terms of ψ. Then state the Heisenberg uncertainty principle for position and momentum.
+
+**自测（空白页）**
+
+1. 陈述玻恩定则：|ψ(x,t)|² 代表什么物理量？波函数 ψ 必须满足怎样的归一化条件？
+2. 写出含时薛定谔方程，并指出一维粒子哈密顿量 Ĥ 中的动能项和势能项。
+3. 用 ψ 定义可观测量 Q̂ 的期望值 ⟨Q⟩ 及其不确定度 ΔQ，再陈述位置与动量的海森堡不确定性原理。
+
+---
+
 ← Previous: [Module 3.0 — Old Quantum Theory & the Photoelectric Effect](./module-3.0-old-quantum-theory-and-photoelectric-effect.md) · [Phase 3 index](./README.md) · Next: [Module 3.2 — Time-Independent Schrödinger Equation](./module-3.2-time-independent-schrodinger-equation.md) →

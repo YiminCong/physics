@@ -26,4 +26,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Define the reciprocal lattice vectors bᵢ in terms of the real-space primitive vectors aᵢ, and state the relation aᵢ · bⱼ = 2πδᵢⱼ. What is the first Brillouin zone?
+2. State the Bragg condition for X-ray diffraction in both forms: 2d sinθ = nλ and in terms of scattering wavevector equalling a reciprocal-lattice vector. Why are these equivalent?
+3. Explain why electron states in a crystal are labelled by a wavevector k inside the Brillouin zone rather than in all of k-space. What is "crystal momentum" and in what sense is it conserved?
+4. How does the reciprocal lattice of an FCC real-space lattice relate to the BCC lattice, and why does this matter for drawing Fermi surfaces?
+
+**自测（空白页）**
+
+1. 用正格子原始矢量 aᵢ 定义倒格子矢量 bᵢ，并写出关系 aᵢ · bⱼ = 2πδᵢⱼ。第一布里渊区是什么？
+2. 分别用布拉格条件 2d sinθ = nλ 和散射波矢等于倒格子矢量两种形式表述 X 射线衍射条件，并说明两者为何等价。
+3. 解释为何晶体中的电子态用布里渊区内的波矢 k 标记而非整个 k 空间。"晶体动量"是什么，它在何种意义下守恒？
+4. FCC 正格子的倒格子与 BCC 格子有何关系？这对绘制费米面有何意义？
+
+---
+
 ← Previous: [Module 4.1 — Electrons and Heat in Solids](./module-4.1-electrons-and-heat-in-solids.md) · [Phase 4 index](./README.md) · Next: [Module 4.3 — Lattice Vibrations & Phonons](./module-4.3-lattice-vibrations-and-phonons.md) →

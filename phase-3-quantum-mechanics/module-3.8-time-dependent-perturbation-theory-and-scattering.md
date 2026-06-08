@@ -30,4 +30,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. State Fermi's golden rule: write the transition rate Γ_{i→f} and identify each factor. What does the density of final states ρ(E_f) represent?
+2. Apply the golden rule to a monochromatic oscillating perturbation: what selection rule governs which transitions are allowed by an electric-dipole interaction?
+3. State the Born approximation for the scattering amplitude f(θ): how is it related to the Fourier transform of the scattering potential V(r)?
+
+**自测（空白页）**
+
+1. 陈述费米黄金定则：写出跃迁速率 Γ_{i→f} 并说明每个因子的含义。末态密度 ρ(E_f) 代表什么？
+2. 将黄金定则应用于单色振荡微扰：电偶极跃迁受到什么选择定则的制约？
+3. 写出玻恩近似的散射振幅 f(θ)：它与散射势 V(r) 的傅里叶变换有何关系？
+
+---
+
 ← Previous: [Module 3.7 — Variational & WKB Methods](./module-3.7-variational-and-wkb-methods.md) · [Phase 3 index](./README.md) · Next: [Module 3.9 — Fundamental Concepts](./module-3.9-fundamental-concepts.md) →

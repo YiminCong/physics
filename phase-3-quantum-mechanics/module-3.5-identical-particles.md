@@ -26,4 +26,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Why must the wave function of identical particles be either symmetric or antisymmetric under particle exchange? Which symmetry applies to bosons and which to fermions?
+2. Write the two-particle antisymmetric state ψ_A for fermions in single-particle states ψₐ and ψ_b. Show explicitly that ψ_A vanishes when a = b, thereby deriving the Pauli exclusion principle.
+3. What is a Slater determinant, and how does it generalize the two-particle antisymmetric state to N fermions?
+
+**自测（空白页）**
+
+1. 为什么全同粒子的波函数在粒子交换下必须是对称的或反对称的？哪种对称性对应玻色子，哪种对应费米子？
+2. 写出费米子处于单粒子态 ψₐ 和 ψ_b 时的两粒子反对称态 ψ_A。明确证明当 a = b 时 ψ_A 为零，从而推导出泡利不相容原理。
+3. 什么是斯莱特行列式？它如何将两粒子反对称态推广到 N 个费米子的情形？
+
+---
+
 ← Previous: [Module 3.4 — Quantum Mechanics in 3D](./module-3.4-quantum-mechanics-in-3d.md) · [Phase 3 index](./README.md) · Next: [Module 3.6 — Time-Independent Perturbation Theory](./module-3.6-time-independent-perturbation-theory.md) →

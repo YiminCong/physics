@@ -30,4 +30,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Derive (or state) the dispersion relation ω(k) = 2√(K/M) |sin(ka/2)| for the monatomic 1D chain. What is the group velocity at the zone boundary, and why?
+2. A diatomic chain with masses M₁ and M₂ has two branches. What is the gap that opens between the acoustic and optical branches at the zone boundary, and which atoms move in each branch at k = 0?
+3. What are phonons? State their statistics, their energy, and explain why the Debye model gives C ∝ T³ at low temperature while the Einstein model does not reproduce this correctly.
+4. State the isotope effect T_c ∝ M^{−½} and explain what it implies about the role of phonons in conventional superconductivity.
+
+**自测（空白页）**
+
+1. 推导（或写出）单原子一维链的色散关系 ω(k) = 2√(K/M) |sin(ka/2)|。区边界处的群速度是多少？为什么？
+2. 质量为 M₁ 和 M₂ 的双原子链有两支色散。区边界处声学支与光学支之间打开的能隙是多少？在 k = 0 处各支中哪些原子运动？
+3. 什么是声子？写出其统计类型和能量，并解释为何德拜模型在低温下给出 C ∝ T³ 而爱因斯坦模型不能正确重现这一结果。
+4. 写出同位素效应 T_c ∝ M^{−½}，并解释它对传统超导中声子所起作用的含义。
+
+---
+
 ← Previous: [Module 4.2 — Crystal Structure & Reciprocal Space](./module-4.2-crystal-structure-and-reciprocal-space.md) · [Phase 4 index](./README.md) · Next: [Module 4.4 — Electrons in a Periodic Potential](./module-4.4-electrons-in-a-periodic-potential.md) →

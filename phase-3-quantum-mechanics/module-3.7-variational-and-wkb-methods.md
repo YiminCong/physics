@@ -30,4 +30,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. State the variational principle as an inequality. Why does it provide an upper bound on the ground-state energy rather than an exact value?
+2. Describe how to use a Gaussian trial wave function with an adjustable width parameter α to estimate the ground-state energy of a given potential. What is the optimization step?
+3. Write the WKB form for the wave function and the tunneling transmission formula T ∝ exp[−(2/ℏ)∫|p(x)|dx]. Identify the integration limits and explain what determines the tunneling rate.
+
+**自测（空白页）**
+
+1. 以不等式形式陈述变分原理。为什么它给出的是基态能量的上界而非精确值？
+2. 描述如何用含可调宽度参数 α 的高斯试探波函数估计给定势的基态能量，优化步骤是什么？
+3. 写出 WKB 波函数形式和隧穿透射公式 T ∝ exp[−(2/ℏ)∫|p(x)|dx]，指出积分上下限，并解释什么决定隧穿率。
+
+---
+
 ← Previous: [Module 3.6 — Time-Independent Perturbation Theory](./module-3.6-time-independent-perturbation-theory.md) · [Phase 3 index](./README.md) · Next: [Module 3.8 — Time-Dependent Perturbation Theory & Scattering](./module-3.8-time-dependent-perturbation-theory-and-scattering.md) →

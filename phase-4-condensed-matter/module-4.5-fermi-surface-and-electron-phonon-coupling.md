@@ -30,4 +30,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Define the Fermi surface. For free electrons in 3D with electron density n, derive the Fermi wavevector k_F and the Fermi energy E_F in terms of n.
+2. Why do only electrons within ~kT of the Fermi surface participate in low-energy phenomena? How does this explain the smallness of the electronic heat capacity?
+3. Describe qualitatively the phonon-mediated attraction between two electrons near the Fermi surface. Why is the net interaction attractive even though electrons repel each other via Coulomb forces?
+4. How does the density of states g(E_F) enter the BCS gap equation, and what does a larger g(E_F) imply for T_c?
+
+**自测（空白页）**
+
+1. 定义费米面。对于三维自由电子（电子密度为 n），推导费米波矢 k_F 和费米能 E_F 关于 n 的表达式。
+2. 为何只有费米面附近约 ~kT 范围内的电子参与低能现象？这如何解释电子热容的数值较小？
+3. 定性描述费米面附近两个电子之间由声子介导的吸引力。尽管电子之间存在库仑排斥，为何净相互作用可以是吸引的？
+4. 态密度 g(E_F) 如何进入 BCS 能隙方程？更大的 g(E_F) 对 T_c 意味着什么？
+
+---
+
 ← Previous: [Module 4.4 — Electrons in a Periodic Potential](./module-4.4-electrons-in-a-periodic-potential.md) · [Phase 4 index](./README.md) · Next: [Module 4.6 — Magnetism & Spin Waves](./module-4.6-magnetism-and-spin-waves.md) →

@@ -26,6 +26,20 @@
 
 **应用。** SQUID（脑/心磁成像、地球物理学）、**约瑟夫森电压标准**以及**超导量子比特**——量子计算的领先硬件平台——都基于这些效应运行。
 
+**Self-test (blank page)**
+
+1. State the DC Josephson relation I = I_c sin(Δφ) and the AC Josephson relation df/dt = 2eV/h. What physical quantity is Δφ, and why does the DC effect require zero voltage across the junction?
+2. A constant voltage V is applied across a Josephson junction. Compute the frequency of the resulting AC supercurrent. Numerically, what frequency (in GHz) corresponds to V = 1 μV?
+3. A SQUID consists of two Josephson junctions in a superconducting loop. Explain how the total critical current of the SQUID depends on the magnetic flux threading the loop, and why this makes a SQUID an ultra-sensitive magnetometer.
+4. The Josephson effects arise from the macroscopic quantum phase of the order parameter. How does the phase difference Δφ change with time when V ≠ 0, and what does this say about the quantum mechanics of the condensate?
+
+**自测（空白页）**
+
+1. 写出直流约瑟夫森关系 I = I_c sin(Δφ) 和交流约瑟夫森关系 df/dt = 2eV/h。Δφ 是什么物理量？为何直流效应要求结两端电压为零？
+2. 在约瑟夫森结两端施加恒定电压 V。计算所产生的交流超电流的频率。数值上，V = 1 μV 对应的频率是多少 GHz？
+3. SQUID 由超导回路中的两个约瑟夫森结组成。解释 SQUID 的总临界电流如何依赖于穿过回路的磁通量，以及为何这使 SQUID 成为超灵敏磁强计。
+4. 约瑟夫森效应源于序参量的宏观量子相位。当 V ≠ 0 时，相位差 Δφ 如何随时间变化？这对凝聚态的量子力学说明了什么？
+
 ---
 
 ← Previous: [Module 5.7 — Type II Superconductors & Vortices](./module-5.7-type-ii-superconductors-and-vortices.md) · [Phase 5 index](./README.md) · Next: [Module 5.9 — Unconventional & High-Tᶜ Superconductors](./module-5.9-unconventional-and-high-tc-superconductors.md) →
