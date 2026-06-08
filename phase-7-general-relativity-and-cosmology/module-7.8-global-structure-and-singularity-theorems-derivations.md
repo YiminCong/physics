@@ -72,7 +72,7 @@ From (*): UV = −(r/r_s − 1)e^{r/r_s} → (1 − r_s/r)/|UV| = e^{−r/r_s}/r
 
 由(*)：(1 − r_s/r)/(UV) = −e^{−r/r_s}/r_s（在 UV < 0 的区域 I 中）。则：
 
-  ds² = (4r_s²/r) e^{−r/r_s} dU dV + r² dΩ²   (with signature (−,+,+,+) absorbed into dU dV being timelike)
+  ds² = −(4r_s³/r) e^{−r/r_s} dU dV + r² dΩ²   (the −dU dV combination is timelike, giving signature (−,+,+,+))
 
 More carefully, to get the standard form, introduce T = (V + U)/2, X = (V − U)/2. Then dT² − dX² = dU dV (up to sign). The metric becomes:
 
@@ -111,9 +111,9 @@ The event horizon is at UV = 0 (i.e. U = 0 or V = 0), corresponding to r = r_s: 
 
 ## B. Penrose Process Energy Bound · 彭罗斯过程能量界
 
-**Claim.** In the ergosphere of a Kerr black hole, a particle can split such that one fragment is absorbed and the other escapes with energy greater than the original particle. The energy extraction is bounded by the condition that the black hole's irreducible mass M_irr does not decrease, giving maximum efficiency η_max = 1 − 1/√2 ≈ 20.7% for an extremal Kerr hole.
+**Claim.** In the ergosphere of a Kerr black hole, a particle can split such that one fragment is absorbed and the other escapes with energy greater than the original particle. The energy extraction is bounded by the condition that the black hole's irreducible mass M_irr does not decrease, giving maximum efficiency η_max = 1 − 1/√2 ≈ 29.3% for an extremal Kerr hole.
 
-**命题。** 在克尔黑洞的能层中，粒子可以分裂，使一个碎片被吸收而另一个逃逸，逃逸碎片的能量大于原粒子。能量提取受到黑洞不可约质量 M_irr 不减少条件的限制，对极值克尔黑洞给出最大效率 η_max = 1 − 1/√2 ≈ 20.7%。
+**命题。** 在克尔黑洞的能层中，粒子可以分裂，使一个碎片被吸收而另一个逃逸，逃逸碎片的能量大于原粒子。能量提取受到黑洞不可约质量 M_irr 不减少条件的限制，对极值克尔黑洞给出最大效率 η_max = 1 − 1/√2 ≈ 29.3%。
 
 **Step 1 — Conserved energy in the ergosphere.** The Kerr metric has a timelike Killing vector ξ^μ = (∂/∂t)^μ and a spacelike Killing vector ψ^μ = (∂/∂φ)^μ. For a particle with 4-momentum p^μ:
 
@@ -173,7 +173,7 @@ The efficiency η = (E₂ − E₀)/E₀ = −E₁/E₀ is maximized when |E₁|
 
 **第 5 步 — 极值克尔界。** 对极大旋转（极值）克尔黑洞，a = GM/c²，r_+ = GM/c²。不可约质量为 M_irr = M/√2（当 a = GM/c² 时）。最大可提取能量为 Mc² − M_irr c² = (1 − 1/√2)Mc²。因此：
 
-  **η_max = 1 − 1/√2 ≈ 20.7%**   ∎
+  **η_max = 1 − 1/√2 ≈ 29.3%**   ∎
 
 The extracted energy comes from the rotational kinetic energy of the black hole: after the process, the hole has less angular momentum (it has been partially spun down). Successive reversible extractions can in principle spin the hole from a = GM/c² to a = 0 (Schwarzschild), releasing a fraction (1 − 1/√2) of the total mass-energy.
 

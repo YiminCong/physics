@@ -75,11 +75,11 @@ In the rotated (A, Z) basis, the photon A_μ = W^3_μsinθ_W + B_μcosθ_W coupl
   e_L–photon coupling = [gI^3 sinθ_W + g'Y cosθ_W]
                       = −(g sinθ_W)/2 − (g' cosθ_W)/2.
 
-For this to equal −e (the electromagnetic charge of e_L):
+Requiring the photon to couple to every field as −eQ = −e(I^3 + Y), the I^3 and Y pieces must match *separately* (not just their sum for e_L):
 
-为使此等于 −e（e_L 的电磁电荷）：
+要求光子对每个场的耦合为 −eQ = −e(I^3 + Y)，I^3 与 Y 两部分必须*分别*相等（而非仅对 e_L 的和相等）：
 
-  e = (g sinθ_W + g' cosθ_W)/2.
+  g sinθ_W = e   (coefficient of I^3),    g' cosθ_W = e   (coefficient of Y).
 
 But the electric charge is Q = I^3 + Y, so for e_L: Q = −1/2 + (−1/2) = −1. The photon coupling is:
 

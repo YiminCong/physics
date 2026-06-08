@@ -130,9 +130,9 @@ where v_F = ∇_k ε|_{k₀} and the gradient of Δ at the node:
 
 At the node, |∇_k Δ| = √2 Δ₀ a sin(k_F a) = Δ₀ v_Δ where v_Δ = √2 a sin(k_F a) is the gap velocity. The local quasiparticle energy is
 
-  E(q) = √(v_F² q_∥² + v_Δ² q_⊥²),
+  E(q) = √(v_F² q_⊥² + v_Δ² q_∥²),
 
-where q_∥ is the component along the Fermi surface and q_⊥ is perpendicular. This is a **2D Dirac dispersion** (linear in momentum).
+where q_⊥ is the component normal to the Fermi surface (along which v_F = |∇_k ε| points) and q_∥ is along it (along which the gap varies, v_Δ = |∇_k Δ|). This is a **2D Dirac dispersion** (linear in momentum).
 
 **第 3 步 — 节点附近的局部展开。** 在节点 k₀ = (k_F, k_F) 附近（为简洁取 a = 1），令 k = k₀ + q，展开到 q = (q_x, q_y) 的一阶：
 
@@ -144,9 +144,9 @@ where q_∥ is the component along the Fermi surface and q_⊥ is perpendicular.
 
 在节点处，|∇_k Δ| = √2 Δ₀ a sin(k_F a) = Δ₀ v_Δ，其中 v_Δ = √2 a sin(k_F a) 为能隙速度。局部准粒子能量为
 
-  E(q) = √(v_F² q_∥² + v_Δ² q_⊥²)，
+  E(q) = √(v_F² q_⊥² + v_Δ² q_∥²)，
 
-其中 q_∥ 沿费米面，q_⊥ 垂直费米面。这是**二维狄拉克色散**（动量的线性函数）。
+其中 q_⊥ 为垂直费米面的分量（v_F = |∇_k ε| 沿此方向），q_∥ 沿费米面（能隙沿此方向变化，v_Δ = |∇_k Δ|）。这是**二维狄拉克色散**（动量的线性函数）。
 
 ---
 

@@ -86,31 +86,31 @@ These satisfy canonical anticommutation relations {γ_{k↑}, γ_{k↑}†} = 1 
 **第 3 步 — 代入 Ĥ_BCS。** 用 γ 算符计算 c_{k↑}† c_{k↑} + c_{−k↓}† c_{−k↓} 以及非对角项 c_{k↑}† c_{−k↓}† + h.c.。代数运算给出（对每个 k-对）：
 
   ε_k(c_{k↑}†c_{k↑} + c_{−k↓}†c_{−k↓}) − Δ(c_{k↑}†c_{−k↓}† + c_{−k↓}c_{k↑})
-  = (2ε_k v_k² − 2Δ u_k v_k) · 1  +  [2ε_k u_k v_k + Δ(u_k² − v_k²)] · (γ_{k↑}†γ_{−k↓}† + h.c.)
+  = (2ε_k v_k² − 2Δ u_k v_k) · 1  +  [2ε_k u_k v_k − Δ(u_k² − v_k²)] · (γ_{k↑}†γ_{−k↓}† + h.c.)
   + (ε_k(u_k² − v_k²) + 2Δ u_k v_k)(γ_{k↑}†γ_{k↑} + γ_{−k↓}†γ_{−k↓}).
 
 **Step 4 — Choose u_k, v_k to eliminate off-diagonal terms.** Require the coefficient of the off-diagonal (γ†γ†) terms to vanish:
 
 **第 4 步 — 选择 u_k、v_k 消去非对角项。** 要求非对角（γ†γ†）项的系数为零：
 
-  2ε_k u_k v_k + Δ(u_k² − v_k²) = 0.
+  2ε_k u_k v_k − Δ(u_k² − v_k²) = 0.
 
-Using u_k = cos θ, v_k = sin θ: 2ε_k sin θ cos θ + Δ(cos²θ − sin²θ) = 0, i.e. ε_k sin(2θ) + Δ cos(2θ) = 0. Therefore:
+Using u_k = cos θ, v_k = sin θ: 2ε_k sin θ cos θ − Δ(cos²θ − sin²θ) = 0, i.e. ε_k sin(2θ) − Δ cos(2θ) = 0. Therefore:
 
 使用 u_k = cos θ，v_k = sin θ：2ε_k sin θ cos θ + Δ(cos²θ − sin²θ) = 0，即 ε_k sin(2θ) + Δ cos(2θ) = 0。因此：
 
-  tan(2θ) = −Δ/ε_k   ⟹   2θ = arctan(−Δ/ε_k).
+  tan(2θ) = Δ/ε_k   ⟹   2θ = arctan(Δ/ε_k).
 
 The diagonal coefficient of γ†γ becomes (using the above condition to simplify):
 
 γ†γ 的对角系数变为（利用上述条件化简）：
 
-  E_k = ε_k(u_k² − v_k²) + 2Δ u_k v_k = ε_k cos(2θ) − Δ sin(2θ)
+  E_k = ε_k(u_k² − v_k²) + 2Δ u_k v_k = ε_k cos(2θ) + Δ sin(2θ)
       = ε_k · (ε_k/E_k) + Δ · (Δ/E_k) = (ε_k² + Δ²)/E_k,
 
-where we used cos(2θ) = ε_k/E_k and sin(2θ) = −Δ/E_k (from the condition, with the sign chosen so E_k > 0). Solving:
+where we used cos(2θ) = ε_k/E_k and sin(2θ) = +Δ/E_k (from the condition, with the sign chosen so E_k > 0 and consistent with u_k v_k = Δ/2E_k of Section C). Solving:
 
-其中用到 cos(2θ) = ε_k/E_k 和 sin(2θ) = −Δ/E_k（由条件给出，选择符号使 E_k > 0）。求解：
+其中用到 cos(2θ) = ε_k/E_k 和 sin(2θ) = +Δ/E_k（由条件给出，选择符号使 E_k > 0，并与 C 节 u_k v_k = Δ/2E_k 一致）。求解：
 
   **E_k = √(ε_k² + Δ²).**
 

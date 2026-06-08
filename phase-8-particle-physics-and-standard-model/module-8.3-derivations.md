@@ -90,9 +90,9 @@ The β function is β(g_s) = μ dg_s/dμ. At one loop, δZ_g receives contributi
 
 (b) **鬼粒子圈**（法捷耶夫–波波夫鬼粒子）：在非阿贝尔规范理论中，规范固定引入鬼场 c^a（伴随表示中的反对易标量）以消除非物理胶子极化。它们的圈给出 −C_A/6 每单位 g_s²。
 
-Total gluon+ghost contribution: (5/3 − 1/6)·C_A = (10/6 − 1/6)·C_A = (3/2)·C_A. For SU(3): (3/2)×3 = 9/2. Expressed as a coefficient of g_s³/(16π²): the standard result is +11C_A/3 × g_s²/(16π²), giving the 11 in b₀.
+The (5/3) and (−1/6) values above are the gauge-boson and ghost pieces of the *transverse gluon self-energy* in Feynman gauge, and (5/3 − 1/6)·C_A = (3/2)·C_A is only the self-energy (wavefunction-renormalization) contribution. The complete gauge-sector running coupling also receives contributions from the vertex and external-leg renormalizations (the full set of diagrams entering Z₁/Z₃ via the Slavnov–Taylor identities). Adding all gauge-sector diagrams, the gauge contribution to b₀ is the well-known **+11C_A/3** (for SU(3): 11), which is the result we use below. (The individual loop coefficients are gauge- and scheme-dependent; only their full sum +11C_A/3 is physical.)
 
-胶子+鬼粒子总贡献：(5/3 − 1/6)·C_A = (10/6 − 1/6)·C_A = (3/2)·C_A。对于 SU(3)：(3/2)×3 = 9/2。表示为 g_s³/(16π²) 的系数：标准结果为 +11C_A/3 × g_s²/(16π²)，给出 b₀ 中的 11。
+上面的 (5/3) 和 (−1/6) 是费曼规范下*横向胶子自能*的规范玻色子与鬼粒子部分，而 (5/3 − 1/6)·C_A = (3/2)·C_A 仅为自能（波函数重整化）贡献。完整的规范部分跑动耦合还接收来自顶角和外腿重整化的贡献（通过 Slavnov–Taylor 恒等式进入 Z₁/Z₃ 的全部图）。把所有规范部分的图相加，对 b₀ 的规范贡献为众所周知的 **+11C_A/3**（对于 SU(3)：11），即下文所用的结果。（各单项圈系数依赖于规范与重整化方案；只有它们的完整和 +11C_A/3 是物理的。）
 
 **Step 3 — Origin of the −2n_f/3 term.** Each quark flavor contributes a fermion loop to the gluon self-energy. This is structurally identical to the electron loop in QED. In QED the electron loop gives a positive β function (screening). In QCD the quark loop contributes:
 

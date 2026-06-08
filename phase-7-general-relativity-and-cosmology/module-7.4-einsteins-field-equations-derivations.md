@@ -161,34 +161,11 @@ i.e., R_{μν} − ½ R g_{μν} + Λ g_{μν} = (8πG/c⁴) T_{μν}.
 
 **第 5 步 — 计算 G_{00}。** 爱因斯坦张量分量：
 
-  G_{00} = R_{00} − ½ R g_{00} = ∇²φ/c² − ½(−∇²φ/c⁴)(−c²)
-         = ∇²φ/c² − ∇²φ/(2c²) = ∇²φ/(2c²).
+A consistent Newtonian limit must keep the **spatial** perturbation as well, not only g_{00}: take g_{00} = −(1 + 2φ/c²) **and** g_{ij} = (1 − 2φ/c²)δ_{ij}. (Dropping g_{ij} is exactly what spoils the factor of 2.) With both, R_{00} = ∇²φ/c² (Step 4) and the Ricci scalar evaluates to R = 2∇²φ/c². Using g_{00} ≈ −1:
 
-Wait — let us recount carefully with the sign of g_{00}:
+一致的牛顿极限必须同时保留**空间**扰动，而不只是 g_{00}：取 g_{00} = −(1 + 2φ/c²) **且** g_{ij} = (1 − 2φ/c²)δ_{ij}。（丢掉 g_{ij} 正是破坏因子 2 的原因。）两者皆保留时，R_{00} = ∇²φ/c²（第 4 步），里奇标量为 R = 2∇²φ/c²。取 g_{00} ≈ −1：
 
-等等——仔细核实 g_{00} 的符号：
-
-  G_{00} = R_{00} − ½ R g_{00}.
-
-With R_{00} = ∇²φ/c², R = −∇²φ/c⁴, g_{00} ≈ −1 (to zeroth order):
-
-取 R_{00} = ∇²φ/c²，R = −∇²φ/c⁴，g_{00} ≈ −1（零阶近似）：
-
-  G_{00} = ∇²φ/c² − ½(−∇²φ/c⁴)(−1) = ∇²φ/c² − ∇²φ/(2c⁴) · c² ≈ 2∇²φ/c².
-
-More carefully: −½ R g_{00} = −½(−∇²φ/c⁴)(−1) = −∇²φ/(2c⁴). But ∇²φ/c² and ∇²φ/(2c⁴) have different dimensions here — this arises because x^0 = ct:
-
-更仔细地：−½ R g_{00} = −½(−∇²φ/c⁴)(−1) = −∇²φ/(2c⁴)。但 ∇²φ/c² 和 ∇²φ/(2c⁴) 的量纲不同——这是因为 x^0 = ct：
-
-  R_{00} = ∇²φ / c²  (computed with ∂/∂x^i = ∂/∂x^i, x^0 = ct)
-
-  G_{00} = R_{00} − ½ R g_{00}
-         = (∇²φ/c²) − ½ · (−∇²φ/c⁴) · (−1)
-         = ∇²φ/c² − ∇²φ/(2c⁴).
-
-These are the same order in φ but one is suppressed by c² relative to the other. The dominant term is ∇²φ/c², so G_{00} ≈ 2∇²φ/c² at leading order (confirmed by a careful full computation giving G_{00} = 2∇²φ/c²).
-
-这两项在 φ 上是同阶的，但相对差一个 c² 因子。主导项为 ∇²φ/c²，故在主导阶 G_{00} ≈ 2∇²φ/c²（通过仔细的完整计算确认 G_{00} = 2∇²φ/c²）。
+  G_{00} = R_{00} − ½ R g_{00} = ∇²φ/c² − ½(2∇²φ/c²)(−1) = ∇²φ/c² + ∇²φ/c² = 2∇²φ/c².
 
 **Step 6 — Matter source: T_{00}.** For slow-moving pressureless matter (dust), T_{00} = ρ c² (the energy density in the frame where the matter is nearly at rest). The full expression for a perfect fluid T_{00} = (ρ + p/c²) u_0 u_0 + p g_{00} reduces to T_{00} ≈ ρ c² when p ≪ ρc² and u^0 ≈ c.
 

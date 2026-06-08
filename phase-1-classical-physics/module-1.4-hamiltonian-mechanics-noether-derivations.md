@@ -168,15 +168,17 @@ Therefore:
 
 **第 1 步 — 辨识对称性。** 若 L 不显含时间（∂L/∂t = 0），则 L 在 t → t + ε 下不变，这诱导 q(t) → q(t + ε) ≈ q(t) + ε q̇(t)。故生成元为 K = q̇。
 
-**Step 2 — Compute the Noether charge.** Q = (∂L/∂q̇) K = (∂L/∂q̇) q̇.
+**Step 2 — Compute the Noether charge.** A time translation t → t + ε also moves the *independent* variable (not just the coordinates), so the conserved charge carries an extra −L term relative to the coordinate-transformation formula of Section C: Q = (∂L/∂q̇) q̇ − L = p q̇ − L.
 
-**第 2 步 — 计算诺特荷。** Q = (∂L/∂q̇) K = (∂L/∂q̇) q̇。
+**第 2 步 — 计算诺特荷。** 时间平移 t → t + ε 还移动了*自变量*（而不只是坐标），故守恒荷相对 C 节的坐标变换公式多出一个 −L 项：Q = (∂L/∂q̇) q̇ − L = p q̇ − L。
 
 **Step 3 — Show Q = H.** For L = T − V with T = ½mq̇²:
 
 **第 3 步 — 证明 Q = H。** 对于 L = T − V，T = ½mq̇²：
 
-  Q = (∂L/∂q̇) q̇ = mq̇ · q̇ = mq̇² = 2T = 2T − (T − V) + (T − V) = (T + V) = H.
+  Q = p q̇ − L = mq̇² − (T − V) = 2T − (T − V) = T + V = H,
+
+where p q̇ = mq̇² = 2T by Euler's theorem on the homogeneous quadratic T.
 
 More generally, Q = Σᵢ (∂L/∂q̇ᵢ) q̇ᵢ − L = H by the Legendre transform. Therefore time-translation symmetry conserves **H = total energy.** ∎
 

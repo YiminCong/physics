@@ -222,14 +222,14 @@ So E_y′ = γ(E_y + vB_z). This is the field in S′ when S′ moves at +v alon
 
 **Summary (adopting the convention that the primed frame moves at +v along x in S):**
 
-**汇总（取撇号系在 S 中以 +v 沿 x 运动的约定）：**
+**汇总（S′ 以 +v 沿 x 相对 S 运动；与本节命题及标准 Griffiths/Jackson 结果一致）：**
 
   E_x′ = E_x                        (parallel, unchanged)
-  E_y′ = γ(E_y + vB_z)
-  E_z′ = γ(E_z − vB_y)
+  E_y′ = γ(E_y − vB_z)
+  E_z′ = γ(E_z + vB_y)
   B_x′ = B_x                        (parallel, unchanged)
-  B_y′ = γ(B_y − vE_z/c²)
-  B_z′ = γ(B_z + vE_y/c²)
+  B_y′ = γ(B_y + vE_z/c²)
+  B_z′ = γ(B_z − vE_y/c²)
 
 **Physical interpretation.** A purely electric Coulomb field in S (B = 0 there) appears in S′ as having both electric and magnetic components — **magnetism is the relativistic manifestation of electricity** when charges are observed in relative motion.
 
@@ -353,9 +353,9 @@ Similarly for ν = 2 and ν = 3, one recovers the y and z components. The two ho
 
 **Claim.** The only independent algebraic Lorentz scalars built from F^{μν} are:
 (i) F_{μν} F^{μν} = 2(B² − E²/c²),
-(ii) F_{μν} F̃^{μν} = 4E·B/c  (where F̃^{μν} = ½ ε^{μνρσ} F_{ρσ} is the dual tensor).
+(ii) F_{μν} F̃^{μν} = −4E·B/c  (where F̃^{μν} = ½ ε^{μνρσ} F_{ρσ} is the dual tensor).
 
-**命题。** 由 F^{μν} 构造的仅有的独立代数洛伦兹标量为：(i) F_{μν} F^{μν} = 2(B² − E²/c²)；(ii) F_{μν} F̃^{μν} = 4**E**·**B**/c（其中 F̃^{μν} = ½ ε^{μνρσ} F_{ρσ} 为对偶张量）。
+**命题。** 由 F^{μν} 构造的仅有的独立代数洛伦兹标量为：(i) F_{μν} F^{μν} = 2(B² − E²/c²)；(ii) F_{μν} F̃^{μν} = −4**E**·**B**/c（其中 F̃^{μν} = ½ ε^{μνρσ} F_{ρσ} 为对偶张量）。
 
 **Step 1 — Compute F_{μν} F^{μν}.** The contraction sums over all μ, ν. Using the antisymmetry F_{μν} = −F_{νμ} and F^{μν} = −F^{νμ}, there are two contributions for each pair (μ,ν) with μ < ν:
 

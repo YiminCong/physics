@@ -113,34 +113,18 @@ More precisely, (1/π) · sin²(xt)/x² → tδ(x) in the distributional sense a
 
   (4/ℏ²) sin²((E_f−Eᵢ)t/2ℏ) / (E_f−Eᵢ)²/ℏ²  →  (2πt/ℏ) δ(E_f − Eᵢ).
 
-To see this explicitly: let x = (E_f − Eᵢ)/(2ℏ), so the factor is sin²(xt)/x², and
+We evaluate the integral of this factor over all final-state frequencies. Substitute v = ω_{fi} t/2, so dω_{fi} = 2dv/t:
 
-为明确起见：令 x = (E_f − Eᵢ)/(2ℏ)，则因子为 sin²(xt)/x²，且
-
-  ∫_{-∞}^{∞} [sin²(xt)/x²] d(E_f/ℏ) = 2t ∫_{-∞}^{∞} [sin²(u)/u²] du/2 = 2t · (π/2) · (1/?) ...
-
-Let us carry this out directly. We have
-
-让我们直接进行。有
-
-  ∫_{-∞}^{∞} 4sin²(ω_{fi}t/2)/ω_{fi}² · dω_{fi} = t · ∫_{-∞}^{∞} [sin(u)/u]² · 2 du = t · 2 · (π) · (1/2)... 
-
-We use the standard result ∫_{-∞}^{∞} sin²(u)/u² du = π. Therefore
-
-我们使用标准结果 ∫_{-∞}^{∞} sin²(u)/u² du = π。因此
-
-  ∫_{-∞}^{∞} [4sin²(ω_{fi}t/2) / ω_{fi}²] dω_{fi}
-     = t ∫_{-∞}^{∞} sin²(v)/(v²) · 2 dv   [substituting v = ω_{fi}t/2]
-     = t · 2 · π/2 · 2 ... 
-
-Let v = ω_{fi} t/2, so dω_{fi} = 2dv/t:
-
-令 v = ω_{fi} t/2，则 dω_{fi} = 2dv/t：
+我们对该因子在所有末态频率上积分。代入 v = ω_{fi} t/2，则 dω_{fi} = 2dv/t：
 
   ∫_{-∞}^{∞} [4sin²(ω_{fi}t/2)/ω_{fi}²] dω_{fi}
      = ∫_{-∞}^{∞} [4sin²(v)/(2v/t)²] · (2dv/t)
      = ∫_{-∞}^{∞} [4sin²(v) · t²/(4v²)] · (2/t) dv
-     = 2t ∫_{-∞}^{∞} [sin²(v)/v²] dv = 2t · π = 2πt.
+     = 2t ∫_{-∞}^{∞} [sin²(v)/v²] dv = 2t · π = 2πt,
+
+using the standard result ∫_{-∞}^{∞} sin²(v)/v² dv = π.
+
+其中用到标准结果 ∫_{-∞}^{∞} sin²(v)/v² dv = π。
 
 Hence as a function of ω_{fi} the factor 4sin²(ω_{fi}t/2)/ω_{fi}² → 2πt · δ(ω_{fi}) as t → ∞, confirming
 

@@ -240,11 +240,11 @@ For the Standard Model:
 
 对于标准模型：
 
-  b₃ (SU(3)): C₂ = 3, quarks: 6 flavors × (1/2) × 2 (left+right) × 3 colors... 
-  
-  b₃ = −11 + (2/3)×(2n_f/2) = −11 + (4/3)n_f = −11 + 8 = −7 (for n_f = 6, active flavors). Wait — let me restate more carefully.
+  b₃ (SU(3)): gauge + ghost contribution −(11/3)C_A = −11 (with C_A = 3); quark contribution +(4/3)T_F n_f = +(2/3)n_f (with T_F = 1/2 per Dirac flavor). For n_f = 6 active flavors:
 
-  b₃ (SU(3)): C₂ = 3，夸克：6 味 × (1/2) × 2（左+右）× 3 色...
+  b₃ = −11 + (2/3)·n_f = −11 + (2/3)(6) = −11 + 4 = −7.
+
+  b₃ (SU(3))：规范 + 鬼粒子贡献 −(11/3)C_A = −11（C_A = 3）；夸克贡献 +(4/3)T_F n_f = +(2/3)n_f（每个狄拉克味 T_F = 1/2）。对于 n_f = 6 个活跃味：b₃ = −11 + (2/3)(6) = −11 + 4 = −7。
 
 The standard SM one-loop coefficients (normalized so that b_i > 0 means asymptotic freedom):
 
