@@ -1,12 +1,12 @@
 # Phase 5 — Superconductivity (the destination)
 **第 5 阶段 — 超导（目的地）**
 
-Modules 5.1–5.9, in **Definition → Demonstration → Application**
+Modules 5.1–5.11, in **Definition → Demonstration → Application**
 format. This is where everything converges. Watch how each module cashes in an earlier ⭐:
 free energy (2.3), quantum statistics (2.5), the Fermi surface and phonons (4.3–4.5),
 second quantization and singlet pairing (3.11–3.12), and the complex phase (0.4).
 
-模块 5.1–5.9，采用**定义 → 演示 → 应用**格式。这里是一切汇聚之处。观察每个模块如何兑现之前的 ⭐：自由能（2.3）、量子统计（2.5）、费米面与声子（4.3–4.5）、二次量子化与单态配对（3.11–3.12），以及复数相位（0.4）。
+模块 5.1–5.11，采用**定义 → 演示 → 应用**格式。这里是一切汇聚之处。观察每个模块如何兑现之前的 ⭐：自由能（2.3）、量子统计（2.5）、费米面与声子（4.3–4.5）、二次量子化与单态配对（3.11–3.12），以及复数相位（0.4）。
 
 ## Modules · 模块
 
