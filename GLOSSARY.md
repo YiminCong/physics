@@ -261,6 +261,14 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Entanglement | 量子纠缠 | A joint state that cannot be factorized into independent parts. |
 | EPR paradox | EPR 佯谬 | The Einstein–Podolsky–Rosen argument questioning QM's completeness. |
 | Bell's theorem | 贝尔定理 | Local hidden-variable theories obey an inequality that QM violates. |
+| Density matrix | 密度矩阵 | The operator ρ describing a pure or mixed quantum state. |
+| Mixed state | 混合态 | A statistical ensemble of pure states (Tr ρ² < 1). |
+| Von Neumann entropy | 冯·诺依曼熵 | S = −Tr(ρ ln ρ); the entanglement entropy of a subsystem. |
+| Lindblad equation | 林德布拉德方程 | The master equation for a Markovian open quantum system. |
+| Decoherence | 退相干 | Environment-induced decay of quantum coherences. |
+| Klein–Gordon equation | 克莱因–戈尔登方程 | The relativistic wave equation for a spin-0 field. |
+| Dirac equation | 狄拉克方程 | The relativistic equation for spin-½; predicts antimatter. |
+| Antiparticle | 反粒子 | The charge-conjugate partner predicted by the Dirac equation. |
 
 ---
 
@@ -291,6 +299,17 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Metal / insulator / semiconductor | 金属 / 绝缘体 / 半导体 | Classification by band filling and gap. |
 | Fermi surface | 费米面 | The surface in k-space dividing filled from empty states. |
 | Density of states | 态密度 | The number of states per unit energy. |
+| Exchange interaction | 交换相互作用 | The Coulomb+Pauli effect that aligns spins; source of magnetism. |
+| Heisenberg model | 海森堡模型 | H = −J Σ S_i·S_j, the canonical model of magnetism. |
+| Curie–Weiss law | 居里–外斯定律 | χ ∝ 1/(T−T_c), the mean-field susceptibility of a magnet. |
+| Magnon | 磁振子 | The quantized spin wave; elementary excitation of a magnet. |
+| Effective mass | 有效质量 | m* = ℏ²/(d²E/dk²), the band-curvature mass of a carrier. |
+| Hole | 空穴 | The positively charged absence of an electron in a band. |
+| Landau level | 朗道能级 | The quantized energy E_n = ℏω_c(n+½) of an electron in a magnetic field. |
+| Quantum Hall effect | 量子霍尔效应 | Quantized Hall conductance σ_xy = ν e²/h. |
+| Berry phase | 贝里相位 | A geometric phase acquired under adiabatic transport. |
+| Chern number | 陈数 | The quantized integral of Berry curvature; a topological invariant. |
+| Topological insulator | 拓扑绝缘体 | A bulk insulator with protected conducting edge/surface states. |
 
 ---
 
@@ -325,6 +344,11 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Cuprate | 铜氧化物 | A high-temperature copper-oxide superconductor. |
 | d-wave pairing | d 波配对 | Pairing with a gap that changes sign and has nodes. |
 | Pseudogap | 赝能隙 | A partial gap in the cuprate normal state. |
+| Bogoliubov–de Gennes equations | 博戈留波夫–德热纳方程 | The real-space BCS equations for inhomogeneous superconductors. |
+| Andreev reflection | 安德列耶夫反射 | An electron retro-reflected as a hole at a normal–superconductor interface. |
+| Proximity effect | 邻近效应 | Induced superconducting pairing in a normal metal near a superconductor. |
+| Majorana fermion | 马约拉纳费米子 | A particle that is its own antiparticle (γ = γ†); a zero mode in topological SCs. |
+| Kitaev chain | 基塔耶夫链 | The 1D p-wave model hosting Majorana end modes. |
 
 ---
 
