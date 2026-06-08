@@ -65,6 +65,10 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Tensor | 张量 | A multilinear object generalizing scalars, vectors, and matrices. |
 | Einstein summation | 爱因斯坦求和约定 | Implied summation over repeated indices. |
 | Metric tensor | 度规张量 | The object defining distances and inner products on a space. |
+| Group | 群 | A set with an associative product, identity, and inverses. |
+| Representation | 表示 | A realization of a group by matrices acting on a vector space. |
+| Lie algebra | 李代数 | The algebra of generators with [T_a,T_b]=if_{abc}T_c. |
+| Casimir operator | 卡西米尔算符 | An operator commuting with all generators; labels irreps. |
 
 ---
 
@@ -446,4 +450,39 @@ A bilingual reference of the key terminology used across the curriculum — **En
 
 ---
 
-*Coverage spans all 9 phases. Spotted a missing term? It can be added here without touching the articles.*
+## Phase 9: Applied and Specialized Physics
+
+| Term | 中文 | Definition |
+|------|------|------------|
+| Kirchhoff's laws | 基尔霍夫定律 | Conservation of charge and energy in electric circuits. |
+| Operational amplifier | 运算放大器 | A high-gain differential amplifier; the workhorse of analog electronics. |
+| p–n junction | pn 结 | The semiconductor diode; a one-way valve for current. |
+| Hund's rules | 洪德规则 | Rules for the ground-state term of a multi-electron atom. |
+| LS coupling | LS 耦合 | Russell–Saunders coupling of orbital and spin angular momenta. |
+| Selection rules | 选择定则 | Constraints (e.g. Δℓ=±1) on allowed radiative transitions. |
+| Semi-empirical mass formula | 半经验质量公式 | The Bethe–Weizsäcker formula for nuclear binding energy. |
+| Shell model | 壳层模型 | Nuclear model explaining the magic numbers. |
+| Gamow factor | 伽莫夫因子 | The tunnelling exponent governing α-decay rates. |
+| Debye length | 德拜长度 | The screening length of a plasma. |
+| Plasma frequency | 等离子体频率 | The natural oscillation frequency of a plasma, √(ne²/ε₀m). |
+| Landau damping | 朗道阻尼 | Collisionless damping of plasma waves by resonant particles. |
+
+## Phase 10: Strings and Quantum Gravity
+
+| Term | 中文 | Definition |
+|------|------|------------|
+| Nambu–Goto / Polyakov action | 南部–后藤 / 波利亚科夫作用量 | The action of a relativistic string (worldsheet area / metric form). |
+| Critical dimension | 临界维数 | The spacetime dimension (26 bosonic, 10 super) fixed by consistency. |
+| Worldsheet | 世界面 | The 2D surface swept out by a propagating string. |
+| Supersymmetry | 超对称 | A symmetry relating bosons and fermions; tames the tachyon. |
+| D-brane | D 膜 | A surface on which open strings can end. |
+| M-theory | M 理论 | The conjectured 11D theory unifying the five superstring theories. |
+| Planck scale | 普朗克尺度 | The energy/length where quantum gravity becomes essential. |
+| Bekenstein–Hawking entropy | 贝肯斯坦–霍金熵 | Black-hole entropy S = k_B A/4ℓ_P², proportional to horizon area. |
+| Hawking radiation | 霍金辐射 | Thermal radiation emitted by a black hole. |
+| Holographic principle | 全息原理 | A volume of space is encoded on its boundary. |
+| AdS/CFT correspondence | AdS/CFT 对偶 | A duality between gravity in AdS and a boundary gauge theory. |
+
+---
+
+*Coverage spans all 11 phases. Spotted a missing term? It can be added here without touching the articles.*
