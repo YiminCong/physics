@@ -44,4 +44,4 @@
 
 ---
 
-← Previous: [Module 8.6 — Particle Physics & Cosmology](./module-8.6-particle-physics-and-cosmology.md) · [Phase 8 index](./README.md)
+← Previous: [Module 8.6 — Particle Physics & Cosmology](./module-8.6-particle-physics-and-cosmology.md) · [Phase 8 index](./README.md) · Next: [Module 8.8 — The Quark Model & Hadron Spectroscopy](./module-8.8-quark-model-and-hadron-spectroscopy.md) →
