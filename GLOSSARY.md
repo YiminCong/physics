@@ -269,6 +269,12 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Klein–Gordon equation | 克莱因–戈尔登方程 | The relativistic wave equation for a spin-0 field. |
 | Dirac equation | 狄拉克方程 | The relativistic equation for spin-½; predicts antimatter. |
 | Antiparticle | 反粒子 | The charge-conjugate partner predicted by the Dirac equation. |
+| Qubit | 量子比特 | A two-level quantum system; the unit of quantum information. |
+| No-cloning theorem | 不可克隆定理 | An unknown quantum state cannot be copied. |
+| Quantum teleportation | 量子隐形传态 | Transfer of a state using entanglement + 2 classical bits. |
+| Grover's algorithm | 格罗弗算法 | Quantum search in O(√N) instead of O(N). |
+| Shor's algorithm | 秀尔算法 | Quantum factoring in polynomial time via period finding. |
+| Quantum error correction | 量子纠错 | Encoding logical qubits to protect against decoherence. |
 
 ---
 
@@ -426,6 +432,14 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Cosmic microwave background (CMB) | 宇宙微波背景 | Relic radiation from the early universe. |
 | Dark matter | 暗物质 | Unseen mass inferred from gravity. |
 | Dark energy | 暗能量 | The component driving accelerated expansion. |
+| Perihelion precession | 近日点进动 | The GR advance of an orbit's perihelion (Mercury, 43″/century). |
+| Gravitational lensing | 引力透镜 | Bending of light by mass, forming multiple images / Einstein rings. |
+| Chirp mass | 啁啾质量 | The mass combination Mc setting a binary's gravitational-wave inspiral. |
+| Penrose diagram | 彭罗斯图 | A conformal diagram showing the causal structure of spacetime. |
+| Ergosphere | 能层 | The region outside a Kerr horizon where energy can be extracted. |
+| Raychaudhuri equation | 雷乔杜里方程 | The focusing equation for a geodesic congruence. |
+| Singularity theorem | 奇点定理 | Penrose–Hawking results: singularities are generic in GR. |
+| Cosmic censorship | 宇宙监督假设 | The conjecture that singularities are hidden behind horizons. |
 
 ---
 
@@ -471,6 +485,9 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Bjorken scaling | 比约肯标度 | Q²-independence of structure functions; sign of pointlike partons. |
 | Callan–Gross relation | 卡兰–格罗斯关系 | 2xF₁ = F₂, showing the charged partons are spin-½. |
 | Parton distribution function (PDF) | 部分子分布函数 | The probability density f(x) for a parton to carry momentum fraction x. |
+| PMNS matrix | PMNS 矩阵 | The neutrino flavor-mixing matrix. |
+| MSW effect | MSW 效应 | Resonant neutrino flavor conversion in matter. |
+| Luminosity | 亮度 | The factor relating collider event rate to cross-section, N = L_int σ. |
 
 ---
 
@@ -490,6 +507,10 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Debye length | 德拜长度 | The screening length of a plasma. |
 | Plasma frequency | 等离子体频率 | The natural oscillation frequency of a plasma, √(ne²/ε₀m). |
 | Landau damping | 朗道阻尼 | Collisionless damping of plasma waves by resonant particles. |
+| Breit–Wigner resonance | 布莱特–维格纳共振 | The Lorentzian cross-section of a compound-nucleus resonance. |
+| Gamow peak | 伽莫夫峰 | The energy window where thermonuclear reactions occur in stars. |
+| p–p chain / CNO cycle | 质子–质子链 / CNO 循环 | The stellar fusion sequences powering stars. |
+| r-process / s-process | r 过程 / s 过程 | Rapid/slow neutron capture building heavy elements. |
 
 ## Phase 10: Strings and Quantum Gravity
 
