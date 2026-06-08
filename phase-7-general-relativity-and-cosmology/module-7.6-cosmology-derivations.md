@@ -72,89 +72,49 @@ Therefore:
 
   R_{00} = −[3ä/(ac²) − 3ȧ²/(a²c²)] − 3ȧ²/(a²c²) = −3ä/(ac²).
 
-For R_{ij}, by symmetry R_{ij} = λ(t) g̃_{ij}. The standard calculation gives:
+For the spatial components R_{ij} we need the remaining Christoffel symbols. With x^0 = ct (so ∂_0 = (1/c)∂_t) and g_{ij} = a²(t)γ_{ij}, where γ_{ij} is the unit-curvature spatial metric:
 
-对于 R_{ij}，由对称性 R_{ij} = λ(t) g̃_{ij}。标准计算给出：
+对于空间分量 R_{ij}，我们需要其余的克里斯托费尔符号。取 x^0 = ct（故 ∂_0 = (1/c)∂_t）且 g_{ij} = a²(t)γ_{ij}，其中 γ_{ij} 为单位曲率空间度规：
 
-  R_{ij} = [aä/c² + 2ȧ²/c² + 2kc²/a²(?)] g̃_{ij} ??? let us work from first principles.
+  Γ^0_{ij} = (aȧ/c) γ_{ij},   Γ^i_{0j} = (ȧ/(ac)) δ^i_j,
 
-Retaining the curvature k, the standard result is:
+and the purely spatial Christoffels Γ^k_{ij}[γ] are those of γ_{ij}, whose intrinsic Ricci tensor is R̃_{ij} = 2k γ_{ij} (a maximally symmetric 3-space of curvature k). Substituting into
 
-保留曲率 k，标准结果为：
+而纯空间克里斯托费尔符号 Γ^k_{ij}[γ] 即 γ_{ij} 的克里斯托费尔符号，其内禀里奇张量为 R̃_{ij} = 2k γ_{ij}（曲率为 k 的极大对称三维空间）。代入
 
-  R_{ij} = [ä/a + 2(ȧ/a)² + 2kc²/a²] g_{ij}/c²
+  R_{ij} = ∂_μ Γ^μ_{ij} − ∂_j Γ^μ_{iμ} + Γ^μ_{μλ} Γ^λ_{ij} − Γ^μ_{jλ} Γ^λ_{iμ}
 
-No — let us be precise. The standard FLRW Ricci components (with x^0 = ct, metric signature −+++) are:
+and collecting the time-derivative and connection terms together with R̃_{ij} = 2k γ_{ij} gives the standard FLRW spatial Ricci tensor:
 
-不——让我们精确计算。标准 FLRW 里奇分量（取 x^0 = ct，度规符号 −+++）为：
-
-  R_{00} = −3ä/(ac²),
-
-  R_{ij} = [aä/c² + 2ȧ²/c² + 2kc²]/(c²) g̃_{ij}??
-
-Let us be very careful with factors of c. The spatial metric is g_{ij} = a²(t) γ_{ij}. The Christoffel symbol Γ^0_{ij} = (aȧ/c²) γ_{ij} (since x^0 = ct, d/dx^0 = (1/c) d/dt). The contraction gives:
-
-让我们对 c 因子非常仔细。空间度规为 g_{ij} = a²(t) γ_{ij}。克里斯托费尔符号 Γ^0_{ij} = (aȧ/c²) γ_{ij}（因 x^0 = ct，d/dx^0 = (1/c) d/dt）。缩并给出：
-
-  R_{ij} = ∂_0 Γ^0_{ij} − ∂_j Γ^0_{i0} + Γ^0_{0k} Γ^k_{ij} + Γ^k_{0k} Γ^0_{ij} − Γ^0_{ik} Γ^k_{0j} − Γ^k_{kj} Γ^0_{i0} + \text{spatial terms}.
-
-After careful evaluation (see e.g. Weinberg "Gravitation and Cosmology"):
-
-经过仔细计算（参见韦恩伯格《引力与宇宙学》）：
-
-  R_{ij} = [(2ȧ² + aä)/c² + 2kc²/a²... ]
-
-The correct result with x^0 = ct is (one standard reference):
-
-取 x^0 = ct 时的正确结果（一个标准参考）为：
-
-  R_{00} = −3ä/(ac²),
+并将时间导数项、联络项与 R̃_{ij} = 2k γ_{ij} 合并，得到标准 FLRW 空间里奇张量：
 
   R_{ij} = [aä + 2ȧ² + 2kc²] γ_{ij}/c²,
 
-where here the spatial part of the metric uses the unit-curvature spatial metric γ_{ij} (so g_{ij} = a² γ_{ij}).
+with R_{00} = −3ä/(ac²) from above (g_{ij} = a² γ_{ij}).
 
-其中空间部分度规使用单位曲率空间度规 γ_{ij}（故 g_{ij} = a² γ_{ij}）。
+其中 R_{00} = −3ä/(ac²) 由上文给出（g_{ij} = a² γ_{ij}）。
 
 **Step 4 — Compute the Ricci scalar.** Contract with the inverse metric:
 
 **第 4 步 — 计算里奇标量。** 与逆度规缩并：
 
+With x^0 = ct the metric is g_{00} = −1 (so g^{00} = −1) and g^{ij} = γ^{ij}/a²:
+
+取 x^0 = ct 时度规为 g_{00} = −1（故 g^{00} = −1），g^{ij} = γ^{ij}/a²：
+
   R = g^{00} R_{00} + g^{ij} R_{ij}
-    = (−1/c²)(−3ä/(ac²)) + γ^{ij}/a² · [aä + 2ȧ² + 2kc²] γ_{ij}/c²
-    = 3ä/(ac⁴) + 3[aä + 2ȧ² + 2kc²]/(a²c²)
-    = 3ä/(ac⁴) + 3ä/(ac²) + 6ȧ²/(a²c²) + 6k/a²
-    ≈ (6/c²)[ä/a + (ȧ/a)² + kc²/a²]  (to leading order, dropping the c⁴ term which is suppressed).
+    = (−1)(−3ä/(ac²)) + (γ^{ij}/a²) · [aä + 2ȧ² + 2kc²] γ_{ij}/c²
+    = 3ä/(ac²) + 3[aä + 2ȧ² + 2kc²]/(a²c²)
+    = 3ä/(ac²) + 3ä/(ac²) + 6ȧ²/(a²c²) + 6k/a²
+    = (6/c²)[ä/a + (ȧ/a)² + kc²/a²].
 
-More precisely: R = 6[ä/a + (ȧ/a)² + kc²/a²]/c².
+So R = 6[ä/a + (ȧ/a)² + kc²/a²]/c².
 
-更精确地：R = 6[ä/a + (ȧ/a)² + kc²/a²]/c²。
+故 R = 6[ä/a + (ȧ/a)² + kc²/a²]/c²。
 
-**Step 5 — Compute the Einstein tensor.** The 00-component:
+**Step 5 — Compute the Einstein tensor.** The algebra is cleanest in units c = 1 (we restore c in the final Friedmann equations by dimensional analysis). Setting c = 1 temporarily:
 
-**第 5 步 — 计算爱因斯坦张量。** 00 分量：
-
-  G_{00} = R_{00} − ½ g_{00} R
-         = −3ä/(ac²) − ½(−c²) · (6/c²)[ä/a + (ȧ/a)² + kc²/a²]
-         = −3ä/(ac²) + 3[ä/a + (ȧ/a)² + kc²/a²]
-         = 3[(ȧ/a)² + kc²/a²]/1 × (1/c² factor check ...)
-
-Let us redo carefully. With g_{00} = −c²:
-
-让我们仔细重新计算。取 g_{00} = −c²：
-
-  G_{00} = R_{00} − ½ g_{00} R
-         = −3ä/(ac²) − ½(−c²)(6[ä/a + (ȧ/a)² + kc²/a²]/c²)
-         = −3ä/(ac²) + 3[ä/a + (ȧ/a)² + kc²/a²]
-         = −3ä/(ac²) + 3ä/a + 3(ȧ/a)² + 3kc²/a².
-
-The first and second terms: −3ä/(ac²) + 3ä/a = 3ä/a · (1 − 1/c²). In natural units c = 1 this gives 0; with c ≠ 1, the leading term at low velocities is 3ä/a, but including the suppressed 1/c² correction... let us use c = 1 units for clarity and then restore c at the end.
-
-第一项和第二项：−3ä/(ac²) + 3ä/a = 3ä/a · (1 − 1/c²)。在自然单位 c = 1 中这为 0；在 c ≠ 1 时，低速下主导项为 3ä/a，但包含被压低的 1/c² 修正...为了清晰起见使用 c = 1 单位，然后在最后恢复 c。
-
-**Step 5 (revised, c = 1 units) — Compute G_{μν}.** Setting c = 1 temporarily:
-
-**第 5 步（修订，c = 1 单位）——计算 G_{μν}。** 暂时令 c = 1：
+**第 5 步 — 计算爱因斯坦张量。** 在 c = 1 单位下代数最简洁（最后通过量纲分析在弗里德曼方程中恢复 c）。暂时令 c = 1：
 
   g_{00} = −1, g_{ij} = a² γ_{ij}.
   R_{00} = −3ä/a,  R_{ij} = (aä + 2ȧ² + 2k) γ_{ij}.
