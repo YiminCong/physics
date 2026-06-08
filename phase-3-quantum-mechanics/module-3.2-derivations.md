@@ -100,6 +100,44 @@ The ground-state energy E₀ = ½ℏω ≠ 0 is the **zero-point energy**: a dir
 
 ---
 
-*This is a sample derivation document. If the depth and bilingual format are right, the same treatment can be produced for every formula across the curriculum.*
+## C. Excited-State Wavefunctions (Hermite Polynomials) · 激发态波函数（厄米多项式）
 
-*这是一份样板推导文档。若深度与双语格式合适，可为课程中的每一个公式生成相同处理。*
+**Step 1 — Build states from the ground state.** From |n⟩ = (â†)ⁿ/√(n!) |0⟩ and â† = √(mω/2ℏ)(x̂ − ip̂/mω), introduce the dimensionless variable ξ = √(mω/ℏ) x, so that x̂ → ξ and p̂ = −iℏ d/dx → −i√(mℏω) d/dξ. Then â† = (ξ − d/dξ)/√2 and â = (ξ + d/dξ)/√2.
+
+**第 1 步 — 从基态构造态。** 由 |n⟩ = (â†)ⁿ/√(n!) |0⟩ 及 â† = √(mω/2ℏ)(x̂ − ip̂/mω)，引入无量纲变量 ξ = √(mω/ℏ) x，则 x̂ → ξ，p̂ = −iℏ d/dx → −i√(mℏω) d/dξ。于是 â† = (ξ − d/dξ)/√2，â = (ξ + d/dξ)/√2。
+
+**Step 2 — Apply repeatedly.** With ψ₀(ξ) = (mω/πℏ)^{1/4} e^{−ξ²/2}, acting n times with â† gives ψₙ(ξ) = (1/√(2ⁿ n!)) (ξ − d/dξ)ⁿ ψ₀. Using the Rodrigues identity (ξ − d/dξ)ⁿ e^{−ξ²/2} = Hₙ(ξ) e^{−ξ²/2}, where **Hₙ** are the **Hermite polynomials** (the special functions of Module 0.3), we obtain
+
+**第 2 步 — 反复作用。** 取 ψ₀(ξ) = (mω/πℏ)^{1/4} e^{−ξ²/2}，作用 n 次 â† 得 ψₙ(ξ) = (1/√(2ⁿ n!)) (ξ − d/dξ)ⁿ ψ₀。利用罗德里格斯恒等式 (ξ − d/dξ)ⁿ e^{−ξ²/2} = Hₙ(ξ) e^{−ξ²/2}，其中 **Hₙ** 为**厄米多项式**（模块 0.3 的特殊函数），得
+
+  ψₙ(x) = (mω/πℏ)^{1/4} (1/√(2ⁿ n!)) Hₙ(√(mω/ℏ) x) e^{−mωx²/2ℏ}.
+
+These are exactly the series-solution results of Module 0.3, now obtained algebraically.
+
+这正是模块 0.3 中级数解的结果，此处用代数方法重新得到。
+
+---
+
+## D. Rigor: Why the Spectrum Is Real, Orthogonal, and Complete · 严格性：谱为何是实的、正交的、完备的
+
+**Reality.** Ĥ is **Hermitian** (self-adjoint on the appropriate domain): ⟨φ|Ĥψ⟩ = ⟨Ĥφ|ψ⟩, proved by integrating the kinetic term by parts twice with wavefunctions vanishing at the boundary. For an eigenstate Ĥψ = Eψ, E⟨ψ|ψ⟩ = ⟨ψ|Ĥψ⟩ = ⟨Ĥψ|ψ⟩ = E*⟨ψ|ψ⟩, so **E = E*** is real.
+
+**实性。** Ĥ 是**厄米的**（在恰当定义域上自伴）：⟨φ|Ĥψ⟩ = ⟨Ĥφ|ψ⟩，通过对动能项分部积分两次、并利用波函数在边界为零而证明。对本征态 Ĥψ = Eψ，有 E⟨ψ|ψ⟩ = ⟨ψ|Ĥψ⟩ = ⟨Ĥψ|ψ⟩ = E*⟨ψ|ψ⟩，故 **E = E*** 为实数。
+
+**Orthogonality.** For Eₘ ≠ Eₙ: (Eₘ − Eₙ)⟨ψₘ|ψₙ⟩ = ⟨ψₘ|Ĥψₙ⟩ − ⟨Ĥψₘ|ψₙ⟩ = 0, so ⟨ψₘ|ψₙ⟩ = 0 — distinct-energy eigenstates are orthogonal.
+
+**正交性。** 当 Eₘ ≠ Eₙ：(Eₘ − Eₙ)⟨ψₘ|ψₙ⟩ = ⟨ψₘ|Ĥψₙ⟩ − ⟨Ĥψₘ|ψₙ⟩ = 0，故 ⟨ψₘ|ψₙ⟩ = 0——不同能量的本征态相互正交。
+
+**Positivity of the spectrum (oscillator).** For any state, ⟨Ĥ⟩ = ⟨p̂²⟩/2m + ½mω²⟨x̂²⟩ ≥ 0 since both terms are non-negative; combined with E₀ = ½ℏω this confirms the ground state is the true minimum (no lower state can exist, consistent with â|0⟩ = 0). The bounded-below argument of Step 6 is then rigorous: if n were not a non-negative integer, repeatedly applying â would eventually yield a state of negative norm ‖âᵏ|n⟩‖² < 0, a contradiction; the only escape is termination at â|0⟩ = 0.
+
+**谱的正定性（谐振子）。** 对任意态，⟨Ĥ⟩ = ⟨p̂²⟩/2m + ½mω²⟨x̂²⟩ ≥ 0，因两项均非负；结合 E₀ = ½ℏω 可确认基态是真正的极小（不存在更低的态，与 â|0⟩ = 0 一致）。于是第 6 步的「有下界」论证是严格的：若 n 不是非负整数，反复作用 â 终将得到负范数态 ‖âᵏ|n⟩‖² < 0，矛盾；唯一出路是在 â|0⟩ = 0 处终止。
+
+**Completeness.** Both Ĥ here are Sturm–Liouville operators, so their eigenfunctions form a **complete orthonormal basis** of L²: any state expands as |ψ⟩ = Σₙ cₙ|ψₙ⟩ with cₙ = ⟨ψₙ|ψ⟩ (Module 3.3). This is what justifies writing a general solution as a superposition of stationary states.
+
+**完备性。** 此处的两个 Ĥ 均为施图姆–刘维尔算符，故其本征函数构成 L² 的**完备正交基**：任意态可展开为 |ψ⟩ = Σₙ cₙ|ψₙ⟩，其中 cₙ = ⟨ψₙ|ψ⟩（模块 3.3）。这正是把一般解写成定态叠加的依据。
+
+---
+
+*Sample derivation document — the "deeper / rigorous" standard. Every module's `*-derivations.md` will match this depth: full intermediate algebra, boundary/domain conditions, Hermiticity/orthogonality/completeness where relevant, and physical interpretation, all bilingual.*
+
+*样板推导文档——「更深 / 严格」标准。每个模块的 `*-derivations.md` 都将达到此深度：完整的中间代数、边界/定义域条件、相关处的厄米性/正交性/完备性，以及物理诠释，全部双语。*
