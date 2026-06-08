@@ -12,13 +12,13 @@
 
   E_SO(J) = (A/2)[J(J+1) − L(L+1) − S(S+1)].
 
-The spacing between adjacent J and J+1 levels is ΔE = AJ (Landé interval rule).
+The spacing between adjacent J and J+1 levels is ΔE = A(J+1) (Landé interval rule).
 
 **命题。** 对于中心场势 U(r) 中具有轨道角动量 L 和自旋 S 的电子，自旋–轨道相互作用为 H_SO = A(L · S)，耦合常数 A = (1/2m²c²) (1/r)(dU/dr)。这消除 LS 谱项的 (2L+1)(2S+1) 重简并，将 J 能级移动：
 
   E_SO(J) = (A/2)[J(J+1) − L(L+1) − S(S+1)]。
 
-相邻 J 与 J+1 能级之间的间距为 ΔE = AJ（朗德区间规则）。
+相邻 J 与 J+1 能级之间的间距为 ΔE = A(J+1)（朗德区间规则）。
 
 **Step 1 — Physical origin.** In the electron's rest frame, the nucleus (charge Ze) orbits it, creating a magnetic field B = −(v × E)/c² at the electron's location, where E = −(dU/dr) r̂/e. Writing the electron's orbital velocity v = p/m and using L = r × p:
 
