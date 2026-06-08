@@ -1,6 +1,9 @@
 # Derivations — Module 0.2: Linear Algebra
 # 推导 — 模块 0.2：线性代数
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 0.2](./module-0.2-linear-algebra.md). Full step-by-step proofs of every non-trivial result stated there: real eigenvalues and orthogonality of eigenvectors of Hermitian operators, the spectral theorem, norm-preservation by unitary operators, and explicit diagonalization of all three Pauli matrices. English first, then 中文.
 > [模块 0.2](./module-0.2-linear-algebra.md) 的配套文档：对该模块所引用的每一个非平凡结果进行完整逐步证明：厄米算符本征值为实数且本征向量正交、谱定理、幺正算符保持范数、以及三个泡利矩阵的显式对角化。先英文，后中文。
 

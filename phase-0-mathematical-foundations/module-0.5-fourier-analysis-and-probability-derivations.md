@@ -1,6 +1,9 @@
 # Derivations — Module 0.5: Fourier Analysis & Probability
 # 推导 — 模块 0.5：傅里叶分析与概率
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 0.5](./module-0.5-fourier-analysis-and-probability.md). Full step-by-step proofs of every non-trivial result: derivation of Fourier coefficients via orthogonality; the Fourier transform of a Gaussian is a Gaussian (completing the square); the convolution theorem; the Dirac delta as a Fourier representation; Var = ⟨x²⟩ − ⟨x⟩²; and the central limit theorem via characteristic functions. English first, then 中文.
 > [模块 0.5](./module-0.5-fourier-analysis-and-probability.md) 的配套文档：对每一个非平凡结果进行完整逐步证明：通过正交性推导傅里叶系数；高斯函数的傅里叶变换仍是高斯函数（配方法）；卷积定理；狄拉克 delta 函数的傅里叶表示；Var = ⟨x²⟩ − ⟨x⟩²；以及通过特征函数的中心极限定理。先英文，后中文。
 

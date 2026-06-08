@@ -1,6 +1,9 @@
 # Derivations — Module 0.1: Calculus & Taylor Series
 # 推导 — 模块 0.1：微积分与泰勒级数
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 0.1](./module-0.1-calculus-and-taylor-series.md). Full step-by-step proofs of every non-trivial result stated there: the Taylor theorem with Lagrange remainder, the standard series for eˣ / sin / cos / (1+x)ⁿ / ln(1+x), the identity d/dx(eˣ) = eˣ from the series, and the Gaussian integral ∫_{−∞}^{∞} e^{−x²} dx = √π. English first, then 中文.
 > [模块 0.1](./module-0.1-calculus-and-taylor-series.md) 的配套文档：对该模块所引用的每一个非平凡结果进行完整逐步证明：带拉格朗日余项的泰勒定理、eˣ / sin / cos / (1+x)ⁿ / ln(1+x) 的标准级数、从级数推导 d/dx(eˣ) = eˣ，以及高斯积分 ∫_{−∞}^{∞} e^{−x²} dx = √π。先英文，后中文。
 

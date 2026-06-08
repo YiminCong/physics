@@ -1,6 +1,9 @@
 # Derivations — Module 0.6: Vector Calculus, Tensors & Differential Forms
 # 推导 — 模块 0.6：向量微积分、张量与微分形式
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 0.6](./module-0.6-vector-calculus-tensors-and-differential-forms.md). Full step-by-step proofs: the divergence theorem and Stokes' theorem (statement plus the standard cube/loop argument); derivation of ∇² in spherical coordinates; Maxwell's equations as applications of ∇· and ∇×; the Levi-Civita identity ε_{ijk}ε_{ilm} = δ_{jl}δ_{km} − δ_{jm}δ_{kl}; and the vector identity ∇×(∇×A) = ∇(∇·A) − ∇²A proved by index notation. English first, then 中文.
 > [模块 0.6](./module-0.6-vector-calculus-tensors-and-differential-forms.md) 的配套文档：完整逐步证明：散度定理与斯托克斯定理（陈述及标准的立方体/回路论证）；球坐标下 ∇² 的推导；麦克斯韦方程作为 ∇· 和 ∇× 的应用；列维-奇维塔恒等式 ε_{ijk}ε_{ilm} = δ_{jl}δ_{km} − δ_{jm}δ_{kl}；以及用指标记号证明向量恒等式 ∇×(∇×A) = ∇(∇·A) − ∇²A。先英文，后中文。
 

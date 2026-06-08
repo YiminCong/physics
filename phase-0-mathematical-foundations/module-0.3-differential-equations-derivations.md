@@ -1,6 +1,9 @@
 # Derivations — Module 0.3: Differential Equations
 # 推导 — 模块 0.3：微分方程
 
+> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
+> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+
 > Companion to [Module 0.3](./module-0.3-differential-equations.md). Full step-by-step proofs and derivations: the integrating factor for the first-order linear ODE; the general solution of the second-order constant-coefficient ODE for all three root cases; the Hermite recursion relation derived from series substitution, with the termination argument; and complete separation of the heat equation. English first, then 中文.
 > [模块 0.3](./module-0.3-differential-equations.md) 的配套文档：完整逐步证明与推导：一阶线性常微分方程的积分因子法；常系数二阶线性常微分方程在三种根情形下的通解；由级数代入推导厄米递推关系及其终止论证；以及热传导方程的完整分离变量过程。先英文，后中文。
 
