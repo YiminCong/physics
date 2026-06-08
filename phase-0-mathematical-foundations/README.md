@@ -15,6 +15,7 @@ This phase assembles the toolkit that every later phase draws on. All six module
 | 0.4 | [Complex Analysis · 复分析](./module-0.4-complex-analysis.md) ⭐ | Euler's formula, analytic functions, contour integration; phase drives superconductivity |
 | 0.5 | [Fourier Analysis & Probability · 傅里叶分析与概率](./module-0.5-fourier-analysis-and-probability.md) ⭐ | Fourier transform, Dirac delta, convolution; mean, variance, Gaussian, CLT |
 | 0.6 | [Vector Calculus, Tensors & Differential Forms · 向量微积分、张量与微分形式](./module-0.6-vector-calculus-tensors-and-differential-forms.md) | ∇, ∇·, ∇×, integral theorems; index notation, the metric tensor; Maxwell in a line |
+| 0.7 | [Group Theory & Lie Algebras · 群论与李代数](./module-0.7-group-theory-and-lie-algebras.md) ⭐ | Group axioms, representations, Schur's lemma; Lie algebras, su(2), su(3), exponential map; language of angular momentum and gauge theory |
 
 ## Why these matter downstream · 为何对后续内容至关重要
 
@@ -36,6 +37,9 @@ This phase assembles the toolkit that every later phase draws on. All six module
 - **0.6** — vector calculus is the native language of electromagnetism (Phase 1); the metric tensor g_{μν} is the central object of general relativity (Phase 7).
 - **0.6** — 向量微积分是电磁学的母语（第 1 阶段）；度规张量 g_{μν} 是广义相对论的核心对象（第 7 阶段）。
 
+- **0.7** — group theory and Lie algebras are the language of all symmetry in physics: su(2) is the algebra of angular momentum and spin (Phase 3); SU(3) × SU(2) × U(1) is the gauge group of the Standard Model (Phase 8).
+- **0.7** — 群论和李代数是物理学中所有对称性的语言：su(2) 是角动量和自旋的代数（第 3 阶段）；SU(3) × SU(2) × U(1) 是标准模型的规范群（第 8 阶段）。
+
 ## Phase 0 Checkpoint (blank page) · 第 0 阶段检查点（空白页）
 
 Work through these without notes. If any answer is unclear, revisit the corresponding module before moving on.
@@ -48,6 +52,7 @@ Work through these without notes. If any answer is unclear, revisit the correspo
 4. (0.4) Evaluate ∮ dz / (z² + 1) around a contour enclosing z = i using residues.
 5. (0.5) Why is the Fourier transform of a Gaussian another Gaussian, and how does this become the Heisenberg uncertainty principle?
 6. (0.6) Write Maxwell's four equations in differential form, naming the operator (∇·, ∇×) in each, and state the integral theorem that converts each to its integral form.
+7. (0.7) State the four group axioms and verify SU(2) satisfies them. Write the su(2) commutation relations and state all irreps with their dimensions. Explain why generators must be Hermitian for unitary representations.
 
 **自测（空白页）**
 
@@ -57,6 +62,7 @@ Work through these without notes. If any answer is unclear, revisit the correspo
 4. (0.4) 用留数定理计算 ∮ dz / (z² + 1) 沿围绕 z = i 的围道的积分。
 5. (0.5) 为何高斯函数的傅里叶变换仍是高斯函数，这如何成为海森堡不确定性原理？
 6. (0.6) 用微分形式写出麦克斯韦四个方程，说明各方程中的算符（∇·、∇×），并陈述将每个方程转化为积分形式的积分定理。
+7. (0.7) 陈述四条群公理并验证 SU(2) 满足它们。写出 su(2) 对易关系，列出所有不可约表示及其维数。解释为什么酉表示的生成元必须是厄米的。
 
 ---
 

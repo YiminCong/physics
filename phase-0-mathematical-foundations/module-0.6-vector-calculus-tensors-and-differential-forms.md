@@ -80,4 +80,4 @@ The **metric tensor** g_{μν} encodes the geometry of the space: the invariant 
 
 ---
 
-← Previous: [Module 0.5 — Fourier Analysis & Probability](./module-0.5-fourier-analysis-and-probability.md) · [Phase 0 index](./README.md)
+← Previous: [Module 0.5 — Fourier Analysis & Probability](./module-0.5-fourier-analysis-and-probability.md) · [Phase 0 index](./README.md) · Next: [Module 0.7 — Group Theory & Lie Algebras](./module-0.7-group-theory-and-lie-algebras.md) →

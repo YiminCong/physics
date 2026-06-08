@@ -14,8 +14,8 @@ is used later. Modules marked ⭐ are load-bearing for what follows; ⭐⭐ are 
 
 每篇笔记都遵循统一格式——**定义 → 演示 → 应用**——使你始终清楚一个概念*是什么*、在具体例子上*如何运作*，以及*在何处*被后续使用。标记 ⭐ 的模块是后续内容的重要支柱；⭐⭐ 则是关键枢纽。
 
-The curriculum is organized into **9 phases**, each a directory; each **module** is its own
-file. There are **85 modules** in total.
+The curriculum is organized into **11 phases**, each a directory; each **module** is its own
+file. There are **92 modules** in total.
 
 课程组织为 **9 个阶段**，每个阶段对应一个目录；每个**模块**是单独的文件。总共有 **81 个模块**。
 
@@ -29,6 +29,7 @@ file. There are **85 modules** in total.
   **blank-page checkpoint** (self-test). Pass the checkpoint before moving on.
 - Each module ends with **prev / next navigation** so you can read a phase straight through.
 - Keep the **[bilingual glossary (English ｜ 中文)](./GLOSSARY.md)** open as you read — it lists the key terminology of every phase with Chinese equivalents and short definitions.
+- See **[`ROADMAP-THOOFT.md`](./ROADMAP-THOOFT.md)** for how this curriculum maps onto Nobel laureate Gerard 't Hooft's *How to become a GOOD Theoretical Physicist*.
 - **Re-derive the ⭐ results by hand** — that's where real understanding comes from.
 
 - **遵循下方的[推荐学习路径](#recommended-learning-path)**——它按依赖顺序串联起 9 个阶段。
@@ -104,6 +105,7 @@ The toolkit for everything that follows. · 后续一切内容的工具箱。
 | 0.4 | [Complex Analysis](./phase-0-mathematical-foundations/module-0.4-complex-analysis.md) | ⭐ |
 | 0.5 | [Fourier Analysis & Probability](./phase-0-mathematical-foundations/module-0.5-fourier-analysis-and-probability.md) | ⭐ |
 | 0.6 | [Vector Calculus, Tensors & Differential Forms](./phase-0-mathematical-foundations/module-0.6-vector-calculus-tensors-and-differential-forms.md) | |
+| 0.7 | [Group Theory & Lie Algebras](./phase-0-mathematical-foundations/module-0.7-group-theory-and-lie-algebras.md) | ⭐ |
 
 ### [Phase 1 — Classical Physics](./phase-1-classical-physics/)
 Mechanics, electromagnetism, waves & fluids, nonlinear dynamics, and special relativity. · 力学、电磁学、波与流体、非线性动力学，以及狭义相对论。
@@ -224,6 +226,22 @@ The quantum field theory of the fundamental particles and forces. · 基本粒�
 | 8.8 | [The Quark Model & Hadron Spectroscopy](./phase-8-particle-physics-and-standard-model/module-8.8-quark-model-and-hadron-spectroscopy.md) | |
 | 8.9 | [Deep Inelastic Scattering & Partons](./phase-8-particle-physics-and-standard-model/module-8.9-deep-inelastic-scattering-and-partons.md) | |
 
+### [Phase 9 — Applied & Specialized Physics](./phase-9-applied-and-specialized-physics/)
+The applied/specialized subjects from 't Hooft's roadmap. · 't Hooft 路线图中的应用与专门科目。
+| # | Module | |
+|---|--------|---|
+| 9.1 | [Electronics](./phase-9-applied-and-specialized-physics/module-9.1-electronics.md) | |
+| 9.2 | [Atomic & Molecular Physics](./phase-9-applied-and-specialized-physics/module-9.2-atomic-and-molecular-physics.md) | |
+| 9.3 | [Nuclear Physics](./phase-9-applied-and-specialized-physics/module-9.3-nuclear-physics.md) | |
+| 9.4 | [Plasma Physics](./phase-9-applied-and-specialized-physics/module-9.4-plasma-physics.md) | |
+
+### [Phase 10 — Strings & Quantum Gravity](./phase-10-strings-and-quantum-gravity/)
+The summit of the roadmap: unifying QFT and general relativity. · 路线图的顶峰：统一量子场论与广义相对论。
+| # | Module | |
+|---|--------|---|
+| 10.1 | [String Theory & Superstrings](./phase-10-strings-and-quantum-gravity/module-10.1-string-theory-and-superstrings.md) | ⭐ |
+| 10.2 | [Quantum Gravity & Holography](./phase-10-strings-and-quantum-gravity/module-10.2-quantum-gravity-and-holography.md) | |
+
 ---
 
 ## Phase dependency reference · 阶段依赖关系
@@ -239,6 +257,8 @@ The quantum field theory of the fundamental particles and forces. · 基本粒�
 | 6 — Quantum Field Theory | 1 (incl. special relativity), 2, 3 |
 | 7 — General Relativity & Cosmology | 0.6, 1.13–1.15 |
 | 8 — Particle Physics & Standard Model | 1.13–1.15, 3, 6 |
+| 9 — Applied & Specialized Physics | 1, 2, 3 |
+| 10 — Strings & Quantum Gravity | 0.7, 6, 7 |
 
 *From the calculus of Module 0.1 to the Higgs mechanism of Module 8.4, every step is a
 prerequisite for the next. Pass each blank-page checkpoint and you will genuinely understand
