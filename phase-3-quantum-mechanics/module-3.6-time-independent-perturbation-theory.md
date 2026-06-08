@@ -24,4 +24,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Write the first-order energy correction Eₙ⁽¹⁾ and the second-order correction Eₙ⁽²⁾ for a non-degenerate state |n⟩ due to a perturbation Ĥ′. What sign must Eₙ⁽²⁾ have for the ground state?
+2. Explain the degenerate case: why does ordinary non-degenerate perturbation theory break down, and what is the correct procedure?
+3. Describe one physical example where perturbation theory is applied to hydrogen (e.g. fine structure or the Zeeman effect), naming the perturbation Ĥ′ and the resulting energy splitting.
+
+**自测（空白页）**
+
+1. 写出非简并态 |n⟩ 在微扰 Ĥ′ 下的一阶能量修正 Eₙ⁽¹⁾ 和二阶能量修正 Eₙ⁽²⁾。基态的二阶修正符号如何？
+2. 解释简并情形：为何普通非简并微扰理论会失效？正确的处理方法是什么？
+3. 描述一个将微扰理论应用于氢原子的物理例子（如精细结构或塞曼效应），指出微扰 Ĥ′ 的形式和所得能级分裂。
+
+---
+
 ← Previous: [Module 3.5 — Identical Particles](./module-3.5-identical-particles.md) · [Phase 3 index](./README.md) · Next: [Module 3.7 — Variational & WKB Methods](./module-3.7-variational-and-wkb-methods.md) →

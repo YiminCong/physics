@@ -30,4 +30,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. State the commutation relation [aₖ, aₖ′†] = δₖₖ′ for bosonic operators and the anticommutation relation {cₖ, cₖ′†} = δₖₖ′ for fermionic operators. Show that the fermionic relation (cₖ†)² = 0 follows directly from {cₖ†, cₖ†} = 0, and explain why this enforces the Pauli exclusion principle.
+2. Explain what "occupation-number representation" means: how does the second-quantized description of a many-particle state differ from the first-quantized (labeled-particle) description, and what advantage does it offer for systems with variable particle number?
+3. Write down the many-fermion state |Ψ⟩ = c₁† c₂† … cₙ† |0⟩ and describe the role of the vacuum |0⟩. How does swapping the order of two creation operators demonstrate that the state is automatically antisymmetric?
+4. Express the BCS pairing operator in second-quantization notation and identify the single-particle states being paired. Why is the Cooper-pair operator c_{k↑}† c_{−k↓}† written with opposite momenta and opposite spins?
+
+**自测（空白页）**
+
+1. 写出玻色子算符的对易关系 [aₖ, aₖ′†] = δₖₖ′ 和费米子算符的反对易关系 {cₖ, cₖ′†} = δₖₖ′。由 {cₖ†, cₖ†} = 0 直接推导出 (cₖ†)² = 0，并解释为什么这一关系强制满足泡利不相容原理。
+2. 解释"占据数表象"的含义：二次量子化对多粒子态的描述与一次量子化（带标记粒子）的描述有何不同？对于粒子数可变的系统，它的优势是什么？
+3. 写出多费米子态 |Ψ⟩ = c₁† c₂† … cₙ† |0⟩，描述真空态 |0⟩ 的作用。交换两个产生算符的顺序如何说明该态自动满足反对称性？
+4. 用二次量子化符号写出 BCS 配对算符，并指出被配对的单粒子态。为什么库珀对算符 c_{k↑}† c_{−k↓}† 要写成动量相反、自旋相反的形式？
+
+---
+
 ← Previous: [Module 3.11 — Angular Momentum, Advanced](./module-3.11-angular-momentum-advanced.md) · [Phase 3 index](./README.md) · Next: [Module 3.13 — Entanglement, EPR & Bell's Theorem](./module-3.13-entanglement-epr-and-bell.md) →

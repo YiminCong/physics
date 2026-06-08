@@ -22,6 +22,20 @@
 
 **应用。** 这是对 BCS 理论决定性的实验验证，也是约瑟夫森结（5.8）的概念基础。
 
+**Self-test (blank page)**
+
+1. Write the BCS quasiparticle density of states N_s(E) = N(0)·E/√(E² − Δ²) for E > Δ, and state its value for E < Δ. Sketch the shape and explain the divergence just above Δ.
+2. In a normal-metal/insulator/superconductor tunnel junction, explain why no single-particle current flows until the bias voltage satisfies eV ≥ Δ. How does this provide a direct measurement of the gap?
+3. The Giaever tunneling experiment is computed using Fermi's golden rule (Module 3.8) and the BCS density of states. What is the role of the normal-metal DOS in simplifying the result, and what does the I–V characteristic look like?
+4. How does the tunneling spectrum change as temperature rises toward T_c? What happens to the gap edge feature as Δ(T) → 0, and how does this confirm the temperature dependence of the BCS gap?
+
+**自测（空白页）**
+
+1. 写出 E > Δ 时的 BCS 准粒子态密度 N_s(E) = N(0)·E/√(E² − Δ²)，并给出 E < Δ 时的值。画出其形状并解释紧靠 Δ 上方的发散性。
+2. 在正常金属/绝缘体/超导体隧道结中，解释为何在偏压满足 eV ≥ Δ 之前没有单粒子电流流动。这如何提供对能隙的直接测量？
+3. 贾埃弗隧穿实验通过费米黄金法则（模块 3.8）和 BCS 态密度计算得出。正常金属态密度在简化结果中起什么作用？I–V 特性曲线是什么形状？
+4. 当温度升高趋近 T_c 时，隧穿谱如何变化？随着 Δ(T) → 0，能隙边缘特征发生什么变化？这如何证实 BCS 能隙的温度依赖性？
+
 ---
 
 ← Previous: [Module 5.5 — BCS Theory](./module-5.5-bcs-theory.md) · [Phase 5 index](./README.md) · Next: [Module 5.7 — Type II Superconductors & Vortices](./module-5.7-type-ii-superconductors-and-vortices.md) →

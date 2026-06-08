@@ -24,4 +24,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Write the time-evolution operator Û(t) for a time-independent Hamiltonian. Show that it is unitary and explain why unitarity guarantees conservation of probability.
+2. State the Heisenberg equation of motion for an operator Â(t). Apply it to the harmonic-oscillator annihilation operator a to show that a(t) = a(0) e^{−iωt}.
+3. Describe Feynman's path integral in words: what is being summed, what is the weight of each path, and how does the classical action S appear in the formulation?
+
+**自测（空白页）**
+
+1. 写出时间无关哈密顿量的时间演化算符 Û(t)，证明它是幺正的，并解释为何幺正性保证概率守恒。
+2. 写出算符 Â(t) 的海森堡运动方程。将其应用于谐振子的湮灭算符 a，证明 a(t) = a(0) e^{−iωt}。
+3. 用文字描述费曼路径积分：对什么求和？每条路径的权重是什么？经典作用量 S 如何出现在这一表述中？
+
+---
+
 ← Previous: [Module 3.9 — Fundamental Concepts](./module-3.9-fundamental-concepts.md) · [Phase 3 index](./README.md) · Next: [Module 3.11 — Angular Momentum, Advanced](./module-3.11-angular-momentum-advanced.md) →

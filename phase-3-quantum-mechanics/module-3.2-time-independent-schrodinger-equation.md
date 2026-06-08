@@ -32,4 +32,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Explain separation of variables for the Schrödinger equation: what form does ψ(x,t) take, and what eigenvalue equation does the spatial part satisfy?
+2. State the energy eigenvalues Eₙ and normalized eigenfunctions ψₙ for the infinite square well of width L.
+3. Define the ladder operators a and a† for the harmonic oscillator and state the energy spectrum Eₙ. Why is the zero-point energy ½ℏω physically significant?
+4. Describe quantum tunneling qualitatively: how can a particle penetrate a barrier where E < V, and what determines the transmission probability?
+
+**自测（空白页）**
+
+1. 解释薛定谔方程的分离变量法：ψ(x,t) 取什么形式？空间部分满足什么本征值方程？
+2. 写出宽度为 L 的无限深方势阱的能量本征值 Eₙ 和归一化本征函数 ψₙ。
+3. 定义谐振子的梯形算符 a 和 a†，并写出能谱 Eₙ。为什么零点能 ½ℏω 在物理上有重要意义？
+4. 定性描述量子隧穿：粒子如何能穿透 E < V 的势垒区域？什么决定透射概率？
+
+---
+
 ← Previous: [Module 3.1 — The Wave Function](./module-3.1-the-wave-function.md) · [Phase 3 index](./README.md) · Next: [Module 3.3 — Formalism](./module-3.3-formalism.md) →

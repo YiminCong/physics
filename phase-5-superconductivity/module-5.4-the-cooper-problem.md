@@ -22,6 +22,20 @@
 
 **应用。** 这证明了正常态必定重组为配对态，从而为完整的 BCS 多体处理（5.5）提供了动机。配对 (k↑, −k↓) 正是模块 3.11 中的**自旋单态**，用模块 3.12 的算符写出。
 
+**Self-test (blank page)**
+
+1. State Cooper's theorem: two electrons just above a filled Fermi sea, subject to any arbitrarily weak attraction, form a bound pair. Why is the filled Fermi sea essential — would the same argument work in vacuum?
+2. The Cooper pair binding energy has the form ∝ e^{−1/(g·N(0))}. Explain why this non-analytic dependence on the coupling g means no finite order of perturbation theory can ever predict pairing.
+3. Why do Cooper pairs form in the (k↑, −k↓) channel? What symmetry arguments — time reversal and the Pauli principle — favour this combination over, say, (k↑, k′↑)?
+4. If the density of states at the Fermi level N(0) doubles (e.g. by changing the material), how does the Cooper pair binding energy change? Does T_c increase or decrease, and by how much according to the exponential formula?
+
+**自测（空白页）**
+
+1. 写出库珀定理：在填满的费米海上方刚加入的两个电子，受任意弱小吸引力的作用即可形成束缚对。为何填满的费米海是必要条件——同样的论证在真空中能成立吗？
+2. 库珀对结合能的形式为 ∝ e^{−1/(g·N(0))}。解释为何这种对耦合常数 g 的非解析依赖意味着任意有限阶微扰论都无法预言配对。
+3. 为何库珀对在 (k↑, −k↓) 通道中形成？哪些对称性论证——时间反演和泡利原理——支持这种组合而非例如 (k↑, k′↑)？
+4. 若费米能级处的态密度 N(0) 加倍（例如通过更换材料），库珀对结合能如何变化？根据指数公式，T_c 增大还是减小，变化量级是多少？
+
 ---
 
 ← Previous: [Module 5.3 — Ginzburg–Landau Theory](./module-5.3-ginzburg-landau-theory.md) · [Phase 5 index](./README.md) · Next: [Module 5.5 — BCS Theory](./module-5.5-bcs-theory.md) →

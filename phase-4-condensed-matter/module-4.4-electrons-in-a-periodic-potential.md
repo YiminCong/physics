@@ -30,4 +30,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. State Bloch's theorem: write the Bloch wavefunction ψ_k(r) = e^{ik·r} u_k(r) and explain the role of u_k. Why does periodicity of the crystal force this form?
+2. In the nearly-free-electron model, a gap of size 2|V_G| opens at the Brillouin-zone boundary. Where does this gap come from, and why does only the Fourier component V_G of the potential matter?
+3. Write the tight-binding dispersion E(k) = E₀ − 2t cos(ka) for a 1D chain. What sets the bandwidth, and what is the effective mass near the band bottom?
+4. State the rule relating band filling to metallic versus insulating behaviour. Why must superconductivity occur in a metal, and how does this module set the stage for BCS theory?
+
+**自测（空白页）**
+
+1. 写出布洛赫定理：写出布洛赫波函数 ψ_k(r) = e^{ik·r} u_k(r) 并解释 u_k 的含义。为何晶体的周期性迫使波函数取此形式？
+2. 在近自由电子模型中，布里渊区边界处打开大小为 2|V_G| 的能隙。这个能隙从何而来？为何只有势的傅里叶分量 V_G 起作用？
+3. 写出一维链的紧束缚色散 E(k) = E₀ − 2t cos(ka)。带宽由什么决定？能带底部附近的有效质量是多少？
+4. 写出能带填充与金属/绝缘体行为的判据。为何超导必须发生在金属中，以及本模块如何为 BCS 理论铺垫？
+
+---
+
 ← Previous: [Module 4.3 — Lattice Vibrations & Phonons](./module-4.3-lattice-vibrations-and-phonons.md) · [Phase 4 index](./README.md) · Next: [Module 4.5 — Fermi Surface & Electron–Phonon Coupling](./module-4.5-fermi-surface-and-electron-phonon-coupling.md) →

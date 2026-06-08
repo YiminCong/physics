@@ -30,4 +30,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Why must observables be represented by Hermitian operators? What is special about the eigenvalues and eigenstates of a Hermitian operator?
+2. If a state |ψ⟩ = Σ cₙ|n⟩ is expanded in the eigenbasis of an observable, what is the probability of obtaining eigenvalue λₙ in a measurement, and what happens to the state immediately after?
+3. Compute the commutator [x̂, p̂] and state what its non-zero value implies about simultaneously measuring position and momentum. Derive the resulting uncertainty relation Δx Δp ≥ ℏ/2 from the general form ΔA ΔB ≥ ½|⟨[Â,B̂]⟩|.
+
+**自测（空白页）**
+
+1. 为什么可观测量必须用厄米算符表示？厄米算符的本征值和本征态有何特殊性质？
+2. 若态 |ψ⟩ = Σ cₙ|n⟩ 展开于某可观测量的本征基，测量得到本征值 λₙ 的概率是多少？测量后态立即变为什么？
+3. 计算对易子 [x̂, p̂]，并说明其非零结果对同时测量位置和动量意味着什么。由广义不确定关系 ΔA ΔB ≥ ½|⟨[Â,B̂]⟩| 推导出 Δx Δp ≥ ℏ/2。
+
+---
+
 ← Previous: [Module 3.2 — Time-Independent Schrödinger Equation](./module-3.2-time-independent-schrodinger-equation.md) · [Phase 3 index](./README.md) · Next: [Module 3.4 — Quantum Mechanics in 3D](./module-3.4-quantum-mechanics-in-3d.md) →

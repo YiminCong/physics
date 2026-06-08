@@ -26,4 +26,18 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. Write the commutation relations [Ĵᵢ, Ĵⱼ] = iℏ εᵢⱼₖ Ĵₖ. Define the ladder operators J± and state how they act on the simultaneous eigenstate |j, m⟩ of Ĵ² and Ĵ_z.
+2. Combine two spin-½ particles. List the four product basis states and write the singlet and triplet states explicitly in terms of |↑⟩ and |↓⟩. What are the total spin quantum numbers (S, M) for each?
+3. What are Clebsch–Gordan coefficients? State the rule for the allowed values of total angular momentum j when combining two angular momenta j₁ and j₂.
+
+**自测（空白页）**
+
+1. 写出对易关系 [Ĵᵢ, Ĵⱼ] = iℏ εᵢⱼₖ Ĵₖ。定义梯形算符 J±，并写出它们作用于 Ĵ² 和 Ĵ_z 的共同本征态 |j, m⟩ 的结果。
+2. 合成两个自旋-½ 粒子。列出四个直积基态，用 |↑⟩ 和 |↓⟩ 明确写出单态和三重态。每个态的总自旋量子数 (S, M) 是多少？
+3. 什么是克莱布施–高登系数？当合成角动量 j₁ 和 j₂ 时，总角动量 j 的允许取值规则是什么？
+
+---
+
 ← Previous: [Module 3.10 — Quantum Dynamics](./module-3.10-quantum-dynamics.md) · [Phase 3 index](./README.md) · Next: [Module 3.12 — Second Quantization](./module-3.12-second-quantization.md) →

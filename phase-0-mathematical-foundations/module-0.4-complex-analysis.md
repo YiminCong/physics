@@ -106,4 +106,4 @@ If solid, advance to **Module 0.5 — Fourier Analysis & Probability**.
 
 ---
 
-← Previous: [Module 0.3 — Differential Equations](./module-0.3-differential-equations.md) · *Phase 0 index: [Mathematical Foundations](./README.md)*
+← Previous: [Module 0.3 — Differential Equations](./module-0.3-differential-equations.md) · [Phase 0 index](./README.md) · Next: [Module 0.5 — Fourier Analysis & Probability](./module-0.5-fourier-analysis-and-probability.md) →

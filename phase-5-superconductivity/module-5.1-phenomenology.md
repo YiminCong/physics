@@ -24,4 +24,20 @@
 
 ---
 
+**Self-test (blank page)**
+
+1. State the two defining experimental properties of a superconductor below T_c. Why is the Meissner effect logically distinct from mere perfect conductivity?
+2. Describe the field-cooled versus zero-field-cooled experiment for (a) a perfect conductor and (b) a superconductor. What outcome distinguishes them?
+3. State the isotope effect and explain what it implies about the microscopic pairing mechanism in conventional superconductors.
+4. A superconductor is destroyed above a critical field H_c or a critical current density j_c. Qualitatively, why does a large current destroy superconductivity?
+
+**自测（空白页）**
+
+1. 写出超导体在 T_c 以下的两个决定性实验性质。为何迈斯纳效应在逻辑上不同于单纯的完美导电性？
+2. 分别描述（a）完美导体和（b）超导体的场冷与零场冷实验结果。什么结果能区分两者？
+3. 写出同位素效应，并解释它对传统超导体中微观配对机制的含义。
+4. 超过临界磁场 H_c 或临界电流密度 j_c 时超导性被破坏。定性解释为何大电流会破坏超导性。
+
+---
+
 ← *Phase 5 index: [Superconductivity](./README.md)* · Next: [Module 5.2 — London Theory](./module-5.2-london-theory.md) →
