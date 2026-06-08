@@ -1,21 +1,32 @@
 # Module 3.2 — Time-Independent Schrödinger Equation ⭐
+**模块 3.2 — 定态薛定谔方程 ⭐**
 
 > **Phase 3 — [Quantum Mechanics](./README.md)** · Format: Definition → Demonstration → Application
+> **第 3 阶段 — 量子力学 · 格式：定义 → 演示 → 应用**
 
 ---
 
-## 1. Stationary States
+## 1. Stationary States · 定态
 
 **Definition.** Separating variables ψ(x,t) = ψ(x)e^{−iEt/ℏ} turns the Schrödinger equation into the **time-independent Schrödinger equation (TISE)** Ĥψ = Eψ — an eigenvalue problem (Module 0.2). Solutions ψₙ are stationary states; general states are superpositions Σ cₙ ψₙ e^{−iEₙt/ℏ}.
 
-## 2. The Canonical Solvable Systems
+**定义。** 分离变量 ψ(x,t) = ψ(x)e^{−iEt/ℏ} 将薛定谔方程转化为**定态薛定谔方程（TISE）** Ĥψ = Eψ——一个本征值问题（模块 0.2）。解 ψₙ 称为定态；一般态为叠加态 Σ cₙ ψₙ e^{−iEₙt/ℏ}。
+
+## 2. The Canonical Solvable Systems · 典型可解系统
 
 **Demonstration.**
 - **Infinite square well** (width L): ψₙ = √(2/L) sin(nπx/L), **Eₙ = n²π²ℏ²/(2mL²)** — energy is quantized by boundary conditions.
 - **Harmonic oscillator**, solved with **ladder operators** a = √(mω/2ℏ)(x̂ + ip̂/mω) and a†: the spectrum is **Eₙ = (n + ½)ℏω**, with a† raising and a lowering the state. Note the zero-point energy ½ℏω.
 - **Barrier**: a particle can **tunnel** through a region where E < V, with exponentially small transmission.
 
+**演示。**
+- **无限深方势阱**（宽度 L）：ψₙ = √(2/L) sin(nπx/L)，**Eₙ = n²π²ℏ²/(2mL²)**——能量由边界条件量子化。
+- **谐振子**，用**梯形算符** a = √(mω/2ℏ)(x̂ + ip̂/mω) 和 a† 求解：能谱为 **Eₙ = (n + ½)ℏω**，a† 升态，a 降态。注意零点能 ½ℏω。
+- **势垒**：粒子可以**隧穿**过 E < V 的区域，透射率指数级小。
+
 **Application.** The oscillator ladder operators reappear *verbatim* as phonon operators (Phase 4) and in the BCS Hamiltonian (Phase 5). Quantized levels and tunneling are the bread and butter of all that follows.
+
+**应用。** 谐振子梯形算符*原封不动地*作为声子算符重现于第 4 阶段，并出现在 BCS 哈密顿量（第 5 阶段）中。量子化能级和隧穿效应是后续所有内容的基础。
 
 ---
 

@@ -1,28 +1,44 @@
 # Module 1.4 — Hamiltonian Mechanics, Action & Noether's Theorem ⭐
+**模块 1.4 — 哈密顿力学、作用量与诺特定理 ⭐**
 
 > **Phase 1 — [Classical Physics](./README.md)** · Format: Definition → Demonstration → Application
+> **第 1 阶段 — 经典物理 · 格式：定义 → 演示 → 应用**
 
 ---
 
-## 1. The Hamiltonian and Hamilton's Equations
+## 1. The Hamiltonian and Hamilton's Equations · 哈密顿量与哈密顿方程
 
 **Definition.** Given the Lagrangian L(q, q̇, t), define the **conjugate momentum** p_i = ∂L/∂q̇_i. The **Hamiltonian** is obtained by a Legendre transform: H(q, p, t) = Σ_i p_i q̇_i − L. For systems with time-independent, velocity-independent potentials, H = T + V = total energy. **Hamilton's equations** replace the n second-order Euler–Lagrange equations with 2n first-order equations:
+
+**定义。** 给定拉格朗日量 L(q, q̇, t)，定义**共轭动量** p_i = ∂L/∂q̇_i。**哈密顿量**由勒让德变换得到：H(q, p, t) = Σ_i p_i q̇_i − L。对于势能不依赖时间和速度的系统，H = T + V = 总能量。**哈密顿方程**将 n 个二阶欧拉–拉格朗日方程替换为 2n 个一阶方程：
 
 q̇_i = ∂H/∂p_i,   ṗ_i = −∂H/∂q_i.
 
 The state of the system is a point in **phase space** (q, p), and Hamilton's equations describe the flow of that point. The **Poisson bracket** of two observables f, g is {f, g} = Σ_i (∂f/∂q_i ∂g/∂p_i − ∂f/∂p_i ∂g/∂q_i). In particular {q_i, p_j} = δ_{ij}, and the equation of motion for any observable is ḟ = {f, H} + ∂f/∂t.
 
+系统的状态是**相空间** (q, p) 中的一个点，哈密顿方程描述该点的流动。两个可观测量 f、g 的**泊松括号**为 {f, g} = Σ_i (∂f/∂q_i ∂g/∂p_i − ∂f/∂p_i ∂g/∂q_i)。特别地，{q_i, p_j} = δ_{ij}，任何可观测量的运动方程为 ḟ = {f, H} + ∂f/∂t。
+
 **Demonstration.** For the 1D harmonic oscillator H = p²/2m + ½mω²q². Hamilton's equations give q̇ = p/m and ṗ = −mω²q, which combine to q̈ = −ω²q. Phase-space trajectories are ellipses in the (q, p) plane with area 2πE/ω, an adiabatic invariant.
+
+**演示。** 对于一维谐振子 H = p²/2m + ½mω²q²，哈密顿方程给出 q̇ = p/m 和 ṗ = −mω²q，两者合并得 q̈ = −ω²q。相空间轨迹是 (q, p) 平面上面积为 2πE/ω 的椭圆，这是一个绝热不变量。
 
 **Application.** Poisson brackets are the classical skeleton of quantum **commutators**: the canonical quantisation rule replaces {q, p} = 1 with [q̂, p̂] = iℏ (Module 3.3). The Hamiltonian generates time evolution both classically (via Poisson brackets) and quantum mechanically (via the Schrödinger equation, Module 3.10). Phase-space thinking underlies statistical mechanics (Phase 2) through Liouville's theorem (phase-space volume is conserved).
 
-## 2. Noether's Theorem: Symmetry → Conservation Law
+**应用。** 泊松括号是量子**对易子**的经典骨架：正则量子化规则将 {q, p} = 1 替换为 [q̂, p̂] = iℏ（模块 3.3）。哈密顿量在经典力学（通过泊松括号）和量子力学（通过薛定谔方程，模块 3.10）中均生成时间演化。相空间思维通过刘维尔定理（相空间体积守恒）支撑着统计力学（第 2 阶段）。
+
+## 2. Noether's Theorem: Symmetry → Conservation Law · 诺特定理：对称性 → 守恒定律
 
 **Definition.** **Noether's theorem** (1915) states that every continuous (differentiable) symmetry of the action S = ∫L dt corresponds to a conserved quantity. Formally, if L is invariant under a one-parameter family of transformations q_i → q_i + ε δq_i (to first order in ε), the **Noether charge** Q = Σ_i (∂L/∂q̇_i) δq_i is conserved: dQ/dt = 0.
 
+**定义。** **诺特定理**（1915 年）指出，作用量 S = ∫L dt 的每一个连续（可微）对称性对应一个守恒量。形式上，若 L 在单参数变换族 q_i → q_i + ε δq_i（对 ε 一阶近似）下不变，则**诺特荷** Q = Σ_i (∂L/∂q̇_i) δq_i 守恒：dQ/dt = 0。
+
 **Demonstration.** Three canonical examples: (1) L independent of time t → H conserved (energy). (2) L independent of a spatial translation x → p_x conserved (linear momentum). (3) L independent of a rotation angle φ → L_z = mr²φ̇ conserved (angular momentum). Each follows from the cyclic-coordinate argument in Module 1.3 applied to the appropriate generalised coordinate.
 
+**演示。** 三个典型例子：(1) L 不显含时间 t → H 守恒（能量）。(2) L 不显含空间平移坐标 x → p_x 守恒（线动量）。(3) L 不显含转角 φ → L_z = mr²φ̇ 守恒（角动量）。每一个都源于模块 1.3 中循环坐标论证应用于适当广义坐标的结果。
+
 **Application.** Noether's theorem is arguably the deepest organising principle in all of physics. In field theory, local (gauge) symmetries produce the conservation of charge and the existence of force-carrying bosons (Phase 8). The global U(1) symmetry of quantum mechanics produces charge conservation; SU(2) and SU(3) gauge symmetries produce the weak and strong forces. Every fundamental interaction is a consequence of a symmetry — the logic that starts here.
+
+**应用。** 诺特定理可以说是整个物理学中最深刻的组织原理。在场论中，局域（规范）对称性产生电荷守恒和传力玻色子的存在（第 8 阶段）。量子力学的整体 U(1) 对称性产生电荷守恒；SU(2) 和 SU(3) 规范对称性产生弱力和强力。每一种基本相互作用都是某种对称性的结果——这一逻辑从这里开始。
 
 ---
 
@@ -32,6 +48,13 @@ The state of the system is a point in **phase space** (q, p), and Hamilton's equ
 2. Compute the Poisson bracket {L_x, L_y} for a 3D particle, where L = r × p. What does the result tell you about angular momentum components?
 3. Show, using Noether's theorem, that if V depends only on the distance |r₁ − r₂| between two particles, total momentum is conserved.
 4. What is the quantum analogue of the classical Poisson bracket {q, p} = 1, and why is it physically significant?
+
+**自测（空白页）**
+
+1. 从 L = ½mq̇² − V(q) 出发，通过勒让德变换求 H，并写出哈密顿方程。
+2. 对三维粒子（L = r × p）计算泊松括号 {L_x, L_y}。结果告诉你关于角动量分量的什么信息？
+3. 利用诺特定理证明：若 V 仅依赖两粒子间距 |r₁ − r₂|，则总动量守恒。
+4. 经典泊松括号 {q, p} = 1 的量子对应是什么？为什么它在物理上意义重大？
 
 ---
 
