@@ -48,4 +48,4 @@
 
 ---
 
-← Previous: [Module 6.6 — Renormalization & the Renormalization Group](./module-6.6-renormalization.md) · [Phase 6 index](./README.md)
+← Previous: [Module 6.6 — Renormalization & the Renormalization Group](./module-6.6-renormalization.md) · [Phase 6 index](./README.md) · Next: [Module 6.8 — Scattering, the S-Matrix & LSZ Reduction](./module-6.8-scattering-s-matrix-and-lsz.md) →

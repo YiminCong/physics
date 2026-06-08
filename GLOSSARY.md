@@ -357,6 +357,14 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Lee–Yang theorem | 李–杨定理 | Transitions occur where partition-function zeros approach the real axis. |
 | Off-diagonal long-range order (ODLRO) | 非对角长程序 | Yang's rigorous criterion for superfluid / superconducting order. |
 | Byers–Yang theorem | 拜尔斯–杨定理 | Gauge invariance forces flux quantization in units of h/2e. |
+| S-matrix | S 矩阵 | The unitary operator mapping free in-states to free out-states. |
+| LSZ reduction | LSZ 约化 | Relates S-matrix elements to on-shell amputated Green's functions. |
+| Mandelstam variables | 曼德尔斯坦变量 | The invariants s, t, u of a 2→2 scattering process. |
+| Optical theorem | 光学定理 | Unitarity relating the forward amplitude to the total cross-section. |
+| Chiral anomaly | 手征反常 | A classical symmetry (axial current) broken by quantization. |
+| Instanton | 瞬子 | A finite-action solution describing tunnelling between vacua. |
+| Lattice gauge theory | 格点规范理论 | Non-perturbative QFT on a discretized spacetime. |
+| Strong CP problem | 强 CP 问题 | Why the QCD θ-term is unobservably small; solved by the axion. |
 
 ---
 
@@ -428,6 +436,13 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Parity | 宇称 | Symmetry under spatial inversion (mirror reflection). |
 | Parity violation | 宇称不守恒 | The weak interaction is not mirror-symmetric (Lee–Yang; Wu experiment). |
 | Chirality (handedness) | 手征性 | The weak force couples only to left-handed fermions. |
+| Quark model | 夸克模型 | Classifies hadrons as q q̄ (mesons) and qqq (baryons) bound states. |
+| Flavor SU(3) / eightfold way | 味 SU(3) / 八重法 | Approximate u,d,s symmetry organizing hadrons into multiplets. |
+| Isospin | 同位旋 | The approximate SU(2) symmetry between the u and d quarks. |
+| Deep inelastic scattering (DIS) | 深度非弹性散射 | High-Q² lepton–proton scattering probing quark/parton structure. |
+| Bjorken scaling | 比约肯标度 | Q²-independence of structure functions; sign of pointlike partons. |
+| Callan–Gross relation | 卡兰–格罗斯关系 | 2xF₁ = F₂, showing the charged partons are spin-½. |
+| Parton distribution function (PDF) | 部分子分布函数 | The probability density f(x) for a parton to carry momentum fraction x. |
 
 ---
 

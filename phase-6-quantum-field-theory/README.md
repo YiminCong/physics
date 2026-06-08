@@ -27,6 +27,8 @@ This phase delivers the research-level toolkit that underpins both modern conden
 | [6.5](./module-6.5-canonical-quantization.md) | Canonical Quantization of Fields · 场的正则量子化 | ⭐ |
 | [6.6](./module-6.6-renormalization.md) | Renormalization & the Renormalization Group · 重整化与重整化群 | ⭐⭐ |
 | [6.7](./module-6.7-exactly-solvable-models-and-long-range-order.md) | Exactly Solvable Models & Long-Range Order · 精确可解模型与长程序 | |
+| [6.8](./module-6.8-scattering-s-matrix-and-lsz.md) | Scattering, the S-Matrix & LSZ Reduction · 散射、S 矩阵与 LSZ 约化 | |
+| [6.9](./module-6.9-anomalies-and-nonperturbative-qft.md) | Anomalies & Non-Perturbative QFT · 反常与非微扰量子场论 | |
 
 ## Further Reading · 延伸阅读
 
