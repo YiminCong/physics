@@ -259,7 +259,7 @@ Integration by parts and use of the known result for the Sommerfeld expansion (s
 
 where γ = 0.5772… is the Euler–Mascheroni constant (the same that appears in the asymptotic expansion of the digamma function and in Σ 1/n − ln n). The key step uses the Fourier series for tanh and the integral ∫₀^∞ (tanh x − 1)/x dx = −ln(4e^γ/π). Thus:
 
-其中 γ = 0.5772… 是欧拉–马斯凯罗尼常数（与二函数的渐近展开和 Σ 1/n − ln n 中出现的相同）。关键步骤使用 tanh 的傅里叶级数和积分 ∫₀^∞ (tanh x − 1)/x dx = −ln(4e^γ/π)。于是：
+其中 γ = 0.5772… 是欧拉–马斯凯罗尼常数（与双伽马（digamma）函数的渐近展开和 Σ 1/n − ln n 中出现的相同）。关键步骤使用 tanh 的傅里叶级数和积分 ∫₀^∞ (tanh x − 1)/x dx = −ln(4e^γ/π)。于是：
 
   I_c ≈ ln(ℏω_D/(2k_BT_c)) + ln(4e^γ/π) = ln(2e^γ ℏω_D/(π k_BT_c)).
 
