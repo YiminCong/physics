@@ -3,6 +3,8 @@
 
 > **Phase 0 — [Mathematical Foundations](./README.md)** · Format: Definition → Demonstration → Application
 > **第 0 阶段 — 数学基础** · 格式：定义 → 演示 → 应用
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-0.2-linear-algebra-derivations.md)
 
 Linear algebra is not background material for quantum mechanics — it *is* quantum mechanics. Every state, every measurement, every time evolution is a statement in the language of vectors and operators.
 

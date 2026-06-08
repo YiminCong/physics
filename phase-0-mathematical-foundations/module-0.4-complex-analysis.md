@@ -3,6 +3,8 @@
 
 > **Phase 0 — [Mathematical Foundations](./README.md)** · Format: Definition → Demonstration → Application
 > **第 0 阶段 — 数学基础** · 格式：定义 → 演示 → 应用
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-0.4-complex-analysis-derivations.md)
 
 Complex numbers aren't a mathematical curiosity in physics — quantum amplitudes are
 intrinsically complex, and the *phase* of a complex number is what carries interference,

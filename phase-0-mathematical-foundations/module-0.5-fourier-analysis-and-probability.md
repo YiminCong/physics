@@ -3,6 +3,8 @@
 
 > **Phase 0 — [Mathematical Foundations](./README.md)** · Format: Definition → Demonstration → Application
 > **第 0 阶段 — 数学基础** · 格式：定义 → 演示 → 应用
+>
+> 📐 **Full step-by-step proofs:** [Derivations · 推导](./module-0.5-fourier-analysis-and-probability-derivations.md)
 
 Fourier analysis decomposes complexity into frequencies; probability quantifies uncertainty. In quantum mechanics these two ideas merge — the Fourier relationship between position and momentum *is* the uncertainty principle, and probability amplitudes *are* the quantities being decomposed.
 
