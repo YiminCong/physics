@@ -185,7 +185,7 @@ Using the identity $P_R\gamma^\mu = \gamma^\mu P_L$ (from $\{\gamma^\mu, \gamma^
 
 $$ \bar\psi_L\gamma^\mu\psi'_L = \bar\psi(P_R\gamma^\mu P_L)\psi' = \bar\psi(\gamma^\mu P_L P_L)\psi' = \bar\psi\gamma^\mu P_L\psi'. \quad \text{So:} $$
 
-$$ \bar\psi_L\gamma^\mu\psi'_L = \bar\psi(P_R\gamma^\mu P_L)\psi' = \bar\psi(\gamma^\mu P_L P_L)\psi' = \bar\psi\gamma^\mu P_L\psi'。\quad \text{故：} $$
+$$ \bar\psi_L\gamma^\mu\psi'_L = \bar\psi(P_R\gamma^\mu P_L)\psi' = \bar\psi(\gamma^\mu P_L P_L)\psi' = \bar\psi\gamma^\mu P_L\psi'\text{。}\quad \text{故：} $$
 
 $$ \bar\psi_L\gamma^\mu\psi'_L = \bar\psi\gamma^\mu P_L\psi' = \bar\psi\gamma^\mu (1-\gamma^5)/2 \cdot \psi' = \mathbf{(1/2)\bar\psi\gamma^\mu(1-\gamma^5)\psi'}. $$
 

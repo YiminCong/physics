@@ -112,7 +112,7 @@ Add:
 
 $$ i\hbar\, [\, \bar\psi \gamma^\mu (\partial_\mu \psi) + (\partial_\mu \bar\psi) \gamma^\mu \psi \,] = 0, $$
 $$ i\hbar\, \partial_\mu (\bar\psi \gamma^\mu \psi) = 0, $$
-$$ \partial_\mu j^\mu = 0, \qquad\text{where}\quad j^\mu = \bar\psi \gamma^\mu \psi. \quad ✓ $$
+$$ \partial_\mu j^\mu = 0, \qquad\text{where}\quad j^\mu = \bar\psi \gamma^\mu \psi. \quad \checkmark $$
 
 **Step 3 — Positivity of $j^0$.** The time component is
 

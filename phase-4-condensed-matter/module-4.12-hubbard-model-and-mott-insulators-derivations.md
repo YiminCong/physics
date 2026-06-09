@@ -183,7 +183,7 @@ $$ J(-3/4 - 1/4) = -4t^2/U \implies -J = -4t^2/U \implies J = 4t^2/U. $$
 
 **第 7 步 — 重写为海森堡耦合。** 现在用自旋算符 $\boldsymbol{S}_i \cdot \boldsymbol{S}_j$ 表达谱 $\{\text{单态在 } -4t^2/U,\ \text{三重态在 } 0\}$。利用 $\boldsymbol{S}_i \cdot \boldsymbol{S}_j = \tfrac12[(\boldsymbol{S}_i + \boldsymbol{S}_j)^2 - \boldsymbol{S}_i^2 - \boldsymbol{S}_j^2] = \tfrac12[S_\text{tot}(S_\text{tot}+1) - \tfrac34 - \tfrac34]$，且 $S_i = S_j = \tfrac12$：
 
-$$ \text{单态}（S_\text{tot} = 0）：\boldsymbol{S}_i \cdot \boldsymbol{S}_j = \tfrac12[0 - 3/2] = -3/4, \qquad \text{三重态}（S_\text{tot} = 1）：\boldsymbol{S}_i \cdot \boldsymbol{S}_j = \tfrac12[2 - 3/2] = +1/4. $$
+$$ \text{单态（}S_\text{tot} = 0\text{）：}\boldsymbol{S}_i \cdot \boldsymbol{S}_j = \tfrac12[0 - 3/2] = -3/4, \qquad \text{三重态（}S_\text{tot} = 1\text{）：}\boldsymbol{S}_i \cdot \boldsymbol{S}_j = \tfrac12[2 - 3/2] = +1/4. $$
 
 设 $H_\text{eff} = J\, \boldsymbol{S}_i \cdot \boldsymbol{S}_j + c$（常数 $c$）。匹配两个能量：
 

@@ -32,7 +32,7 @@ $$ [G] = M^{-1}\, L^3\, T^{-2} \quad (\text{from } F = GMm/r^2: [F][r^2]/[M]^2 =
 
 $$ [c] = L\, T^{-1} $$
 $$ [\hbar] = M\, L^2\, T^{-1} \quad (\text{能量} \times \text{时间} = \text{作用量}) $$
-$$ [G] = M^{-1}\, L^3\, T^{-2} \quad (\text{由 } F = GMm/r^2: [F][r^2]/[M]^2 = (MLT^{-2})(L^2)(M^{-2}) = M^{-1}L^3 T^{-2})。 $$
+$$ [G] = M^{-1}\, L^3\, T^{-2} \quad (\text{由 } F = GMm/r^2: [F][r^2]/[M]^2 = (MLT^{-2})(L^2)(M^{-2}) = M^{-1}L^3 T^{-2})\text{。} $$
 
 ---
 
@@ -291,7 +291,7 @@ $$ M^2 dM = -(\hbar c^4 / G^2) dt \quad (\text{absorbing the numerical coefficie
 
 能量守恒：$-c^2 dM/dt = L \sim \hbar c^6 / (G^2 M^2)$。因此：
 
-$$ M^2 dM = -(\hbar c^4 / G^2) dt \quad (\text{数值系数约 1 已收入比例关系})。 $$
+$$ M^2 dM = -(\hbar c^4 / G^2) dt \quad (\text{数值系数约 1 已收入比例关系})\text{。} $$
 
 ---
 

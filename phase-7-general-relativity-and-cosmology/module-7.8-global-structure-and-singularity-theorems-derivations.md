@@ -30,9 +30,9 @@ $$ \begin{aligned}
 & dt = \pm dr/((1 - r_s/r)c) = \pm dr^*/c
 \end{aligned} $$
 
-So $ct \mp r^* = $ const: these are the ingoing ($ct + r^* = $ const) and outgoing ($ct - r^* = $ const) null geodesics. They become straight lines $\pm 45°$ in ($ct, r^*$) coordinates — the *Eddington–Finkelstein*-like picture.
+So $ct \mp r^* = $ const: these are the ingoing ($ct + r^* = $ const) and outgoing ($ct - r^* = $ const) null geodesics. They become straight lines $\pm 45^\circ$ in ($ct, r^*$) coordinates — the *Eddington–Finkelstein*-like picture.
 
-故 $ct \mp r^* = $ 常数：这些是向内（$ct + r^* = $ 常数）和向外（$ct - r^* = $ 常数）的类光测地线。在 ($ct, r^*$) 坐标中它们成为 $\pm 45°$ 的直线——类似 Eddington–Finkelstein 的图像。
+故 $ct \mp r^* = $ 常数：这些是向内（$ct + r^* = $ 常数）和向外（$ct - r^* = $ 常数）的类光测地线。在 ($ct, r^*$) 坐标中它们成为 $\pm 45^\circ$ 的直线——类似 Eddington–Finkelstein 的图像。
 
 **Step 2 — Define null coordinates.** Introduce:
 

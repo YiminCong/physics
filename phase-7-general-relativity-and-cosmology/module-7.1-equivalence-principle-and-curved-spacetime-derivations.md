@@ -167,7 +167,7 @@ $$ d\tau_1/d\tau_2 \approx 1 + (\varphi_1 - \varphi_2)/c^2 < 1, $$
 
 confirming that the clock in the deeper potential runs slow. For the GPS problem: $\varphi_{satellite} - \varphi_{surface} = +g_{eff} \cdot h$ with $h \approx 20\,200$ km, giving a rate difference of $\Delta(d\tau)/dt \approx +5.1 \times 10^{-10}$ ($\approx +45\ \mu$s/day), exactly matching the observed correction. $\blacksquare$
 
-这证实了势较深处的时钟走得更慢。对于 GPS 问题：$\varphi_{卫星} - \varphi_{地面} = +g_{eff} \cdot h$，其中 $h \approx 20\,200$ km，速率差为 $\Delta(d\tau)/dt \approx +5.1 \times 10^{-10}$（$\approx +45\ \mu$s/天），与观测到的修正完全吻合。$\blacksquare$
+这证实了势较深处的时钟走得更慢。对于 GPS 问题：$\varphi_{\text{卫星}} - \varphi_{\text{地面}} = +g_{eff} \cdot h$，其中 $h \approx 20\,200$ km，速率差为 $\Delta(d\tau)/dt \approx +5.1 \times 10^{-10}$（$\approx +45\ \mu$s/天），与观测到的修正完全吻合。$\blacksquare$
 
 ---
 

@@ -45,9 +45,9 @@ $$ \delta S = 0 \implies \text{classically:}\quad \partial_\mu j^{\mu 5} = 0 \qu
 
 $$ Z[A] = \int D\psi\, D\bar\psi\, \exp(iS[\psi, \bar\psi, A]) $$
 
-we expand $\psi$ and $\bar\psi$ in eigenmodes of the Euclidean Dirac operator $i\slashed{D}$ (analytically continued to Euclidean space for convergence). Let $\{\varphi_n\}$ be an orthonormal basis of eigenfunctions: $i\slashed{D}\, \varphi_n = \lambda_n \varphi_n$, $\langle\varphi_n|\varphi_m\rangle = \delta_{nm}$. Write
+we expand $\psi$ and $\bar\psi$ in eigenmodes of the Euclidean Dirac operator $i\not{D}$ (analytically continued to Euclidean space for convergence). Let $\{\varphi_n\}$ be an orthonormal basis of eigenfunctions: $i\not{D}\, \varphi_n = \lambda_n \varphi_n$, $\langle\varphi_n|\varphi_m\rangle = \delta_{nm}$. Write
 
-我们将 $\psi$ 和 $\bar\psi$ 展开为欧几里得狄拉克算符 $i\slashed{D}$ 的本征模（为收敛性解析延拓至欧几里得空间）。设 $\{\varphi_n\}$ 为正交归一本征函数基：$i\slashed{D}\, \varphi_n = \lambda_n \varphi_n$，$\langle\varphi_n|\varphi_m\rangle = \delta_{nm}$。写
+我们将 $\psi$ 和 $\bar\psi$ 展开为欧几里得狄拉克算符 $i\not{D}$ 的本征模（为收敛性解析延拓至欧几里得空间）。设 $\{\varphi_n\}$ 为正交归一本征函数基：$i\not{D}\, \varphi_n = \lambda_n \varphi_n$，$\langle\varphi_n|\varphi_m\rangle = \delta_{nm}$。写
 
 $$ \psi(x) = \sum_n a_n \varphi_n(x), \qquad \bar\psi(x) = \sum_n \bar b_n \varphi_n^\dagger(x), $$
 
@@ -71,11 +71,11 @@ This sum is formally divergent and must be regularized. We introduce a gauge-inv
 
 此求和在形式上发散，必须正规化。引入规范不变的高斯截断：$\mathcal{A}(x) = \lim_{M\to\infty} \sum_n \varphi_n^\dagger(x)\, \gamma^5\, e^{-\lambda_n^2/M^2}\, \varphi_n(x)$。
 
-**Step 4 — Evaluating the regularized trace.** Using the completeness of $\{\varphi_n\}$ and $(i\slashed{D})^2 = -D_\mu D^\mu - (e/2)\sigma^{\mu\nu}F_{\mu\nu}$ (where $\sigma^{\mu\nu} = i[\gamma^\mu, \gamma^\nu]/2$ and the Lichnerowicz-type identity comes from $[D_\mu, D_\nu] = -ieF_{\mu\nu}$):
+**Step 4 — Evaluating the regularized trace.** Using the completeness of $\{\varphi_n\}$ and $(i\not{D})^2 = -D_\mu D^\mu - (e/2)\sigma^{\mu\nu}F_{\mu\nu}$ (where $\sigma^{\mu\nu} = i[\gamma^\mu, \gamma^\nu]/2$ and the Lichnerowicz-type identity comes from $[D_\mu, D_\nu] = -ieF_{\mu\nu}$):
 
-**第 4 步 — 计算正规化迹。** 利用 $\{\varphi_n\}$ 的完备性和 $(i\slashed{D})^2 = -D_\mu D^\mu - (e/2)\sigma^{\mu\nu}F_{\mu\nu}$（其中 $\sigma^{\mu\nu} = i[\gamma^\mu, \gamma^\nu]/2$，类李希内罗维奇恒等式来自 $[D_\mu, D_\nu] = -ieF_{\mu\nu}$）：
+**第 4 步 — 计算正规化迹。** 利用 $\{\varphi_n\}$ 的完备性和 $(i\not{D})^2 = -D_\mu D^\mu - (e/2)\sigma^{\mu\nu}F_{\mu\nu}$（其中 $\sigma^{\mu\nu} = i[\gamma^\mu, \gamma^\nu]/2$，类李希内罗维奇恒等式来自 $[D_\mu, D_\nu] = -ieF_{\mu\nu}$）：
 
-$$ \mathcal{A}(x) = \lim_{M\to\infty} \langle x|\, \gamma^5\, e^{(i\slashed{D})^2/M^2}\, |x\rangle = \lim_{M\to\infty} \langle x|\, \gamma^5\, e^{(D^2+(e/2)\sigma F)/M^2}\, |x\rangle. $$
+$$ \mathcal{A}(x) = \lim_{M\to\infty} \langle x|\, \gamma^5\, e^{(i\not{D})^2/M^2}\, |x\rangle = \lim_{M\to\infty} \langle x|\, \gamma^5\, e^{(D^2+(e/2)\sigma F)/M^2}\, |x\rangle. $$
 
 Expand in powers of $1/M^2$ using the free heat kernel $\langle x|e^{D^2/M^2}|x\rangle = M^4/(16\pi^2) + (\text{field-dependent corrections})$:
 
@@ -549,7 +549,7 @@ $$ \boxed{\, M \ge v|g| = 4\pi v/e = (4\pi/e^2)\, m_W = m_W/\alpha \,} \quad (\a
 
 is saturated when $B^a_i = \pm D_i\phi^a$ (the first-order **BPS equations**, exactly solvable — the Prasad–Sommerfield solution). Monopoles are therefore very heavy, $\sim m_W/\alpha$: inaccessible at accelerator energies but a sharp prediction of any Grand Unified Theory (where the role of $m_W$ is played by the GUT scale $M_X \sim 10^{16}$ GeV, giving $M_{\rm monopole} \sim 10^{17}$–$10^{18}$ GeV).
 
-当 $B^a_i = \pm D_i\phi^a$（一阶 **BPS 方程**，可精确求解——Prasad–Sommerfield 解）时饱和。故单极子非常重，$\sim m_W/\alpha$：加速器能量无法企及，却是任何大统一理论的明确预言（其中 $m_W$ 的角色由 GUT 标度 $M_X \sim 10^{16}$ GeV 扮演，给出 $M_{\rm 单极子} \sim 10^{17}$–$10^{18}$ GeV）。
+当 $B^a_i = \pm D_i\phi^a$（一阶 **BPS 方程**，可精确求解——Prasad–Sommerfield 解）时饱和。故单极子非常重，$\sim m_W/\alpha$：加速器能量无法企及，却是任何大统一理论的明确预言（其中 $m_W$ 的角色由 GUT 标度 $M_X \sim 10^{16}$ GeV 扮演，给出 $M_{\text{单极子}} \sim 10^{17}$–$10^{18}$ GeV）。
 
 **Step 6 — Physical significance.** (i) Magnetic charge is now **topologically** quantized — no singular Dirac string is needed; the string is replaced by the smooth massive core. (ii) GUT phase transitions in the early universe inevitably produce these monopoles (the **monopole problem**), one of the original motivations for cosmic inflation, which dilutes them. (iii) The monopole is the prototype of **electric–magnetic duality** (Montonen–Olive): in suitable ($N = 4$ supersymmetric) theories the monopole and the gauge boson are exchanged by $g \leftrightarrow 4\pi/e$, exchanging strong and weak coupling. $\blacksquare$
 

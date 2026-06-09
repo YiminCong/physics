@@ -247,37 +247,37 @@ Therefore $|S| \le 2$ for any local hidden-variable theory. $\blacksquare$
 
 $$ \begin{aligned} S &= E(\mathbf{a},\mathbf{b}) - E(\mathbf{a},\mathbf{b}') + E(\mathbf{a}',\mathbf{b}) + E(\mathbf{a}',\mathbf{b}') \\ &= -\cos\theta_{ab} + \cos\theta_{ab'} - \cos\theta_{a'b} - \cos\theta_{a'b'}. \end{aligned} $$
 
-Work in the 2D plane. Let $\mathbf{a}$ be at angle $0°$, $\mathbf{b}$ at angle $\varphi_1$, $\mathbf{a}'$ at angle $\varphi_2$, and $\mathbf{b}'$ at angle $\varphi_3$. Choose the symmetric configuration:
+Work in the 2D plane. Let $\mathbf{a}$ be at angle $0^\circ$, $\mathbf{b}$ at angle $\varphi_1$, $\mathbf{a}'$ at angle $\varphi_2$, and $\mathbf{b}'$ at angle $\varphi_3$. Choose the symmetric configuration:
 
-在二维平面中工作。令 $\mathbf{a}$ 在 $0°$ 方向，$\mathbf{b}$ 在 $\varphi_1$ 方向，$\mathbf{a}'$ 在 $\varphi_2$ 方向，$\mathbf{b}'$ 在 $\varphi_3$ 方向。选择对称配置：
+在二维平面中工作。令 $\mathbf{a}$ 在 $0^\circ$ 方向，$\mathbf{b}$ 在 $\varphi_1$ 方向，$\mathbf{a}'$ 在 $\varphi_2$ 方向，$\mathbf{b}'$ 在 $\varphi_3$ 方向。选择对称配置：
 
-$$ \mathbf{a} = 0°, \quad \mathbf{b} = 45°, \quad \mathbf{a}' = 90°, \quad \mathbf{b}' = 135°. $$
+$$ \mathbf{a} = 0^\circ, \quad \mathbf{b} = 45^\circ, \quad \mathbf{a}' = 90^\circ, \quad \mathbf{b}' = 135^\circ. $$
 
 Then:
 
 则：
 
-$$ \theta_{ab} = 45°, \quad \theta_{ab'} = 135°, \quad \theta_{a'b} = 45°, \quad \theta_{a'b'} = 45°. $$
+$$ \theta_{ab} = 45^\circ, \quad \theta_{ab'} = 135^\circ, \quad \theta_{a'b} = 45^\circ, \quad \theta_{a'b'} = 45^\circ. $$
 
-$$ S = -\cos(45°) + \cos(135°) - \cos(45°) - \cos(45°) \quad \leftarrow \text{let's recompute carefully.} $$
+$$ S = -\cos(45^\circ) + \cos(135^\circ) - \cos(45^\circ) - \cos(45^\circ) \quad \leftarrow \text{let's recompute carefully.} $$
 
 Let me use a more standard presentation. Place the measurement axes in the $x$-$z$ plane:
 
 让我使用更标准的表述。将测量轴放在 $x$-$z$ 平面内：
 
-$$ \mathbf{a} = \hat{\mathbf{z}}\ (0°), \quad \mathbf{b} = \frac{\hat{\mathbf{z}} + \hat{\mathbf{x}}}{\sqrt2}\ (45° \text{ from } \hat{\mathbf{z}}), \quad \mathbf{a}' = \hat{\mathbf{x}}\ (90° \text{ from } \hat{\mathbf{z}}), \quad \mathbf{b}' = \frac{-\hat{\mathbf{z}} + \hat{\mathbf{x}}}{\sqrt2}\ (135° \text{ from } \hat{\mathbf{z}}). $$
+$$ \mathbf{a} = \hat{\mathbf{z}}\ (0^\circ), \quad \mathbf{b} = \frac{\hat{\mathbf{z}} + \hat{\mathbf{x}}}{\sqrt2}\ (45^\circ \text{ from } \hat{\mathbf{z}}), \quad \mathbf{a}' = \hat{\mathbf{x}}\ (90^\circ \text{ from } \hat{\mathbf{z}}), \quad \mathbf{b}' = \frac{-\hat{\mathbf{z}} + \hat{\mathbf{x}}}{\sqrt2}\ (135^\circ \text{ from } \hat{\mathbf{z}}). $$
 
 The angles between the axes:
 
 各轴之间的夹角：
 
-$$ \theta_{ab} = 45°, \quad \theta_{ab'} = 135°, \quad \theta_{a'b} = 45°, \quad \theta_{a'b'} = 45°. $$
+$$ \theta_{ab} = 45^\circ, \quad \theta_{ab'} = 135^\circ, \quad \theta_{a'b} = 45^\circ, \quad \theta_{a'b'} = 45^\circ. $$
 
 So:
 
 故：
 
-$$ \begin{aligned} E(\mathbf{a},\mathbf{b}) &= -\cos(45°) = -\tfrac{1}{\sqrt2}, \\ E(\mathbf{a},\mathbf{b}') &= -\cos(135°) = +\tfrac{1}{\sqrt2}, \\ E(\mathbf{a}',\mathbf{b}) &= -\cos(45°) = -\tfrac{1}{\sqrt2}, \\ E(\mathbf{a}',\mathbf{b}') &= -\cos(45°) = -\tfrac{1}{\sqrt2}. \end{aligned} $$
+$$ \begin{aligned} E(\mathbf{a},\mathbf{b}) &= -\cos(45^\circ) = -\tfrac{1}{\sqrt2}, \\ E(\mathbf{a},\mathbf{b}') &= -\cos(135^\circ) = +\tfrac{1}{\sqrt2}, \\ E(\mathbf{a}',\mathbf{b}) &= -\cos(45^\circ) = -\tfrac{1}{\sqrt2}, \\ E(\mathbf{a}',\mathbf{b}') &= -\cos(45^\circ) = -\tfrac{1}{\sqrt2}. \end{aligned} $$
 
 $$ \begin{aligned} S &= E(\mathbf{a},\mathbf{b}) - E(\mathbf{a},\mathbf{b}') + E(\mathbf{a}',\mathbf{b}) + E(\mathbf{a}',\mathbf{b}') \\ &= -\tfrac{1}{\sqrt2} - \tfrac{1}{\sqrt2} - \tfrac{1}{\sqrt2} - \tfrac{1}{\sqrt2} = -\tfrac{4}{\sqrt2} = -2\sqrt2. \end{aligned} $$
 
@@ -305,9 +305,9 @@ So the exact computation gives
 
 $$ \hat{S}^2 = 4I - [\boldsymbol{\sigma}_A\cdot\mathbf{a}, \boldsymbol{\sigma}_A\cdot\mathbf{a}'] \otimes [\boldsymbol{\sigma}_B\cdot\mathbf{b}, \boldsymbol{\sigma}_B\cdot\mathbf{b}']. $$
 
-Since $[\boldsymbol{\sigma}\cdot\mathbf{a}, \boldsymbol{\sigma}\cdot\mathbf{a}'] = 2i\boldsymbol{\sigma}\cdot(\mathbf{a} \times \mathbf{a}')$, with $|\mathbf{a} \times \mathbf{a}'| = |\sin\theta_{aa'}|$, the maximum eigenvalue of $\hat{S}^2$ is $4 + 4|\sin\theta_{aa'}||\sin\theta_{bb'}| \le 8$, achieved when $|\sin\theta_{aa'}| = |\sin\theta_{bb'}| = 1$ (i.e. $\theta_{aa'} = \theta_{bb'} = 90°$). The maximum eigenvalue of $|\hat{S}|$ is then $\sqrt8 = 2\sqrt2$.
+Since $[\boldsymbol{\sigma}\cdot\mathbf{a}, \boldsymbol{\sigma}\cdot\mathbf{a}'] = 2i\boldsymbol{\sigma}\cdot(\mathbf{a} \times \mathbf{a}')$, with $|\mathbf{a} \times \mathbf{a}'| = |\sin\theta_{aa'}|$, the maximum eigenvalue of $\hat{S}^2$ is $4 + 4|\sin\theta_{aa'}||\sin\theta_{bb'}| \le 8$, achieved when $|\sin\theta_{aa'}| = |\sin\theta_{bb'}| = 1$ (i.e. $\theta_{aa'} = \theta_{bb'} = 90^\circ$). The maximum eigenvalue of $|\hat{S}|$ is then $\sqrt8 = 2\sqrt2$.
 
-由于 $[\boldsymbol{\sigma}\cdot\mathbf{a}, \boldsymbol{\sigma}\cdot\mathbf{a}'] = 2i\boldsymbol{\sigma}\cdot(\mathbf{a} \times \mathbf{a}')$，$|\mathbf{a} \times \mathbf{a}'| = |\sin\theta_{aa'}|$，$\hat{S}^2$ 的最大本征值为 $4 + 4|\sin\theta_{aa'}||\sin\theta_{bb'}| \le 8$，当 $|\sin\theta_{aa'}| = |\sin\theta_{bb'}| = 1$（即 $\theta_{aa'} = \theta_{bb'} = 90°$）时取到最大值。故 $|\hat{S}|$ 的最大本征值为 $\sqrt8 = 2\sqrt2$。
+由于 $[\boldsymbol{\sigma}\cdot\mathbf{a}, \boldsymbol{\sigma}\cdot\mathbf{a}'] = 2i\boldsymbol{\sigma}\cdot(\mathbf{a} \times \mathbf{a}')$，$|\mathbf{a} \times \mathbf{a}'| = |\sin\theta_{aa'}|$，$\hat{S}^2$ 的最大本征值为 $4 + 4|\sin\theta_{aa'}||\sin\theta_{bb'}| \le 8$，当 $|\sin\theta_{aa'}| = |\sin\theta_{bb'}| = 1$（即 $\theta_{aa'} = \theta_{bb'} = 90^\circ$）时取到最大值。故 $|\hat{S}|$ 的最大本征值为 $\sqrt8 = 2\sqrt2$。
 
 Therefore, for any quantum state,
 

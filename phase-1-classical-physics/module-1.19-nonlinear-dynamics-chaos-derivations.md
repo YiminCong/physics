@@ -187,7 +187,7 @@ Split: $\lambda = \ln 4 + \int_0^1 \frac{\ln|1 - 2x|}{\pi\sqrt{x(1-x)}}\, dx$. T
 
 分拆：$\lambda = \ln 4 + \int_0^1 \frac{\ln|1-2x|}{\pi\sqrt{x(1-x)}}\, dx$。已知 $\int_0^\pi \ln|\sin u|\, du = -\pi \ln 2$，积分结果为 $-\ln 2$。因此：
 
-$$ \lambda = \ln 4 - \ln 2 = \ln 2. \quad\text{✓}\quad \blacksquare $$
+$$ \lambda = \ln 4 - \ln 2 = \ln 2. \quad\checkmark\quad \blacksquare $$
 
 **Step 6 — Lyapunov exponent for continuous-time systems.** For an ODE $\dot{\mathbf{x}} = \mathbf{F}(\mathbf{x})$, the definition generalizes to
 

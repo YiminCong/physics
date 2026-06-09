@@ -78,7 +78,7 @@ $$ \Delta(k) = V_d C \cdot \varphi_d(k) = \Delta_0 \varphi_d(k) = \Delta_0 (\cos
 | Property | s-wave | d-wave ($d_{x^2-y^2}$) |
 |---|---|---|
 | Gap symmetry | fully gapped, $\Delta(k) = \text{const} > 0$ | sign-changing, nodes at $k_x = \pm k_y$ |
-| Order param. symmetry | $A_{1g}$ (invariant under $D_{4h}$) | $B_{1g}$ (changes sign under $90°$ rotation) |
+| Order param. symmetry | $A_{1g}$ (invariant under $D_{4h}$) | $B_{1g}$ (changes sign under $90^\circ$ rotation) |
 | Time reversal | preserved | preserved |
 | Low-T behavior | exponential (activated) | power-law |
 
@@ -87,7 +87,7 @@ $$ \Delta(k) = V_d C \cdot \varphi_d(k) = \Delta_0 \varphi_d(k) = \Delta_0 (\cos
 | 性质 | s 波 | d 波 ($d_{x^2-y^2}$) |
 |---|---|---|
 | 能隙对称性 | 全能隙，$\Delta(k) = \text{const} > 0$ | 变号，节线在 $k_x = \pm k_y$ |
-| 序参量对称性 | $A_{1g}$（$D_{4h}$ 下不变） | $B_{1g}$（$90°$旋转下变号） |
+| 序参量对称性 | $A_{1g}$（$D_{4h}$ 下不变） | $B_{1g}$（$90^\circ$旋转下变号） |
 | 时间反演 | 守恒 | 守恒 |
 | 低温行为 | 指数型（激活型） | 幂律型 |
 
@@ -103,13 +103,13 @@ $$ \Delta(k) = V_d C \cdot \varphi_d(k) = \Delta_0 \varphi_d(k) = \Delta_0 (\cos
 
 $$ \cos k_x a - \cos k_y a = 0 \implies \cos k_x a = \cos k_y a \implies k_x a = \pm k_y a + 2\pi n. $$
 
-For the principal solution ($n = 0$): $\mathbf{k_x = k_y}$ and $\mathbf{k_x = -k_y}$. These are the two diagonal lines in the Brillouin zone, at $45°$ to the reciprocal lattice vectors.
+For the principal solution ($n = 0$): $\mathbf{k_x = k_y}$ and $\mathbf{k_x = -k_y}$. These are the two diagonal lines in the Brillouin zone, at $45^\circ$ to the reciprocal lattice vectors.
 
 **第 1 步 — 定位节线。** 令 $\Delta(k) = 0$：
 
 $$ \cos k_x a - \cos k_y a = 0 \implies \cos k_x a = \cos k_y a \implies k_x a = \pm k_y a + 2\pi n. $$
 
-主解（$n = 0$）：$\mathbf{k_x = k_y}$ 和 $\mathbf{k_x = -k_y}$。这是布里渊区中与倒格矢成 $45°$ 的两条对角线。
+主解（$n = 0$）：$\mathbf{k_x = k_y}$ 和 $\mathbf{k_x = -k_y}$。这是布里渊区中与倒格矢成 $45^\circ$ 的两条对角线。
 
 **Step 2 — Intersection with the Fermi surface.** The Fermi surface of the cuprates (in the simplest tight-binding model with dispersion $\varepsilon_k = -2t(\cos k_x a + \cos k_y a) - \mu$) crosses the nodal lines $k_x = \pm k_y$ at four points, called the **nodal points**. At these $k_F$ values:
 
@@ -259,9 +259,9 @@ $$ \delta\lambda(T) = \lambda(T) - \lambda(0) \propto T \qquad \text{（d 波，
 
 **第 3 步 — NMR 弛豫率。** 核自旋晶格弛豫率 $1/T_1$ 正比于 $\int N(E)^2 (-\partial f/\partial E)\, dE$（赫贝尔–斯利克特因子）。s 波中相干峰在 $T_c$ 以下使 $1/T_1$ 升高（在常规超导体中得到证实）。d 波中能隙节点意味着 $N(E) \propto E$ 而非范霍夫奇点，相干峰**不出现**，$1/T_1 \propto T^3$（幂律）——这在铜氧化物中直接观测到。这是反对 s 波配对的关键证据。
 
-**Step 4 — ARPES and phase-sensitive experiments.** Angle-resolved photoemission spectroscopy (ARPES) directly maps $E(k)$ on the Fermi surface, showing the nodal gap structure $|\Delta(k)| \propto |\cos k_x a - \cos k_y a|$. Phase-sensitive experiments (corner SQUID junctions, half-integer flux quantization in trijunctions) directly confirm the **sign change** of $\Delta(k)$ under $90°$ rotation — the hallmark of d-wave that distinguishes it from extended s-wave (which also has a momentum-dependent magnitude but no sign change). These experiments (Wollman, Van Harlingen, Tsuei, 1993–1994) were definitive. $\blacksquare$
+**Step 4 — ARPES and phase-sensitive experiments.** Angle-resolved photoemission spectroscopy (ARPES) directly maps $E(k)$ on the Fermi surface, showing the nodal gap structure $|\Delta(k)| \propto |\cos k_x a - \cos k_y a|$. Phase-sensitive experiments (corner SQUID junctions, half-integer flux quantization in trijunctions) directly confirm the **sign change** of $\Delta(k)$ under $90^\circ$ rotation — the hallmark of d-wave that distinguishes it from extended s-wave (which also has a momentum-dependent magnitude but no sign change). These experiments (Wollman, Van Harlingen, Tsuei, 1993–1994) were definitive. $\blacksquare$
 
-**第 4 步 — ARPES 和相位敏感实验。** 角分辨光电子能谱（ARPES）直接在费米面上绘制 $E(k)$ 图，显示节点能隙结构 $|\Delta(k)| \propto |\cos k_x a - \cos k_y a|$。相位敏感实验（角形 SQUID 结、三结中的半整数磁通量子化）直接证实 $\Delta(k)$ 在 $90°$ 旋转下**改变符号**——d 波的标志，这将其与扩展 s 波（也有动量依赖的幅度但无符号变化）区分开来。这些实验（Wollman、Van Harlingen、Tsuei，1993–1994 年）具有决定性意义。$\blacksquare$
+**第 4 步 — ARPES 和相位敏感实验。** 角分辨光电子能谱（ARPES）直接在费米面上绘制 $E(k)$ 图，显示节点能隙结构 $|\Delta(k)| \propto |\cos k_x a - \cos k_y a|$。相位敏感实验（角形 SQUID 结、三结中的半整数磁通量子化）直接证实 $\Delta(k)$ 在 $90^\circ$ 旋转下**改变符号**——d 波的标志，这将其与扩展 s 波（也有动量依赖的幅度但无符号变化）区分开来。这些实验（Wollman、Van Harlingen、Tsuei，1993–1994 年）具有决定性意义。$\blacksquare$
 
 ---
 
