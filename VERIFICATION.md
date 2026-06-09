@@ -1,7 +1,7 @@
 # Verification Status · 校验状态
 
 
-**114 / 114 derivation files verified.**
+**120 / 120 derivation files verified.**
 
 > ✅ = derivation reviewed line-by-line and confirmed (or corrected) against standard results. Most were verified on **2026-06-08**; files revised later carry a newer date in their badge.
 
@@ -103,6 +103,9 @@ done
 - ✅ [`4.7`](phase-4-condensed-matter/module-4.7-derivations.md) — Semiconductor Physics
 - ✅ [`4.8`](phase-4-condensed-matter/module-4.8-derivations.md) — Quantum Hall Effect
 - ✅ [`4.9`](phase-4-condensed-matter/module-4.9-derivations.md) — Topological Matter & Berry Phase
+- ✅ [`4.10`](phase-4-condensed-matter/module-4.10-landau-fermi-liquid-theory-derivations.md) — Landau Fermi-Liquid Theory
+- ✅ [`4.11`](phase-4-condensed-matter/module-4.11-linear-response-and-transport-derivations.md) — Linear Response, Transport & the Kubo Formula
+- ✅ [`4.12`](phase-4-condensed-matter/module-4.12-hubbard-model-and-mott-insulators-derivations.md) — The Hubbard Model & Mott Insulators
 
 ## Phase 5 Superconductivity
 
@@ -129,6 +132,9 @@ done
 - ✅ [`6.7`](phase-6-quantum-field-theory/module-6.7-exactly-solvable-models-and-long-range-order-derivations.md) — Exactly Solvable Models & Long-Range Order
 - ✅ [`6.8`](phase-6-quantum-field-theory/module-6.8-scattering-s-matrix-and-lsz-derivations.md) — Scattering, the S-Matrix & LSZ Reduction
 - ✅ [`6.9`](phase-6-quantum-field-theory/module-6.9-anomalies-and-nonperturbative-qft-derivations.md) — Anomalies & Non-Perturbative QFT
+- ✅ [`6.10`](phase-6-quantum-field-theory/module-6.10-spontaneous-symmetry-breaking-and-goldstone-derivations.md) — Spontaneous Symmetry Breaking & Goldstone's Theorem
+- ✅ [`6.11`](phase-6-quantum-field-theory/module-6.11-effective-field-theory-and-the-renormalization-group-derivations.md) — Effective Field Theory & the Wilsonian Renormalization Group
+- ✅ [`6.12`](phase-6-quantum-field-theory/module-6.12-finite-temperature-field-theory-derivations.md) — Finite-Temperature Field Theory
 
 ## Phase 7 General Relativity And Cosmology
 

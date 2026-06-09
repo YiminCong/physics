@@ -1,7 +1,7 @@
 # Phase 4 — Condensed Matter / Solid State
 **第 4 阶段 — 凝聚态 / 固体物理**
 
-Modules 4.1–4.9, in **Definition → Demonstration → Application** format. This phase builds
+Modules 4.1–4.12, in **Definition → Demonstration → Application** format. This phase builds
 the stage on which superconductivity happens: electrons and phonons in a crystal, magnetic
 order, semiconductor devices, and topological states of matter. Almost everything here is
 ⭐ load-bearing.
@@ -21,6 +21,9 @@ order, semiconductor devices, and topological states of matter. Almost everythin
 | 4.7 | [Semiconductor Physics](./module-4.7-semiconductor-physics.md) · 半导体物理 | ⭐ |
 | 4.8 | [Quantum Hall Effect](./module-4.8-quantum-hall-effect.md) · 量子霍尔效应 | ⭐ |
 | 4.9 | [Topological Matter & Berry Phase](./module-4.9-topological-matter-and-berry-phase.md) · 拓扑物质与贝里相位 | ⭐ |
+| 4.10 | [Landau Fermi-Liquid Theory](./module-4.10-landau-fermi-liquid-theory.md) · 朗道费米液体理论 | ⭐ |
+| 4.11 | [Linear Response, Transport & the Kubo Formula](./module-4.11-linear-response-and-transport.md) · 线性响应、输运与久保公式 | |
+| 4.12 | [The Hubbard Model & Mott Insulators](./module-4.12-hubbard-model-and-mott-insulators.md) · 哈伯德模型与莫特绝缘体 | ⭐ |
 
 ## Phase 4 Checkpoint (blank page)
 
