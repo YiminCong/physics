@@ -11,212 +11,210 @@
 
 ## A. Legendre Transform and Hamilton's Equations · 勒让德变换与哈密顿方程
 
-**Claim.** Starting from the Lagrangian L(q, q̇, t), define the conjugate momentum p = ∂L/∂q̇ and the Hamiltonian H(q, p, t) = p q̇ − L (Legendre transform). Then Hamilton's equations hold:
+**Claim.** Starting from the Lagrangian $L(q, \dot{q}, t)$, define the conjugate momentum $p = \partial L/\partial \dot{q}$ and the Hamiltonian $H(q, p, t) = p\dot{q} - L$ (Legendre transform). Then Hamilton's equations hold:
 
-  q̇ = ∂H/∂p,   ṗ = −∂H/∂q.
+$$ \dot{q} = \frac{\partial H}{\partial p}, \qquad \dot{p} = -\frac{\partial H}{\partial q}. $$
 
-(Single degree of freedom for clarity; N-dimensional case follows by index repetition.)
+(Single degree of freedom for clarity; $N$-dimensional case follows by index repetition.)
 
-**命题。** 从拉格朗日量 L(q, q̇, t) 出发，定义共轭动量 p = ∂L/∂q̇ 和哈密顿量 H(q, p, t) = p q̇ − L（勒让德变换）。则哈密顿方程成立：
+**命题。** 从拉格朗日量 $L(q, \dot{q}, t)$ 出发，定义共轭动量 $p = \partial L/\partial \dot{q}$ 和哈密顿量 $H(q, p, t) = p\dot{q} - L$（勒让德变换）。则哈密顿方程成立：
 
-  q̇ = ∂H/∂p，  ṗ = −∂H/∂q。
+$$ \dot{q} = \frac{\partial H}{\partial p}, \qquad \dot{p} = -\frac{\partial H}{\partial q}. $$
 
-（为清晰起见处理单自由度；N 维情形通过指标重复得到。）
+（为清晰起见处理单自由度；$N$ 维情形通过指标重复得到。）
 
-**Step 1 — Compute the total differential of H.** Since H = p q̇ − L:
+**Step 1 — Compute the total differential of $H$.** Since $H = p\dot{q} - L$:
 
-**第 1 步 — 计算 H 的全微分。** 由于 H = p q̇ − L：
+**第 1 步 — 计算 $H$ 的全微分。** 由于 $H = p\dot{q} - L$：
 
-  dH = q̇ dp + p dq̇ − (∂L/∂q dq + ∂L/∂q̇ dq̇ + ∂L/∂t dt).
+$$ dH = \dot{q}\,dp + p\,d\dot{q} - \Big(\frac{\partial L}{\partial q}\,dq + \frac{\partial L}{\partial \dot{q}}\,d\dot{q} + \frac{\partial L}{\partial t}\,dt\Big). $$
 
-**Step 2 — Use the definition of p.** Since p = ∂L/∂q̇, the terms p dq̇ and −∂L/∂q̇ dq̇ cancel exactly:
+**Step 2 — Use the definition of $p$.** Since $p = \partial L/\partial \dot{q}$, the terms $p\,d\dot{q}$ and $-(\partial L/\partial \dot{q})\,d\dot{q}$ cancel exactly:
 
-**第 2 步 — 利用 p 的定义。** 由于 p = ∂L/∂q̇，项 p dq̇ 与 −∂L/∂q̇ dq̇ 恰好相消：
+**第 2 步 — 利用 $p$ 的定义。** 由于 $p = \partial L/\partial \dot{q}$，项 $p\,d\dot{q}$ 与 $-(\partial L/\partial \dot{q})\,d\dot{q}$ 恰好相消：
 
-  p dq̇ − (∂L/∂q̇) dq̇ = p dq̇ − p dq̇ = 0.
+$$ p\,d\dot{q} - \frac{\partial L}{\partial \dot{q}}\,d\dot{q} = p\,d\dot{q} - p\,d\dot{q} = 0. $$
 
 Therefore:
 
 因此：
 
-  dH = q̇ dp − (∂L/∂q) dq − (∂L/∂t) dt.
+$$ dH = \dot{q}\,dp - \frac{\partial L}{\partial q}\,dq - \frac{\partial L}{\partial t}\,dt. $$
 
-**Step 3 — Read off the partial derivatives of H.** Comparing with the general expression dH = (∂H/∂p)dp + (∂H/∂q)dq + (∂H/∂t)dt:
+**Step 3 — Read off the partial derivatives of $H$.** Comparing with the general expression $dH = (\partial H/\partial p)\,dp + (\partial H/\partial q)\,dq + (\partial H/\partial t)\,dt$:
 
-**第 3 步 — 读出 H 的偏导数。** 与一般表达式 dH = (∂H/∂p)dp + (∂H/∂q)dq + (∂H/∂t)dt 比较：
+**第 3 步 — 读出 $H$ 的偏导数。** 与一般表达式 $dH = (\partial H/\partial p)\,dp + (\partial H/\partial q)\,dq + (\partial H/\partial t)\,dt$ 比较：
 
-  ∂H/∂p = q̇,   ∂H/∂q = −∂L/∂q.
+$$ \frac{\partial H}{\partial p} = \dot{q}, \qquad \frac{\partial H}{\partial q} = -\frac{\partial L}{\partial q}. $$
 
-The first equation gives the first Hamilton equation: **q̇ = ∂H/∂p.** ∎₁
+The first equation gives the first Hamilton equation: $\boxed{\,\dot{q} = \partial H/\partial p\,}$ $\blacksquare_1$
 
-第一式给出第一个哈密顿方程：**q̇ = ∂H/∂p。** ∎₁
+第一式给出第一个哈密顿方程：$\boxed{\,\dot{q} = \partial H/\partial p\,}$ $\blacksquare_1$
 
 **Step 4 — Apply the Euler–Lagrange equation to get the second Hamilton equation.** From the Euler–Lagrange equation (proved in Module 1.3 derivations):
 
 **第 4 步 — 应用欧拉–拉格朗日方程得第二个哈密顿方程。** 由欧拉–拉格朗日方程（在模块 1.3 推导中证明）：
 
-  d/dt(∂L/∂q̇) = ∂L/∂q   ⟹   ṗ = ∂L/∂q.
+$$ \frac{d}{dt}\Big(\frac{\partial L}{\partial \dot{q}}\Big) = \frac{\partial L}{\partial q} \quad\implies\quad \dot{p} = \frac{\partial L}{\partial q}. $$
 
-Substituting Step 3's result ∂H/∂q = −∂L/∂q:
+Substituting Step 3's result $\partial H/\partial q = -\partial L/\partial q$:
 
-代入第 3 步的结果 ∂H/∂q = −∂L/∂q：
+代入第 3 步的结果 $\partial H/\partial q = -\partial L/\partial q$：
 
-  **ṗ = ∂L/∂q = −∂H/∂q.** ∎₂
+$$ \boxed{\, \dot{p} = \frac{\partial L}{\partial q} = -\frac{\partial H}{\partial q} \,} \qquad \blacksquare_2 $$
 
-  **ṗ = ∂L/∂q = −∂H/∂q。** ∎₂
+**Remark — $H$ equals $T + V$.** For a standard mechanical system with $L = T(\dot{q}) - V(q)$, the conjugate momentum is $p = \partial T/\partial \dot{q}$. Then $H = p\dot{q} - L = p\dot{q} - T + V$. If $T$ is quadratic in $\dot{q}$ ($T = \tfrac12 m\dot{q}^2$), then $p\dot{q} = m\dot{q} \cdot \dot{q} = 2T$ by Euler's theorem on homogeneous functions. Therefore $H = 2T - T + V = T + V = $ total energy.
 
-**Remark — H equals T + V.** For a standard mechanical system with L = T(q̇) − V(q), the conjugate momentum is p = ∂T/∂q̇. Then H = p q̇ − L = p q̇ − T + V. If T is quadratic in q̇ (T = ½mq̇²), then p q̇ = mq̇ · q̇ = 2T by Euler's theorem on homogeneous functions. Therefore H = 2T − T + V = T + V = total energy.
-
-**注——H 等于 T + V。** 对于标准力学系统 L = T(q̇) − V(q)，共轭动量 p = ∂T/∂q̇。则 H = p q̇ − L = p q̇ − T + V。若 T 关于 q̇ 是二次型（T = ½mq̇²），由欧拉关于齐次函数的定理得 p q̇ = mq̇ · q̇ = 2T。因此 H = 2T − T + V = T + V = 总能量。
+**注——$H$ 等于 $T + V$。** 对于标准力学系统 $L = T(\dot{q}) - V(q)$，共轭动量 $p = \partial T/\partial \dot{q}$。则 $H = p\dot{q} - L = p\dot{q} - T + V$。若 $T$ 关于 $\dot{q}$ 是二次型（$T = \tfrac12 m\dot{q}^2$），由欧拉关于齐次函数的定理得 $p\dot{q} = m\dot{q} \cdot \dot{q} = 2T$。因此 $H = 2T - T + V = T + V = $ 总能量。
 
 ---
 
-## B. Poisson Brackets and the Fundamental Bracket {q, p} = 1 · 泊松括号与基本括号 {q, p} = 1
+## B. Poisson Brackets and the Fundamental Bracket $\{q, p\} = 1$ · 泊松括号与基本括号 $\{q, p\} = 1$
 
-**Claim.** The Poisson bracket of two functions f(q, p) and g(q, p) is defined as:
+**Claim.** The Poisson bracket of two functions $f(q, p)$ and $g(q, p)$ is defined as:
 
-  {f, g} = (∂f/∂q)(∂g/∂p) − (∂f/∂p)(∂g/∂q).
+$$ \{f, g\} = \frac{\partial f}{\partial q}\frac{\partial g}{\partial p} - \frac{\partial f}{\partial p}\frac{\partial g}{\partial q}. $$
 
-For canonical coordinates and momenta, {q, p} = 1.
+For canonical coordinates and momenta, $\{q, p\} = 1$.
 
-**命题。** 两个函数 f(q, p) 和 g(q, p) 的泊松括号定义为：
+**命题。** 两个函数 $f(q, p)$ 和 $g(q, p)$ 的泊松括号定义为：
 
-  {f, g} = (∂f/∂q)(∂g/∂p) − (∂f/∂p)(∂g/∂q)。
+$$ \{f, g\} = \frac{\partial f}{\partial q}\frac{\partial g}{\partial p} - \frac{\partial f}{\partial p}\frac{\partial g}{\partial q}. $$
 
-对于正则坐标和动量，{q, p} = 1。
+对于正则坐标和动量，$\{q, p\} = 1$。
 
-**Proof.** Set f = q and g = p. Then:
+**Proof.** Set $f = q$ and $g = p$. Then:
 
-**证明。** 令 f = q，g = p，则：
+**证明。** 令 $f = q$，$g = p$，则：
 
-  ∂q/∂q = 1,   ∂q/∂p = 0,   ∂p/∂q = 0,   ∂p/∂p = 1.
+$$ \frac{\partial q}{\partial q} = 1, \quad \frac{\partial q}{\partial p} = 0, \quad \frac{\partial p}{\partial q} = 0, \quad \frac{\partial p}{\partial p} = 1. $$
 
-Therefore {q, p} = (1)(1) − (0)(0) = 1. ∎
+Therefore $\{q, p\} = (1)(1) - (0)(0) = 1$. $\blacksquare$
 
-因此 {q, p} = (1)(1) − (0)(0) = 1。∎
+因此 $\{q, p\} = (1)(1) - (0)(0) = 1$。$\blacksquare$
 
-**Hamilton's equation in Poisson-bracket form.** For any observable f(q, p, t):
+**Hamilton's equation in Poisson-bracket form.** For any observable $f(q, p, t)$:
 
-**泊松括号形式的哈密顿方程。** 对任意可观测量 f(q, p, t)：
+**泊松括号形式的哈密顿方程。** 对任意可观测量 $f(q, p, t)$：
 
-  df/dt = (∂f/∂q)q̇ + (∂f/∂p)ṗ + ∂f/∂t
-        = (∂f/∂q)(∂H/∂p) − (∂f/∂p)(∂H/∂q) + ∂f/∂t
-        = {f, H} + ∂f/∂t.
+$$ \begin{aligned}
+\frac{df}{dt} &= \frac{\partial f}{\partial q}\dot{q} + \frac{\partial f}{\partial p}\dot{p} + \frac{\partial f}{\partial t} \\
+&= \frac{\partial f}{\partial q}\frac{\partial H}{\partial p} - \frac{\partial f}{\partial p}\frac{\partial H}{\partial q} + \frac{\partial f}{\partial t} \\
+&= \{f, H\} + \frac{\partial f}{\partial t}.
+\end{aligned} $$
 
-In particular: q̇ = {q, H} (using {q, H} = ∂H/∂p = q̇ from Hamilton's equations) and ṗ = {p, H} = −∂H/∂q = ṗ, both consistent.
+In particular: $\dot{q} = \{q, H\}$ (using $\{q, H\} = \partial H/\partial p = \dot{q}$ from Hamilton's equations) and $\dot{p} = \{p, H\} = -\partial H/\partial q = \dot{p}$, both consistent.
 
-特别地：q̇ = {q, H}（由 {q, H} = ∂H/∂p = q̇，与哈密顿方程一致）；ṗ = {p, H} = −∂H/∂q，同样一致。
+特别地：$\dot{q} = \{q, H\}$（由 $\{q, H\} = \partial H/\partial p = \dot{q}$，与哈密顿方程一致）；$\dot{p} = \{p, H\} = -\partial H/\partial q$，同样一致。
 
 ---
 
 ## C. Noether's Theorem — Full Proof · 诺特定理——完整证明
 
-**Claim.** If the Lagrangian L(q, q̇, t) is invariant (to first order in ε) under the one-parameter family of transformations q → q + ε K(q, t), where K is a smooth generator, then the quantity
+**Claim.** If the Lagrangian $L(q, \dot{q}, t)$ is invariant (to first order in $\varepsilon$) under the one-parameter family of transformations $q \to q + \varepsilon K(q, t)$, where $K$ is a smooth generator, then the quantity
 
-  Q = (∂L/∂q̇) K
+$$ Q = \frac{\partial L}{\partial \dot{q}}\,K $$
 
-is conserved along any solution of the Euler–Lagrange equations: dQ/dt = 0.
+is conserved along any solution of the Euler–Lagrange equations: $dQ/dt = 0$.
 
-**命题。** 若拉格朗日量 L(q, q̇, t) 在单参数变换族 q → q + ε K(q, t)（K 为光滑生成元）下（对 ε 一阶）不变，则量
+**命题。** 若拉格朗日量 $L(q, \dot{q}, t)$ 在单参数变换族 $q \to q + \varepsilon K(q, t)$（$K$ 为光滑生成元）下（对 $\varepsilon$ 一阶）不变，则量
 
-  Q = (∂L/∂q̇) K
+$$ Q = \frac{\partial L}{\partial \dot{q}}\,K $$
 
-沿欧拉–拉格朗日方程的任意解守恒：dQ/dt = 0。
+沿欧拉–拉格朗日方程的任意解守恒：$dQ/dt = 0$。
 
-**Step 1 — Express the invariance condition.** Under q → q + ε K, the velocity transforms as q̇ → q̇ + ε K̇ (where K̇ = dK/dt along the motion). The first-order change in L is:
+**Step 1 — Express the invariance condition.** Under $q \to q + \varepsilon K$, the velocity transforms as $\dot{q} \to \dot{q} + \varepsilon \dot{K}$ (where $\dot{K} = dK/dt$ along the motion). The first-order change in $L$ is:
 
-**第 1 步 — 表达不变性条件。** 在 q → q + ε K 下，速度变换为 q̇ → q̇ + ε K̇（其中 K̇ = dK/dt 沿运动方向）。L 的一阶变化为：
+**第 1 步 — 表达不变性条件。** 在 $q \to q + \varepsilon K$ 下，速度变换为 $\dot{q} \to \dot{q} + \varepsilon \dot{K}$（其中 $\dot{K} = dK/dt$ 沿运动方向）。$L$ 的一阶变化为：
 
-  δL = (∂L/∂q) ε K + (∂L/∂q̇) ε K̇ = 0.
+$$ \delta L = \frac{\partial L}{\partial q}\,\varepsilon K + \frac{\partial L}{\partial \dot{q}}\,\varepsilon \dot{K} = 0. $$
 
-Dividing by ε, the invariance condition is:
+Dividing by $\varepsilon$, the invariance condition is:
 
-除以 ε，不变性条件为：
+除以 $\varepsilon$，不变性条件为：
 
-  (∂L/∂q) K + (∂L/∂q̇) K̇ = 0.                         … (*)
+$$ \frac{\partial L}{\partial q}\,K + \frac{\partial L}{\partial \dot{q}}\,\dot{K} = 0. \qquad (*) $$
 
 **Step 2 — Use the Euler–Lagrange equation.** On the physical trajectory, the E-L equation holds:
 
 **第 2 步 — 利用欧拉–拉格朗日方程。** 在物理轨迹上，欧拉–拉格朗日方程成立：
 
-  ∂L/∂q = d/dt (∂L/∂q̇).
+$$ \frac{\partial L}{\partial q} = \frac{d}{dt}\Big(\frac{\partial L}{\partial \dot{q}}\Big). $$
 
-Substitute into (*):
+Substitute into $(*)$:
 
-代入 (*)：
+代入 $(*)$：
 
-  d/dt(∂L/∂q̇) · K + (∂L/∂q̇) · K̇ = 0.
+$$ \frac{d}{dt}\Big(\frac{\partial L}{\partial \dot{q}}\Big)\cdot K + \frac{\partial L}{\partial \dot{q}}\cdot \dot{K} = 0. $$
 
-**Step 3 — Recognise the product rule.** The left side is exactly the time derivative of the product (∂L/∂q̇) K:
+**Step 3 — Recognise the product rule.** The left side is exactly the time derivative of the product $(\partial L/\partial \dot{q})\,K$:
 
-**第 3 步 — 识别乘积法则。** 左侧恰好是乘积 (∂L/∂q̇) K 的时间导数：
+**第 3 步 — 识别乘积法则。** 左侧恰好是乘积 $(\partial L/\partial \dot{q})\,K$ 的时间导数：
 
-  d/dt [(∂L/∂q̇) K] = d/dt(∂L/∂q̇) · K + (∂L/∂q̇) · K̇ = 0.
+$$ \frac{d}{dt}\Big[\frac{\partial L}{\partial \dot{q}}\,K\Big] = \frac{d}{dt}\Big(\frac{\partial L}{\partial \dot{q}}\Big)\cdot K + \frac{\partial L}{\partial \dot{q}}\cdot \dot{K} = 0. $$
 
 Therefore:
 
 因此：
 
-  **dQ/dt = d/dt [(∂L/∂q̇) K] = 0**, i.e. **Q = (∂L/∂q̇) K = const.** ∎
-
-  **dQ/dt = d/dt [(∂L/∂q̇) K] = 0**，即 **Q = (∂L/∂q̇) K = 常数。** ∎
+$$ \frac{dQ}{dt} = \frac{d}{dt}\Big[\frac{\partial L}{\partial \dot{q}}\,K\Big] = 0, \quad\text{i.e.}\quad \boxed{\, Q = \frac{\partial L}{\partial \dot{q}}\,K = \text{const} \,} \qquad \blacksquare $$
 
 ---
 
 ## D. Three Canonical Applications of Noether's Theorem · 诺特定理的三个典型应用
 
-### D.1 Time Translation → Energy Conservation · 时间平移 → 能量守恒
+### D.1 Time Translation $\to$ Energy Conservation · 时间平移 $\to$ 能量守恒
 
-**Step 1 — Identify the symmetry.** If L has no explicit time dependence (∂L/∂t = 0), then L is invariant under t → t + ε, which induces q(t) → q(t + ε) ≈ q(t) + ε q̇(t). So the generator is K = q̇.
+**Step 1 — Identify the symmetry.** If $L$ has no explicit time dependence ($\partial L/\partial t = 0$), then $L$ is invariant under $t \to t + \varepsilon$, which induces $q(t) \to q(t + \varepsilon) \approx q(t) + \varepsilon \dot{q}(t)$. So the generator is $K = \dot{q}$.
 
-**第 1 步 — 辨识对称性。** 若 L 不显含时间（∂L/∂t = 0），则 L 在 t → t + ε 下不变，这诱导 q(t) → q(t + ε) ≈ q(t) + ε q̇(t)。故生成元为 K = q̇。
+**第 1 步 — 辨识对称性。** 若 $L$ 不显含时间（$\partial L/\partial t = 0$），则 $L$ 在 $t \to t + \varepsilon$ 下不变，这诱导 $q(t) \to q(t + \varepsilon) \approx q(t) + \varepsilon \dot{q}(t)$。故生成元为 $K = \dot{q}$。
 
-**Step 2 — Compute the Noether charge.** A time translation t → t + ε also moves the *independent* variable (not just the coordinates), so the conserved charge carries an extra −L term relative to the coordinate-transformation formula of Section C: Q = (∂L/∂q̇) q̇ − L = p q̇ − L.
+**Step 2 — Compute the Noether charge.** A time translation $t \to t + \varepsilon$ also moves the *independent* variable (not just the coordinates), so the conserved charge carries an extra $-L$ term relative to the coordinate-transformation formula of Section C: $Q = (\partial L/\partial \dot{q})\,\dot{q} - L = p\dot{q} - L$.
 
-**第 2 步 — 计算诺特荷。** 时间平移 t → t + ε 还移动了*自变量*（而不只是坐标），故守恒荷相对 C 节的坐标变换公式多出一个 −L 项：Q = (∂L/∂q̇) q̇ − L = p q̇ − L。
+**第 2 步 — 计算诺特荷。** 时间平移 $t \to t + \varepsilon$ 还移动了*自变量*（而不只是坐标），故守恒荷相对 C 节的坐标变换公式多出一个 $-L$ 项：$Q = (\partial L/\partial \dot{q})\,\dot{q} - L = p\dot{q} - L$。
 
-**Step 3 — Show Q = H.** For L = T − V with T = ½mq̇²:
+**Step 3 — Show $Q = H$.** For $L = T - V$ with $T = \tfrac12 m\dot{q}^2$:
 
-**第 3 步 — 证明 Q = H。** 对于 L = T − V，T = ½mq̇²：
+**第 3 步 — 证明 $Q = H$。** 对于 $L = T - V$，$T = \tfrac12 m\dot{q}^2$：
 
-  Q = p q̇ − L = mq̇² − (T − V) = 2T − (T − V) = T + V = H,
+$$ Q = p\dot{q} - L = m\dot{q}^2 - (T - V) = 2T - (T - V) = T + V = H, $$
 
-where p q̇ = mq̇² = 2T by Euler's theorem on the homogeneous quadratic T.
+where $p\dot{q} = m\dot{q}^2 = 2T$ by Euler's theorem on the homogeneous quadratic $T$.
 
-More generally, Q = Σᵢ (∂L/∂q̇ᵢ) q̇ᵢ − L = H by the Legendre transform. Therefore time-translation symmetry conserves **H = total energy.** ∎
+More generally, $Q = \sum_i (\partial L/\partial \dot{q}_i)\,\dot{q}_i - L = H$ by the Legendre transform. Therefore time-translation symmetry conserves $\boxed{\,H = \text{total energy}\,}$ $\blacksquare$
 
-更一般地，Q = Σᵢ (∂L/∂q̇ᵢ) q̇ᵢ − L = H（由勒让德变换）。因此时间平移对称性守恒 **H = 总能量。** ∎
+更一般地，$Q = \sum_i (\partial L/\partial \dot{q}_i)\,\dot{q}_i - L = H$（由勒让德变换）。因此时间平移对称性守恒 $\boxed{\,H = \text{总能量}\,}$ $\blacksquare$
 
-### D.2 Spatial Translation → Linear Momentum Conservation · 空间平移 → 线动量守恒
+### D.2 Spatial Translation $\to$ Linear Momentum Conservation · 空间平移 $\to$ 线动量守恒
 
-**Step 1 — Identify the symmetry.** For a free particle (or a system whose potential depends only on relative positions), L is invariant under the uniform translation q → q + ε n̂ (translation by ε in direction n̂). The generator is K = n̂.
+**Step 1 — Identify the symmetry.** For a free particle (or a system whose potential depends only on relative positions), $L$ is invariant under the uniform translation $\mathbf{q} \to \mathbf{q} + \varepsilon \hat{\mathbf{n}}$ (translation by $\varepsilon$ in direction $\hat{\mathbf{n}}$). The generator is $K = \hat{\mathbf{n}}$.
 
-**第 1 步 — 辨识对称性。** 对于自由粒子（或势能仅依赖相对位置的系统），L 在匀速平移 q → q + ε n̂ 下不变（沿方向 n̂ 平移 ε）。生成元为 K = n̂。
+**第 1 步 — 辨识对称性。** 对于自由粒子（或势能仅依赖相对位置的系统），$L$ 在匀速平移 $\mathbf{q} \to \mathbf{q} + \varepsilon \hat{\mathbf{n}}$ 下不变（沿方向 $\hat{\mathbf{n}}$ 平移 $\varepsilon$）。生成元为 $K = \hat{\mathbf{n}}$。
 
-**Step 2 — Compute the Noether charge.** Q = (∂L/∂q̇) · n̂. With p = ∂L/∂q̇ = mq̇ (Cartesian), Q = p · n̂ = the component of momentum along n̂.
+**Step 2 — Compute the Noether charge.** $Q = (\partial L/\partial \dot{\mathbf{q}}) \cdot \hat{\mathbf{n}}$. With $\mathbf{p} = \partial L/\partial \dot{\mathbf{q}} = m\dot{\mathbf{q}}$ (Cartesian), $Q = \mathbf{p} \cdot \hat{\mathbf{n}} = $ the component of momentum along $\hat{\mathbf{n}}$.
 
-**第 2 步 — 计算诺特荷。** Q = (∂L/∂q̇) · n̂。以 p = ∂L/∂q̇ = mq̇（笛卡尔），Q = p · n̂ = 动量沿 n̂ 方向的分量。
+**第 2 步 — 计算诺特荷。** $Q = (\partial L/\partial \dot{\mathbf{q}}) \cdot \hat{\mathbf{n}}$。以 $\mathbf{p} = \partial L/\partial \dot{\mathbf{q}} = m\dot{\mathbf{q}}$（笛卡尔），$Q = \mathbf{p} \cdot \hat{\mathbf{n}} = $ 动量沿 $\hat{\mathbf{n}}$ 方向的分量。
 
-**Step 3 — Conclude.** Since n̂ is arbitrary, the full momentum vector **p is conserved** whenever L is invariant under all spatial translations. ∎
+**Step 3 — Conclude.** Since $\hat{\mathbf{n}}$ is arbitrary, the full momentum vector $\boxed{\,\mathbf{p}\text{ is conserved}\,}$ whenever $L$ is invariant under all spatial translations. $\blacksquare$
 
-**第 3 步 — 得出结论。** 由于 n̂ 是任意的，只要 L 在所有空间平移下不变，完整动量矢量 **p 守恒。** ∎
+**第 3 步 — 得出结论。** 由于 $\hat{\mathbf{n}}$ 是任意的，只要 $L$ 在所有空间平移下不变，完整动量矢量 $\boxed{\,\mathbf{p}\text{ 守恒}\,}$。$\blacksquare$
 
-### D.3 Rotation → Angular Momentum Conservation · 旋转 → 角动量守恒
+### D.3 Rotation $\to$ Angular Momentum Conservation · 旋转 $\to$ 角动量守恒
 
-**Step 1 — Identify the symmetry.** For a particle in a central potential, L is invariant under rotations about any axis n̂. An infinitesimal rotation by ε about n̂ produces δr = ε n̂ × r. So K = n̂ × r.
+**Step 1 — Identify the symmetry.** For a particle in a central potential, $L$ is invariant under rotations about any axis $\hat{\mathbf{n}}$. An infinitesimal rotation by $\varepsilon$ about $\hat{\mathbf{n}}$ produces $\delta\mathbf{r} = \varepsilon\,\hat{\mathbf{n}} \times \mathbf{r}$. So $K = \hat{\mathbf{n}} \times \mathbf{r}$.
 
-**第 1 步 — 辨识对称性。** 对于有心势中的粒子，L 在绕任意轴 n̂ 的转动下不变。绕 n̂ 转过无穷小角度 ε 产生 δr = ε n̂ × r。故 K = n̂ × r。
+**第 1 步 — 辨识对称性。** 对于有心势中的粒子，$L$ 在绕任意轴 $\hat{\mathbf{n}}$ 的转动下不变。绕 $\hat{\mathbf{n}}$ 转过无穷小角度 $\varepsilon$ 产生 $\delta\mathbf{r} = \varepsilon\,\hat{\mathbf{n}} \times \mathbf{r}$。故 $K = \hat{\mathbf{n}} \times \mathbf{r}$。
 
-**Step 2 — Compute the Noether charge.** With p = ∂L/∂q̇ = mṙ (for Cartesian L = T − V):
+**Step 2 — Compute the Noether charge.** With $\mathbf{p} = \partial L/\partial \dot{\mathbf{q}} = m\dot{\mathbf{r}}$ (for Cartesian $L = T - V$):
 
-**第 2 步 — 计算诺特荷。** 以 p = ∂L/∂q̇ = mṙ（笛卡尔 L = T − V）：
+**第 2 步 — 计算诺特荷。** 以 $\mathbf{p} = \partial L/\partial \dot{\mathbf{q}} = m\dot{\mathbf{r}}$（笛卡尔 $L = T - V$）：
 
-  Q = p · K = p · (n̂ × r) = n̂ · (r × p) = n̂ · L.
+$$ Q = \mathbf{p} \cdot K = \mathbf{p} \cdot (\hat{\mathbf{n}} \times \mathbf{r}) = \hat{\mathbf{n}} \cdot (\mathbf{r} \times \mathbf{p}) = \hat{\mathbf{n}} \cdot \mathbf{L}. $$
 
-(Using the scalar triple product identity a · (b × c) = b · (c × a) = c · (a × b).)
+(Using the scalar triple product identity $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}) = \mathbf{b} \cdot (\mathbf{c} \times \mathbf{a}) = \mathbf{c} \cdot (\mathbf{a} \times \mathbf{b})$.)
 
-（利用标量三重积恒等式 a · (b × c) = b · (c × a) = c · (a × b)。）
+（利用标量三重积恒等式 $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}) = \mathbf{b} \cdot (\mathbf{c} \times \mathbf{a}) = \mathbf{c} \cdot (\mathbf{a} \times \mathbf{b})$。）
 
-**Step 3 — Conclude.** Since n̂ is arbitrary, conservation of Q for all n̂ means the full **angular momentum vector L = r × p is conserved** whenever L is rotationally invariant. ∎
+**Step 3 — Conclude.** Since $\hat{\mathbf{n}}$ is arbitrary, conservation of $Q$ for all $\hat{\mathbf{n}}$ means the full $\boxed{\,\text{angular momentum vector }\mathbf{L} = \mathbf{r} \times \mathbf{p}\text{ is conserved}\,}$ whenever $L$ is rotationally invariant. $\blacksquare$
 
-**第 3 步 — 得出结论。** 由于 n̂ 是任意的，对所有 n̂ 的 Q 守恒意味着只要 L 在旋转下不变，完整**角动量矢量 L = r × p 守恒。** ∎
+**第 3 步 — 得出结论。** 由于 $\hat{\mathbf{n}}$ 是任意的，对所有 $\hat{\mathbf{n}}$ 的 $Q$ 守恒意味着只要 $L$ 在旋转下不变，完整 $\boxed{\,\text{角动量矢量 }\mathbf{L} = \mathbf{r} \times \mathbf{p}\text{ 守恒}\,}$。$\blacksquare$

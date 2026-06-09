@@ -11,72 +11,72 @@
 
 ## A. The One-Loop Divergence & Dimensional Regularization · 单圈发散与维数正规化
 
-**Step 1 — The divergent integral.** In φ⁴ theory the one-loop correction to the four-point coupling involves the integral I = ∫ d⁴k/(2π)⁴ · 1/[(k²+m²)((k+p)²+m²)] (Euclidean). Power counting: for large k the integrand ∼ k⁻⁴, so ∫d⁴k k⁻⁴ ∼ ∫dk/k diverges **logarithmically** in the ultraviolet.
+**Step 1 — The divergent integral.** In $\varphi^4$ theory the one-loop correction to the four-point coupling involves the integral $I = \int \frac{d^4k}{(2\pi)^4} \cdot \frac{1}{(k^2+m^2)((k+p)^2+m^2)}$ (Euclidean). Power counting: for large $k$ the integrand $\sim k^{-4}$, so $\int d^4k\, k^{-4} \sim \int dk/k$ diverges **logarithmically** in the ultraviolet.
 
-**第 1 步 — 发散积分。** 在 φ⁴ 理论中，四点耦合的单圈修正涉及积分 I = ∫ d⁴k/(2π)⁴ · 1/[(k²+m²)((k+p)²+m²)]（欧几里得）。量纲计数：大 k 时被积量 ∼ k⁻⁴，故 ∫d⁴k k⁻⁴ ∼ ∫dk/k 在紫外**对数发散**。
+**第 1 步 — 发散积分。** 在 $\varphi^4$ 理论中，四点耦合的单圈修正涉及积分 $I = \int \frac{d^4k}{(2\pi)^4} \cdot \frac{1}{(k^2+m^2)((k+p)^2+m^2)}$（欧几里得）。量纲计数：大 $k$ 时被积量 $\sim k^{-4}$，故 $\int d^4k\, k^{-4} \sim \int dk/k$ 在紫外**对数发散**。
 
-**Step 2 — Dimensional regularization.** Continue to d = 4 − ε dimensions. Combine denominators with a Feynman parameter, 1/(AB) = ∫₀¹ dx [xA+(1−x)B]⁻², shift k→k−xp, and use the master formula
+**Step 2 — Dimensional regularization.** Continue to $d = 4 - \epsilon$ dimensions. Combine denominators with a Feynman parameter, $\frac{1}{AB} = \int_0^1 dx\, [xA+(1-x)B]^{-2}$, shift $k\to k-xp$, and use the master formula
 
-**第 2 步 — 维数正规化。** 延拓到 d = 4 − ε 维。用费曼参数合并分母，1/(AB) = ∫₀¹ dx [xA+(1−x)B]⁻²，平移 k→k−xp，并用主公式
+**第 2 步 — 维数正规化。** 延拓到 $d = 4 - \epsilon$ 维。用费曼参数合并分母，$\frac{1}{AB} = \int_0^1 dx\, [xA+(1-x)B]^{-2}$，平移 $k\to k-xp$，并用主公式
 
-  ∫ dᵈk/(2π)ᵈ · 1/(k²+Δ)² = (1/(4π)^{d/2}) · Γ(2−d/2)/Γ(2) · Δ^{d/2−2}.
+$$ \int \frac{d^dk}{(2\pi)^d} \cdot \frac{1}{(k^2+\Delta)^2} = \frac{1}{(4\pi)^{d/2}} \cdot \frac{\Gamma(2-d/2)}{\Gamma(2)} \cdot \Delta^{d/2-2}. $$
 
-With d = 4 − ε, Γ(2−d/2) = Γ(ε/2) = 2/ε − γ_E + O(ε). Hence
+With $d = 4 - \epsilon$, $\Gamma(2-d/2) = \Gamma(\epsilon/2) = 2/\epsilon - \gamma_E + O(\epsilon)$. Hence
 
-代入 d = 4 − ε，Γ(2−d/2) = Γ(ε/2) = 2/ε − γ_E + O(ε)。于是
+代入 $d = 4 - \epsilon$，$\Gamma(2-d/2) = \Gamma(\epsilon/2) = 2/\epsilon - \gamma_E + O(\epsilon)$。于是
 
-  I = (1/16π²) ∫₀¹ dx [2/ε − γ_E − ln(Δ/4π) ] + O(ε),  Δ = x(1−x)p² + m².
+$$ I = \frac{1}{16\pi^2} \int_0^1 dx\, [2/\epsilon - \gamma_E - \ln(\Delta/4\pi)] + O(\epsilon), \qquad \Delta = x(1-x)p^2 + m^2. $$
 
-The divergence is now an explicit **1/ε pole**.
+The divergence is now an explicit **$1/\epsilon$ pole**.
 
-发散此时表现为明确的 **1/ε 极点**。
+发散此时表现为明确的 **$1/\epsilon$ 极点**。
 
-**Step 3 — Renormalization.** Write the bare coupling as g₀ = μ^ε(g + δg) with a counterterm δg chosen to cancel the pole: δg = (3g²/16π²)(1/ε) + finite (the 3 counts the s,t,u channels). The renormalized four-point function is then **finite** as ε→0. The arbitrary scale μ (with mass dimension, introduced to keep g dimensionless in d≠4) is the seed of the renormalization group. ∎
+**Step 3 — Renormalization.** Write the bare coupling as $g_0 = \mu^\epsilon(g + \delta g)$ with a counterterm $\delta g$ chosen to cancel the pole: $\delta g = (3g^2/16\pi^2)(1/\epsilon) + \text{finite}$ (the 3 counts the $s,t,u$ channels). The renormalized four-point function is then **finite** as $\epsilon\to 0$. The arbitrary scale $\mu$ (with mass dimension, introduced to keep $g$ dimensionless in $d\ne 4$) is the seed of the renormalization group. $\blacksquare$
 
-**第 3 步 — 重整化。** 将裸耦合写为 g₀ = μ^ε(g + δg)，选取抵消项 δg 消去极点：δg = (3g²/16π²)(1/ε) + 有限项（因子 3 计入 s、t、u 三个道）。重整化后的四点函数在 ε→0 时**有限**。任意标度 μ（具质量量纲，为在 d≠4 时保持 g 无量纲而引入）正是重整化群的种子。∎
+**第 3 步 — 重整化。** 将裸耦合写为 $g_0 = \mu^\epsilon(g + \delta g)$，选取抵消项 $\delta g$ 消去极点：$\delta g = (3g^2/16\pi^2)(1/\epsilon) + \text{有限项}$（因子 3 计入 $s$、$t$、$u$ 三个道）。重整化后的四点函数在 $\epsilon\to 0$ 时**有限**。任意标度 $\mu$（具质量量纲，为在 $d\ne 4$ 时保持 $g$ 无量纲而引入）正是重整化群的种子。$\blacksquare$
 
 ---
 
-## B. The Beta Function and the Running Coupling · β 函数与跑动耦合
+## B. The Beta Function and the Running Coupling · $\beta$ 函数与跑动耦合
 
-**Step 1 — μ-independence.** The bare coupling g₀ does not know about the arbitrary μ: μ dg₀/dμ = 0. Differentiating g₀ = μ^ε(g + δg) gives the **beta function** β(g) ≡ μ dg/dμ. At one loop (in d=4, ε→0),
+**Step 1 — $\mu$-independence.** The bare coupling $g_0$ does not know about the arbitrary $\mu$: $\mu\, dg_0/d\mu = 0$. Differentiating $g_0 = \mu^\epsilon(g + \delta g)$ gives the **beta function** $\beta(g) \equiv \mu\, dg/d\mu$. At one loop (in $d=4$, $\epsilon\to 0$),
 
-**第 1 步 — μ 无关性。** 裸耦合 g₀ 不依赖于任意的 μ：μ dg₀/dμ = 0。对 g₀ = μ^ε(g + δg) 求导得到 **β 函数** β(g) ≡ μ dg/dμ。单圈阶（d=4，ε→0）：
+**第 1 步 — $\mu$ 无关性。** 裸耦合 $g_0$ 不依赖于任意的 $\mu$：$\mu\, dg_0/d\mu = 0$。对 $g_0 = \mu^\epsilon(g + \delta g)$ 求导得到 **$\beta$ 函数** $\beta(g) \equiv \mu\, dg/d\mu$。单圈阶（$d=4$，$\epsilon\to 0$）：
 
-  **β(g) = 3g²/16π²**  (φ⁴ theory).
+$$ \boxed{\, \beta(g) = 3g^2/16\pi^2 \,} \quad (\varphi^4 \text{ theory}). $$
 
-**Step 2 — Solve the flow.** Integrating μ dg/dμ = 3g²/16π² gives 1/g(μ) = 1/g(μ₀) − (3/16π²)ln(μ/μ₀), i.e. the coupling **grows** with energy (a Landau pole at high μ). For QED the analogous one-loop result is β(e) = e³/12π², giving the running fine-structure constant
+**Step 2 — Solve the flow.** Integrating $\mu\, dg/d\mu = 3g^2/16\pi^2$ gives $1/g(\mu) = 1/g(\mu_0) - (3/16\pi^2)\ln(\mu/\mu_0)$, i.e. the coupling **grows** with energy (a Landau pole at high $\mu$). For QED the analogous one-loop result is $\beta(e) = e^3/12\pi^2$, giving the running fine-structure constant
 
-**第 2 步 — 求解流动。** 对 μ dg/dμ = 3g²/16π² 积分得 1/g(μ) = 1/g(μ₀) − (3/16π²)ln(μ/μ₀)，即耦合随能量**增大**（高 μ 处出现朗道极点）。对 QED，类似的单圈结果为 β(e) = e³/12π²，给出跑动精细结构常数
+**第 2 步 — 求解流动。** 对 $\mu\, dg/d\mu = 3g^2/16\pi^2$ 积分得 $1/g(\mu) = 1/g(\mu_0) - (3/16\pi^2)\ln(\mu/\mu_0)$，即耦合随能量**增大**（高 $\mu$ 处出现朗道极点）。对 QED，类似的单圈结果为 $\beta(e) = e^3/12\pi^2$，给出跑动精细结构常数
 
-  α(μ) = α(μ₀) / [1 − (α(μ₀)/3π) ln(μ²/μ₀²)],
+$$ \alpha(\mu) = \frac{\alpha(\mu_0)}{1 - (\alpha(\mu_0)/3\pi)\ln(\mu^2/\mu_0^2)}, $$
 
-explaining why α grows from 1/137 at low energy toward ≈1/128 at the Z mass. (In QCD the non-abelian gluon loops flip the sign, β<0, giving asymptotic freedom — see Module 8.3.)
+explaining why $\alpha$ grows from $1/137$ at low energy toward $\approx 1/128$ at the $Z$ mass. (In QCD the non-abelian gluon loops flip the sign, $\beta<0$, giving asymptotic freedom — see Module 8.3.)
 
-这解释了为何 α 从低能的 1/137 增大到 Z 质量处的约 1/128。（在 QCD 中，非阿贝尔胶子圈使符号翻转，β<0，给出渐近自由——见模块 8.3。）∎
+这解释了为何 $\alpha$ 从低能的 $1/137$ 增大到 $Z$ 质量处的约 $1/128$。（在 QCD 中，非阿贝尔胶子圈使符号翻转，$\beta<0$，给出渐近自由——见模块 8.3。）$\blacksquare$
 
 ---
 
 ## C. The Wilson–Fisher Fixed Point & Critical Exponents · 威尔逊–费舍尔不动点与临界指数
 
-**Step 1 — Keep the ε term.** In d = 4 − ε the dimensionful tree term survives: the dimensionless coupling obeys
+**Step 1 — Keep the $\epsilon$ term.** In $d = 4 - \epsilon$ the dimensionful tree term survives: the dimensionless coupling obeys
 
-**第 1 步 — 保留 ε 项。** 在 d = 4 − ε 中，含量纲的树级项保留：无量纲耦合满足
+**第 1 步 — 保留 $\epsilon$ 项。** 在 $d = 4 - \epsilon$ 中，含量纲的树级项保留：无量纲耦合满足
 
-  β(u) = −ε u + (3/16π²) u² + O(u³).
+$$ \beta(u) = -\epsilon u + (3/16\pi^2)\, u^2 + O(u^3). $$
 
-**Step 2 — Fixed points.** Solve β(u*) = 0: the **Gaussian** fixed point u* = 0 (unstable for ε>0) and the **Wilson–Fisher** fixed point
+**Step 2 — Fixed points.** Solve $\beta(u_*) = 0$: the **Gaussian** fixed point $u_* = 0$ (unstable for $\epsilon>0$) and the **Wilson–Fisher** fixed point
 
-**第 2 步 — 不动点。** 解 β(u*) = 0：**高斯**不动点 u* = 0（ε>0 时不稳定）与**威尔逊–费舍尔**不动点
+**第 2 步 — 不动点。** 解 $\beta(u_*) = 0$：**高斯**不动点 $u_* = 0$（$\epsilon>0$ 时不稳定）与**威尔逊–费舍尔**不动点
 
-  u* = 16π² ε / 3.
+$$ u_* = 16\pi^2 \epsilon / 3. $$
 
-**Step 3 — Critical exponent.** Linearize the flow of the relevant (mass/temperature) coupling about u*; the slope dβ_t/dt at u* shifts the correlation-length exponent from its mean-field value ½ to
+**Step 3 — Critical exponent.** Linearize the flow of the relevant (mass/temperature) coupling about $u_*$; the slope $d\beta_t/dt$ at $u_*$ shifts the correlation-length exponent from its mean-field value $\tfrac12$ to
 
-**第 3 步 — 临界指数。** 在 u* 附近线性化相关（质量/温度）耦合的流动；u* 处的斜率 dβ_t/dt 将关联长度指数从平均场值 ½ 修正为
+**第 3 步 — 临界指数。** 在 $u_*$ 附近线性化相关（质量/温度）耦合的流动；$u_*$ 处的斜率 $d\beta_t/dt$ 将关联长度指数从平均场值 $\tfrac12$ 修正为
 
-  ν = ½ + ε/12 + O(ε²).
+$$ \nu = \tfrac12 + \epsilon/12 + O(\epsilon^2). $$
 
-This is **universal**: it depends only on dimension and symmetry, not on microscopic details — the deep reason the liquid–gas critical point, the Ising magnet, and the ⁴He superfluid transition share exponents (Module 2.3). ∎
+This is **universal**: it depends only on dimension and symmetry, not on microscopic details — the deep reason the liquid–gas critical point, the Ising magnet, and the $^4\mathrm{He}$ superfluid transition share exponents (Module 2.3). $\blacksquare$
 
-这是**普适的**：它只依赖于维度和对称性，而与微观细节无关——这正是液–气临界点、伊辛磁体与 ⁴He 超流相变共享临界指数的深层原因（模块 2.3）。∎
+这是**普适的**：它只依赖于维度和对称性，而与微观细节无关——这正是液–气临界点、伊辛磁体与 $^4\mathrm{He}$ 超流相变共享临界指数的深层原因（模块 2.3）。$\blacksquare$

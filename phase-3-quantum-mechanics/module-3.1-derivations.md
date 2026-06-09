@@ -9,261 +9,256 @@
 
 ---
 
-## A. Continuity Equation: ∂|ψ|²/∂t + ∂j/∂x = 0 · 连续性方程
+## A. Continuity Equation: $\partial|\psi|^2/\partial t + \partial j/\partial x = 0$ · 连续性方程
 
-**Claim.** From the Schrödinger equation iℏ ∂ψ/∂t = −(ℏ²/2m)∂²ψ/∂x² + Vψ (with V real), the probability density ρ = |ψ|² and the probability current j = (ℏ/2mi)(ψ* ∂ψ/∂x − ψ ∂ψ*/∂x) satisfy the local conservation law ∂ρ/∂t + ∂j/∂x = 0.
+**Claim.** From the Schrödinger equation $i\hbar\,\partial\psi/\partial t = -(\hbar^2/2m)\partial^2\psi/\partial x^2 + V\psi$ (with $V$ real), the probability density $\rho = |\psi|^2$ and the probability current $j = (\hbar/2mi)(\psi^* \partial\psi/\partial x - \psi\,\partial\psi^*/\partial x)$ satisfy the local conservation law $\partial\rho/\partial t + \partial j/\partial x = 0$.
 
-**命题。** 由薛定谔方程 iℏ ∂ψ/∂t = −(ℏ²/2m)∂²ψ/∂x² + Vψ（V 为实数），概率密度 ρ = |ψ|² 与概率流密度 j = (ℏ/2mi)(ψ* ∂ψ/∂x − ψ ∂ψ*/∂x) 满足局域守恒律 ∂ρ/∂t + ∂j/∂x = 0。
+**命题。** 由薛定谔方程 $i\hbar\,\partial\psi/\partial t = -(\hbar^2/2m)\partial^2\psi/\partial x^2 + V\psi$（$V$ 为实数），概率密度 $\rho = |\psi|^2$ 与概率流密度 $j = (\hbar/2mi)(\psi^* \partial\psi/\partial x - \psi\,\partial\psi^*/\partial x)$ 满足局域守恒律 $\partial\rho/\partial t + \partial j/\partial x = 0$。
 
-**Step 1 — Write down the Schrödinger equation and its complex conjugate.** Let Ĥ = −(ℏ²/2m)∂²/∂x² + V(x,t). The Schrödinger equation and its complex conjugate are (using real V):
+**Step 1 — Write down the Schrödinger equation and its complex conjugate.** Let $\hat{H} = -(\hbar^2/2m)\partial^2/\partial x^2 + V(x,t)$. The Schrödinger equation and its complex conjugate are (using real $V$):
 
-**第 1 步 — 写出薛定谔方程及其复共轭。** 令 Ĥ = −(ℏ²/2m)∂²/∂x² + V(x,t)。薛定谔方程及其复共轭为（利用 V 为实数）：
+**第 1 步 — 写出薛定谔方程及其复共轭。** 令 $\hat{H} = -(\hbar^2/2m)\partial^2/\partial x^2 + V(x,t)$。薛定谔方程及其复共轭为（利用 $V$ 为实数）：
 
-  iℏ ∂ψ/∂t = −(ℏ²/2m) ψ_xx + V ψ,                … (SE)
-  −iℏ ∂ψ*/∂t = −(ℏ²/2m) ψ*_xx + V ψ*.              … (SE*)
+$$ i\hbar\,\partial\psi/\partial t = -(\hbar^2/2m)\,\psi_{xx} + V\psi, \qquad \text{(SE)} $$
 
-**Step 2 — Differentiate ρ = ψ*ψ with respect to t.**
+$$ -i\hbar\,\partial\psi^*/\partial t = -(\hbar^2/2m)\,\psi^*_{xx} + V\psi^*. \qquad \text{(SE*)} $$
 
-**第 2 步 — 对 ρ = ψ*ψ 关于 t 求导。**
+**Step 2 — Differentiate $\rho = \psi^*\psi$ with respect to $t$.**
 
-  ∂ρ/∂t = ∂(ψ*ψ)/∂t = (∂ψ*/∂t)ψ + ψ*(∂ψ/∂t).
+**第 2 步 — 对 $\rho = \psi^*\psi$ 关于 $t$ 求导。**
 
-From (SE): ∂ψ/∂t = (1/iℏ)[−(ℏ²/2m)ψ_xx + Vψ] = (iℏ/2m)ψ_xx − (iV/ℏ)ψ.
-From (SE*): ∂ψ*/∂t = −(iℏ/2m)ψ*_xx + (iV/ℏ)ψ*.
+$$ \frac{\partial\rho}{\partial t} = \frac{\partial(\psi^*\psi)}{\partial t} = \Big(\frac{\partial\psi^*}{\partial t}\Big)\psi + \psi^*\Big(\frac{\partial\psi}{\partial t}\Big). $$
 
-由 (SE)：∂ψ/∂t = (iℏ/2m)ψ_xx − (iV/ℏ)ψ。
-由 (SE*)：∂ψ*/∂t = −(iℏ/2m)ψ*_xx + (iV/ℏ)ψ*。
+From (SE): $\partial\psi/\partial t = (1/i\hbar)[-(\hbar^2/2m)\psi_{xx} + V\psi] = (i\hbar/2m)\psi_{xx} - (iV/\hbar)\psi$.
+From (SE*): $\partial\psi^*/\partial t = -(i\hbar/2m)\psi^*_{xx} + (iV/\hbar)\psi^*$.
 
-**Step 3 — Substitute.** Insert these into ∂ρ/∂t:
+由 (SE)：$\partial\psi/\partial t = (i\hbar/2m)\psi_{xx} - (iV/\hbar)\psi$。
+由 (SE*)：$\partial\psi^*/\partial t = -(i\hbar/2m)\psi^*_{xx} + (iV/\hbar)\psi^*$。
 
-**第 3 步 — 代入。** 将它们代入 ∂ρ/∂t：
+**Step 3 — Substitute.** Insert these into $\partial\rho/\partial t$:
 
-  ∂ρ/∂t = [(−iℏ/2m)ψ*_xx + (iV/ℏ)ψ*]ψ + ψ*[(iℏ/2m)ψ_xx − (iV/ℏ)ψ].
+**第 3 步 — 代入。** 将它们代入 $\partial\rho/\partial t$：
 
-The potential terms cancel (V is real):
+$$ \frac{\partial\rho}{\partial t} = \big[(-i\hbar/2m)\psi^*_{xx} + (iV/\hbar)\psi^*\big]\psi + \psi^*\big[(i\hbar/2m)\psi_{xx} - (iV/\hbar)\psi\big]. $$
 
-势能项消去（V 为实数）：
+The potential terms cancel ($V$ is real):
 
-  ∂ρ/∂t = (iℏ/2m)(ψ* ψ_xx − ψ*_xx ψ).
+势能项消去（$V$ 为实数）：
+
+$$ \frac{\partial\rho}{\partial t} = (i\hbar/2m)(\psi^* \psi_{xx} - \psi^*_{xx} \psi). $$
 
 **Step 4 — Recognize a divergence.** Notice that:
 
 **第 4 步 — 识别散度结构。** 注意到：
 
-  ∂/∂x (ψ* ψ_x − ψ*_x ψ) = ψ*_x ψ_x + ψ* ψ_xx − ψ*_xx ψ − ψ*_x ψ_x = ψ* ψ_xx − ψ*_xx ψ.
+$$ \frac{\partial}{\partial x}(\psi^* \psi_x - \psi^*_x \psi) = \psi^*_x \psi_x + \psi^* \psi_{xx} - \psi^*_{xx} \psi - \psi^*_x \psi_x = \psi^* \psi_{xx} - \psi^*_{xx} \psi. $$
 
 Therefore:
 
 因此：
 
-  ∂ρ/∂t = (iℏ/2m) ∂/∂x (ψ* ψ_x − ψ*_x ψ) = −∂j/∂x,
+$$ \frac{\partial\rho}{\partial t} = (i\hbar/2m)\,\frac{\partial}{\partial x}(\psi^* \psi_x - \psi^*_x \psi) = -\frac{\partial j}{\partial x}, $$
 
 where we define:
 
 其中定义：
 
-  **j = −(iℏ/2m)(ψ* ∂ψ/∂x − ψ ∂ψ*/∂x) = (ℏ/2mi)(ψ* ψ_x − ψ*_x ψ)**.
+$$ \mathbf{j} = -(i\hbar/2m)(\psi^* \partial\psi/\partial x - \psi\,\partial\psi^*/\partial x) = (\hbar/2mi)(\psi^* \psi_x - \psi^*_x \psi). $$
 
-(Note: the two forms are identical since 1/(2mi) = −i/(2m) = −(i/2m).)
+(Note: the two forms are identical since $1/(2mi) = -i/(2m) = -(i/2m)$.)
 
-（注：两种形式等价，因为 1/(2mi) = −i/(2m) = −(i/2m)。）
+（注：两种形式等价，因为 $1/(2mi) = -i/(2m) = -(i/2m)$。）
 
 **Step 5 — Write the continuity equation.**
 
 **第 5 步 — 写出连续性方程。**
 
-  **∂ρ/∂t + ∂j/∂x = 0**. ∎
+$$ \boxed{\,\frac{\partial\rho}{\partial t} + \frac{\partial j}{\partial x} = 0\,} \qquad \blacksquare $$
 
-**Step 6 — Global conservation (normalization is preserved).** Integrate over all x:
+**Step 6 — Global conservation (normalization is preserved).** Integrate over all $x$:
 
 **第 6 步 — 整体守恒（归一化守恒）。** 对全空间积分：
 
-  d/dt ∫₋∞^∞ |ψ|² dx = −[j]₋∞^∞ = 0,
+$$ \frac{d}{dt}\int_{-\infty}^{\infty} |\psi|^2\, dx = -[j]_{-\infty}^{\infty} = 0, $$
 
-since ψ → 0 as |x| → ∞ for normalizable states, so j → 0. Thus if ∫|ψ|² dx = 1 at t = 0, it remains 1 for all t. ∎
+since $\psi \to 0$ as $|x| \to \infty$ for normalizable states, so $j \to 0$. Thus if $\int|\psi|^2\, dx = 1$ at $t = 0$, it remains $1$ for all $t$. $\blacksquare$
 
-因为对可归一化的态，当 |x| → ∞ 时 ψ → 0，所以 j → 0。因此若 ∫|ψ|² dx = 1 在 t = 0 时成立，则对所有 t 均成立。∎
+因为对可归一化的态，当 $|x| \to \infty$ 时 $\psi \to 0$，所以 $j \to 0$。因此若 $\int|\psi|^2\, dx = 1$ 在 $t = 0$ 时成立，则对所有 $t$ 均成立。$\blacksquare$
 
 ---
 
-## B. Ehrenfest Theorem: d⟨x⟩/dt = ⟨p⟩/m · 埃伦费斯特定理
+## B. Ehrenfest Theorem: $d\langle x\rangle/dt = \langle p\rangle/m$ · 埃伦费斯特定理
 
-**Claim.** For a particle governed by the Schrödinger equation, d⟨x⟩/dt = ⟨p̂⟩/m, where ⟨x⟩ = ∫ ψ* x ψ dx and ⟨p̂⟩ = ∫ ψ* (−iℏ ∂/∂x) ψ dx.
+**Claim.** For a particle governed by the Schrödinger equation, $d\langle x\rangle/dt = \langle \hat{p}\rangle/m$, where $\langle x\rangle = \int \psi^* x \psi\, dx$ and $\langle \hat{p}\rangle = \int \psi^* (-i\hbar\,\partial/\partial x) \psi\, dx$.
 
-**命题。** 对由薛定谔方程控制的粒子，d⟨x⟩/dt = ⟨p̂⟩/m，其中 ⟨x⟩ = ∫ ψ* x ψ dx，⟨p̂⟩ = ∫ ψ* (−iℏ ∂/∂x) ψ dx。
+**命题。** 对由薛定谔方程控制的粒子，$d\langle x\rangle/dt = \langle \hat{p}\rangle/m$，其中 $\langle x\rangle = \int \psi^* x \psi\, dx$，$\langle \hat{p}\rangle = \int \psi^* (-i\hbar\,\partial/\partial x) \psi\, dx$。
 
-**Step 1 — Differentiate ⟨x⟩ under the integral sign.**
+**Step 1 — Differentiate $\langle x\rangle$ under the integral sign.**
 
-**第 1 步 — 在积分号下对 ⟨x⟩ 求导。**
+**第 1 步 — 在积分号下对 $\langle x\rangle$ 求导。**
 
-  d⟨x⟩/dt = d/dt ∫ ψ* x ψ dx = ∫ (∂ψ*/∂t · x ψ + ψ* · x · ∂ψ/∂t) dx.
+$$ \frac{d\langle x\rangle}{dt} = \frac{d}{dt}\int \psi^* x \psi\, dx = \int \Big(\frac{\partial\psi^*}{\partial t}\cdot x\psi + \psi^*\cdot x\cdot\frac{\partial\psi}{\partial t}\Big) dx. $$
 
-**Step 2 — Use the Schrödinger equation.** Substitute ∂ψ/∂t = (iℏ/2m)ψ_xx − (i/ℏ)Vψ and ∂ψ*/∂t = −(iℏ/2m)ψ*_xx + (i/ℏ)Vψ*:
+**Step 2 — Use the Schrödinger equation.** Substitute $\partial\psi/\partial t = (i\hbar/2m)\psi_{xx} - (i/\hbar)V\psi$ and $\partial\psi^*/\partial t = -(i\hbar/2m)\psi^*_{xx} + (i/\hbar)V\psi^*$:
 
-**第 2 步 — 利用薛定谔方程。** 代入 ∂ψ/∂t = (iℏ/2m)ψ_xx − (i/ℏ)Vψ 和 ∂ψ*/∂t = −(iℏ/2m)ψ*_xx + (i/ℏ)Vψ*：
+**第 2 步 — 利用薛定谔方程。** 代入 $\partial\psi/\partial t = (i\hbar/2m)\psi_{xx} - (i/\hbar)V\psi$ 和 $\partial\psi^*/\partial t = -(i\hbar/2m)\psi^*_{xx} + (i/\hbar)V\psi^*$：
 
-  d⟨x⟩/dt = ∫ [−(iℏ/2m)ψ*_xx + (i/ℏ)Vψ*] x ψ dx
-             + ∫ ψ* x [(iℏ/2m)ψ_xx − (i/ℏ)Vψ] dx.
+$$ \frac{d\langle x\rangle}{dt} = \int \big[-(i\hbar/2m)\psi^*_{xx} + (i/\hbar)V\psi^*\big] x \psi\, dx + \int \psi^* x \big[(i\hbar/2m)\psi_{xx} - (i/\hbar)V\psi\big] dx. $$
 
-The potential terms ±(i/ℏ)V |ψ|² cancel (V is real):
+The potential terms $\pm(i/\hbar)V |\psi|^2$ cancel ($V$ is real):
 
-势能项 ±(i/ℏ)V |ψ|² 消去（V 为实数）：
+势能项 $\pm(i/\hbar)V |\psi|^2$ 消去（$V$ 为实数）：
 
-  d⟨x⟩/dt = (iℏ/2m) ∫ x (ψ* ψ_xx − ψ*_xx ψ) dx.
+$$ \frac{d\langle x\rangle}{dt} = (i\hbar/2m) \int x (\psi^* \psi_{xx} - \psi^*_{xx} \psi)\, dx. $$
 
-**Step 3 — Integrate by parts.** Integrate the term ∫ x ψ*_xx ψ dx by parts twice. First integration by parts on ∫ x ψ*_xx ψ dx (integrate ψ*_xx, differentiate xψ):
+**Step 3 — Integrate by parts.** Integrate the term $\int x \psi^*_{xx} \psi\, dx$ by parts twice. First integration by parts on $\int x \psi^*_{xx} \psi\, dx$ (integrate $\psi^*_{xx}$, differentiate $x\psi$):
 
-**第 3 步 — 分部积分。** 对 ∫ x ψ*_xx ψ dx 进行两次分部积分。第一次分部积分（对 ψ*_xx 积分，对 xψ 微分）：
+**第 3 步 — 分部积分。** 对 $\int x \psi^*_{xx} \psi\, dx$ 进行两次分部积分。第一次分部积分（对 $\psi^*_{xx}$ 积分，对 $x\psi$ 微分）：
 
-  ∫ x ψ*_xx ψ dx = [x ψ*_x ψ]₋∞^∞ − ∫ ψ*_x (ψ + x ψ_x) dx = − ∫ ψ*_x ψ dx − ∫ x ψ*_x ψ_x dx.
+$$ \int x \psi^*_{xx} \psi\, dx = [x \psi^*_x \psi]_{-\infty}^{\infty} - \int \psi^*_x (\psi + x \psi_x)\, dx = -\int \psi^*_x \psi\, dx - \int x \psi^*_x \psi_x\, dx. $$
 
-Similarly, integrate by parts on ∫ x ψ* ψ_xx dx (integrate ψ_xx, differentiate xψ*):
+Similarly, integrate by parts on $\int x \psi^* \psi_{xx}\, dx$ (integrate $\psi_{xx}$, differentiate $x\psi^*$):
 
-类似地，对 ∫ x ψ* ψ_xx dx 分部积分（对 ψ_xx 积分，对 xψ* 微分）：
+类似地，对 $\int x \psi^* \psi_{xx}\, dx$ 分部积分（对 $\psi_{xx}$ 积分，对 $x\psi^*$ 微分）：
 
-  ∫ x ψ* ψ_xx dx = [x ψ* ψ_x]₋∞^∞ − ∫ ψ_x (ψ* + x ψ*_x) dx = − ∫ ψ_x ψ* dx − ∫ x ψ*_x ψ_x dx.
+$$ \int x \psi^* \psi_{xx}\, dx = [x \psi^* \psi_x]_{-\infty}^{\infty} - \int \psi_x (\psi^* + x \psi^*_x)\, dx = -\int \psi_x \psi^*\, dx - \int x \psi^*_x \psi_x\, dx. $$
 
-(Boundary terms vanish for normalizable ψ.)
+(Boundary terms vanish for normalizable $\psi$.)
 
-（对可归一化的 ψ，边界项为零。）
+（对可归一化的 $\psi$，边界项为零。）
 
 Therefore:
 
 因此：
 
-  ψ* ψ_xx − ψ*_xx ψ integrated against x gives:
+$\psi^* \psi_{xx} - \psi^*_{xx} \psi$ integrated against $x$ gives:
 
-  ∫ x (ψ* ψ_xx − ψ*_xx ψ) dx = (−∫ ψ_x ψ* dx − ∫ x ψ*_x ψ_x dx) − (−∫ ψ*_x ψ dx − ∫ x ψ*_x ψ_x dx)
+$$ \int x (\psi^* \psi_{xx} - \psi^*_{xx} \psi)\, dx = \Big(-\int \psi_x \psi^*\, dx - \int x \psi^*_x \psi_x\, dx\Big) - \Big(-\int \psi^*_x \psi\, dx - \int x \psi^*_x \psi_x\, dx\Big) $$
 
-  = −∫ ψ* ψ_x dx + ∫ ψ*_x ψ dx = ∫ (ψ*_x ψ − ψ* ψ_x) dx.
+$$ = -\int \psi^* \psi_x\, dx + \int \psi^*_x \psi\, dx = \int (\psi^*_x \psi - \psi^* \psi_x)\, dx. $$
 
-**Step 4 — Further simplification.** Note that ∫ ψ*_x ψ dx = −∫ ψ* ψ_x dx by integration by parts (boundary term = 0):
+**Step 4 — Further simplification.** Note that $\int \psi^*_x \psi\, dx = -\int \psi^* \psi_x\, dx$ by integration by parts (boundary term $= 0$):
 
-**第 4 步 — 进一步化简。** 注意通过分部积分 ∫ ψ*_x ψ dx = −∫ ψ* ψ_x dx（边界项 = 0）：
+**第 4 步 — 进一步化简。** 注意通过分部积分 $\int \psi^*_x \psi\, dx = -\int \psi^* \psi_x\, dx$（边界项 $= 0$）：
 
-  ∫ (ψ*_x ψ − ψ* ψ_x) dx = −∫ ψ* ψ_x dx − ∫ ψ* ψ_x dx = −2 ∫ ψ* ψ_x dx.
+$$ \int (\psi^*_x \psi - \psi^* \psi_x)\, dx = -\int \psi^* \psi_x\, dx - \int \psi^* \psi_x\, dx = -2 \int \psi^* \psi_x\, dx. $$
 
 Therefore:
 
 因此：
 
-  d⟨x⟩/dt = (iℏ/2m)(−2) ∫ ψ* ψ_x dx = −(iℏ/m) ∫ ψ* (∂ψ/∂x) dx.
+$$ \frac{d\langle x\rangle}{dt} = (i\hbar/2m)(-2) \int \psi^* \psi_x\, dx = -(i\hbar/m) \int \psi^* (\partial\psi/\partial x)\, dx. $$
 
-Recognizing p̂ = −iℏ ∂/∂x:
+Recognizing $\hat{p} = -i\hbar\,\partial/\partial x$:
 
-识别 p̂ = −iℏ ∂/∂x：
+识别 $\hat{p} = -i\hbar\,\partial/\partial x$：
 
-  d⟨x⟩/dt = (1/m) ∫ ψ* (−iℏ ∂ψ/∂x) dx = **⟨p̂⟩/m**. ∎
+$$ \frac{d\langle x\rangle}{dt} = (1/m) \int \psi^* (-i\hbar\,\partial\psi/\partial x)\, dx = \boxed{\,\langle \hat{p}\rangle/m\,} \qquad \blacksquare $$
 
 ---
 
-## C. Expectation Value and Uncertainty: ⟨Q⟩ and ΔQ · 期望值与不确定性：⟨Q⟩ 与 ΔQ
+## C. Expectation Value and Uncertainty: $\langle Q\rangle$ and $\Delta Q$ · 期望值与不确定性：$\langle Q\rangle$ 与 $\Delta Q$
 
-**Claim.** For any observable Q with operator Q̂, ⟨Q⟩ = ∫ ψ* Q̂ ψ dx is a real number (for Hermitian Q̂), and the spread ΔQ = √(⟨Q²⟩ − ⟨Q⟩²) is well-defined and non-negative.
+**Claim.** For any observable $Q$ with operator $\hat{Q}$, $\langle Q\rangle = \int \psi^* \hat{Q} \psi\, dx$ is a real number (for Hermitian $\hat{Q}$), and the spread $\Delta Q = \sqrt{\langle Q^2\rangle - \langle Q\rangle^2}$ is well-defined and non-negative.
 
-**命题。** 对任意可观测量 Q（算符 Q̂），⟨Q⟩ = ∫ ψ* Q̂ ψ dx 是实数（对厄米 Q̂），散布 ΔQ = √(⟨Q²⟩ − ⟨Q⟩²) 定义良好且非负。
+**命题。** 对任意可观测量 $Q$（算符 $\hat{Q}$），$\langle Q\rangle = \int \psi^* \hat{Q} \psi\, dx$ 是实数（对厄米 $\hat{Q}$），散布 $\Delta Q = \sqrt{\langle Q^2\rangle - \langle Q\rangle^2}$ 定义良好且非负。
 
-**Step 1 — Reality of ⟨Q⟩.** Q̂ is Hermitian means ⟨φ|Q̂ψ⟩ = ⟨Q̂φ|ψ⟩ for all φ, ψ in the domain. Take φ = ψ:
+**Step 1 — Reality of $\langle Q\rangle$.** $\hat{Q}$ is Hermitian means $\langle\varphi|\hat{Q}\psi\rangle = \langle\hat{Q}\varphi|\psi\rangle$ for all $\varphi, \psi$ in the domain. Take $\varphi = \psi$:
 
-**第 1 步 — ⟨Q⟩ 的实性。** Q̂ 是厄米的意味着对定义域内所有 φ、ψ 有 ⟨φ|Q̂ψ⟩ = ⟨Q̂φ|ψ⟩。取 φ = ψ：
+**第 1 步 — $\langle Q\rangle$ 的实性。** $\hat{Q}$ 是厄米的意味着对定义域内所有 $\varphi$、$\psi$ 有 $\langle\varphi|\hat{Q}\psi\rangle = \langle\hat{Q}\varphi|\psi\rangle$。取 $\varphi = \psi$：
 
-  ⟨Q⟩ = ∫ ψ* Q̂ ψ dx = ⟨ψ|Q̂ψ⟩ = ⟨Q̂ψ|ψ⟩ = (∫ ψ* Q̂ ψ dx)* = ⟨Q⟩*.
+$$ \langle Q\rangle = \int \psi^* \hat{Q} \psi\, dx = \langle\psi|\hat{Q}\psi\rangle = \langle\hat{Q}\psi|\psi\rangle = \Big(\int \psi^* \hat{Q} \psi\, dx\Big)^* = \langle Q\rangle^*. $$
 
-Therefore ⟨Q⟩ is real. ∎
+Therefore $\langle Q\rangle$ is real. $\blacksquare$
 
-因此 ⟨Q⟩ 为实数。∎
+因此 $\langle Q\rangle$ 为实数。$\blacksquare$
 
-**Step 2 — Non-negativity of ΔQ.** Compute ⟨Q²⟩ − ⟨Q⟩²:
+**Step 2 — Non-negativity of $\Delta Q$.** Compute $\langle Q^2\rangle - \langle Q\rangle^2$:
 
-**第 2 步 — ΔQ 的非负性。** 计算 ⟨Q²⟩ − ⟨Q⟩²：
+**第 2 步 — $\Delta Q$ 的非负性。** 计算 $\langle Q^2\rangle - \langle Q\rangle^2$：
 
-  ΔQ² = ⟨Q²⟩ − ⟨Q⟩² = ⟨(Q̂ − ⟨Q⟩)²⟩ = ⟨ψ|(Q̂ − ⟨Q⟩)²|ψ⟩.
+$$ \Delta Q^2 = \langle Q^2\rangle - \langle Q\rangle^2 = \langle(\hat{Q} - \langle Q\rangle)^2\rangle = \langle\psi|(\hat{Q} - \langle Q\rangle)^2|\psi\rangle. $$
 
-Define the shifted operator Q̃ = Q̂ − ⟨Q⟩ (which is also Hermitian). Then:
+Define the shifted operator $\tilde{Q} = \hat{Q} - \langle Q\rangle$ (which is also Hermitian). Then:
 
-定义移位算符 Q̃ = Q̂ − ⟨Q⟩（它也是厄米的）。则：
+定义移位算符 $\tilde{Q} = \hat{Q} - \langle Q\rangle$（它也是厄米的）。则：
 
-  ΔQ² = ⟨ψ|Q̃²|ψ⟩ = ⟨ψ|Q̃†Q̃|ψ⟩ = ⟨Q̃ψ|Q̃ψ⟩ = ‖Q̃ψ‖² ≥ 0.
+$$ \Delta Q^2 = \langle\psi|\tilde{Q}^2|\psi\rangle = \langle\psi|\tilde{Q}^\dagger\tilde{Q}|\psi\rangle = \langle\tilde{Q}\psi|\tilde{Q}\psi\rangle = \|\tilde{Q}\psi\|^2 \ge 0. $$
 
-(Used Q̃† = Q̃ and the definition of inner product.) Therefore ΔQ = ‖Q̃ψ‖ ≥ 0. ∎
+(Used $\tilde{Q}^\dagger = \tilde{Q}$ and the definition of inner product.) Therefore $\Delta Q = \|\tilde{Q}\psi\| \ge 0$. $\blacksquare$
 
-（利用了 Q̃† = Q̃ 和内积的定义。）因此 ΔQ = ‖Q̃ψ‖ ≥ 0。∎
+（利用了 $\tilde{Q}^\dagger = \tilde{Q}$ 和内积的定义。）因此 $\Delta Q = \|\tilde{Q}\psi\| \ge 0$。$\blacksquare$
 
 ---
 
 ## D. Gaussian Wave Packet Saturates the Uncertainty Principle · 高斯波包使不确定性原理取等
 
-**Claim.** For the normalized Gaussian wave function ψ(x) = (2πσ²)^{−1/4} exp(−x²/(4σ²)) exp(ip₀x/ℏ), we have ⟨x⟩ = 0, ⟨p⟩ = p₀, Δx = σ, Δp = ℏ/(2σ), and hence Δx·Δp = ℏ/2 — the minimum uncertainty state.
+**Claim.** For the normalized Gaussian wave function $\psi(x) = (2\pi\sigma^2)^{-1/4} \exp(-x^2/(4\sigma^2)) \exp(ip_0 x/\hbar)$, we have $\langle x\rangle = 0$, $\langle p\rangle = p_0$, $\Delta x = \sigma$, $\Delta p = \hbar/(2\sigma)$, and hence $\Delta x\cdot\Delta p = \hbar/2$ — the minimum uncertainty state.
 
-**命题。** 对于归一化高斯波函数 ψ(x) = (2πσ²)^{−1/4} exp(−x²/(4σ²)) exp(ip₀x/ℏ)，有 ⟨x⟩ = 0、⟨p⟩ = p₀、Δx = σ、Δp = ℏ/(2σ)，从而 Δx·Δp = ℏ/2——最小不确定性态。
+**命题。** 对于归一化高斯波函数 $\psi(x) = (2\pi\sigma^2)^{-1/4} \exp(-x^2/(4\sigma^2)) \exp(ip_0 x/\hbar)$，有 $\langle x\rangle = 0$、$\langle p\rangle = p_0$、$\Delta x = \sigma$、$\Delta p = \hbar/(2\sigma)$，从而 $\Delta x\cdot\Delta p = \hbar/2$——最小不确定性态。
 
-**Step 1 — Normalization check.** With ρ(x) = |ψ(x)|² = (2πσ²)^{−1/2} exp(−x²/(2σ²)):
+**Step 1 — Normalization check.** With $\rho(x) = |\psi(x)|^2 = (2\pi\sigma^2)^{-1/2} \exp(-x^2/(2\sigma^2))$:
 
-**第 1 步 — 归一化验证。** 以 ρ(x) = |ψ(x)|² = (2πσ²)^{−1/2} exp(−x²/(2σ²))：
+**第 1 步 — 归一化验证。** 以 $\rho(x) = |\psi(x)|^2 = (2\pi\sigma^2)^{-1/2} \exp(-x^2/(2\sigma^2))$：
 
-  ∫₋∞^∞ ρ dx = (2πσ²)^{−1/2} ∫₋∞^∞ e^{−x²/(2σ²)} dx = (2πσ²)^{−1/2} · √(2πσ²) = 1. ✓
+$$ \int_{-\infty}^{\infty} \rho\, dx = (2\pi\sigma^2)^{-1/2} \int_{-\infty}^{\infty} e^{-x^2/(2\sigma^2)}\, dx = (2\pi\sigma^2)^{-1/2}\cdot\sqrt{2\pi\sigma^2} = 1. \;\checkmark $$
 
-(Used the Gaussian integral ∫₋∞^∞ e^{−ax²} dx = √(π/a) with a = 1/(2σ²).)
+(Used the Gaussian integral $\int_{-\infty}^{\infty} e^{-ax^2}\, dx = \sqrt{\pi/a}$ with $a = 1/(2\sigma^2)$.)
 
-（利用高斯积分 ∫₋∞^∞ e^{−ax²} dx = √(π/a)，取 a = 1/(2σ²)。）
+（利用高斯积分 $\int_{-\infty}^{\infty} e^{-ax^2}\, dx = \sqrt{\pi/a}$，取 $a = 1/(2\sigma^2)$。）
 
-**Step 2 — Position expectation.** Since |ψ|² is symmetric (even function of x):
+**Step 2 — Position expectation.** Since $|\psi|^2$ is symmetric (even function of $x$):
 
-**第 2 步 — 位置期望值。** 由于 |ψ|² 是对称函数（x 的偶函数）：
+**第 2 步 — 位置期望值。** 由于 $|\psi|^2$ 是对称函数（$x$ 的偶函数）：
 
-  ⟨x⟩ = ∫ x |ψ|² dx = 0  (odd integrand over symmetric domain).
+$$ \langle x\rangle = \int x |\psi|^2\, dx = 0 \quad (\text{odd integrand over symmetric domain}). $$
 
-**第 2 步 — 位置期望值。** ⟨x⟩ = 0（被积函数为奇函数，积分区间对称）。
+**第 2 步 — 位置期望值。** $\langle x\rangle = 0$（被积函数为奇函数，积分区间对称）。
 
-**Step 3 — ⟨x²⟩.** Using the Gaussian moment integral ∫₋∞^∞ x² e^{−x²/(2σ²)} dx = σ² √(2πσ²):
+**Step 3 — $\langle x^2\rangle$.** Using the Gaussian moment integral $\int_{-\infty}^{\infty} x^2 e^{-x^2/(2\sigma^2)}\, dx = \sigma^2 \sqrt{2\pi\sigma^2}$:
 
-**第 3 步 — ⟨x²⟩。** 利用高斯矩积分 ∫₋∞^∞ x² e^{−x²/(2σ²)} dx = σ² √(2πσ²)：
+**第 3 步 — $\langle x^2\rangle$。** 利用高斯矩积分 $\int_{-\infty}^{\infty} x^2 e^{-x^2/(2\sigma^2)}\, dx = \sigma^2 \sqrt{2\pi\sigma^2}$：
 
-  ⟨x²⟩ = (2πσ²)^{−1/2} ∫ x² e^{−x²/(2σ²)} dx = (2πσ²)^{−1/2} · σ²√(2πσ²) = σ².
+$$ \langle x^2\rangle = (2\pi\sigma^2)^{-1/2} \int x^2 e^{-x^2/(2\sigma^2)}\, dx = (2\pi\sigma^2)^{-1/2}\cdot\sigma^2\sqrt{2\pi\sigma^2} = \sigma^2. $$
 
-Therefore Δx = √(⟨x²⟩ − ⟨x⟩²) = √(σ² − 0) = **σ**. ∎
+Therefore $\Delta x = \sqrt{\langle x^2\rangle - \langle x\rangle^2} = \sqrt{\sigma^2 - 0} = \boxed{\,\sigma\,}$. $\blacksquare$
 
-**Step 4 — Momentum expectation.** Apply p̂ = −iℏ ∂/∂x:
+**Step 4 — Momentum expectation.** Apply $\hat{p} = -i\hbar\,\partial/\partial x$:
 
-**第 4 步 — 动量期望值。** 应用 p̂ = −iℏ ∂/∂x：
+**第 4 步 — 动量期望值。** 应用 $\hat{p} = -i\hbar\,\partial/\partial x$：
 
-  ∂ψ/∂x = ψ · [−x/(2σ²) + ip₀/ℏ].
+$$ \partial\psi/\partial x = \psi\cdot[-x/(2\sigma^2) + ip_0/\hbar]. $$
 
-  ⟨p̂⟩ = ∫ ψ* (−iℏ) ψ · [−x/(2σ²) + ip₀/ℏ] dx
-        = −iℏ · [−1/(2σ²) ∫ x|ψ|² dx + ip₀/ℏ ∫ |ψ|² dx]
-        = −iℏ · [0 + ip₀/ℏ · 1] = p₀. ∎
+$$ \begin{aligned} \langle \hat{p}\rangle &= \int \psi^* (-i\hbar) \psi\cdot[-x/(2\sigma^2) + ip_0/\hbar]\, dx \\ &= -i\hbar\cdot\big[-1/(2\sigma^2) \int x|\psi|^2\, dx + ip_0/\hbar \int |\psi|^2\, dx\big] \\ &= -i\hbar\cdot[0 + ip_0/\hbar\cdot 1] = p_0. \end{aligned} $$
 
-**Step 5 — ⟨p̂²⟩.** Compute ∂²ψ/∂x²:
+$\blacksquare$
 
-**第 5 步 — ⟨p̂²⟩。** 计算 ∂²ψ/∂x²：
+**Step 5 — $\langle \hat{p}^2\rangle$.** Compute $\partial^2\psi/\partial x^2$:
 
-  ∂ψ/∂x = ψ·(−x/(2σ²) + ip₀/ℏ),
+**第 5 步 — $\langle \hat{p}^2\rangle$。** 计算 $\partial^2\psi/\partial x^2$：
 
-  ∂²ψ/∂x² = ∂ψ/∂x·(−x/(2σ²) + ip₀/ℏ) + ψ·(−1/(2σ²))
-            = ψ·(−x/(2σ²) + ip₀/ℏ)² + ψ·(−1/(2σ²)).
+$$ \partial\psi/\partial x = \psi\cdot(-x/(2\sigma^2) + ip_0/\hbar), $$
 
-  ⟨p̂²⟩ = ∫ ψ*(−ℏ²) ∂²ψ/∂x² dx = −ℏ² ∫ |ψ|² [(−x/(2σ²) + ip₀/ℏ)² − 1/(2σ²)] dx.
+$$ \partial^2\psi/\partial x^2 = \partial\psi/\partial x\cdot(-x/(2\sigma^2) + ip_0/\hbar) + \psi\cdot(-1/(2\sigma^2)) = \psi\cdot(-x/(2\sigma^2) + ip_0/\hbar)^2 + \psi\cdot(-1/(2\sigma^2)). $$
 
-Expand (−x/(2σ²) + ip₀/ℏ)² = x²/(4σ⁴) − ix·p₀/(σ²ℏ) − p₀²/ℏ²:
+$$ \langle \hat{p}^2\rangle = \int \psi^*(-\hbar^2) \partial^2\psi/\partial x^2\, dx = -\hbar^2 \int |\psi|^2 [(-x/(2\sigma^2) + ip_0/\hbar)^2 - 1/(2\sigma^2)]\, dx. $$
 
-展开 (−x/(2σ²) + ip₀/ℏ)² = x²/(4σ⁴) − ix·p₀/(σ²ℏ) − p₀²/ℏ²：
+Expand $(-x/(2\sigma^2) + ip_0/\hbar)^2 = x^2/(4\sigma^4) - ix\cdot p_0/(\sigma^2\hbar) - p_0^2/\hbar^2$:
 
-  ⟨p̂²⟩ = −ℏ² [⟨x²⟩/(4σ⁴) − i·p₀·⟨x⟩/(σ²ℏ) − p₀²/ℏ² − 1/(2σ²)]
-         = −ℏ² [σ²/(4σ⁴) − 0 − p₀²/ℏ² − 1/(2σ²)]
-         = −ℏ² [1/(4σ²) − p₀²/ℏ² − 1/(2σ²)]
-         = −ℏ² [−1/(4σ²) − p₀²/ℏ²]
-         = ℏ²/(4σ²) + p₀².
+展开 $(-x/(2\sigma^2) + ip_0/\hbar)^2 = x^2/(4\sigma^4) - ix\cdot p_0/(\sigma^2\hbar) - p_0^2/\hbar^2$：
 
-**Step 6 — Δp and the product.** 
+$$ \begin{aligned} \langle \hat{p}^2\rangle &= -\hbar^2 [\langle x^2\rangle/(4\sigma^4) - i\cdot p_0\cdot\langle x\rangle/(\sigma^2\hbar) - p_0^2/\hbar^2 - 1/(2\sigma^2)] \\ &= -\hbar^2 [\sigma^2/(4\sigma^4) - 0 - p_0^2/\hbar^2 - 1/(2\sigma^2)] \\ &= -\hbar^2 [1/(4\sigma^2) - p_0^2/\hbar^2 - 1/(2\sigma^2)] \\ &= -\hbar^2 [-1/(4\sigma^2) - p_0^2/\hbar^2] \\ &= \hbar^2/(4\sigma^2) + p_0^2. \end{aligned} $$
 
-**第 6 步 — Δp 与不确定度积。**
+**Step 6 — $\Delta p$ and the product.**
 
-  Δp² = ⟨p̂²⟩ − ⟨p̂⟩² = ℏ²/(4σ²) + p₀² − p₀² = ℏ²/(4σ²).
+**第 6 步 — $\Delta p$ 与不确定度积。**
 
-  Δp = ℏ/(2σ).
+$$ \Delta p^2 = \langle \hat{p}^2\rangle - \langle \hat{p}\rangle^2 = \hbar^2/(4\sigma^2) + p_0^2 - p_0^2 = \hbar^2/(4\sigma^2). $$
 
-  **Δx · Δp = σ · ℏ/(2σ) = ℏ/2**. ∎
+$$ \Delta p = \hbar/(2\sigma). $$
 
-This is the absolute minimum allowed by the uncertainty principle (proven in Module 3.3-derivations). The Gaussian packet is the unique state that saturates Δx·Δp = ℏ/2.
+$$ \boxed{\,\Delta x\cdot\Delta p = \sigma\cdot\hbar/(2\sigma) = \hbar/2\,} \qquad \blacksquare $$
 
-这是不确定性原理所允许的绝对最小值（在模块 3.3 推导中证明）。高斯波包是使 Δx·Δp = ℏ/2 取等的唯一态。∎
+This is the absolute minimum allowed by the uncertainty principle (proven in Module 3.3-derivations). The Gaussian packet is the unique state that saturates $\Delta x\cdot\Delta p = \hbar/2$.
+
+这是不确定性原理所允许的绝对最小值（在模块 3.3 推导中证明）。高斯波包是使 $\Delta x\cdot\Delta p = \hbar/2$ 取等的唯一态。$\blacksquare$

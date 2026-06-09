@@ -11,266 +11,274 @@
 
 ## A. The Inertia Tensor · 惯量张量
 
-**Claim.** The angular momentum of a rigid body rotating with angular velocity ω is L = I · ω, where the inertia tensor has components:
+**Claim.** The angular momentum of a rigid body rotating with angular velocity $\boldsymbol{\omega}$ is $\mathbf{L} = \mathbf{I}\cdot\boldsymbol{\omega}$, where the inertia tensor has components:
 
-  I_{ij} = Σ_α m_α (|r_α|² δ_{ij} − r_{αi} r_{αj}).
+$$ I_{ij} = \sum_\alpha m_\alpha \left(|\mathbf{r}_\alpha|^2\, \delta_{ij} - r_{\alpha i}\, r_{\alpha j}\right). $$
 
-The rotational kinetic energy is T_rot = ½ ω · I · ω = ½ Σ_{ij} I_{ij} ωᵢ ωⱼ.
+The rotational kinetic energy is $T_\text{rot} = \tfrac12\, \boldsymbol{\omega}\cdot\mathbf{I}\cdot\boldsymbol{\omega} = \tfrac12 \sum_{ij} I_{ij}\, \omega_i\, \omega_j$.
 
-**命题。** 以角速度 ω 旋转的刚体的角动量为 L = I · ω，其中惯量张量的分量为：
+**命题。** 以角速度 $\boldsymbol{\omega}$ 旋转的刚体的角动量为 $\mathbf{L} = \mathbf{I}\cdot\boldsymbol{\omega}$，其中惯量张量的分量为：
 
-  I_{ij} = Σ_α m_α (|r_α|² δ_{ij} − r_{αi} r_{αj})。
+$$ I_{ij} = \sum_\alpha m_\alpha \left(|\mathbf{r}_\alpha|^2\, \delta_{ij} - r_{\alpha i}\, r_{\alpha j}\right). $$
 
-转动动能为 T_rot = ½ ω · I · ω = ½ Σ_{ij} I_{ij} ωᵢ ωⱼ。
+转动动能为 $T_\text{rot} = \tfrac12\, \boldsymbol{\omega}\cdot\mathbf{I}\cdot\boldsymbol{\omega} = \tfrac12 \sum_{ij} I_{ij}\, \omega_i\, \omega_j$。
 
-**Step 1 — Velocity of a particle in a rotating body.** For a rigid body rotating with angular velocity ω, the velocity of particle α at position r_α (relative to the body's reference point) is:
+**Step 1 — Velocity of a particle in a rotating body.** For a rigid body rotating with angular velocity $\boldsymbol{\omega}$, the velocity of particle $\alpha$ at position $\mathbf{r}_\alpha$ (relative to the body's reference point) is:
 
-**第 1 步 — 旋转刚体中粒子的速度。** 对于以角速度 ω 旋转的刚体，位置为 r_α（相对于刚体参考点）的粒子 α 的速度为：
+**第 1 步 — 旋转刚体中粒子的速度。** 对于以角速度 $\boldsymbol{\omega}$ 旋转的刚体，位置为 $\mathbf{r}_\alpha$（相对于刚体参考点）的粒子 $\alpha$ 的速度为：
 
-  v_α = ω × r_α.
+$$ \mathbf{v}_\alpha = \boldsymbol{\omega}\times\mathbf{r}_\alpha. $$
 
-**Step 2 — Write the angular momentum.** L = Σ_α m_α r_α × v_α:
+**Step 2 — Write the angular momentum.** $\mathbf{L} = \sum_\alpha m_\alpha\, \mathbf{r}_\alpha\times\mathbf{v}_\alpha$:
 
-**第 2 步 — 写出角动量。** L = Σ_α m_α r_α × v_α：
+**第 2 步 — 写出角动量。** $\mathbf{L} = \sum_\alpha m_\alpha\, \mathbf{r}_\alpha\times\mathbf{v}_\alpha$：
 
-  L = Σ_α m_α r_α × (ω × r_α).
+$$ \mathbf{L} = \sum_\alpha m_\alpha\, \mathbf{r}_\alpha\times(\boldsymbol{\omega}\times\mathbf{r}_\alpha). $$
 
-**Step 3 — Expand using the BAC–CAB rule.** The vector identity A × (B × C) = B(A·C) − C(A·B) gives:
+**Step 3 — Expand using the BAC–CAB rule.** The vector identity $\mathbf{A}\times(\mathbf{B}\times\mathbf{C}) = \mathbf{B}(\mathbf{A}\cdot\mathbf{C}) - \mathbf{C}(\mathbf{A}\cdot\mathbf{B})$ gives:
 
-**第 3 步 — 用 BAC–CAB 规则展开。** 向量恒等式 A × (B × C) = B(A·C) − C(A·B) 给出：
+**第 3 步 — 用 BAC–CAB 规则展开。** 向量恒等式 $\mathbf{A}\times(\mathbf{B}\times\mathbf{C}) = \mathbf{B}(\mathbf{A}\cdot\mathbf{C}) - \mathbf{C}(\mathbf{A}\cdot\mathbf{B})$ 给出：
 
-  r_α × (ω × r_α) = ω (r_α · r_α) − r_α (r_α · ω) = ω |r_α|² − r_α (r_α · ω).
+$$ \mathbf{r}_\alpha\times(\boldsymbol{\omega}\times\mathbf{r}_\alpha) = \boldsymbol{\omega}\,(\mathbf{r}_\alpha\cdot\mathbf{r}_\alpha) - \mathbf{r}_\alpha\,(\mathbf{r}_\alpha\cdot\boldsymbol{\omega}) = \boldsymbol{\omega}\, |\mathbf{r}_\alpha|^2 - \mathbf{r}_\alpha\,(\mathbf{r}_\alpha\cdot\boldsymbol{\omega}). $$
 
-**Step 4 — Write in component form.** The i-th component of L is:
+**Step 4 — Write in component form.** The $i$-th component of $\mathbf{L}$ is:
 
-**第 4 步 — 写成分量形式。** L 的第 i 个分量为：
+**第 4 步 — 写成分量形式。** $\mathbf{L}$ 的第 $i$ 个分量为：
 
-  Lᵢ = Σ_α m_α [|r_α|² ωᵢ − r_{αi} (Σⱼ r_{αj} ωⱼ)]
-     = Σⱼ [Σ_α m_α (|r_α|² δ_{ij} − r_{αi} r_{αj})] ωⱼ
-     = Σⱼ I_{ij} ωⱼ.
+$$ \begin{aligned}
+L_i &= \sum_\alpha m_\alpha \left[|\mathbf{r}_\alpha|^2\, \omega_i - r_{\alpha i}\left(\sum_j r_{\alpha j}\, \omega_j\right)\right] \\
+&= \sum_j \left[\sum_\alpha m_\alpha \left(|\mathbf{r}_\alpha|^2\, \delta_{ij} - r_{\alpha i}\, r_{\alpha j}\right)\right] \omega_j \\
+&= \sum_j I_{ij}\, \omega_j.
+\end{aligned} $$
 
-So **Lᵢ = Σⱼ I_{ij} ωⱼ**, i.e. **L = I · ω**, with I_{ij} = Σ_α m_α(|r_α|² δ_{ij} − r_{αi}r_{αj}). ∎
+So $L_i = \sum_j I_{ij}\, \omega_j$, i.e. $\mathbf{L} = \mathbf{I}\cdot\boldsymbol{\omega}$, with $I_{ij} = \sum_\alpha m_\alpha(|\mathbf{r}_\alpha|^2\, \delta_{ij} - r_{\alpha i} r_{\alpha j})$. $\blacksquare$
 
-故 **Lᵢ = Σⱼ I_{ij} ωⱼ**，即 **L = I · ω**，其中 I_{ij} = Σ_α m_α(|r_α|² δ_{ij} − r_{αi}r_{αj})。∎
+故 $L_i = \sum_j I_{ij}\, \omega_j$，即 $\mathbf{L} = \mathbf{I}\cdot\boldsymbol{\omega}$，其中 $I_{ij} = \sum_\alpha m_\alpha(|\mathbf{r}_\alpha|^2\, \delta_{ij} - r_{\alpha i} r_{\alpha j})$。$\blacksquare$
 
-**Step 5 — Rotational kinetic energy.** T_rot = ½ Σ_α m_α |v_α|² = ½ Σ_α m_α |ω × r_α|². Using the result from Step 3:
+**Step 5 — Rotational kinetic energy.** $T_\text{rot} = \tfrac12 \sum_\alpha m_\alpha |\mathbf{v}_\alpha|^2 = \tfrac12 \sum_\alpha m_\alpha |\boldsymbol{\omega}\times\mathbf{r}_\alpha|^2$. Using the result from Step 3:
 
-**第 5 步 — 转动动能。** T_rot = ½ Σ_α m_α |v_α|² = ½ Σ_α m_α |ω × r_α|²。利用第 3 步的结果：
+**第 5 步 — 转动动能。** $T_\text{rot} = \tfrac12 \sum_\alpha m_\alpha |\mathbf{v}_\alpha|^2 = \tfrac12 \sum_\alpha m_\alpha |\boldsymbol{\omega}\times\mathbf{r}_\alpha|^2$。利用第 3 步的结果：
 
-  T_rot = ½ Σ_α m_α ω · [ω|r_α|² − r_α(r_α · ω)] = ½ ω · L = ½ ω · I · ω. ∎
-
-  T_rot = ½ Σ_α m_α ω · [ω|r_α|² − r_α(r_α · ω)] = ½ ω · L = ½ ω · I · ω。∎
+$$ T_\text{rot} = \tfrac12 \sum_\alpha m_\alpha\, \boldsymbol{\omega}\cdot\left[\boldsymbol{\omega}\,|\mathbf{r}_\alpha|^2 - \mathbf{r}_\alpha(\mathbf{r}_\alpha\cdot\boldsymbol{\omega})\right] = \tfrac12\, \boldsymbol{\omega}\cdot\mathbf{L} = \tfrac12\, \boldsymbol{\omega}\cdot\mathbf{I}\cdot\boldsymbol{\omega}. \qquad \blacksquare $$
 
 ---
 
 ## B. Euler's Equations from dL/dt in the Body Frame · 从体坐标系 dL/dt 推导欧拉方程
 
-**Claim.** In the body frame (principal-axis frame), the torque equation τ = dL/dt (in the inertial lab frame) becomes the three **Euler equations**:
+**Claim.** In the body frame (principal-axis frame), the torque equation $\boldsymbol{\tau} = d\mathbf{L}/dt$ (in the inertial lab frame) becomes the three **Euler equations**:
 
-  I₁ ω̇₁ − (I₂ − I₃) ω₂ ω₃ = τ₁,
-  I₂ ω̇₂ − (I₃ − I₁) ω₃ ω₁ = τ₂,
-  I₃ ω̇₃ − (I₁ − I₂) ω₁ ω₂ = τ₃.
+$$ \begin{aligned}
+I_1\, \dot\omega_1 - (I_2 - I_3)\, \omega_2\, \omega_3 &= \tau_1, \\
+I_2\, \dot\omega_2 - (I_3 - I_1)\, \omega_3\, \omega_1 &= \tau_2, \\
+I_3\, \dot\omega_3 - (I_1 - I_2)\, \omega_1\, \omega_2 &= \tau_3.
+\end{aligned} $$
 
-**命题。** 在体坐标系（主轴坐标系）中，力矩方程 τ = dL/dt（在惯性实验室系中）变为三个**欧拉方程**：
+**命题。** 在体坐标系（主轴坐标系）中，力矩方程 $\boldsymbol{\tau} = d\mathbf{L}/dt$（在惯性实验室系中）变为三个**欧拉方程**：
 
-  I₁ ω̇₁ − (I₂ − I₃) ω₂ ω₃ = τ₁，
-  I₂ ω̇₂ − (I₃ − I₁) ω₃ ω₁ = τ₂，
-  I₃ ω̇₃ − (I₁ − I₂) ω₁ ω₂ = τ₃。
+$$ \begin{aligned}
+I_1\, \dot\omega_1 - (I_2 - I_3)\, \omega_2\, \omega_3 &= \tau_1, \\
+I_2\, \dot\omega_2 - (I_3 - I_1)\, \omega_3\, \omega_1 &= \tau_2, \\
+I_3\, \dot\omega_3 - (I_1 - I_2)\, \omega_1\, \omega_2 &= \tau_3.
+\end{aligned} $$
 
-**Step 1 — Relate time derivatives in the body frame to the lab frame.** For any vector V, the time derivative in the lab frame and in the body frame (rotating at ω) are related by:
+**Step 1 — Relate time derivatives in the body frame to the lab frame.** For any vector $\mathbf{V}$, the time derivative in the lab frame and in the body frame (rotating at $\boldsymbol{\omega}$) are related by:
 
-**第 1 步 — 将体坐标系中的时间导数与实验室系联系起来。** 对任意向量 V，实验室系和体坐标系（以 ω 旋转）中的时间导数满足：
+**第 1 步 — 将体坐标系中的时间导数与实验室系联系起来。** 对任意向量 $\mathbf{V}$，实验室系和体坐标系（以 $\boldsymbol{\omega}$ 旋转）中的时间导数满足：
 
-  (dV/dt)_lab = (dV/dt)_body + ω × V.
+$$ \left(\frac{d\mathbf{V}}{dt}\right)_\text{lab} = \left(\frac{d\mathbf{V}}{dt}\right)_\text{body} + \boldsymbol{\omega}\times\mathbf{V}. $$
 
 This is the **transport theorem** for rotating frames.
 
 这是旋转系的**输运定理**。
 
-**Step 2 — Apply to L.** The torque equation in the lab frame is τ = (dL/dt)_lab. Using the transport theorem:
+**Step 2 — Apply to L.** The torque equation in the lab frame is $\boldsymbol{\tau} = (d\mathbf{L}/dt)_\text{lab}$. Using the transport theorem:
 
-**第 2 步 — 应用于 L。** 实验室系中的力矩方程为 τ = (dL/dt)_lab。利用输运定理：
+**第 2 步 — 应用于 L。** 实验室系中的力矩方程为 $\boldsymbol{\tau} = (d\mathbf{L}/dt)_\text{lab}$。利用输运定理：
 
-  τ = (dL/dt)_body + ω × L.
+$$ \boldsymbol{\tau} = \left(\frac{d\mathbf{L}}{dt}\right)_\text{body} + \boldsymbol{\omega}\times\mathbf{L}. $$
 
-**Step 3 — Evaluate in the principal-axis frame.** In the body frame with principal axes, L = (I₁ω₁, I₂ω₂, I₃ω₃). Since the principal moments Iᵢ are constant in the body frame:
+**Step 3 — Evaluate in the principal-axis frame.** In the body frame with principal axes, $\mathbf{L} = (I_1\omega_1, I_2\omega_2, I_3\omega_3)$. Since the principal moments $I_i$ are constant in the body frame:
 
-**第 3 步 — 在主轴坐标系中计算。** 在主轴体坐标系中，L = (I₁ω₁, I₂ω₂, I₃ω₃)。由于主转动惯量 Iᵢ 在体坐标系中为常数：
+**第 3 步 — 在主轴坐标系中计算。** 在主轴体坐标系中，$\mathbf{L} = (I_1\omega_1, I_2\omega_2, I_3\omega_3)$。由于主转动惯量 $I_i$ 在体坐标系中为常数：
 
-  (dL/dt)_body = (I₁ω̇₁, I₂ω̇₂, I₃ω̇₃).
+$$ \left(\frac{d\mathbf{L}}{dt}\right)_\text{body} = (I_1\dot\omega_1, I_2\dot\omega_2, I_3\dot\omega_3). $$
 
-**Step 4 — Compute the cross product ω × L.**
+**Step 4 — Compute the cross product $\boldsymbol{\omega}\times\mathbf{L}$.**
 
-**第 4 步 — 计算叉积 ω × L。**
+**第 4 步 — 计算叉积 $\boldsymbol{\omega}\times\mathbf{L}$。**
 
-  ω × L = (ω₁, ω₂, ω₃) × (I₁ω₁, I₂ω₂, I₃ω₃)
-         = (ω₂ I₃ω₃ − ω₃ I₂ω₂,  ω₃ I₁ω₁ − ω₁ I₃ω₃,  ω₁ I₂ω₂ − ω₂ I₁ω₁).
+$$ \begin{aligned}
+\boldsymbol{\omega}\times\mathbf{L} &= (\omega_1, \omega_2, \omega_3) \times (I_1\omega_1, I_2\omega_2, I_3\omega_3) \\
+&= (\omega_2 I_3\omega_3 - \omega_3 I_2\omega_2,\ \omega_3 I_1\omega_1 - \omega_1 I_3\omega_3,\ \omega_1 I_2\omega_2 - \omega_2 I_1\omega_1).
+\end{aligned} $$
 
-**Step 5 — Assemble Euler's equations.** The i-th component of τ = (dL/dt)_body + ω × L gives:
+**Step 5 — Assemble Euler's equations.** The $i$-th component of $\boldsymbol{\tau} = (d\mathbf{L}/dt)_\text{body} + \boldsymbol{\omega}\times\mathbf{L}$ gives:
 
-**第 5 步 — 组合欧拉方程。** τ = (dL/dt)_body + ω × L 的第 i 个分量给出：
+**第 5 步 — 组合欧拉方程。** $\boldsymbol{\tau} = (d\mathbf{L}/dt)_\text{body} + \boldsymbol{\omega}\times\mathbf{L}$ 的第 $i$ 个分量给出：
 
-Component 1: τ₁ = I₁ω̇₁ + (I₃ − I₂)ω₂ω₃.
+Component 1: $\tau_1 = I_1\dot\omega_1 + (I_3 - I_2)\omega_2\omega_3$.
 
-Rearranging: **I₁ω̇₁ − (I₂ − I₃)ω₂ω₃ = τ₁.** ∎₁
+Rearranging: $I_1\dot\omega_1 - (I_2 - I_3)\omega_2\omega_3 = \tau_1$. $\blacksquare_1$
 
-分量 1：τ₁ = I₁ω̇₁ + (I₃ − I₂)ω₂ω₃。整理：**I₁ω̇₁ − (I₂ − I₃)ω₂ω₃ = τ₁。** ∎₁
+分量 1：$\tau_1 = I_1\dot\omega_1 + (I_3 - I_2)\omega_2\omega_3$。整理：$I_1\dot\omega_1 - (I_2 - I_3)\omega_2\omega_3 = \tau_1$。$\blacksquare_1$
 
-Component 2: τ₂ = I₂ω̇₂ + (I₁ − I₃)ω₃ω₁ = I₂ω̇₂ − (I₃ − I₁)ω₃ω₁.
+Component 2: $\tau_2 = I_2\dot\omega_2 + (I_1 - I_3)\omega_3\omega_1 = I_2\dot\omega_2 - (I_3 - I_1)\omega_3\omega_1$.
 
-Rearranging: **I₂ω̇₂ − (I₃ − I₁)ω₃ω₁ = τ₂.** ∎₂
+Rearranging: $I_2\dot\omega_2 - (I_3 - I_1)\omega_3\omega_1 = \tau_2$. $\blacksquare_2$
 
-分量 2：τ₂ = I₂ω̇₂ + (I₁ − I₃)ω₃ω₁ = I₂ω̇₂ − (I₃ − I₁)ω₃ω₁。整理：**I₂ω̇₂ − (I₃ − I₁)ω₃ω₁ = τ₂。** ∎₂
+分量 2：$\tau_2 = I_2\dot\omega_2 + (I_1 - I_3)\omega_3\omega_1 = I_2\dot\omega_2 - (I_3 - I_1)\omega_3\omega_1$。整理：$I_2\dot\omega_2 - (I_3 - I_1)\omega_3\omega_1 = \tau_2$。$\blacksquare_2$
 
-Component 3: τ₃ = I₃ω̇₃ + (I₂ − I₁)ω₁ω₂.
+Component 3: $\tau_3 = I_3\dot\omega_3 + (I_2 - I_1)\omega_1\omega_2$.
 
-Rearranging: **I₃ω̇₃ − (I₁ − I₂)ω₁ω₂ = τ₃.** ∎₃
+Rearranging: $I_3\dot\omega_3 - (I_1 - I_2)\omega_1\omega_2 = \tau_3$. $\blacksquare_3$
 
-分量 3：τ₃ = I₃ω̇₃ + (I₂ − I₁)ω₁ω₂。整理：**I₃ω̇₃ − (I₁ − I₂)ω₁ω₂ = τ₃。** ∎₃
+分量 3：$\tau_3 = I_3\dot\omega_3 + (I_2 - I_1)\omega_1\omega_2$。整理：$I_3\dot\omega_3 - (I_1 - I_2)\omega_1\omega_2 = \tau_3$。$\blacksquare_3$
 
 ---
 
 ## C. Torque-Free Symmetric Top — Precession Rate · 无力矩对称陀螺的进动速率
 
-**Claim.** For a torque-free symmetric top (I₁ = I₂ ≡ I_⊥, I₃ the symmetry-axis moment, τ = 0), Euler's equations yield uniform precession of ω about the symmetry axis (ê₃) at the body-frame rate:
+**Claim.** For a torque-free symmetric top ($I_1 = I_2 \equiv I_\perp$, $I_3$ the symmetry-axis moment, $\boldsymbol{\tau} = 0$), Euler's equations yield uniform precession of $\boldsymbol{\omega}$ about the symmetry axis ($\hat{\mathbf{e}}_3$) at the body-frame rate:
 
-  Ω = ω₃ (I₃ − I_⊥) / I_⊥.
+$$ \Omega = \frac{\omega_3 (I_3 - I_\perp)}{I_\perp}. $$
 
-**命题。** 对于无力矩对称陀螺（I₁ = I₂ ≡ I_⊥，I₃ 为对称轴转动惯量，τ = 0），欧拉方程给出 ω 绕对称轴（ê₃）的匀速进动，体坐标系频率为：
+**命题。** 对于无力矩对称陀螺（$I_1 = I_2 \equiv I_\perp$，$I_3$ 为对称轴转动惯量，$\boldsymbol{\tau} = 0$），欧拉方程给出 $\boldsymbol{\omega}$ 绕对称轴（$\hat{\mathbf{e}}_3$）的匀速进动，体坐标系频率为：
 
-  Ω = ω₃ (I₃ − I_⊥) / I_⊥。
+$$ \Omega = \frac{\omega_3 (I_3 - I_\perp)}{I_\perp}. $$
 
-**Step 1 — Write Euler's equations with τ = 0 and I₁ = I₂ = I_⊥.**
+**Step 1 — Write Euler's equations with $\boldsymbol{\tau} = 0$ and $I_1 = I_2 = I_\perp$.**
 
-**第 1 步 — 写出 τ = 0、I₁ = I₂ = I_⊥ 时的欧拉方程。**
+**第 1 步 — 写出 $\boldsymbol{\tau} = 0$、$I_1 = I_2 = I_\perp$ 时的欧拉方程。**
 
-  I_⊥ ω̇₁ − (I_⊥ − I₃) ω₂ ω₃ = 0,   … (1)
-  I_⊥ ω̇₂ − (I₃ − I_⊥) ω₃ ω₁ = 0,   … (2)
-  I₃ ω̇₃ − (I_⊥ − I_⊥) ω₁ ω₂ = 0   ⟹   ω̇₃ = 0.   … (3)
+$$ \begin{aligned}
+I_\perp\, \dot\omega_1 - (I_\perp - I_3)\, \omega_2\, \omega_3 &= 0, &&\text{… (1)} \\
+I_\perp\, \dot\omega_2 - (I_3 - I_\perp)\, \omega_3\, \omega_1 &= 0, &&\text{… (2)} \\
+I_3\, \dot\omega_3 - (I_\perp - I_\perp)\, \omega_1\, \omega_2 &= 0 \implies \dot\omega_3 = 0. &&\text{… (3)}
+\end{aligned} $$
 
-**Step 2 — Establish that ω₃ is constant.** Equation (3) gives ω₃ = const. ∎_3
+**Step 2 — Establish that $\omega_3$ is constant.** Equation (3) gives $\omega_3 = \text{const}$. $\blacksquare_3$
 
-**第 2 步 — 确定 ω₃ 为常数。** 方程 (3) 给出 ω₃ = 常数。∎_3
+**第 2 步 — 确定 $\omega_3$ 为常数。** 方程 (3) 给出 $\omega_3 = \text{常数}$。$\blacksquare_3$
 
-**Step 3 — Define the precession frequency.** Let Ω = ω₃(I₃ − I_⊥)/I_⊥. Rewrite equations (1) and (2):
+**Step 3 — Define the precession frequency.** Let $\Omega = \omega_3(I_3 - I_\perp)/I_\perp$. Rewrite equations (1) and (2):
 
-**第 3 步 — 定义进动频率。** 令 Ω = ω₃(I₃ − I_⊥)/I_⊥。改写方程 (1) 和 (2)：
+**第 3 步 — 定义进动频率。** 令 $\Omega = \omega_3(I_3 - I_\perp)/I_\perp$。改写方程 (1) 和 (2)：
 
-  From (1): ω̇₁ = −[(I_⊥ − I₃)/I_⊥] ω₃ ω₂ = +Ω ω₂.
-  From (2): ω̇₂ = +[(I₃ − I_⊥)/I_⊥] ω₃ ω₁ = −Ω ω₁.
+$$ \begin{aligned}
+\text{From (1):}\quad \dot\omega_1 &= -\frac{I_\perp - I_3}{I_\perp}\, \omega_3\, \omega_2 = +\Omega\, \omega_2. \\
+\text{From (2):}\quad \dot\omega_2 &= +\frac{I_3 - I_\perp}{I_\perp}\, \omega_3\, \omega_1 = -\Omega\, \omega_1.
+\end{aligned} $$
 
-由 (1)：ω̇₁ = −[(I_⊥ − I₃)/I_⊥] ω₃ ω₂ = +Ω ω₂。
-由 (2)：ω̇₂ = +[(I₃ − I_⊥)/I_⊥] ω₃ ω₁ = −Ω ω₁。
+由 (1)：$\dot\omega_1 = -\dfrac{I_\perp - I_3}{I_\perp}\, \omega_3\, \omega_2 = +\Omega\, \omega_2$。
+由 (2)：$\dot\omega_2 = +\dfrac{I_3 - I_\perp}{I_\perp}\, \omega_3\, \omega_1 = -\Omega\, \omega_1$。
 
-**Step 4 — Solve the coupled ODEs.** Define the complex variable η = ω₁ + i ω₂:
+**Step 4 — Solve the coupled ODEs.** Define the complex variable $\eta = \omega_1 + i\, \omega_2$:
 
-**第 4 步 — 求解耦合常微分方程。** 定义复变量 η = ω₁ + i ω₂：
+**第 4 步 — 求解耦合常微分方程。** 定义复变量 $\eta = \omega_1 + i\, \omega_2$：
 
-  η̇ = ω̇₁ + i ω̇₂ = Ω ω₂ + i(−Ω ω₁) = −iΩ(ω₁ + i ω₂) = −iΩ η.
+$$ \dot\eta = \dot\omega_1 + i\, \dot\omega_2 = \Omega\, \omega_2 + i(-\Omega\, \omega_1) = -i\Omega(\omega_1 + i\, \omega_2) = -i\Omega\, \eta. $$
 
-This is a simple ODE with solution η(t) = η(0) e^{−iΩt}.
+This is a simple ODE with solution $\eta(t) = \eta(0)\, e^{-i\Omega t}$.
 
-这是一个简单的常微分方程，解为 η(t) = η(0) e^{−iΩt}。
+这是一个简单的常微分方程，解为 $\eta(t) = \eta(0)\, e^{-i\Omega t}$。
 
-**Step 5 — Interpret the solution.** Writing η(0) = ω_⊥ (the initial transverse angular speed, real and positive):
+**Step 5 — Interpret the solution.** Writing $\eta(0) = \omega_\perp$ (the initial transverse angular speed, real and positive):
 
-**第 5 步 — 解释解。** 令 η(0) = ω_⊥（初始横向角速度，实数且为正）：
+**第 5 步 — 解释解。** 令 $\eta(0) = \omega_\perp$（初始横向角速度，实数且为正）：
 
-  ω₁(t) = ω_⊥ cos(Ωt),   ω₂(t) = −ω_⊥ sin(Ωt).
+$$ \omega_1(t) = \omega_\perp \cos(\Omega t), \qquad \omega_2(t) = -\omega_\perp \sin(\Omega t). $$
 
-The transverse component of ω precesses uniformly around the symmetry axis ê₃ at angular frequency |Ω| = |ω₃(I₃ − I_⊥)/I_⊥|.
+The transverse component of $\boldsymbol{\omega}$ precesses uniformly around the symmetry axis $\hat{\mathbf{e}}_3$ at angular frequency $|\Omega| = |\omega_3(I_3 - I_\perp)/I_\perp|$.
 
-ω 的横向分量以角频率 |Ω| = |ω₃(I₃ − I_⊥)/I_⊥| 绕对称轴 ê₃ 匀速进动。
+$\boldsymbol{\omega}$ 的横向分量以角频率 $|\Omega| = |\omega_3(I_3 - I_\perp)/I_\perp|$ 绕对称轴 $\hat{\mathbf{e}}_3$ 匀速进动。
 
-Therefore, in the body frame ω traces out a cone around ê₃, completing one revolution in time T = 2π/|Ω|. This is **Eulerian (body-frame) precession**.
+Therefore, in the body frame $\boldsymbol{\omega}$ traces out a cone around $\hat{\mathbf{e}}_3$, completing one revolution in time $T = 2\pi/|\Omega|$. This is **Eulerian (body-frame) precession**.
 
-因此，在体坐标系中 ω 绕 ê₃ 描出一个锥，在时间 T = 2π/|Ω| 内完成一圈。这就是**欧拉（体坐标系）进动**。
+因此，在体坐标系中 $\boldsymbol{\omega}$ 绕 $\hat{\mathbf{e}}_3$ 描出一个锥，在时间 $T = 2\pi/|\Omega|$ 内完成一圈。这就是**欧拉（体坐标系）进动**。
 
 **Precession rate:**
 
 **进动速率：**
 
-  **Ω = ω₃ (I₃ − I_⊥) / I_⊥.** ∎
+$$ \boxed{\, \Omega = \frac{\omega_3 (I_3 - I_\perp)}{I_\perp} \,} \qquad \blacksquare $$
 
-  **Ω = ω₃ (I₃ − I_⊥) / I_⊥。** ∎
+**Physical note.** For a prolate body ($I_3 < I_\perp$, e.g. a football), $\Omega < 0$: $\boldsymbol{\omega}$ precesses in the opposite sense to $\omega_3$. For an oblate body ($I_3 > I_\perp$, e.g. a frisbee), $\Omega > 0$: precession is in the same sense. The Earth, slightly oblate ($I_3 - I_\perp \approx 3\times 10^{-3}\, I_\perp$), exhibits the **Chandler wobble** with a period of $\approx 14$ months (Earth's period in the body frame; $\approx 305$ days, close to the observed 433 days — the discrepancy is due to Earth's non-rigidity).
 
-**Physical note.** For a prolate body (I₃ < I_⊥, e.g. a football), Ω < 0: ω precesses in the opposite sense to ω₃. For an oblate body (I₃ > I_⊥, e.g. a frisbee), Ω > 0: precession is in the same sense. The Earth, slightly oblate (I₃ − I_⊥ ≈ 3 × 10⁻³ I_⊥), exhibits the **Chandler wobble** with a period of ≈ 14 months (Earth's period in the body frame; ≈ 305 days, close to the observed 433 days — the discrepancy is due to Earth's non-rigidity).
-
-**物理说明。** 对于长椭球体（I₃ < I_⊥，如橄榄球），Ω < 0：ω 进动方向与 ω₃ 相反。对于扁椭球体（I₃ > I_⊥，如飞盘），Ω > 0：进动方向相同。地球略为扁椭球（I₃ − I_⊥ ≈ 3 × 10⁻³ I_⊥），体坐标系周期约 305 天（接近观测值 433 天——差异源于地球的非刚性），产生**钱德勒摆动**，周期约 14 个月。
+**物理说明。** 对于长椭球体（$I_3 < I_\perp$，如橄榄球），$\Omega < 0$：$\boldsymbol{\omega}$ 进动方向与 $\omega_3$ 相反。对于扁椭球体（$I_3 > I_\perp$，如飞盘），$\Omega > 0$：进动方向相同。地球略为扁椭球（$I_3 - I_\perp \approx 3\times 10^{-3}\, I_\perp$），体坐标系周期约 305 天（接近观测值 433 天——差异源于地球的非刚性），产生**钱德勒摆动**，周期约 14 个月。
 
 ---
 
 ## D. Transport Theorem and Rotating-Frame Forces (Derivation of Coriolis and Centrifugal) · 输运定理与转动系惯性力（科里奥利力与离心力的推导）
 
-**Claim.** In a frame rotating at angular velocity Ω relative to an inertial frame, a particle of mass m at position r with velocity v_rot (in the rotating frame) satisfies:
+**Claim.** In a frame rotating at angular velocity $\boldsymbol{\Omega}$ relative to an inertial frame, a particle of mass $m$ at position $\mathbf{r}$ with velocity $\mathbf{v}_\text{rot}$ (in the rotating frame) satisfies:
 
-  m a_rot = F − 2m Ω × v_rot − m Ω × (Ω × r).
+$$ m\, \mathbf{a}_\text{rot} = \mathbf{F} - 2m\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot} - m\, \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r}). $$
 
-The three terms on the right are: the real force F, the **Coriolis force** −2m Ω × v_rot, and the **centrifugal force** −m Ω × (Ω × r).
+The three terms on the right are: the real force $\mathbf{F}$, the **Coriolis force** $-2m\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot}$, and the **centrifugal force** $-m\, \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r})$.
 
-**命题。** 在相对于惯性系以角速度 Ω 旋转的参考系中，质量为 m、位置为 r、速度（在转动系中）为 v_rot 的粒子满足：
+**命题。** 在相对于惯性系以角速度 $\boldsymbol{\Omega}$ 旋转的参考系中，质量为 $m$、位置为 $\mathbf{r}$、速度（在转动系中）为 $\mathbf{v}_\text{rot}$ 的粒子满足：
 
-  m a_rot = F − 2m Ω × v_rot − m Ω × (Ω × r)。
+$$ m\, \mathbf{a}_\text{rot} = \mathbf{F} - 2m\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot} - m\, \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r}). $$
 
-右侧三项分别为：真实力 F、**科里奥利力** −2m Ω × v_rot 以及**离心力** −m Ω × (Ω × r)。
+右侧三项分别为：真实力 $\mathbf{F}$、**科里奥利力** $-2m\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot}$ 以及**离心力** $-m\, \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r})$。
 
-**Step 1 — Transport theorem.** For any vector V, its time derivative in the inertial frame and in the rotating frame are related by:
+**Step 1 — Transport theorem.** For any vector $\mathbf{V}$, its time derivative in the inertial frame and in the rotating frame are related by:
 
-**第 1 步 — 输运定理。** 对任意向量 V，其在惯性系和转动系中的时间导数满足：
+**第 1 步 — 输运定理。** 对任意向量 $\mathbf{V}$，其在惯性系和转动系中的时间导数满足：
 
-  (dV/dt)_inertial = (dV/dt)_rot + Ω × V.
+$$ \left(\frac{d\mathbf{V}}{dt}\right)_\text{inertial} = \left(\frac{d\mathbf{V}}{dt}\right)_\text{rot} + \boldsymbol{\Omega}\times\mathbf{V}. $$
 
-*Derivation of the transport theorem:* Decompose V in the rotating-frame basis {ê₁, ê₂, ê₃}: V = Σᵢ Vᵢ êᵢ. The inertial-frame derivative is:
+*Derivation of the transport theorem:* Decompose $\mathbf{V}$ in the rotating-frame basis $\{\hat{\mathbf{e}}_1, \hat{\mathbf{e}}_2, \hat{\mathbf{e}}_3\}$: $\mathbf{V} = \sum_i V_i\, \hat{\mathbf{e}}_i$. The inertial-frame derivative is:
 
-*输运定理的推导：* 在转动系基矢 {ê₁, ê₂, ê₃} 中分解 V：V = Σᵢ Vᵢ êᵢ。惯性系导数为：
+*输运定理的推导：* 在转动系基矢 $\{\hat{\mathbf{e}}_1, \hat{\mathbf{e}}_2, \hat{\mathbf{e}}_3\}$ 中分解 $\mathbf{V}$：$\mathbf{V} = \sum_i V_i\, \hat{\mathbf{e}}_i$。惯性系导数为：
 
-  (dV/dt)_inertial = Σᵢ V̇ᵢ êᵢ + Σᵢ Vᵢ (dêᵢ/dt)_inertial.
+$$ \left(\frac{d\mathbf{V}}{dt}\right)_\text{inertial} = \sum_i \dot V_i\, \hat{\mathbf{e}}_i + \sum_i V_i \left(\frac{d\hat{\mathbf{e}}_i}{dt}\right)_\text{inertial}. $$
 
-The first sum is (dV/dt)_rot. For a basis vector rotating with the frame: (dêᵢ/dt)_inertial = Ω × êᵢ. Therefore:
+The first sum is $(d\mathbf{V}/dt)_\text{rot}$. For a basis vector rotating with the frame: $(d\hat{\mathbf{e}}_i/dt)_\text{inertial} = \boldsymbol{\Omega}\times\hat{\mathbf{e}}_i$. Therefore:
 
-第一个和式为 (dV/dt)_rot。对于随系旋转的基矢：(dêᵢ/dt)_inertial = Ω × êᵢ。因此：
+第一个和式为 $(d\mathbf{V}/dt)_\text{rot}$。对于随系旋转的基矢：$(d\hat{\mathbf{e}}_i/dt)_\text{inertial} = \boldsymbol{\Omega}\times\hat{\mathbf{e}}_i$。因此：
 
-  (dV/dt)_inertial = (dV/dt)_rot + Σᵢ Vᵢ Ω × êᵢ = (dV/dt)_rot + Ω × V. ∎_transport
+$$ \left(\frac{d\mathbf{V}}{dt}\right)_\text{inertial} = \left(\frac{d\mathbf{V}}{dt}\right)_\text{rot} + \sum_i V_i\, \boldsymbol{\Omega}\times\hat{\mathbf{e}}_i = \left(\frac{d\mathbf{V}}{dt}\right)_\text{rot} + \boldsymbol{\Omega}\times\mathbf{V}. \qquad \blacksquare $$
 
-**Step 2 — Apply to position to get velocity.** Let V = r: r_inertial = r_rot (same position vector). Apply the transport theorem:
+**Step 2 — Apply to position to get velocity.** Let $\mathbf{V} = \mathbf{r}$: $\mathbf{r}_\text{inertial} = \mathbf{r}_\text{rot}$ (same position vector). Apply the transport theorem:
 
-**第 2 步 — 应用于位置以得速度。** 令 V = r：r_inertial = r_rot（相同位置矢量）。应用输运定理：
+**第 2 步 — 应用于位置以得速度。** 令 $\mathbf{V} = \mathbf{r}$：$\mathbf{r}_\text{inertial} = \mathbf{r}_\text{rot}$（相同位置矢量）。应用输运定理：
 
-  v_inertial = v_rot + Ω × r.
+$$ \mathbf{v}_\text{inertial} = \mathbf{v}_\text{rot} + \boldsymbol{\Omega}\times\mathbf{r}. $$
 
-**Step 3 — Apply the transport theorem again to get acceleration.** Apply the theorem to v_inertial:
+**Step 3 — Apply the transport theorem again to get acceleration.** Apply the theorem to $\mathbf{v}_\text{inertial}$:
 
-**第 3 步 — 再次应用输运定理以得加速度。** 对 v_inertial 应用定理：
+**第 3 步 — 再次应用输运定理以得加速度。** 对 $\mathbf{v}_\text{inertial}$ 应用定理：
 
-  a_inertial = (d v_inertial /dt)_rot + Ω × v_inertial.
+$$ \mathbf{a}_\text{inertial} = \left(\frac{d\mathbf{v}_\text{inertial}}{dt}\right)_\text{rot} + \boldsymbol{\Omega}\times\mathbf{v}_\text{inertial}. $$
 
-Substitute v_inertial = v_rot + Ω × r:
+Substitute $\mathbf{v}_\text{inertial} = \mathbf{v}_\text{rot} + \boldsymbol{\Omega}\times\mathbf{r}$:
 
-代入 v_inertial = v_rot + Ω × r：
+代入 $\mathbf{v}_\text{inertial} = \mathbf{v}_\text{rot} + \boldsymbol{\Omega}\times\mathbf{r}$：
 
-  a_inertial = (d/dt)_rot(v_rot + Ω × r) + Ω × (v_rot + Ω × r)
-             = a_rot + (dΩ/dt)_rot × r + Ω × ṙ_rot + Ω × v_rot + Ω × (Ω × r).
+$$ \begin{aligned}
+\mathbf{a}_\text{inertial} &= \left(\frac{d}{dt}\right)_\text{rot}(\mathbf{v}_\text{rot} + \boldsymbol{\Omega}\times\mathbf{r}) + \boldsymbol{\Omega}\times(\mathbf{v}_\text{rot} + \boldsymbol{\Omega}\times\mathbf{r}) \\
+&= \mathbf{a}_\text{rot} + \left(\frac{d\boldsymbol{\Omega}}{dt}\right)_\text{rot}\times\mathbf{r} + \boldsymbol{\Omega}\times\dot{\mathbf{r}}_\text{rot} + \boldsymbol{\Omega}\times\mathbf{v}_\text{rot} + \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r}).
+\end{aligned} $$
 
-For constant Ω: (dΩ/dt)_rot = 0. Also ṙ_rot = v_rot:
+For constant $\boldsymbol{\Omega}$: $(d\boldsymbol{\Omega}/dt)_\text{rot} = 0$. Also $\dot{\mathbf{r}}_\text{rot} = \mathbf{v}_\text{rot}$:
 
-对于恒定 Ω：(dΩ/dt)_rot = 0。且 ṙ_rot = v_rot：
+对于恒定 $\boldsymbol{\Omega}$：$(d\boldsymbol{\Omega}/dt)_\text{rot} = 0$。且 $\dot{\mathbf{r}}_\text{rot} = \mathbf{v}_\text{rot}$：
 
-  a_inertial = a_rot + 2 Ω × v_rot + Ω × (Ω × r).
+$$ \mathbf{a}_\text{inertial} = \mathbf{a}_\text{rot} + 2\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot} + \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r}). $$
 
-**Step 4 — Newton's second law.** In the inertial frame: m a_inertial = F. Therefore:
+**Step 4 — Newton's second law.** In the inertial frame: $m\, \mathbf{a}_\text{inertial} = \mathbf{F}$. Therefore:
 
-**第 4 步 — 牛顿第二定律。** 在惯性系中：m a_inertial = F。因此：
+**第 4 步 — 牛顿第二定律。** 在惯性系中：$m\, \mathbf{a}_\text{inertial} = \mathbf{F}$。因此：
 
-  m [a_rot + 2 Ω × v_rot + Ω × (Ω × r)] = F.
+$$ m\left[\mathbf{a}_\text{rot} + 2\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot} + \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r})\right] = \mathbf{F}. $$
 
-Solving for a_rot:
+Solving for $\mathbf{a}_\text{rot}$:
 
-解出 a_rot：
+解出 $\mathbf{a}_\text{rot}$：
 
-  **m a_rot = F − 2m Ω × v_rot − m Ω × (Ω × r).** ∎
+$$ \boxed{\, m\, \mathbf{a}_\text{rot} = \mathbf{F} - 2m\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot} - m\, \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r}) \,} \qquad \blacksquare $$
 
-  **m a_rot = F − 2m Ω × v_rot − m Ω × (Ω × r)。** ∎
+The term $-2m\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot}$ is the **Coriolis force** (depends on velocity in the rotating frame) and $-m\, \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r}) = m\Omega^2\, \mathbf{r}_\perp$ (pointing outward from the rotation axis) is the **centrifugal force**.
 
-The term −2m Ω × v_rot is the **Coriolis force** (depends on velocity in the rotating frame) and −m Ω × (Ω × r) = mΩ² r_⊥ (pointing outward from the rotation axis) is the **centrifugal force**.
-
-项 −2m Ω × v_rot 为**科里奥利力**（依赖于转动系中的速度），−m Ω × (Ω × r) = mΩ² r_⊥（指向旋转轴外侧）为**离心力**。
+项 $-2m\, \boldsymbol{\Omega}\times\mathbf{v}_\text{rot}$ 为**科里奥利力**（依赖于转动系中的速度），$-m\, \boldsymbol{\Omega}\times(\boldsymbol{\Omega}\times\mathbf{r}) = m\Omega^2\, \mathbf{r}_\perp$（指向旋转轴外侧）为**离心力**。
