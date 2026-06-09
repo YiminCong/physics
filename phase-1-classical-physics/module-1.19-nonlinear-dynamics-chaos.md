@@ -54,4 +54,4 @@
 
 ---
 
-← Previous: [Module 1.18 — Continuum Mechanics & Elasticity](./module-1.18-continuum-mechanics-elasticity.md) · [Phase 1 index](./README.md)
+← Previous: [Module 1.18 — Continuum Mechanics & Elasticity](./module-1.18-continuum-mechanics-elasticity.md) · [Phase 1 index](./README.md) · Next: [Module 1.20 — Canonical Transformations & Hamilton–Jacobi](./module-1.20-canonical-transformations-hamilton-jacobi.md) →
