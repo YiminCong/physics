@@ -91,9 +91,9 @@ $$ \Delta\varphi = 2\pi \varepsilon = 6\pi(GM)^2/(c^2 \ell^2) $$
 
 $$ \boxed{\, \Delta\varphi = 6\pi GM / (c^2 a(1 - e^2)) \,} \qquad \blacksquare $$
 
-For Mercury: plugging in $G = 6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻², $M_\odot = 1.989 \times 10^{30}$ kg, $a = 5.79 \times 10^{10}$ m, $e = 0.206$ gives $\Delta\varphi \approx 5.02 \times 10^{-7}$ rad/orbit $\approx 43.1''$/century (using 415 orbits/century). This matches the observed anomaly to within observational uncertainty.
+For Mercury: plugging in $G = 6.674 \times 10^{-11}\ \mathrm{m^3\,kg^{-1}\,s^{-2}}$, $M_\odot = 1.989 \times 10^{30}$ kg, $a = 5.79 \times 10^{10}$ m, $e = 0.206$ gives $\Delta\varphi \approx 5.02 \times 10^{-7}$ rad/orbit $\approx 43.1''$/century (using 415 orbits/century). This matches the observed anomaly to within observational uncertainty.
 
-对水星：代入 $G = 6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻²，$M_\odot = 1.989 \times 10^{30}$ kg，$a = 5.79 \times 10^{10}$ m，$e = 0.206$，得 $\Delta\varphi \approx 5.02 \times 10^{-7}$ rad/圈 $\approx 43.1''$/世纪（利用每世纪 415 圈），与观测到的反常值在观测误差范围内吻合。
+对水星：代入 $G = 6.674 \times 10^{-11}\ \mathrm{m^3\,kg^{-1}\,s^{-2}}$，$M_\odot = 1.989 \times 10^{30}$ kg，$a = 5.79 \times 10^{10}$ m，$e = 0.206$，得 $\Delta\varphi \approx 5.02 \times 10^{-7}$ rad/圈 $\approx 43.1''$/世纪（利用每世纪 415 圈），与观测到的反常值在观测误差范围内吻合。
 
 ---
 

@@ -278,9 +278,9 @@ The prediction was so specific (unique particle with strangeness $-3$, charge $-
 
 ## E. Color-Antisymmetry Resolution of the $\Delta^{++}$ Statistics Problem · 用色反对称解决 $\Delta^{++}$ 统计问题
 
-**Claim.** The $\Delta^{++}(1232)$ state, interpreted as $uuu$ with all spins aligned ($J = 3/2$), appears to be a symmetric wavefunction for three identical spin-½ particles, violating the Pauli exclusion principle. The introduction of a new quantum number — **color**, taking values $r, g, b$ — with the baryon wavefunction being totally antisymmetric in color (proportional to $\varepsilon^{abc}$) makes the total wavefunction antisymmetric, restoring Fermi–Dirac statistics.
+**Claim.** The $\Delta^{++}(1232)$ state, interpreted as $uuu$ with all spins aligned ($J = 3/2$), appears to be a symmetric wavefunction for three identical spin-$\tfrac12$ particles, violating the Pauli exclusion principle. The introduction of a new quantum number — **color**, taking values $r, g, b$ — with the baryon wavefunction being totally antisymmetric in color (proportional to $\varepsilon^{abc}$) makes the total wavefunction antisymmetric, restoring Fermi–Dirac statistics.
 
-**命题。** $\Delta^{++}(1232)$ 态被解释为三个自旋全部排列（$J = 3/2$）的 $uuu$，似乎是三个全同自旋-½ 粒子的对称波函数，违反泡利不相容原理。引入新量子数——**色**，取值 $r$、$g$、$b$——使重子波函数在色空间完全反对称（正比于 $\varepsilon^{abc}$），令总波函数反对称，从而恢复费米–狄拉克统计。
+**命题。** $\Delta^{++}(1232)$ 态被解释为三个自旋全部排列（$J = 3/2$）的 $uuu$，似乎是三个全同自旋-$\tfrac12$ 粒子的对称波函数，违反泡利不相容原理。引入新量子数——**色**，取值 $r$、$g$、$b$——使重子波函数在色空间完全反对称（正比于 $\varepsilon^{abc}$），令总波函数反对称，从而恢复费米–狄拉克统计。
 
 **Step 1 — The paradox stated precisely.** The $\Delta^{++}$ has $J^P = 3/2^+$, isospin $I = 3/2$ ($I_3 = +3/2$), meaning it consists of three $u$ quarks. In the ground state (no orbital angular momentum, $L = 0$), the spin must be $S = 3/2$, so all three $u$ quarks have spin up: $|\Delta^{++}\rangle = |u\uparrow, u\uparrow, u\uparrow\rangle$. Consider the wavefunction decomposition:
 
@@ -295,7 +295,7 @@ Without color:
 
 Product: symmetric $\otimes$ symmetric $\otimes$ symmetric = **symmetric**.
 
-But quarks are spin-½ fermions and must obey Fermi–Dirac statistics: the total wavefunction must be **antisymmetric** under exchange of any two quarks. This is a direct violation of the Pauli principle.
+But quarks are spin-$\tfrac12$ fermions and must obey Fermi–Dirac statistics: the total wavefunction must be **antisymmetric** under exchange of any two quarks. This is a direct violation of the Pauli principle.
 
 不含色：
 - **空间**：$L = 0$ 基态 $\to$ 在置换下对称（s 波）。
@@ -304,7 +304,7 @@ But quarks are spin-½ fermions and must obey Fermi–Dirac statistics: the tota
 
 乘积：对称 $\otimes$ 对称 $\otimes$ 对称 = **对称**。
 
-但夸克是自旋-½ 费米子，必须服从费米–狄拉克统计：总波函数在任意两夸克置换下必须**反对称**。这直接违反泡利原理。
+但夸克是自旋-$\tfrac12$ 费米子，必须服从费米–狄拉克统计：总波函数在任意两夸克置换下必须**反对称**。这直接违反泡利原理。
 
 **Step 2 — Resolution: introduce color SU(3).** Hypothesize that each quark comes in three colors: $r$ (red), $g$ (green), $b$ (blue). The quarks now carry a color index: $u_r, u_g, u_b$. The color degree of freedom enlarges the Hilbert space by a factor of 3 for each quark.
 

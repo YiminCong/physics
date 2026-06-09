@@ -115,9 +115,9 @@ For WIMPs with $m \sim 100$ GeV, this gives $x_f \approx 20\text{–}25$ (i.e., 
 
 ## C. The WIMP Miracle: Relic Abundance Estimate · WIMP 奇迹：遗迹丰度估算
 
-**Claim.** A thermal WIMP with mass $m_\chi \sim 100$ GeV and weak-scale cross-section $\langle\sigma v\rangle \sim 10^{-26}$ cm³/s naturally produces a relic density $\Omega_\chi h^2 \approx 0.1$ — matching the observed dark matter density.
+**Claim.** A thermal WIMP with mass $m_\chi \sim 100$ GeV and weak-scale cross-section $\langle\sigma v\rangle \sim 10^{-26}\ \text{cm}^3/\text{s}$ naturally produces a relic density $\Omega_\chi h^2 \approx 0.1$ — matching the observed dark matter density.
 
-**命题。** 质量 $m_\chi \sim 100$ GeV、弱力尺度截面 $\langle\sigma v\rangle \sim 10^{-26}$ cm³/s 的热 WIMP 自然地产生遗迹密度 $\Omega_\chi h^2 \approx 0.1$——与观测到的暗物质密度吻合。
+**命题。** 质量 $m_\chi \sim 100$ GeV、弱力尺度截面 $\langle\sigma v\rangle \sim 10^{-26}\ \text{cm}^3/\text{s}$ 的热 WIMP 自然地产生遗迹密度 $\Omega_\chi h^2 \approx 0.1$——与观测到的暗物质密度吻合。
 
 **Step 1 — Post-freeze-out Boltzmann equation.** After freeze-out, $Y$ remains approximately constant: $Y_\infty \approx Y_f$. To get a more precise answer, integrate the Boltzmann equation. For $Y \gg Y_{eq}$ (late times):
 
@@ -166,15 +166,15 @@ Numerically, with $x_f \approx 20$ and $\sqrt{g_*/45} \approx 0.26$ (for $g_* = 
 
 $$ Y_\infty \approx \frac{x_f}{\langle\sigma v\rangle \cdot 0.26 \cdot m M_{Pl} \cdot 2/\pi} \approx \frac{3 \times 10^{-10}\ \text{GeV}^{-2}}{\langle\sigma v\rangle}. $$
 
-**Step 3 — Convert to relic density.** The current number density $n_\chi = s_0 Y_\infty$ where $s_0 = 2891$ cm⁻³ is today's entropy density. The energy density:
+**Step 3 — Convert to relic density.** The current number density $n_\chi = s_0 Y_\infty$ where $s_0 = 2891\ \text{cm}^{-3}$ is today's entropy density. The energy density:
 
-**第 3 步 — 换算为遗迹密度。** 当前数密度 $n_\chi = s_0 Y_\infty$，其中 $s_0 = 2891$ cm⁻³ 是今天的熵密度。能量密度：
+**第 3 步 — 换算为遗迹密度。** 当前数密度 $n_\chi = s_0 Y_\infty$，其中 $s_0 = 2891\ \text{cm}^{-3}$ 是今天的熵密度。能量密度：
 
 $$ \rho_\chi = m_\chi n_\chi = m_\chi s_0 Y_\infty. $$
 
-The relic density parameter (using $\rho_{crit}/h^2 = 1.054 \times 10^{-5}$ GeV cm⁻³):
+The relic density parameter (using $\rho_{crit}/h^2 = 1.054 \times 10^{-5}\ \text{GeV cm}^{-3}$):
 
-遗迹密度参数（利用 $\rho_{crit}/h^2 = 1.054 \times 10^{-5}$ GeV cm⁻³）：
+遗迹密度参数（利用 $\rho_{crit}/h^2 = 1.054 \times 10^{-5}\ \text{GeV cm}^{-3}$）：
 
 $$ \Omega_\chi h^2 = \rho_\chi h^2/\rho_{crit} = m_\chi s_0 Y_\infty h^2/\rho_{crit}. $$
 
@@ -190,9 +190,9 @@ $m_\chi$ 消去（这是关键的奇迹！）：
 
 $$ \Omega_\chi h^2 \approx \frac{3 \times 10^{-27}\ \text{cm}^3/\text{s}}{\langle\sigma v\rangle}, $$
 
-where we converted GeV⁻² to cm³/s ($1\ \text{GeV}^{-2} = 0.389 \times 10^{-27}$ cm²; with factors of $c$): $\mathbf{3 \times 10^{-27}}$ **cm³/s** $\approx 0.1\ \text{pb} \cdot c$.
+where we converted $\text{GeV}^{-2}$ to $\text{cm}^3/\text{s}$ ($1\ \text{GeV}^{-2} = 0.389 \times 10^{-27}\ \text{cm}^2$; with factors of $c$): $\mathbf{3 \times 10^{-27}}$ **$\text{cm}^3/\text{s}$** $\approx 0.1\ \text{pb} \cdot c$.
 
-其中我们将 GeV⁻² 换算为 cm³/s（$1\ \text{GeV}^{-2} = 0.389 \times 10^{-27}$ cm²；乘以 $c$ 的因子）：$\mathbf{3 \times 10^{-27}}$ **cm³/s** $\approx 0.1\ \text{pb} \cdot c$。
+其中我们将 $\text{GeV}^{-2}$ 换算为 $\text{cm}^3/\text{s}$（$1\ \text{GeV}^{-2} = 0.389 \times 10^{-27}\ \text{cm}^2$；乘以 $c$ 的因子）：$\mathbf{3 \times 10^{-27}}$ **$\text{cm}^3/\text{s}$** $\approx 0.1\ \text{pb} \cdot c$。
 
 **Step 4 — The WIMP miracle.** For a particle with electroweak-scale interactions: $\langle\sigma v\rangle \sim \alpha^2/m_\chi^2$. With $\alpha \sim 0.03$ (EW) and $m_\chi \sim 100$ GeV:
 
@@ -264,9 +264,9 @@ The observed baryon-to-photon ratio $\eta \sim 6 \times 10^{-10}$ requires new s
 
 ## E. Big Bang Nucleosynthesis: The Neutron-to-Proton Ratio · 大爆炸核合成：中子–质子比
 
-**Claim.** The $n/p$ ratio at BBN is determined by the weak interaction rates $n \leftrightarrow p + e^- + \bar\nu_e$ freezing out at $T_f \approx 0.7$ MeV, giving $(n/p)_{freeze} \approx 1/6$, leading to a predicted ⁴He mass fraction $Y_p \approx 0.247$.
+**Claim.** The $n/p$ ratio at BBN is determined by the weak interaction rates $n \leftrightarrow p + e^- + \bar\nu_e$ freezing out at $T_f \approx 0.7$ MeV, giving $(n/p)_{freeze} \approx 1/6$, leading to a predicted ${}^4\text{He}$ mass fraction $Y_p \approx 0.247$.
 
-**命题。** BBN 时的 $n/p$ 比由弱相互作用速率 $n \leftrightarrow p + e^- + \bar\nu_e$ 在 $T_f \approx 0.7$ MeV 时冻结所决定，给出 $(n/p)_{freeze} \approx 1/6$，导致预言的 ⁴He 质量分数 $Y_p \approx 0.247$。
+**命题。** BBN 时的 $n/p$ 比由弱相互作用速率 $n \leftrightarrow p + e^- + \bar\nu_e$ 在 $T_f \approx 0.7$ MeV 时冻结所决定，给出 $(n/p)_{freeze} \approx 1/6$，导致预言的 ${}^4\text{He}$ 质量分数 $Y_p \approx 0.247$。
 
 **Step 1 — Equilibrium $n/p$ ratio.** At $T \gg 1$ MeV, weak interactions maintain equilibrium between $n$ and $p$. The ratio is:
 
@@ -308,9 +308,9 @@ After freeze-out, free neutrons decay ($\tau_n \approx 886$ s). BBN begins at $T
 
 冻结后，自由中子衰变（$\tau_n \approx 886$ s）。BBN 在 $T_{BBN} \approx 0.07$ MeV（$t \approx 200$ s）时开始，将 $n/p$ 进一步降至 $\approx 1/7$。
 
-**Step 4 — ⁴He mass fraction.** Almost all neutrons end up in ⁴He (the most stable light nucleus). With $n/p = 1/7$ at BBN:
+**Step 4 — ${}^4\text{He}$ mass fraction.** Almost all neutrons end up in ${}^4\text{He}$ (the most stable light nucleus). With $n/p = 1/7$ at BBN:
 
-**第 4 步 — ⁴He 质量分数。** 几乎所有中子都进入 ⁴He（最稳定的轻核）。以 BBN 时 $n/p = 1/7$：
+**第 4 步 — ${}^4\text{He}$ 质量分数。** 几乎所有中子都进入 ${}^4\text{He}$（最稳定的轻核）。以 BBN 时 $n/p = 1/7$：
 
 $$ \begin{aligned}
 &\text{For every 8 baryons: } 1\,n + 7\,p. \\
@@ -320,8 +320,8 @@ $$ \begin{aligned}
 \end{aligned} $$
 
 每 8 个重子：$1\,n + 7\,p$。
-所有中子 $\to$ ⁴He：$2n + 2p \to {}^4\text{He}$。
-⁴He 质量分数：$Y_p = 2 \times (n/p)/(1 + n/p) = 2 \times (1/7)/(8/7) = 2/8 = 0.25$。
+所有中子 $\to$ ${}^4\text{He}$：$2n + 2p \to {}^4\text{He}$。
+${}^4\text{He}$ 质量分数：$Y_p = 2 \times (n/p)/(1 + n/p) = 2 \times (1/7)/(8/7) = 2/8 = 0.25$。
 
 The more precise calculation including all reactions gives $Y_p \approx 0.247$, matching observations to $\sim 1\%$ precision. $\blacksquare$
 

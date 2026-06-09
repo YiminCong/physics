@@ -43,9 +43,9 @@ $$ \begin{aligned}
 
 **第 3 步 — 使用无挠对称性。** 挠率张量 $T^{\lambda}{}_{\mu\nu} = \Gamma^{\lambda}{}_{\mu\nu} - \Gamma^{\lambda}{}_{\nu\mu} = 0$，故 $\Gamma^{\lambda}{}_{\mu\nu} = \Gamma^{\lambda}{}_{\nu\mu}$（关于下指标对称）。在整个推导中应用此条件。
 
-**Step 4 — Linear combination: (II) + (III) − (I).** Compute (II) + (III) − (I):
+**Step 4 — Linear combination: (II) + (III) - (I).** Compute (II) + (III) - (I):
 
-**第 4 步 — 线性组合：(II) + (III) − (I)。** 计算 (II) + (III) − (I)：
+**第 4 步 — 线性组合：(II) + (III) - (I)。** 计算 (II) + (III) - (I)：
 
 $$ \begin{aligned}
 & \partial_\mu g_{\nu\rho} + \partial_\nu g_{\rho\mu} - \partial_\rho g_{\mu\nu} \\
