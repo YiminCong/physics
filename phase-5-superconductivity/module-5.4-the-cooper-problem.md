@@ -1,9 +1,3 @@
----
-title: "Module 5.4 — The Cooper Problem"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 4
----
-
 # Module 5.4 — The Cooper Problem ⭐
 **模块 5.4 — 库珀问题 ⭐**
 

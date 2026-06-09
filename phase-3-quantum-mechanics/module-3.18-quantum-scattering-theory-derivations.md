@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.18: Quantum Scattering Theory"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.18: Quantum Scattering Theory
 # 推导 — 模块 3.18：量子散射理论
 

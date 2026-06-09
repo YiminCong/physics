@@ -1,9 +1,3 @@
----
-title: "Module 5.3 — Ginzburg–Landau Theory"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 3
----
-
 # Module 5.3 — Ginzburg–Landau Theory ⭐⭐
 **模块 5.3 — 金兹堡–朗道理论 ⭐⭐**
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 8.8: The Quark Model & Hadron Spectroscopy"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 8.8: The Quark Model & Hadron Spectroscopy
 # 推导 — 模块 8.8：夸克模型与强子谱学
 

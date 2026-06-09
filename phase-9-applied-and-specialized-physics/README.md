@@ -1,9 +1,3 @@
----
-title: "Phase 9 — Applied & Specialized Physics"
-nav_order: 10
-has_children: true
----
-
 # Phase 9 — Applied & Specialized Physics
 **第 9 阶段 — 应用与专门物理**
 

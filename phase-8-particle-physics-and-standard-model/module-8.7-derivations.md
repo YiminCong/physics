@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 8.7: Parity Violation & the Weak Interaction"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 8.7: Parity Violation & the Weak Interaction
 # 推导 — 模块 8.7：宇称不守恒与弱相互作用
 

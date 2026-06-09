@@ -1,9 +1,3 @@
----
-title: "Module 2.2 — Thermodynamic Potentials & Maxwell Relations"
-parent: "Phase 2 — Thermodynamics & Statistical Mechanics"
-nav_order: 2
----
-
 # Module 2.2 — Thermodynamic Potentials & Maxwell Relations
 **模块 2.2 — 热力学势与麦克斯韦关系**
 

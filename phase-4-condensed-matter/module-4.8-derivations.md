@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 4.8: Quantum Hall Effect"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 4.8: Quantum Hall Effect
 # 推导 — 模块 4.8：量子霍尔效应
 

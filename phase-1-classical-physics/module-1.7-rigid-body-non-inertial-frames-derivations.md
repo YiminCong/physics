@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.7: Rigid-Body Dynamics & Non-Inertial Frames"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.7: Rigid-Body Dynamics & Non-Inertial Frames
 # 推导 — 模块 1.7：刚体动力学与非惯性系
 

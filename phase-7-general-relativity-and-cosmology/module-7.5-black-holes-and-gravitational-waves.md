@@ -1,9 +1,3 @@
----
-title: "Module 7.5 — Black Holes & Gravitational Waves"
-parent: "Phase 7 — General Relativity & Cosmology"
-nav_order: 5
----
-
 # Module 7.5 — Black Holes & Gravitational Waves ⭐
 **模块 7.5 — 黑洞与引力波 ⭐**
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 5.7: Type II Superconductors & Vortices"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 5.7: Type II Superconductors & Vortices
 # 推导 — 模块 5.7：II 型超导体与涡旋
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 8.10: Neutrino Physics & Experimental Particle Physics"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 8.10: Neutrino Physics & Experimental Particle Physics
 # 推导 — 模块 8.10：中微子物理与实验粒子物理
 

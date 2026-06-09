@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 4.6: Magnetism & Spin Waves"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 4.6: Magnetism & Spin Waves
 # 推导 — 模块 4.6：磁性与自旋波
 

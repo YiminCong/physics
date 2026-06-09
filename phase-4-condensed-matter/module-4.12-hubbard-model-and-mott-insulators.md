@@ -1,9 +1,3 @@
----
-title: "Module 4.12 — The Hubbard Model & Mott Insulators"
-parent: "Phase 4 — Condensed Matter / Solid State"
-nav_order: 12
----
-
 # Module 4.12 — The Hubbard Model & Mott Insulators
 **模块 4.12 — 哈伯德模型与莫特绝缘体**
 

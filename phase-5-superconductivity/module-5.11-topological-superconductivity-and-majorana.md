@@ -1,9 +1,3 @@
----
-title: "Module 5.11 — Topological Superconductivity & Majorana Modes"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 11
----
-
 # Module 5.11 — Topological Superconductivity & Majorana Modes
 **模块 5.11 — 拓扑超导与马约拉纳模**
 

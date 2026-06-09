@@ -1,9 +1,3 @@
----
-title: "Module 2.7 — Kinetic Theory & Transport"
-parent: "Phase 2 — Thermodynamics & Statistical Mechanics"
-nav_order: 7
----
-
 # Module 2.7 — Kinetic Theory & Transport
 **模块 2.7 — 动理论与输运**
 

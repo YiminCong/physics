@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.0: Old Quantum Theory & the Photoelectric Effect"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.0: Old Quantum Theory & the Photoelectric Effect
 # 推导 — 模块 3.0：旧量子论与光电效应
 

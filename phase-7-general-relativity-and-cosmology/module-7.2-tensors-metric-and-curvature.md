@@ -1,9 +1,3 @@
----
-title: "Module 7.2 — Tensors, the Metric & Curvature"
-parent: "Phase 7 — General Relativity & Cosmology"
-nav_order: 2
----
-
 # Module 7.2 — Tensors, the Metric & Curvature ⭐
 **模块 7.2 — 张量、度规与曲率 ⭐**
 

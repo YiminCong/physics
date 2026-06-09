@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 9.1: Electronics"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 9.1: Electronics
 # 推导 — 模块 9.1：电子学
 

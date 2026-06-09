@@ -1,9 +1,3 @@
----
-title: "Module 0.7 — Group Theory & Lie Algebras"
-parent: "Phase 0 — Mathematical Foundations"
-nav_order: 7
----
-
 # Module 0.7 — Group Theory & Lie Algebras ⭐
 **模块 0.7 — 群论与李代数 ⭐**
 

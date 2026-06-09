@@ -1,9 +1,3 @@
----
-title: "Module 6.11 — Effective Field Theory & the Wilsonian Renormalization Group"
-parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
-nav_order: 11
----
-
 # Module 6.11 — Effective Field Theory & the Wilsonian Renormalization Group
 **模块 6.11 — 有效场论与威尔逊重整化群**
 

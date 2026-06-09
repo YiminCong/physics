@@ -1,9 +1,3 @@
----
-title: "Phase 1 — Classical Physics"
-nav_order: 2
-has_children: true
----
-
 # Phase 1 — Classical Physics
 **第 1 阶段 — 经典物理**
 

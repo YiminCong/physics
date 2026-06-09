@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.3: Lagrangian Mechanics"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.3: Lagrangian Mechanics
 # 推导 — 模块 1.3：拉格朗日力学
 

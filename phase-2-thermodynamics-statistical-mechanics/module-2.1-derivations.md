@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 2.1: The Laws of Thermodynamics"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 2.1: The Laws of Thermodynamics
 # 推导 — 模块 2.1：热力学定律
 

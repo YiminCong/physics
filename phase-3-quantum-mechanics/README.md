@@ -1,9 +1,3 @@
----
-title: "Phase 3 — Quantum Mechanics (the core)"
-nav_order: 4
-has_children: true
----
-
 # Phase 3 — Quantum Mechanics (the core)
 **第 3 阶段 — 量子力学（核心）**
 

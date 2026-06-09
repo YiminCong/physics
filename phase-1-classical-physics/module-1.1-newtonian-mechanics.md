@@ -1,9 +1,3 @@
----
-title: "Module 1.1 — Newtonian Mechanics"
-parent: "Phase 1 — Classical Physics"
-nav_order: 1
----
-
 # Module 1.1 — Newtonian Mechanics
 **模块 1.1 — 牛顿力学**
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 7.3: Geodesics & the Motion of Particles"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 7.3: Geodesics & the Motion of Particles
 # 推导 — 模块 7.3：测地线与粒子运动
 

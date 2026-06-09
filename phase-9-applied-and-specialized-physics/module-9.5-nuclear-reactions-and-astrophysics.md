@@ -1,9 +1,3 @@
----
-title: "Module 9.5 — Nuclear Reactions & Astrophysics"
-parent: "Phase 9 — Applied & Specialized Physics"
-nav_order: 5
----
-
 # Module 9.5 — Nuclear Reactions & Astrophysics
 **模块 9.5 — 核反应与天体物理**
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.11: Angular Momentum (Addition & Spin)"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.11: Angular Momentum (Addition & Spin)
 # 推导 — 模块 3.11：角动量（合成与自旋）
 

@@ -1,0 +1,212 @@
+site_name: Physics Study Notes
+site_description: >-
+  Bilingual (English · 中文) graduate-physics study notes — from classical
+  mechanics to the Standard Model — with full step-by-step LaTeX derivations.
+site_url: https://yimincong.github.io/physics/
+repo_url: https://github.com/YiminCong/physics
+repo_name: YiminCong/physics
+docs_dir: .
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+  - same-dir
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+exclude_docs: |
+  requirements.txt
+  Gemfile
+  Gemfile.lock
+
+not_in_nav: |
+  *-derivations.md
+
+nav:
+  - Home: README.md
+  - "Phase 0 — Mathematical Foundations":
+      - phase-0-mathematical-foundations/README.md
+      - "Module 0.1 — Calculus & Taylor Series": phase-0-mathematical-foundations/module-0.1-calculus-and-taylor-series.md
+      - "Module 0.2 — Linear Algebra": phase-0-mathematical-foundations/module-0.2-linear-algebra.md
+      - "Module 0.3 — Differential Equations": phase-0-mathematical-foundations/module-0.3-differential-equations.md
+      - "Module 0.4 — Complex Analysis": phase-0-mathematical-foundations/module-0.4-complex-analysis.md
+      - "Module 0.5 — Fourier Analysis & Probability": phase-0-mathematical-foundations/module-0.5-fourier-analysis-and-probability.md
+      - "Module 0.6 — Vector Calculus, Tensors & Differential Forms": phase-0-mathematical-foundations/module-0.6-vector-calculus-tensors-and-differential-forms.md
+      - "Module 0.7 — Group Theory & Lie Algebras": phase-0-mathematical-foundations/module-0.7-group-theory-and-lie-algebras.md
+  - "Phase 1 — Classical Physics":
+      - phase-1-classical-physics/README.md
+      - "Module 1.1 — Newtonian Mechanics": phase-1-classical-physics/module-1.1-newtonian-mechanics.md
+      - "Module 1.2 — Conservation Laws": phase-1-classical-physics/module-1.2-conservation-laws.md
+      - "Module 1.3 — Lagrangian Mechanics & the Variational Principle": phase-1-classical-physics/module-1.3-lagrangian-mechanics.md
+      - "Module 1.4 — Hamiltonian Mechanics, Action & Noether's Theorem": phase-1-classical-physics/module-1.4-hamiltonian-mechanics-noether.md
+      - "Module 1.5 — Central-Force Problem & Kepler": phase-1-classical-physics/module-1.5-central-force-kepler.md
+      - "Module 1.6 — Small Oscillations & Coupled Oscillators": phase-1-classical-physics/module-1.6-small-oscillations-coupled-oscillators.md
+      - "Module 1.7 — Rigid-Body Dynamics & Non-Inertial Frames": phase-1-classical-physics/module-1.7-rigid-body-non-inertial-frames.md
+      - "Module 1.8 — Electrostatics & Boundary-Value Problems": phase-1-classical-physics/module-1.8-electrostatics-boundary-value-problems.md
+      - "Module 1.9 — Magnetostatics": phase-1-classical-physics/module-1.9-magnetostatics.md
+      - "Module 1.10 — Electrodynamics & Maxwell's Equations": phase-1-classical-physics/module-1.10-electrodynamics-maxwell-equations.md
+      - "Module 1.11 — Electromagnetic Waves & Radiation": phase-1-classical-physics/module-1.11-em-waves-radiation.md
+      - "Module 1.12 — Optics & Interference": phase-1-classical-physics/module-1.12-optics-interference.md
+      - "Module 1.13 — Special Relativity — Kinematics": phase-1-classical-physics/module-1.13-special-relativity-kinematics.md
+      - "Module 1.14 — Relativistic Dynamics & E = mc²": phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum.md
+      - "Module 1.15 — Covariant Electromagnetism": phase-1-classical-physics/module-1.15-covariant-electromagnetism.md
+      - "Module 1.16 — Mechanical Waves & Acoustics": phase-1-classical-physics/module-1.16-mechanical-waves-acoustics.md
+      - "Module 1.17 — Fluid Mechanics": phase-1-classical-physics/module-1.17-fluid-mechanics.md
+      - "Module 1.18 — Continuum Mechanics & Elasticity": phase-1-classical-physics/module-1.18-continuum-mechanics-elasticity.md
+      - "Module 1.19 — Nonlinear Dynamics & Chaos": phase-1-classical-physics/module-1.19-nonlinear-dynamics-chaos.md
+      - "Module 1.20 — Canonical Transformations, Hamilton–Jacobi Theory & Action–Angle Variables": phase-1-classical-physics/module-1.20-canonical-transformations-hamilton-jacobi.md
+      - "Module 1.21 — Classical Scattering Theory": phase-1-classical-physics/module-1.21-classical-scattering.md
+      - "Module 1.22 — Retarded Potentials, Multipole Radiation & Radiation Reaction": phase-1-classical-physics/module-1.22-retarded-potentials-radiation-reaction.md
+      - "Module 1.23 — Waveguides, Cavity Resonators & Transmission Lines": phase-1-classical-physics/module-1.23-waveguides-cavities-transmission-lines.md
+  - "Phase 2 — Thermodynamics & Statistical Mechanics":
+      - phase-2-thermodynamics-statistical-mechanics/README.md
+      - "Module 2.1 — The Laws of Thermodynamics": phase-2-thermodynamics-statistical-mechanics/module-2.1-laws-of-thermodynamics.md
+      - "Module 2.2 — Thermodynamic Potentials & Maxwell Relations": phase-2-thermodynamics-statistical-mechanics/module-2.2-thermodynamic-potentials.md
+      - "Module 2.3 — Free Energy & Phase Transitions": phase-2-thermodynamics-statistical-mechanics/module-2.3-free-energy-phase-transitions.md
+      - "Module 2.4 — Classical Statistical Mechanics": phase-2-thermodynamics-statistical-mechanics/module-2.4-classical-statistical-mechanics.md
+      - "Module 2.5 — Quantum Statistics": phase-2-thermodynamics-statistical-mechanics/module-2.5-quantum-statistics.md
+      - "Module 2.6 — Quantum Gases & Applications": phase-2-thermodynamics-statistical-mechanics/module-2.6-quantum-gases-applications.md
+      - "Module 2.7 — Kinetic Theory & Transport": phase-2-thermodynamics-statistical-mechanics/module-2.7-kinetic-theory-and-transport.md
+      - "Module 2.8 — Brownian Motion & the Einstein Relation": phase-2-thermodynamics-statistical-mechanics/module-2.8-brownian-motion-and-the-einstein-relation.md
+  - "Phase 3 — Quantum Mechanics (the core)":
+      - phase-3-quantum-mechanics/README.md
+      - "Module 3.0 — Old Quantum Theory & the Photoelectric Effect": phase-3-quantum-mechanics/module-3.0-old-quantum-theory-and-photoelectric-effect.md
+      - "Module 3.1 — The Wave Function": phase-3-quantum-mechanics/module-3.1-the-wave-function.md
+      - "Module 3.2 — Time-Independent Schrödinger Equation": phase-3-quantum-mechanics/module-3.2-time-independent-schrodinger-equation.md
+      - "Module 3.3 — Formalism": phase-3-quantum-mechanics/module-3.3-formalism.md
+      - "Module 3.4 — Quantum Mechanics in 3D (Angular Momentum, Hydrogen, Spin)": phase-3-quantum-mechanics/module-3.4-quantum-mechanics-in-3d.md
+      - "Module 3.5 — Identical Particles": phase-3-quantum-mechanics/module-3.5-identical-particles.md
+      - "Module 3.6 — Time-Independent Perturbation Theory": phase-3-quantum-mechanics/module-3.6-time-independent-perturbation-theory.md
+      - "Module 3.7 — Variational & WKB Methods": phase-3-quantum-mechanics/module-3.7-variational-and-wkb-methods.md
+      - "Module 3.8 — Time-Dependent Perturbation Theory & Scattering": phase-3-quantum-mechanics/module-3.8-time-dependent-perturbation-theory-and-scattering.md
+      - "Module 3.9 — Fundamental Concepts (Graduate, Sakurai)": phase-3-quantum-mechanics/module-3.9-fundamental-concepts.md
+      - "Module 3.10 — Quantum Dynamics": phase-3-quantum-mechanics/module-3.10-quantum-dynamics.md
+      - "Module 3.11 — Angular Momentum, Advanced (Addition & Spin)": phase-3-quantum-mechanics/module-3.11-angular-momentum-advanced.md
+      - "Module 3.12 — Symmetry, Identical Particles & Second Quantization": phase-3-quantum-mechanics/module-3.12-second-quantization.md
+      - "Module 3.13 — Entanglement, EPR & Bell's Theorem": phase-3-quantum-mechanics/module-3.13-entanglement-epr-and-bell.md
+      - "Module 3.14 — Density Matrix & Open Quantum Systems": phase-3-quantum-mechanics/module-3.14-density-matrix-and-open-quantum-systems.md
+      - "Module 3.15 — Relativistic Quantum Mechanics": phase-3-quantum-mechanics/module-3.15-relativistic-quantum-mechanics.md
+      - "Module 3.16 — Quantum Computation & Information": phase-3-quantum-mechanics/module-3.16-quantum-computation-and-information.md
+      - "Module 3.17 — Quantum Algorithms & Error Correction": phase-3-quantum-mechanics/module-3.17-quantum-algorithms-and-error-correction.md
+      - "Module 3.18 — Quantum Scattering Theory": phase-3-quantum-mechanics/module-3.18-quantum-scattering-theory.md
+  - "Phase 4 — Condensed Matter / Solid State":
+      - phase-4-condensed-matter/README.md
+      - "Module 4.1 — Electrons and Heat in Solids": phase-4-condensed-matter/module-4.1-electrons-and-heat-in-solids.md
+      - "Module 4.2 — Crystal Structure & Reciprocal Space": phase-4-condensed-matter/module-4.2-crystal-structure-and-reciprocal-space.md
+      - "Module 4.3 — Lattice Vibrations & Phonons": phase-4-condensed-matter/module-4.3-lattice-vibrations-and-phonons.md
+      - "Module 4.4 — Electrons in a Periodic Potential": phase-4-condensed-matter/module-4.4-electrons-in-a-periodic-potential.md
+      - "Module 4.5 — Fermi Surface & Electron–Phonon Coupling": phase-4-condensed-matter/module-4.5-fermi-surface-and-electron-phonon-coupling.md
+      - "Module 4.6 — Magnetism & Spin Waves": phase-4-condensed-matter/module-4.6-magnetism-and-spin-waves.md
+      - "Module 4.7 — Semiconductor Physics": phase-4-condensed-matter/module-4.7-semiconductor-physics.md
+      - "Module 4.8 — Quantum Hall Effect": phase-4-condensed-matter/module-4.8-quantum-hall-effect.md
+      - "Module 4.9 — Topological Matter & Berry Phase": phase-4-condensed-matter/module-4.9-topological-matter-and-berry-phase.md
+      - "Module 4.10 — Landau Fermi-Liquid Theory": phase-4-condensed-matter/module-4.10-landau-fermi-liquid-theory.md
+      - "Module 4.11 — Linear Response, Transport & the Kubo Formula": phase-4-condensed-matter/module-4.11-linear-response-and-transport.md
+      - "Module 4.12 — The Hubbard Model & Mott Insulators": phase-4-condensed-matter/module-4.12-hubbard-model-and-mott-insulators.md
+  - "Phase 5 — Superconductivity (the destination)":
+      - phase-5-superconductivity/README.md
+      - "Module 5.1 — Phenomenology": phase-5-superconductivity/module-5.1-phenomenology.md
+      - "Module 5.2 — London Theory": phase-5-superconductivity/module-5.2-london-theory.md
+      - "Module 5.3 — Ginzburg–Landau Theory": phase-5-superconductivity/module-5.3-ginzburg-landau-theory.md
+      - "Module 5.4 — The Cooper Problem": phase-5-superconductivity/module-5.4-the-cooper-problem.md
+      - "Module 5.5 — BCS Theory": phase-5-superconductivity/module-5.5-bcs-theory.md
+      - "Module 5.6 — Tunneling & the Gap": phase-5-superconductivity/module-5.6-tunneling-and-the-gap.md
+      - "Module 5.7 — Type II Superconductors & Vortices": phase-5-superconductivity/module-5.7-type-ii-superconductors-and-vortices.md
+      - "Module 5.8 — Josephson Effects": phase-5-superconductivity/module-5.8-josephson-effects.md
+      - "Module 5.9 — Unconventional & High-Tᶜ Superconductors": phase-5-superconductivity/module-5.9-unconventional-and-high-tc-superconductors.md
+      - "Module 5.10 — Bogoliubov–de Gennes & Andreev Reflection": phase-5-superconductivity/module-5.10-bogoliubov-de-gennes-and-andreev-reflection.md
+      - "Module 5.11 — Topological Superconductivity & Majorana Modes": phase-5-superconductivity/module-5.11-topological-superconductivity-and-majorana.md
+  - "Phase 6 — Quantum Field Theory & Many-Body Physics":
+      - phase-6-quantum-field-theory/README.md
+      - "Module 6.1 — Second Quantization & the Many-Body Problem": phase-6-quantum-field-theory/module-6.1-second-quantization.md
+      - "Module 6.2 — Green's Functions & Propagators": phase-6-quantum-field-theory/module-6.2-greens-functions.md
+      - "Module 6.3 — Feynman Diagrams & Perturbation Theory": phase-6-quantum-field-theory/module-6.3-feynman-diagrams.md
+      - "Module 6.4 — Path Integrals & Field Theory": phase-6-quantum-field-theory/module-6.4-path-integrals.md
+      - "Module 6.5 — Canonical Quantization of Fields": phase-6-quantum-field-theory/module-6.5-canonical-quantization.md
+      - "Module 6.6 — Renormalization & the Renormalization Group": phase-6-quantum-field-theory/module-6.6-renormalization.md
+      - "Module 6.7 — Exactly Solvable Models & Long-Range Order": phase-6-quantum-field-theory/module-6.7-exactly-solvable-models-and-long-range-order.md
+      - "Module 6.8 — Scattering, the S-Matrix & LSZ Reduction": phase-6-quantum-field-theory/module-6.8-scattering-s-matrix-and-lsz.md
+      - "Module 6.9 — Anomalies & Non-Perturbative QFT": phase-6-quantum-field-theory/module-6.9-anomalies-and-nonperturbative-qft.md
+      - "Module 6.10 — Spontaneous Symmetry Breaking & Goldstone's Theorem": phase-6-quantum-field-theory/module-6.10-spontaneous-symmetry-breaking-and-goldstone.md
+      - "Module 6.11 — Effective Field Theory & the Wilsonian Renormalization Group": phase-6-quantum-field-theory/module-6.11-effective-field-theory-and-the-renormalization-group.md
+      - "Module 6.12 — Finite-Temperature Field Theory (the Matsubara Formalism)": phase-6-quantum-field-theory/module-6.12-finite-temperature-field-theory.md
+  - "Phase 7 — General Relativity & Cosmology":
+      - phase-7-general-relativity-and-cosmology/README.md
+      - "Module 7.1 — The Equivalence Principle & Curved Spacetime": phase-7-general-relativity-and-cosmology/module-7.1-equivalence-principle-and-curved-spacetime.md
+      - "Module 7.2 — Tensors, the Metric & Curvature": phase-7-general-relativity-and-cosmology/module-7.2-tensors-metric-and-curvature.md
+      - "Module 7.3 — Geodesics & the Motion of Particles": phase-7-general-relativity-and-cosmology/module-7.3-geodesics-and-motion-of-particles.md
+      - "Module 7.4 — Einstein's Field Equations": phase-7-general-relativity-and-cosmology/module-7.4-einsteins-field-equations.md
+      - "Module 7.5 — Black Holes & Gravitational Waves": phase-7-general-relativity-and-cosmology/module-7.5-black-holes-and-gravitational-waves.md
+      - "Module 7.6 — Cosmology": phase-7-general-relativity-and-cosmology/module-7.6-cosmology.md
+      - "Module 7.7 — Tests of GR & Gravitational-Wave Astronomy": phase-7-general-relativity-and-cosmology/module-7.7-tests-of-gr-and-gravitational-wave-astronomy.md
+      - "Module 7.8 — Global Structure & Singularity Theorems": phase-7-general-relativity-and-cosmology/module-7.8-global-structure-and-singularity-theorems.md
+  - "Phase 8 — Particle Physics & the Standard Model":
+      - phase-8-particle-physics-and-standard-model/README.md
+      - "Module 8.1 — Symmetries & Gauge Theory": phase-8-particle-physics-and-standard-model/module-8.1-symmetries-and-gauge-theory.md
+      - "Module 8.2 — Quantum Electrodynamics (QED)": phase-8-particle-physics-and-standard-model/module-8.2-quantum-electrodynamics.md
+      - "Module 8.3 — The Strong Interaction (QCD)": phase-8-particle-physics-and-standard-model/module-8.3-quantum-chromodynamics.md
+      - "Module 8.4 — Electroweak Theory & the Higgs": phase-8-particle-physics-and-standard-model/module-8.4-electroweak-theory-and-higgs.md
+      - "Module 8.5 — The Standard Model & Beyond": phase-8-particle-physics-and-standard-model/module-8.5-standard-model-and-beyond.md
+      - "Module 8.6 — Particle Physics & Cosmology": phase-8-particle-physics-and-standard-model/module-8.6-particle-physics-and-cosmology.md
+      - "Module 8.7 — Parity Violation & the Weak Interaction (Lee–Yang)": phase-8-particle-physics-and-standard-model/module-8.7-parity-violation-and-the-weak-interaction.md
+      - "Module 8.8 — The Quark Model & Hadron Spectroscopy": phase-8-particle-physics-and-standard-model/module-8.8-quark-model-and-hadron-spectroscopy.md
+      - "Module 8.9 — Deep Inelastic Scattering & Partons": phase-8-particle-physics-and-standard-model/module-8.9-deep-inelastic-scattering-and-partons.md
+      - "Module 8.10 — Neutrino Physics & Experimental Particle Physics": phase-8-particle-physics-and-standard-model/module-8.10-neutrino-physics-and-experiment.md
+  - "Phase 9 — Applied & Specialized Physics":
+      - phase-9-applied-and-specialized-physics/README.md
+      - "Module 9.1 — Electronics: Circuits, Semiconductors & Amplifiers": phase-9-applied-and-specialized-physics/module-9.1-electronics.md
+      - "Module 9.2 — Atomic & Molecular Physics": phase-9-applied-and-specialized-physics/module-9.2-atomic-and-molecular-physics.md
+      - "Module 9.3 — Nuclear Physics": phase-9-applied-and-specialized-physics/module-9.3-nuclear-physics.md
+      - "Module 9.4 — Plasma Physics": phase-9-applied-and-specialized-physics/module-9.4-plasma-physics.md
+      - "Module 9.5 — Nuclear Reactions & Astrophysics": phase-9-applied-and-specialized-physics/module-9.5-nuclear-reactions-and-astrophysics.md
+      - "Module 9.6 — Quantum Optics & Laser Physics": phase-9-applied-and-specialized-physics/module-9.6-quantum-optics-and-lasers.md
+      - "Module 9.7 — Atoms in External Fields & Precision Spectroscopy": phase-9-applied-and-specialized-physics/module-9.7-atoms-in-external-fields.md
+      - "Module 9.8 — Stellar Structure & Compact Objects": phase-9-applied-and-specialized-physics/module-9.8-stellar-structure-and-compact-objects.md
+  - "Phase 10 — Strings & Quantum Gravity":
+      - phase-10-strings-and-quantum-gravity/README.md
+      - "Module 10.1 — String Theory & Superstrings": phase-10-strings-and-quantum-gravity/module-10.1-string-theory-and-superstrings.md
+      - "Module 10.2 — Quantum Gravity & Holography": phase-10-strings-and-quantum-gravity/module-10.2-quantum-gravity-and-holography.md

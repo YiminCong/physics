@@ -1,9 +1,3 @@
----
-title: "Module 0.6 — Vector Calculus, Tensors & Differential Forms"
-parent: "Phase 0 — Mathematical Foundations"
-nav_order: 6
----
-
 # Module 0.6 — Vector Calculus, Tensors & Differential Forms
 **模块 0.6 — 向量微积分、张量与微分形式**
 

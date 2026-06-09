@@ -1,9 +1,3 @@
----
-title: "Module 8.3 — The Strong Interaction (QCD)"
-parent: "Phase 8 — Particle Physics & the Standard Model"
-nav_order: 3
----
-
 # Module 8.3 — The Strong Interaction (QCD)
 **模块 8.3 — 强相互作用（量子色动力学）**
 

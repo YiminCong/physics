@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 6.4: Path Integrals & Field Theory"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 6.4: Path Integrals & Field Theory
 # 推导 — 模块 6.4：路径积分与场论
 

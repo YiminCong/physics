@@ -1,9 +1,3 @@
----
-title: "Module 1.22 — Retarded Potentials, Multipole Radiation & Radiation Reaction"
-parent: "Phase 1 — Classical Physics"
-nav_order: 22
----
-
 # Module 1.22 — Retarded Potentials, Multipole Radiation & Radiation Reaction
 **模块 1.22 — 推迟势、多极辐射与辐射阻尼**
 

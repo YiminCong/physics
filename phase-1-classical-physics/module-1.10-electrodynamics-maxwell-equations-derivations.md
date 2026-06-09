@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.10: Electrodynamics & Maxwell's Equations"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.10: Electrodynamics & Maxwell's Equations
 # 推导 — 模块 1.10：电动力学与麦克斯韦方程组
 

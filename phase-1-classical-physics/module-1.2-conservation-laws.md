@@ -1,9 +1,3 @@
----
-title: "Module 1.2 — Conservation Laws"
-parent: "Phase 1 — Classical Physics"
-nav_order: 2
----
-
 # Module 1.2 — Conservation Laws
 **模块 1.2 — 守恒定律**
 

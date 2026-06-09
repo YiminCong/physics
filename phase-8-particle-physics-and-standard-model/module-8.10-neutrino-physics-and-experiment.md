@@ -1,9 +1,3 @@
----
-title: "Module 8.10 — Neutrino Physics & Experimental Particle Physics"
-parent: "Phase 8 — Particle Physics & the Standard Model"
-nav_order: 10
----
-
 # Module 8.10 — Neutrino Physics & Experimental Particle Physics
 **模块 8.10 — 中微子物理与实验粒子物理**
 

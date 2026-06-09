@@ -1,9 +1,3 @@
----
-title: "Module 1.23 — Waveguides, Cavity Resonators & Transmission Lines"
-parent: "Phase 1 — Classical Physics"
-nav_order: 23
----
-
 # Module 1.23 — Waveguides, Cavity Resonators & Transmission Lines
 **模块 1.23 — 波导、谐振腔与传输线**
 

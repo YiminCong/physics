@@ -1,9 +1,3 @@
----
-title: "Module 3.10 — Quantum Dynamics"
-parent: "Phase 3 — Quantum Mechanics (the core)"
-nav_order: 10
----
-
 # Module 3.10 — Quantum Dynamics ⭐
 **模块 3.10 — 量子动力学 ⭐**
 

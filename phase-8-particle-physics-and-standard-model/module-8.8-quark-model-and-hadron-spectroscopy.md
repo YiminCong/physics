@@ -1,9 +1,3 @@
----
-title: "Module 8.8 — The Quark Model & Hadron Spectroscopy"
-parent: "Phase 8 — Particle Physics & the Standard Model"
-nav_order: 8
----
-
 # Module 8.8 — The Quark Model & Hadron Spectroscopy
 **模块 8.8 — 夸克模型与强子谱学**
 

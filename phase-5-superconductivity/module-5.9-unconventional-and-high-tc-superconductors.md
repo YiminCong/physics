@@ -1,9 +1,3 @@
----
-title: "Module 5.9 — Unconventional & High-Tᶜ Superconductors"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 9
----
-
 # Module 5.9 — Unconventional & High-Tᶜ Superconductors
 **模块 5.9 — 非常规与高温超导体**
 

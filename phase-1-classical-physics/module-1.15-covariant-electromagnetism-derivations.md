@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.15: Covariant Electromagnetism"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.15: Covariant Electromagnetism
 # 推导 — 模块 1.15：协变电磁学
 

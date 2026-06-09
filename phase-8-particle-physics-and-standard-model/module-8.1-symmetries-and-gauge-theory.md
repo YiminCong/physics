@@ -1,9 +1,3 @@
----
-title: "Module 8.1 — Symmetries & Gauge Theory"
-parent: "Phase 8 — Particle Physics & the Standard Model"
-nav_order: 1
----
-
 # Module 8.1 — Symmetries & Gauge Theory ⭐
 **模块 8.1 — 对称性与规范理论 ⭐**
 

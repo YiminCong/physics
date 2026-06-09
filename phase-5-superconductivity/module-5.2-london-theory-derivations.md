@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 5.2: London Theory"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 5.2: London Theory
 # 推导 — 模块 5.2：伦敦理论
 

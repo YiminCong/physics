@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 6.1: Second Quantization & the Many-Body Problem"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 6.1: Second Quantization & the Many-Body Problem
 # 推导 — 模块 6.1：二次量子化与多体问题
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 0.1: Calculus & Taylor Series"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 0.1: Calculus & Taylor Series
 # 推导 — 模块 0.1：微积分与泰勒级数
 

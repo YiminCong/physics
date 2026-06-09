@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.4: Quantum Mechanics in 3D"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.4: Quantum Mechanics in 3D
 # 推导 — 模块 3.4：三维量子力学
 

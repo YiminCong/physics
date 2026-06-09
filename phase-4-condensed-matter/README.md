@@ -1,9 +1,3 @@
----
-title: "Phase 4 — Condensed Matter / Solid State"
-nav_order: 5
-has_children: true
----
-
 # Phase 4 — Condensed Matter / Solid State
 **第 4 阶段 — 凝聚态 / 固体物理**
 

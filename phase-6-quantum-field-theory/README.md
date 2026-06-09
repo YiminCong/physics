@@ -1,9 +1,3 @@
----
-title: "Phase 6 — Quantum Field Theory & Many-Body Physics"
-nav_order: 7
-has_children: true
----
-
 # Phase 6 — Quantum Field Theory & Many-Body Physics
 **第 6 阶段 — 量子场论与多体物理**
 

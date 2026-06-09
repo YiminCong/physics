@@ -1,9 +1,3 @@
----
-title: "Module 6.7 — Exactly Solvable Models & Long-Range Order"
-parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
-nav_order: 7
----
-
 # Module 6.7 — Exactly Solvable Models & Long-Range Order
 **模块 6.7 — 精确可解模型与长程序**
 

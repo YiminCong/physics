@@ -1,9 +1,3 @@
----
-title: "Phase 7 — General Relativity & Cosmology"
-nav_order: 8
-has_children: true
----
-
 # Phase 7 — General Relativity & Cosmology
 **第 7 阶段 — 广义相对论与宇宙学**
 

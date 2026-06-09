@@ -1,9 +1,3 @@
----
-title: "Module 1.5 — Central-Force Problem & Kepler"
-parent: "Phase 1 — Classical Physics"
-nav_order: 5
----
-
 # Module 1.5 — Central-Force Problem & Kepler
 **模块 1.5 — 有心力问题与开普勒定律**
 

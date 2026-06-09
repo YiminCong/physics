@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.16: Mechanical Waves & Acoustics"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.16: Mechanical Waves & Acoustics
 # 推导 — 模块 1.16：机械波与声学
 

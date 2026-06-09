@@ -1,9 +1,3 @@
----
-title: "Module 3.7 — Variational & WKB Methods"
-parent: "Phase 3 — Quantum Mechanics (the core)"
-nav_order: 7
----
-
 # Module 3.7 — Variational & WKB Methods
 **模块 3.7 — 变分法与 WKB 方法**
 

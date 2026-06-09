@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 0.7: Group Theory & Lie Algebras"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 0.7: Group Theory & Lie Algebras
 # 推导 — 模块 0.7：群论与李代数
 

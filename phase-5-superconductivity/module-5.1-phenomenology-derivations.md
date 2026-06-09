@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 5.1: Phenomenology of Superconductivity"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 5.1: Phenomenology of Superconductivity
 # 推导 — 模块 5.1：超导现象学
 

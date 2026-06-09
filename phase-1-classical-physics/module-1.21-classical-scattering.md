@@ -1,9 +1,3 @@
----
-title: "Module 1.21 — Classical Scattering Theory"
-parent: "Phase 1 — Classical Physics"
-nav_order: 21
----
-
 # Module 1.21 — Classical Scattering Theory
 **模块 1.21 — 经典散射理论**
 

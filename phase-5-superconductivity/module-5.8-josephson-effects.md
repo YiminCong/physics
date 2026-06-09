@@ -1,9 +1,3 @@
----
-title: "Module 5.8 — Josephson Effects"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 8
----
-
 # Module 5.8 — Josephson Effects ⭐
 **模块 5.8 — 约瑟夫森效应 ⭐**
 

@@ -1,9 +1,3 @@
----
-title: "Module 3.12 — Symmetry, Identical Particles & Second Quantization"
-parent: "Phase 3 — Quantum Mechanics (the core)"
-nav_order: 12
----
-
 # Module 3.12 — Symmetry, Identical Particles & Second Quantization ⭐⭐
 **模块 3.12 — 对称性、全同粒子与二次量子化 ⭐⭐**
 

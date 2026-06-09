@@ -1,9 +1,3 @@
----
-title: "Module 0.3 — Differential Equations"
-parent: "Phase 0 — Mathematical Foundations"
-nav_order: 3
----
-
 # Module 0.3 — Differential Equations
 **模块 0.3 — 微分方程**
 

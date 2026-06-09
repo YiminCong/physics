@@ -1,9 +1,3 @@
----
-title: "Module 6.2 — Green's Functions & Propagators"
-parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
-nav_order: 2
----
-
 # Module 6.2 — Green's Functions & Propagators ⭐
 **模块 6.2 — 格林函数与传播子 ⭐**
 

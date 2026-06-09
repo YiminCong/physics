@@ -1,9 +1,3 @@
----
-title: "Module 8.2 — Quantum Electrodynamics (QED)"
-parent: "Phase 8 — Particle Physics & the Standard Model"
-nav_order: 2
----
-
 # Module 8.2 — Quantum Electrodynamics (QED) ⭐
 **模块 8.2 — 量子电动力学 ⭐**
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.5: Identical Particles"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.5: Identical Particles
 # 推导 — 模块 3.5：全同粒子
 

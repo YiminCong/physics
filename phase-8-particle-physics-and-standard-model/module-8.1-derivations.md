@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 8.1: Symmetries & Gauge Theory"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 8.1: Symmetries & Gauge Theory
 # 推导 — 模块 8.1：对称性与规范理论
 

@@ -1,9 +1,3 @@
----
-title: "Module 3.8 — Time-Dependent Perturbation Theory & Scattering"
-parent: "Phase 3 — Quantum Mechanics (the core)"
-nav_order: 8
----
-
 # Module 3.8 — Time-Dependent Perturbation Theory & Scattering
 **模块 3.8 — 含时微扰理论与散射**
 

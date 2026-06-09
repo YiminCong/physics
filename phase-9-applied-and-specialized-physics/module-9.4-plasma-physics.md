@@ -1,9 +1,3 @@
----
-title: "Module 9.4 — Plasma Physics"
-parent: "Phase 9 — Applied & Specialized Physics"
-nav_order: 4
----
-
 # Module 9.4 — Plasma Physics
 **模块 9.4 — 等离子体物理**
 
