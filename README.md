@@ -15,9 +15,9 @@ is used later. Modules marked ⭐ are load-bearing for what follows; ⭐⭐ are 
 每篇笔记都遵循统一格式——**定义 → 演示 → 应用**——使你始终清楚一个概念*是什么*、在具体例子上*如何运作*，以及*在何处*被后续使用。标记 ⭐ 的模块是后续内容的重要支柱；⭐⭐ 则是关键枢纽。
 
 The curriculum is organized into **11 phases**, each a directory; each **module** is its own
-file. There are **110 modules** in total.
+file. There are **114 modules** in total.
 
-课程组织为 **11 个阶段**，每个阶段对应一个目录；每个**模块**是单独的文件。总共有 **110 个模块**。
+课程组织为 **11 个阶段**，每个阶段对应一个目录；每个**模块**是单独的文件。总共有 **114 个模块**。
 
 ---
 

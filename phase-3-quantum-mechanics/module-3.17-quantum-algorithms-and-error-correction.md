@@ -118,4 +118,4 @@ The inner code protects against X (bit-flip) errors; the outer code protects aga
 
 ---
 
-← Previous: [Module 3.16 — Quantum Computation & Information](./module-3.16-quantum-computation-and-information.md) · [Phase 3 index](./README.md)
+← Previous: [Module 3.16 — Quantum Computation & Information](./module-3.16-quantum-computation-and-information.md) · [Phase 3 index](./README.md) · Next: [Module 3.18 — Quantum Scattering Theory](./module-3.18-quantum-scattering-theory.md) →

@@ -20,6 +20,9 @@ Phases 1–3 (Classical Mechanics, Electromagnetism, Quantum Mechanics) are the 
 | 9.3 | [Nuclear Physics](./module-9.3-nuclear-physics.md) · 核物理 |
 | 9.4 | [Plasma Physics](./module-9.4-plasma-physics.md) · 等离子体物理 |
 | 9.5 | [Nuclear Reactions & Astrophysics](./module-9.5-nuclear-reactions-and-astrophysics.md) · 核反应与天体物理 |
+| 9.6 | [Quantum Optics & Laser Physics](./module-9.6-quantum-optics-and-lasers.md) · 量子光学与激光物理 |
+| 9.7 | [Atoms in External Fields & Precision Spectroscopy](./module-9.7-atoms-in-external-fields.md) · 外场中的原子与精密光谱学 |
+| 9.8 | [Stellar Structure & Compact Objects](./module-9.8-stellar-structure-and-compact-objects.md) · 恒星结构与致密天体 |
 
 ## Phase 9 Checkpoint (blank page)
 
