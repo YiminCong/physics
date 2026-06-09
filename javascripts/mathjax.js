@@ -1,8 +1,9 @@
-// MathJax 3 config for MkDocs Material + pymdownx.arithmatex (generic mode)
+// MathJax 3 config for MkDocs Material + pymdownx.arithmatex (generic mode).
+// arithmatex emits \( \) inline and \[ \] display inside .arithmatex spans/divs.
 window.MathJax = {
   tex: {
-    inlineMath: [["$", "$"], ["\\(", "\\)"]],
-    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    inlineMath: [["\\(", "\\)"], ["$", "$"]],
+    displayMath: [["\\[", "\\]"], ["$$", "$$"]],
     processEscapes: true,
     processEnvironments: true
   },
@@ -12,12 +13,9 @@ window.MathJax = {
   }
 };
 
-// Re-typeset on Material's instant (SPA-style) navigation
+// Re-typeset after Material's instant navigation swaps page content.
+// (Plain typesetPromise() is idempotent and safe; do NOT call typesetClear()
+//  or reset document state here — that blanks the math on first load.)
 document$.subscribe(() => {
-  if (window.MathJax && MathJax.typesetPromise) {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typesetClear();
-    MathJax.typesetPromise();
-  }
+  MathJax.typesetPromise();
 });
