@@ -34,9 +34,9 @@
 
 **演示。** 对于 $G = SU(2)$，有三个生成元 $T^a = \sigma^a/2$（泡利矩阵）和三个规范场 $W_\mu^a$。场强中出现对易子项 $[A_\mu, A_\nu] \propto \varepsilon^{abc}W_\mu^b W_\nu^c$。所得的运动方程是非线性的：$\partial^\nu F_{\mu\nu}^a + gf^{abc}A^{\nu b} F_{\mu\nu}^c = j_\mu^a$。即使在真空中（$j_\mu = 0$），方程也是非平凡的；它们存在阿贝尔理论中没有的拓扑解（瞬子）。
 
-**Application.** Yang–Mills theory underpins both QCD (SU(3)) and the electroweak sector (SU(2)×U(1)). The self-coupling of gluons is responsible for confinement and for the bulk of visible mass via the QCD vacuum energy. The same mathematical framework describes every force except gravity — and even gravity has a gauge-theory interpretation (diffeomorphism invariance), connecting back to Phase 7.
+**Application.** Yang–Mills theory underpins both QCD ($SU(3)$) and the electroweak sector ($SU(2)\times U(1)$). The self-coupling of gluons is responsible for confinement and for the bulk of visible mass via the QCD vacuum energy. The same mathematical framework describes every force except gravity — and even gravity has a gauge-theory interpretation (diffeomorphism invariance), connecting back to Phase 7.
 
-**应用。** 杨–米尔斯理论是量子色动力学（SU(3)）和电弱理论（SU(2)×U(1)）的基础。胶子的自耦合通过量子色动力学真空能负责夸克禁闭和可见质量的主要来源。同样的数学框架描述了除引力之外的所有力——甚至引力也有规范理论的诠释（微分同胚不变性），从而与第 7 阶段相联系。
+**应用。** 杨–米尔斯理论是量子色动力学（$SU(3)$）和电弱理论（$SU(2)\times U(1)$）的基础。胶子的自耦合通过量子色动力学真空能负责夸克禁闭和可见质量的主要来源。同样的数学框架描述了除引力之外的所有力——甚至引力也有规范理论的诠释（微分同胚不变性），从而与第 7 阶段相联系。
 
 ---
 
