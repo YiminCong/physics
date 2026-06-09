@@ -9,224 +9,218 @@
 
 ---
 
-## A. Canonical Commutator: [x̂, p̂] = iℏ · 正则对易子：[x̂, p̂] = iℏ
+## A. Canonical Commutator: $[\hat{x}, \hat{p}] = i\hbar$ · 正则对易子：$[\hat{x}, \hat{p}] = i\hbar$
 
-**Claim.** The operators x̂ (multiply by x) and p̂ = −iℏ ∂/∂x satisfy [x̂, p̂] = iℏ.
+**Claim.** The operators $\hat{x}$ (multiply by $x$) and $\hat{p} = -i\hbar\,\partial/\partial x$ satisfy $[\hat{x}, \hat{p}] = i\hbar$.
 
-**命题。** 算符 x̂（乘以 x）与 p̂ = −iℏ ∂/∂x 满足 [x̂, p̂] = iℏ。
+**命题。** 算符 $\hat{x}$（乘以 $x$）与 $\hat{p} = -i\hbar\,\partial/\partial x$ 满足 $[\hat{x}, \hat{p}] = i\hbar$。
 
-**Step 1 — Definition of the commutator.** [x̂, p̂] is the operator defined by its action on an arbitrary test function f(x):
+**Step 1 — Definition of the commutator.** $[\hat{x}, \hat{p}]$ is the operator defined by its action on an arbitrary test function $f(x)$:
 
-**第 1 步 — 对易子的定义。** [x̂, p̂] 是通过其对任意测试函数 f(x) 的作用来定义的算符：
+**第 1 步 — 对易子的定义。** $[\hat{x}, \hat{p}]$ 是通过其对任意测试函数 $f(x)$ 的作用来定义的算符：
 
-  [x̂, p̂] f(x) = x̂(p̂ f) − p̂(x̂ f).
+$$ [\hat{x}, \hat{p}]\,f(x) = \hat{x}(\hat{p}\,f) - \hat{p}(\hat{x}\,f). $$
 
 **Step 2 — Compute each term.**
 
 **第 2 步 — 计算每一项。**
 
-  p̂ f = −iℏ ∂f/∂x = −iℏ f′,
+$$ \hat{p}\,f = -i\hbar\,\partial f/\partial x = -i\hbar\,f', \qquad \hat{x}(\hat{p}\,f) = x\cdot(-i\hbar\,f') = -i\hbar\,x f'. $$
 
-  x̂(p̂ f) = x · (−iℏ f′) = −iℏ x f′.
-
-  x̂ f = x f,
-
-  p̂(x̂ f) = −iℏ ∂(xf)/∂x = −iℏ (f + x f′) = −iℏ f − iℏ x f′.
+$$ \hat{x}\,f = x f, \qquad \hat{p}(\hat{x}\,f) = -i\hbar\,\partial(xf)/\partial x = -i\hbar\,(f + x f') = -i\hbar\,f - i\hbar\,x f'. $$
 
 **Step 3 — Subtract.**
 
 **第 3 步 — 相减。**
 
-  [x̂, p̂] f = (−iℏ x f′) − (−iℏ f − iℏ x f′)
-             = −iℏ x f′ + iℏ f + iℏ x f′
-             = iℏ f.
+$$ \begin{aligned} [\hat{x}, \hat{p}]\,f &= (-i\hbar\,x f') - (-i\hbar\,f - i\hbar\,x f') \\ &= -i\hbar\,x f' + i\hbar\,f + i\hbar\,x f' \\ &= i\hbar\,f. \end{aligned} $$
 
-Since this holds for all f, [x̂, p̂] = iℏ as an operator identity. ∎
+Since this holds for all $f$, $[\hat{x}, \hat{p}] = i\hbar$ as an operator identity. $\blacksquare$
 
-由于对所有 f 成立，作为算符恒等式 [x̂, p̂] = iℏ。∎
+由于对所有 $f$ 成立，作为算符恒等式 $[\hat{x}, \hat{p}] = i\hbar$。$\blacksquare$
 
 ---
 
 ## B. Hermitian Operators: Real Eigenvalues and Orthogonal Eigenstates · 厄米算符：实本征值与正交本征态
 
-**Claim.** If  is Hermitian (⟨φ|Âψ⟩ = ⟨Âφ|ψ⟩ for all φ, ψ in the domain), then (i) all eigenvalues of  are real, and (ii) eigenstates corresponding to distinct eigenvalues are orthogonal.
+**Claim.** If $\hat{A}$ is Hermitian ($\langle\varphi|\hat{A}\psi\rangle = \langle\hat{A}\varphi|\psi\rangle$ for all $\varphi, \psi$ in the domain), then (i) all eigenvalues of $\hat{A}$ are real, and (ii) eigenstates corresponding to distinct eigenvalues are orthogonal.
 
-**命题。** 若 Â 是厄米的（对定义域内所有 φ、ψ 有 ⟨φ|Âψ⟩ = ⟨Âφ|ψ⟩），则 (i) Â 的所有本征值为实数，(ii) 对应不同本征值的本征态互相正交。
+**命题。** 若 $\hat{A}$ 是厄米的（对定义域内所有 $\varphi$、$\psi$ 有 $\langle\varphi|\hat{A}\psi\rangle = \langle\hat{A}\varphi|\psi\rangle$），则 (i) $\hat{A}$ 的所有本征值为实数，(ii) 对应不同本征值的本征态互相正交。
 
-**Step 1 — Reality of eigenvalues.** Let Â|a⟩ = a|a⟩ with |a⟩ ≠ 0. Compute ⟨a|Â|a⟩ two ways. First:
+**Step 1 — Reality of eigenvalues.** Let $\hat{A}|a\rangle = a|a\rangle$ with $|a\rangle \ne 0$. Compute $\langle a|\hat{A}|a\rangle$ two ways. First:
 
-**第 1 步 — 本征值的实性。** 设 Â|a⟩ = a|a⟩，|a⟩ ≠ 0。用两种方法计算 ⟨a|Â|a⟩。首先：
+**第 1 步 — 本征值的实性。** 设 $\hat{A}|a\rangle = a|a\rangle$，$|a\rangle \ne 0$。用两种方法计算 $\langle a|\hat{A}|a\rangle$。首先：
 
-  ⟨a|Â|a⟩ = ⟨a|(a|a⟩) = a⟨a|a⟩.
+$$ \langle a|\hat{A}|a\rangle = \langle a|(a|a\rangle) = a\langle a|a\rangle. $$
 
-Second, using Hermiticity ⟨a|Â = ⟨Â†a| = ⟨Âa| = a*⟨a|:
+Second, using Hermiticity $\langle a|\hat{A} = \langle\hat{A}^\dagger a| = \langle\hat{A}a| = a^*\langle a|$:
 
-其次，利用厄米性 ⟨a|Â = ⟨Â†a| = ⟨Âa| = a*⟨a|：
+其次，利用厄米性 $\langle a|\hat{A} = \langle\hat{A}^\dagger a| = \langle\hat{A}a| = a^*\langle a|$：
 
-  ⟨a|Â|a⟩ = (⟨a|Â†)|a⟩ = a*⟨a|a⟩.
+$$ \langle a|\hat{A}|a\rangle = (\langle a|\hat{A}^\dagger)|a\rangle = a^*\langle a|a\rangle. $$
 
-Equating: a⟨a|a⟩ = a*⟨a|a⟩. Since |a⟩ ≠ 0, we have ⟨a|a⟩ > 0, so:
+Equating: $a\langle a|a\rangle = a^*\langle a|a\rangle$. Since $|a\rangle \ne 0$, we have $\langle a|a\rangle > 0$, so:
 
-令二者相等：a⟨a|a⟩ = a*⟨a|a⟩。因 |a⟩ ≠ 0，⟨a|a⟩ > 0，故：
+令二者相等：$a\langle a|a\rangle = a^*\langle a|a\rangle$。因 $|a\rangle \ne 0$，$\langle a|a\rangle > 0$，故：
 
-  **a = a***, i.e., a is real. ∎
+$$ a = a^*, \quad \text{i.e., } a \text{ is real.} \qquad \blacksquare $$
 
-**Step 2 — Orthogonality of eigenstates.** Let Â|a⟩ = a|a⟩ and Â|b⟩ = b|b⟩ with a ≠ b (both real by Step 1). Consider the inner product ⟨a|Â|b⟩:
+**Step 2 — Orthogonality of eigenstates.** Let $\hat{A}|a\rangle = a|a\rangle$ and $\hat{A}|b\rangle = b|b\rangle$ with $a \ne b$ (both real by Step 1). Consider the inner product $\langle a|\hat{A}|b\rangle$:
 
-**第 2 步 — 本征态的正交性。** 设 Â|a⟩ = a|a⟩ 且 Â|b⟩ = b|b⟩，a ≠ b（由第 1 步均为实数）。考虑内积 ⟨a|Â|b⟩：
+**第 2 步 — 本征态的正交性。** 设 $\hat{A}|a\rangle = a|a\rangle$ 且 $\hat{A}|b\rangle = b|b\rangle$，$a \ne b$（由第 1 步均为实数）。考虑内积 $\langle a|\hat{A}|b\rangle$：
 
-From the right: ⟨a|Â|b⟩ = ⟨a|(b|b⟩) = b⟨a|b⟩.
+From the right: $\langle a|\hat{A}|b\rangle = \langle a|(b|b\rangle) = b\langle a|b\rangle$.
 
-从右边：⟨a|Â|b⟩ = ⟨a|(b|b⟩) = b⟨a|b⟩。
+从右边：$\langle a|\hat{A}|b\rangle = \langle a|(b|b\rangle) = b\langle a|b\rangle$。
 
-From the left (using Hermiticity): ⟨a|Â|b⟩ = ⟨Âa|b⟩ = ⟨a|a⟩* ⟨a|b⟩ = a*⟨a|b⟩ = a⟨a|b⟩.
+From the left (using Hermiticity): $\langle a|\hat{A}|b\rangle = \langle\hat{A}a|b\rangle = a^*\langle a|b\rangle = a\langle a|b\rangle$.
 
-从左边（利用厄米性）：⟨a|Â|b⟩ = ⟨Âa|b⟩ = a*⟨a|b⟩ = a⟨a|b⟩（因 a 为实数）。
+从左边（利用厄米性）：$\langle a|\hat{A}|b\rangle = \langle\hat{A}a|b\rangle = a^*\langle a|b\rangle = a\langle a|b\rangle$（因 $a$ 为实数）。
 
-Equating: b⟨a|b⟩ = a⟨a|b⟩, so (a − b)⟨a|b⟩ = 0. Since a ≠ b:
+Equating: $b\langle a|b\rangle = a\langle a|b\rangle$, so $(a - b)\langle a|b\rangle = 0$. Since $a \ne b$:
 
-令二者相等：b⟨a|b⟩ = a⟨a|b⟩，故 (a − b)⟨a|b⟩ = 0。因 a ≠ b：
+令二者相等：$b\langle a|b\rangle = a\langle a|b\rangle$，故 $(a - b)\langle a|b\rangle = 0$。因 $a \ne b$：
 
-  **⟨a|b⟩ = 0** — the eigenstates are orthogonal. ∎
+$$ \langle a|b\rangle = 0 \quad \text{— the eigenstates are orthogonal.} \qquad \blacksquare $$
 
-  **⟨a|b⟩ = 0** ——本征态互相正交。∎
-
----
-
-## C. Spectral Expansion: |ψ⟩ = Σcₙ|n⟩ with cₙ = ⟨n|ψ⟩ · 谱展开：|ψ⟩ = Σcₙ|n⟩ 与 cₙ = ⟨n|ψ⟩
-
-**Claim.** If {|n⟩} is a complete orthonormal basis of the Hilbert space (∑ₙ|n⟩⟨n| = 1̂, ⟨m|n⟩ = δ_{mn}), then any state |ψ⟩ can be expanded as |ψ⟩ = Σₙ cₙ|n⟩ with cₙ = ⟨n|ψ⟩, and Σₙ|cₙ|² = 1 (normalization).
-
-**命题。** 若 {|n⟩} 是希尔伯特空间的完备正交归一基（∑ₙ|n⟩⟨n| = 1̂，⟨m|n⟩ = δ_{mn}），则任意态 |ψ⟩ 可展开为 |ψ⟩ = Σₙ cₙ|n⟩，其中 cₙ = ⟨n|ψ⟩，且 Σₙ|cₙ|² = 1（归一化）。
-
-**Step 1 — Insert the resolution of the identity.** The completeness relation Σₙ|n⟩⟨n| = 1̂ means that for any |ψ⟩:
-
-**第 1 步 — 插入单位分解。** 完备性关系 Σₙ|n⟩⟨n| = 1̂ 意味着对任意 |ψ⟩：
-
-  |ψ⟩ = 1̂|ψ⟩ = (Σₙ|n⟩⟨n|)|ψ⟩ = Σₙ|n⟩⟨n|ψ⟩ = Σₙ cₙ|n⟩,
-
-where **cₙ = ⟨n|ψ⟩**.
-
-其中 **cₙ = ⟨n|ψ⟩**。
-
-**Step 2 — Normalization.** Take ⟨ψ|ψ⟩ = 1:
-
-**第 2 步 — 归一化。** 取 ⟨ψ|ψ⟩ = 1：
-
-  1 = ⟨ψ|ψ⟩ = ⟨ψ|(Σₙ cₙ|n⟩) = Σₙ cₙ ⟨ψ|n⟩ = Σₙ cₙ c*ₙ = **Σₙ|cₙ|²**. ∎
-
-**Step 3 — Probability interpretation.** When the observable  with eigenvalues aₙ and eigenstates |n⟩ is measured, the probability of obtaining aₙ is:
-
-**第 3 步 — 概率诠释。** 当测量本征值为 aₙ、本征态为 |n⟩ 的可观测量 Â 时，得到 aₙ 的概率为：
-
-  P(aₙ) = |⟨n|ψ⟩|² = |cₙ|².
-
-Completeness ensures Σₙ P(aₙ) = 1 — some outcome always occurs. ∎
-
-完备性确保 Σₙ P(aₙ) = 1——某个结果必然发生。∎
+$$ \langle a|b\rangle = 0 \quad \text{——本征态互相正交。} \qquad \blacksquare $$
 
 ---
 
-## D. Generalized Uncertainty Principle: ΔAΔB ≥ ½|⟨[Â,B̂]⟩| · 广义不确定性关系
+## C. Spectral Expansion: $|\psi\rangle = \sum c_n|n\rangle$ with $c_n = \langle n|\psi\rangle$ · 谱展开：$|\psi\rangle = \sum c_n|n\rangle$ 与 $c_n = \langle n|\psi\rangle$
 
-**Claim.** For any two Hermitian observables Â and B̂ in state |ψ⟩:
+**Claim.** If $\{|n\rangle\}$ is a complete orthonormal basis of the Hilbert space ($\sum_n|n\rangle\langle n| = \hat{1}$, $\langle m|n\rangle = \delta_{mn}$), then any state $|\psi\rangle$ can be expanded as $|\psi\rangle = \sum_n c_n|n\rangle$ with $c_n = \langle n|\psi\rangle$, and $\sum_n|c_n|^2 = 1$ (normalization).
 
-**命题。** 对任意态 |ψ⟩ 中的两个厄米可观测量 Â 和 B̂：
+**命题。** 若 $\{|n\rangle\}$ 是希尔伯特空间的完备正交归一基（$\sum_n|n\rangle\langle n| = \hat{1}$，$\langle m|n\rangle = \delta_{mn}$），则任意态 $|\psi\rangle$ 可展开为 $|\psi\rangle = \sum_n c_n|n\rangle$，其中 $c_n = \langle n|\psi\rangle$，且 $\sum_n|c_n|^2 = 1$（归一化）。
 
-  **ΔAΔB ≥ ½|⟨[Â, B̂]⟩|**.
+**Step 1 — Insert the resolution of the identity.** The completeness relation $\sum_n|n\rangle\langle n| = \hat{1}$ means that for any $|\psi\rangle$:
 
-**Step 1 — Define shifted operators.** Let α = ⟨Â⟩ and β = ⟨B̂⟩. Define:
+**第 1 步 — 插入单位分解。** 完备性关系 $\sum_n|n\rangle\langle n| = \hat{1}$ 意味着对任意 $|\psi\rangle$：
 
-**第 1 步 — 定义移位算符。** 令 α = ⟨Â⟩，β = ⟨B̂⟩。定义：
+$$ |\psi\rangle = \hat{1}|\psi\rangle = \Big(\sum_n|n\rangle\langle n|\Big)|\psi\rangle = \sum_n|n\rangle\langle n|\psi\rangle = \sum_n c_n|n\rangle, $$
 
-  Ã = Â − α,   B̃ = B̂ − β.
+where $c_n = \langle n|\psi\rangle$.
 
-Both Ã and B̃ are Hermitian (subtracting a real number from a Hermitian operator preserves Hermiticity). Also:
+其中 $c_n = \langle n|\psi\rangle$。
 
-Ã 和 B̃ 均为厄米的（从厄米算符减去实数保持厄米性）。还有：
+**Step 2 — Normalization.** Take $\langle\psi|\psi\rangle = 1$:
 
-  ΔA² = ⟨Ã²⟩ = ⟨ψ|Ã²|ψ⟩ = ‖Ã|ψ⟩‖²,   ΔB² = ⟨B̃²⟩ = ‖B̃|ψ⟩‖².
+**第 2 步 — 归一化。** 取 $\langle\psi|\psi\rangle = 1$：
 
-Note also [Ã, B̃] = [Â, B̂] (constants commute with everything).
+$$ 1 = \langle\psi|\psi\rangle = \langle\psi|\Big(\sum_n c_n|n\rangle\Big) = \sum_n c_n\langle\psi|n\rangle = \sum_n c_n c_n^* = \boxed{\,\sum_n|c_n|^2\,}. \qquad \blacksquare $$
 
-注意 [Ã, B̃] = [Â, B̂]（常数与所有算符对易）。
+**Step 3 — Probability interpretation.** When the observable $\hat{A}$ with eigenvalues $a_n$ and eigenstates $|n\rangle$ is measured, the probability of obtaining $a_n$ is:
 
-**Step 2 — Apply the Cauchy–Schwarz inequality.** For any two vectors |f⟩ and |g⟩ in a Hilbert space, the Cauchy–Schwarz inequality states:
+**第 3 步 — 概率诠释。** 当测量本征值为 $a_n$、本征态为 $|n\rangle$ 的可观测量 $\hat{A}$ 时，得到 $a_n$ 的概率为：
 
-**第 2 步 — 应用柯西–施瓦茨不等式。** 对希尔伯特空间中任意两个向量 |f⟩ 和 |g⟩，柯西–施瓦茨不等式表明：
+$$ P(a_n) = |\langle n|\psi\rangle|^2 = |c_n|^2. $$
 
-  ⟨f|f⟩ · ⟨g|g⟩ ≥ |⟨f|g⟩|².
+Completeness ensures $\sum_n P(a_n) = 1$ — some outcome always occurs. $\blacksquare$
 
-Set |f⟩ = Ã|ψ⟩ and |g⟩ = B̃|ψ⟩. Then:
-
-取 |f⟩ = Ã|ψ⟩，|g⟩ = B̃|ψ⟩。则：
-
-  ‖Ã|ψ⟩‖² · ‖B̃|ψ⟩‖² ≥ |⟨Ã ψ|B̃ ψ⟩|²,
-
-  ΔA² · ΔB² ≥ |⟨ψ|Ã B̃|ψ⟩|².    … (*)
-
-**Step 3 — Decompose Ã B̃ into Hermitian and anti-Hermitian parts.** Write:
-
-**第 3 步 — 将 Ã B̃ 分解为厄米与反厄米部分。** 写成：
-
-  ÃB̃ = ½(ÃB̃ + B̃Ã) + ½(ÃB̃ − B̃Ã).
-
-The first part is the **anticommutator** {Ã, B̃}/2 — a Hermitian operator (its expectation is real). The second part involves the **commutator** [Ã, B̃]/2 = [Â, B̂]/2. Since Ã and B̃ are Hermitian, [Ã, B̃] is anti-Hermitian (satisfies ([Ã,B̃])† = [B̃†,Ã†] = [B̃,Ã] = −[Ã,B̃]), so its expectation value is purely imaginary (or zero).
-
-第一部分是**反对易子** {Ã, B̃}/2——厄米算符（其期望值为实数）。第二部分涉及**对易子** [Ã, B̃]/2 = [Â, B̂]/2。由于 Ã 和 B̃ 是厄米的，[Ã, B̃] 是反厄米的（满足 ([Ã,B̃])† = [B̃†,Ã†] = [B̃,Ã] = −[Ã,B̃]），故其期望值为纯虚数（或零）。
-
-Therefore ⟨ÃB̃⟩ = (real part) + i(imaginary part), and:
-
-因此 ⟨ÃB̃⟩ = (实部) + i(虚部)，且：
-
-  |⟨ÃB̃⟩|² = |Re⟨ÃB̃⟩|² + |Im⟨ÃB̃⟩|² ≥ |Im⟨ÃB̃⟩|².
-
-Now Im⟨ÃB̃⟩ = Im[½⟨{Ã,B̃}⟩ + ½⟨[Â,B̂]⟩]. The anticommutator term is real, so it contributes nothing to the imaginary part:
-
-现在 Im⟨ÃB̃⟩ = Im[½⟨{Ã,B̃}⟩ + ½⟨[Â,B̂]⟩]。反对易子项为实数，对虚部无贡献：
-
-  Im⟨ÃB̃⟩ = ½ Im⟨[Â,B̂]⟩.
-
-But [Â,B̂] is anti-Hermitian, so ⟨[Â,B̂]⟩ is purely imaginary: ⟨[Â,B̂]⟩ = i·K for some real K. Therefore Im⟨ÃB̃⟩ = K/2, and:
-
-但 [Â,B̂] 是反厄米的，故 ⟨[Â,B̂]⟩ 为纯虚数：⟨[Â,B̂]⟩ = i·K，K 为实数。因此 Im⟨ÃB̃⟩ = K/2，且：
-
-  |⟨ÃB̃⟩|² ≥ (K/2)² = ¼|⟨[Â,B̂]⟩|².
-
-**Step 4 — Assemble the inequality.** Substituting back into (*):
-
-**第 4 步 — 组合不等式。** 代回 (*)：
-
-  ΔA² · ΔB² ≥ ¼|⟨[Â,B̂]⟩|².
-
-Taking the positive square root (ΔA, ΔB ≥ 0):
-
-取正平方根（ΔA、ΔB ≥ 0）：
-
-  **ΔA · ΔB ≥ ½|⟨[Â,B̂]⟩|**. ∎
+完备性确保 $\sum_n P(a_n) = 1$——某个结果必然发生。$\blacksquare$
 
 ---
 
-## E. Position–Momentum Uncertainty: Δx·Δp ≥ ℏ/2 · 位置–动量不确定性
+## D. Generalized Uncertainty Principle: $\Delta A\,\Delta B \ge \tfrac12|\langle[\hat{A},\hat{B}]\rangle|$ · 广义不确定性关系
 
-**Claim.** For x̂ and p̂, the generalized uncertainty relation gives Δx·Δp ≥ ℏ/2.
+**Claim.** For any two Hermitian observables $\hat{A}$ and $\hat{B}$ in state $|\psi\rangle$:
 
-**命题。** 对 x̂ 和 p̂，广义不确定性关系给出 Δx·Δp ≥ ℏ/2。
+**命题。** 对任意态 $|\psi\rangle$ 中的两个厄米可观测量 $\hat{A}$ 和 $\hat{B}$：
 
-**Step 1.** From Section A, [x̂, p̂] = iℏ.
+$$ \boxed{\,\Delta A\,\Delta B \ge \tfrac12|\langle[\hat{A}, \hat{B}]\rangle|\,}. $$
 
-**第 1 步。** 由第 A 节，[x̂, p̂] = iℏ。
+**Step 1 — Define shifted operators.** Let $\alpha = \langle\hat{A}\rangle$ and $\beta = \langle\hat{B}\rangle$. Define:
 
-**Step 2.** ⟨[x̂, p̂]⟩ = ⟨iℏ⟩ = iℏ (since iℏ is a scalar, its expectation value in any state is iℏ).
+**第 1 步 — 定义移位算符。** 令 $\alpha = \langle\hat{A}\rangle$，$\beta = \langle\hat{B}\rangle$。定义：
 
-**第 2 步。** ⟨[x̂, p̂]⟩ = ⟨iℏ⟩ = iℏ（因为 iℏ 是标量，在任何态中其期望值均为 iℏ）。
+$$ \tilde{A} = \hat{A} - \alpha, \qquad \tilde{B} = \hat{B} - \beta. $$
+
+Both $\tilde{A}$ and $\tilde{B}$ are Hermitian (subtracting a real number from a Hermitian operator preserves Hermiticity). Also:
+
+$\tilde{A}$ 和 $\tilde{B}$ 均为厄米的（从厄米算符减去实数保持厄米性）。还有：
+
+$$ \Delta A^2 = \langle\tilde{A}^2\rangle = \langle\psi|\tilde{A}^2|\psi\rangle = \|\tilde{A}|\psi\rangle\|^2, \qquad \Delta B^2 = \langle\tilde{B}^2\rangle = \|\tilde{B}|\psi\rangle\|^2. $$
+
+Note also $[\tilde{A}, \tilde{B}] = [\hat{A}, \hat{B}]$ (constants commute with everything).
+
+注意 $[\tilde{A}, \tilde{B}] = [\hat{A}, \hat{B}]$（常数与所有算符对易）。
+
+**Step 2 — Apply the Cauchy–Schwarz inequality.** For any two vectors $|f\rangle$ and $|g\rangle$ in a Hilbert space, the Cauchy–Schwarz inequality states:
+
+**第 2 步 — 应用柯西–施瓦茨不等式。** 对希尔伯特空间中任意两个向量 $|f\rangle$ 和 $|g\rangle$，柯西–施瓦茨不等式表明：
+
+$$ \langle f|f\rangle\cdot\langle g|g\rangle \ge |\langle f|g\rangle|^2. $$
+
+Set $|f\rangle = \tilde{A}|\psi\rangle$ and $|g\rangle = \tilde{B}|\psi\rangle$. Then:
+
+取 $|f\rangle = \tilde{A}|\psi\rangle$，$|g\rangle = \tilde{B}|\psi\rangle$。则：
+
+$$ \|\tilde{A}|\psi\rangle\|^2\cdot\|\tilde{B}|\psi\rangle\|^2 \ge |\langle\tilde{A}\psi|\tilde{B}\psi\rangle|^2, $$
+
+$$ \Delta A^2\cdot\Delta B^2 \ge |\langle\psi|\tilde{A}\tilde{B}|\psi\rangle|^2. \qquad (*) $$
+
+**Step 3 — Decompose $\tilde{A}\tilde{B}$ into Hermitian and anti-Hermitian parts.** Write:
+
+**第 3 步 — 将 $\tilde{A}\tilde{B}$ 分解为厄米与反厄米部分。** 写成：
+
+$$ \tilde{A}\tilde{B} = \tfrac12(\tilde{A}\tilde{B} + \tilde{B}\tilde{A}) + \tfrac12(\tilde{A}\tilde{B} - \tilde{B}\tilde{A}). $$
+
+The first part is the **anticommutator** $\{\tilde{A}, \tilde{B}\}/2$ — a Hermitian operator (its expectation is real). The second part involves the **commutator** $[\tilde{A}, \tilde{B}]/2 = [\hat{A}, \hat{B}]/2$. Since $\tilde{A}$ and $\tilde{B}$ are Hermitian, $[\tilde{A}, \tilde{B}]$ is anti-Hermitian (satisfies $([\tilde{A},\tilde{B}])^\dagger = [\tilde{B}^\dagger,\tilde{A}^\dagger] = [\tilde{B},\tilde{A}] = -[\tilde{A},\tilde{B}]$), so its expectation value is purely imaginary (or zero).
+
+第一部分是**反对易子** $\{\tilde{A}, \tilde{B}\}/2$——厄米算符（其期望值为实数）。第二部分涉及**对易子** $[\tilde{A}, \tilde{B}]/2 = [\hat{A}, \hat{B}]/2$。由于 $\tilde{A}$ 和 $\tilde{B}$ 是厄米的，$[\tilde{A}, \tilde{B}]$ 是反厄米的（满足 $([\tilde{A},\tilde{B}])^\dagger = [\tilde{B}^\dagger,\tilde{A}^\dagger] = [\tilde{B},\tilde{A}] = -[\tilde{A},\tilde{B}]$），故其期望值为纯虚数（或零）。
+
+Therefore $\langle\tilde{A}\tilde{B}\rangle = (\text{real part}) + i(\text{imaginary part})$, and:
+
+因此 $\langle\tilde{A}\tilde{B}\rangle = (\text{实部}) + i(\text{虚部})$，且：
+
+$$ |\langle\tilde{A}\tilde{B}\rangle|^2 = |\mathrm{Re}\langle\tilde{A}\tilde{B}\rangle|^2 + |\mathrm{Im}\langle\tilde{A}\tilde{B}\rangle|^2 \ge |\mathrm{Im}\langle\tilde{A}\tilde{B}\rangle|^2. $$
+
+Now $\mathrm{Im}\langle\tilde{A}\tilde{B}\rangle = \mathrm{Im}[\tfrac12\langle\{\tilde{A},\tilde{B}\}\rangle + \tfrac12\langle[\hat{A},\hat{B}]\rangle]$. The anticommutator term is real, so it contributes nothing to the imaginary part:
+
+现在 $\mathrm{Im}\langle\tilde{A}\tilde{B}\rangle = \mathrm{Im}[\tfrac12\langle\{\tilde{A},\tilde{B}\}\rangle + \tfrac12\langle[\hat{A},\hat{B}]\rangle]$。反对易子项为实数，对虚部无贡献：
+
+$$ \mathrm{Im}\langle\tilde{A}\tilde{B}\rangle = \tfrac12\,\mathrm{Im}\langle[\hat{A},\hat{B}]\rangle. $$
+
+But $[\hat{A},\hat{B}]$ is anti-Hermitian, so $\langle[\hat{A},\hat{B}]\rangle$ is purely imaginary: $\langle[\hat{A},\hat{B}]\rangle = i\cdot K$ for some real $K$. Therefore $\mathrm{Im}\langle\tilde{A}\tilde{B}\rangle = K/2$, and:
+
+但 $[\hat{A},\hat{B}]$ 是反厄米的，故 $\langle[\hat{A},\hat{B}]\rangle$ 为纯虚数：$\langle[\hat{A},\hat{B}]\rangle = i\cdot K$，$K$ 为实数。因此 $\mathrm{Im}\langle\tilde{A}\tilde{B}\rangle = K/2$，且：
+
+$$ |\langle\tilde{A}\tilde{B}\rangle|^2 \ge (K/2)^2 = \tfrac14|\langle[\hat{A},\hat{B}]\rangle|^2. $$
+
+**Step 4 — Assemble the inequality.** Substituting back into $(*)$:
+
+**第 4 步 — 组合不等式。** 代回 $(*)$：
+
+$$ \Delta A^2\cdot\Delta B^2 \ge \tfrac14|\langle[\hat{A},\hat{B}]\rangle|^2. $$
+
+Taking the positive square root ($\Delta A, \Delta B \ge 0$):
+
+取正平方根（$\Delta A$、$\Delta B \ge 0$）：
+
+$$ \boxed{\,\Delta A\cdot\Delta B \ge \tfrac12|\langle[\hat{A},\hat{B}]\rangle|\,}. \qquad \blacksquare $$
+
+---
+
+## E. Position–Momentum Uncertainty: $\Delta x\cdot\Delta p \ge \hbar/2$ · 位置–动量不确定性
+
+**Claim.** For $\hat{x}$ and $\hat{p}$, the generalized uncertainty relation gives $\Delta x\cdot\Delta p \ge \hbar/2$.
+
+**命题。** 对 $\hat{x}$ 和 $\hat{p}$，广义不确定性关系给出 $\Delta x\cdot\Delta p \ge \hbar/2$。
+
+**Step 1.** From Section A, $[\hat{x}, \hat{p}] = i\hbar$.
+
+**第 1 步。** 由第 A 节，$[\hat{x}, \hat{p}] = i\hbar$。
+
+**Step 2.** $\langle[\hat{x}, \hat{p}]\rangle = \langle i\hbar\rangle = i\hbar$ (since $i\hbar$ is a scalar, its expectation value in any state is $i\hbar$).
+
+**第 2 步。** $\langle[\hat{x}, \hat{p}]\rangle = \langle i\hbar\rangle = i\hbar$（因为 $i\hbar$ 是标量，在任何态中其期望值均为 $i\hbar$）。
 
 **Step 3.** Apply the generalized uncertainty relation:
 
 **第 3 步。** 应用广义不确定性关系：
 
-  Δx · Δp ≥ ½|⟨[x̂, p̂]⟩| = ½|iℏ| = **ℏ/2**. ∎
+$$ \Delta x\cdot\Delta p \ge \tfrac12|\langle[\hat{x}, \hat{p}]\rangle| = \tfrac12|i\hbar| = \boxed{\,\hbar/2\,}. \qquad \blacksquare $$
 
-The equality Δx·Δp = ℏ/2 is saturated when the Cauchy–Schwarz inequality is an equality (|f⟩ ∝ |g⟩) and the real part of ⟨f|g⟩ vanishes. These conditions together force ψ to be a Gaussian, confirming the result of Module 3.1 Derivation D.
+The equality $\Delta x\cdot\Delta p = \hbar/2$ is saturated when the Cauchy–Schwarz inequality is an equality ($|f\rangle \propto |g\rangle$) and the real part of $\langle f|g\rangle$ vanishes. These conditions together force $\psi$ to be a Gaussian, confirming the result of Module 3.1 Derivation D.
 
-当柯西–施瓦茨不等式取等（|f⟩ ∝ |g⟩）且 ⟨f|g⟩ 的实部为零时，等号 Δx·Δp = ℏ/2 成立。这两个条件共同迫使 ψ 为高斯函数，与模块 3.1 推导 D 的结果一致。∎
+当柯西–施瓦茨不等式取等（$|f\rangle \propto |g\rangle$）且 $\langle f|g\rangle$ 的实部为零时，等号 $\Delta x\cdot\Delta p = \hbar/2$ 成立。这两个条件共同迫使 $\psi$ 为高斯函数，与模块 3.1 推导 D 的结果一致。$\blacksquare$

@@ -9,207 +9,204 @@
 
 ---
 
-## A. Exchange Operator Has Eigenvalues ±1 and Is Conserved · 交换算符的本征值为 ±1 且守恒
+## A. Exchange Operator Has Eigenvalues $\pm1$ and Is Conserved · 交换算符的本征值为 $\pm1$ 且守恒
 
-**Claim.** The exchange operator P̂₁₂ defined by P̂₁₂ ψ(1,2) = ψ(2,1) has eigenvalues ±1. Moreover, if [Ĥ, P̂₁₂] = 0 (which holds whenever particles 1 and 2 are identical), then P̂₁₂ is a conserved quantity: a state symmetric (antisymmetric) under exchange remains so for all time.
+**Claim.** The exchange operator $\hat{P}_{12}$ defined by $\hat{P}_{12}\,\psi(1,2) = \psi(2,1)$ has eigenvalues $\pm1$. Moreover, if $[\hat{H}, \hat{P}_{12}] = 0$ (which holds whenever particles 1 and 2 are identical), then $\hat{P}_{12}$ is a conserved quantity: a state symmetric (antisymmetric) under exchange remains so for all time.
 
-**命题。** 由 P̂₁₂ ψ(1,2) = ψ(2,1) 定义的交换算符 P̂₁₂ 的本征值为 ±1。此外，若 [Ĥ, P̂₁₂] = 0（当粒子 1 和 2 全同时总成立），则 P̂₁₂ 是守恒量：在交换下对称（反对称）的态将始终保持对称（反对称）。
+**命题。** 由 $\hat{P}_{12}\,\psi(1,2) = \psi(2,1)$ 定义的交换算符 $\hat{P}_{12}$ 的本征值为 $\pm1$。此外，若 $[\hat{H}, \hat{P}_{12}] = 0$（当粒子 1 和 2 全同时总成立），则 $\hat{P}_{12}$ 是守恒量：在交换下对称（反对称）的态将始终保持对称（反对称）。
 
-**Step 1 — P̂₁₂ is its own inverse.** Applying the exchange operator twice returns to the original state:
+**Step 1 — $\hat{P}_{12}$ is its own inverse.** Applying the exchange operator twice returns to the original state:
 
-**第 1 步 — P̂₁₂ 是自身的逆。** 两次应用交换算符回到原始态：
+**第 1 步 — $\hat{P}_{12}$ 是自身的逆。** 两次应用交换算符回到原始态：
 
-  P̂₁₂² ψ(1,2) = P̂₁₂ ψ(2,1) = ψ(1,2).
+$$ \hat{P}_{12}^2\,\psi(1,2) = \hat{P}_{12}\,\psi(2,1) = \psi(1,2). $$
 
-So **P̂₁₂² = 1̂** (the identity operator).
+So $\hat{P}_{12}^2 = \hat{1}$ (the identity operator).
 
-故 **P̂₁₂² = 1̂**（恒等算符）。
+故 $\hat{P}_{12}^2 = \hat{1}$（恒等算符）。
 
-**Step 2 — P̂₁₂ is Hermitian.** For any two-particle states φ and ψ:
+**Step 2 — $\hat{P}_{12}$ is Hermitian.** For any two-particle states $\varphi$ and $\psi$:
 
-**第 2 步 — P̂₁₂ 是厄米的。** 对任意两粒子态 φ 和 ψ：
+**第 2 步 — $\hat{P}_{12}$ 是厄米的。** 对任意两粒子态 $\varphi$ 和 $\psi$：
 
-  ⟨φ|P̂₁₂|ψ⟩ = ∫∫ φ*(1,2) ψ(2,1) d1 d2.
+$$ \langle\varphi|\hat{P}_{12}|\psi\rangle = \int\!\!\int \varphi^*(1,2)\,\psi(2,1)\,d1\,d2. $$
 
-Rename integration variables (1 ↔ 2) — this is just relabeling dummy variables:
+Rename integration variables ($1 \leftrightarrow 2$) — this is just relabeling dummy variables:
 
-重命名积分变量（1 ↔ 2）——这只是重新标记哑变量：
+重命名积分变量（$1 \leftrightarrow 2$）——这只是重新标记哑变量：
 
-  = ∫∫ φ*(2,1) ψ(1,2) d1 d2 = ⟨P̂₁₂φ|ψ⟩.
+$$ = \int\!\!\int \varphi^*(2,1)\,\psi(1,2)\,d1\,d2 = \langle\hat{P}_{12}\varphi|\psi\rangle. $$
 
-So P̂₁₂† = P̂₁₂ — P̂₁₂ is Hermitian (in fact, unitary and Hermitian, hence P̂₁₂² = 1 is consistent). ∎
+So $\hat{P}_{12}^\dagger = \hat{P}_{12}$ — $\hat{P}_{12}$ is Hermitian (in fact, unitary and Hermitian, hence $\hat{P}_{12}^2 = 1$ is consistent). $\blacksquare$
 
-故 P̂₁₂† = P̂₁₂——P̂₁₂ 是厄米的（实际上是幺正且厄米的，因此 P̂₁₂² = 1 是自洽的）。∎
+故 $\hat{P}_{12}^\dagger = \hat{P}_{12}$——$\hat{P}_{12}$ 是厄米的（实际上是幺正且厄米的，因此 $\hat{P}_{12}^2 = 1$ 是自洽的）。$\blacksquare$
 
-**Step 3 — Eigenvalues.** Let P̂₁₂|ψ⟩ = λ|ψ⟩. From P̂₁₂² = 1̂:
+**Step 3 — Eigenvalues.** Let $\hat{P}_{12}|\psi\rangle = \lambda|\psi\rangle$. From $\hat{P}_{12}^2 = \hat{1}$:
 
-**第 3 步 — 本征值。** 设 P̂₁₂|ψ⟩ = λ|ψ⟩。由 P̂₁₂² = 1̂：
+**第 3 步 — 本征值。** 设 $\hat{P}_{12}|\psi\rangle = \lambda|\psi\rangle$。由 $\hat{P}_{12}^2 = \hat{1}$：
 
-  P̂₁₂²|ψ⟩ = λ²|ψ⟩ = 1·|ψ⟩,
+$$ \hat{P}_{12}^2|\psi\rangle = \lambda^2|\psi\rangle = 1\cdot|\psi\rangle, $$
 
-so **λ² = 1**, giving **λ = +1** (symmetric) or **λ = −1** (antisymmetric). ∎
+so $\lambda^2 = 1$, giving $\lambda = +1$ (symmetric) or $\lambda = -1$ (antisymmetric). $\blacksquare$
 
-故 **λ² = 1**，即 **λ = +1**（对称）或 **λ = −1**（反对称）。∎
+故 $\lambda^2 = 1$，即 $\lambda = +1$（对称）或 $\lambda = -1$（反对称）。$\blacksquare$
 
-**Step 4 — Conservation: [Ĥ, P̂₁₂] = 0 for identical particles.** The Hamiltonian of two identical particles has the form Ĥ = T̂₁ + T̂₂ + V̂(1,2), where V̂(1,2) = V̂(2,1) (the interaction is symmetric — swapping identical particles cannot change physics). Also T̂₁ + T̂₂ is symmetric. Therefore:
+**Step 4 — Conservation: $[\hat{H}, \hat{P}_{12}] = 0$ for identical particles.** The Hamiltonian of two identical particles has the form $\hat{H} = \hat{T}_1 + \hat{T}_2 + \hat{V}(1,2)$, where $\hat{V}(1,2) = \hat{V}(2,1)$ (the interaction is symmetric — swapping identical particles cannot change physics). Also $\hat{T}_1 + \hat{T}_2$ is symmetric. Therefore:
 
-**第 4 步 — 守恒：全同粒子的 [Ĥ, P̂₁₂] = 0。** 两个全同粒子的哈密顿量形如 Ĥ = T̂₁ + T̂₂ + V̂(1,2)，其中 V̂(1,2) = V̂(2,1)（相互作用是对称的——交换全同粒子不改变物理）。T̂₁ + T̂₂ 也是对称的。因此：
+**第 4 步 — 守恒：全同粒子的 $[\hat{H}, \hat{P}_{12}] = 0$。** 两个全同粒子的哈密顿量形如 $\hat{H} = \hat{T}_1 + \hat{T}_2 + \hat{V}(1,2)$，其中 $\hat{V}(1,2) = \hat{V}(2,1)$（相互作用是对称的——交换全同粒子不改变物理）。$\hat{T}_1 + \hat{T}_2$ 也是对称的。因此：
 
-  P̂₁₂ Ĥ ψ(1,2) = Ĥ(2,1) ψ(2,1),  and Ĥ P̂₁₂ ψ(1,2) = Ĥ(1,2) ψ(2,1).
+$$ \hat{P}_{12}\,\hat{H}\,\psi(1,2) = \hat{H}(2,1)\,\psi(2,1), \qquad \text{and} \qquad \hat{H}\,\hat{P}_{12}\,\psi(1,2) = \hat{H}(1,2)\,\psi(2,1). $$
 
-Since Ĥ(1,2) = Ĥ(2,1) for identical particles, [Ĥ, P̂₁₂] = 0.
+Since $\hat{H}(1,2) = \hat{H}(2,1)$ for identical particles, $[\hat{H}, \hat{P}_{12}] = 0$.
 
-由于对全同粒子 Ĥ(1,2) = Ĥ(2,1)，故 [Ĥ, P̂₁₂] = 0。
+由于对全同粒子 $\hat{H}(1,2) = \hat{H}(2,1)$，故 $[\hat{H}, \hat{P}_{12}] = 0$。
 
-**Step 5 — Conservation in time.** From the Schrödinger equation, the time evolution of ⟨P̂₁₂⟩ obeys:
+**Step 5 — Conservation in time.** From the Schrödinger equation, the time evolution of $\langle\hat{P}_{12}\rangle$ obeys:
 
-**第 5 步 — 时间守恒。** 由薛定谔方程，⟨P̂₁₂⟩ 的时间演化满足：
+**第 5 步 — 时间守恒。** 由薛定谔方程，$\langle\hat{P}_{12}\rangle$ 的时间演化满足：
 
-  d⟨P̂₁₂⟩/dt = (i/ℏ)⟨[Ĥ, P̂₁₂]⟩ + ∂⟨P̂₁₂⟩/∂t = 0 + 0 = 0.
+$$ d\langle\hat{P}_{12}\rangle/dt = (i/\hbar)\langle[\hat{H}, \hat{P}_{12}]\rangle + \partial\langle\hat{P}_{12}\rangle/\partial t = 0 + 0 = 0. $$
 
-(P̂₁₂ has no explicit time dependence.) More concretely, if ψ(t=0) = P̂₁₂ ψ(t=0) (symmetric), then:
+($\hat{P}_{12}$ has no explicit time dependence.) More concretely, if $\psi(t=0) = \hat{P}_{12}\,\psi(t=0)$ (symmetric), then:
 
-（P̂₁₂ 没有显式时间依赖。）更具体地，若 ψ(t=0) = P̂₁₂ ψ(t=0)（对称），则：
+（$\hat{P}_{12}$ 没有显式时间依赖。）更具体地，若 $\psi(t=0) = \hat{P}_{12}\,\psi(t=0)$（对称），则：
 
-  P̂₁₂ ψ(t) = P̂₁₂ e^{−iĤt/ℏ} ψ(0) = e^{−iĤt/ℏ} P̂₁₂ ψ(0) = e^{−iĤt/ℏ} ψ(0) = ψ(t).
+$$ \hat{P}_{12}\,\psi(t) = \hat{P}_{12}\,e^{-i\hat{H}t/\hbar}\,\psi(0) = e^{-i\hat{H}t/\hbar}\,\hat{P}_{12}\,\psi(0) = e^{-i\hat{H}t/\hbar}\,\psi(0) = \psi(t). $$
 
-The symmetry character (bosonic or fermionic) is preserved for all time. ∎
+The symmetry character (bosonic or fermionic) is preserved for all time. $\blacksquare$
 
-对称性（玻色子或费米子特性）对所有时刻都保持不变。∎
+对称性（玻色子或费米子特性）对所有时刻都保持不变。$\blacksquare$
 
 ---
 
 ## B. Symmetric and Antisymmetric Two-Particle States · 对称与反对称两粒子态
 
-**Claim.** From any two single-particle states |a⟩ and |b⟩, one can construct properly symmetrized and antisymmetrized two-particle states.
+**Claim.** From any two single-particle states $|a\rangle$ and $|b\rangle$, one can construct properly symmetrized and antisymmetrized two-particle states.
 
-**命题。** 从任意两个单粒子态 |a⟩ 和 |b⟩，可以构造恰当的对称化和反对称化两粒子态。
+**命题。** 从任意两个单粒子态 $|a\rangle$ 和 $|b\rangle$，可以构造恰当的对称化和反对称化两粒子态。
 
-**Step 1 — The unsymmetrized product.** The naive product state |a⟩₁|b⟩₂ = ψₐ(1)ψ_b(2) is generally neither symmetric nor antisymmetric under exchange (unless a = b):
+**Step 1 — The unsymmetrized product.** The naive product state $|a\rangle_1|b\rangle_2 = \psi_a(1)\psi_b(2)$ is generally neither symmetric nor antisymmetric under exchange (unless $a = b$):
 
-**第 1 步 — 未对称化的乘积态。** 朴素乘积态 |a⟩₁|b⟩₂ = ψₐ(1)ψ_b(2) 在交换下通常既不对称也不反对称（除非 a = b）：
+**第 1 步 — 未对称化的乘积态。** 朴素乘积态 $|a\rangle_1|b\rangle_2 = \psi_a(1)\psi_b(2)$ 在交换下通常既不对称也不反对称（除非 $a = b$）：
 
-  P̂₁₂ [ψₐ(1)ψ_b(2)] = ψₐ(2)ψ_b(1) ≠ ±ψₐ(1)ψ_b(2)  (in general).
+$$ \hat{P}_{12}\,[\psi_a(1)\psi_b(2)] = \psi_a(2)\psi_b(1) \ne \pm\psi_a(1)\psi_b(2) \quad (\text{in general}). $$
 
-**Step 2 — Symmetrization and antisymmetrization.** Project onto the eigenspaces of P̂₁₂:
+**Step 2 — Symmetrization and antisymmetrization.** Project onto the eigenspaces of $\hat{P}_{12}$:
 
-**第 2 步 — 对称化与反对称化。** 投影到 P̂₁₂ 的本征子空间：
+**第 2 步 — 对称化与反对称化。** 投影到 $\hat{P}_{12}$ 的本征子空间：
 
-Symmetric (bosons, eigenvalue +1):
+Symmetric (bosons, eigenvalue $+1$):
 
-对称（玻色子，本征值 +1）：
+对称（玻色子，本征值 $+1$）：
 
-  ψ_S(1,2) = (1/√2) [ψₐ(1)ψ_b(2) + ψₐ(2)ψ_b(1)].
+$$ \psi_S(1,2) = (1/\sqrt{2})\,[\psi_a(1)\psi_b(2) + \psi_a(2)\psi_b(1)]. $$
 
-Antisymmetric (fermions, eigenvalue −1):
+Antisymmetric (fermions, eigenvalue $-1$):
 
-反对称（费米子，本征值 −1）：
+反对称（费米子，本征值 $-1$）：
 
-  ψ_A(1,2) = (1/√2) [ψₐ(1)ψ_b(2) − ψₐ(2)ψ_b(1)].
+$$ \psi_A(1,2) = (1/\sqrt{2})\,[\psi_a(1)\psi_b(2) - \psi_a(2)\psi_b(1)]. $$
 
-**Step 3 — Verify the symmetry.** For ψ_S:
+**Step 3 — Verify the symmetry.** For $\psi_S$:
 
-**第 3 步 — 验证对称性。** 对 ψ_S：
+**第 3 步 — 验证对称性。** 对 $\psi_S$：
 
-  P̂₁₂ ψ_S(1,2) = (1/√2)[ψₐ(2)ψ_b(1) + ψₐ(1)ψ_b(2)] = ψ_S(1,2). ✓
+$$ \hat{P}_{12}\,\psi_S(1,2) = (1/\sqrt{2})[\psi_a(2)\psi_b(1) + \psi_a(1)\psi_b(2)] = \psi_S(1,2). \;\checkmark $$
 
-For ψ_A:
+For $\psi_A$:
 
-对 ψ_A：
+对 $\psi_A$：
 
-  P̂₁₂ ψ_A(1,2) = (1/√2)[ψₐ(2)ψ_b(1) − ψₐ(1)ψ_b(2)] = −ψ_A(1,2). ✓
+$$ \hat{P}_{12}\,\psi_A(1,2) = (1/\sqrt{2})[\psi_a(2)\psi_b(1) - \psi_a(1)\psi_b(2)] = -\psi_A(1,2). \;\checkmark $$
 
-**Step 4 — Normalization.** For a ≠ b and ⟨a|b⟩ = 0 (orthonormal single-particle states):
+**Step 4 — Normalization.** For $a \ne b$ and $\langle a|b\rangle = 0$ (orthonormal single-particle states):
 
-**第 4 步 — 归一化。** 对 a ≠ b 且 ⟨a|b⟩ = 0（正交归一单粒子态）：
+**第 4 步 — 归一化。** 对 $a \ne b$ 且 $\langle a|b\rangle = 0$（正交归一单粒子态）：
 
-  ∫∫|ψ_S|² d1 d2 = ½ ∫∫[|ψₐ(1)|²|ψ_b(2)|² + ψₐ*(1)ψ_b(1)ψₐ(2)ψ_b*(2) + c.c. + |ψₐ(2)|²|ψ_b(1)|²] d1 d2.
+$$ \int\!\!\int|\psi_S|^2\,d1\,d2 = \tfrac12\int\!\!\int[|\psi_a(1)|^2|\psi_b(2)|^2 + \psi_a^*(1)\psi_b(1)\psi_a(2)\psi_b^*(2) + \text{c.c.} + |\psi_a(2)|^2|\psi_b(1)|^2]\,d1\,d2. $$
 
-The cross terms integrate to ⟨a|b⟩⟨b|a⟩ = 0 (by orthogonality). The remaining terms give:
+The cross terms integrate to $\langle a|b\rangle\langle b|a\rangle = 0$ (by orthogonality). The remaining terms give:
 
-交叉项积分为 ⟨a|b⟩⟨b|a⟩ = 0（由正交性）。剩余项给出：
+交叉项积分为 $\langle a|b\rangle\langle b|a\rangle = 0$（由正交性）。剩余项给出：
 
-  ½(1·1 + 1·1) = 1. ✓
+$$ \tfrac12(1\cdot1 + 1\cdot1) = 1. \;\checkmark $$
 
-Similarly ‖ψ_A‖² = 1. ∎
+Similarly $\|\psi_A\|^2 = 1$. $\blacksquare$
 
-类似地 ‖ψ_A‖² = 1。∎
+类似地 $\|\psi_A\|^2 = 1$。$\blacksquare$
 
 ---
 
-## C. Pauli Exclusion: Antisymmetric State Vanishes When a = b · 泡利不相容：当 a = b 时反对称态为零
+## C. Pauli Exclusion: Antisymmetric State Vanishes When $a = b$ · 泡利不相容：当 $a = b$ 时反对称态为零
 
-**Claim.** If the two single-particle states are the same (a = b), the antisymmetric state ψ_A vanishes identically.
+**Claim.** If the two single-particle states are the same ($a = b$), the antisymmetric state $\psi_A$ vanishes identically.
 
-**命题。** 若两个单粒子态相同（a = b），则反对称态 ψ_A 恒等于零。
+**命题。** 若两个单粒子态相同（$a = b$），则反对称态 $\psi_A$ 恒等于零。
 
-**Proof.** Set a = b in the expression for ψ_A:
+**Proof.** Set $a = b$ in the expression for $\psi_A$:
 
-**证明。** 在 ψ_A 的表达式中令 a = b：
+**证明。** 在 $\psi_A$ 的表达式中令 $a = b$：
 
-  ψ_A(1,2) = (1/√2)[ψₐ(1)ψₐ(2) − ψₐ(2)ψₐ(1)] = (1/√2) · 0 = **0**. ∎
+$$ \psi_A(1,2) = (1/\sqrt{2})[\psi_a(1)\psi_a(2) - \psi_a(2)\psi_a(1)] = (1/\sqrt{2})\cdot 0 = 0. \qquad \blacksquare $$
 
-**Physical meaning.** A state in which both fermions are in the same single-particle state a does not exist — the antisymmetric wave function that would describe it is identically zero. This is the **Pauli exclusion principle**: no two identical fermions can occupy the same quantum state.
+**Physical meaning.** A state in which both fermions are in the same single-particle state $a$ does not exist — the antisymmetric wave function that would describe it is identically zero. This is the **Pauli exclusion principle**: no two identical fermions can occupy the same quantum state.
 
-**物理意义。** 两个费米子都处于同一单粒子态 a 的态不存在——描述它的反对称波函数恒等于零。这就是**泡利不相容原理**：没有两个全同费米子可以占据同一量子态。∎
+**物理意义。** 两个费米子都处于同一单粒子态 $a$ 的态不存在——描述它的反对称波函数恒等于零。这就是**泡利不相容原理**：没有两个全同费米子可以占据同一量子态。$\blacksquare$
 
 ---
 
 ## D. Slater Determinant and Its Antisymmetry · 斯莱特行列式及其反对称性
 
-**Claim.** For N fermions, the antisymmetric N-particle wave function is the Slater determinant:
+**Claim.** For $N$ fermions, the antisymmetric $N$-particle wave function is the Slater determinant:
 
-**命题。** 对 N 个费米子，反对称的 N 粒子波函数是斯莱特行列式：
+**命题。** 对 $N$ 个费米子，反对称的 $N$ 粒子波函数是斯莱特行列式：
 
-  Ψ(1,2,…,N) = (1/√(N!)) det[ψₐᵢ(j)]
+$$ \Psi(1,2,\ldots,N) = (1/\sqrt{N!})\,\det[\psi_{a_i}(j)] $$
 
-where the (i,j) element of the N×N matrix is ψₐᵢ(j) (particle j in state aᵢ). This is antisymmetric under exchange of any two particles.
+where the $(i,j)$ element of the $N\times N$ matrix is $\psi_{a_i}(j)$ (particle $j$ in state $a_i$). This is antisymmetric under exchange of any two particles.
 
-其中 N×N 矩阵的 (i,j) 元为 ψₐᵢ(j)（粒子 j 处于态 aᵢ）。在任意两粒子交换下此态是反对称的。
+其中 $N\times N$ 矩阵的 $(i,j)$ 元为 $\psi_{a_i}(j)$（粒子 $j$ 处于态 $a_i$）。在任意两粒子交换下此态是反对称的。
 
 **Step 1 — Write the determinant explicitly.** The Slater determinant is:
 
 **第 1 步 — 明确写出行列式。** 斯莱特行列式为：
 
-  Ψ(1,…,N) = (1/√(N!)) |ψₐ₁(1)  ψₐ₁(2)  …  ψₐ₁(N)|
-                          |ψₐ₂(1)  ψₐ₂(2)  …  ψₐ₂(N)|
-                          |  ⋮         ⋮       ⋱    ⋮    |
-                          |ψₐN(1)  ψₐN(2)  …  ψₐN(N)|
+$$ \Psi(1,\ldots,N) = \frac{1}{\sqrt{N!}}\begin{vmatrix} \psi_{a_1}(1) & \psi_{a_1}(2) & \cdots & \psi_{a_1}(N) \\ \psi_{a_2}(1) & \psi_{a_2}(2) & \cdots & \psi_{a_2}(N) \\ \vdots & \vdots & \ddots & \vdots \\ \psi_{a_N}(1) & \psi_{a_N}(2) & \cdots & \psi_{a_N}(N) \end{vmatrix} $$
 
-By the Leibniz formula: det[ψₐᵢ(j)] = Σ_{σ∈Sₙ} sgn(σ) ∏ᵢ ψₐᵢ(σ(i)), summing over all N! permutations σ of {1,…,N} with sign sgn(σ) = ±1.
+By the Leibniz formula: $\det[\psi_{a_i}(j)] = \sum_{\sigma\in S_N} \mathrm{sgn}(\sigma) \prod_i \psi_{a_i}(\sigma(i))$, summing over all $N!$ permutations $\sigma$ of $\{1,\ldots,N\}$ with sign $\mathrm{sgn}(\sigma) = \pm1$.
 
-由莱布尼茨公式：det[ψₐᵢ(j)] = Σ_{σ∈Sₙ} sgn(σ) ∏ᵢ ψₐᵢ(σ(i))，对 {1,…,N} 的所有 N! 个置换 σ 求和，sgn(σ) = ±1。
+由莱布尼茨公式：$\det[\psi_{a_i}(j)] = \sum_{\sigma\in S_N} \mathrm{sgn}(\sigma) \prod_i \psi_{a_i}(\sigma(i))$，对 $\{1,\ldots,N\}$ 的所有 $N!$ 个置换 $\sigma$ 求和，$\mathrm{sgn}(\sigma) = \pm1$。
 
-**Step 2 — Antisymmetry under exchange of particles k and ℓ.** Exchanging particles k and ℓ means the wave function evaluated at the swapped arguments Ψ(1,…,ℓ,…,k,…,N). In the matrix, this swaps columns k and ℓ. A column transposition changes the sign of a determinant:
+**Step 2 — Antisymmetry under exchange of particles $k$ and $\ell$.** Exchanging particles $k$ and $\ell$ means the wave function evaluated at the swapped arguments $\Psi(1,\ldots,\ell,\ldots,k,\ldots,N)$. In the matrix, this swaps columns $k$ and $\ell$. A column transposition changes the sign of a determinant:
 
-**第 2 步 — 粒子 k 与 ℓ 交换下的反对称性。** 交换粒子 k 与 ℓ 意味着波函数在交换参数处取值 Ψ(1,…,ℓ,…,k,…,N)。在矩阵中，这交换了第 k 列和第 ℓ 列。列对换改变行列式的符号：
+**第 2 步 — 粒子 $k$ 与 $\ell$ 交换下的反对称性。** 交换粒子 $k$ 与 $\ell$ 意味着波函数在交换参数处取值 $\Psi(1,\ldots,\ell,\ldots,k,\ldots,N)$。在矩阵中，这交换了第 $k$ 列和第 $\ell$ 列。列对换改变行列式的符号：
 
-  Ψ(1,…,ℓ,…,k,…,N) = (1/√(N!)) det[swap cols k,ℓ] = −(1/√(N!)) det[original] = −Ψ(1,…,k,…,ℓ,…,N).
+$$ \Psi(1,\ldots,\ell,\ldots,k,\ldots,N) = (1/\sqrt{N!})\det[\text{swap cols } k,\ell] = -(1/\sqrt{N!})\det[\text{original}] = -\Psi(1,\ldots,k,\ldots,\ell,\ldots,N). $$
 
-Therefore **Ψ is antisymmetric under any transposition of particle labels**. Since every permutation is a product of transpositions, Ψ acquires the signature of the permutation:
+Therefore **$\Psi$ is antisymmetric under any transposition of particle labels**. Since every permutation is a product of transpositions, $\Psi$ acquires the signature of the permutation:
 
-因此 **Ψ 在任意粒子标签对换下是反对称的**。由于每个置换是对换的乘积，Ψ 得到置换的符号：
+因此 **$\Psi$ 在任意粒子标签对换下是反对称的**。由于每个置换是对换的乘积，$\Psi$ 得到置换的符号：
 
-  Ψ(σ(1),…,σ(N)) = sgn(σ) · Ψ(1,…,N). ∎
+$$ \Psi(\sigma(1),\ldots,\sigma(N)) = \mathrm{sgn}(\sigma)\cdot\Psi(1,\ldots,N). \qquad \blacksquare $$
 
-**Step 3 — Pauli exclusion from the determinant.** If any two states are the same, say aᵢ = aⱼ for i ≠ j, then two rows of the matrix are identical. A matrix with two identical rows has zero determinant:
+**Step 3 — Pauli exclusion from the determinant.** If any two states are the same, say $a_i = a_j$ for $i \ne j$, then two rows of the matrix are identical. A matrix with two identical rows has zero determinant:
 
-**第 3 步 — 行列式给出泡利不相容原理。** 若任意两个态相同，设 aᵢ = aⱼ（i ≠ j），则矩阵有两行相同。具有两行相同的矩阵行列式为零：
+**第 3 步 — 行列式给出泡利不相容原理。** 若任意两个态相同，设 $a_i = a_j$（$i \ne j$），则矩阵有两行相同。具有两行相同的矩阵行列式为零：
 
-  det[…identical rows…] = 0 → **Ψ = 0**. ∎
+$$ \det[\ldots\text{identical rows}\ldots] = 0 \to \Psi = 0. \qquad \blacksquare $$
 
-No two fermions can occupy the same single-particle state. This is the Pauli exclusion principle, now derived directly from the antisymmetry of the Slater determinant. ∎
+No two fermions can occupy the same single-particle state. This is the Pauli exclusion principle, now derived directly from the antisymmetry of the Slater determinant. $\blacksquare$
 
-没有两个费米子可以占据同一单粒子态。这就是泡利不相容原理，现在直接从斯莱特行列式的反对称性推导而来。∎
+没有两个费米子可以占据同一单粒子态。这就是泡利不相容原理，现在直接从斯莱特行列式的反对称性推导而来。$\blacksquare$
 
-**Step 4 — Normalization.** For an orthonormal set of single-particle states ⟨aᵢ|aⱼ⟩ = δᵢⱼ:
+**Step 4 — Normalization.** For an orthonormal set of single-particle states $\langle a_i|a_j\rangle = \delta_{ij}$:
 
-**第 4 步 — 归一化。** 对正交归一的单粒子态集 ⟨aᵢ|aⱼ⟩ = δᵢⱼ：
+**第 4 步 — 归一化。** 对正交归一的单粒子态集 $\langle a_i|a_j\rangle = \delta_{ij}$：
 
-  ⟨Ψ|Ψ⟩ = (1/N!) ΣΣ_{σ,τ} sgn(σ)sgn(τ) ∏ᵢ ⟨ψₐᵢ(σ(i))|ψₐᵢ(τ(i))⟩.
+$$ \langle\Psi|\Psi\rangle = (1/N!)\sum_\sigma\sum_\tau \mathrm{sgn}(\sigma)\mathrm{sgn}(\tau)\prod_i \langle\psi_{a_i}(\sigma(i))|\psi_{a_i}(\tau(i))\rangle. $$
 
-Orthonormality forces σ(i) = τ(i) for all i, i.e., σ = τ. There are N! such terms, each contributing sgn(σ)² = 1:
+Orthonormality forces $\sigma(i) = \tau(i)$ for all $i$, i.e., $\sigma = \tau$. There are $N!$ such terms, each contributing $\mathrm{sgn}(\sigma)^2 = 1$:
 
-正交归一性迫使对所有 i 有 σ(i) = τ(i)，即 σ = τ。这样的项有 N! 个，每个贡献 sgn(σ)² = 1：
+正交归一性迫使对所有 $i$ 有 $\sigma(i) = \tau(i)$，即 $\sigma = \tau$。这样的项有 $N!$ 个，每个贡献 $\mathrm{sgn}(\sigma)^2 = 1$：
 
-  ⟨Ψ|Ψ⟩ = (1/N!) · N! · 1 = **1**. ∎
+$$ \langle\Psi|\Psi\rangle = (1/N!)\cdot N!\cdot 1 = 1. \qquad \blacksquare $$

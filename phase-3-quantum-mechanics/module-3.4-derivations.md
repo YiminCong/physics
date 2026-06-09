@@ -11,240 +11,232 @@
 
 ## A. Separation of Variables in 3D Schrödinger Equation (Spherical Coordinates) · 三维薛定谔方程的球坐标分离变量
 
-**Claim.** For a central potential V = V(r), the 3D time-independent Schrödinger equation (TISE) −(ℏ²/2m)∇²ψ + V(r)ψ = Eψ separates in spherical coordinates (r, θ, φ) into an angular equation and a radial equation, with the angular part solved by spherical harmonics Yₗᵐ(θ,φ).
+**Claim.** For a central potential $V = V(r)$, the 3D time-independent Schrödinger equation (TISE) $-(\hbar^2/2m)\nabla^2\psi + V(r)\psi = E\psi$ separates in spherical coordinates $(r, \theta, \varphi)$ into an angular equation and a radial equation, with the angular part solved by spherical harmonics $Y_\ell^m(\theta,\varphi)$.
 
-**命题。** 对于中心势 V = V(r)，三维定态薛定谔方程 −(ℏ²/2m)∇²ψ + V(r)ψ = Eψ 在球坐标 (r, θ, φ) 中分离为角向方程与径向方程，角向部分由球谐函数 Yₗᵐ(θ,φ) 求解。
+**命题。** 对于中心势 $V = V(r)$，三维定态薛定谔方程 $-(\hbar^2/2m)\nabla^2\psi + V(r)\psi = E\psi$ 在球坐标 $(r, \theta, \varphi)$ 中分离为角向方程与径向方程，角向部分由球谐函数 $Y_\ell^m(\theta,\varphi)$ 求解。
 
 **Step 1 — Laplacian in spherical coordinates.** The Laplacian in spherical coordinates is:
 
 **第 1 步 — 球坐标中的拉普拉斯算符。** 球坐标中的拉普拉斯算符为：
 
-  ∇² = (1/r²) ∂/∂r (r² ∂/∂r) + (1/r² sinθ) ∂/∂θ (sinθ ∂/∂θ) + 1/(r² sin²θ) ∂²/∂φ².
+$$ \nabla^2 = \frac{1}{r^2}\frac{\partial}{\partial r}\Big(r^2\frac{\partial}{\partial r}\Big) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta}\Big(\sin\theta\frac{\partial}{\partial\theta}\Big) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2}{\partial\varphi^2}. $$
 
-The angular part is related to the orbital angular momentum operator L̂² by:
+The angular part is related to the orbital angular momentum operator $\hat{L}^2$ by:
 
-角向部分与轨道角动量算符 L̂² 的关系为：
+角向部分与轨道角动量算符 $\hat{L}^2$ 的关系为：
 
-  −ℏ² Λ² ≡ L̂²,   where Λ² = (1/sinθ) ∂/∂θ (sinθ ∂/∂θ) + 1/sin²θ ∂²/∂φ².
+$$ -\hbar^2\Lambda^2 \equiv \hat{L}^2, \qquad \text{where } \Lambda^2 = \frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\Big(\sin\theta\frac{\partial}{\partial\theta}\Big) + \frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\varphi^2}. $$
 
-So: ∇² = (1/r²) ∂/∂r (r² ∂/∂r) − L̂²/(ℏ²r²).
+So: $\nabla^2 = (1/r^2)\,\partial/\partial r\,(r^2\,\partial/\partial r) - \hat{L}^2/(\hbar^2 r^2)$.
 
-因此：∇² = (1/r²) ∂/∂r (r² ∂/∂r) − L̂²/(ℏ²r²)。
+因此：$\nabla^2 = (1/r^2)\,\partial/\partial r\,(r^2\,\partial/\partial r) - \hat{L}^2/(\hbar^2 r^2)$。
 
 **Step 2 — Write the TISE.** The TISE becomes:
 
 **第 2 步 — 写出定态薛定谔方程。** 定态薛定谔方程变为：
 
-  −(ℏ²/2m)[(1/r²) ∂/∂r (r² ∂ψ/∂r) − L̂²ψ/(ℏ²r²)] + V(r)ψ = Eψ.
+$$ -\frac{\hbar^2}{2m}\Big[\frac{1}{r^2}\frac{\partial}{\partial r}\Big(r^2\frac{\partial\psi}{\partial r}\Big) - \frac{\hat{L}^2\psi}{\hbar^2 r^2}\Big] + V(r)\psi = E\psi. $$
 
-Multiply through by −2m/ℏ²:
+Multiply through by $-2m/\hbar^2$:
 
-两边乘以 −2m/ℏ²：
+两边乘以 $-2m/\hbar^2$：
 
-  (1/r²) ∂/∂r (r² ∂ψ/∂r) − L̂²ψ/(ℏ²r²) + (2m/ℏ²)(E − V)ψ = 0.    … (TISE)
+$$ \frac{1}{r^2}\frac{\partial}{\partial r}\Big(r^2\frac{\partial\psi}{\partial r}\Big) - \frac{\hat{L}^2\psi}{\hbar^2 r^2} + \frac{2m}{\hbar^2}(E - V)\psi = 0. \qquad \text{(TISE)} $$
 
-**Step 3 — Separate variables.** Try ψ(r,θ,φ) = R(r)·Y(θ,φ). Substitute:
+**Step 3 — Separate variables.** Try $\psi(r,\theta,\varphi) = R(r)\cdot Y(\theta,\varphi)$. Substitute:
 
-**第 3 步 — 分离变量。** 尝试 ψ(r,θ,φ) = R(r)·Y(θ,φ)。代入：
+**第 3 步 — 分离变量。** 尝试 $\psi(r,\theta,\varphi) = R(r)\cdot Y(\theta,\varphi)$。代入：
 
-  Y (1/r²) d/dr(r² R′) + R[−L̂²Y/(ℏ²r²)] + (2m/ℏ²)(E−V)RY = 0.
+$$ Y\,\frac{1}{r^2}\frac{d}{dr}(r^2 R') + R\Big[-\frac{\hat{L}^2 Y}{\hbar^2 r^2}\Big] + \frac{2m}{\hbar^2}(E-V)RY = 0. $$
 
-Divide by RY/r²:
+Divide by $RY/r^2$:
 
-除以 RY/r²：
+除以 $RY/r^2$：
 
-  (1/R) d/dr(r² R′) + (2m/ℏ²)(E−V)r² = (1/Y) L̂²Y/ℏ².
+$$ \frac{1}{R}\frac{d}{dr}(r^2 R') + \frac{2m}{\hbar^2}(E-V)r^2 = \frac{1}{Y}\frac{\hat{L}^2 Y}{\hbar^2}. $$
 
-The left side depends only on r; the right side only on angles. Both must equal a constant — call it ℓ(ℓ+1):
+The left side depends only on $r$; the right side only on angles. Both must equal a constant — call it $\ell(\ell+1)$:
 
-左边仅依赖于 r；右边仅依赖于角度。两边必须等于同一个常数——记为 ℓ(ℓ+1)：
+左边仅依赖于 $r$；右边仅依赖于角度。两边必须等于同一个常数——记为 $\ell(\ell+1)$：
 
-  **Angular equation:** L̂²Y = ℏ²ℓ(ℓ+1) Y.    … (AE)
+**Angular equation:** $\hat{L}^2 Y = \hbar^2\ell(\ell+1)\,Y$. … (AE)
 
-  **角向方程：** L̂²Y = ℏ²ℓ(ℓ+1) Y。    … (角)
+**角向方程：** $\hat{L}^2 Y = \hbar^2\ell(\ell+1)\,Y$。 … (角)
 
-  **Radial equation:** (1/r²) d/dr(r² dR/dr) + [2m/ℏ²(E−V) − ℓ(ℓ+1)/r²]R = 0.    … (RE)
+**Radial equation:** $(1/r^2)\,d/dr(r^2\,dR/dr) + [2m/\hbar^2(E-V) - \ell(\ell+1)/r^2]R = 0$. … (RE)
 
-  **径向方程：** (1/r²) d/dr(r² dR/dr) + [2m/ℏ²(E−V) − ℓ(ℓ+1)/r²]R = 0。    … (径)
+**径向方程：** $(1/r^2)\,d/dr(r^2\,dR/dr) + [2m/\hbar^2(E-V) - \ell(\ell+1)/r^2]R = 0$。 … (径)
 
-**Step 4 — Further separation of the angular equation.** Set Y(θ,φ) = Θ(θ)Φ(φ). The φ-dependence in L̂² is just ∂²/∂φ², so L̂_z = −iℏ ∂/∂φ gives:
+**Step 4 — Further separation of the angular equation.** Set $Y(\theta,\varphi) = \Theta(\theta)\Phi(\varphi)$. The $\varphi$-dependence in $\hat{L}^2$ is just $\partial^2/\partial\varphi^2$, so $\hat{L}_z = -i\hbar\,\partial/\partial\varphi$ gives:
 
-**第 4 步 — 角向方程的进一步分离。** 令 Y(θ,φ) = Θ(θ)Φ(φ)。L̂² 中的 φ 依赖仅为 ∂²/∂φ²，L̂_z = −iℏ ∂/∂φ 给出：
+**第 4 步 — 角向方程的进一步分离。** 令 $Y(\theta,\varphi) = \Theta(\theta)\Phi(\varphi)$。$\hat{L}^2$ 中的 $\varphi$ 依赖仅为 $\partial^2/\partial\varphi^2$，$\hat{L}_z = -i\hbar\,\partial/\partial\varphi$ 给出：
 
-  d²Φ/dφ² = −m²Φ,   solution: Φ(φ) = e^{imφ}.
+$$ d^2\Phi/d\varphi^2 = -m^2\Phi, \qquad \text{solution: } \Phi(\varphi) = e^{im\varphi}. $$
 
-Single-valuedness Φ(φ + 2π) = Φ(φ) requires **m integer**. The remaining θ-equation (with L̂² including the −m²/sin²θ term from −Φ″/Φ) is the **associated Legendre equation**, whose normalizable solutions exist only for **ℓ = 0, 1, 2, …** and **−ℓ ≤ m ≤ ℓ**.
+Single-valuedness $\Phi(\varphi + 2\pi) = \Phi(\varphi)$ requires **$m$ integer**. The remaining $\theta$-equation (with $\hat{L}^2$ including the $-m^2/\sin^2\theta$ term from $-\Phi''/\Phi$) is the **associated Legendre equation**, whose normalizable solutions exist only for $\ell = 0, 1, 2, \ldots$ and $-\ell \le m \le \ell$.
 
-单值性条件 Φ(φ + 2π) = Φ(φ) 要求 **m 为整数**。剩余的 θ 方程（L̂² 包含来自 −Φ″/Φ 的 −m²/sin²θ 项）是**连带勒让德方程**，其可归一化的解仅在 **ℓ = 0, 1, 2, …** 且 **−ℓ ≤ m ≤ ℓ** 时存在。
+单值性条件 $\Phi(\varphi + 2\pi) = \Phi(\varphi)$ 要求 **$m$ 为整数**。剩余的 $\theta$ 方程（$\hat{L}^2$ 包含来自 $-\Phi''/\Phi$ 的 $-m^2/\sin^2\theta$ 项）是**连带勒让德方程**，其可归一化的解仅在 $\ell = 0, 1, 2, \ldots$ 且 $-\ell \le m \le \ell$ 时存在。
 
-The normalized solutions Yₗᵐ(θ,φ) = N · Pₗᵐ(cosθ) e^{imφ} are the **spherical harmonics**. They satisfy (AE) by construction. ∎
+The normalized solutions $Y_\ell^m(\theta,\varphi) = N\cdot P_\ell^m(\cos\theta)\,e^{im\varphi}$ are the **spherical harmonics**. They satisfy (AE) by construction. $\blacksquare$
 
-归一化解 Yₗᵐ(θ,φ) = N · Pₗᵐ(cosθ) e^{imφ} 是**球谐函数**。由构造它们满足（角）方程。∎
-
----
-
-## B. Angular Momentum Algebra: L̂² and L̂_z Eigenvalues · 角动量代数：L̂² 与 L̂_z 的本征值
-
-**Claim.** From the fundamental commutation relations [L̂_x, L̂_y] = iℏL̂_z (and cyclic permutations) and [L̂², L̂_i] = 0, the simultaneous eigenvalues of L̂² and L̂_z are ℏ²ℓ(ℓ+1) and mℏ respectively, with ℓ = 0, 1, 2, … and m = −ℓ, …, +ℓ.
-
-**命题。** 由基本对易关系 [L̂_x, L̂_y] = iℏL̂_z（及其轮换），以及 [L̂², L̂_i] = 0，L̂² 与 L̂_z 的同时本征值分别为 ℏ²ℓ(ℓ+1) 和 mℏ，其中 ℓ = 0, 1, 2, …，m = −ℓ, …, +ℓ。
-
-**Step 1 — Commutation relations.** In 3D, L̂ = r̂ × p̂, so L̂_x = ŷp̂_z − ẑp̂_y, etc. Using [x̂_i, p̂_j] = iℏδ_{ij}:
-
-**第 1 步 — 对易关系。** 在三维中，L̂ = r̂ × p̂，故 L̂_x = ŷp̂_z − ẑp̂_y 等。利用 [x̂_i, p̂_j] = iℏδ_{ij}：
-
-  [L̂_x, L̂_y] = [ŷp̂_z − ẑp̂_y, ẑp̂_x − x̂p̂_z]
-               = ŷp̂_x[p̂_z, ẑ] + x̂p̂_y[ẑ, p̂_z]
-               = ŷp̂_x(−iℏ) + x̂p̂_y(iℏ)
-               = iℏ(x̂p̂_y − ŷp̂_x) = iℏL̂_z.
-
-Similarly: [L̂_y, L̂_z] = iℏL̂_x, [L̂_z, L̂_x] = iℏL̂_y.
-
-类似地：[L̂_y, L̂_z] = iℏL̂_x，[L̂_z, L̂_x] = iℏL̂_y。
-
-From these: **[L̂², L̂_z] = 0** (and similarly [L̂², L̂_x] = [L̂², L̂_y] = 0), since:
-
-由此：**[L̂², L̂_z] = 0**（同理 [L̂², L̂_x] = [L̂², L̂_y] = 0），因为：
-
-  [L̂², L̂_z] = [L̂_x²+L̂_y²+L̂_z², L̂_z] = L̂_x[L̂_x,L̂_z]+[L̂_x,L̂_z]L̂_x + L̂_y[L̂_y,L̂_z]+[L̂_y,L̂_z]L̂_y
-             = L̂_x(−iℏL̂_y)+(−iℏL̂_y)L̂_x + L̂_y(iℏL̂_x)+(iℏL̂_x)L̂_y = 0.
-
-Therefore L̂² and L̂_z have simultaneous eigenstates |ℓ,m⟩.
-
-因此 L̂² 和 L̂_z 有同时本征态 |ℓ,m⟩。
-
-**Step 2 — Define ladder operators.** Let L̂_± = L̂_x ± iL̂_y. Key commutators:
-
-**第 2 步 — 定义升降算符。** 令 L̂_± = L̂_x ± iL̂_y。关键对易子：
-
-  [L̂_z, L̂_±] = [L̂_z, L̂_x] ± i[L̂_z, L̂_y] = iℏL̂_y ± i(−iℏL̂_x) = ±ℏL̂_±.
-
-  [L̂², L̂_±] = 0.
-
-**Step 3 — Ladder action on eigenstates.** Let L̂²|ℓ,m⟩ = λ|ℓ,m⟩ and L̂_z|ℓ,m⟩ = mℏ|ℓ,m⟩. From [L̂_z, L̂_+] = ℏL̂_+:
-
-**第 3 步 — 升降算符对本征态的作用。** 设 L̂²|ℓ,m⟩ = λ|ℓ,m⟩，L̂_z|ℓ,m⟩ = mℏ|ℓ,m⟩。由 [L̂_z, L̂_+] = ℏL̂_+：
-
-  L̂_z(L̂_+|ℓ,m⟩) = (L̂_+L̂_z + ℏL̂_+)|ℓ,m⟩ = (mℏ + ℏ)(L̂_+|ℓ,m⟩) = (m+1)ℏ (L̂_+|ℓ,m⟩).
-
-So L̂_+|ℓ,m⟩ is an eigenstate of L̂_z with eigenvalue (m+1)ℏ. Similarly L̂_−|ℓ,m⟩ has eigenvalue (m−1)ℏ. Also [L̂², L̂_±] = 0 confirms that L̂_±|ℓ,m⟩ still has L̂² eigenvalue λ.
-
-故 L̂_+|ℓ,m⟩ 是 L̂_z 的本征态，本征值为 (m+1)ℏ。类似地 L̂_−|ℓ,m⟩ 的本征值为 (m−1)ℏ。还有 [L̂², L̂_±] = 0 确认 L̂_±|ℓ,m⟩ 仍有 L̂² 本征值 λ。
-
-**Step 4 — Bound on m.** The operator L̂² − L̂_z² = L̂_x² + L̂_y² is a sum of squares of Hermitian operators:
-
-**第 4 步 — m 的上下界。** 算符 L̂² − L̂_z² = L̂_x² + L̂_y² 是厄米算符的平方和：
-
-  ⟨ℓ,m|L̂²−L̂_z²|ℓ,m⟩ = ⟨ℓ,m|L̂_x²+L̂_y²|ℓ,m⟩ ≥ 0.
-
-  ⟹  λ − m²ℏ² ≥ 0  ⟹  |m| ≤ √(λ)/ℏ.
-
-So m is bounded. Let m_max be the maximum value. Since L̂_+|ℓ,m_max⟩ must be zero (no higher m exists):
-
-故 m 有界。设 m_max 为最大值。由于 L̂_+|ℓ,m_max⟩ 必须为零（不存在更高的 m）：
-
-  L̂_−L̂_+|ℓ,m_max⟩ = 0.
-
-Expand L̂_−L̂_+ = L̂² − L̂_z² − ℏL̂_z (using L̂_±L̂_∓ = L̂² − L̂_z² ∓ ℏL̂_z):
-
-展开 L̂_−L̂_+ = L̂² − L̂_z² − ℏL̂_z（利用 L̂_±L̂_∓ = L̂² − L̂_z² ∓ ℏL̂_z）：
-
-  (L̂² − L̂_z² − ℏL̂_z)|ℓ,m_max⟩ = (λ − m_max²ℏ² − m_max ℏ²)|ℓ,m_max⟩ = 0.
-
-  λ = m_max(m_max + 1)ℏ².
-
-Set m_max = ℓ: **λ = ℏ²ℓ(ℓ+1)**. Similarly, with L̂_−|ℓ,m_min⟩ = 0: λ = m_min(m_min − 1)ℏ², giving m_min = −ℓ. The ladder from m_min to m_max takes integer steps, so **ℓ must be a non-negative integer or half-integer** (orbital: integer; spin: half-integer). For orbital angular momentum, single-valuedness of Yₗᵐ fixes **ℓ = 0, 1, 2, …** and **m = −ℓ, −ℓ+1, …, ℓ**. ∎
-
-令 m_max = ℓ：**λ = ℏ²ℓ(ℓ+1)**。类似地，由 L̂_−|ℓ,m_min⟩ = 0 得 λ = m_min(m_min − 1)ℏ²，给出 m_min = −ℓ。从 m_min 到 m_max 的阶梯以整数步进，故 **ℓ 必须是非负整数或半整数**（轨道：整数；自旋：半整数）。对于轨道角动量，Yₗᵐ 的单值性限制 **ℓ = 0, 1, 2, …** 且 **m = −ℓ, −ℓ+1, …, ℓ**。∎
+归一化解 $Y_\ell^m(\theta,\varphi) = N\cdot P_\ell^m(\cos\theta)\,e^{im\varphi}$ 是**球谐函数**。由构造它们满足（角）方程。$\blacksquare$
 
 ---
 
-## C. Hydrogen Atom Radial Solution and Eₙ = −13.6 eV / n² · 氢原子径向解与 Eₙ = −13.6 eV / n²
+## B. Angular Momentum Algebra: $\hat{L}^2$ and $\hat{L}_z$ Eigenvalues · 角动量代数：$\hat{L}^2$ 与 $\hat{L}_z$ 的本征值
 
-**Claim.** For the hydrogen atom V(r) = −k_e e²/r, the radial Schrödinger equation (RE from Section A) with E < 0 has normalizable solutions only for energies Eₙ = −m k_e² e⁴/(2ℏ²n²) = −13.6 eV/n², n = 1, 2, 3, …, with n ≥ ℓ+1.
+**Claim.** From the fundamental commutation relations $[\hat{L}_x, \hat{L}_y] = i\hbar\hat{L}_z$ (and cyclic permutations) and $[\hat{L}^2, \hat{L}_i] = 0$, the simultaneous eigenvalues of $\hat{L}^2$ and $\hat{L}_z$ are $\hbar^2\ell(\ell+1)$ and $m\hbar$ respectively, with $\ell = 0, 1, 2, \ldots$ and $m = -\ell, \ldots, +\ell$.
 
-**命题。** 对于氢原子 V(r) = −k_e e²/r，径向薛定谔方程（第 A 节的径向方程）在 E < 0 时有可归一化解仅当 Eₙ = −m k_e² e⁴/(2ℏ²n²) = −13.6 eV/n²，n = 1, 2, 3, …，n ≥ ℓ+1。
+**命题。** 由基本对易关系 $[\hat{L}_x, \hat{L}_y] = i\hbar\hat{L}_z$（及其轮换），以及 $[\hat{L}^2, \hat{L}_i] = 0$，$\hat{L}^2$ 与 $\hat{L}_z$ 的同时本征值分别为 $\hbar^2\ell(\ell+1)$ 和 $m\hbar$，其中 $\ell = 0, 1, 2, \ldots$，$m = -\ell, \ldots, +\ell$。
 
-**Step 1 — Radial equation for hydrogen.** Substitute V = −k_e e²/r into (RE) and let u(r) = r R(r) to remove the first-derivative term:
+**Step 1 — Commutation relations.** In 3D, $\hat{L} = \hat{r}\times\hat{p}$, so $\hat{L}_x = \hat{y}\hat{p}_z - \hat{z}\hat{p}_y$, etc. Using $[\hat{x}_i, \hat{p}_j] = i\hbar\delta_{ij}$:
 
-**第 1 步 — 氢原子的径向方程。** 将 V = −k_e e²/r 代入（径向方程），令 u(r) = r R(r) 以消去一阶导数项：
+**第 1 步 — 对易关系。** 在三维中，$\hat{L} = \hat{r}\times\hat{p}$，故 $\hat{L}_x = \hat{y}\hat{p}_z - \hat{z}\hat{p}_y$ 等。利用 $[\hat{x}_i, \hat{p}_j] = i\hbar\delta_{ij}$：
 
-  d²u/dr² + [2m/ℏ²(E + k_e e²/r) − ℓ(ℓ+1)/r²]u = 0.
+$$ \begin{aligned} [\hat{L}_x, \hat{L}_y] &= [\hat{y}\hat{p}_z - \hat{z}\hat{p}_y,\, \hat{z}\hat{p}_x - \hat{x}\hat{p}_z] \\ &= \hat{y}\hat{p}_x[\hat{p}_z, \hat{z}] + \hat{x}\hat{p}_y[\hat{z}, \hat{p}_z] \\ &= \hat{y}\hat{p}_x(-i\hbar) + \hat{x}\hat{p}_y(i\hbar) \\ &= i\hbar(\hat{x}\hat{p}_y - \hat{y}\hat{p}_x) = i\hbar\hat{L}_z. \end{aligned} $$
 
-**Step 2 — Asymptotic analysis.** For E < 0, let κ = √(−2mE)/ℏ > 0. As r → ∞ the equation approaches d²u/dr² ≈ κ²u, giving u ~ e^{±κr}. Normalizability requires u ~ e^{−κr}.
+Similarly: $[\hat{L}_y, \hat{L}_z] = i\hbar\hat{L}_x$, $[\hat{L}_z, \hat{L}_x] = i\hbar\hat{L}_y$.
 
-**第 2 步 — 渐近分析。** 对于 E < 0，令 κ = √(−2mE)/ℏ > 0。当 r → ∞ 时方程趋近于 d²u/dr² ≈ κ²u，给出 u ~ e^{±κr}。可归一化要求 u ~ e^{−κr}。
+类似地：$[\hat{L}_y, \hat{L}_z] = i\hbar\hat{L}_x$，$[\hat{L}_z, \hat{L}_x] = i\hbar\hat{L}_y$。
 
-As r → 0 with ℓ ≥ 1: the ℓ(ℓ+1)/r² term dominates, giving u ~ r^{ℓ+1} or r^{−ℓ}. Normalizability requires u ~ r^{ℓ+1}.
+From these: $[\hat{L}^2, \hat{L}_z] = 0$ (and similarly $[\hat{L}^2, \hat{L}_x] = [\hat{L}^2, \hat{L}_y] = 0$), since:
 
-当 r → 0 且 ℓ ≥ 1 时：ℓ(ℓ+1)/r² 项主导，给出 u ~ r^{ℓ+1} 或 r^{−ℓ}。可归一化要求 u ~ r^{ℓ+1}。
+由此：$[\hat{L}^2, \hat{L}_z] = 0$（同理 $[\hat{L}^2, \hat{L}_x] = [\hat{L}^2, \hat{L}_y] = 0$），因为：
 
-**Step 3 — Power series / Laguerre polynomial solution.** Factor out the asymptotic behavior: u(r) = r^{ℓ+1} e^{−κr} v(r). Substituting into the equation gives a differential equation for v(r) that, in terms of the variable ρ = 2κr, becomes the **associated Laguerre equation**:
+$$ \begin{aligned} [\hat{L}^2, \hat{L}_z] &= [\hat{L}_x^2+\hat{L}_y^2+\hat{L}_z^2, \hat{L}_z] = \hat{L}_x[\hat{L}_x,\hat{L}_z]+[\hat{L}_x,\hat{L}_z]\hat{L}_x + \hat{L}_y[\hat{L}_y,\hat{L}_z]+[\hat{L}_y,\hat{L}_z]\hat{L}_y \\ &= \hat{L}_x(-i\hbar\hat{L}_y)+(-i\hbar\hat{L}_y)\hat{L}_x + \hat{L}_y(i\hbar\hat{L}_x)+(i\hbar\hat{L}_x)\hat{L}_y = 0. \end{aligned} $$
 
-**第 3 步 — 幂级数/拉盖尔多项式解。** 提取渐近行为：u(r) = r^{ℓ+1} e^{−κr} v(r)。代入方程，用变量 ρ = 2κr，得到关于 v(r) 的**连带拉盖尔方程**：
+Therefore $\hat{L}^2$ and $\hat{L}_z$ have simultaneous eigenstates $|\ell,m\rangle$.
 
-  ρ v″ + (2ℓ+2−ρ) v′ + [n−(ℓ+1)] v = 0,
+因此 $\hat{L}^2$ 和 $\hat{L}_z$ 有同时本征态 $|\ell,m\rangle$。
 
-where n is defined by n = k_e e² m/(ℏ²κ) (this is the parameter). The series solution for v terminates (giving a polynomial) if and only if n − (ℓ+1) = n_r is a non-negative integer (n_r = 0, 1, 2, … is the radial quantum number). When the series does not terminate, v grows like e^ρ, making u non-normalizable.
+**Step 2 — Define ladder operators.** Let $\hat{L}_\pm = \hat{L}_x \pm i\hat{L}_y$. Key commutators:
 
-其中 n 由 n = k_e e² m/(ℏ²κ) 定义（这是参数）。v 的级数解终止（给出多项式）当且仅当 n − (ℓ+1) = n_r 为非负整数（n_r = 0, 1, 2, … 是径向量子数）。当级数不终止时，v 的增长如 e^ρ，使 u 不可归一化。
+**第 2 步 — 定义升降算符。** 令 $\hat{L}_\pm = \hat{L}_x \pm i\hat{L}_y$。关键对易子：
 
-**Step 4 — Energy quantization.** From n = k_e e²m/(ℏ²κ) and κ = √(−2mE)/ℏ:
+$$ [\hat{L}_z, \hat{L}_\pm] = [\hat{L}_z, \hat{L}_x] \pm i[\hat{L}_z, \hat{L}_y] = i\hbar\hat{L}_y \pm i(-i\hbar\hat{L}_x) = \pm\hbar\hat{L}_\pm. $$
 
-**第 4 步 — 能量量子化。** 由 n = k_e e²m/(ℏ²κ) 和 κ = √(−2mE)/ℏ：
+$$ [\hat{L}^2, \hat{L}_\pm] = 0. $$
 
-  κ = mk_e e²/(nℏ²),
+**Step 3 — Ladder action on eigenstates.** Let $\hat{L}^2|\ell,m\rangle = \lambda|\ell,m\rangle$ and $\hat{L}_z|\ell,m\rangle = m\hbar|\ell,m\rangle$. From $[\hat{L}_z, \hat{L}_+] = \hbar\hat{L}_+$:
 
-  E = −ℏ²κ²/(2m) = −ℏ²/(2m) · m²k_e²e⁴/(n²ℏ⁴) = **−mk_e²e⁴/(2n²ℏ²)**.
+**第 3 步 — 升降算符对本征态的作用。** 设 $\hat{L}^2|\ell,m\rangle = \lambda|\ell,m\rangle$，$\hat{L}_z|\ell,m\rangle = m\hbar|\ell,m\rangle$。由 $[\hat{L}_z, \hat{L}_+] = \hbar\hat{L}_+$：
 
-Numerically: **Eₙ = −13.6 eV / n²**, n = 1, 2, 3, … The constraint n ≥ ℓ+1 means: for n = 1, only ℓ = 0; for n = 2, ℓ = 0 or 1; etc. This gives the degeneracy g(n) = Σ_{ℓ=0}^{n-1}(2ℓ+1) = n². ∎
+$$ \hat{L}_z(\hat{L}_+|\ell,m\rangle) = (\hat{L}_+\hat{L}_z + \hbar\hat{L}_+)|\ell,m\rangle = (m\hbar + \hbar)(\hat{L}_+|\ell,m\rangle) = (m+1)\hbar\,(\hat{L}_+|\ell,m\rangle). $$
 
-数值上：**Eₙ = −13.6 eV / n²**，n = 1, 2, 3, …。约束 n ≥ ℓ+1 意味着：n = 1 时只有 ℓ = 0；n = 2 时 ℓ = 0 或 1；等等。这给出简并度 g(n) = Σ_{ℓ=0}^{n-1}(2ℓ+1) = n²。∎
+So $\hat{L}_+|\ell,m\rangle$ is an eigenstate of $\hat{L}_z$ with eigenvalue $(m+1)\hbar$. Similarly $\hat{L}_-|\ell,m\rangle$ has eigenvalue $(m-1)\hbar$. Also $[\hat{L}^2, \hat{L}_\pm] = 0$ confirms that $\hat{L}_\pm|\ell,m\rangle$ still has $\hat{L}^2$ eigenvalue $\lambda$.
+
+故 $\hat{L}_+|\ell,m\rangle$ 是 $\hat{L}_z$ 的本征态，本征值为 $(m+1)\hbar$。类似地 $\hat{L}_-|\ell,m\rangle$ 的本征值为 $(m-1)\hbar$。还有 $[\hat{L}^2, \hat{L}_\pm] = 0$ 确认 $\hat{L}_\pm|\ell,m\rangle$ 仍有 $\hat{L}^2$ 本征值 $\lambda$。
+
+**Step 4 — Bound on $m$.** The operator $\hat{L}^2 - \hat{L}_z^2 = \hat{L}_x^2 + \hat{L}_y^2$ is a sum of squares of Hermitian operators:
+
+**第 4 步 — $m$ 的上下界。** 算符 $\hat{L}^2 - \hat{L}_z^2 = \hat{L}_x^2 + \hat{L}_y^2$ 是厄米算符的平方和：
+
+$$ \langle\ell,m|\hat{L}^2-\hat{L}_z^2|\ell,m\rangle = \langle\ell,m|\hat{L}_x^2+\hat{L}_y^2|\ell,m\rangle \ge 0. $$
+
+$$ \implies \lambda - m^2\hbar^2 \ge 0 \implies |m| \le \sqrt{\lambda}/\hbar. $$
+
+So $m$ is bounded. Let $m_{\max}$ be the maximum value. Since $\hat{L}_+|\ell,m_{\max}\rangle$ must be zero (no higher $m$ exists):
+
+故 $m$ 有界。设 $m_{\max}$ 为最大值。由于 $\hat{L}_+|\ell,m_{\max}\rangle$ 必须为零（不存在更高的 $m$）：
+
+$$ \hat{L}_-\hat{L}_+|\ell,m_{\max}\rangle = 0. $$
+
+Expand $\hat{L}_-\hat{L}_+ = \hat{L}^2 - \hat{L}_z^2 - \hbar\hat{L}_z$ (using $\hat{L}_\pm\hat{L}_\mp = \hat{L}^2 - \hat{L}_z^2 \mp \hbar\hat{L}_z$):
+
+展开 $\hat{L}_-\hat{L}_+ = \hat{L}^2 - \hat{L}_z^2 - \hbar\hat{L}_z$（利用 $\hat{L}_\pm\hat{L}_\mp = \hat{L}^2 - \hat{L}_z^2 \mp \hbar\hat{L}_z$）：
+
+$$ (\hat{L}^2 - \hat{L}_z^2 - \hbar\hat{L}_z)|\ell,m_{\max}\rangle = (\lambda - m_{\max}^2\hbar^2 - m_{\max}\hbar^2)|\ell,m_{\max}\rangle = 0. $$
+
+$$ \lambda = m_{\max}(m_{\max} + 1)\hbar^2. $$
+
+Set $m_{\max} = \ell$: $\lambda = \hbar^2\ell(\ell+1)$. Similarly, with $\hat{L}_-|\ell,m_{\min}\rangle = 0$: $\lambda = m_{\min}(m_{\min} - 1)\hbar^2$, giving $m_{\min} = -\ell$. The ladder from $m_{\min}$ to $m_{\max}$ takes integer steps, so $\ell$ must be a non-negative integer or half-integer (orbital: integer; spin: half-integer). For orbital angular momentum, single-valuedness of $Y_\ell^m$ fixes $\ell = 0, 1, 2, \ldots$ and $m = -\ell, -\ell+1, \ldots, \ell$. $\blacksquare$
+
+令 $m_{\max} = \ell$：$\lambda = \hbar^2\ell(\ell+1)$。类似地，由 $\hat{L}_-|\ell,m_{\min}\rangle = 0$ 得 $\lambda = m_{\min}(m_{\min} - 1)\hbar^2$，给出 $m_{\min} = -\ell$。从 $m_{\min}$ 到 $m_{\max}$ 的阶梯以整数步进，故 $\ell$ 必须是非负整数或半整数（轨道：整数；自旋：半整数）。对于轨道角动量，$Y_\ell^m$ 的单值性限制 $\ell = 0, 1, 2, \ldots$ 且 $m = -\ell, -\ell+1, \ldots, \ell$。$\blacksquare$
 
 ---
 
-## D. Spin-½: Pauli Matrices and S_z Eigenvalues · 自旋-½：泡利矩阵与 S_z 本征值
+## C. Hydrogen Atom Radial Solution and $E_n = -13.6\ \text{eV} / n^2$ · 氢原子径向解与 $E_n = -13.6\ \text{eV} / n^2$
 
-**Claim.** For a spin-½ particle, the spin operators Ŝ_i = (ℏ/2)σ_i satisfy the angular-momentum algebra [Ŝ_x, Ŝ_y] = iℏŜ_z (etc.), and S_z has eigenvalues ±ℏ/2 with eigenstates |↑⟩ and |↓⟩.
+**Claim.** For the hydrogen atom $V(r) = -k_e e^2/r$, the radial Schrödinger equation (RE from Section A) with $E < 0$ has normalizable solutions only for energies $E_n = -m k_e^2 e^4/(2\hbar^2 n^2) = -13.6\ \text{eV}/n^2$, $n = 1, 2, 3, \ldots$, with $n \ge \ell+1$.
 
-**命题。** 对自旋-½ 粒子，自旋算符 Ŝ_i = (ℏ/2)σ_i 满足角动量代数 [Ŝ_x, Ŝ_y] = iℏŜ_z（等），S_z 的本征值为 ±ℏ/2，本征态为 |↑⟩ 和 |↓⟩。
+**命题。** 对于氢原子 $V(r) = -k_e e^2/r$，径向薛定谔方程（第 A 节的径向方程）在 $E < 0$ 时有可归一化解仅当 $E_n = -m k_e^2 e^4/(2\hbar^2 n^2) = -13.6\ \text{eV}/n^2$，$n = 1, 2, 3, \ldots$，$n \ge \ell+1$。
 
-**Step 1 — General spin-½ state space.** By the angular-momentum algebra of Section B (which applies equally to half-integer spin), for s = ½ we have S² eigenvalue ℏ²·½·(½+1) = 3ℏ²/4, and m_s = ±½. The state space is 2-dimensional; choose basis {|↑⟩, |↓⟩} = {|s=½,m=+½⟩, |s=½,m=−½⟩}.
+**Step 1 — Radial equation for hydrogen.** Substitute $V = -k_e e^2/r$ into (RE) and let $u(r) = r R(r)$ to remove the first-derivative term:
 
-**第 1 步 — 一般自旋-½ 态空间。** 由第 B 节的角动量代数（同样适用于半整数自旋），对 s = ½ 有 S² 本征值 ℏ²·½·(½+1) = 3ℏ²/4，m_s = ±½。态空间是二维的；选取基 {|↑⟩, |↓⟩} = {|s=½,m=+½⟩, |s=½,m=−½⟩}。
+**第 1 步 — 氢原子的径向方程。** 将 $V = -k_e e^2/r$ 代入（径向方程），令 $u(r) = r R(r)$ 以消去一阶导数项：
 
-**Step 2 — Matrix representations.** In this basis, the matrix elements of S_z are diagonal (since these are eigenstates):
+$$ d^2 u/dr^2 + [2m/\hbar^2(E + k_e e^2/r) - \ell(\ell+1)/r^2]u = 0. $$
 
-**第 2 步 — 矩阵表示。** 在此基中，S_z 的矩阵元是对角的（因为这些是本征态）：
+**Step 2 — Asymptotic analysis.** For $E < 0$, let $\kappa = \sqrt{-2mE}/\hbar > 0$. As $r \to \infty$ the equation approaches $d^2 u/dr^2 \approx \kappa^2 u$, giving $u \sim e^{\pm\kappa r}$. Normalizability requires $u \sim e^{-\kappa r}$.
 
-  S_z = ℏ/2 · (|↑⟩⟨↑| − |↓⟩⟨↓|) = (ℏ/2) [[1, 0], [0, −1]].
+**第 2 步 — 渐近分析。** 对于 $E < 0$，令 $\kappa = \sqrt{-2mE}/\hbar > 0$。当 $r \to \infty$ 时方程趋近于 $d^2 u/dr^2 \approx \kappa^2 u$，给出 $u \sim e^{\pm\kappa r}$。可归一化要求 $u \sim e^{-\kappa r}$。
 
-For S_±, from Section B: Ŝ_+|↓⟩ = ℏ|↑⟩, Ŝ_+|↑⟩ = 0; Ŝ_−|↑⟩ = ℏ|↓⟩, Ŝ_−|↓⟩ = 0. (Norm factor: √(s(s+1)−m(m±1)) = √(3/4−(−1/2)(1/2)) = 1 for ℓ=½ states.) Therefore:
+As $r \to 0$ with $\ell \ge 1$: the $\ell(\ell+1)/r^2$ term dominates, giving $u \sim r^{\ell+1}$ or $r^{-\ell}$. Normalizability requires $u \sim r^{\ell+1}$.
 
-对于 S_±，由第 B 节：Ŝ_+|↓⟩ = ℏ|↑⟩，Ŝ_+|↑⟩ = 0；Ŝ_−|↑⟩ = ℏ|↓⟩，Ŝ_−|↓⟩ = 0。因此：
+当 $r \to 0$ 且 $\ell \ge 1$ 时：$\ell(\ell+1)/r^2$ 项主导，给出 $u \sim r^{\ell+1}$ 或 $r^{-\ell}$。可归一化要求 $u \sim r^{\ell+1}$。
 
-  S_x = (S_+ + S_−)/2 = (ℏ/2)[[0,1],[1,0]],
-  S_y = (S_+ − S_−)/(2i) = (ℏ/2)[[0,−i],[i,0]].
+**Step 3 — Power series / Laguerre polynomial solution.** Factor out the asymptotic behavior: $u(r) = r^{\ell+1} e^{-\kappa r} v(r)$. Substituting into the equation gives a differential equation for $v(r)$ that, in terms of the variable $\rho = 2\kappa r$, becomes the **associated Laguerre equation**:
 
-**Step 3 — Pauli matrices.** Define σ_i by Ŝ_i = (ℏ/2)σ_i:
+**第 3 步 — 幂级数/拉盖尔多项式解。** 提取渐近行为：$u(r) = r^{\ell+1} e^{-\kappa r} v(r)$。代入方程，用变量 $\rho = 2\kappa r$，得到关于 $v(r)$ 的**连带拉盖尔方程**：
 
-**第 3 步 — 泡利矩阵。** 由 Ŝ_i = (ℏ/2)σ_i 定义 σ_i：
+$$ \rho v'' + (2\ell+2-\rho) v' + [n-(\ell+1)] v = 0, $$
 
-  σ_x = [[0,1],[1,0]],  σ_y = [[0,−i],[i,0]],  σ_z = [[1,0],[0,−1]].
+where $n$ is defined by $n = k_e e^2 m/(\hbar^2\kappa)$ (this is the parameter). The series solution for $v$ terminates (giving a polynomial) if and only if $n - (\ell+1) = n_r$ is a non-negative integer ($n_r = 0, 1, 2, \ldots$ is the radial quantum number). When the series does not terminate, $v$ grows like $e^\rho$, making $u$ non-normalizable.
 
-**Step 4 — Verify the algebra.** [Ŝ_x, Ŝ_y] = (ℏ²/4)[σ_x, σ_y]:
+其中 $n$ 由 $n = k_e e^2 m/(\hbar^2\kappa)$ 定义（这是参数）。$v$ 的级数解终止（给出多项式）当且仅当 $n - (\ell+1) = n_r$ 为非负整数（$n_r = 0, 1, 2, \ldots$ 是径向量子数）。当级数不终止时，$v$ 的增长如 $e^\rho$，使 $u$ 不可归一化。
 
-**第 4 步 — 验证代数关系。** [Ŝ_x, Ŝ_y] = (ℏ²/4)[σ_x, σ_y]：
+**Step 4 — Energy quantization.** From $n = k_e e^2 m/(\hbar^2\kappa)$ and $\kappa = \sqrt{-2mE}/\hbar$:
 
-  [σ_x, σ_y] = σ_xσ_y − σ_yσ_x
-              = [[0,1],[1,0]][[0,−i],[i,0]] − [[0,−i],[i,0]][[0,1],[1,0]]
-              = [[i,0],[0,−i]] − [[−i,0],[0,i]]
-              = [[2i,0],[0,−2i]] = 2i σ_z.
+**第 4 步 — 能量量子化。** 由 $n = k_e e^2 m/(\hbar^2\kappa)$ 和 $\kappa = \sqrt{-2mE}/\hbar$：
 
-Therefore [Ŝ_x, Ŝ_y] = (ℏ²/4)·2iσ_z = iℏ·(ℏ/2)σ_z = **iℏŜ_z**. ✓
+$$ \kappa = m k_e e^2/(n\hbar^2), $$
 
-因此 [Ŝ_x, Ŝ_y] = (ℏ²/4)·2iσ_z = iℏ·(ℏ/2)σ_z = **iℏŜ_z**。✓
+$$ E = -\hbar^2\kappa^2/(2m) = -\hbar^2/(2m)\cdot m^2 k_e^2 e^4/(n^2\hbar^4) = \boxed{\,-m k_e^2 e^4/(2n^2\hbar^2)\,}. $$
 
-**Step 5 — S_z eigenvalues.** S_z = (ℏ/2)σ_z has eigenvalues (ℏ/2)·(±1) = **±ℏ/2**, with eigenvectors [1,0]ᵀ = |↑⟩ (eigenvalue +ℏ/2, "spin up") and [0,1]ᵀ = |↓⟩ (eigenvalue −ℏ/2, "spin down"). ∎
+Numerically: $E_n = -13.6\ \text{eV} / n^2$, $n = 1, 2, 3, \ldots$ The constraint $n \ge \ell+1$ means: for $n = 1$, only $\ell = 0$; for $n = 2$, $\ell = 0$ or $1$; etc. This gives the degeneracy $g(n) = \sum_{\ell=0}^{n-1}(2\ell+1) = n^2$. $\blacksquare$
 
-**第 5 步 — S_z 本征值。** S_z = (ℏ/2)σ_z 的本征值为 (ℏ/2)·(±1) = **±ℏ/2**，本征向量分别为 [1,0]ᵀ = |↑⟩（本征值 +ℏ/2，"自旋向上"）和 [0,1]ᵀ = |↓⟩（本征值 −ℏ/2，"自旋向下"）。∎
+数值上：$E_n = -13.6\ \text{eV} / n^2$，$n = 1, 2, 3, \ldots$。约束 $n \ge \ell+1$ 意味着：$n = 1$ 时只有 $\ell = 0$；$n = 2$ 时 $\ell = 0$ 或 $1$；等等。这给出简并度 $g(n) = \sum_{\ell=0}^{n-1}(2\ell+1) = n^2$。$\blacksquare$
+
+---
+
+## D. Spin-$\tfrac12$: Pauli Matrices and $S_z$ Eigenvalues · 自旋-$\tfrac12$：泡利矩阵与 $S_z$ 本征值
+
+**Claim.** For a spin-$\tfrac12$ particle, the spin operators $\hat{S}_i = (\hbar/2)\sigma_i$ satisfy the angular-momentum algebra $[\hat{S}_x, \hat{S}_y] = i\hbar\hat{S}_z$ (etc.), and $S_z$ has eigenvalues $\pm\hbar/2$ with eigenstates $|\!\uparrow\rangle$ and $|\!\downarrow\rangle$.
+
+**命题。** 对自旋-$\tfrac12$ 粒子，自旋算符 $\hat{S}_i = (\hbar/2)\sigma_i$ 满足角动量代数 $[\hat{S}_x, \hat{S}_y] = i\hbar\hat{S}_z$（等），$S_z$ 的本征值为 $\pm\hbar/2$，本征态为 $|\!\uparrow\rangle$ 和 $|\!\downarrow\rangle$。
+
+**Step 1 — General spin-$\tfrac12$ state space.** By the angular-momentum algebra of Section B (which applies equally to half-integer spin), for $s = \tfrac12$ we have $S^2$ eigenvalue $\hbar^2\cdot\tfrac12\cdot(\tfrac12+1) = 3\hbar^2/4$, and $m_s = \pm\tfrac12$. The state space is 2-dimensional; choose basis $\{|\!\uparrow\rangle, |\!\downarrow\rangle\} = \{|s=\tfrac12,m=+\tfrac12\rangle, |s=\tfrac12,m=-\tfrac12\rangle\}$.
+
+**第 1 步 — 一般自旋-$\tfrac12$ 态空间。** 由第 B 节的角动量代数（同样适用于半整数自旋），对 $s = \tfrac12$ 有 $S^2$ 本征值 $\hbar^2\cdot\tfrac12\cdot(\tfrac12+1) = 3\hbar^2/4$，$m_s = \pm\tfrac12$。态空间是二维的；选取基 $\{|\!\uparrow\rangle, |\!\downarrow\rangle\} = \{|s=\tfrac12,m=+\tfrac12\rangle, |s=\tfrac12,m=-\tfrac12\rangle\}$。
+
+**Step 2 — Matrix representations.** In this basis, the matrix elements of $S_z$ are diagonal (since these are eigenstates):
+
+**第 2 步 — 矩阵表示。** 在此基中，$S_z$ 的矩阵元是对角的（因为这些是本征态）：
+
+$$ S_z = \frac{\hbar}{2}\,(|\!\uparrow\rangle\langle\uparrow\!| - |\!\downarrow\rangle\langle\downarrow\!|) = \frac{\hbar}{2}\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}. $$
+
+For $S_\pm$, from Section B: $\hat{S}_+|\!\downarrow\rangle = \hbar|\!\uparrow\rangle$, $\hat{S}_+|\!\uparrow\rangle = 0$; $\hat{S}_-|\!\uparrow\rangle = \hbar|\!\downarrow\rangle$, $\hat{S}_-|\!\downarrow\rangle = 0$. (Norm factor: $\sqrt{s(s+1)-m(m\pm1)} = \sqrt{3/4-(-1/2)(1/2)} = 1$ for $\ell=\tfrac12$ states.) Therefore:
+
+对于 $S_\pm$，由第 B 节：$\hat{S}_+|\!\downarrow\rangle = \hbar|\!\uparrow\rangle$，$\hat{S}_+|\!\uparrow\rangle = 0$；$\hat{S}_-|\!\uparrow\rangle = \hbar|\!\downarrow\rangle$，$\hat{S}_-|\!\downarrow\rangle = 0$。因此：
+
+$$ S_x = (S_+ + S_-)/2 = \frac{\hbar}{2}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \qquad S_y = (S_+ - S_-)/(2i) = \frac{\hbar}{2}\begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}. $$
+
+**Step 3 — Pauli matrices.** Define $\sigma_i$ by $\hat{S}_i = (\hbar/2)\sigma_i$:
+
+**第 3 步 — 泡利矩阵。** 由 $\hat{S}_i = (\hbar/2)\sigma_i$ 定义 $\sigma_i$：
+
+$$ \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \qquad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \qquad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}. $$
+
+**Step 4 — Verify the algebra.** $[\hat{S}_x, \hat{S}_y] = (\hbar^2/4)[\sigma_x, \sigma_y]$:
+
+**第 4 步 — 验证代数关系。** $[\hat{S}_x, \hat{S}_y] = (\hbar^2/4)[\sigma_x, \sigma_y]$：
+
+$$ \begin{aligned} [\sigma_x, \sigma_y] &= \sigma_x\sigma_y - \sigma_y\sigma_x \\ &= \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix} - \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \\ &= \begin{pmatrix} i & 0 \\ 0 & -i \end{pmatrix} - \begin{pmatrix} -i & 0 \\ 0 & i \end{pmatrix} \\ &= \begin{pmatrix} 2i & 0 \\ 0 & -2i \end{pmatrix} = 2i\,\sigma_z. \end{aligned} $$
+
+Therefore $[\hat{S}_x, \hat{S}_y] = (\hbar^2/4)\cdot2i\sigma_z = i\hbar\cdot(\hbar/2)\sigma_z = i\hbar\hat{S}_z$. $\checkmark$
+
+因此 $[\hat{S}_x, \hat{S}_y] = (\hbar^2/4)\cdot2i\sigma_z = i\hbar\cdot(\hbar/2)\sigma_z = i\hbar\hat{S}_z$。$\checkmark$
+
+**Step 5 — $S_z$ eigenvalues.** $S_z = (\hbar/2)\sigma_z$ has eigenvalues $(\hbar/2)\cdot(\pm1) = \pm\hbar/2$, with eigenvectors $\begin{pmatrix} 1 \\ 0 \end{pmatrix} = |\!\uparrow\rangle$ (eigenvalue $+\hbar/2$, "spin up") and $\begin{pmatrix} 0 \\ 1 \end{pmatrix} = |\!\downarrow\rangle$ (eigenvalue $-\hbar/2$, "spin down"). $\blacksquare$
+
+**第 5 步 — $S_z$ 本征值。** $S_z = (\hbar/2)\sigma_z$ 的本征值为 $(\hbar/2)\cdot(\pm1) = \pm\hbar/2$，本征向量分别为 $\begin{pmatrix} 1 \\ 0 \end{pmatrix} = |\!\uparrow\rangle$（本征值 $+\hbar/2$，"自旋向上"）和 $\begin{pmatrix} 0 \\ 1 \end{pmatrix} = |\!\downarrow\rangle$（本征值 $-\hbar/2$，"自旋向下"）。$\blacksquare$
