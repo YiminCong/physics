@@ -33,23 +33,23 @@ Work through these without notes before moving on.
 
 在继续之前，不看笔记完成以下题目。
 
-1. State the First and Second Laws in differential form. What distinguishes δQ and δW from dU, and why does the distinction matter?
-2. Starting from dU = T dS − P dV, derive the Helmholtz free energy F and write down the Maxwell relation it generates. What constraint does F being minimized correspond to?
-3. Sketch the Landau free energy F = a(T)η² + bη⁴ for T above, at, and below T_c. Show that η ∝ (T_c − T)^{1/2} below T_c. Name one later module where this same expansion appears.
-4. Define the canonical partition function Z, and show how F = −k_BT ln Z connects it to thermodynamics. Apply the equipartition theorem to find U and C_V for a monatomic ideal gas.
-5. Write down both the Fermi–Dirac and Bose–Einstein distributions. Explain why the Pauli principle forces the +1 in the denominator for fermions, and what happens when μ → ε_0 for bosons.
-6. A metal at low temperature has heat capacity C(T) = γT + βT³. Identify the physical origin of each term and state which phase of this curriculum each term connects to.
-7. Sketch the Maxwell–Boltzmann speed distribution and define the mean free path. Starting from the relaxation-time Boltzmann equation, outline how the Drude conductivity σ = ne²τ/m and Ohm's law emerge.
+1. State the First and Second Laws in differential form. What distinguishes $\delta Q$ and $\delta W$ from $dU$, and why does the distinction matter?
+2. Starting from $dU = T\, dS - P\, dV$, derive the Helmholtz free energy $F$ and write down the Maxwell relation it generates. What constraint does $F$ being minimized correspond to?
+3. Sketch the Landau free energy $F = a(T)\eta^2 + b\eta^4$ for $T$ above, at, and below $T_c$. Show that $\eta \propto (T_c - T)^{1/2}$ below $T_c$. Name one later module where this same expansion appears.
+4. Define the canonical partition function $Z$, and show how $F = -k_B T \ln Z$ connects it to thermodynamics. Apply the equipartition theorem to find $U$ and $C_V$ for a monatomic ideal gas.
+5. Write down both the Fermi–Dirac and Bose–Einstein distributions. Explain why the Pauli principle forces the $+1$ in the denominator for fermions, and what happens when $\mu \to \varepsilon_0$ for bosons.
+6. A metal at low temperature has heat capacity $C(T) = \gamma T + \beta T^3$. Identify the physical origin of each term and state which phase of this curriculum each term connects to.
+7. Sketch the Maxwell–Boltzmann speed distribution and define the mean free path. Starting from the relaxation-time Boltzmann equation, outline how the Drude conductivity $\sigma = ne^2\tau/m$ and Ohm's law emerge.
 
 **自测（空白页）**
 
-1. 以微分形式陈述热力学第一定律和第二定律。δQ 和 δW 与 dU 有何区别，这一区别为何重要？
-2. 从 dU = T dS − P dV 出发，推导亥姆霍兹自由能 F，并写出由此得到的麦克斯韦关系。F 极小对应什么约束条件？
-3. 分别在 T 高于、等于、低于 T_c 时，画出朗道自由能 F = a(T)η² + bη⁴ 的草图。证明在 T < T_c 时 η ∝ (T_c − T)^{1/2}。指出后续哪个模块再次用到该展开。
-4. 定义正则配分函数 Z，并说明 F = −k_BT ln Z 如何将其与热力学联系起来。对单原子理想气体运用能均分定理求 U 和 C_V。
-5. 写出费米–狄拉克分布和玻色–爱因斯坦分布。解释为什么泡利原理迫使费米子分母中出现 +1，以及当玻色子的 μ → ε_0 时会发生什么。
-6. 低温金属的热容为 C(T) = γT + βT³。指出每一项的物理来源，并说明课程中哪个阶段对应每一项。
-7. 画出麦克斯韦–玻尔兹曼速率分布草图，定义平均自由程。从弛豫时间玻尔兹曼方程出发，概述德鲁德电导率 σ = ne²τ/m 和欧姆定律是如何得出的。
+1. 以微分形式陈述热力学第一定律和第二定律。$\delta Q$ 和 $\delta W$ 与 $dU$ 有何区别，这一区别为何重要？
+2. 从 $dU = T\, dS - P\, dV$ 出发，推导亥姆霍兹自由能 $F$，并写出由此得到的麦克斯韦关系。$F$ 极小对应什么约束条件？
+3. 分别在 $T$ 高于、等于、低于 $T_c$ 时，画出朗道自由能 $F = a(T)\eta^2 + b\eta^4$ 的草图。证明在 $T < T_c$ 时 $\eta \propto (T_c - T)^{1/2}$。指出后续哪个模块再次用到该展开。
+4. 定义正则配分函数 $Z$，并说明 $F = -k_B T \ln Z$ 如何将其与热力学联系起来。对单原子理想气体运用能均分定理求 $U$ 和 $C_V$。
+5. 写出费米–狄拉克分布和玻色–爱因斯坦分布。解释为什么泡利原理迫使费米子分母中出现 $+1$，以及当玻色子的 $\mu \to \varepsilon_0$ 时会发生什么。
+6. 低温金属的热容为 $C(T) = \gamma T + \beta T^3$。指出每一项的物理来源，并说明课程中哪个阶段对应每一项。
+7. 画出麦克斯韦–玻尔兹曼速率分布草图，定义平均自由程。从弛豫时间玻尔兹曼方程出发，概述德鲁德电导率 $\sigma = ne^2\tau/m$ 和欧姆定律是如何得出的。
 
 ---
 
