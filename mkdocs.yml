@@ -63,150 +63,388 @@ exclude_docs: |
   Gemfile
   Gemfile.lock
 
-not_in_nav: |
-  *-derivations.md
 
 nav:
   - Home: README.md
   - "Phase 0 — Mathematical Foundations":
       - phase-0-mathematical-foundations/README.md
-      - "Module 0.1 — Calculus & Taylor Series": phase-0-mathematical-foundations/module-0.1-calculus-and-taylor-series.md
-      - "Module 0.2 — Linear Algebra": phase-0-mathematical-foundations/module-0.2-linear-algebra.md
-      - "Module 0.3 — Differential Equations": phase-0-mathematical-foundations/module-0.3-differential-equations.md
-      - "Module 0.4 — Complex Analysis": phase-0-mathematical-foundations/module-0.4-complex-analysis.md
-      - "Module 0.5 — Fourier Analysis & Probability": phase-0-mathematical-foundations/module-0.5-fourier-analysis-and-probability.md
-      - "Module 0.6 — Vector Calculus, Tensors & Differential Forms": phase-0-mathematical-foundations/module-0.6-vector-calculus-tensors-and-differential-forms.md
-      - "Module 0.7 — Group Theory & Lie Algebras": phase-0-mathematical-foundations/module-0.7-group-theory-and-lie-algebras.md
+      - "Module 0.1 — Calculus & Taylor Series":
+          - phase-0-mathematical-foundations/module-0.1-calculus-and-taylor-series.md
+          - Derivations (proofs): phase-0-mathematical-foundations/module-0.1-calculus-and-taylor-series-derivations.md
+      - "Module 0.2 — Linear Algebra":
+          - phase-0-mathematical-foundations/module-0.2-linear-algebra.md
+          - Derivations (proofs): phase-0-mathematical-foundations/module-0.2-linear-algebra-derivations.md
+      - "Module 0.3 — Differential Equations":
+          - phase-0-mathematical-foundations/module-0.3-differential-equations.md
+          - Derivations (proofs): phase-0-mathematical-foundations/module-0.3-differential-equations-derivations.md
+      - "Module 0.4 — Complex Analysis":
+          - phase-0-mathematical-foundations/module-0.4-complex-analysis.md
+          - Derivations (proofs): phase-0-mathematical-foundations/module-0.4-complex-analysis-derivations.md
+      - "Module 0.5 — Fourier Analysis & Probability":
+          - phase-0-mathematical-foundations/module-0.5-fourier-analysis-and-probability.md
+          - Derivations (proofs): phase-0-mathematical-foundations/module-0.5-fourier-analysis-and-probability-derivations.md
+      - "Module 0.6 — Vector Calculus, Tensors & Differential Forms":
+          - phase-0-mathematical-foundations/module-0.6-vector-calculus-tensors-and-differential-forms.md
+          - Derivations (proofs): phase-0-mathematical-foundations/module-0.6-vector-calculus-tensors-and-differential-forms-derivations.md
+      - "Module 0.7 — Group Theory & Lie Algebras":
+          - phase-0-mathematical-foundations/module-0.7-group-theory-and-lie-algebras.md
+          - Derivations (proofs): phase-0-mathematical-foundations/module-0.7-group-theory-and-lie-algebras-derivations.md
   - "Phase 1 — Classical Physics":
       - phase-1-classical-physics/README.md
-      - "Module 1.1 — Newtonian Mechanics": phase-1-classical-physics/module-1.1-newtonian-mechanics.md
-      - "Module 1.2 — Conservation Laws": phase-1-classical-physics/module-1.2-conservation-laws.md
-      - "Module 1.3 — Lagrangian Mechanics & the Variational Principle": phase-1-classical-physics/module-1.3-lagrangian-mechanics.md
-      - "Module 1.4 — Hamiltonian Mechanics, Action & Noether's Theorem": phase-1-classical-physics/module-1.4-hamiltonian-mechanics-noether.md
-      - "Module 1.5 — Central-Force Problem & Kepler": phase-1-classical-physics/module-1.5-central-force-kepler.md
-      - "Module 1.6 — Small Oscillations & Coupled Oscillators": phase-1-classical-physics/module-1.6-small-oscillations-coupled-oscillators.md
-      - "Module 1.7 — Rigid-Body Dynamics & Non-Inertial Frames": phase-1-classical-physics/module-1.7-rigid-body-non-inertial-frames.md
-      - "Module 1.8 — Electrostatics & Boundary-Value Problems": phase-1-classical-physics/module-1.8-electrostatics-boundary-value-problems.md
-      - "Module 1.9 — Magnetostatics": phase-1-classical-physics/module-1.9-magnetostatics.md
-      - "Module 1.10 — Electrodynamics & Maxwell's Equations": phase-1-classical-physics/module-1.10-electrodynamics-maxwell-equations.md
-      - "Module 1.11 — Electromagnetic Waves & Radiation": phase-1-classical-physics/module-1.11-em-waves-radiation.md
-      - "Module 1.12 — Optics & Interference": phase-1-classical-physics/module-1.12-optics-interference.md
-      - "Module 1.13 — Special Relativity — Kinematics": phase-1-classical-physics/module-1.13-special-relativity-kinematics.md
-      - "Module 1.14 — Relativistic Dynamics & E = mc²": phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum.md
-      - "Module 1.15 — Covariant Electromagnetism": phase-1-classical-physics/module-1.15-covariant-electromagnetism.md
-      - "Module 1.16 — Mechanical Waves & Acoustics": phase-1-classical-physics/module-1.16-mechanical-waves-acoustics.md
-      - "Module 1.17 — Fluid Mechanics": phase-1-classical-physics/module-1.17-fluid-mechanics.md
-      - "Module 1.18 — Continuum Mechanics & Elasticity": phase-1-classical-physics/module-1.18-continuum-mechanics-elasticity.md
-      - "Module 1.19 — Nonlinear Dynamics & Chaos": phase-1-classical-physics/module-1.19-nonlinear-dynamics-chaos.md
-      - "Module 1.20 — Canonical Transformations, Hamilton–Jacobi Theory & Action–Angle Variables": phase-1-classical-physics/module-1.20-canonical-transformations-hamilton-jacobi.md
-      - "Module 1.21 — Classical Scattering Theory": phase-1-classical-physics/module-1.21-classical-scattering.md
-      - "Module 1.22 — Retarded Potentials, Multipole Radiation & Radiation Reaction": phase-1-classical-physics/module-1.22-retarded-potentials-radiation-reaction.md
-      - "Module 1.23 — Waveguides, Cavity Resonators & Transmission Lines": phase-1-classical-physics/module-1.23-waveguides-cavities-transmission-lines.md
+      - "Module 1.1 — Newtonian Mechanics":
+          - phase-1-classical-physics/module-1.1-newtonian-mechanics.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.1-newtonian-mechanics-derivations.md
+      - "Module 1.2 — Conservation Laws":
+          - phase-1-classical-physics/module-1.2-conservation-laws.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.2-conservation-laws-derivations.md
+      - "Module 1.3 — Lagrangian Mechanics & the Variational Principle":
+          - phase-1-classical-physics/module-1.3-lagrangian-mechanics.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.3-lagrangian-mechanics-derivations.md
+      - "Module 1.4 — Hamiltonian Mechanics, Action & Noether's Theorem":
+          - phase-1-classical-physics/module-1.4-hamiltonian-mechanics-noether.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.4-hamiltonian-mechanics-noether-derivations.md
+      - "Module 1.5 — Central-Force Problem & Kepler":
+          - phase-1-classical-physics/module-1.5-central-force-kepler.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.5-central-force-kepler-derivations.md
+      - "Module 1.6 — Small Oscillations & Coupled Oscillators":
+          - phase-1-classical-physics/module-1.6-small-oscillations-coupled-oscillators.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.6-small-oscillations-coupled-oscillators-derivations.md
+      - "Module 1.7 — Rigid-Body Dynamics & Non-Inertial Frames":
+          - phase-1-classical-physics/module-1.7-rigid-body-non-inertial-frames.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.7-rigid-body-non-inertial-frames-derivations.md
+      - "Module 1.8 — Electrostatics & Boundary-Value Problems":
+          - phase-1-classical-physics/module-1.8-electrostatics-boundary-value-problems.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.8-electrostatics-boundary-value-problems-derivations.md
+      - "Module 1.9 — Magnetostatics":
+          - phase-1-classical-physics/module-1.9-magnetostatics.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.9-magnetostatics-derivations.md
+      - "Module 1.10 — Electrodynamics & Maxwell's Equations":
+          - phase-1-classical-physics/module-1.10-electrodynamics-maxwell-equations.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.10-electrodynamics-maxwell-equations-derivations.md
+      - "Module 1.11 — Electromagnetic Waves & Radiation":
+          - phase-1-classical-physics/module-1.11-em-waves-radiation.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.11-em-waves-radiation-derivations.md
+      - "Module 1.12 — Optics & Interference":
+          - phase-1-classical-physics/module-1.12-optics-interference.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.12-optics-interference-derivations.md
+      - "Module 1.13 — Special Relativity — Kinematics":
+          - phase-1-classical-physics/module-1.13-special-relativity-kinematics.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.13-special-relativity-kinematics-derivations.md
+      - "Module 1.14 — Relativistic Dynamics & E = mc²":
+          - phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum-derivations.md
+      - "Module 1.15 — Covariant Electromagnetism":
+          - phase-1-classical-physics/module-1.15-covariant-electromagnetism.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.15-covariant-electromagnetism-derivations.md
+      - "Module 1.16 — Mechanical Waves & Acoustics":
+          - phase-1-classical-physics/module-1.16-mechanical-waves-acoustics.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.16-mechanical-waves-acoustics-derivations.md
+      - "Module 1.17 — Fluid Mechanics":
+          - phase-1-classical-physics/module-1.17-fluid-mechanics.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.17-fluid-mechanics-derivations.md
+      - "Module 1.18 — Continuum Mechanics & Elasticity":
+          - phase-1-classical-physics/module-1.18-continuum-mechanics-elasticity.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.18-continuum-mechanics-elasticity-derivations.md
+      - "Module 1.19 — Nonlinear Dynamics & Chaos":
+          - phase-1-classical-physics/module-1.19-nonlinear-dynamics-chaos.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.19-nonlinear-dynamics-chaos-derivations.md
+      - "Module 1.20 — Canonical Transformations, Hamilton–Jacobi Theory & Action–Angle Variables":
+          - phase-1-classical-physics/module-1.20-canonical-transformations-hamilton-jacobi.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.20-canonical-transformations-hamilton-jacobi-derivations.md
+      - "Module 1.21 — Classical Scattering Theory":
+          - phase-1-classical-physics/module-1.21-classical-scattering.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.21-classical-scattering-derivations.md
+      - "Module 1.22 — Retarded Potentials, Multipole Radiation & Radiation Reaction":
+          - phase-1-classical-physics/module-1.22-retarded-potentials-radiation-reaction.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.22-retarded-potentials-radiation-reaction-derivations.md
+      - "Module 1.23 — Waveguides, Cavity Resonators & Transmission Lines":
+          - phase-1-classical-physics/module-1.23-waveguides-cavities-transmission-lines.md
+          - Derivations (proofs): phase-1-classical-physics/module-1.23-waveguides-cavities-transmission-lines-derivations.md
   - "Phase 2 — Thermodynamics & Statistical Mechanics":
       - phase-2-thermodynamics-statistical-mechanics/README.md
-      - "Module 2.1 — The Laws of Thermodynamics": phase-2-thermodynamics-statistical-mechanics/module-2.1-laws-of-thermodynamics.md
-      - "Module 2.2 — Thermodynamic Potentials & Maxwell Relations": phase-2-thermodynamics-statistical-mechanics/module-2.2-thermodynamic-potentials.md
-      - "Module 2.3 — Free Energy & Phase Transitions": phase-2-thermodynamics-statistical-mechanics/module-2.3-free-energy-phase-transitions.md
-      - "Module 2.4 — Classical Statistical Mechanics": phase-2-thermodynamics-statistical-mechanics/module-2.4-classical-statistical-mechanics.md
-      - "Module 2.5 — Quantum Statistics": phase-2-thermodynamics-statistical-mechanics/module-2.5-quantum-statistics.md
-      - "Module 2.6 — Quantum Gases & Applications": phase-2-thermodynamics-statistical-mechanics/module-2.6-quantum-gases-applications.md
-      - "Module 2.7 — Kinetic Theory & Transport": phase-2-thermodynamics-statistical-mechanics/module-2.7-kinetic-theory-and-transport.md
-      - "Module 2.8 — Brownian Motion & the Einstein Relation": phase-2-thermodynamics-statistical-mechanics/module-2.8-brownian-motion-and-the-einstein-relation.md
+      - "Module 2.1 — The Laws of Thermodynamics":
+          - phase-2-thermodynamics-statistical-mechanics/module-2.1-laws-of-thermodynamics.md
+          - Derivations (proofs): phase-2-thermodynamics-statistical-mechanics/module-2.1-derivations.md
+      - "Module 2.2 — Thermodynamic Potentials & Maxwell Relations":
+          - phase-2-thermodynamics-statistical-mechanics/module-2.2-thermodynamic-potentials.md
+          - Derivations (proofs): phase-2-thermodynamics-statistical-mechanics/module-2.2-derivations.md
+      - "Module 2.3 — Free Energy & Phase Transitions":
+          - phase-2-thermodynamics-statistical-mechanics/module-2.3-free-energy-phase-transitions.md
+          - Derivations (proofs): phase-2-thermodynamics-statistical-mechanics/module-2.3-derivations.md
+      - "Module 2.4 — Classical Statistical Mechanics":
+          - phase-2-thermodynamics-statistical-mechanics/module-2.4-classical-statistical-mechanics.md
+          - Derivations (proofs): phase-2-thermodynamics-statistical-mechanics/module-2.4-derivations.md
+      - "Module 2.5 — Quantum Statistics":
+          - phase-2-thermodynamics-statistical-mechanics/module-2.5-quantum-statistics.md
+          - Derivations (proofs): phase-2-thermodynamics-statistical-mechanics/module-2.5-derivations.md
+      - "Module 2.6 — Quantum Gases & Applications":
+          - phase-2-thermodynamics-statistical-mechanics/module-2.6-quantum-gases-applications.md
+          - Derivations (proofs): phase-2-thermodynamics-statistical-mechanics/module-2.6-derivations.md
+      - "Module 2.7 — Kinetic Theory & Transport":
+          - phase-2-thermodynamics-statistical-mechanics/module-2.7-kinetic-theory-and-transport.md
+          - Derivations (proofs): phase-2-thermodynamics-statistical-mechanics/module-2.7-derivations.md
+      - "Module 2.8 — Brownian Motion & the Einstein Relation":
+          - phase-2-thermodynamics-statistical-mechanics/module-2.8-brownian-motion-and-the-einstein-relation.md
+          - Derivations (proofs): phase-2-thermodynamics-statistical-mechanics/module-2.8-derivations.md
   - "Phase 3 — Quantum Mechanics (the core)":
       - phase-3-quantum-mechanics/README.md
-      - "Module 3.0 — Old Quantum Theory & the Photoelectric Effect": phase-3-quantum-mechanics/module-3.0-old-quantum-theory-and-photoelectric-effect.md
-      - "Module 3.1 — The Wave Function": phase-3-quantum-mechanics/module-3.1-the-wave-function.md
-      - "Module 3.2 — Time-Independent Schrödinger Equation": phase-3-quantum-mechanics/module-3.2-time-independent-schrodinger-equation.md
-      - "Module 3.3 — Formalism": phase-3-quantum-mechanics/module-3.3-formalism.md
-      - "Module 3.4 — Quantum Mechanics in 3D (Angular Momentum, Hydrogen, Spin)": phase-3-quantum-mechanics/module-3.4-quantum-mechanics-in-3d.md
-      - "Module 3.5 — Identical Particles": phase-3-quantum-mechanics/module-3.5-identical-particles.md
-      - "Module 3.6 — Time-Independent Perturbation Theory": phase-3-quantum-mechanics/module-3.6-time-independent-perturbation-theory.md
-      - "Module 3.7 — Variational & WKB Methods": phase-3-quantum-mechanics/module-3.7-variational-and-wkb-methods.md
-      - "Module 3.8 — Time-Dependent Perturbation Theory & Scattering": phase-3-quantum-mechanics/module-3.8-time-dependent-perturbation-theory-and-scattering.md
-      - "Module 3.9 — Fundamental Concepts (Graduate, Sakurai)": phase-3-quantum-mechanics/module-3.9-fundamental-concepts.md
-      - "Module 3.10 — Quantum Dynamics": phase-3-quantum-mechanics/module-3.10-quantum-dynamics.md
-      - "Module 3.11 — Angular Momentum, Advanced (Addition & Spin)": phase-3-quantum-mechanics/module-3.11-angular-momentum-advanced.md
-      - "Module 3.12 — Symmetry, Identical Particles & Second Quantization": phase-3-quantum-mechanics/module-3.12-second-quantization.md
-      - "Module 3.13 — Entanglement, EPR & Bell's Theorem": phase-3-quantum-mechanics/module-3.13-entanglement-epr-and-bell.md
-      - "Module 3.14 — Density Matrix & Open Quantum Systems": phase-3-quantum-mechanics/module-3.14-density-matrix-and-open-quantum-systems.md
-      - "Module 3.15 — Relativistic Quantum Mechanics": phase-3-quantum-mechanics/module-3.15-relativistic-quantum-mechanics.md
-      - "Module 3.16 — Quantum Computation & Information": phase-3-quantum-mechanics/module-3.16-quantum-computation-and-information.md
-      - "Module 3.17 — Quantum Algorithms & Error Correction": phase-3-quantum-mechanics/module-3.17-quantum-algorithms-and-error-correction.md
-      - "Module 3.18 — Quantum Scattering Theory": phase-3-quantum-mechanics/module-3.18-quantum-scattering-theory.md
+      - "Module 3.0 — Old Quantum Theory & the Photoelectric Effect":
+          - phase-3-quantum-mechanics/module-3.0-old-quantum-theory-and-photoelectric-effect.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.0-derivations.md
+      - "Module 3.1 — The Wave Function":
+          - phase-3-quantum-mechanics/module-3.1-the-wave-function.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.1-derivations.md
+      - "Module 3.2 — Time-Independent Schrödinger Equation":
+          - phase-3-quantum-mechanics/module-3.2-time-independent-schrodinger-equation.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.2-derivations.md
+      - "Module 3.3 — Formalism":
+          - phase-3-quantum-mechanics/module-3.3-formalism.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.3-derivations.md
+      - "Module 3.4 — Quantum Mechanics in 3D (Angular Momentum, Hydrogen, Spin)":
+          - phase-3-quantum-mechanics/module-3.4-quantum-mechanics-in-3d.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.4-derivations.md
+      - "Module 3.5 — Identical Particles":
+          - phase-3-quantum-mechanics/module-3.5-identical-particles.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.5-derivations.md
+      - "Module 3.6 — Time-Independent Perturbation Theory":
+          - phase-3-quantum-mechanics/module-3.6-time-independent-perturbation-theory.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.6-derivations.md
+      - "Module 3.7 — Variational & WKB Methods":
+          - phase-3-quantum-mechanics/module-3.7-variational-and-wkb-methods.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.7-derivations.md
+      - "Module 3.8 — Time-Dependent Perturbation Theory & Scattering":
+          - phase-3-quantum-mechanics/module-3.8-time-dependent-perturbation-theory-and-scattering.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.8-derivations.md
+      - "Module 3.9 — Fundamental Concepts (Graduate, Sakurai)":
+          - phase-3-quantum-mechanics/module-3.9-fundamental-concepts.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.9-derivations.md
+      - "Module 3.10 — Quantum Dynamics":
+          - phase-3-quantum-mechanics/module-3.10-quantum-dynamics.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.10-derivations.md
+      - "Module 3.11 — Angular Momentum, Advanced (Addition & Spin)":
+          - phase-3-quantum-mechanics/module-3.11-angular-momentum-advanced.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.11-derivations.md
+      - "Module 3.12 — Symmetry, Identical Particles & Second Quantization":
+          - phase-3-quantum-mechanics/module-3.12-second-quantization.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.12-derivations.md
+      - "Module 3.13 — Entanglement, EPR & Bell's Theorem":
+          - phase-3-quantum-mechanics/module-3.13-entanglement-epr-and-bell.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.13-derivations.md
+      - "Module 3.14 — Density Matrix & Open Quantum Systems":
+          - phase-3-quantum-mechanics/module-3.14-density-matrix-and-open-quantum-systems.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.14-density-matrix-and-open-quantum-systems-derivations.md
+      - "Module 3.15 — Relativistic Quantum Mechanics":
+          - phase-3-quantum-mechanics/module-3.15-relativistic-quantum-mechanics.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.15-relativistic-quantum-mechanics-derivations.md
+      - "Module 3.16 — Quantum Computation & Information":
+          - phase-3-quantum-mechanics/module-3.16-quantum-computation-and-information.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.16-quantum-computation-and-information-derivations.md
+      - "Module 3.17 — Quantum Algorithms & Error Correction":
+          - phase-3-quantum-mechanics/module-3.17-quantum-algorithms-and-error-correction.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.17-quantum-algorithms-and-error-correction-derivations.md
+      - "Module 3.18 — Quantum Scattering Theory":
+          - phase-3-quantum-mechanics/module-3.18-quantum-scattering-theory.md
+          - Derivations (proofs): phase-3-quantum-mechanics/module-3.18-quantum-scattering-theory-derivations.md
   - "Phase 4 — Condensed Matter / Solid State":
       - phase-4-condensed-matter/README.md
-      - "Module 4.1 — Electrons and Heat in Solids": phase-4-condensed-matter/module-4.1-electrons-and-heat-in-solids.md
-      - "Module 4.2 — Crystal Structure & Reciprocal Space": phase-4-condensed-matter/module-4.2-crystal-structure-and-reciprocal-space.md
-      - "Module 4.3 — Lattice Vibrations & Phonons": phase-4-condensed-matter/module-4.3-lattice-vibrations-and-phonons.md
-      - "Module 4.4 — Electrons in a Periodic Potential": phase-4-condensed-matter/module-4.4-electrons-in-a-periodic-potential.md
-      - "Module 4.5 — Fermi Surface & Electron–Phonon Coupling": phase-4-condensed-matter/module-4.5-fermi-surface-and-electron-phonon-coupling.md
-      - "Module 4.6 — Magnetism & Spin Waves": phase-4-condensed-matter/module-4.6-magnetism-and-spin-waves.md
-      - "Module 4.7 — Semiconductor Physics": phase-4-condensed-matter/module-4.7-semiconductor-physics.md
-      - "Module 4.8 — Quantum Hall Effect": phase-4-condensed-matter/module-4.8-quantum-hall-effect.md
-      - "Module 4.9 — Topological Matter & Berry Phase": phase-4-condensed-matter/module-4.9-topological-matter-and-berry-phase.md
-      - "Module 4.10 — Landau Fermi-Liquid Theory": phase-4-condensed-matter/module-4.10-landau-fermi-liquid-theory.md
-      - "Module 4.11 — Linear Response, Transport & the Kubo Formula": phase-4-condensed-matter/module-4.11-linear-response-and-transport.md
-      - "Module 4.12 — The Hubbard Model & Mott Insulators": phase-4-condensed-matter/module-4.12-hubbard-model-and-mott-insulators.md
+      - "Module 4.1 — Electrons and Heat in Solids":
+          - phase-4-condensed-matter/module-4.1-electrons-and-heat-in-solids.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.1-derivations.md
+      - "Module 4.2 — Crystal Structure & Reciprocal Space":
+          - phase-4-condensed-matter/module-4.2-crystal-structure-and-reciprocal-space.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.2-derivations.md
+      - "Module 4.3 — Lattice Vibrations & Phonons":
+          - phase-4-condensed-matter/module-4.3-lattice-vibrations-and-phonons.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.3-derivations.md
+      - "Module 4.4 — Electrons in a Periodic Potential":
+          - phase-4-condensed-matter/module-4.4-electrons-in-a-periodic-potential.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.4-derivations.md
+      - "Module 4.5 — Fermi Surface & Electron–Phonon Coupling":
+          - phase-4-condensed-matter/module-4.5-fermi-surface-and-electron-phonon-coupling.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.5-derivations.md
+      - "Module 4.6 — Magnetism & Spin Waves":
+          - phase-4-condensed-matter/module-4.6-magnetism-and-spin-waves.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.6-derivations.md
+      - "Module 4.7 — Semiconductor Physics":
+          - phase-4-condensed-matter/module-4.7-semiconductor-physics.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.7-derivations.md
+      - "Module 4.8 — Quantum Hall Effect":
+          - phase-4-condensed-matter/module-4.8-quantum-hall-effect.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.8-derivations.md
+      - "Module 4.9 — Topological Matter & Berry Phase":
+          - phase-4-condensed-matter/module-4.9-topological-matter-and-berry-phase.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.9-derivations.md
+      - "Module 4.10 — Landau Fermi-Liquid Theory":
+          - phase-4-condensed-matter/module-4.10-landau-fermi-liquid-theory.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.10-landau-fermi-liquid-theory-derivations.md
+      - "Module 4.11 — Linear Response, Transport & the Kubo Formula":
+          - phase-4-condensed-matter/module-4.11-linear-response-and-transport.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.11-linear-response-and-transport-derivations.md
+      - "Module 4.12 — The Hubbard Model & Mott Insulators":
+          - phase-4-condensed-matter/module-4.12-hubbard-model-and-mott-insulators.md
+          - Derivations (proofs): phase-4-condensed-matter/module-4.12-hubbard-model-and-mott-insulators-derivations.md
   - "Phase 5 — Superconductivity (the destination)":
       - phase-5-superconductivity/README.md
-      - "Module 5.1 — Phenomenology": phase-5-superconductivity/module-5.1-phenomenology.md
-      - "Module 5.2 — London Theory": phase-5-superconductivity/module-5.2-london-theory.md
-      - "Module 5.3 — Ginzburg–Landau Theory": phase-5-superconductivity/module-5.3-ginzburg-landau-theory.md
-      - "Module 5.4 — The Cooper Problem": phase-5-superconductivity/module-5.4-the-cooper-problem.md
-      - "Module 5.5 — BCS Theory": phase-5-superconductivity/module-5.5-bcs-theory.md
-      - "Module 5.6 — Tunneling & the Gap": phase-5-superconductivity/module-5.6-tunneling-and-the-gap.md
-      - "Module 5.7 — Type II Superconductors & Vortices": phase-5-superconductivity/module-5.7-type-ii-superconductors-and-vortices.md
-      - "Module 5.8 — Josephson Effects": phase-5-superconductivity/module-5.8-josephson-effects.md
-      - "Module 5.9 — Unconventional & High-Tᶜ Superconductors": phase-5-superconductivity/module-5.9-unconventional-and-high-tc-superconductors.md
-      - "Module 5.10 — Bogoliubov–de Gennes & Andreev Reflection": phase-5-superconductivity/module-5.10-bogoliubov-de-gennes-and-andreev-reflection.md
-      - "Module 5.11 — Topological Superconductivity & Majorana Modes": phase-5-superconductivity/module-5.11-topological-superconductivity-and-majorana.md
+      - "Module 5.1 — Phenomenology":
+          - phase-5-superconductivity/module-5.1-phenomenology.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.1-phenomenology-derivations.md
+      - "Module 5.2 — London Theory":
+          - phase-5-superconductivity/module-5.2-london-theory.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.2-london-theory-derivations.md
+      - "Module 5.3 — Ginzburg–Landau Theory":
+          - phase-5-superconductivity/module-5.3-ginzburg-landau-theory.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.3-ginzburg-landau-theory-derivations.md
+      - "Module 5.4 — The Cooper Problem":
+          - phase-5-superconductivity/module-5.4-the-cooper-problem.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.4-the-cooper-problem-derivations.md
+      - "Module 5.5 — BCS Theory":
+          - phase-5-superconductivity/module-5.5-bcs-theory.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.5-bcs-theory-derivations.md
+      - "Module 5.6 — Tunneling & the Gap":
+          - phase-5-superconductivity/module-5.6-tunneling-and-the-gap.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.6-tunneling-and-the-gap-derivations.md
+      - "Module 5.7 — Type II Superconductors & Vortices":
+          - phase-5-superconductivity/module-5.7-type-ii-superconductors-and-vortices.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.7-type-ii-superconductors-and-vortices-derivations.md
+      - "Module 5.8 — Josephson Effects":
+          - phase-5-superconductivity/module-5.8-josephson-effects.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.8-josephson-effects-derivations.md
+      - "Module 5.9 — Unconventional & High-Tᶜ Superconductors":
+          - phase-5-superconductivity/module-5.9-unconventional-and-high-tc-superconductors.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.9-unconventional-and-high-tc-superconductors-derivations.md
+      - "Module 5.10 — Bogoliubov–de Gennes & Andreev Reflection":
+          - phase-5-superconductivity/module-5.10-bogoliubov-de-gennes-and-andreev-reflection.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.10-bogoliubov-de-gennes-and-andreev-reflection-derivations.md
+      - "Module 5.11 — Topological Superconductivity & Majorana Modes":
+          - phase-5-superconductivity/module-5.11-topological-superconductivity-and-majorana.md
+          - Derivations (proofs): phase-5-superconductivity/module-5.11-topological-superconductivity-and-majorana-derivations.md
   - "Phase 6 — Quantum Field Theory & Many-Body Physics":
       - phase-6-quantum-field-theory/README.md
-      - "Module 6.1 — Second Quantization & the Many-Body Problem": phase-6-quantum-field-theory/module-6.1-second-quantization.md
-      - "Module 6.2 — Green's Functions & Propagators": phase-6-quantum-field-theory/module-6.2-greens-functions.md
-      - "Module 6.3 — Feynman Diagrams & Perturbation Theory": phase-6-quantum-field-theory/module-6.3-feynman-diagrams.md
-      - "Module 6.4 — Path Integrals & Field Theory": phase-6-quantum-field-theory/module-6.4-path-integrals.md
-      - "Module 6.5 — Canonical Quantization of Fields": phase-6-quantum-field-theory/module-6.5-canonical-quantization.md
-      - "Module 6.6 — Renormalization & the Renormalization Group": phase-6-quantum-field-theory/module-6.6-renormalization.md
-      - "Module 6.7 — Exactly Solvable Models & Long-Range Order": phase-6-quantum-field-theory/module-6.7-exactly-solvable-models-and-long-range-order.md
-      - "Module 6.8 — Scattering, the S-Matrix & LSZ Reduction": phase-6-quantum-field-theory/module-6.8-scattering-s-matrix-and-lsz.md
-      - "Module 6.9 — Anomalies & Non-Perturbative QFT": phase-6-quantum-field-theory/module-6.9-anomalies-and-nonperturbative-qft.md
-      - "Module 6.10 — Spontaneous Symmetry Breaking & Goldstone's Theorem": phase-6-quantum-field-theory/module-6.10-spontaneous-symmetry-breaking-and-goldstone.md
-      - "Module 6.11 — Effective Field Theory & the Wilsonian Renormalization Group": phase-6-quantum-field-theory/module-6.11-effective-field-theory-and-the-renormalization-group.md
-      - "Module 6.12 — Finite-Temperature Field Theory (the Matsubara Formalism)": phase-6-quantum-field-theory/module-6.12-finite-temperature-field-theory.md
+      - "Module 6.1 — Second Quantization & the Many-Body Problem":
+          - phase-6-quantum-field-theory/module-6.1-second-quantization.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.1-second-quantization-derivations.md
+      - "Module 6.2 — Green's Functions & Propagators":
+          - phase-6-quantum-field-theory/module-6.2-greens-functions.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.2-greens-functions-derivations.md
+      - "Module 6.3 — Feynman Diagrams & Perturbation Theory":
+          - phase-6-quantum-field-theory/module-6.3-feynman-diagrams.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.3-feynman-diagrams-derivations.md
+      - "Module 6.4 — Path Integrals & Field Theory":
+          - phase-6-quantum-field-theory/module-6.4-path-integrals.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.4-path-integrals-derivations.md
+      - "Module 6.5 — Canonical Quantization of Fields":
+          - phase-6-quantum-field-theory/module-6.5-canonical-quantization.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.5-canonical-quantization-derivations.md
+      - "Module 6.6 — Renormalization & the Renormalization Group":
+          - phase-6-quantum-field-theory/module-6.6-renormalization.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.6-renormalization-derivations.md
+      - "Module 6.7 — Exactly Solvable Models & Long-Range Order":
+          - phase-6-quantum-field-theory/module-6.7-exactly-solvable-models-and-long-range-order.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.7-exactly-solvable-models-and-long-range-order-derivations.md
+      - "Module 6.8 — Scattering, the S-Matrix & LSZ Reduction":
+          - phase-6-quantum-field-theory/module-6.8-scattering-s-matrix-and-lsz.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.8-scattering-s-matrix-and-lsz-derivations.md
+      - "Module 6.9 — Anomalies & Non-Perturbative QFT":
+          - phase-6-quantum-field-theory/module-6.9-anomalies-and-nonperturbative-qft.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.9-anomalies-and-nonperturbative-qft-derivations.md
+      - "Module 6.10 — Spontaneous Symmetry Breaking & Goldstone's Theorem":
+          - phase-6-quantum-field-theory/module-6.10-spontaneous-symmetry-breaking-and-goldstone.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.10-spontaneous-symmetry-breaking-and-goldstone-derivations.md
+      - "Module 6.11 — Effective Field Theory & the Wilsonian Renormalization Group":
+          - phase-6-quantum-field-theory/module-6.11-effective-field-theory-and-the-renormalization-group.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.11-effective-field-theory-and-the-renormalization-group-derivations.md
+      - "Module 6.12 — Finite-Temperature Field Theory (the Matsubara Formalism)":
+          - phase-6-quantum-field-theory/module-6.12-finite-temperature-field-theory.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.12-finite-temperature-field-theory-derivations.md
   - "Phase 7 — General Relativity & Cosmology":
       - phase-7-general-relativity-and-cosmology/README.md
-      - "Module 7.1 — The Equivalence Principle & Curved Spacetime": phase-7-general-relativity-and-cosmology/module-7.1-equivalence-principle-and-curved-spacetime.md
-      - "Module 7.2 — Tensors, the Metric & Curvature": phase-7-general-relativity-and-cosmology/module-7.2-tensors-metric-and-curvature.md
-      - "Module 7.3 — Geodesics & the Motion of Particles": phase-7-general-relativity-and-cosmology/module-7.3-geodesics-and-motion-of-particles.md
-      - "Module 7.4 — Einstein's Field Equations": phase-7-general-relativity-and-cosmology/module-7.4-einsteins-field-equations.md
-      - "Module 7.5 — Black Holes & Gravitational Waves": phase-7-general-relativity-and-cosmology/module-7.5-black-holes-and-gravitational-waves.md
-      - "Module 7.6 — Cosmology": phase-7-general-relativity-and-cosmology/module-7.6-cosmology.md
-      - "Module 7.7 — Tests of GR & Gravitational-Wave Astronomy": phase-7-general-relativity-and-cosmology/module-7.7-tests-of-gr-and-gravitational-wave-astronomy.md
-      - "Module 7.8 — Global Structure & Singularity Theorems": phase-7-general-relativity-and-cosmology/module-7.8-global-structure-and-singularity-theorems.md
+      - "Module 7.1 — The Equivalence Principle & Curved Spacetime":
+          - phase-7-general-relativity-and-cosmology/module-7.1-equivalence-principle-and-curved-spacetime.md
+          - Derivations (proofs): phase-7-general-relativity-and-cosmology/module-7.1-equivalence-principle-and-curved-spacetime-derivations.md
+      - "Module 7.2 — Tensors, the Metric & Curvature":
+          - phase-7-general-relativity-and-cosmology/module-7.2-tensors-metric-and-curvature.md
+          - Derivations (proofs): phase-7-general-relativity-and-cosmology/module-7.2-tensors-metric-and-curvature-derivations.md
+      - "Module 7.3 — Geodesics & the Motion of Particles":
+          - phase-7-general-relativity-and-cosmology/module-7.3-geodesics-and-motion-of-particles.md
+          - Derivations (proofs): phase-7-general-relativity-and-cosmology/module-7.3-geodesics-and-motion-of-particles-derivations.md
+      - "Module 7.4 — Einstein's Field Equations":
+          - phase-7-general-relativity-and-cosmology/module-7.4-einsteins-field-equations.md
+          - Derivations (proofs): phase-7-general-relativity-and-cosmology/module-7.4-einsteins-field-equations-derivations.md
+      - "Module 7.5 — Black Holes & Gravitational Waves":
+          - phase-7-general-relativity-and-cosmology/module-7.5-black-holes-and-gravitational-waves.md
+          - Derivations (proofs): phase-7-general-relativity-and-cosmology/module-7.5-black-holes-and-gravitational-waves-derivations.md
+      - "Module 7.6 — Cosmology":
+          - phase-7-general-relativity-and-cosmology/module-7.6-cosmology.md
+          - Derivations (proofs): phase-7-general-relativity-and-cosmology/module-7.6-cosmology-derivations.md
+      - "Module 7.7 — Tests of GR & Gravitational-Wave Astronomy":
+          - phase-7-general-relativity-and-cosmology/module-7.7-tests-of-gr-and-gravitational-wave-astronomy.md
+          - Derivations (proofs): phase-7-general-relativity-and-cosmology/module-7.7-tests-of-gr-and-gravitational-wave-astronomy-derivations.md
+      - "Module 7.8 — Global Structure & Singularity Theorems":
+          - phase-7-general-relativity-and-cosmology/module-7.8-global-structure-and-singularity-theorems.md
+          - Derivations (proofs): phase-7-general-relativity-and-cosmology/module-7.8-global-structure-and-singularity-theorems-derivations.md
   - "Phase 8 — Particle Physics & the Standard Model":
       - phase-8-particle-physics-and-standard-model/README.md
-      - "Module 8.1 — Symmetries & Gauge Theory": phase-8-particle-physics-and-standard-model/module-8.1-symmetries-and-gauge-theory.md
-      - "Module 8.2 — Quantum Electrodynamics (QED)": phase-8-particle-physics-and-standard-model/module-8.2-quantum-electrodynamics.md
-      - "Module 8.3 — The Strong Interaction (QCD)": phase-8-particle-physics-and-standard-model/module-8.3-quantum-chromodynamics.md
-      - "Module 8.4 — Electroweak Theory & the Higgs": phase-8-particle-physics-and-standard-model/module-8.4-electroweak-theory-and-higgs.md
-      - "Module 8.5 — The Standard Model & Beyond": phase-8-particle-physics-and-standard-model/module-8.5-standard-model-and-beyond.md
-      - "Module 8.6 — Particle Physics & Cosmology": phase-8-particle-physics-and-standard-model/module-8.6-particle-physics-and-cosmology.md
-      - "Module 8.7 — Parity Violation & the Weak Interaction (Lee–Yang)": phase-8-particle-physics-and-standard-model/module-8.7-parity-violation-and-the-weak-interaction.md
-      - "Module 8.8 — The Quark Model & Hadron Spectroscopy": phase-8-particle-physics-and-standard-model/module-8.8-quark-model-and-hadron-spectroscopy.md
-      - "Module 8.9 — Deep Inelastic Scattering & Partons": phase-8-particle-physics-and-standard-model/module-8.9-deep-inelastic-scattering-and-partons.md
-      - "Module 8.10 — Neutrino Physics & Experimental Particle Physics": phase-8-particle-physics-and-standard-model/module-8.10-neutrino-physics-and-experiment.md
+      - "Module 8.1 — Symmetries & Gauge Theory":
+          - phase-8-particle-physics-and-standard-model/module-8.1-symmetries-and-gauge-theory.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.1-derivations.md
+      - "Module 8.2 — Quantum Electrodynamics (QED)":
+          - phase-8-particle-physics-and-standard-model/module-8.2-quantum-electrodynamics.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.2-derivations.md
+      - "Module 8.3 — The Strong Interaction (QCD)":
+          - phase-8-particle-physics-and-standard-model/module-8.3-quantum-chromodynamics.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.3-derivations.md
+      - "Module 8.4 — Electroweak Theory & the Higgs":
+          - phase-8-particle-physics-and-standard-model/module-8.4-electroweak-theory-and-higgs.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.4-derivations.md
+      - "Module 8.5 — The Standard Model & Beyond":
+          - phase-8-particle-physics-and-standard-model/module-8.5-standard-model-and-beyond.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.5-derivations.md
+      - "Module 8.6 — Particle Physics & Cosmology":
+          - phase-8-particle-physics-and-standard-model/module-8.6-particle-physics-and-cosmology.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.6-derivations.md
+      - "Module 8.7 — Parity Violation & the Weak Interaction (Lee–Yang)":
+          - phase-8-particle-physics-and-standard-model/module-8.7-parity-violation-and-the-weak-interaction.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.7-derivations.md
+      - "Module 8.8 — The Quark Model & Hadron Spectroscopy":
+          - phase-8-particle-physics-and-standard-model/module-8.8-quark-model-and-hadron-spectroscopy.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.8-quark-model-and-hadron-spectroscopy-derivations.md
+      - "Module 8.9 — Deep Inelastic Scattering & Partons":
+          - phase-8-particle-physics-and-standard-model/module-8.9-deep-inelastic-scattering-and-partons.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.9-deep-inelastic-scattering-and-partons-derivations.md
+      - "Module 8.10 — Neutrino Physics & Experimental Particle Physics":
+          - phase-8-particle-physics-and-standard-model/module-8.10-neutrino-physics-and-experiment.md
+          - Derivations (proofs): phase-8-particle-physics-and-standard-model/module-8.10-neutrino-physics-and-experiment-derivations.md
   - "Phase 9 — Applied & Specialized Physics":
       - phase-9-applied-and-specialized-physics/README.md
-      - "Module 9.1 — Electronics: Circuits, Semiconductors & Amplifiers": phase-9-applied-and-specialized-physics/module-9.1-electronics.md
-      - "Module 9.2 — Atomic & Molecular Physics": phase-9-applied-and-specialized-physics/module-9.2-atomic-and-molecular-physics.md
-      - "Module 9.3 — Nuclear Physics": phase-9-applied-and-specialized-physics/module-9.3-nuclear-physics.md
-      - "Module 9.4 — Plasma Physics": phase-9-applied-and-specialized-physics/module-9.4-plasma-physics.md
-      - "Module 9.5 — Nuclear Reactions & Astrophysics": phase-9-applied-and-specialized-physics/module-9.5-nuclear-reactions-and-astrophysics.md
-      - "Module 9.6 — Quantum Optics & Laser Physics": phase-9-applied-and-specialized-physics/module-9.6-quantum-optics-and-lasers.md
-      - "Module 9.7 — Atoms in External Fields & Precision Spectroscopy": phase-9-applied-and-specialized-physics/module-9.7-atoms-in-external-fields.md
-      - "Module 9.8 — Stellar Structure & Compact Objects": phase-9-applied-and-specialized-physics/module-9.8-stellar-structure-and-compact-objects.md
+      - "Module 9.1 — Electronics: Circuits, Semiconductors & Amplifiers":
+          - phase-9-applied-and-specialized-physics/module-9.1-electronics.md
+          - Derivations (proofs): phase-9-applied-and-specialized-physics/module-9.1-electronics-derivations.md
+      - "Module 9.2 — Atomic & Molecular Physics":
+          - phase-9-applied-and-specialized-physics/module-9.2-atomic-and-molecular-physics.md
+          - Derivations (proofs): phase-9-applied-and-specialized-physics/module-9.2-atomic-and-molecular-physics-derivations.md
+      - "Module 9.3 — Nuclear Physics":
+          - phase-9-applied-and-specialized-physics/module-9.3-nuclear-physics.md
+          - Derivations (proofs): phase-9-applied-and-specialized-physics/module-9.3-nuclear-physics-derivations.md
+      - "Module 9.4 — Plasma Physics":
+          - phase-9-applied-and-specialized-physics/module-9.4-plasma-physics.md
+          - Derivations (proofs): phase-9-applied-and-specialized-physics/module-9.4-plasma-physics-derivations.md
+      - "Module 9.5 — Nuclear Reactions & Astrophysics":
+          - phase-9-applied-and-specialized-physics/module-9.5-nuclear-reactions-and-astrophysics.md
+          - Derivations (proofs): phase-9-applied-and-specialized-physics/module-9.5-nuclear-reactions-and-astrophysics-derivations.md
+      - "Module 9.6 — Quantum Optics & Laser Physics":
+          - phase-9-applied-and-specialized-physics/module-9.6-quantum-optics-and-lasers.md
+          - Derivations (proofs): phase-9-applied-and-specialized-physics/module-9.6-quantum-optics-and-lasers-derivations.md
+      - "Module 9.7 — Atoms in External Fields & Precision Spectroscopy":
+          - phase-9-applied-and-specialized-physics/module-9.7-atoms-in-external-fields.md
+          - Derivations (proofs): phase-9-applied-and-specialized-physics/module-9.7-atoms-in-external-fields-derivations.md
+      - "Module 9.8 — Stellar Structure & Compact Objects":
+          - phase-9-applied-and-specialized-physics/module-9.8-stellar-structure-and-compact-objects.md
+          - Derivations (proofs): phase-9-applied-and-specialized-physics/module-9.8-stellar-structure-and-compact-objects-derivations.md
   - "Phase 10 — Strings & Quantum Gravity":
       - phase-10-strings-and-quantum-gravity/README.md
-      - "Module 10.1 — String Theory & Superstrings": phase-10-strings-and-quantum-gravity/module-10.1-string-theory-and-superstrings.md
-      - "Module 10.2 — Quantum Gravity & Holography": phase-10-strings-and-quantum-gravity/module-10.2-quantum-gravity-and-holography.md
+      - "Module 10.1 — String Theory & Superstrings":
+          - phase-10-strings-and-quantum-gravity/module-10.1-string-theory-and-superstrings.md
+          - Derivations (proofs): phase-10-strings-and-quantum-gravity/module-10.1-derivations.md
+      - "Module 10.2 — Quantum Gravity & Holography":
+          - phase-10-strings-and-quantum-gravity/module-10.2-quantum-gravity-and-holography.md
+          - Derivations (proofs): phase-10-strings-and-quantum-gravity/module-10.2-derivations.md
