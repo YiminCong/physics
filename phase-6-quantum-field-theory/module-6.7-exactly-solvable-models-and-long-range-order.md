@@ -24,9 +24,9 @@
 
 ## 2. Off-Diagonal Long-Range Order · 非对角长程序
 
-**Definition.** **Yang (1962)** gave a unified, rigorous definition of superfluid and superconducting order: **off-diagonal long-range order (ODLRO)** — the reduced density matrix retains a non-vanishing element between far-separated points. The related **Byers–Yang theorem** shows that magnetic flux through a superconducting ring is quantized in units of **h/2e**, with the factor of 2 a direct signature of electron *pairing* (Module 5.3).
+**Definition.** **Yang (1962)** gave a unified, rigorous definition of superfluid and superconducting order: **off-diagonal long-range order (ODLRO)** — the reduced density matrix retains a non-vanishing element between far-separated points. The related **Byers–Yang theorem** shows that magnetic flux through a superconducting ring is quantized in units of $h/2e$, with the factor of 2 a direct signature of electron *pairing* (Module 5.3).
 
-**定义。** **杨振宁（1962）**给出了超流和超导序的统一、严格定义：**非对角长程序（ODLRO）**——约化密度矩阵在远距离分离的点之间保留非零元素。相关的 **Byers–Yang 定理**表明，穿过超导环的磁通量以 **h/2e** 为单位量子化，其中因子 2 是电子*配对*的直接标志（模块 5.3）。
+**定义。** **杨振宁（1962）**给出了超流和超导序的统一、严格定义：**非对角长程序（ODLRO）**——约化密度矩阵在远距离分离的点之间保留非零元素。相关的 **Byers–Yang 定理**表明，穿过超导环的磁通量以 $h/2e$ 为单位量子化，其中因子 2 是电子*配对*的直接标志（模块 5.3）。
 
 **Application.** ODLRO is the precise statement behind the Ginzburg–Landau order parameter (Module 5.3) and Bose–Einstein condensation (Module 2.6): it says exactly what "macroscopic quantum coherence" means. These exact results — integrability and ODLRO — are the rigorous backbone of modern condensed-matter and cold-atom physics, and the testing ground for the approximate field-theory machinery of this phase.
 
@@ -38,13 +38,13 @@
 
 1. What does the Yang–Baxter equation guarantee, and which solution methods rely on it?
 2. State the Lee–Yang picture of a phase transition in terms of partition-function zeros.
-3. Define off-diagonal long-range order and explain how the Byers–Yang h/2e flux quantum reveals electron pairing.
+3. Define off-diagonal long-range order and explain how the Byers–Yang $h/2e$ flux quantum reveals electron pairing.
 
 **自测（空白页）**
 
 1. 杨–巴克斯特方程保证了什么？哪些求解方法依赖于它？
 2. 用配分函数零点的语言陈述相变的李–杨图像。
-3. 定义非对角长程序，并解释 Byers–Yang h/2e 磁通量子如何揭示电子配对。
+3. 定义非对角长程序，并解释 Byers–Yang $h/2e$ 磁通量子如何揭示电子配对。
 
 ---
 

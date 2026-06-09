@@ -24,16 +24,16 @@
 
 **Self-test (blank page)**
 
-1. What is d-wave pairing? Describe how the gap function Δ(k) differs from the isotropic s-wave BCS gap, including where its nodes lie on the Fermi surface and what sign changes it undergoes.
+1. What is d-wave pairing? Describe how the gap function $\Delta(\mathbf{k})$ differs from the isotropic s-wave BCS gap, including where its nodes lie on the Fermi surface and what sign changes it undergoes.
 2. Describe the cuprate phase diagram: starting from the antiferromagnetic Mott insulator parent compound, trace what happens as holes are doped in, identifying the pseudogap region, the superconducting dome, and the strange-metal regime.
-3. How does the presence of gap nodes in a d-wave superconductor change the low-temperature behaviour of physical observables (e.g. penetration depth λ(T), specific heat) compared to a fully-gapped s-wave superconductor?
-4. The pairing mechanism in high-T_c cuprates is believed to differ from conventional phonon-mediated BCS. Summarise the main experimental evidence against phonon pairing and name one proposed alternative glue.
+3. How does the presence of gap nodes in a d-wave superconductor change the low-temperature behaviour of physical observables (e.g. penetration depth $\lambda(T)$, specific heat) compared to a fully-gapped s-wave superconductor?
+4. The pairing mechanism in high-$T_c$ cuprates is believed to differ from conventional phonon-mediated BCS. Summarise the main experimental evidence against phonon pairing and name one proposed alternative glue.
 
 **自测（空白页）**
 
-1. 什么是 d 波配对？描述能隙函数 Δ(k) 与各向同性 s 波 BCS 能隙的区别，包括节点在费米面上的位置以及符号变化规律。
+1. 什么是 d 波配对？描述能隙函数 $\Delta(\mathbf{k})$ 与各向同性 s 波 BCS 能隙的区别，包括节点在费米面上的位置以及符号变化规律。
 2. 描述铜氧化物相图：从反铁磁莫特绝缘体母体化合物出发，追踪空穴掺杂增大时发生的变化，标明赝能隙区域、超导穹顶和奇异金属区。
-3. 与完全有隙的 s 波超导体相比，d 波超导体中能隙节点的存在如何改变物理可观测量（如穿透深度 λ(T)、比热）的低温行为？
+3. 与完全有隙的 s 波超导体相比，d 波超导体中能隙节点的存在如何改变物理可观测量（如穿透深度 $\lambda(T)$、比热）的低温行为？
 4. 高温铜氧化物超导体中的配对机制被认为不同于传统声子介导的 BCS 机制。概括反对声子配对的主要实验证据，并举出一种被提出的替代"胶水"机制。
 
 ---

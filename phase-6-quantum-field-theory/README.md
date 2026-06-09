@@ -46,21 +46,21 @@ This phase delivers the research-level toolkit that underpins both modern conden
 
 ## Phase 6 Checkpoint (blank page) · 第 6 阶段检查点（空白页）
 
-1. Write the field operator ψ(x) in terms of single-particle orbitals φ_k(x) and mode operators c_k. Derive the equal-time anticommutator {ψ(x), ψ†(x')} = δ(x − x').
-2. Sketch A(k,ω) for (a) a free Fermi gas and (b) a Fermi liquid with weak interactions. What does the width of the quasiparticle peak represent physically?
-3. State the Dyson equation G = G⁰ + G⁰ Σ G and solve for G(k,ω). Draw the 1PI self-energy insertion Σ at the Hartree–Fock level.
-4. Explain how Wick-rotating the quantum partition function Z = Tr e^{−βĤ} to imaginary time connects quantum field theory to classical statistical mechanics in d+1 dimensions.
+1. Write the field operator $\psi(x)$ in terms of single-particle orbitals $\varphi_k(x)$ and mode operators $c_k$. Derive the equal-time anticommutator $\{\psi(x), \psi^\dagger(x')\} = \delta(x - x')$.
+2. Sketch $A(k,\omega)$ for (a) a free Fermi gas and (b) a Fermi liquid with weak interactions. What does the width of the quasiparticle peak represent physically?
+3. State the Dyson equation $G = G^0 + G^0 \Sigma G$ and solve for $G(k,\omega)$. Draw the 1PI self-energy insertion $\Sigma$ at the Hartree–Fock level.
+4. Explain how Wick-rotating the quantum partition function $Z = \mathrm{Tr}\, e^{-\beta\hat{H}}$ to imaginary time connects quantum field theory to classical statistical mechanics in $d+1$ dimensions.
 5. What is the spin-statistics theorem? Give one consequence for the zero-point energy of a bosonic field versus a fermionic field (Bose versus Fermi statistics of the vacuum).
-6. A ferromagnet and a liquid near its critical point exhibit the same critical exponent ν. Use the language of RG fixed points and universality classes to explain why microscopically different systems can share identical critical exponents.
+6. A ferromagnet and a liquid near its critical point exhibit the same critical exponent $\nu$. Use the language of RG fixed points and universality classes to explain why microscopically different systems can share identical critical exponents.
 
 **自测（空白页）**
 
-1. 用单粒子轨道 φ_k(x) 和模式算符 c_k 写出场算符 ψ(x)。推导等时反对易子 {ψ(x), ψ†(x')} = δ(x − x')。
-2. 分别画出 (a) 自由费米气体和 (b) 弱相互作用费米液体的谱函数 A(k,ω)。准粒子峰的宽度在物理上代表什么？
-3. 陈述戴森方程 G = G⁰ + G⁰ Σ G 并求解 G(k,ω)。在 Hartree–Fock 水平画出单粒子不可约自能插入 Σ。
-4. 解释将量子配分函数 Z = Tr e^{−βĤ} 维克转动到虚时间后，如何将量子场论与 d+1 维的经典统计力学联系起来。
+1. 用单粒子轨道 $\varphi_k(x)$ 和模式算符 $c_k$ 写出场算符 $\psi(x)$。推导等时反对易子 $\{\psi(x), \psi^\dagger(x')\} = \delta(x - x')$。
+2. 分别画出 (a) 自由费米气体和 (b) 弱相互作用费米液体的谱函数 $A(k,\omega)$。准粒子峰的宽度在物理上代表什么？
+3. 陈述戴森方程 $G = G^0 + G^0 \Sigma G$ 并求解 $G(k,\omega)$。在 Hartree–Fock 水平画出单粒子不可约自能插入 $\Sigma$。
+4. 解释将量子配分函数 $Z = \mathrm{Tr}\, e^{-\beta\hat{H}}$ 维克转动到虚时间后，如何将量子场论与 $d+1$ 维的经典统计力学联系起来。
 5. 什么是自旋-统计定理？给出玻色场与费米场零点能的一个区别（真空的玻色统计与费米统计）。
-6. 铁磁体和临界点附近的液体表现出相同的临界指数 ν。用重整化群不动点和普适类的语言解释为什么微观物理完全不同的系统能共享相同的临界指数。
+6. 铁磁体和临界点附近的液体表现出相同的临界指数 $\nu$。用重整化群不动点和普适类的语言解释为什么微观物理完全不同的系统能共享相同的临界指数。
 
 ---
 

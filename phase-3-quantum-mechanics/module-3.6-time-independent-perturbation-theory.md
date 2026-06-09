@@ -10,9 +10,9 @@
 
 ## 1. Corrections to Energies and States · 能量与态的修正
 
-**Definition.** Split Ĥ = Ĥ₀ + Ĥ′ where Ĥ₀ is solvable and Ĥ′ is small. First-order energy shift: **Eₙ⁽¹⁾ = ⟨n|Ĥ′|n⟩**. Second-order: Eₙ⁽²⁾ = Σ_{m≠n} |⟨m|Ĥ′|n⟩|² / (Eₙ⁽⁰⁾ − Eₘ⁽⁰⁾). **Degenerate** case: diagonalize Ĥ′ within the degenerate subspace first.
+**Definition.** Split $\hat{H} = \hat{H}_0 + \hat{H}'$ where $\hat{H}_0$ is solvable and $\hat{H}'$ is small. First-order energy shift: **$E_n^{(1)} = \langle n|\hat{H}'|n\rangle$**. Second-order: $E_n^{(2)} = \sum_{m\neq n} |\langle m|\hat{H}'|n\rangle|^2 / (E_n^{(0)} - E_m^{(0)})$. **Degenerate** case: diagonalize $\hat{H}'$ within the degenerate subspace first.
 
-**定义。** 将 Ĥ = Ĥ₀ + Ĥ′ 分拆，其中 Ĥ₀ 可精确求解，Ĥ′ 为小量。一阶能量修正：**Eₙ⁽¹⁾ = ⟨n|Ĥ′|n⟩**。二阶修正：Eₙ⁽²⁾ = Σ_{m≠n} |⟨m|Ĥ′|n⟩|² / (Eₙ⁽⁰⁾ − Eₘ⁽⁰⁾)。**简并**情形：先在简并子空间内对角化 Ĥ′。
+**定义。** 将 $\hat{H} = \hat{H}_0 + \hat{H}'$ 分拆，其中 $\hat{H}_0$ 可精确求解，$\hat{H}'$ 为小量。一阶能量修正：**$E_n^{(1)} = \langle n|\hat{H}'|n\rangle$**。二阶修正：$E_n^{(2)} = \sum_{m\neq n} |\langle m|\hat{H}'|n\rangle|^2 / (E_n^{(0)} - E_m^{(0)})$。**简并**情形：先在简并子空间内对角化 $\hat{H}'$。
 
 **Demonstration.** A small linear perturbation on the oscillator, or the **fine structure** of hydrogen (relativistic + spin–orbit corrections), and the **Zeeman effect** (energy splitting in a magnetic field) are all computed this way.
 
@@ -26,15 +26,15 @@
 
 **Self-test (blank page)**
 
-1. Write the first-order energy correction Eₙ⁽¹⁾ and the second-order correction Eₙ⁽²⁾ for a non-degenerate state |n⟩ due to a perturbation Ĥ′. What sign must Eₙ⁽²⁾ have for the ground state?
+1. Write the first-order energy correction $E_n^{(1)}$ and the second-order correction $E_n^{(2)}$ for a non-degenerate state $|n\rangle$ due to a perturbation $\hat{H}'$. What sign must $E_n^{(2)}$ have for the ground state?
 2. Explain the degenerate case: why does ordinary non-degenerate perturbation theory break down, and what is the correct procedure?
-3. Describe one physical example where perturbation theory is applied to hydrogen (e.g. fine structure or the Zeeman effect), naming the perturbation Ĥ′ and the resulting energy splitting.
+3. Describe one physical example where perturbation theory is applied to hydrogen (e.g. fine structure or the Zeeman effect), naming the perturbation $\hat{H}'$ and the resulting energy splitting.
 
 **自测（空白页）**
 
-1. 写出非简并态 |n⟩ 在微扰 Ĥ′ 下的一阶能量修正 Eₙ⁽¹⁾ 和二阶能量修正 Eₙ⁽²⁾。基态的二阶修正符号如何？
+1. 写出非简并态 $|n\rangle$ 在微扰 $\hat{H}'$ 下的一阶能量修正 $E_n^{(1)}$ 和二阶能量修正 $E_n^{(2)}$。基态的二阶修正符号如何？
 2. 解释简并情形：为何普通非简并微扰理论会失效？正确的处理方法是什么？
-3. 描述一个将微扰理论应用于氢原子的物理例子（如精细结构或塞曼效应），指出微扰 Ĥ′ 的形式和所得能级分裂。
+3. 描述一个将微扰理论应用于氢原子的物理例子（如精细结构或塞曼效应），指出微扰 $\hat{H}'$ 的形式和所得能级分裂。
 
 ---
 

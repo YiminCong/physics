@@ -10,15 +10,15 @@
 
 ## 1. Symmetrization & the Pauli Principle · 对称化与泡利不相容原理
 
-**Definition.** Identical quantum particles are indistinguishable, so swapping two must leave |ψ|² unchanged. This forces the total wave function to be either **symmetric** (bosons) or **antisymmetric** (fermions) under exchange. Antisymmetry gives the **Pauli exclusion principle**: no two fermions in the same state.
+**Definition.** Identical quantum particles are indistinguishable, so swapping two must leave $|\psi|^2$ unchanged. This forces the total wave function to be either **symmetric** (bosons) or **antisymmetric** (fermions) under exchange. Antisymmetry gives the **Pauli exclusion principle**: no two fermions in the same state.
 
-**定义。** 全同量子粒子是不可分辨的，因此交换两个粒子必须保持 |ψ|² 不变。这迫使总波函数在交换下为**对称**（玻色子）或**反对称**（费米子）。反对称性给出**泡利不相容原理**：没有两个费米子处于相同的态。
+**定义。** 全同量子粒子是不可分辨的，因此交换两个粒子必须保持 $|\psi|^2$ 不变。这迫使总波函数在交换下为**对称**（玻色子）或**反对称**（费米子）。反对称性给出**泡利不相容原理**：没有两个费米子处于相同的态。
 
 ## 2. Many-Fermion Systems · 多费米子系统
 
-**Demonstration.** Two particles: symmetric ψ_S ∝ ψₐ(1)ψ_b(2) + ψₐ(2)ψ_b(1); antisymmetric ψ_A ∝ ψₐ(1)ψ_b(2) − ψₐ(2)ψ_b(1), which vanishes if a = b (exclusion). For many electrons, the antisymmetric state is a **Slater determinant**, and electrons fill levels up to the Fermi energy.
+**Demonstration.** Two particles: symmetric $\psi_S \propto \psi_a(1)\psi_b(2) + \psi_a(2)\psi_b(1)$; antisymmetric $\psi_A \propto \psi_a(1)\psi_b(2) - \psi_a(2)\psi_b(1)$, which vanishes if $a = b$ (exclusion). For many electrons, the antisymmetric state is a **Slater determinant**, and electrons fill levels up to the Fermi energy.
 
-**演示。** 两个粒子：对称态 ψ_S ∝ ψₐ(1)ψ_b(2) + ψₐ(2)ψ_b(1)；反对称态 ψ_A ∝ ψₐ(1)ψ_b(2) − ψₐ(2)ψ_b(1)，当 a = b 时为零（不相容原理）。对于多电子体系，反对称态为**斯莱特行列式**，电子填充至费米能级。
+**演示。** 两个粒子：对称态 $\psi_S \propto \psi_a(1)\psi_b(2) + \psi_a(2)\psi_b(1)$；反对称态 $\psi_A \propto \psi_a(1)\psi_b(2) - \psi_a(2)\psi_b(1)$，当 $a = b$ 时为零（不相容原理）。对于多电子体系，反对称态为**斯莱特行列式**，电子填充至费米能级。
 
 **Application.** The bridge to solids and superconductivity: the **free electron gas**, band filling, and the **Fermi surface** (Phase 4) all follow from this. And a **Cooper pair** (Phase 5) is two fermions bound into a composite that behaves bosonically — the exchange rules here are what make that special.
 
@@ -29,14 +29,14 @@
 **Self-test (blank page)**
 
 1. Why must the wave function of identical particles be either symmetric or antisymmetric under particle exchange? Which symmetry applies to bosons and which to fermions?
-2. Write the two-particle antisymmetric state ψ_A for fermions in single-particle states ψₐ and ψ_b. Show explicitly that ψ_A vanishes when a = b, thereby deriving the Pauli exclusion principle.
-3. What is a Slater determinant, and how does it generalize the two-particle antisymmetric state to N fermions?
+2. Write the two-particle antisymmetric state $\psi_A$ for fermions in single-particle states $\psi_a$ and $\psi_b$. Show explicitly that $\psi_A$ vanishes when $a = b$, thereby deriving the Pauli exclusion principle.
+3. What is a Slater determinant, and how does it generalize the two-particle antisymmetric state to $N$ fermions?
 
 **自测（空白页）**
 
 1. 为什么全同粒子的波函数在粒子交换下必须是对称的或反对称的？哪种对称性对应玻色子，哪种对应费米子？
-2. 写出费米子处于单粒子态 ψₐ 和 ψ_b 时的两粒子反对称态 ψ_A。明确证明当 a = b 时 ψ_A 为零，从而推导出泡利不相容原理。
-3. 什么是斯莱特行列式？它如何将两粒子反对称态推广到 N 个费米子的情形？
+2. 写出费米子处于单粒子态 $\psi_a$ 和 $\psi_b$ 时的两粒子反对称态 $\psi_A$。明确证明当 $a = b$ 时 $\psi_A$ 为零，从而推导出泡利不相容原理。
+3. 什么是斯莱特行列式？它如何将两粒子反对称态推广到 $N$ 个费米子的情形？
 
 ---
 

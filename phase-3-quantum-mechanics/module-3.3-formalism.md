@@ -10,19 +10,19 @@
 
 ## 1. Hilbert Space & Dirac Notation · 希尔伯特空间与狄拉克符号
 
-**Definition.** States are vectors |ψ⟩ in a complex **Hilbert space**; ⟨φ|ψ⟩ is the inner product (Module 0.2). Observables are **Hermitian operators**; their real eigenvalues are the possible measurement outcomes, and their orthonormal eigenstates form a basis.
+**Definition.** States are vectors $|\psi\rangle$ in a complex **Hilbert space**; $\langle\phi|\psi\rangle$ is the inner product (Module 0.2). Observables are **Hermitian operators**; their real eigenvalues are the possible measurement outcomes, and their orthonormal eigenstates form a basis.
 
-**定义。** 态是复**希尔伯特空间**中的向量 |ψ⟩；⟨φ|ψ⟩ 是内积（模块 0.2）。可观测量是**厄米算符**；其实数本征值是可能的测量结果，正交归一本征态构成一组基。
+**定义。** 态是复**希尔伯特空间**中的向量 $|\psi\rangle$；$\langle\phi|\psi\rangle$ 是内积（模块 0.2）。可观测量是**厄米算符**；其实数本征值是可能的测量结果，正交归一本征态构成一组基。
 
 ## 2. Measurement, Commutators & Uncertainty · 测量、对易子与不确定性
 
-**Definition.** Expand |ψ⟩ = Σ cₙ|n⟩ with cₙ = ⟨n|ψ⟩; the probability of measuring eigenvalue λₙ is |cₙ|². Two observables are **compatible** (simultaneously measurable) iff their commutator [Â,B̂] = ÂB̂ − B̂Â vanishes.
+**Definition.** Expand $|\psi\rangle = \sum_n c_n|n\rangle$ with $c_n = \langle n|\psi\rangle$; the probability of measuring eigenvalue $\lambda_n$ is $|c_n|^2$. Two observables are **compatible** (simultaneously measurable) iff their commutator $[\hat{A},\hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$ vanishes.
 
-**定义。** 展开 |ψ⟩ = Σ cₙ|n⟩，其中 cₙ = ⟨n|ψ⟩；测量到本征值 λₙ 的概率为 |cₙ|²。两个可观测量**相容**（可同时测量）当且仅当它们的对易子 [Â,B̂] = ÂB̂ − B̂Â 为零。
+**定义。** 展开 $|\psi\rangle = \sum_n c_n|n\rangle$，其中 $c_n = \langle n|\psi\rangle$；测量到本征值 $\lambda_n$ 的概率为 $|c_n|^2$。两个可观测量**相容**（可同时测量）当且仅当它们的对易子 $[\hat{A},\hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$ 为零。
 
-**Demonstration.** [x̂, p̂] = iℏ (nonzero) → x and p cannot be sharply defined together; the generalized uncertainty relation ΔA ΔB ≥ ½|⟨[Â,B̂]⟩| then yields Δx Δp ≥ ℏ/2.
+**Demonstration.** $[\hat{x}, \hat{p}] = i\hbar$ (nonzero) $\Rightarrow$ $x$ and $p$ cannot be sharply defined together; the generalized uncertainty relation $\Delta A\,\Delta B \geq \tfrac12|\langle[\hat{A},\hat{B}]\rangle|$ then yields $\Delta x\,\Delta p \geq \hbar/2$.
 
-**演示。** [x̂, p̂] = iℏ（非零）→ x 和 p 不能同时精确确定；广义不确定性关系 ΔA ΔB ≥ ½|⟨[Â,B̂]⟩| 给出 Δx Δp ≥ ℏ/2。
+**演示。** $[\hat{x}, \hat{p}] = i\hbar$（非零）$\Rightarrow$ $x$ 和 $p$ 不能同时精确确定；广义不确定性关系 $\Delta A\,\Delta B \geq \tfrac12|\langle[\hat{A},\hat{B}]\rangle|$ 给出 $\Delta x\,\Delta p \geq \hbar/2$。
 
 **Application.** This is the rigorous skeleton of QM — linear algebra (Module 0.2) with physical meaning. Hermitian = real measurements; commutators = uncertainty and conservation.
 
@@ -33,14 +33,14 @@
 **Self-test (blank page)**
 
 1. Why must observables be represented by Hermitian operators? What is special about the eigenvalues and eigenstates of a Hermitian operator?
-2. If a state |ψ⟩ = Σ cₙ|n⟩ is expanded in the eigenbasis of an observable, what is the probability of obtaining eigenvalue λₙ in a measurement, and what happens to the state immediately after?
-3. Compute the commutator [x̂, p̂] and state what its non-zero value implies about simultaneously measuring position and momentum. Derive the resulting uncertainty relation Δx Δp ≥ ℏ/2 from the general form ΔA ΔB ≥ ½|⟨[Â,B̂]⟩|.
+2. If a state $|\psi\rangle = \sum_n c_n|n\rangle$ is expanded in the eigenbasis of an observable, what is the probability of obtaining eigenvalue $\lambda_n$ in a measurement, and what happens to the state immediately after?
+3. Compute the commutator $[\hat{x}, \hat{p}]$ and state what its non-zero value implies about simultaneously measuring position and momentum. Derive the resulting uncertainty relation $\Delta x\,\Delta p \geq \hbar/2$ from the general form $\Delta A\,\Delta B \geq \tfrac12|\langle[\hat{A},\hat{B}]\rangle|$.
 
 **自测（空白页）**
 
 1. 为什么可观测量必须用厄米算符表示？厄米算符的本征值和本征态有何特殊性质？
-2. 若态 |ψ⟩ = Σ cₙ|n⟩ 展开于某可观测量的本征基，测量得到本征值 λₙ 的概率是多少？测量后态立即变为什么？
-3. 计算对易子 [x̂, p̂]，并说明其非零结果对同时测量位置和动量意味着什么。由广义不确定关系 ΔA ΔB ≥ ½|⟨[Â,B̂]⟩| 推导出 Δx Δp ≥ ℏ/2。
+2. 若态 $|\psi\rangle = \sum_n c_n|n\rangle$ 展开于某可观测量的本征基，测量得到本征值 $\lambda_n$ 的概率是多少？测量后态立即变为什么？
+3. 计算对易子 $[\hat{x}, \hat{p}]$，并说明其非零结果对同时测量位置和动量意味着什么。由广义不确定关系 $\Delta A\,\Delta B \geq \tfrac12|\langle[\hat{A},\hat{B}]\rangle|$ 推导出 $\Delta x\,\Delta p \geq \hbar/2$。
 
 ---
 

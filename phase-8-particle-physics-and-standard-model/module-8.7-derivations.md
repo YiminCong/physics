@@ -141,7 +141,7 @@ More precisely: P sends $\psi_L(x) \to \gamma^0\psi(t,-\mathbf{x})$, and $[P_L]_
 
 ---
 
-## C. The V−A Current Structure of the Weak Interaction · 弱相互作用的 V−A 流结构
+## C. The V-A Current Structure of the Weak Interaction · 弱相互作用的 V-A 流结构
 
 **Claim.** The weak charged current $J^\mu_W$ couples only to left-handed fermions, taking the form $J^\mu_W = \bar\psi_L\gamma^\mu\psi'_L = (1/2)\bar\psi\gamma^\mu(1-\gamma^5)\psi'$, which is the difference of a vector current (V) and an axial current (A): $J^\mu_W \propto V^\mu - A^\mu$.
 
@@ -211,9 +211,9 @@ For the spatial components ($\mu = i$): $\text{P}V^i\text{P}^{-1} = -V^i$ (spati
 
 $$ \text{P}A^\mu\text{P}^{-1} = \bar\psi(t,-\mathbf{x})\, \gamma^0\gamma^\mu\gamma^5\gamma^0\, \psi'(t,-\mathbf{x}) = -\bar\psi(t,-\mathbf{x})\, \gamma_\mu\gamma^5\, \psi'(t,-\mathbf{x}), \quad \text{so } \text{P}A^i\text{P}^{-1} = +A^i. $$
 
-The axial current $A^i$ does NOT change sign under spatial inversion (opposite to $V^i$). Therefore $V - A$ does not transform simply under P: it mixes with $-V - A$ (after spatial inversion). This means the V−A current is NOT an eigenstate of parity — it violates parity maximally.
+The axial current $A^i$ does NOT change sign under spatial inversion (opposite to $V^i$). Therefore $V - A$ does not transform simply under P: it mixes with $-V - A$ (after spatial inversion). This means the V-A current is NOT an eigenstate of parity — it violates parity maximally.
 
-轴矢量流 $A^i$ 在空间反演下不改变符号（与 $V^i$ 相反）。因此 $V - A$ 在 P 下不简单变换：它与 $-V - A$（空间反演后）混合。这意味着 V−A 流不是宇称的本征态——它最大程度地破坏宇称。
+轴矢量流 $A^i$ 在空间反演下不改变符号（与 $V^i$ 相反）。因此 $V - A$ 在 P 下不简单变换：它与 $-V - A$（空间反演后）混合。这意味着 V-A 流不是宇称的本征态——它最大程度地破坏宇称。
 
 Quantitatively: Under parity, $V - A \to -V - A = -(V + A)$. The original current couples to $V - A$; under P it would couple to $V + A$ (opposite sign of A). Since A appears with opposite sign in $V - A$ and $V + A$, this is **maximum parity violation** — the parity mirror image has a completely different chiral structure. $\blacksquare$
 
@@ -223,9 +223,9 @@ Quantitatively: Under parity, $V - A \to -V - A = -(V + A)$. The original curren
 
 ## D. The Weak Charged Current in the Standard Model · 标准模型中的弱带电流
 
-**Claim.** The $\text{SU(2)}_L$ gauge coupling in the Standard Model acts only on left-handed doublets, producing a charged current that is purely V−A. The resulting Fermi interaction for $\beta$-decay is $\propto (\bar u\gamma^\mu(1-\gamma^5)d)(\bar e\gamma_\mu(1-\gamma^5)\nu_e)$ — a product of two V−A currents.
+**Claim.** The $\text{SU(2)}_L$ gauge coupling in the Standard Model acts only on left-handed doublets, producing a charged current that is purely V-A. The resulting Fermi interaction for $\beta$-decay is $\propto (\bar u\gamma^\mu(1-\gamma^5)d)(\bar e\gamma_\mu(1-\gamma^5)\nu_e)$ — a product of two V-A currents.
 
-**命题。** 标准模型中的 $\text{SU(2)}_L$ 规范耦合只作用于左手双重态，产生纯 V−A 的带电流。由此得到的 $\beta$ 衰变费米相互作用 $\propto (\bar u\gamma^\mu(1-\gamma^5)d)(\bar e\gamma_\mu(1-\gamma^5)\nu_e)$——两个 V−A 流的乘积。
+**命题。** 标准模型中的 $\text{SU(2)}_L$ 规范耦合只作用于左手双重态，产生纯 V-A 的带电流。由此得到的 $\beta$ 衰变费米相互作用 $\propto (\bar u\gamma^\mu(1-\gamma^5)d)(\bar e\gamma_\mu(1-\gamma^5)\nu_e)$——两个 V-A 流的乘积。
 
 **Step 1 — The W coupling.** From the $\text{SU(2)}_L$ covariant derivative, the coupling of $W^\pm_\mu$ to left-handed quark doublet $Q_L = (u, d)_L$ is:
 
@@ -239,9 +239,9 @@ Using $\bar\psi_L\gamma^\mu\psi'_L = (1/2)\bar\psi\gamma^\mu(1-\gamma^5)\psi'$:
 
 $$ \mathcal{L}_{CC} = -(g/(2\sqrt 2))[W^+_\mu\, \bar u\gamma^\mu(1-\gamma^5)d + W^-_\mu\, \bar d\gamma^\mu(1-\gamma^5)u] + (\text{leptons}). $$
 
-This is pure V−A: no right-handed fermions couple to $W^\pm$.
+This is pure V-A: no right-handed fermions couple to $W^\pm$.
 
-这是纯 V−A：没有右手费米子耦合到 $W^\pm$。
+这是纯 V-A：没有右手费米子耦合到 $W^\pm$。
 
 **Step 2 — Low-energy Fermi theory.** At energies $E \ll m_W$, integrating out the W propagator ($1/(q^2-m_W^2) \to -1/m_W^2$ for $q^2 \ll m_W^2$):
 
@@ -259,9 +259,9 @@ For $\beta$-decay ($n \to p + e^- + \bar\nu_e$, i.e., $d \to u + e^- + \bar\nu_e
 
 $$ \mathcal{L}_\beta = (G_F/\sqrt 2)[\bar u\gamma^\mu(1-\gamma^5)d][\bar e\gamma_\mu(1-\gamma^5)\nu_e] + \text{h.c.} $$
 
-This is the **four-fermion V−A interaction** of Fermi (with the correct chiral structure derived from the SM), confirming that the weak force is purely left-handed (V−A) at low energies. $\blacksquare$
+This is the **four-fermion V-A interaction** of Fermi (with the correct chiral structure derived from the SM), confirming that the weak force is purely left-handed (V-A) at low energies. $\blacksquare$
 
-这是费米的**四费米子 V−A 相互作用**（手征结构由 SM 正确导出），证实了弱力在低能下是纯左手的（V−A）。$\blacksquare$
+这是费米的**四费米子 V-A 相互作用**（手征结构由 SM 正确导出），证实了弱力在低能下是纯左手的（V-A）。$\blacksquare$
 
 ---
 
@@ -279,11 +279,11 @@ $$ J^\mu = \bar\psi\gamma^\mu(g_V - g_A\gamma^5)\psi = g_V \cdot \bar\psi\gamma^
 
 For pure V coupling ($g_A = 0$): $J^\mu = g_V \bar\psi\gamma^\mu\psi$ (electromagnetic current — P invariant).
 For pure A coupling ($g_V = 0$): $J^\mu = -g_A \bar\psi\gamma^\mu\gamma^5\psi$ (maximally violates P in opposite sense).
-For V−A ($g_V = g_A = 1$): $J^\mu = \bar\psi\gamma^\mu(1-\gamma^5)\psi = 2\bar\psi_L\gamma^\mu\psi_L$ (purely left-handed).
+For V-A ($g_V = g_A = 1$): $J^\mu = \bar\psi\gamma^\mu(1-\gamma^5)\psi = 2\bar\psi_L\gamma^\mu\psi_L$ (purely left-handed).
 
 对于纯 V 耦合（$g_A = 0$）：$J^\mu = g_V \bar\psi\gamma^\mu\psi$（电磁流——P 不变）。
 对于纯 A 耦合（$g_V = 0$）：$J^\mu = -g_A \bar\psi\gamma^\mu\gamma^5\psi$（以相反意义最大程度地破坏 P）。
-对于 V−A（$g_V = g_A = 1$）：$J^\mu = \bar\psi\gamma^\mu(1-\gamma^5)\psi = 2\bar\psi_L\gamma^\mu\psi_L$（纯左手）。
+对于 V-A（$g_V = g_A = 1$）：$J^\mu = \bar\psi\gamma^\mu(1-\gamma^5)\psi = 2\bar\psi_L\gamma^\mu\psi_L$（纯左手）。
 
 **Step 2 — Parity asymmetry.** Under parity, the vector current $V^\mu$ transforms as a true 4-vector ($V^0 \to V^0$, $V^i \to -V^i$) while the axial current $A^\mu$ transforms as a pseudovector ($A^0 \to -A^0$, $A^i \to +A^i$). If $g_V \ne g_A$, then the combination $g_V V^\mu - g_A A^\mu$ is not related to its parity transform $g_V V^\mu + g_A A^\mu$ by any simple relation $\to$ parity violated. The degree of violation is characterized by $|g_A/g_V|$. Maximum violation: $|g_A/g_V| = 1$, i.e., $g_V = \pm g_A$.
 
@@ -295,6 +295,6 @@ For V−A ($g_V = g_A = 1$): $J^\mu = \bar\psi\gamma^\mu(1-\gamma^5)\psi = 2\bar
 
 $$ W(\theta) \propto 1 + A\cos\theta, $$
 
-with $A \ne 0$ (experimentally $A \approx -1$ for the $^{60}\text{Co}$ experiment) is a direct measure of parity violation. The maximum value $|A| = 1$ corresponds to maximum parity violation (pure V−A). The observation $A \approx -1$ confirmed maximal parity violation and that the weak current is purely V−A. $\blacksquare$
+with $A \ne 0$ (experimentally $A \approx -1$ for the $^{60}\text{Co}$ experiment) is a direct measure of parity violation. The maximum value $|A| = 1$ corresponds to maximum parity violation (pure V-A). The observation $A \approx -1$ confirmed maximal parity violation and that the weak current is purely V-A. $\blacksquare$
 
-其中 $A \ne 0$（$^{60}\text{Co}$ 实验中实验上 $A \approx -1$）是宇称破坏的直接量度。最大值 $|A| = 1$ 对应最大宇称破坏（纯 V−A）。观测 $A \approx -1$ 确认了最大宇称破坏，以及弱流是纯 V−A 的。$\blacksquare$
+其中 $A \ne 0$（$^{60}\text{Co}$ 实验中实验上 $A \approx -1$）是宇称破坏的直接量度。最大值 $|A| = 1$ 对应最大宇称破坏（纯 V-A）。观测 $A \approx -1$ 确认了最大宇称破坏，以及弱流是纯 V-A 的。$\blacksquare$

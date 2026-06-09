@@ -43,7 +43,7 @@ done
 - ✅ [`1.11`](phase-1-classical-physics/module-1.11-em-waves-radiation-derivations.md) — Electromagnetic Waves & Radiation
 - ✅ [`1.12`](phase-1-classical-physics/module-1.12-optics-interference-derivations.md) — Optics & Interference
 - ✅ [`1.13`](phase-1-classical-physics/module-1.13-special-relativity-kinematics-derivations.md) — Special Relativity — Kinematics
-- ✅ [`1.14`](phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum-derivations.md) — Relativistic Dynamics & E = mc²
+- ✅ [`1.14`](phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum-derivations.md) — Relativistic Dynamics & $E = mc^2$
 - ✅ [`1.15`](phase-1-classical-physics/module-1.15-covariant-electromagnetism-derivations.md) — Covariant Electromagnetism
 - ✅ [`1.16`](phase-1-classical-physics/module-1.16-mechanical-waves-acoustics-derivations.md) — Mechanical Waves & Acoustics
 - ✅ [`1.17`](phase-1-classical-physics/module-1.17-fluid-mechanics-derivations.md) — Fluid Mechanics
@@ -117,7 +117,7 @@ done
 - ✅ [`5.6`](phase-5-superconductivity/module-5.6-tunneling-and-the-gap-derivations.md) — Tunneling & the Gap
 - ✅ [`5.7`](phase-5-superconductivity/module-5.7-type-ii-superconductors-and-vortices-derivations.md) — Type II Superconductors & Vortices
 - ✅ [`5.8`](phase-5-superconductivity/module-5.8-josephson-effects-derivations.md) — Josephson Effects
-- ✅ [`5.9`](phase-5-superconductivity/module-5.9-unconventional-and-high-tc-superconductors-derivations.md) — Unconventional & High-Tᶜ Superconductors
+- ✅ [`5.9`](phase-5-superconductivity/module-5.9-unconventional-and-high-tc-superconductors-derivations.md) — Unconventional & High-$T_c$ Superconductors
 - ✅ [`5.10`](phase-5-superconductivity/module-5.10-bogoliubov-de-gennes-and-andreev-reflection-derivations.md) — Bogoliubov–de Gennes & Andreev Reflection
 - ✅ [`5.11`](phase-5-superconductivity/module-5.11-topological-superconductivity-and-majorana-derivations.md) — Topological Superconductivity & Majorana Modes
 

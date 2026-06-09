@@ -10,9 +10,9 @@
 
 ## 1. Transitions and Fermi's Golden Rule · 跃迁与费米黄金定则
 
-**Definition.** A time-dependent perturbation Ĥ′(t) drives transitions between states. To first order, the transition rate into a continuum is **Fermi's golden rule**: Γ_{i→f} = (2π/ℏ)|⟨f|Ĥ′|i⟩|² ρ(E_f), where ρ is the density of final states.
+**Definition.** A time-dependent perturbation $\hat{H}'(t)$ drives transitions between states. To first order, the transition rate into a continuum is **Fermi's golden rule**: $\Gamma_{i\to f} = (2\pi/\hbar)|\langle f|\hat{H}'|i\rangle|^2\, \rho(E_f)$, where $\rho$ is the density of final states.
 
-**定义。** 含时微扰 Ĥ′(t) 驱动态之间的跃迁。一阶近似下，跃迁至连续谱的速率由**费米黄金定则**给出：Γ_{i→f} = (2π/ℏ)|⟨f|Ĥ′|i⟩|² ρ(E_f)，其中 ρ 为末态密度。
+**定义。** 含时微扰 $\hat{H}'(t)$ 驱动态之间的跃迁。一阶近似下，跃迁至连续谱的速率由**费米黄金定则**给出：$\Gamma_{i\to f} = (2\pi/\hbar)|\langle f|\hat{H}'|i\rangle|^2\, \rho(E_f)$，其中 $\rho$ 为末态密度。
 
 **Demonstration.** Applied to an oscillating electric field, the golden rule yields the rates of **absorption and stimulated emission** of radiation (selection rules follow from the matrix element).
 
@@ -32,15 +32,15 @@
 
 **Self-test (blank page)**
 
-1. State Fermi's golden rule: write the transition rate Γ_{i→f} and identify each factor. What does the density of final states ρ(E_f) represent?
+1. State Fermi's golden rule: write the transition rate $\Gamma_{i\to f}$ and identify each factor. What does the density of final states $\rho(E_f)$ represent?
 2. Apply the golden rule to a monochromatic oscillating perturbation: what selection rule governs which transitions are allowed by an electric-dipole interaction?
-3. State the Born approximation for the scattering amplitude f(θ): how is it related to the Fourier transform of the scattering potential V(r)?
+3. State the Born approximation for the scattering amplitude $f(\theta)$: how is it related to the Fourier transform of the scattering potential $V(r)$?
 
 **自测（空白页）**
 
-1. 陈述费米黄金定则：写出跃迁速率 Γ_{i→f} 并说明每个因子的含义。末态密度 ρ(E_f) 代表什么？
+1. 陈述费米黄金定则：写出跃迁速率 $\Gamma_{i\to f}$ 并说明每个因子的含义。末态密度 $\rho(E_f)$ 代表什么？
 2. 将黄金定则应用于单色振荡微扰：电偶极跃迁受到什么选择定则的制约？
-3. 写出玻恩近似的散射振幅 f(θ)：它与散射势 V(r) 的傅里叶变换有何关系？
+3. 写出玻恩近似的散射振幅 $f(\theta)$：它与散射势 $V(r)$ 的傅里叶变换有何关系？
 
 ---
 

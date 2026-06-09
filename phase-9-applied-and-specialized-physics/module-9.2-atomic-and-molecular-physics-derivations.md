@@ -85,15 +85,15 @@ proportional to $J+1$ — this is the **Landé interval rule**: the energy gap b
 
 ---
 
-## B. H₂⁺ Bonding and Antibonding from LCAO · 从 LCAO 推导 H₂⁺ 的成键与反键
+## B. $\text{H}_2^+$ Bonding and Antibonding from LCAO · 从 LCAO 推导 $\text{H}_2^+$ 的成键与反键
 
-**Claim.** For H₂⁺ with nuclear separation $R$, the LCAO secular determinant gives two eigenvalues:
+**Claim.** For $\text{H}_2^+$ with nuclear separation $R$, the LCAO secular determinant gives two eigenvalues:
 
 $$ E_\pm = (H_{AA} \pm H_{AB})/(1 \pm S), $$
 
 where $H_{AA} = \langle\phi_A|H|\phi_A\rangle$ is the Coulomb integral, $H_{AB} = \langle\phi_A|H|\phi_B\rangle$ is the resonance (exchange) integral, and $S = \langle\phi_A|\phi_B\rangle$ is the overlap integral. $E_+ < E_{AA}$ (bonding) and $E_- > E_{AA}$ (antibonding) for $H_{AB} < 0$.
 
-**命题。** 对于核间距为 $R$ 的 H₂⁺，LCAO 久期行列式给出两个本征值：
+**命题。** 对于核间距为 $R$ 的 $\text{H}_2^+$，LCAO 久期行列式给出两个本征值：
 
 $$ E_\pm = (H_{AA} \pm H_{AB})/(1 \pm S), $$
 
@@ -189,9 +189,9 @@ Lines occur at $\Delta E = 2B, 4B, 6B, 8B, \ldots$ (for $J = 0, 1, 2, 3, \ldots$
 
 $$ I = h/(4\pi^2 \Delta\nu), \quad\text{then}\quad R = \sqrt{I/\mu}, \quad \mu = m_1 m_2/(m_1+m_2). $$
 
-For example, for ¹H³⁵Cl: $\Delta\nu \approx 6.34 \times 10^{11}$ Hz, giving $R \approx 127$ pm, in excellent agreement with X-ray crystallography. $\blacksquare$
+For example, for ${}^{1}\text{H}{}^{35}\text{Cl}$: $\Delta\nu \approx 6.34 \times 10^{11}$ Hz, giving $R \approx 127$ pm, in excellent agreement with X-ray crystallography. $\blacksquare$
 
-例如，对于 ¹H³⁵Cl：$\Delta\nu \approx 6.34 \times 10^{11}$ Hz，给出 $R \approx 127$ pm，与 X 射线晶体学结果完全吻合。$\blacksquare$
+例如，对于 ${}^{1}\text{H}{}^{35}\text{Cl}$：$\Delta\nu \approx 6.34 \times 10^{11}$ Hz，给出 $R \approx 127$ pm，与 X 射线晶体学结果完全吻合。$\blacksquare$
 
 ---
 
