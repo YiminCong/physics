@@ -1,7 +1,7 @@
 # Verification Status · 校验状态
 
 
-**110 / 110 derivation files verified.**
+**114 / 114 derivation files verified.**
 
 > ✅ = derivation reviewed line-by-line and confirmed (or corrected) against standard results. Most were verified on **2026-06-08**; files revised later carry a newer date in their badge.
 
@@ -90,6 +90,7 @@ done
 - ✅ [`3.15`](phase-3-quantum-mechanics/module-3.15-relativistic-quantum-mechanics-derivations.md) — Relativistic Quantum Mechanics
 - ✅ [`3.16`](phase-3-quantum-mechanics/module-3.16-quantum-computation-and-information-derivations.md) — Quantum Computation & Information
 - ✅ [`3.17`](phase-3-quantum-mechanics/module-3.17-quantum-algorithms-and-error-correction-derivations.md) — Quantum Algorithms & Error Correction
+- ✅ [`3.18`](phase-3-quantum-mechanics/module-3.18-quantum-scattering-theory-derivations.md) — Quantum Scattering Theory
 
 ## Phase 4 Condensed Matter
 
@@ -160,3 +161,6 @@ done
 - ✅ [`9.3`](phase-9-applied-and-specialized-physics/module-9.3-nuclear-physics-derivations.md) — Nuclear Physics
 - ✅ [`9.4`](phase-9-applied-and-specialized-physics/module-9.4-plasma-physics-derivations.md) — Plasma Physics
 - ✅ [`9.5`](phase-9-applied-and-specialized-physics/module-9.5-nuclear-reactions-and-astrophysics-derivations.md) — Nuclear Reactions & Astrophysics
+- ✅ [`9.6`](phase-9-applied-and-specialized-physics/module-9.6-quantum-optics-and-lasers-derivations.md) — Quantum Optics & Laser Physics
+- ✅ [`9.7`](phase-9-applied-and-specialized-physics/module-9.7-atoms-in-external-fields-derivations.md) — Atoms in External Fields & Precision Spectroscopy
+- ✅ [`9.8`](phase-9-applied-and-specialized-physics/module-9.8-stellar-structure-and-compact-objects-derivations.md) — Stellar Structure & Compact Objects

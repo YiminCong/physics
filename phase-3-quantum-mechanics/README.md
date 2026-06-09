@@ -1,11 +1,11 @@
 # Phase 3 — Quantum Mechanics (the core)
 **第 3 阶段 — 量子力学（核心）**
 
-Modules 3.0–3.17, in **Definition → Demonstration → Application** format. This phase is
+Modules 3.0–3.18, in **Definition → Demonstration → Application** format. This phase is
 the core of the curriculum; the ⭐ modules are load-bearing for condensed matter (Phase 4)
 and superconductivity (Phase 5).
 
-模块 3.0–3.17，采用**定义 → 演示 → 应用**格式。本阶段是课程的核心；⭐ 模块是凝聚态物理（第 4 阶段）和超导性（第 5 阶段）的重要基础。
+模块 3.0–3.18，采用**定义 → 演示 → 应用**格式。本阶段是课程的核心；⭐ 模块是凝聚态物理（第 4 阶段）和超导性（第 5 阶段）的重要基础。
 
 ## Modules · 模块
 
@@ -29,6 +29,7 @@ and superconductivity (Phase 5).
 | 3.15 | [Relativistic Quantum Mechanics](./module-3.15-relativistic-quantum-mechanics.md) · 相对论量子力学 | ⭐ |
 | 3.16 | [Quantum Computation & Information](./module-3.16-quantum-computation-and-information.md) · [量子计算与量子信息](./module-3.16-quantum-computation-and-information.md) | |
 | 3.17 | [Quantum Algorithms & Error Correction](./module-3.17-quantum-algorithms-and-error-correction.md) · [量子算法与量子纠错](./module-3.17-quantum-algorithms-and-error-correction.md) | |
+| 3.18 | [Quantum Scattering Theory](./module-3.18-quantum-scattering-theory.md) · [量子散射理论](./module-3.18-quantum-scattering-theory.md) | |
 
 ## Phase 3 Checkpoint (blank page)
 
