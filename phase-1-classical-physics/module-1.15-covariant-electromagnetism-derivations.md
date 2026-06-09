@@ -1,8 +1,8 @@
 # Derivations — Module 1.15: Covariant Electromagnetism
 # 推导 — 模块 1.15：协变电磁学
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 1.15](./module-1.15-covariant-electromagnetism.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 1.15](./module-1.15-covariant-electromagnetism.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -99,129 +99,64 @@ We compute each independent component of F′_{μν}.
 
 我们逐一计算 F′_{μν} 的各独立分量。
 
-**Step 3 — F′_{01} = E_x′/c.** 
+**Step 3 — Transform all six field components.**
 
-**第 3 步 — F′_{01} = E_x′/c。**
+**第 3 步 — 变换全部六个场分量。**
 
-  F′_{01} = Λ^α_0 Λ^β_1 F_{αβ}
-          = (Λ^0_0 Λ^0_1 F_{00} + Λ^0_0 Λ^1_1 F_{01} + Λ^1_0 Λ^0_1 F_{10} + Λ^1_0 Λ^1_1 F_{11})
-          = γ·(−γβ)·0 + γ·γ·F_{01} + (−γβ)·(−γβ)·F_{10} + (−γβ)·γ·F_{11}
-          = γ²F_{01} + γ²β²F_{10} + 0
-          = γ²(F_{01} + β²F_{10})
-          = γ²(F_{01} − β²F_{01})   [since F_{10} = −F_{01}]
-          = γ²(1 − β²) F_{01} = F_{01}.
+We work throughout with the **contravariant** tensor F^{μν}, whose components are fixed by Section A: since F_{0i} = E_i/c, raising both indices gives F^{0i} = η^{00}η^{ii}F_{0i} = −E_i/c, while F^{ij} = F_{ij} = −ε_{ijk}B^k, i.e. F^{12} = −B_z, F^{13} = +B_y, F^{23} = −B_x. The transformed fields are read off the **same way** on both sides: F′^{0i} = −E_i′/c, F′^{12} = −B_z′, F′^{13} = +B_y′, F′^{23} = −B_x′. Taking the primed frame S′ to move at velocity +v along x, the boost is Λ^0_0 = γ, Λ^0_1 = Λ^1_0 = −γβ, Λ^1_1 = γ, Λ^2_2 = Λ^3_3 = 1, and a rank-2 contravariant tensor transforms as F′^{μν} = Λ^μ_α Λ^ν_β F^{αβ}.
 
-So **E_x′ = E_x** — the field component parallel to the boost is unchanged.
+全程使用**逆变**张量 F^{μν}，其分量由 A 节固定：因 F_{0i} = E_i/c，升两个指标得 F^{0i} = −E_i/c，而 F^{ij} = F_{ij} = −ε_{ijk}B^k，即 F^{12} = −B_z、F^{13} = +B_y、F^{23} = −B_x。两边以**相同方式**读出变换后的场：F′^{0i} = −E_i′/c、F′^{12} = −B_z′、F′^{13} = +B_y′、F′^{23} = −B_x′。取主系 S′ 沿 x 以速度 +v 运动，变换矩阵为 Λ^0_0 = γ、Λ^0_1 = Λ^1_0 = −γβ、Λ^1_1 = γ、Λ^2_2 = Λ^3_3 = 1，2 阶逆变张量按 F′^{μν} = Λ^μ_α Λ^ν_β F^{αβ} 变换。
 
-故 **E_x′ = E_x**——平行于变换方向的场分量不变。
+**Parallel components — E_x and B_x unchanged.** Only the indices 0,1 mix:
 
-**Step 4 — F′_{02} = E_y′/c.**
+**平行分量——E_x 与 B_x 不变。** 只有指标 0,1 混合：
 
-**第 4 步 — F′_{02} = E_y′/c。**
+  F′^{01} = Λ^0_0 Λ^1_1 F^{01} + Λ^0_1 Λ^1_0 F^{10} = γ²F^{01} + γ²β²F^{10} = γ²(1 − β²)F^{01} = F^{01}  ⟹  **E_x′ = E_x**,
+  F′^{23} = Λ^2_2 Λ^3_3 F^{23} = F^{23}  ⟹  **B_x′ = B_x**.  ✓
 
-  F′_{02} = Λ^α_0 Λ^β_2 F_{αβ} = Λ^0_0 Λ^2_2 F_{02} + Λ^1_0 Λ^2_2 F_{12}
-          = γ·1·F_{02} + (−γβ)·1·F_{12}
-          = γ(E_y/c) − γβ(−B_z)
-          = γ(E_y/c + βB_z) = γ(E_y − vB_z)/c.
+**E_y′ (from F′^{02}).** Since Λ^2_2 = 1, only α ∈ {0,1} contributes:
 
-So **E_y′ = γ(E_y − vB_z)**. ✓
+**E_y′（由 F′^{02}）。** 因 Λ^2_2 = 1，只有 α ∈ {0,1} 贡献：
 
-故 **E_y′ = γ(E_y − vB_z)**。✓
+  F′^{02} = Λ^0_0 F^{02} + Λ^0_1 F^{12} = γ(−E_y/c) + (−γβ)(−B_z) = −γE_y/c + γβB_z.
 
-**Step 5 — F′_{03} = E_z′/c.**
+Reading F′^{02} = −E_y′/c gives −E_y′/c = −γE_y/c + γβB_z, hence **E_y′ = γ(E_y − vB_z)**. ✓
 
-**第 5 步 — F′_{03} = E_z′/c。**
+由 F′^{02} = −E_y′/c 得 **E_y′ = γ(E_y − vB_z)**。✓
 
-  F′_{03} = Λ^0_0 Λ^3_3 F_{03} + Λ^1_0 Λ^3_3 F_{13}
-          = γ(E_z/c) + (−γβ)(B_y)
-          = γ(E_z/c − βB_y) = γ(E_z + vB_y)/c.
+**E_z′ (from F′^{03}).**
 
-Wait: F_{13} = B_y (from Step 3 of section A: F_{13} = +B_y). So:
+**E_z′（由 F′^{03}）。**
 
-注意：由第 A 节第 3 步，F_{13} = +B_y。故：
+  F′^{03} = Λ^0_0 F^{03} + Λ^0_1 F^{13} = γ(−E_z/c) + (−γβ)(+B_y) = −γE_z/c − γβB_y.
 
-  F′_{03} = γ(E_z/c) − γβ·B_y = γ(E_z/c − βB_y).
+With F′^{03} = −E_z′/c: **E_z′ = γ(E_z + vB_y)**. ✓
 
-But E_z′/c = F′_{03} = γ(E_z − vB_y)/c, giving **E_z′ = γ(E_z − vB_y)**.
+由 F′^{03} = −E_z′/c：**E_z′ = γ(E_z + vB_y)**。✓
 
-Hmm — the sign: the standard result is E_z′ = γ(E_z + vB_y). Let us recheck the sign of F_{13}. From section A Step 3: F_{13} = ∂_3 A^1 − ∂_1 A^3. With B^2 = B_y = ∂_3 A^1 − ∂_1 A^3, we have F_{13} = +B_y. But Λ^1_0 = −γβ, so:
+**B_z′ (from F′^{12}).** Now the first index 1 mixes with 0:
 
-重新核查：F_{13} = +B_y，Λ^1_0 = −γβ：
+**B_z′（由 F′^{12}）。** 此时第一个指标 1 与 0 混合：
 
-  F′_{03} = γ·1·(E_z/c) + (−γβ)·1·F_{13} = γE_z/c − γβ B_y.
+  F′^{12} = Λ^1_0 F^{02} + Λ^1_1 F^{12} = (−γβ)(−E_y/c) + γ(−B_z) = γβE_y/c − γB_z.
 
-So E_z′ = γ(E_z − vB_y). The standard transformation has **E_z′ = γ(E_z + vB_y)** for a boost in +x. The discrepancy is a sign convention for F_{13}. Using the convention F^{μν} with F^{0i} = +E_i/c, we must be consistent. Let us use the contravariant tensor F^{μν} for the boost:
+Reading F′^{12} = −B_z′ and using β/c = v/c²: **B_z′ = γ(B_z − vE_y/c²)**. ✓
 
-使用逆变张量 F^{μν}，其中 F^{0i} = +E_i/c，F^{12} = −B_z，F^{13} = +B_y，F^{23} = −B_x：
+由 F′^{12} = −B_z′ 并用 β/c = v/c²：**B_z′ = γ(B_z − vE_y/c²)**。✓
 
-  F′^{μν} = Λ^μ_α Λ^ν_β F^{αβ}.
+**B_y′ (from F′^{13}).**
 
-  F′^{02} = Λ^0_α Λ^2_β F^{αβ} = Λ^0_0 Λ^2_2 F^{02} + Λ^0_1 Λ^2_2 F^{12}
-          = γ·1·(E_y/c) + (−γβ)·1·(−B_z)
-          = γE_y/c + γβB_z = γ(E_y + vB_z/c · c)/c... 
+**B_y′（由 F′^{13}）。**
 
-Let us be systematic. For the boost Λ^0_0 = γ, Λ^0_1 = −γβ, Λ^1_0 = −γβ, Λ^1_1 = γ, Λ^2_2 = Λ^3_3 = 1. Then F′^{02}:
+  F′^{13} = Λ^1_0 F^{03} + Λ^1_1 F^{13} = (−γβ)(−E_z/c) + γ(+B_y) = γβE_z/c + γB_y.
 
-系统地计算，变换矩阵元：Λ^0_0 = γ，Λ^0_1 = −γβ，Λ^1_0 = −γβ，Λ^1_1 = γ，Λ^2_2 = Λ^3_3 = 1。
+Reading F′^{13} = +B_y′: **B_y′ = γ(B_y + vE_z/c²)**. ✓
 
-  F′^{02} = Λ^0_0 Λ^2_2 F^{02} + Λ^0_1 Λ^2_2 F^{12}
-          = γ(E_y/c) + (−γβ)(−B_z)
-          = γ(E_y/c + βB_z) = γ(E_y + vB_z)/c.
+由 F′^{13} = +B_y′：**B_y′ = γ(B_y + vE_z/c²)**。✓
 
-So **E_y′ = γ(E_y + vB_z)** — but the standard result for a boost with the source moving at +v has E_y′ = γ(E_y − vB_z). The sign depends on whether the frame S′ moves at +v or −v relative to S. Taking S′ moving at +v along x (so the boost is Λ with v → +v), the observer in S′ sees:
+All six components reproduce the Claim with no convention ambiguity — the only requirement is to use F^{0i} = −E_i/c (Section A) consistently for both F and F′.
 
-标准结果 E_y′ = γ(E_y − vB_z) 对应于 S′ 相对于 S 以 +v 沿 x 运动，即 S 以 −v 相对 S′ 运动。选择 S′ 以 +v 运动的约定：
-
-  F′^{02} = Λ^0_0 Λ^2_2 F^{02} + Λ^0_1 Λ^2_2 F^{12}
-
-with Λ^0_1 = +γβ (for frame moving at +v, the standard boost has the off-diagonal entries +γβ and +γβ on the space-time cross terms). Using the convention where S′ moves at +v:
-
-  Λ^0_0 = γ, Λ^0_1 = −γβ, Λ^1_0 = −γβ, Λ^1_1 = γ (boost taking x → x′ when v is +v).
-
-The key point is that with F^{12} = −B_z:
-
-关键在于 F^{12} = −B_z，所以
-
-  F′^{02} = γ(E_y/c) + (−γβ)(−B_z) = γ(E_y/c + βB_z).
-
-This gives E_y′ = γ(E_y + vB_z). The **standard transformation** E_y′ = γ(E_y − vB_z) corresponds to the opposite sign convention for the boost (S′ moving at −v). Adopting the physics convention that S′ moves at velocity −v relative to S (or equivalently S moves at +v relative to S′):
-
-这给出 E_y′ = γ(E_y + vB_z)。标准变换 E_y′ = γ(E_y − vB_z) 对应于 S′ 以速度 v 沿 x 方向运动、S 静止。采用此物理约定，boost 矩阵为：
-
-  Λ^μ_ν (S at rest, S′ moving at +v): Λ^0_1 = −γβ.
-
-Then:
-
-  F′^{02} = γ(E_y/c) + (−γβ)(−B_z) = γ(E_y + vB_z)/c → **E_y′ = γ(E_y + vB_z)**.
-
-The correct statement of the transformation (taking the primed frame to move at velocity +v along x) is: **E_y′ = γ(E_y + vB_z)** is wrong and **E_y′ = γ(E_y − vB_z)** is the standard result. The resolution: the boost matrix taking events from S to S′ (S′ moves at +v relative to S) has
-
-正确结论（S′ 相对 S 以 +v 沿 x 运动，即标准物理约定）：
-
-  Λ^0_0 = γ,  Λ^0_1 = −γβ,  Λ^1_0 = −γβ,  Λ^1_1 = γ.
-
-And F^{12} = B_z (note: with the mostly-minus metric and the sign conventions of Jackson, F^{12} = −B_z and F^{21} = +B_z, or vice versa depending on author). Let us fix the convention once and for all following Jackson (SI): **F^{0i} = E_i/c** and **F^{ij} = −ε_{ijk}B_k**, so F^{12} = −B_z. Then:
-
-  F′^{02} = γ(E_y/c) + (−γβ)(−B_z) = γE_y/c + γβB_z.
-
-This gives E_y′ = γ(E_y + vB_z), which is the result for a frame S′ moving at +v. If instead the source is in S and the observer is in S′ moving at +v (so objects at rest in S are seen to move at −v in S′), then the transformation of the fields as seen from S′ (measuring fields of a source that moves at −v in S′) gives E_y′ = γ(E_y − vB_z). The standard physics result is stated as:
-
-物理上标准结论（观察者系 S′ 相对于场源系 S 以 +v 运动，从 S′ 看场源以 −v 运动）：
-
-**E_x′ = E_x,   E_y′ = γ(E_y − vB_z),   E_z′ = γ(E_z + vB_y)**
-**B_x′ = B_x,   B_y′ = γ(B_y + vE_z/c²),   B_z′ = γ(B_z − vE_y/c²)**
-
-We derive these by taking the inverse boost (S′ → S has velocity −v, so S → S′ has velocity +v in S, giving the transformation of coordinates t′ = γ(t − vx/c²), x′ = γ(x − vt)), and computing F′^{μν} = Λ^μ_α Λ^ν_β F^{αβ} with Λ the boost at velocity +v:
-
-推导方法：取正向 boost（S → S′ 以 +v），Λ^0_0 = γ，Λ^0_1 = −γβ，Λ^1_0 = −γβ，Λ^1_1 = γ。
-
-For E_y′ component:
-
-  F′^{02} = Λ^0_α Λ^2_β F^{αβ} = Λ^0_0 F^{02} + Λ^0_1 F^{12}
-          = γ(E_y/c) + (−γβ)(−B_z)
-          = γE_y/c + γβB_z = γ(E_y + vB_z)/c.
-
-So E_y′ = γ(E_y + vB_z). This is the field in S′ when S′ moves at +v along x. The standard textbook writes **E_y′ = γ(E_y − vB_z)** for the frame S′ moving at **−v** (or equivalently S moving at +v and the primed frame being the rest frame). To make contact: replace v → −v to get E_y′ = γ(E_y − vB_z).
+六个分量全部重现命题，且无约定歧义——唯一要求是在 F 与 F′ 两侧一致地使用 F^{0i} = −E_i/c（A 节）。
 
 **Summary (adopting the convention that the primed frame moves at +v along x in S):**
 
@@ -250,71 +185,9 @@ So E_y′ = γ(E_y + vB_z). This is the field in S′ when S′ moves at +v alon
 
 **第 1 步 — 识别四电流。** 四电流为 J^ν = (cρ, J_x, J_y, J_z)，其中 ρ 为电荷密度，**J** 为三维电流密度。
 
-**Step 2 — The ν = 0 equation (Gauss's law).** Expand ∂_μ F^{μ0} = μ₀ J^0:
+**Step 2 — Setup: the explicit contravariant components.** From Section A the lowered tensor has F_{0i} = E_i/c and F_{ij} = −ε_{ijk}B^k. Raising both indices with η = diag(+,−,−,−) gives F^{0i} = η^{00}η^{ii}F_{0i} = −E_i/c (so F^{i0} = +E_i/c) and F^{ij} = F_{ij} = −ε_{ijk}B^k. The four-current is J^μ = (cρ, J_x, J_y, J_z), and ∂_μ = ∂/∂x^μ = ((1/c)∂_t, ∂_x, ∂_y, ∂_z). The key sign — the one that makes Gauss's law come out with the correct +ρ/ε₀ — is **F^{i0} = +E_i/c**, which follows directly from §A and must be used consistently.
 
-**第 2 步 — ν = 0 方程（高斯定律）。** 展开 ∂_μ F^{μ0} = μ₀ J^0：
-
-  ∂_μ F^{μ0} = ∂_0 F^{00} + ∂_1 F^{10} + ∂_2 F^{20} + ∂_3 F^{30}.
-
-Since F^{00} = 0 (antisymmetry), F^{i0} = −F^{0i} = −E_i/c:
-
-由于 F^{00} = 0（反对称性），F^{i0} = −F^{0i} = −E_i/c：
-
-  ∂_μ F^{μ0} = 0 + ∂_1(−E_x/c) + ∂_2(−E_y/c) + ∂_3(−E_z/c)
-             = −(1/c)(∂E_x/∂x + ∂E_y/∂y + ∂E_z/∂z)
-             = −(1/c)(∇ · **E**).
-
-Setting equal to μ₀ J^0 = μ₀ cρ:
-
-令等于 μ₀ J^0 = μ₀ cρ：
-
-  −(1/c)(∇ · **E**) = μ₀ cρ
-  ∇ · **E** = −μ₀ c² ρ = −ρ/ε₀   [using μ₀ε₀ = 1/c²].
-
-With the correct sign: since ∂_1 = +∂/∂x (not −∂/∂x), the sum gives −∇·**E**/c. But this yields **∇ · E = −μ₀c²ρ = −ρ/ε₀**, which has a sign error. Let us recheck: ∂_μ means ∂/∂x^μ with x^μ = (ct, x, y, z), so ∂_1 = ∂/∂x. And F^{10} = −F^{01} = −E_x/c. So:
-
-重新检验：∂_μ = ∂/∂x^μ，∂_1 = ∂/∂x，F^{10} = −E_x/c。
-
-  ∂_1 F^{10} = (∂/∂x)(−E_x/c) = −(1/c) ∂E_x/∂x.
-
-Summing over all i: ∂_μ F^{μ0} = −(1/c)∇·**E** = μ₀(cρ). Hence:
-
-对所有 i 求和：∂_μ F^{μ0} = −(1/c)∇·**E** = μ₀ cρ，故：
-
-  ∇·**E** = −μ₀ c² ρ.
-
-Using μ₀ c² = 1/ε₀ (since c² = 1/μ₀ε₀): ∇·**E** = −ρ/ε₀. The sign is still wrong — the correct Gauss law has ∇·**E** = +ρ/ε₀. The issue is the metric signature: with (+,−,−,−), ∂_μ F^{μ0} = ∂_0 F^{00} + ∂_i F^{i0}, and F^{i0} = −F^{0i} = −E^i/c. So ∂_μ F^{μ0} = −∂_i(E^i/c) = −∇·**E**/c. Setting this equal to μ₀ J^0 = μ₀ cρ gives ∇·**E** = −μ₀c²ρ = −ρ/ε₀.
-
-The resolution is the raising of the ν index: the equation is ∂_μ F^{μν} = μ₀ J^ν, and with convention J^0 = cρ (positive charge density gives positive J^0), the ν=0 equation gives ∇·**E** = −ρ/ε₀. To get the correct sign we need J^0 = cρ and the equation ∂_μ F^{μν} = −μ₀ J^ν (note minus), or we use the alternative metric (−,+,+,+). In the standard SI/Jackson convention with metric (+,−,−,−) and F^{0i} = E_i/c, the correct equation is **∂_ν F^{νμ} = μ₀ J^μ** (with the indices swapped). Let us use this:
-
-修正：采用 ∂_ν F^{νμ} = μ₀ J^μ（Jackson SI 约定，度规 (+,−,−,−)）。
-
-  ∂_ν F^{ν0} = ∂_0 F^{00} + ∂_i F^{i0} = 0 + ∂_i(E^i/c)... 
-
-Actually, ∂_i here means ∂/∂x^i (note lower index, positive in (+,−,−,−) for spatial). With F^{i0} = +E^i/c (since F^{i0} = −F^{0i} = −(−E^i/c) = +E^i/c... no, F^{0i} = +E^i/c so F^{i0} = −E^i/c). Let us just commit to a fully explicit derivation.
-
-In the (+,−,−,−) signature, with F^{01} = E_x/c, F^{02} = E_y/c, F^{03} = E_z/c, F^{12} = B_z, F^{13} = −B_y, F^{23} = B_x (the Griffiths/Jackson convention):
-
-采用 Griffiths/Jackson 约定（度规 (+,−,−,−)）：F^{01} = E_x/c，F^{02} = E_y/c，F^{03} = E_z/c，F^{12} = B_z，F^{13} = −B_y，F^{23} = B_x。
-
-  F^{10} = −E_x/c,  F^{20} = −E_y/c,  F^{30} = −E_z/c,
-  F^{21} = −B_z,  F^{31} = B_y,  F^{32} = −B_x.
-
-Equation: ∂_μ F^{μν} = μ₀ J^ν. For ν = 0:
-
-方程 ∂_μ F^{μν} = μ₀ J^ν，取 ν = 0：
-
-  ∂_0 F^{00} + ∂_1 F^{10} + ∂_2 F^{20} + ∂_3 F^{30}
-  = 0 + ∂_x(−E_x/c) + ∂_y(−E_y/c) + ∂_z(−E_z/c)
-  = −(1/c)∇·**E** = μ₀ J^0 = μ₀(cρ).
-
-This gives ∇·**E** = −μ₀c²ρ = −ρ/ε₀ — sign error persists. The resolution: in the mostly-minus metric, the standard form of Maxwell's equations uses **∂_μ F^{μν} = μ₀ J^ν** with J^μ = (ρ/c, **J**) (not J^μ = (cρ, **J**)). Or alternatively, in the mostly-plus metric (−,+,+,+), the equation is ∂_μ F^{μν} = μ₀ J^ν with J^0 = cρ and F^{0i} = −E^i/c.
-
-**Resolution with consistent conventions.** Using metric (−,+,+,+) (the particle physics convention), x^μ = (ct, x, y, z), A^μ = (φ/c, A^i), F^{μν} = ∂^μ A^ν − ∂^ν A^μ with ∂^μ = η^{μν}∂_ν = (−∂_t/c, ∂_x, ∂_y, ∂_z). Then F^{0i} = ∂^0 A^i − ∂^i A^0 = (−1/c)∂_t A^i − ∂^i(φ/c). With ∂^i = +∂_i for (−,+,+,+): F^{0i} = −(1/c)∂_t A^i − (1/c)∂_i φ = −(1/c)(∂_t A^i + ∂_i φ) = −(−E^i)/c = E^i/c... this depends heavily on sign conventions.
-
-**Final clean derivation.** We adopt the clearest explicit route: write Maxwell's equations directly and show they follow from ∂_μ F^{μν} = μ₀ J^ν by direct substitution.
-
-**最终简洁推导。** 直接代入验证。
+**第 2 步 — 准备：显式逆变分量。** 由 A 节，降标张量有 F_{0i} = E_i/c 与 F_{ij} = −ε_{ijk}B^k。用 η = diag(+,−,−,−) 升两个指标得 F^{0i} = −E_i/c（故 F^{i0} = +E_i/c）与 F^{ij} = F_{ij} = −ε_{ijk}B^k。四电流为 J^μ = (cρ, J_x, J_y, J_z)，∂_μ = ((1/c)∂_t, ∂_x, ∂_y, ∂_z)。使高斯定律给出正确 +ρ/ε₀ 的关键符号是 **F^{i0} = +E_i/c**，它直接来自 §A，必须一致使用。
 
 Take F^{μν} with the components:
 
@@ -366,9 +239,9 @@ Similarly for ν = 2 and ν = 3, one recovers the y and z components. The two ho
 
   F_{μν} F^{μν} = 2(F_{01}F^{01} + F_{02}F^{02} + F_{03}F^{03} + F_{12}F^{12} + F_{13}F^{13} + F_{23}F^{23}).
 
-With metric (+,−,−,−), lowering two spatial indices introduces two minus signs (net positive), while F_{0i} = E_i/c and F^{0i} = E_i/c but F_{0i} = η_{00}η_{ii}F^{0i} = (+1)(−1)(E_i/c) = −E_i/c. So F_{01}F^{01} = (−E_x/c)(E_x/c) = −E_x²/c². Similarly for 02 and 03. For the spatial-spatial components: F_{12} = −B_z (with metric lowering for spatial: F_{ij} = η_{ii}η_{jj}F^{ij} = (−1)(−1)F^{ij} = +F^{ij}), and F^{12} = −B_z, so F_{12}F^{12} = (−B_z)(−B_z) = B_z². Wait: let us be careful. F^{12} = −B_z (from Step 3 of section A). Raising/lowering: F_{12} = η_{11}η_{22}F^{12} = (−1)(−1)(−B_z) = −B_z. So F_{12}F^{12} = (−B_z)(−B_z) = B_z². Similarly F_{13}F^{13} = B_y² and F_{23}F^{23} = B_x². For the time-space cross terms: F_{01} = η_{00}η_{11}F^{01} = (+1)(−1)(E_x/c) = −E_x/c. So F_{01}F^{01} = (−E_x/c)(E_x/c) = −E_x²/c².
+From Section A the lowered components are F_{0i} = E_i/c and F_{ij} = −ε_{ijk}B^k. Raise indices with η = diag(+,−,−,−): a time–space index pair flips sign, F^{0i} = η^{00}η^{ii}F_{0i} = (+1)(−1)(E_i/c) = −E_i/c, while a space–space pair is unchanged, F^{ij} = η^{ii}η^{jj}F_{ij} = (−1)(−1)F_{ij} = F_{ij}. Hence each time–space product is F_{0i}F^{0i} = (E_i/c)(−E_i/c) = −E_i²/c², and each space–space product is F_{ij}F^{ij} = (F_{ij})² ≥ 0 with Σ_{i<j}(F_{ij})² = B² (since F_{12}=−B_z, F_{13}=+B_y, F_{23}=−B_x). Therefore:
 
-将所有项代入：
+由 A 节，降标分量为 F_{0i} = E_i/c 与 F_{ij} = −ε_{ijk}B^k。用 η = diag(+,−,−,−) 升指标：时间–空间对变号 F^{0i} = −E_i/c，空间–空间对不变 F^{ij} = F_{ij}。故每个时间–空间乘积为 F_{0i}F^{0i} = −E_i²/c²，每个空间–空间乘积为 F_{ij}F^{ij} = (F_{ij})²，且 Σ_{i<j}(F_{ij})² = B²。因此：
 
   F_{μν} F^{μν} = 2[−E_x²/c² − E_y²/c² − E_z²/c² + B_z² + B_y² + B_x²]
                = 2[B² − E²/c²].
@@ -381,64 +254,38 @@ So **F_{μν} F^{μν} = 2(B² − E²/c²)**. ✓
 
 **第 2 步 — 对偶张量 F̃^{μν}。** 对偶张量定义为 F̃^{μν} = ½ ε^{μνρσ} F_{ρσ}，其中 ε^{0123} = +1。非零分量由 ε^{μνρσ} 的循环性质给出：
 
-  F̃^{01} = ½(ε^{0123}F_{23} + ε^{0132}F_{32}) = ½(F_{23} − F_{32}) = F_{23}.
+  F̃^{01} = ½(ε^{0123}F_{23} + ε^{0132}F_{32}) = ½(F_{23} − F_{32}) = F_{23} = −B_x,  and cyclically F̃^{0i} = −B_i;
+  F̃^{12} = ½(ε^{1203}F_{03} + ε^{1230}F_{30}) = F_{03} = E_z/c,  and cyclically F̃^{13} = −E_y/c, F̃^{23} = E_x/c.
 
-With F_{23} = −B_x (from our convention), F̃^{01} = −B_x. Similarly:
+In matrix form:
 
-由约定 F_{23} = −B_x，故 F̃^{01} = −B_x。类似地：
+写成矩阵形式：
 
-  F̃^{02} = F_{31} = −F_{13} = B_y → so F̃^{02} = B_y... 
+  F̃^{μν} = ⎡  0    −B_x   −B_y   −B_z ⎤
+             ⎢  B_x    0    E_z/c −E_y/c⎥
+             ⎢  B_y −E_z/c   0    E_x/c⎥
+             ⎣  B_z  E_y/c −E_x/c   0  ⎦
 
-Let us just state the result: the dual tensor in component form is
-
-直接给出对偶张量的分量：
-
-  F̃^{μν} = ⎡  0    B_x    B_y    B_z ⎤
-             ⎢ −B_x   0    −E_z/c  E_y/c ⎥
-             ⎢ −B_y  E_z/c   0    −E_x/c ⎥
-             ⎣ −B_z −E_y/c  E_x/c   0   ⎦
-
-In other words, F̃^{μν} is obtained from F^{μν} by the replacements **E/c → B** and **B → −E/c** (electromagnetic duality rotation by π/2).
+In other words, F̃^{μν} is obtained from F^{μν} by the replacements **E/c → B** and **B → −E/c** (an electromagnetic duality rotation by π/2).
 
 即 F̃^{μν} 由 F^{μν} 经替换 **E/c → B** 和 **B → −E/c** 得到（电磁对偶旋转 π/2）。
 
-**Step 3 — Compute F_{μν} F̃^{μν}.** By the same counting as Step 1:
+**Step 3 — Compute F_{μν} F̃^{μν}.** Summing each unordered pair twice, with the lowered components F_{0i} = E_i/c, F_{12} = −B_z, F_{13} = +B_y, F_{23} = −B_x (Section A) and F̃^{μν} from Step 2:
 
-**第 3 步 — 计算 F_{μν} F̃^{μν}。**
+**第 3 步 — 计算 F_{μν} F̃^{μν}。** 每个无序对计两次，用降标分量 F_{0i} = E_i/c、F_{12} = −B_z、F_{13} = +B_y、F_{23} = −B_x（A 节）以及第 2 步的 F̃^{μν}：
 
-  F_{μν} F̃^{μν} = 2(F_{01}F̃^{01} + F_{02}F̃^{02} + F_{03}F̃^{03} + F_{12}F̃^{12} + F_{13}F̃^{13} + F_{23}F̃^{23}).
+  Time–space: Σ_i F_{0i} F̃^{0i} = Σ_i (E_i/c)(−B_i) = −(**E**·**B**)/c,
+  Space–space: F_{12}F̃^{12} + F_{13}F̃^{13} + F_{23}F̃^{23} = (−B_z)(E_z/c) + (B_y)(−E_y/c) + (−B_x)(E_x/c) = −(**E**·**B**)/c.
 
-With F_{0i} = −E_i/c and F̃^{0i} = B_i (from the dual):
+Therefore:
 
-取 F_{0i} = −E_i/c，F̃^{0i} = B_i：
+因此：
 
-  F_{01}F̃^{01} = (−E_x/c)(B_x), similarly for 02, 03: sum gives −**E**·**B**/c.
+  **F_{μν} F̃^{μν} = 2[ −(**E**·**B**)/c − (**E**·**B**)/c ] = −4(**E**·**B**)/c**  (SI, metric +−−−, ε^{0123} = +1).
 
-For the spatial-spatial terms: F_{12} = −B_z, F̃^{12} = −E_z/c:
+The overall sign is fixed by the orientation convention ε^{0123} = +1; the magnitude 4|**E**·**B**|/c is convention-independent. This pseudoscalar, promoted to the non-abelian form G^a_{μν}G̃^{aμν}, is exactly the QCD **θ-term** behind the strong-CP problem (Module 8.3, [6.9 §D](../phase-6-quantum-field-theory/module-6.9-anomalies-and-nonperturbative-qft-derivations.md)).
 
-  F_{12}F̃^{12} = (−B_z)(−E_z/c) = B_z E_z/c, similarly for 13 and 23: sum gives +**B**·**E**/c.
-
-Combining:
-
-合并：
-
-  F_{μν} F̃^{μν} = 2(−**E**·**B**/c + **E**·**B**/c) = 0?
-
-This would be zero, which is wrong — the invariant should be proportional to **E**·**B**. Let us recompute more carefully. Using F̃_{μν} (lowered) rather than F̃^{μν}:
-
-实际上，使用 F̃_{μν}（降低指标）来计算 F^{μν}F̃_{μν}：
-
-  F^{μν}F̃_{μν} = 2(F^{01}F̃_{01} + F^{02}F̃_{02} + F^{03}F̃_{03} + F^{12}F̃_{12} + F^{13}F̃_{13} + F^{23}F̃_{23}).
-
-With F^{0i} = +E_i/c and F̃_{0i} = −F̃^{0i}η_{00}η_{ii}... this is getting complicated. The known result is:
-
-已知结果（可通过直接展开或查阅 Jackson §11.9 验证）：
-
-  **F_{μν} F̃^{μν} = F^{μν} F̃_{μν} = −4(E·B)/c**  (SI, metric +−−−),
-
-or equivalently **F^{μν} F̃_{μν} ∝ **E**·**B****, which is a Lorentz scalar.
-
-即 F^{μν} F̃_{μν} ∝ **E**·**B**，为洛伦兹标量。
+总符号由定向约定 ε^{0123} = +1 固定；量值 4|**E**·**B**|/c 与约定无关。此赝标量推广为非阿贝尔形式 G^a_{μν}G̃^{aμν} 时，正是强 CP 问题背后的 QCD **θ 项**（模块 8.3、[6.9 §D](../phase-6-quantum-field-theory/module-6.9-anomalies-and-nonperturbative-qft-derivations.md)）。
 
 **Step 4 — Physical significance of the two invariants.**
 
@@ -512,17 +359,90 @@ where F̃^{μν} = ½ε^{μναβ}F_{αβ} is the dual. Each term cancels in pai
 
 **第 5 步 — 能动张量（诺特 → 贝林方特）。** 由平移不变性得到的正则能动张量 T^{μν}_can = (∂ℒ/∂(∂_μA_λ))∂^νA_λ − η^{μν}ℒ = −(1/μ₀)F^{μλ}∂^νA_λ − η^{μν}ℒ 既不对称也不规范不变。加入改进项 (1/μ₀)∂_λ(F^{λμ}A^ν)——一个全导数，在无源区利用 ∂_λF^{λμ} = μ₀J^μ = 0，它既不改变守恒的能量–动量，也不改变局域守恒律——将其对称化为规范不变的**贝林方特张量**
 
-  **T^{μν} = (1/μ₀) [ F^{μα} F^ν{}_α − ¼ η^{μν} F_{αβ}F^{αβ} ].**
+  **T^{μν} = (1/μ₀) [ −F^{μα} F^ν{}_α + ¼ η^{μν} F_{αβ}F^{αβ} ]**   (metric +−−−).
 
-Using the explicit components of Section A and F_{αβ}F^{αβ} = 2(B² − E²/c²) of Section D, the time–time and time–space components reproduce the familiar electromagnetic energy density and Poynting flux:
+(In the opposite signature −+++ this is written T^{μν} = (1/μ₀)[F^{μα}F^ν{}_α − ¼η^{μν}F²]; the two overall signs flip together with η, so T^{00} is positive in both. The explicit component check is carried out in Section F.)
 
-利用 A 节的显式分量和 D 节的 F_{αβ}F^{αβ} = 2(B² − E²/c²)，时间–时间与时间–空间分量重现熟悉的电磁能量密度与坡印廷通量：
+（在相反符号 −+++ 下写作 T^{μν} = (1/μ₀)[F^{μα}F^ν{}_α − ¼η^{μν}F²]；两处总符号随 η 一起翻转，故 T^{00} 在两种约定下均为正。显式分量验证见 F 节。）
 
-  T^{00} = ½(ε₀E² + B²/μ₀) = u  (energy density),   T^{0i} = (1/μ₀c)(**E** × **B**)^i = S^i/c  (momentum density × c),
+This tensor is symmetric (T^{μν} = T^{νμ}), gauge-invariant (built only from F), traceless (η_{μν}T^{μν} = 0, reflecting the masslessness/conformal invariance of the photon), and conserved: ∂_μT^{μν} = −F^{νλ}J_λ in the presence of a source J (the Lorentz four-force density), and ∂_μT^{μν} = 0 in vacuum — precisely Poynting's theorem (energy conservation) and electromagnetic momentum conservation. The whole mechanical force law thus follows from the field action alone. ∎
 
-so ∂_μT^{μν} = 0 in vacuum is precisely Poynting's theorem (energy conservation) and electromagnetic momentum conservation. With sources, ∂_μT^{μν} = −F^{νλ}J_λ/c = (Lorentz force density)·c, recovering the force law from the field action alone. ∎
+该张量对称（T^{μν} = T^{νμ}）、规范不变（仅由 F 构造）、无迹（η_{μν}T^{μν} = 0，反映光子的无质量／共形不变性），且守恒：有源 J 时 ∂_μT^{μν} = −F^{νλ}J_λ（洛伦兹四维力密度），真空中 ∂_μT^{μν} = 0——正是坡印廷定理（能量守恒）与电磁动量守恒。于是整个力学的力定律仅由场作用量便得出。∎
 
-故真空中 ∂_μT^{μν} = 0 正是坡印廷定理（能量守恒）与电磁动量守恒。有源时 ∂_μT^{μν} = −F^{νλ}J_λ/c =（洛伦兹力密度）·c，仅从场作用量便恢复了力的定律。∎
+---
+
+## F. Component-by-Component Verification of the Stress-Energy Tensor · 能动张量的逐分量验证
+
+**Claim.** Evaluating the Belinfante tensor T^{μν} = (1/μ₀)[−F^{μα}F^ν{}_α + ¼η^{μν}F_{αβ}F^{αβ}] on the explicit field components of Section A reproduces, component by component, the electromagnetic energy density, the Poynting (momentum-flux) vector, and the Maxwell stress tensor of elementary electromagnetism.
+
+**命题。** 将贝林方特张量 T^{μν} = (1/μ₀)[−F^{μα}F^ν{}_α + ¼η^{μν}F_{αβ}F^{αβ}] 在 A 节的显式场分量上求值，逐分量重现基础电磁学的电磁能量密度、坡印廷（动量通量）矢量与麦克斯韦应力张量。
+
+**Setup — components with one index raised.** From Section A, F_{0i} = E_i/c and F_{ij} = −ε_{ijk}B^k. Raising one index with η = diag(+,−,−,−):
+
+**准备——升一个指标的分量。** 由 A 节，F_{0i} = E_i/c，F_{ij} = −ε_{ijk}B^k。用 η = diag(+,−,−,−) 升一个指标：
+
+  F^{0i} = −E_i/c,  F^i{}_0 = E_i/c,  F^i{}_j = ε_{ijk}B^k,   and  F_{αβ}F^{αβ} = 2(B² − E²/c²) (Section D).
+
+**Step 1 — Energy density T^{00}.** With η^{00} = +1:
+
+**第 1 步 — 能量密度 T^{00}。** 取 η^{00} = +1：
+
+  T^{00} = (1/μ₀)[ −F^{0α}F^0{}_α + ¼ F_{αβ}F^{αβ} ].
+
+The first term: F^{0α}F^0{}_α = F^{0i}F^0{}_i = Σ_i(−E_i/c)(E_i/c) = −E²/c² (using F^0{}_i = η^{00}F_{0i} = E_i/c). Hence
+
+第一项：F^{0α}F^0{}_α = Σ_i(−E_i/c)(E_i/c) = −E²/c²。故
+
+  T^{00} = (1/μ₀)[ E²/c² + ¼·2(B² − E²/c²) ] = (1/μ₀)[ E²/c² + ½B² − ½E²/c² ] = (1/μ₀)[ ½E²/c² + ½B² ].
+
+Using ε₀ = 1/(μ₀c²):
+
+利用 ε₀ = 1/(μ₀c²)：
+
+  **T^{00} = ½(ε₀E² + B²/μ₀) = u**  — the electromagnetic energy density. ✓
+
+**Step 2 — Energy flux / momentum density T^{0i}.** Since η^{0i} = 0:
+
+**第 2 步 — 能流／动量密度 T^{0i}。** 因 η^{0i} = 0：
+
+  T^{0i} = −(1/μ₀)F^{0α}F^i{}_α = −(1/μ₀)F^{0j}F^i{}_j = −(1/μ₀)Σ_j(−E_j/c)(ε_{ijk}B^k) = (1/μ₀c)ε_{ijk}E_jB^k.
+
+Therefore
+
+因此
+
+  **T^{0i} = (1/μ₀c)(**E** × **B**)_i = S_i/c**,   where **S** = (1/μ₀)**E** × **B** is the Poynting vector. ✓
+
+T^{0i} is simultaneously the energy flux (×1/c) and the electromagnetic momentum density g_i = S_i/c² (×c) — the field carries momentum, as the relativistic symmetry T^{0i} = T^{i0} demands.
+
+T^{0i} 同时是能流（×1/c）与电磁动量密度 g_i = S_i/c²（×c）——场携带动量，正如相对论对称性 T^{0i} = T^{i0} 所要求。
+
+**Step 3 — Stress (momentum flux) T^{ij} = the Maxwell stress tensor.** With η^{ij} = −δ_{ij}:
+
+**第 3 步 — 应力（动量通量）T^{ij} = 麦克斯韦应力张量。** 取 η^{ij} = −δ_{ij}：
+
+  T^{ij} = (1/μ₀)[ −F^{iα}F^j{}_α − ¼δ_{ij}F_{αβ}F^{αβ} ].
+
+The contraction splits into time and space parts: −F^{iα}F^j{}_α = −[F^{i0}F^j{}_0 + F^{ik}F^j{}_k] = −[(E_i/c)(E_j/c) + (−ε_{ikm}B^m)(ε_{jkn}B^n)]. Using Σ_k ε_{ikm}ε_{jkn} = δ_{ij}δ_{mn} − δ_{in}δ_{mj}, the magnetic piece is −(−(δ_{ij}B² − B_iB_j)) = δ_{ij}B² − B_iB_j, so
+
+缩并分为时间与空间两部分；利用 Σ_k ε_{ikm}ε_{jkn} = δ_{ij}δ_{mn} − δ_{in}δ_{mj} 处理磁场部分，得
+
+  −F^{iα}F^j{}_α = −E_iE_j/c² + δ_{ij}B² − B_iB_j.
+
+The trace term is −¼δ_{ij}·2(B² − E²/c²) = −½δ_{ij}B² + ½δ_{ij}E²/c². Adding:
+
+迹项为 −½δ_{ij}B² + ½δ_{ij}E²/c²。相加：
+
+  T^{ij} = (1/μ₀)[ −E_iE_j/c² − B_iB_j + ½δ_{ij}(E²/c² + B²) ]
+         = −[ ε₀(E_iE_j − ½δ_{ij}E²) + (1/μ₀)(B_iB_j − ½δ_{ij}B²) ] = −σ_{ij},
+
+which is **minus the Maxwell stress tensor** σ_{ij} of electrostatics/magnetostatics. The sign is correct: T^{ij} is the flux of i-momentum in the j-direction, and −σ_{ij} is the rate at which field momentum flows, so ∂_μT^{μi} = 0 reproduces the momentum-conservation law **f** + ∂**g**/∂t = ∇·σ of Maxwell stress. ✓ ∎
+
+即**麦克斯韦应力张量 σ_{ij} 的相反数**。符号正确：T^{ij} 是 i 方向动量沿 j 方向的通量，−σ_{ij} 是场动量的流动率，故 ∂_μT^{μi} = 0 重现麦克斯韦应力的动量守恒律 **f** + ∂**g**/∂t = ∇·σ。✓ ∎
+
+---
+
+*All results follow from the covariant structure of F^{μν} = ∂^μ A^ν − ∂^ν A^μ and the Lorentz transformation law for rank-2 tensors.*
 
 ---
 

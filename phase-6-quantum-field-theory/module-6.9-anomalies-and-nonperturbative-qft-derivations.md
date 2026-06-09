@@ -1,8 +1,8 @@
 # Derivations — Module 6.9: Anomalies & Non-Perturbative QFT
 # 推导 — 模块 6.9：反常与非微扰量子场论
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 6.9](./module-6.9-anomalies-and-nonperturbative-qft.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 6.9](./module-6.9-anomalies-and-nonperturbative-qft.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -478,6 +478,80 @@ where μ is a mass gap parameter. The transition from area law to perimeter law 
 
 ---
 
-*These five derivations span the deepest structures of quantum field theory: the quantum breaking of classical symmetry (anomaly), its physical consequence (π⁰ decay), the self-consistency condition it imposes (anomaly cancellation and complete generations), the non-perturbative tunneling solutions (instantons and the θ-vacuum), and the non-perturbative definition and confinement criterion of gauge theories (Wilson lattice action and area law). Together they define the frontier where QFT transcends perturbation theory.*
+## F. The 't Hooft–Polyakov Monopole · 't Hooft–波利亚科夫磁单极子
 
-*这五个推导涵盖了量子场论最深层的结构：经典对称性的量子破缺（反常）、其物理后果（π⁰ 衰变）、它所施加的自洽性条件（反常相消与完整代的要求）、非微扰隧穿解（瞬子与 θ 真空），以及规范理论的非微扰定义与禁闭判据（Wilson 格点作用量与面积律）。它们共同定义了量子场论超越微扰论的前沿。*
+**Claim.** In the **Georgi–Glashow model** — SU(2) gauge theory with a Higgs field φ^a in the adjoint representation breaking SU(2) → U(1) — there exists a finite-energy, topologically stable, **magnetic monopole** with magnetic charge g = 4π/e and mass M ≳ 4πv/e. Unlike Dirac's monopole it needs **no singular string**: the singularity is resolved by the massive non-abelian core, and the magnetic charge is quantized by topology, π₂(SU(2)/U(1)) = π₂(S²) = ℤ.
+
+**命题。** 在 **Georgi–Glashow 模型**——带伴随表示希格斯场 φ^a、将 SU(2) → U(1) 破缺的 SU(2) 规范理论——中，存在有限能量、拓扑稳定的**磁单极子**，磁荷 g = 4π/e，质量 M ≳ 4πv/e。与狄拉克单极子不同，它**无需奇异弦**：奇点被有质量的非阿贝尔核解除，磁荷由拓扑量子化，π₂(SU(2)/U(1)) = π₂(S²) = ℤ。
+
+**Step 1 — The model.** The Lagrangian is
+
+**第 1 步 — 模型。** 拉格朗日量为
+
+  ℒ = −¼F^a_{μν}F^{aμν} + ½(D_μφ^a)(D^μφ^a) − ¼λ(φ^aφ^a − v²)²,   D_μφ^a = ∂_μφ^a + e ε^{abc}A^b_μφ^c.
+
+The vacuum manifold is the 2-sphere |φ| = v in field space. A vacuum value, say φ^a = vδ^{a3}, leaves a U(1) subgroup (rotations about the 3-axis in isospace) unbroken; the other two gauge bosons acquire mass m_W = ev, while the unbroken-U(1) photon stays massless. This is spontaneous breaking SU(2) → U(1).
+
+真空流形是场空间中的 2 维球面 |φ| = v。取真空值 φ^a = vδ^{a3} 保留一个 U(1) 子群（同位旋空间中绕 3 轴的转动）不破缺；另外两个规范玻色子获得质量 m_W = ev，未破缺 U(1) 的光子保持无质量。这是自发破缺 SU(2) → U(1)。
+
+**Step 2 — The hedgehog ansatz.** 't Hooft and Polyakov sought a static, finite-energy solution in which the Higgs field points **radially in isospace as well as in real space**:
+
+**第 2 步 — 刺猬拟设。** 't Hooft 与 Polyakov 寻找一个静态有限能量解，其中希格斯场在**同位旋空间与真实空间中都沿径向**指向：
+
+  φ^a(**r**) = v h(r) x̂^a,   A^a_i(**r**) = ε_{aij} x̂^j [1 − K(r)]/(er),   A^a_0 = 0,
+
+with boundary conditions h(0) = 0, K(0) = 1 (regular core) and h(∞) = 1, K(∞) = 0 (vacuum at infinity). The "hedgehog" locks internal isospin rotations to spatial rotations: the unbroken symmetry of the solution is the **diagonal** subgroup of (spatial rotations) × (isospin).
+
+边界条件 h(0) = 0、K(0) = 1（核处正则）与 h(∞) = 1、K(∞) = 0（无穷远真空）。"刺猬"将内部同位旋转动与空间转动锁定：解的未破缺对称性是（空间转动）×（同位旋）的**对角**子群。
+
+**Step 3 — Topological charge (winding number).** At spatial infinity the unit Higgs field φ̂^a = x̂^a defines a map from the spatial 2-sphere at infinity S²_∞ to the vacuum 2-sphere S²_vac. This map has **winding number n = 1**, an element of π₂(S²) = ℤ. The corresponding topological current
+
+**第 3 步 — 拓扑荷（缠绕数）。** 在空间无穷远，单位希格斯场 φ̂^a = x̂^a 定义一个从无穷远空间 2 维球面 S²_∞ 到真空 2 维球面 S²_vac 的映射。该映射有**缠绕数 n = 1**，是 π₂(S²) = ℤ 的元素。相应的拓扑流
+
+  k^μ = (1/8π) ε^{μνρσ} ε_{abc} ∂_ν φ̂^a ∂_ρ φ̂^b ∂_σ φ̂^c
+
+is conserved **identically** (∂_μk^μ = 0 without any equation of motion), and its charge N = ∫d³x k^0 = n is the integer winding. Because n cannot change under any smooth, finite-energy deformation, the monopole is absolutely stable.
+
+**恒等地**守恒（∂_μk^μ = 0，不依赖任何运动方程），其荷 N = ∫d³x k^0 = n 即整数缠绕。由于 n 在任何光滑、有限能量的形变下都不能改变，单极子是绝对稳定的。
+
+**Step 4 — Magnetic charge.** The gauge-invariant electromagnetic field strength (the 't Hooft tensor) is
+
+**第 4 步 — 磁荷。** 规范不变的电磁场强（'t Hooft 张量）为
+
+  𝔉_{μν} = φ̂^a F^a_{μν} − (1/e) ε_{abc} φ̂^a (D_μφ̂^b)(D_νφ̂^c).
+
+Far from the core, φ̂ is covariantly constant and 𝔉_{μν} reduces to the ordinary U(1) Maxwell tensor. Computing the magnetic flux through S²_∞ from the hedgehog field gives a radial magnetic field B_i = x̂_i/(er²), so
+
+远离核区，φ̂ 协变常数，𝔉_{μν} 退化为普通 U(1) 麦克斯韦张量。由刺猬场计算通过 S²_∞ 的磁通量给出径向磁场 B_i = x̂_i/(er²)，故
+
+  g = ∮_{S²_∞} **B**·d**S** = (1/e)(4πr²)/r² = **4π/e** = n·(4π/e).
+
+This satisfies the Dirac quantization condition e g = 4π = 2·(2π) — the monopole carries **two** Dirac units, the minimal charge consistent with the integer-charged (isovector) matter of the theory. The magnetic charge is the topological winding n in disguise: g = 4πn/e.
+
+它满足狄拉克量子化条件 e g = 4π = 2·(2π)——单极子携带**两个**狄拉克单位，是与理论中整数电荷（同位旋矢量）物质相容的最小磁荷。磁荷正是伪装的拓扑缠绕 n：g = 4πn/e。
+
+**Step 5 — Mass and the BPS bound.** The static energy is E = ∫d³x [½(B^a_i)² + ½(D_iφ^a)² + V(φ)]. Dropping V (the **BPS limit** λ → 0) and using the Bogomolny rearrangement
+
+**第 5 步 — 质量与 BPS 界。** 静态能量为 E = ∫d³x [½(B^a_i)² + ½(D_iφ^a)² + V(φ)]。略去 V（**BPS 极限** λ → 0）并用博戈莫尔尼重排
+
+  E = ∫d³x [ ½(B^a_i ∓ D_iφ^a)² ± B^a_i D_iφ^a ] ≥ ± ∫d³x ∂_i(B^a_iφ^a) = v|g|,
+
+since ∫B^a_iD_iφ^a = ∫∂_i(B^a_iφ^a) by the Bianchi identity D_iB^a_i = 0. The bound
+
+由于由比安基恒等式 D_iB^a_i = 0 有 ∫B^a_iD_iφ^a = ∫∂_i(B^a_iφ^a)。此界
+
+  **M ≥ v|g| = 4πv/e = (4π/e²) m_W = m_W/α**   (α = e²/4π)
+
+is saturated when **B^a_i = ± D_iφ^a** (the first-order **BPS equations**, exactly solvable — the Prasad–Sommerfield solution). Monopoles are therefore very heavy, ~ m_W/α: inaccessible at accelerator energies but a sharp prediction of any Grand Unified Theory (where the role of m_W is played by the GUT scale M_X ~ 10¹⁶ GeV, giving M_monopole ~ 10¹⁷–10¹⁸ GeV).
+
+当 **B^a_i = ± D_iφ^a**（一阶 **BPS 方程**，可精确求解——Prasad–Sommerfield 解）时饱和。故单极子非常重，~ m_W/α：加速器能量无法企及，却是任何大统一理论的明确预言（其中 m_W 的角色由 GUT 标度 M_X ~ 10¹⁶ GeV 扮演，给出 M_单极子 ~ 10¹⁷–10¹⁸ GeV）。
+
+**Step 6 — Physical significance.** (i) Magnetic charge is now **topologically** quantized — no singular Dirac string is needed; the string is replaced by the smooth massive core. (ii) GUT phase transitions in the early universe inevitably produce these monopoles (the **monopole problem**), one of the original motivations for cosmic inflation, which dilutes them. (iii) The monopole is the prototype of **electric–magnetic duality** (Montonen–Olive): in suitable (N = 4 supersymmetric) theories the monopole and the gauge boson are exchanged by g ↔ 4π/e, exchanging strong and weak coupling. ∎
+
+**第 6 步 — 物理意义。** (i) 磁荷现在由**拓扑**量子化——不需要奇异狄拉克弦；弦被光滑的有质量核取代。(ii) 早期宇宙的 GUT 相变不可避免地产生这些单极子（**单极子问题**），这是宇宙暴胀的最初动机之一，暴胀将其稀释。(iii) 单极子是**电–磁对偶**（Montonen–Olive）的原型：在适当的（N = 4 超对称）理论中，单极子与规范玻色子通过 g ↔ 4π/e 互换，交换强弱耦合。∎
+
+---
+
+*These six derivations span the deepest structures of quantum field theory: the quantum breaking of classical symmetry (anomaly), its physical consequence (π⁰ decay), the self-consistency condition it imposes (anomaly cancellation and complete generations), the non-perturbative tunneling solutions (instantons and the θ-vacuum), the non-perturbative definition and confinement criterion of gauge theories (Wilson lattice action and area law), and the topological soliton of a broken gauge theory (the 't Hooft–Polyakov monopole). Together they define the frontier where QFT transcends perturbation theory.*
+
+*这六个推导涵盖了量子场论最深层的结构：经典对称性的量子破缺（反常）、其物理后果（π⁰ 衰变）、它所施加的自洽性条件（反常相消与完整代的要求）、非微扰隧穿解（瞬子与 θ 真空）、规范理论的非微扰定义与禁闭判据（Wilson 格点作用量与面积律），以及破缺规范理论的拓扑孤子（'t Hooft–波利亚科夫磁单极子）。它们共同定义了量子场论超越微扰论的前沿。*
