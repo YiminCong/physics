@@ -68,6 +68,19 @@ Fourier methods (Module 0.5) are needed for optics and waves; linear algebra (Mo
 | [1.18](./module-1.18-continuum-mechanics-elasticity.md) | Continuum Mechanics & Elasticity · 连续介质力学与弹性理论 | Stress/strain tensors, Hooke's law, elastic (P/S) waves, seismology |
 | [1.19](./module-1.19-nonlinear-dynamics-chaos.md) | Nonlinear Dynamics & Chaos · 非线性动力学与混沌 | Phase space, fixed points, bifurcations, Lyapunov exponent, logistic map |
 
+### Advanced Topics: Analytical Mechanics, Scattering & Advanced Electrodynamics (1.20–1.23) · 进阶专题：分析力学、散射与进阶电动力学（1.20–1.23）
+
+*Graduate-level extensions that complete the classical canon — the analytical-mechanics machinery (canonical transformations, Hamilton–Jacobi, action–angle), classical scattering cross sections, and the advanced electrodynamics of radiation and guided waves (Goldstein / Jackson / Landau territory).*
+
+*完成经典物理体系的研究生级扩展——分析力学机制（正则变换、哈密顿–雅可比、作用量–角变量）、经典散射截面，以及辐射与导波的进阶电动力学（Goldstein / Jackson / Landau 的内容）。*
+
+| Module | Title | Notes |
+|--------|-------|-------|
+| [1.20](./module-1.20-canonical-transformations-hamilton-jacobi.md) | Canonical Transformations, Hamilton–Jacobi & Action–Angle ⭐ · 正则变换、哈密顿–雅可比与作用量–角变量 ⭐ | Generating functions, symplectic condition, HJ equation, action–angle, adiabatic invariants |
+| [1.21](./module-1.21-classical-scattering.md) | Classical Scattering Theory · 经典散射理论 | Impact parameter, differential cross section, Rutherford formula |
+| [1.22](./module-1.22-retarded-potentials-radiation-reaction.md) | Retarded Potentials, Multipole Radiation & Radiation Reaction · 推迟势、多极辐射与辐射阻尼 | Liénard–Wiechert potentials, dipole radiation, Abraham–Lorentz force |
+| [1.23](./module-1.23-waveguides-cavities-transmission-lines.md) | Waveguides, Cavity Resonators & Transmission Lines · 波导、谐振腔与传输线 | Cutoff frequency, TE/TM modes, cavity Q, telegrapher's equations, Z₀ |
+
 ## Phase 1 Checkpoint (blank page)
 **第 1 阶段检查点（空白页）**
 

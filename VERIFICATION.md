@@ -1,24 +1,21 @@
 # Verification Status · 校验状态
 
-> ✅ = derivation reviewed line-by-line and confirmed (or corrected) against standard results on **2026-06-08**.
 
+**110 / 110 derivation files verified.**
 
-**106 / 106 derivation files verified.**
+> ✅ = derivation reviewed line-by-line and confirmed (or corrected) against standard results. Most were verified on **2026-06-08**; files revised later carry a newer date in their badge.
 
 Each verified `*-derivations.md` file carries a green-check badge near the top with a machine-readable anchor `<!-- verified:DATE -->`.
 
-**To re-verify only what changed later**, skip any file whose `verified:` date is newer than its last git modification. For example:
+**To re-verify only what changed later**, skip any file whose `verified:` date is newer than its last git modification:
 
 ```bash
-# List derivation files modified AFTER they were marked verified (i.e. need re-checking):
 for f in $(git ls-files '*-derivations.md'); do
   vdate=$(grep -o "verified:[0-9-]*" "$f" | head -1 | cut -d: -f2)
   mdate=$(git log -1 --format=%cs -- "$f")
-  [ -n "$vdate" ] && [ "$mdate" \> "$vdate" ] && echo "NEEDS RE-CHECK: $f (verified $vdate, modified $mdate)"
+  [ -n "$vdate" ] && [ "$mdate" \> "$vdate" ] && echo "NEEDS RE-CHECK: $f"
 done
 ```
-
-Files with no `verified:` anchor have not yet been reviewed.
 
 
 ## Phase 0 Mathematical Foundations
@@ -52,6 +49,10 @@ Files with no `verified:` anchor have not yet been reviewed.
 - ✅ [`1.17`](phase-1-classical-physics/module-1.17-fluid-mechanics-derivations.md) — Fluid Mechanics
 - ✅ [`1.18`](phase-1-classical-physics/module-1.18-continuum-mechanics-elasticity-derivations.md) — Continuum Mechanics & Elasticity
 - ✅ [`1.19`](phase-1-classical-physics/module-1.19-nonlinear-dynamics-chaos-derivations.md) — Nonlinear Dynamics & Chaos
+- ✅ [`1.20`](phase-1-classical-physics/module-1.20-canonical-transformations-hamilton-jacobi-derivations.md) — Canonical Transformations, Hamilton–Jacobi & Action–Angle
+- ✅ [`1.21`](phase-1-classical-physics/module-1.21-classical-scattering-derivations.md) — Classical Scattering Theory
+- ✅ [`1.22`](phase-1-classical-physics/module-1.22-retarded-potentials-radiation-reaction-derivations.md) — Retarded Potentials, Multipole Radiation & Radiation Reaction
+- ✅ [`1.23`](phase-1-classical-physics/module-1.23-waveguides-cavities-transmission-lines-derivations.md) — Waveguides, Cavity Resonators & Transmission Lines
 
 ## Phase 10 Strings And Quantum Gravity
 
