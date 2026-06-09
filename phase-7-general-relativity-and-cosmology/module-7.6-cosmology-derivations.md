@@ -1,8 +1,8 @@
 # Derivations — Module 7.6: Cosmology
 # 推导 — 模块 7.6：宇宙学
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 7.6](./module-7.6-cosmology.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 7.6](./module-7.6-cosmology.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -168,20 +168,13 @@ Divide through by −a² γ_{ij}:
 
   2ä/a + (ȧ/a)² + k/a² = −8πGp.
 
-Subtract the first Friedmann equation (ȧ/a)² + k/a² = 8πGρ/3 from this (multiplied appropriately):
+Use the first Friedmann equation (ȧ/a)² + k/a² = 8πGρ/3 to eliminate the (ȧ/a)² + k/a² piece:
 
-从此式减去第一弗里德曼方程（适当地）：
+利用第一弗里德曼方程 (ȧ/a)² + k/a² = 8πGρ/3 消去 (ȧ/a)² + k/a² 项：
 
-Using the first equation: (ȧ/a)² + k/a² = 8πGρ/3. Substituting:
+  2ä/a = −8πGp − (ȧ/a)² − k/a² = −8πGp − 8πGρ/3,  so:
 
-利用第一方程 (ȧ/a)² + k/a² = 8πGρ/3，代入：
-
-  2ä/a + 8πGρ/3 = −8πGp
-  ä/a = −8πGp/2 − 4πGρ/3 = −4πG(p + ρ/3)... 
-
-Let us redo: 2ä/a = −8πGp − (ȧ/a)² − k/a² = −8πGp − 8πGρ/3 (using first equation):
-
-重新推导：2ä/a = −8πGp − (ȧ/a)² − k/a² = −8πGp − 8πGρ/3（利用第一方程）：
+  2ä/a = −8πGp − (ȧ/a)² − k/a² = −8πGp − 8πGρ/3，故：
 
   2ä/a = −8πG(p + ρ/3)
   ä/a = −4πG(ρ + 3p)/3.

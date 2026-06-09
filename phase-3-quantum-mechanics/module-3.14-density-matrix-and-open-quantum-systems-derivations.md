@@ -1,8 +1,8 @@
 # Derivations — Module 3.14: Density Matrix & Open Quantum Systems
 # 推导 — 模块 3.14：密度矩阵与开放量子系统
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 3.14](./module-3.14-density-matrix-and-open-quantum-systems.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 3.14](./module-3.14-density-matrix-and-open-quantum-systems.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -35,15 +35,9 @@
 
 **第 4 步 — （⇐）Tr ρ² = 1 意味着纯态。** 需证明 Σ_i λ_i² = 1 结合 Σ_i λ_i = 1 及 λ_i ≥ 0，必然导致恰好一个 λ_i = 1，其余为 0。
 
-Consider the identity:
+Since each λ_i ∈ [0,1] (the conditions λ_i ≥ 0 and Σ_j λ_j = 1 force 0 ≤ λ_i ≤ 1), we have λ_i² ≤ λ_i, with equality iff λ_i ∈ {0,1}. Therefore
 
-考虑恒等式：
-
-  1 − Σ_i λ_i² = (Σ_i λ_i)² − Σ_i λ_i² = Σ_{i ≠ j} λ_i λ_j = ½ Σ_{i ≠ j} (λ_i λ_j + λ_j λ_i).
-
-Wait — more directly: since each λ_i ∈ [0,1] (because λ_i ≥ 0 and Σ λ_i = 1), we have λ_i² ≤ λ_i with equality iff λ_i ∈ {0,1}. Therefore
-
-更直接地：由于每个 λ_i ∈ [0,1]（因 λ_i ≥ 0 且 Σ λ_i = 1），有 λ_i² ≤ λ_i，等号成立当且仅当 λ_i ∈ {0,1}。因此
+由于每个 λ_i ∈ [0,1]（条件 λ_i ≥ 0 与 Σ_j λ_j = 1 迫使 0 ≤ λ_i ≤ 1），有 λ_i² ≤ λ_i，等号成立当且仅当 λ_i ∈ {0,1}。因此
 
   Tr ρ² = Σ_i λ_i² ≤ Σ_i λ_i = 1,
 

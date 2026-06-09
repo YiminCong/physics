@@ -1,8 +1,8 @@
 # Derivations — Module 2.7: Kinetic Theory & Transport
 # 推导 — 模块 2.7：动理论与输运
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 2.7](./module-2.7-kinetic-theory-and-transport.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 2.7](./module-2.7-kinetic-theory-and-transport.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -77,33 +77,23 @@ v² 因子（正比于速度空间中球壳的表面积）使得分布在 v = 0 
 
 **第 2 步 — 计算单位时间单位面积的碰撞次数。** 速度 v_x 的分子在时间 dt 内行进距离 v_x dt。在该时间内，所有距壁面距离小于 v_x dt 的分子（在体积 A v_x dt 中，A 为壁面面积）都会碰壁。速度分量在 v_x 到 v_x + dv_x 之间的此类分子数为
 
-  dN_coll = (n/2) f_1D(v_x) A v_x dt dv_x,
+  dN_coll = n f_1D(v_x) v_x A dt dv_x   (for v_x > 0),
 
-where n/2 accounts for only molecules moving toward the wall, and f_1D(v_x) ∝ e^{−mv_x²/2k_BT} is the 1D Maxwell distribution (normalized to 1).
+where n f_1D(v_x) dv_x is the number density of molecules with x-velocity in [v_x, v_x + dv_x] — with f_1D(v_x) ∝ e^{−mv_x²/2k_BT} the 1D Maxwell distribution normalized over all v_x — and only molecules with v_x > 0 reach the wall.
 
-其中 n/2 仅计算向壁运动的分子，f_1D(v_x) ∝ e^{−mv_x²/2k_BT} 是一维麦克斯韦分布（归一化为 1）。
+其中 n f_1D(v_x) dv_x 是 x 速度在 [v_x, v_x + dv_x] 内的分子数密度——f_1D(v_x) ∝ e^{−mv_x²/2k_BT} 为对所有 v_x 归一化的一维麦克斯韦分布——且只有 v_x > 0 的分子到达壁面。
 
-**Step 3 — Integrate to find total force per unit area.** The pressure is
+**Step 3 — Integrate to find the pressure.** The pressure is the momentum delivered to the wall per unit area per unit time. Each collision contributes Δp = 2mv_x, and the collision flux per unit area is n f_1D(v_x) v_x dv_x, so:
 
-**第 3 步 — 积分求单位面积总力。** 压强为
+**第 3 步 — 积分求压强。** 压强是单位时间单位面积传给壁面的动量。每次碰撞贡献 Δp = 2mv_x，单位面积碰撞通量为 n f_1D(v_x) v_x dv_x，故：
 
-  P = (1/A) ∫_0^∞ (Δp/dt) (dN_coll/dt·A·dv_x) / A · A
-    = n ∫_0^∞ m v_x² f_1D(v_x) dv_x = n m ⟨v_x²⟩ = n m · k_BT/m = n k_BT.
+  P = ∫_0^∞ (2mv_x)(n f_1D(v_x) v_x) dv_x = 2mn ∫_0^∞ v_x² f_1D(v_x) dv_x.
 
-(Here we used ⟨v_x²⟩ = k_BT/m from the equipartition theorem and f_1D is the full 1D distribution so the integral over all v_x of mv_x² f_1D gives m⟨v_x²⟩ = k_BT.) Therefore
+Since v_x² f_1D is even, ∫_0^∞ v_x² f_1D dv_x = ½⟨v_x²⟩, and equipartition gives ⟨v_x²⟩ = k_BT/m:
 
-（这里利用了能均分定理 ⟨v_x²⟩ = k_BT/m，f_1D 是完整的一维分布，所以对所有 v_x 的积分 mv_x² f_1D 给出 m⟨v_x²⟩ = k_BT。）因此
+由于 v_x² f_1D 是偶函数，∫_0^∞ v_x² f_1D dv_x = ½⟨v_x²⟩，而能均分给出 ⟨v_x²⟩ = k_BT/m：
 
-  P = nk_BT = (N/V)k_BT,
-
-which gives **PV = Nk_BT.** ∎
-
-These steps more carefully: the pressure on the wall equals the momentum flux. For molecules with 1D speed distribution f_1D(v_x) = (m/2πk_BT)^{1/2} e^{−mv_x²/2k_BT}, integrating over v_x > 0:
-
-这些步骤更仔细地说：壁面压强等于动量通量。对于具有一维速率分布 f_1D(v_x) = (m/2πk_BT)^{1/2} e^{−mv_x²/2k_BT} 的分子，对 v_x > 0 积分：
-
-  P = n ∫_0^∞ mv_x · v_x · f_1D(v_x) dv_x = nm ∫_0^∞ v_x² f_1D(v_x) dv_x = nm · ½⟨v_x²⟩ · 2
-    = nm⟨v_x²⟩ = nk_BT. ∎
+  P = 2mn · ½⟨v_x²⟩ = mn⟨v_x²⟩ = mn · (k_BT/m) = nk_BT = (N/V)k_BT  ⟹  **PV = Nk_BT**. ∎
 
 ---
 

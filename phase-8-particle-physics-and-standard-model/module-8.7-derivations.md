@@ -1,8 +1,8 @@
 # Derivations — Module 8.7: Parity Violation & the Weak Interaction
 # 推导 — 模块 8.7：宇称不守恒与弱相互作用
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 8.7](./module-8.7-parity-violation-and-the-weak-interaction.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 8.7](./module-8.7-parity-violation-and-the-weak-interaction.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -27,17 +27,13 @@ Its key properties (derived from the Clifford algebra {γ^μ, γ^ν} = 2g^{μν}
 
   (γ⁵)² = (iγ⁰γ¹γ²γ³)² = (i)²(γ⁰γ¹γ²γ³)² = −(γ⁰γ¹γ²γ³)².
 
-Compute (γ⁰γ¹γ²γ³)²: use {γ^μ,γ^ν} = 2g^{μν} repeatedly to anticommute each γ past the others. Starting from (γ⁰γ¹γ²γ³)(γ⁰γ¹γ²γ³): anticommuting γ³ past γ²γ¹γ⁰ picks up three minus signs (γ³ anticommutes with γ²,γ¹,γ⁰ which are all different): γ³γ⁰ = −γ⁰γ³, etc. The total sign from moving γ³ to the front is (−1)³ = −1, and then (γ³)² = g^{33} = −1. Continuing this process for each:
+Compute (γ⁰γ¹γ²γ³)² by reordering γ⁰γ¹γ²γ³γ⁰γ¹γ²γ³ into (γ⁰)²(γ¹)²(γ²)²(γ³)². Bringing the second γ⁰ beside the first requires passing γ¹γ²γ³ (3 transpositions); the second γ¹ then passes γ²γ³ (2); the second γ² passes γ³ (1) — total 3+2+1 = 6 anticommutations, a factor (−1)⁶ = +1. With (γ⁰)² = 1 and (γⁱ)² = g^{ii} = −1:
 
-计算 (γ⁰γ¹γ²γ³)²：反复利用 {γ^μ,γ^ν} = 2g^{μν} 将每个 γ 反对易过其他的。从 (γ⁰γ¹γ²γ³)(γ⁰γ¹γ²γ³) 出发：将 γ³ 反对易过 γ²γ¹γ⁰ 产生三个负号（γ³ 与γ²,γ¹,γ⁰ 各自反对易）：γ³γ⁰ = −γ⁰γ³，等等。将 γ³ 移到最前面的总符号为 (−1)³ = −1，然后 (γ³)² = g^{33} = −1。对每个依此进行：
+通过将 γ⁰γ¹γ²γ³γ⁰γ¹γ²γ³ 重排为 (γ⁰)²(γ¹)²(γ²)²(γ³)² 计算之：需 3+2+1 = 6 次相邻反对易，符号 (−1)⁶ = +1。利用 (γ⁰)² = 1 与 (γⁱ)² = g^{ii} = −1：
 
-  (γ⁰γ¹γ²γ³)² = (−1)^{0+1+2+3} × ... = +1 (the detailed calculation with the metric g = diag(+,−,−,−) yields +1).
+  (γ⁰γ¹γ²γ³)² = (γ⁰)²(γ¹)²(γ²)²(γ³)² = (1)(−1)(−1)(−1) = −1   (metric (+−−−)).
 
-A clean way: (γ⁰γ¹γ²γ³)(γ⁰γ¹γ²γ³) = γ⁰γ¹γ²(γ³γ⁰)γ¹γ²γ³ = γ⁰γ¹γ²(−γ⁰γ³)γ¹γ²γ³ = −γ⁰γ¹γ²γ⁰γ³γ¹γ²γ³ ...
-
-The full computation gives (γ⁰γ¹γ²γ³)² = −1 (Minkowski metric with (+−−−) convention). Hence:
-
-完整计算给出 (γ⁰γ¹γ²γ³)² = −1（闵可夫斯基度规，约定 (+−−−)）。因此：
+故 (γ⁰γ¹γ²γ³)² = −1。因此：
 
   (γ⁵)² = −(−1) = +1,  i.e.,  **(γ⁵)² = 1**. 
 
@@ -105,11 +101,9 @@ The factor γ⁰ (intrinsic parity matrix) arises from the requirement that the 
 
 **第 2 步 — γ⁵ 在 P 下如何变换。** 在宇称下，γ⁰ 与自身对易，γ^i（空间分量，i = 1,2,3）与 γ⁰ 反对易（因为对 i ≠ 0，{γ⁰,γ^i} = 0）。因此，对于 γ⁵ = iγ⁰γ¹γ²γ³：
 
-  γ⁰γ⁵γ⁰ = γ⁰(iγ⁰γ¹γ²γ³)γ⁰ = i(γ⁰)²γ¹γ²γ³·γ⁰... 
+Compute γ⁰γ⁵γ⁰, using γ⁰⁻¹ = γ⁰ (since (γ⁰)² = 1 in the (+−−−) metric):
 
-Actually, let us compute γ⁰(iγ⁰γ¹γ²γ³)γ⁰⁻¹ = γ⁰(iγ⁰γ¹γ²γ³)γ⁰ (since (γ⁰)² = 1 in (+−−−) metric, so γ⁰⁻¹ = γ⁰):
-
-实际上，计算 γ⁰(iγ⁰γ¹γ²γ³)γ⁰⁻¹ = γ⁰(iγ⁰γ¹γ²γ³)γ⁰（因为在 (+−−−) 度规中 (γ⁰)² = 1，故 γ⁰⁻¹ = γ⁰）：
+计算 γ⁰γ⁵γ⁰，利用 γ⁰⁻¹ = γ⁰（因 (+−−−) 度规中 (γ⁰)² = 1）：
 
   γ⁰·iγ⁰γ¹γ²γ³·γ⁰ = i(γ⁰)²γ¹γ²γ³γ⁰ = iγ¹γ²γ³γ⁰.
 
@@ -157,15 +151,15 @@ More precisely: P sends ψ_L(x) → γ⁰ψ(t,−x), and [P_L]_transformed = P_R
 
 **第 1 步 — 用 V 和 A 重写。** 利用 ψ_L = P_Lψ = (1−γ⁵)ψ/2 和 ψ̄_L = ψ̄P_R（因为对于狄拉克共轭 P̄_L = P_R）：
 
-  ψ̄_L = (ψ_L)† γ⁰ = (P_Lψ)† γ⁰ = ψ† P_L† γ⁰ = ψ† P_R γ⁰ = ψ† γ⁰ P_L† ... 
+  ψ̄_L = (ψ_L)† γ⁰ = (P_Lψ)† γ⁰ = ψ† P_L† γ⁰.
 
 More carefully: P_L† = [(1−γ⁵)/2]† = (1−γ⁵†)/2. Now (γ⁵)† = (iγ⁰γ¹γ²γ³)† = −i(γ³)†(γ²)†(γ¹)†(γ⁰)† = −i(−γ³)(−γ²)(−γ¹)(γ⁰) = −i(−1)³γ³γ²γ¹γ⁰ = iγ³γ²γ¹γ⁰.
 
 更仔细地：P_L† = [(1−γ⁵)/2]† = (1−γ⁵†)/2。现在 (γ⁵)† = (iγ⁰γ¹γ²γ³)† = −i(γ³)†(γ²)†(γ¹)†(γ⁰)† = −i(−γ³)(−γ²)(−γ¹)(γ⁰) = −i(−1)³γ³γ²γ¹γ⁰ = iγ³γ²γ¹γ⁰.
 
-Using the anticommutation algebra, iγ³γ²γ¹γ⁰ = iγ⁰γ¹γ²γ³ = γ⁵ (rearranging gives same sign since 3 transpositions of adjacent pairs: γ³γ²γ¹γ⁰ → moving γ⁰ three positions left: 3 sign flips = (−1)³ but also cycling the other three once = ... actually γ³γ²γ¹γ⁰ = −γ⁰γ¹γ²γ³ since it takes an odd number of swaps). Let me use the direct result: **(γ⁵)† = γ⁵** (γ⁵ is hermitian in the standard representation).
+Reversing the four factors γ³γ²γ¹γ⁰ back to γ⁰γ¹γ²γ³ takes 6 adjacent transpositions (factor (−1)⁶ = +1), so iγ³γ²γ¹γ⁰ = iγ⁰γ¹γ²γ³ = γ⁵. Hence **(γ⁵)† = γ⁵** (γ⁵ is hermitian).
 
-利用反对易代数，iγ³γ²γ¹γ⁰ = iγ⁰γ¹γ²γ³ = γ⁵（重新排列得到相同符号，因为...实际上直接使用结果：在标准表示中 **(γ⁵)† = γ⁵**（γ⁵ 是厄米的））。
+将四个因子 γ³γ²γ¹γ⁰ 反转回 γ⁰γ¹γ²γ³ 需 6 次相邻对换（符号 (−1)⁶ = +1），故 iγ³γ²γ¹γ⁰ = iγ⁰γ¹γ²γ³ = γ⁵。故 **(γ⁵)† = γ⁵**（γ⁵ 厄米）。
 
 So P_L† = (1−γ⁵)/2 = P_L. Then:
 
@@ -209,13 +203,13 @@ where V^μ = ψ̄γ^μψ' is the **vector current** (transforms as a 4-vector un
 
 **第 3 步 — 宇称性质。** 在宇称下：
 
-  PV^μP⁻¹ = ψ̄(t,−x)γ⁰·γ⁰γ^μγ⁰·γ⁰ψ'(t,−x) × (sign)...
+  PV^μP⁻¹ = ψ̄(t,−x) γ⁰γ^μγ⁰ ψ'(t,−x) = ψ̄(t,−x) γ_μ ψ'(t,−x)   (since γ⁰γ^μγ⁰ = γ_μ).
 
 For the spatial components (μ = i): PV^iP⁻¹ = −V^i (spatial part of the vector changes sign — correct for a 4-vector). For PA^μP⁻¹: since γ⁵ picks up a minus sign from parity (Pγ⁵P⁻¹ = −γ⁵, as shown in section B):
 
 对于空间分量（μ = i）：PV^iP⁻¹ = −V^i（矢量的空间部分改变符号——对 4-矢量正确）。对于 PA^μP⁻¹：由于 γ⁵ 在宇称下获得负号（Pγ⁵P⁻¹ = −γ⁵，如 B 节所示）：
 
-  PA^iP⁻¹ = P(ψ̄γ^iγ⁵ψ')P⁻¹ = ψ̄γ⁰·γ⁰γ^iγ⁰·(−γ⁵)·γ⁰ψ' × signs = +A^i.
+  PA^μP⁻¹ = ψ̄(t,−x) γ⁰γ^μγ⁵γ⁰ ψ'(t,−x) = −ψ̄(t,−x) γ_μγ⁵ ψ'(t,−x),  so PA^iP⁻¹ = +A^i.
 
 The axial current A^i does NOT change sign under spatial inversion (opposite to V^i). Therefore V − A does not transform simply under P: it mixes with −V − A (after spatial inversion). This means the V−A current is NOT an eigenstate of parity — it violates parity maximally.
 

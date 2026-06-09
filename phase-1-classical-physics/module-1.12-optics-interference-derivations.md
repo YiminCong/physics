@@ -1,8 +1,8 @@
 # Derivations — Module 1.12: Optics & Interference
 # 推导 — 模块 1.12：光学与干涉
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 1.12](./module-1.12-optics-interference.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 1.12](./module-1.12-optics-interference.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -15,13 +15,9 @@
 
 **命题。** 对于从介质 1（速度 v₁）中点 A 到介质 2（速度 v₂）中点 B 的光线，费马原理（实际路径使传播时间最短）给出斯涅尔定律 n₁ sin θ₁ = n₂ sin θ₂，其中 n = c/v 为折射率。
 
-**Step 1 — Set up the geometry.** Let the interface lie along the x-axis. Place A at position (−d₁, 0) in medium 1, and B at (d₂, h) in medium 2 (both d₁, d₂, h > 0). Let the ray cross the interface at the point (x, 0), where x is the free parameter to optimise. The angles of incidence and refraction are measured from the normal (the y-axis).
+**Step 1 — Set up the geometry.** Let the interface be horizontal at y = 0. Place A at (0, y₁) in medium 1 (perpendicular distance y₁ above the interface) and B at (d, −y₂) in medium 2 (perpendicular distance y₂ below), with y₁, y₂, d > 0. The ray crosses the interface at P = (x, 0), where x is the free parameter to optimise; the angles θ₁ (incidence) and θ₂ (refraction) are measured from the normal (the y-axis). The path lengths in each medium are:
 
-**第 1 步 — 建立几何关系。** 设界面沿 x 轴。令 A 在介质 1 中位于 (−d₁, 0)，B 在介质 2 中位于 (d₂, h)（d₁, d₂, h > 0 均成立）。设光线在点 (x, 0) 穿过界面，x 是待优化的自由参数。入射角和折射角从法线（y 轴）量起。
-
-Wait — let me set up the standard geometry more cleanly. Let A be at (0, −y₁) in medium 1 (above the interface) and B at (d, y₂) in medium 2 (below the interface), with the interface horizontal at y = 0. The ray hits the interface at point P = (x, 0). The path lengths are:
-
-等一下——让我更清楚地建立标准几何。设 A 在介质 1（界面上方）位于 (0, −y₁)，B 在介质 2（界面下方）位于 (d, y₂)，界面水平位于 y = 0。光线在点 P = (x, 0) 射到界面。路径长度为：
+**第 1 步 — 建立几何关系。** 设界面水平位于 y = 0。令 A 在介质 1 中位于 (0, y₁)（界面上方垂直距离 y₁），B 在介质 2 中位于 (d, −y₂)（界面下方垂直距离 y₂），y₁, y₂, d > 0。光线在 P = (x, 0) 穿过界面，x 为待优化的自由参数；入射角 θ₁ 与折射角 θ₂ 从法线（y 轴）量起。各介质中的路径长度为：
 
   l₁ = √(x² + y₁²)   (in medium 1),
   l₂ = √((d−x)² + y₂²)   (in medium 2).

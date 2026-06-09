@@ -1,8 +1,8 @@
 # Derivations — Module 6.8: Scattering, the S-Matrix & LSZ Reduction
 # 推导 — 模块 6.8：散射、S 矩阵与 LSZ 约化
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 6.8](./module-6.8-scattering-s-matrix-and-lsz.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 6.8](./module-6.8-scattering-s-matrix-and-lsz.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -290,11 +290,9 @@ The operator (□_x + m²) acting on a momentum-space Green's function G̃(p,…
 
 算符 (□_x + m²) 作用于动量空间格林函数 G̃(p,…) 给出因子 −(p²−m²)（因为在傅里叶空间中 □_x e^{ip·x} = −p² e^{ip·x}）。我们得到
 
-  contribution of one incoming leg  =  [i(−(p²−m²))/√Z]  ·  G̃^{(N)}(p,…)  =  [i(p²−m²)/√Z]  ·  G̃^{(N)}(−p,…).
+Combined with the explicit factor of i from the LSZ formula, the contribution per incoming leg is
 
-Wait — more precisely: (□_x + m²) acting inside the T-product on G̃ pulls out a factor (−p² + m²) = −(p² − m²) in Minkowski signature. Combined with the explicit factor of i, the contribution per incoming leg is
-
-更精确地：(□_x + m²) 在 T 乘积内作用于 G̃ 提取因子 (−p² + m²) = −(p² − m²)（闵可夫斯基度规）。加上显式因子 i，每条入射腿的贡献为
+加上 LSZ 公式中的显式因子 i，每条入射腿的贡献为
 
   i · (−(p² − m²)) / √Z  =  −i(p² − m²) / √Z.
 

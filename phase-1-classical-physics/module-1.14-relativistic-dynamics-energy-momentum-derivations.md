@@ -1,8 +1,8 @@
 # Derivations — Module 1.14: Relativistic Dynamics & E = mc²
 # 推导 — 模块 1.14：相对论动力学与 E = mc²
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 1.14](./module-1.14-relativistic-dynamics-energy-momentum.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 1.14](./module-1.14-relativistic-dynamics-energy-momentum.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -118,25 +118,13 @@ where β = v/c. This includes both the classical Doppler effect and a relativist
 
 其中 β = v/c。这包含经典多普勒效应和相对论时间膨胀修正两部分。
 
-**Step 1 — Set up using four-wavevector.** Light has a four-wavevector k^μ = (ω/c)(1, n̂) where n̂ is the propagation direction and ω = 2πf. In the source rest frame S′, the four-wavevector is k′^μ = (ω₀/c)(1, 1, 0, 0) (light emitted in +x direction). In frame S the source moves at velocity −v along x (equivalently the observer is at rest and the source recedes in +x).
+**Step 1 — Set up using four-wavevector.** Light has a four-wavevector k^μ = (ω/c)(1, n̂) where n̂ is the propagation direction and ω = 2πf. Take the observer at rest in frame S, with the source receding along +x at speed v. The light that reaches the observer travels in the −x direction, so in the source rest frame S′ its four-wavevector is k′^μ = (ω₀/c)(1, −1, 0, 0). In S the source moves at velocity +v along +x.
 
-**第 1 步 — 利用四波矢建立方程。** 光具有四波矢 k^μ = (ω/c)(1, n̂)，其中 n̂ 为传播方向，ω = 2πf。在光源静止系 S′ 中，四波矢为 k′^μ = (ω₀/c)(1, 1, 0, 0)（沿 +x 方向发射）。在 S 系中，光源以 −v 沿 x 轴运动（等价地，观察者静止，光源沿 +x 方向远离）。
+**第 1 步 — 利用四波矢建立方程。** 光具有四波矢 k^μ = (ω/c)(1, n̂)，其中 n̂ 为传播方向，ω = 2πf。设观察者在 S 系中静止，光源以速度 v 沿 +x 方向远离。到达观察者的光沿 −x 方向传播，故在光源静止系 S′ 中其四波矢为 k′^μ = (ω₀/c)(1, −1, 0, 0)。在 S 中光源以 +v 沿 +x 运动。
 
-**Step 2 — Apply the Lorentz transformation.** The boost from S′ to S (source moving at +v in S, i.e. boost parameter −v) transforms the 0-component:
+**Step 2 — Apply the Lorentz transformation.** The observer frame S is reached from the source rest frame S′ by a boost at velocity +v (the source recedes at +v in S). The time component of the four-wavevector transforms as:
 
-**第 2 步 — 应用洛伦兹变换。** 从 S′ 到 S 的变换（S 中光源以 +v 运动，即增强参数为 −v）作用于 0 分量：
-
-  k^0 = γ(k′^0 + (v/c) k′^1) = γ(ω₀/c)(1 + β).
-
-Wait — let us be careful about sign conventions. Let the source move in the +x direction away from the observer with speed v. In the source rest frame S′, light is emitted in the −x direction toward the observer: k′^μ = (ω₀/c)(1, −1, 0, 0). The Lorentz boost relating S′ (moving at +v relative to S) to S is
-
-注意符号约定。设光源以速度 v 沿 +x 方向远离观察者。在光源静止系 S′ 中，光沿 −x 方向向观察者发射：k′^μ = (ω₀/c)(1, −1, 0, 0)。S′ 相对 S 以 +v 运动，洛伦兹变换为
-
-  k^0 = γ(k′^0 − β k′^1) = γ(ω₀/c)(1 − (−β)) = γ(ω₀/c)(1 + β).
-
-Hmm — that gives a blueshift for a receding source, which is wrong. Let us redo carefully. Let S be the observer frame; the source moves at velocity +v along +x (receding). The transformation from source frame S′ to observer frame S: the source moves at +v in S, so we boost with velocity +v:
-
-重新仔细推导。设 S 为观察者系，光源以 +v 沿 +x 方向运动（远离）。从源系 S′ 变换到观察者系 S，光源在 S 中以 +v 运动，以 +v 做变换：
+**第 2 步 — 应用洛伦兹变换。** 观察者系 S 由源静止系 S′ 经速度 +v 的变换得到（光源在 S 中以 +v 远离）。四波矢的时间分量变换为：
 
   k^0 = γ(k′^0 + β k′^1).
 

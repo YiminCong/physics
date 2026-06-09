@@ -1,8 +1,8 @@
 # Derivations — Module 1.18: Continuum Mechanics & Elasticity
 # 推导 — 模块 1.18：连续介质力学与弹性理论
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 1.18](./module-1.18-continuum-mechanics-elasticity.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 1.18](./module-1.18-continuum-mechanics-elasticity.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -82,14 +82,6 @@ So **σ_{ij} = λ(tr ε)δ_{ij} + 2με_{ij}**. ∎
 Substituting back into σ_{11} = λ(ε_{11} + 2ε_⊥) + 2με_{11}:
 
 代回 σ_{11}：
-
-  σ = λ(ε_{11} − 2λε_{11}/(2(λ+μ))) + 2με_{11}
-    = λε_{11}(1 − λ/(λ+μ)) + 2με_{11}
-    = λε_{11} · μ/(λ+μ) + 2με_{11}
-    = με_{11}(λ/(λ+μ) + 2)
-    = με_{11} · (λ + 2(λ+μ))/(λ+μ)... 
-
-Let me redo this calculation carefully:
 
   σ = λ(ε_{11} + 2ε_⊥) + 2με_{11}
     = λ(ε_{11} − 2λε_{11}/(2(λ+μ))) + 2με_{11}

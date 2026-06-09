@@ -1,8 +1,8 @@
 # Derivations — Module 7.8: Global Structure & Singularity Theorems
 # 推导 — 模块 7.8：整体结构与奇点定理
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 7.8](./module-7.8-global-structure-and-singularity-theorems.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 7.8](./module-7.8-global-structure-and-singularity-theorems.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -102,7 +102,7 @@ The singularity at r = 0 is genuine: as r → 0, the prefactor → ∞ (e^{−rc
 **第 5 步 — 四个区域。** 在克鲁斯卡尔坐标中：
 
 - Region I: X > |T|, i.e. U < 0 and V > 0, corresponds to r > r_s exterior.
-- Region II: T > |X|, i.e. U < 0 and V > 0... more precisely T > 0 and T > |X|: UV > 0 with T > 0, so V > 0 and U > 0, giving r < r_s (future interior).
+- Region II: T > |X|, i.e. U > 0 and V > 0 (T > X ⟹ U = T − X > 0; T > −X ⟹ V = T + X > 0), giving r < r_s (future interior).
 - Region III: T < −|X|: V < 0 and U < 0, also r < r_s (past interior = white hole).
 - Region IV: X < −|T|: U > 0 and V < 0 → UV < 0 → r > r_s (second exterior).
 
@@ -214,43 +214,19 @@ For geodesics (a_μ = 0) this simplifies.
 
 **第 2 步 — 计算 dθ/dτ。** 沿流对 θ = ∇_μ u^μ 求导：
 
-  dθ/dτ = u^ν ∇_ν (∇_μ u^μ) = ∇_ν (u^ν ∇_μ u^μ) − (∇_ν u^ν)(∇_μ u^μ)
+  dθ/dτ = u^ν ∇_ν(∇_μ u^μ) = u^ν ∇_ν ∇^μ u_μ.
 
-  = ∇_ν ∇_μ u^ν ... 
+Commuting the two covariant derivatives with the Ricci identity introduces a Ricci-tensor term:
 
-More carefully, using ∇_ν(u^ν ∇_μ u^μ) = u^ν ∇_ν ∇_μ u^μ + (∇_ν u^ν)(∇_μ u^μ):
+用里奇恒等式交换两个协变导数，引入一个里奇张量项：
 
-更仔细地：
+  u^ν ∇_ν ∇^μ u_μ = u^ν ∇^μ ∇_ν u_μ − R_{μν} u^μ u^ν.
 
-  u^ν ∇_ν ∇_μ u^μ = ∇_ν(u^ν ∇_μ u^μ) − (∇_ν u^ν)(∇_μ u^μ)
+For the first term, the geodesic equation u^ν ∇_ν u_μ = 0 gives u^ν ∇^μ ∇_ν u_μ = ∇^μ(u^ν ∇_ν u_μ) − (∇^μ u^ν)(∇_ν u_μ) = −(∇^μ u^ν)(∇_ν u_μ). Therefore:
 
-But we want dθ/dτ = u^ν ∇_ν (g^{μρ}∇_ρ u_μ) = u^ν ∇_ν ∇_μ u^μ. Switch the covariant derivatives using the Ricci identity:
+对第一项，测地线方程 u^ν ∇_ν u_μ = 0 给出 u^ν ∇^μ ∇_ν u_μ = −(∇^μ u^ν)(∇_ν u_μ)。故：
 
-但我们要求 dθ/dτ = u^ν ∇_ν ∇^μ u_μ。用里奇恒等式交换协变导数：
-
-  ∇_ν ∇_μ u^ρ − ∇_μ ∇_ν u^ρ = R^ρ_{σμν} u^σ
-
-Contract with appropriate indices. Take the trace over a suitable combination. The standard approach is to write:
-
-缩并合适指标。取迹：
-
-  dθ/dτ = u^ν ∇_ν ∇^μ u_μ
-
-Use the geodesic equation u^ν ∇_ν u_μ = 0 (since a_μ = 0). Then switch order of derivatives:
-
-利用测地线方程 u^ν ∇_ν u_μ = 0（a_μ = 0）。交换导数顺序：
-
-  u^ν ∇_ν ∇^μ u_μ = u^ν ∇^μ ∇_ν u_μ − u^ν R^μ_{ρνμ} u^ρ
-
-The second term: u^ν R^μ_{ρνμ} u^ρ = −u^ν u^ρ R_{νρ} = −R_{μν} u^μ u^ν (using R_{μν} = R^ρ_{μρν}).
-
-The first term: u^ν ∇^μ ∇_ν u_μ = ∇^μ(u^ν ∇_ν u_μ) − (∇^μ u^ν)(∇_ν u_μ) = 0 − (∇^μ u^ν)(∇_ν u_μ).
-
-第一项：u^ν ∇^μ ∇_ν u_μ = ∇^μ(u^ν ∇_ν u_μ) − (∇^μ u^ν)(∇_ν u_μ) = 0 − (∇^μ u^ν)(∇_ν u_μ)。
-
-So: dθ/dτ = −(∇^μ u^ν)(∇_ν u_μ) − R_{μν} u^μ u^ν.
-
-故：dθ/dτ = −(∇^μ u^ν)(∇_ν u_μ) − R_{μν} u^μ u^ν。
+  dθ/dτ = −(∇^μ u^ν)(∇_ν u_μ) − R_{μν} u^μ u^ν.
 
 **Step 3 — Expand the quadratic term.** Using the decomposition ∇_ν u_μ = (θ/3)h_{μν} + σ_{μν} + ω_{μν} (for geodesics, no acceleration term, using spatial parts only):
 

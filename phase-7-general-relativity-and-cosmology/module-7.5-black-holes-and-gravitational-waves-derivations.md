@@ -1,8 +1,8 @@
 # Derivations — Module 7.5: Black Holes & Gravitational Waves
 # 推导 — 模块 7.5：黑洞与引力波
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 7.5](./module-7.5-black-holes-and-gravitational-waves.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 7.5](./module-7.5-black-holes-and-gravitational-waves.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -185,27 +185,25 @@ where □ = η^{μν} ∂_μ ∂_ν = −(1/c²)∂_t² + ∇² is the flat-spac
 
   h̄_{μν} = h_{μν} − ½ η_{μν} h.
 
-Then h = η^{μν} h_{μν}, h̄ = η^{μν} h̄_{μν} = h − 2h = −h, and h_{μν} = h̄_{μν} − ½ η_{μν} h̄. The Ricci tensor becomes (after inserting h_{μν} = h̄_{μν} − ½ η_{μν} h̄):
+Then h = η^{μν} h_{μν}, h̄ = η^{μν} h̄_{μν} = h − 2h = −h, and inverting, h_{μν} = h̄_{μν} − ½ η_{μν} h̄. The trace-reversed field h̄_{μν} is the variable the final wave equation will act on.
 
-则 h = η^{μν} h_{μν}，h̄ = η^{μν} h̄_{μν} = h − 2h = −h，h_{μν} = h̄_{μν} − ½ η_{μν} h̄。代入 h_{μν} = h̄_{μν} − ½ η_{μν} h̄ 后里奇张量变为：
+则 h = η^{μν} h_{μν}，h̄ = η^{μν} h̄_{μν} = h − 2h = −h，反解得 h_{μν} = h̄_{μν} − ½ η_{μν} h̄。迹反转场 h̄_{μν} 是最终波动方程所作用的变量。
 
-  R^{(1)}_{μν} = −½ □ h̄_{μν} + ½(∂^ρ ∂_μ h̄_{νρ} + ∂^ρ ∂_ν h̄_{μρ}) + ½ η_{μν} ∂^ρ ∂^σ h̄_{ρσ}.
+**Step 5 — Impose Lorenz gauge and form the Einstein tensor.** Choose coordinates with ∂^μ h̄_{μν} = 0 (the Lorenz gauge, analogous to ∂^μ A_μ = 0 in electromagnetism; always achievable by an infinitesimal coordinate transformation). In terms of h this condition reads ∂^ρ h_{μρ} = ½ ∂_μ h. Substituting into the Step-3 Ricci tensor, the first two terms each become ∂^ρ∂_μ h_{νρ} = ½ ∂_μ∂_ν h, which cancel the −∂_μ∂_ν h term:
 
-**Step 5 — Impose Lorenz gauge.** Choose coordinates such that ∂^μ h̄_{μν} = 0 (the Lorenz gauge condition, analogous to ∂^μ A_μ = 0 in electromagnetism; it can always be achieved by an infinitesimal coordinate transformation). The last two groups of terms vanish:
+**第 5 步 — 施加洛伦兹规范并构造爱因斯坦张量。** 选取坐标使 ∂^μ h̄_{μν} = 0（洛伦兹规范，类比电磁学中的 ∂^μ A_μ = 0；总可由无穷小坐标变换实现）。以 h 表示，此条件即 ∂^ρ h_{μρ} = ½ ∂_μ h。代入第 3 步的里奇张量，前两项各化为 ∂^ρ∂_μ h_{νρ} = ½ ∂_μ∂_ν h，恰好抵消 −∂_μ∂_ν h 项：
 
-**第 5 步 — 施加洛伦兹规范。** 选取坐标使得 ∂^μ h̄_{μν} = 0（洛伦兹规范条件，类比于电磁学中的 ∂^μ A_μ = 0；总可以通过无穷小坐标变换实现）。最后两组项消失：
+  R^{(1)}_{μν} = ½(½ ∂_μ∂_ν h + ½ ∂_μ∂_ν h − □ h_{μν} − ∂_μ∂_ν h) = −½ □ h_{μν}.
 
-  R^{(1)}_{μν} = −½ □ h̄_{μν}.
+Taking the trace, R^{(1)} = η^{μν}R^{(1)}_{μν} = −½ □ h. The linearized Einstein tensor then collapses neatly onto the trace-reversed perturbation:
 
-The linearized Einstein tensor is G^{(1)}_{μν} = R^{(1)}_{μν} − ½ η_{μν} R^{(1)} = −½ □ h̄_{μν} (checking: R^{(1)} = −½ □ h̄, so ½ η_{μν} □ h̄ − ½ □ h̄_{μν} + ½ η_{μν} □ h̄/2 ... more carefully:
+取迹得 R^{(1)} = η^{μν}R^{(1)}_{μν} = −½ □ h。线性化爱因斯坦张量随即整齐地化为迹反转微扰：
 
-线性化爱因斯坦张量为 G^{(1)}_{μν} = R^{(1)}_{μν} − ½ η_{μν} R^{(1)} = −½ □ h̄_{μν}（验证：R^{(1)} = η^{μν} R^{(1)}_{μν} = −½ η^{μν} □ h̄_{μν} = −½ □ h̄，故
+  G^{(1)}_{μν} = R^{(1)}_{μν} − ½ η_{μν} R^{(1)} = −½ □ h_{μν} + ¼ η_{μν} □ h = −½ □ (h_{μν} − ½ η_{μν} h) = −½ □ h̄_{μν}.
 
-  G^{(1)}_{μν} = −½ □ h̄_{μν} − ½ η_{μν} (−½)(−□ h̄) = −½ □ h̄_{μν} − ¼ η_{μν} □ h̄.
+This is exactly why h̄_{μν} is the natural variable. The Einstein equations G^{(1)}_{μν} = (8πG/c⁴) T_{μν} become:
 
-But η_{μν} h̄ = η_{μν} η^{ρσ} h̄_{ρσ}; using □ operating on this and in the Lorenz gauge the full computation gives G^{(1)}_{μν} = −½ □ h̄_{μν}). The Einstein equations become:
-
-但在洛伦兹规范下完整计算给出 G^{(1)}_{μν} = −½ □ h̄_{μν}。爱因斯坦方程变为：
+这正是 h̄_{μν} 成为自然变量的原因。爱因斯坦方程 G^{(1)}_{μν} = (8πG/c⁴) T_{μν} 变为：
 
   −½ □ h̄_{μν} = (8πG/c⁴) T_{μν}
   ⟹  **□ h̄_{μν} = −(16πG/c⁴) T_{μν}**.
