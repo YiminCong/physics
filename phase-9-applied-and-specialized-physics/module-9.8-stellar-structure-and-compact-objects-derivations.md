@@ -249,9 +249,9 @@ Insert $K_{UR}' = (3\pi^2)^{1/3}(\hbar c/4)/(\mu_e m_H)^{4/3}$, so $(K_{UR}'/G)^
 
 $$ \boxed{\, M_{Ch} = (\omega_3 \sqrt{3\pi}/2) (\hbar c/G)^{3/2} / (\mu_e m_H)^2 \,} $$
 
-**Step 4 — Numerical value.** Evaluate the constants. With $\omega_3 \approx 2.018$, $\hbar c/G = (1.055\times 10^{-34} \times 3\times 10^8)/(6.674\times 10^{-11}) \approx 4.74\times 10^{16}$ kg², so $(\hbar c/G)^{3/2} \approx 1.03\times 10^{25}$ kg³; the prefactor $\omega_3\sqrt{3\pi}/2 \approx 2.018 \times 3.070/2 \approx 3.098$; and $(\mu_e m_H)^2 = (2 \times 1.673\times 10^{-27})^2 \approx 1.12\times 10^{-53}$ kg². Then:
+**Step 4 — Numerical value.** Evaluate the constants. With $\omega_3 \approx 2.018$, $\hbar c/G = (1.055\times 10^{-34} \times 3\times 10^8)/(6.674\times 10^{-11}) \approx 4.74\times 10^{16}$ $\text{kg}^2$, so $(\hbar c/G)^{3/2} \approx 1.03\times 10^{25}$ $\text{kg}^3$; the prefactor $\omega_3\sqrt{3\pi}/2 \approx 2.018 \times 3.070/2 \approx 3.098$; and $(\mu_e m_H)^2 = (2 \times 1.673\times 10^{-27})^2 \approx 1.12\times 10^{-53}$ $\text{kg}^2$. Then:
 
-**第 4 步 — 数值。** 计算常数。以 $\omega_3 \approx 2.018$，$\hbar c/G = (1.055\times 10^{-34} \times 3\times 10^8)/(6.674\times 10^{-11}) \approx 4.74\times 10^{16}$ kg²，故 $(\hbar c/G)^{3/2} \approx 1.03\times 10^{25}$ kg³；前因子 $\omega_3\sqrt{3\pi}/2 \approx 2.018 \times 3.070/2 \approx 3.098$；且 $(\mu_e m_H)^2 = (2 \times 1.673\times 10^{-27})^2 \approx 1.12\times 10^{-53}$ kg²。则：
+**第 4 步 — 数值。** 计算常数。以 $\omega_3 \approx 2.018$，$\hbar c/G = (1.055\times 10^{-34} \times 3\times 10^8)/(6.674\times 10^{-11}) \approx 4.74\times 10^{16}$ $\text{kg}^2$，故 $(\hbar c/G)^{3/2} \approx 1.03\times 10^{25}$ $\text{kg}^3$；前因子 $\omega_3\sqrt{3\pi}/2 \approx 2.018 \times 3.070/2 \approx 3.098$；且 $(\mu_e m_H)^2 = (2 \times 1.673\times 10^{-27})^2 \approx 1.12\times 10^{-53}$ $\text{kg}^2$。则：
 
 $$ M_{Ch} \approx 3.098 \times 1.03\times 10^{25}/1.12\times 10^{-53}\ \text{kg} \approx 2.85\times 10^{30}\ \text{kg} \approx \boxed{\, 1.4 M_\odot \,}, $$
 

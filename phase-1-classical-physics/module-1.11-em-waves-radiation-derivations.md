@@ -178,9 +178,9 @@ u &= \tfrac12\epsilon_0 E^2 + \frac{B^2}{2\mu_0} && \text{(electromagnetic energ
 
 $$ \frac{d}{dt}\int_V u\,dV = -\oint_{\partial V}\mathbf{S}\cdot d\mathbf{A} - \int_V \mathbf{J}\cdot\mathbf{E}\,dV. $$
 
-Rate of change of EM energy = (net inward Poynting flux) − (power dissipated to charges). This is the **electromagnetic energy conservation theorem**. $\blacksquare$
+Rate of change of EM energy = (net inward Poynting flux) - (power dissipated to charges). This is the **electromagnetic energy conservation theorem**. $\blacksquare$
 
-EM 能量的变化率 = （净向内坡印亭通量）−（传递给电荷的功率）。这是**电磁能量守恒定理**。$\blacksquare$
+EM 能量的变化率 = （净向内坡印亭通量）-（传递给电荷的功率）。这是**电磁能量守恒定理**。$\blacksquare$
 
 ---
 
