@@ -29,6 +29,9 @@ This phase delivers the research-level toolkit that underpins both modern conden
 | [6.7](./module-6.7-exactly-solvable-models-and-long-range-order.md) | Exactly Solvable Models & Long-Range Order · 精确可解模型与长程序 | |
 | [6.8](./module-6.8-scattering-s-matrix-and-lsz.md) | Scattering, the S-Matrix & LSZ Reduction · 散射、S 矩阵与 LSZ 约化 | |
 | [6.9](./module-6.9-anomalies-and-nonperturbative-qft.md) | Anomalies & Non-Perturbative QFT · 反常与非微扰量子场论 | |
+| [6.10](./module-6.10-spontaneous-symmetry-breaking-and-goldstone.md) | Spontaneous Symmetry Breaking & Goldstone's Theorem · 自发对称性破缺与戈德斯通定理 | |
+| [6.11](./module-6.11-effective-field-theory-and-the-renormalization-group.md) | Effective Field Theory & the Wilsonian RG · 有效场论与威尔逊重整化群 | |
+| [6.12](./module-6.12-finite-temperature-field-theory.md) | Finite-Temperature Field Theory (Matsubara) · 有限温度场论（松原形式） | |
 
 ## Further Reading · 延伸阅读
 

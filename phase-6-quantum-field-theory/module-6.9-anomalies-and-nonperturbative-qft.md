@@ -48,4 +48,4 @@
 
 ---
 
-← Previous: [Module 6.8 — Scattering, the S-Matrix & LSZ Reduction](./module-6.8-scattering-s-matrix-and-lsz.md) · [Phase 6 index](./README.md)
+← Previous: [Module 6.8 — Scattering, the S-Matrix & LSZ Reduction](./module-6.8-scattering-s-matrix-and-lsz.md) · [Phase 6 index](./README.md) · Next: [Module 6.10 — Spontaneous Symmetry Breaking & Goldstone's Theorem](./module-6.10-spontaneous-symmetry-breaking-and-goldstone.md) →
