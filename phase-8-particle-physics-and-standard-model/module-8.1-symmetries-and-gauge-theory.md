@@ -42,14 +42,14 @@
 
 ## Self-test (blank page)
 
-1. Starting from the free Dirac Lagrangian, show step by step why local U(1) invariance requires a gauge field and derive its transformation law.
-2. Explain what Noether's theorem (Module 1.4) says about the conserved current associated with global U(1) symmetry. What is the analogous statement for color SU(3)?
+1. Starting from the free Dirac Lagrangian, show step by step why local $U(1)$ invariance requires a gauge field and derive its transformation law.
+2. Explain what Noether's theorem (Module 1.4) says about the conserved current associated with global $U(1)$ symmetry. What is the analogous statement for color $SU(3)$?
 3. What new interaction terms appear in the Yang–Mills Lagrangian that are absent in Maxwell theory, and what physical consequence do they have?
 
 **自测（空白页）**
 
-1. 从自由狄拉克拉格朗日量出发，逐步说明为何局域 U(1) 不变性需要引入规范场，并推导其变换律。
-2. 解释诺特定理（模块 1.4）关于全局 U(1) 对称性所对应守恒流的论述。对于色 SU(3)，类似的陈述是什么？
+1. 从自由狄拉克拉格朗日量出发，逐步说明为何局域 $U(1)$ 不变性需要引入规范场，并推导其变换律。
+2. 解释诺特定理（模块 1.4）关于全局 $U(1)$ 对称性所对应守恒流的论述。对于色 $SU(3)$，类似的陈述是什么？
 3. 杨–米尔斯拉格朗日量中出现了哪些麦克斯韦理论中没有的新相互作用项，它们有什么物理后果？
 
 ---
