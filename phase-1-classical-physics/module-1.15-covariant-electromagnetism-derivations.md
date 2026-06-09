@@ -454,6 +454,78 @@ or equivalently **F^{μν} F̃_{μν} ∝ **E**·**B****, which is a Lorentz sca
 
 ---
 
+## E. Maxwell's Equations from the Action Principle · 由作用量原理导出麦克斯韦方程
+
+**Claim.** The inhomogeneous Maxwell equations ∂_μ F^{μν} = μ₀ J^ν follow from extremizing the manifestly Lorentz-invariant action
+
+**命题。** 非齐次麦克斯韦方程 ∂_μ F^{μν} = μ₀ J^ν 来自对显式洛伦兹不变作用量取极值
+
+  S[A] = ∫ d⁴x  ℒ,   ℒ = −(1/4μ₀) F_{μν} F^{μν} − J^μ A_μ,
+
+with respect to the four-potential A_μ. The homogeneous pair (Gauss's law for magnetism and Faraday's law) is **not** an equation of motion at all — it is the Bianchi identity, an algebraic consequence of F = dA. This is the cleanest statement of electromagnetism: one scalar functional, one field A_μ, and both pairs of Maxwell's equations drop out.
+
+对四矢量势 A_μ 取极值。齐次对（磁场高斯定律与法拉第定律）**根本不是**运动方程——它是比安基恒等式，是 F = dA 的代数推论。这是电磁学最简洁的表述：一个标量泛函、一个场 A_μ，麦克斯韦方程的两对都随之而出。
+
+**Step 1 — The field-strength term is the unique gauge-invariant kinetic term.** Under a gauge transformation A_μ → A_μ + ∂_μχ, the tensor F_{μν} = ∂_μA_ν − ∂_νA_μ is invariant (Section A), so any function of F_{μν} is gauge-invariant. Lorentz invariance, gauge invariance, parity, and at most two derivatives single out F_{μν}F^{μν} as the kinetic term (the dual invariant F_{μν}F̃^{μν} of Section D is a total derivative and does not affect the equations of motion). The constant −1/4μ₀ fixes the normalization so that ℒ reproduces the energy density ½(ε₀E² + B²/μ₀) below.
+
+**第 1 步 — 场强项是唯一的规范不变动能项。** 在规范变换 A_μ → A_μ + ∂_μχ 下，张量 F_{μν} = ∂_μA_ν − ∂_νA_μ 不变（A 节），故 F_{μν} 的任何函数都规范不变。洛伦兹不变性、规范不变性、宇称以及至多两个导数共同选出 F_{μν}F^{μν} 作为动能项（D 节的对偶不变量 F_{μν}F̃^{μν} 是全导数，不影响运动方程）。常数 −1/4μ₀ 固定归一化，使 ℒ 重现下文的能量密度 ½(ε₀E² + B²/μ₀)。
+
+**Step 2 — Euler–Lagrange equation for A_μ.** The Euler–Lagrange equation for the field A_β is
+
+**第 2 步 — A_μ 的欧拉–拉格朗日方程。** 场 A_β 的欧拉–拉格朗日方程为
+
+  ∂_α [ ∂ℒ/∂(∂_α A_β) ] − ∂ℒ/∂A_β = 0.
+
+We need the derivative of the kinetic term with respect to ∂_αA_β. Write F_{μν}F^{μν} and use ∂F_{μν}/∂(∂_αA_β) = δ^α_μ δ^β_ν − δ^α_ν δ^β_μ:
+
+我们需要动能项对 ∂_αA_β 的导数。利用 ∂F_{μν}/∂(∂_αA_β) = δ^α_μ δ^β_ν − δ^α_ν δ^β_μ：
+
+  ∂(F_{μν}F^{μν})/∂(∂_αA_β) = 2 F^{μν} (δ^α_μ δ^β_ν − δ^α_ν δ^β_μ) = 2(F^{αβ} − F^{βα}) = 4F^{αβ},
+
+so
+
+故
+
+  ∂ℒ/∂(∂_α A_β) = −(1/4μ₀)(4F^{αβ}) = −(1/μ₀) F^{αβ},   ∂ℒ/∂A_β = −J^β.
+
+**Step 3 — Assemble the equation of motion.** Substituting into Euler–Lagrange:
+
+**第 3 步 — 组装运动方程。** 代入欧拉–拉格朗日方程：
+
+  ∂_α [ −(1/μ₀) F^{αβ} ] − ( −J^β ) = 0  ⟹  −(1/μ₀) ∂_α F^{αβ} + J^β = 0  ⟹  **∂_α F^{αβ} = μ₀ J^β**.
+
+This is exactly the covariant inhomogeneous Maxwell equation of Section C — Gauss's law (β = 0) and the Ampère–Maxwell law (β = i). The current conservation ∂_β J^β = 0 follows immediately from the antisymmetry of F^{αβ}: ∂_β∂_α F^{αβ} = 0 because ∂_β∂_α is symmetric while F^{αβ} is antisymmetric.
+
+这正是 C 节的协变非齐次麦克斯韦方程——高斯定律（β = 0）与安培–麦克斯韦定律（β = i）。电流守恒 ∂_β J^β = 0 立即由 F^{αβ} 的反对称性得出：∂_β∂_α F^{αβ} = 0，因为 ∂_β∂_α 对称而 F^{αβ} 反对称。
+
+**Step 4 — The homogeneous pair is the Bianchi identity.** Because F_{μν} = ∂_μA_ν − ∂_νA_μ is exact (F = dA), it satisfies identically
+
+**第 4 步 — 齐次对即比安基恒等式。** 由于 F_{μν} = ∂_μA_ν − ∂_νA_μ 是恰当的（F = dA），它恒满足
+
+  ∂_λ F_{μν} + ∂_μ F_{νλ} + ∂_ν F_{λμ} = 0   ⟺   ∂_λ F̃^{λν} = 0,
+
+where F̃^{μν} = ½ε^{μναβ}F_{αβ} is the dual. Each term cancels in pairs upon substituting F = ∂A and using ∂_λ∂_μ = ∂_μ∂_λ. The ν = 0 component is ∇·B = 0; the ν = i components are Faraday's law ∂B/∂t + ∇×E = 0. No dynamics, no source — purely the statement "F is a curl."
+
+其中 F̃^{μν} = ½ε^{μναβ}F_{αβ} 是对偶张量。代入 F = ∂A 并用 ∂_λ∂_μ = ∂_μ∂_λ，各项成对相消。ν = 0 分量即 ∇·B = 0；ν = i 分量即法拉第定律 ∂B/∂t + ∇×E = 0。没有动力学、没有源——纯粹是"F 是一个旋度"这一陈述。
+
+**Step 5 — The stress-energy tensor (Noether → Belinfante).** The canonical stress-energy tensor from translation invariance, T^{μν}_can = (∂ℒ/∂(∂_μA_λ))∂^νA_λ − η^{μν}ℒ = −(1/μ₀)F^{μλ}∂^νA_λ − η^{μν}ℒ, is neither symmetric nor gauge-invariant. Adding the improvement term (1/μ₀)∂_λ(F^{λμ}A^ν) — a total derivative that, using ∂_λF^{λμ} = μ₀J^μ = 0 in source-free regions, changes neither the conserved energy–momentum nor the local conservation law — symmetrizes it to the gauge-invariant **Belinfante tensor**
+
+**第 5 步 — 能动张量（诺特 → 贝林方特）。** 由平移不变性得到的正则能动张量 T^{μν}_can = (∂ℒ/∂(∂_μA_λ))∂^νA_λ − η^{μν}ℒ = −(1/μ₀)F^{μλ}∂^νA_λ − η^{μν}ℒ 既不对称也不规范不变。加入改进项 (1/μ₀)∂_λ(F^{λμ}A^ν)——一个全导数，在无源区利用 ∂_λF^{λμ} = μ₀J^μ = 0，它既不改变守恒的能量–动量，也不改变局域守恒律——将其对称化为规范不变的**贝林方特张量**
+
+  **T^{μν} = (1/μ₀) [ F^{μα} F^ν{}_α − ¼ η^{μν} F_{αβ}F^{αβ} ].**
+
+Using the explicit components of Section A and F_{αβ}F^{αβ} = 2(B² − E²/c²) of Section D, the time–time and time–space components reproduce the familiar electromagnetic energy density and Poynting flux:
+
+利用 A 节的显式分量和 D 节的 F_{αβ}F^{αβ} = 2(B² − E²/c²)，时间–时间与时间–空间分量重现熟悉的电磁能量密度与坡印廷通量：
+
+  T^{00} = ½(ε₀E² + B²/μ₀) = u  (energy density),   T^{0i} = (1/μ₀c)(**E** × **B**)^i = S^i/c  (momentum density × c),
+
+so ∂_μT^{μν} = 0 in vacuum is precisely Poynting's theorem (energy conservation) and electromagnetic momentum conservation. With sources, ∂_μT^{μν} = −F^{νλ}J_λ/c = (Lorentz force density)·c, recovering the force law from the field action alone. ∎
+
+故真空中 ∂_μT^{μν} = 0 正是坡印廷定理（能量守恒）与电磁动量守恒。有源时 ∂_μT^{μν} = −F^{νλ}J_λ/c =（洛伦兹力密度）·c，仅从场作用量便恢复了力的定律。∎
+
+---
+
 *All results follow from the covariant structure of F^{μν} = ∂^μ A^ν − ∂^ν A^μ and the Lorentz transformation law for rank-2 tensors.*
 
 *所有结果均来自 F^{μν} = ∂^μ A^ν − ∂^ν A^μ 的协变结构以及 2 阶张量的洛伦兹变换法则。*

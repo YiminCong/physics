@@ -311,3 +311,81 @@ So j^μ = iψ̄γ^μ · iψ + c.c. Carefully: with δψ = iαψ and δψ̄ = −
 Together these constitute the equations of motion of QED. Conservation ∂_μj^μ = 0 follows from the Dirac equation: ∂_μ(ψ̄γ^μψ) = (∂_μψ̄)γ^μψ + ψ̄γ^μ(∂_μψ) = 0 using the equations of motion. ∎
 
 它们共同构成 QED 的运动方程。守恒性 ∂_μj^μ = 0 由狄拉克方程得出：∂_μ(ψ̄γ^μψ) = (∂_μψ̄)γ^μψ + ψ̄γ^μ(∂_μψ) = 0，利用运动方程可得。∎
+
+---
+
+## E. Gauge Fixing, Faddeev–Popov Ghosts, and BRST Symmetry · 规范固定、法捷耶夫–波波夫鬼粒子与 BRST 对称性
+
+**Claim.** The naive path integral Z = ∫𝒟A e^{iS} over-counts physically equivalent (gauge-related) field configurations, and the gauge-field kinetic operator is non-invertible, so no propagator exists. The **Faddeev–Popov procedure** fixes the gauge at the cost of a gauge-fixing term −(1/2ξ)(∂^μA^a_μ)² and a ghost term c̄^a(−∂^μD^{ab}_μ)c^b. The gauge-fixed action retains a single global fermionic symmetry — the **nilpotent BRST symmetry** — which replaces gauge invariance and guarantees the unitarity and gauge-independence of physical amplitudes.
+
+**命题。** 朴素路径积分 Z = ∫𝒟A e^{iS} 对物理上等价（规范相关）的场位形重复计数，且规范场动能算符不可逆，故不存在传播子。**法捷耶夫–波波夫方法**以引入规范固定项 −(1/2ξ)(∂^μA^a_μ)² 和鬼粒子项 c̄^a(−∂^μD^{ab}_μ)c^b 为代价固定规范。规范固定后的作用量保留唯一的整体费米型对称性——**幂零的 BRST 对称性**——它替代规范不变性，并保证物理振幅的幺正性与规范无关性。
+
+**Step 1 — The over-counting problem.** Gauge-equivalent potentials A^a_μ and (A^U)^a_μ give the same action S[A] = S[A^U]. Hence Z = ∫𝒟A e^{iS} = (volume of the gauge orbit) × ∫(physical configurations) — an infinite, field-independent factor. Worse, expanding −¼F^a_{μν}F^{aμν} to quadratic order gives the operator
+
+**第 1 步 — 重复计数问题。** 规范等价的势 A^a_μ 与 (A^U)^a_μ 给出相同作用量 S[A] = S[A^U]。故 Z = ∫𝒟A e^{iS} =（规范轨道的体积）× ∫（物理位形）——一个无穷大且与场无关的因子。更糟的是，将 −¼F^a_{μν}F^{aμν} 展开到二次阶给出算符
+
+  𝒦^{μν} = η^{μν}∂² − ∂^μ∂^ν,
+
+which annihilates every pure-gauge mode A_μ = ∂_μχ (𝒦^{μν}∂_νχ = 0). A matrix with zero eigenvalues cannot be inverted, so the gluon propagator does not exist until the gauge is fixed.
+
+它湮灭每一个纯规范模式 A_μ = ∂_μχ（𝒦^{μν}∂_νχ = 0）。一个有零本征值的矩阵不可逆，故在固定规范之前胶子传播子不存在。
+
+**Step 2 — Faddeev–Popov insertion of unity.** Pick a gauge condition G^a(A) = ∂^μA^a_μ − ω^a(x) = 0 and insert the identity
+
+**第 2 步 — 法捷耶夫–波波夫插入单位元。** 选取规范条件 G^a(A) = ∂^μA^a_μ − ω^a(x) = 0 并插入恒等式
+
+  1 = ∫𝒟α(x)  δ[G^a(A^α)]  det( δG^a(A^α)/δα^b ),
+
+where A^α is the gauge transform of A by α. Under an infinitesimal gauge transformation δA^a_μ = D^{ab}_μ α^b, so the **Faddeev–Popov operator** is
+
+其中 A^α 是 A 经 α 的规范变换。在无穷小规范变换下 δA^a_μ = D^{ab}_μ α^b，故**法捷耶夫–波波夫算符**为
+
+  M^{ab} = δG^a(A^α)/δα^b |_{α=0} = ∂^μ D^{ab}_μ = ∂^μ(∂_μδ^{ab} + g f^{acb}A^c_μ).
+
+The δ-function fixes the gauge; the determinant det M is the price for not double-counting.
+
+δ 函数固定规范；行列式 det M 是避免重复计数的代价。
+
+**Step 3 — Exponentiate det M with anticommuting ghosts.** A determinant of a bosonic operator is a Gaussian integral over **Grassmann** (anticommuting) fields:
+
+**第 3 步 — 用反对易鬼粒子指数化 det M。** 玻色算符的行列式等于对**格拉斯曼**（反对易）场的高斯积分：
+
+  det M = ∫𝒟c̄ 𝒟c  exp( i∫d⁴x  c̄^a M^{ab} c^b ) = ∫𝒟c̄ 𝒟c  exp( i∫d⁴x  c̄^a(−∂^μD^{ab}_μ)c^b ),
+
+(the sign is convention; an integration by parts moves the derivative). The fields c^a, c̄^a are the **Faddeev–Popov ghosts** — Grassmann-valued *scalars* in the adjoint representation. They violate the spin–statistics theorem, which is permitted precisely because they never appear as external (physical) states; they exist only inside loops to cancel the unphysical gauge-boson polarizations. In **abelian** QED, M = ∂^μ∂_μ is field-independent, so the ghosts decouple and may be ignored. In **non-abelian** theory D_μ contains A^c_μ, producing a ghost–gluon vertex; these ghost loops are exactly what supply part of the +11C_A/3 in the QCD β function (Module 8.3).
+
+（符号为约定；分部积分移动导数）。场 c^a, c̄^a 是**法捷耶夫–波波夫鬼粒子**——伴随表示中取格拉斯曼值的*标量*。它们违反自旋–统计定理，这之所以被允许，正是因为它们从不作为外（物理）态出现；它们只在圈内存在，以抵消规范玻色子的非物理极化。在**阿贝尔** QED 中，M = ∂^μ∂_μ 与场无关，故鬼粒子退耦可忽略。在**非阿贝尔**理论中 D_μ 含 A^c_μ，产生鬼–胶子顶角；这些鬼圈正是为 QCD β 函数中 +11C_A/3 提供部分贡献的来源（模块 8.3）。
+
+**Step 4 — Gauge-averaging gives the ξ term.** The function ω^a was arbitrary, so average over it with a Gaussian weight exp(−(i/2ξ)∫(ω^a)²). The δ[∂·A − ω] then replaces ω by ∂·A, producing −(1/2ξ)(∂^μA^a_μ)². The complete **gauge-fixed Lagrangian** is
+
+**第 4 步 — 规范平均给出 ξ 项。** 函数 ω^a 是任意的，故以高斯权重 exp(−(i/2ξ)∫(ω^a)²) 对其平均。δ[∂·A − ω] 随即将 ω 替换为 ∂·A，产生 −(1/2ξ)(∂^μA^a_μ)²。完整的**规范固定拉格朗日量**为
+
+  **ℒ = −¼F^a_{μν}F^{aμν} − (1/2ξ)(∂^μA^a_μ)² + c̄^a(−∂^μD^{ab}_μ)c^b**,
+
+with ξ the gauge parameter (ξ = 1 Feynman gauge, ξ → 0 Landau gauge). The gluon kinetic operator becomes η^{μν}∂² − (1 − 1/ξ)∂^μ∂^ν, which is now invertible, giving the propagator D^{ab}_{μν}(k) = (−iδ^{ab}/k²)[η_{μν} − (1−ξ)k_μk_ν/k²].
+
+其中 ξ 为规范参数（ξ = 1 费曼规范，ξ → 0 朗道规范）。胶子动能算符变为 η^{μν}∂² − (1 − 1/ξ)∂^μ∂^ν，现在可逆，给出传播子 D^{ab}_{μν}(k) = (−iδ^{ab}/k²)[η_{μν} − (1−ξ)k_μk_ν/k²]。
+
+**Step 5 — BRST symmetry (Nakanishi–Lautrup form).** Linearize the gauge-fixing term with an auxiliary field B^a: ℒ = −¼F² + B^a∂^μA^a_μ + (ξ/2)(B^a)² + c̄^a(−∂^μD^{ab}_μ)c^b (integrating out B^a returns the previous form). This Lagrangian is invariant under the **BRST transformation**, defined through the nilpotent operator s and a global Grassmann parameter θ (field variation δΦ = θ·sΦ):
+
+**第 5 步 — BRST 对称性（中西–劳特鲁普形式）。** 用辅助场 B^a 线性化规范固定项：ℒ = −¼F² + B^a∂^μA^a_μ + (ξ/2)(B^a)² + c̄^a(−∂^μD^{ab}_μ)c^b（积掉 B^a 返回前一形式）。该拉格朗日量在 **BRST 变换**下不变，变换通过幂零算符 s 与整体格拉斯曼参数 θ 定义（场变换 δΦ = θ·sΦ）：
+
+  s A^a_μ = D^{ab}_μ c^b,   s c^a = −½ g f^{abc} c^b c^c,   s c̄^a = B^a,   s B^a = 0,   s ψ = i g c^a T^a ψ.
+
+The BRST transformation of A_μ is just a gauge transformation with the *ghost field itself* as parameter — this is why s reshuffles gauge invariance into a rigid (global) symmetry.
+
+A_μ 的 BRST 变换正是以*鬼场本身*为参数的规范变换——这正是 s 将规范不变性重组为刚性（整体）对称性的原因。
+
+**Step 6 — Nilpotency s² = 0.** A direct computation on each field, using the **Jacobi identity** f^{ade}f^{bce} + f^{bde}f^{cae} + f^{cde}f^{abe} = 0 of the structure constants, gives s² = 0. For example, on the ghost: s²c^a = −½gf^{abc}(s c^b)c^c + ½gf^{abc}c^b(s c^c) = ¼g²f^{abc}f^{bde}c^dc^ec^c, which vanishes by Jacobi and the antisymmetry of c^dc^e. Likewise s²A^a_μ = s(D^{ab}_μc^b) = 0. Nilpotency is the algebraic heart of the formalism.
+
+**第 6 步 — 幂零性 s² = 0。** 对每个场直接计算，利用结构常数的**雅可比恒等式** f^{ade}f^{bce} + f^{bde}f^{cae} + f^{cde}f^{abe} = 0，得 s² = 0。例如对鬼场：s²c^a = −½gf^{abc}(s c^b)c^c + ½gf^{abc}c^b(s c^c) = ¼g²f^{abc}f^{bde}c^dc^ec^c，由雅可比恒等式及 c^dc^e 的反对称性而为零。同样 s²A^a_μ = s(D^{ab}_μc^b) = 0。幂零性是该形式体系的代数核心。
+
+**Step 7 — Physical content: BRST cohomology, Slavnov–Taylor, unitarity.** The entire gauge-fixing + ghost sector is **BRST-exact** — it is s acting on the "gauge fermion" Ψ = c̄^a(∂^μA^a_μ + (ξ/2)B^a):
+
+**第 7 步 — 物理内涵：BRST 上同调、斯拉夫诺夫–泰勒、幺正性。** 整个规范固定 + 鬼粒子部分是 **BRST 恰当的**——它是 s 作用于"规范费米子" Ψ = c̄^a(∂^μA^a_μ + (ξ/2)B^a)：
+
+  ℒ_gf+gh = s Ψ,   so   S = S_inv + ∫d⁴x  sΨ,   with   s S = 0  (using s²=0 and sS_inv = 0).
+
+Since s² = 0, the conserved **BRST charge** Q_B generates a cohomology, and **physical states** are defined by Q_B|phys⟩ = 0 modulo states of the form Q_B|·⟩ (the Kugo–Ojima criterion). This projection removes the unphysical longitudinal and timelike gauge-boson polarizations together with the ghosts, leaving a positive-norm physical Hilbert space and a **unitary S-matrix**. The Ward–Takahashi identities of QED generalize to the **Slavnov–Taylor identities**, the operator statement of BRST invariance, which enforce the renormalization relations among Z-factors and guarantee the gauge-independence of physical quantities such as the β function (Modules 8.3, 8.5). ∎
+
+由于 s² = 0，守恒的 **BRST 荷** Q_B 生成上同调，**物理态**由 Q_B|phys⟩ = 0 模去形如 Q_B|·⟩ 的态来定义（久郷–大島判据）。该投影移除非物理的纵向与类时规范玻色子极化以及鬼粒子，留下正模物理希尔伯特空间和**幺正 S 矩阵**。QED 的沃德–高桥恒等式推广为 **斯拉夫诺夫–泰勒恒等式**，即 BRST 不变性的算符表述，它强制 Z 因子间的重整化关系，并保证 β 函数等物理量的规范无关性（模块 8.3、8.5）。∎
