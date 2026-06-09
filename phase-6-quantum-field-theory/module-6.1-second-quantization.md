@@ -1,9 +1,3 @@
----
-title: "Module 6.1 — Second Quantization & the Many-Body Problem"
-parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
-nav_order: 1
----
-
 # Module 6.1 — Second Quantization & the Many-Body Problem ⭐
 **模块 6.1 — 二次量子化与多体问题 ⭐**
 

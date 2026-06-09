@@ -1,9 +1,3 @@
----
-title: "Module 6.6 — Renormalization & the Renormalization Group"
-parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
-nav_order: 6
----
-
 # Module 6.6 — Renormalization & the Renormalization Group ⭐⭐
 **模块 6.6 — 重整化与重整化群 ⭐⭐**
 

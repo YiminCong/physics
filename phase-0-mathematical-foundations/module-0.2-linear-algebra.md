@@ -1,9 +1,3 @@
----
-title: "Module 0.2 — Linear Algebra"
-parent: "Phase 0 — Mathematical Foundations"
-nav_order: 2
----
-
 # Module 0.2 — Linear Algebra ⭐
 **模块 0.2 — 线性代数 ⭐**
 

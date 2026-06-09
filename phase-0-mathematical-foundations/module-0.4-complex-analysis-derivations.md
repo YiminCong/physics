@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 0.4: Complex Analysis"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 0.4: Complex Analysis
 # 推导 — 模块 0.4：复分析
 

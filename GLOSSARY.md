@@ -1,8 +1,3 @@
----
-title: "Glossary"
-nav_order: 99
----
-
 # Glossary · 术语表
 
 A bilingual reference of the key terminology used across the curriculum — **English term ｜ 中文 ｜ short English definition** — grouped by phase. The articles themselves stay in English; this glossary gives the Chinese vocabulary alongside it.

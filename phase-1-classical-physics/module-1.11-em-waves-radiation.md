@@ -1,9 +1,3 @@
----
-title: "Module 1.11 — Electromagnetic Waves & Radiation"
-parent: "Phase 1 — Classical Physics"
-nav_order: 11
----
-
 # Module 1.11 — Electromagnetic Waves & Radiation
 **模块 1.11 — 电磁波与辐射**
 

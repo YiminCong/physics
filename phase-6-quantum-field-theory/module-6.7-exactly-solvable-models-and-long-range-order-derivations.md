@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 6.7: Exactly Solvable Models & Long-Range Order"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 6.7: Exactly Solvable Models & Long-Range Order
 # 推导 — 模块 6.7：精确可解模型与长程序
 

@@ -1,9 +1,3 @@
----
-title: "Module 1.8 — Electrostatics & Boundary-Value Problems"
-parent: "Phase 1 — Classical Physics"
-nav_order: 8
----
-
 # Module 1.8 — Electrostatics & Boundary-Value Problems ⭐
 **模块 1.8 — 静电学与边值问题 ⭐**
 

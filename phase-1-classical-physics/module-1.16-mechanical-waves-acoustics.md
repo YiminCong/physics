@@ -1,9 +1,3 @@
----
-title: "Module 1.16 — Mechanical Waves & Acoustics"
-parent: "Phase 1 — Classical Physics"
-nav_order: 16
----
-
 # Module 1.16 — Mechanical Waves & Acoustics
 **模块 1.16 — 机械波与声学**
 

@@ -1,9 +1,3 @@
----
-title: "Module 1.17 — Fluid Mechanics"
-parent: "Phase 1 — Classical Physics"
-nav_order: 17
----
-
 # Module 1.17 — Fluid Mechanics
 **模块 1.17 — 流体力学**
 

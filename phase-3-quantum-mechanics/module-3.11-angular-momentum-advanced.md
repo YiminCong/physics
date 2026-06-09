@@ -1,9 +1,3 @@
----
-title: "Module 3.11 — Angular Momentum, Advanced (Addition & Spin)"
-parent: "Phase 3 — Quantum Mechanics (the core)"
-nav_order: 11
----
-
 # Module 3.11 — Angular Momentum, Advanced (Addition & Spin) ⭐
 **模块 3.11 — 角动量（进阶）（合成与自旋）⭐**
 

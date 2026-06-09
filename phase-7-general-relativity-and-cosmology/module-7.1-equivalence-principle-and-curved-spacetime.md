@@ -1,9 +1,3 @@
----
-title: "Module 7.1 — The Equivalence Principle & Curved Spacetime"
-parent: "Phase 7 — General Relativity & Cosmology"
-nav_order: 1
----
-
 # Module 7.1 — The Equivalence Principle & Curved Spacetime ⭐
 **模块 7.1 — 等效原理与弯曲时空 ⭐**
 

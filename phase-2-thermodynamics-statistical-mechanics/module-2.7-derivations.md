@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 2.7: Kinetic Theory & Transport"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 2.7: Kinetic Theory & Transport
 # 推导 — 模块 2.7：动理论与输运
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.12: Second Quantization"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.12: Second Quantization
 # 推导 — 模块 3.12：二次量子化
 

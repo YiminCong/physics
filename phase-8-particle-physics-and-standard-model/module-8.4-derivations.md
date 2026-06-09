@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 8.4: Electroweak Theory & the Higgs"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 8.4: Electroweak Theory & the Higgs
 # 推导 — 模块 8.4：电弱理论与希格斯机制
 

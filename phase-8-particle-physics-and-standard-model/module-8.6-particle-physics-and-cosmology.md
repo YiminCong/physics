@@ -1,9 +1,3 @@
----
-title: "Module 8.6 — Particle Physics & Cosmology"
-parent: "Phase 8 — Particle Physics & the Standard Model"
-nav_order: 6
----
-
 # Module 8.6 — Particle Physics & Cosmology
 **模块 8.6 — 粒子物理与宇宙学**
 

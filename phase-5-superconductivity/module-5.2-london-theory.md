@@ -1,9 +1,3 @@
----
-title: "Module 5.2 — London Theory"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 2
----
-
 # Module 5.2 — London Theory ⭐
 **模块 5.2 — 伦敦理论 ⭐**
 

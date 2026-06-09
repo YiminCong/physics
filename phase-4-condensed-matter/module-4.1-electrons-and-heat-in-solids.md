@@ -1,9 +1,3 @@
----
-title: "Module 4.1 — Electrons and Heat in Solids"
-parent: "Phase 4 — Condensed Matter / Solid State"
-nav_order: 1
----
-
 # Module 4.1 — Electrons and Heat in Solids
 **模块 4.1 — 固体中的电子与热**
 

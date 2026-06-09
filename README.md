@@ -1,8 +1,3 @@
----
-title: Home
-nav_order: 0
----
-
 # Physics Study Notes — From Classical Mechanics to the Standard Model
 **物理学习笔记 — 从经典力学到标准模型**
 

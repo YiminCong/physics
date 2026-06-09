@@ -1,9 +1,3 @@
----
-title: "Module 2.1 — The Laws of Thermodynamics"
-parent: "Phase 2 — Thermodynamics & Statistical Mechanics"
-nav_order: 1
----
-
 # Module 2.1 — The Laws of Thermodynamics
 **模块 2.1 — 热力学定律**
 

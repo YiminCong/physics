@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 4.10: Landau Fermi-Liquid Theory"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 4.10: Landau Fermi-Liquid Theory
 # 推导 — 模块 4.10：朗道费米液体理论
 

@@ -1,9 +1,3 @@
----
-title: "Module 2.8 — Brownian Motion & the Einstein Relation"
-parent: "Phase 2 — Thermodynamics & Statistical Mechanics"
-nav_order: 8
----
-
 # Module 2.8 — Brownian Motion & the Einstein Relation
 **模块 2.8 — 布朗运动与爱因斯坦关系**
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 10.2: Quantum Gravity & Holography"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 10.2: Quantum Gravity & Holography
 # 推导 — 模块 10.2：量子引力与全息原理
 

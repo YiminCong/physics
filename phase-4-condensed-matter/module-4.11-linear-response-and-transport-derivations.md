@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 4.11: Linear Response, Transport & the Kubo Formula"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 4.11: Linear Response, Transport & the Kubo Formula
 # 推导 — 模块 4.11：线性响应、输运与久保公式
 

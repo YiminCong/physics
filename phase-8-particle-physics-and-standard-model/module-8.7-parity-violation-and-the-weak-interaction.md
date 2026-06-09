@@ -1,9 +1,3 @@
----
-title: "Module 8.7 — Parity Violation & the Weak Interaction (Lee–Yang)"
-parent: "Phase 8 — Particle Physics & the Standard Model"
-nav_order: 7
----
-
 # Module 8.7 — Parity Violation & the Weak Interaction (Lee–Yang)
 **模块 8.7 — 宇称不守恒与弱相互作用（李–杨）**
 

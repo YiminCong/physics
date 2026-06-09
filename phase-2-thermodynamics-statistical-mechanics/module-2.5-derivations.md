@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 2.5: Quantum Statistics"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 2.5: Quantum Statistics
 # 推导 — 模块 2.5：量子统计
 

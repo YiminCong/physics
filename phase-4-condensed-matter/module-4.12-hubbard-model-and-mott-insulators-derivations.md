@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 4.12: The Hubbard Model & Mott Insulators"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 4.12: The Hubbard Model & Mott Insulators
 # 推导 — 模块 4.12：哈伯德模型与莫特绝缘体
 

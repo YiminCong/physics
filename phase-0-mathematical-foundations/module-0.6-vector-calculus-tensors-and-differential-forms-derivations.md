@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 0.6: Vector Calculus, Tensors & Differential Forms"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 0.6: Vector Calculus, Tensors & Differential Forms
 # 推导 — 模块 0.6：向量微积分、张量与微分形式
 

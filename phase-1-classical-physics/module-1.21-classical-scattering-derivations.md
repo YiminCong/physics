@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.21: Classical Scattering Theory"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.21: Classical Scattering Theory
 # 推导 — 模块 1.21：经典散射理论
 

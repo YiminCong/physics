@@ -1,9 +1,3 @@
----
-title: "Module 5.10 — Bogoliubov–de Gennes & Andreev Reflection"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 10
----
-
 # Module 5.10 — Bogoliubov–de Gennes & Andreev Reflection
 **模块 5.10 — Bogoliubov–de Gennes 方程与安德烈耶夫反射**
 

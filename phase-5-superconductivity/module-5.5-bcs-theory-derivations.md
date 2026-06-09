@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 5.5: BCS Theory"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 5.5: BCS Theory
 # 推导 — 模块 5.5：BCS 理论
 

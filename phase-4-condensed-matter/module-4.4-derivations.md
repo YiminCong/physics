@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 4.4: Electrons in a Periodic Potential"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 4.4: Electrons in a Periodic Potential
 # 推导 — 模块 4.4：周期势中的电子
 

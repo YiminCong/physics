@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 8.3: Quantum Chromodynamics (QCD)"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 8.3: Quantum Chromodynamics (QCD)
 # 推导 — 模块 8.3：量子色动力学
 

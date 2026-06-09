@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 5.3: Ginzburg–Landau Theory"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 5.3: Ginzburg–Landau Theory
 # 推导 — 模块 5.3：金兹堡–朗道理论
 

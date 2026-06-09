@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.11: Electromagnetic Waves & Radiation"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.11: Electromagnetic Waves & Radiation
 # 推导 — 模块 1.11：电磁波与辐射
 

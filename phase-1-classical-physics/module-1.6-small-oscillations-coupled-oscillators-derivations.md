@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.6: Small Oscillations & Coupled Oscillators"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.6: Small Oscillations & Coupled Oscillators
 # 推导 — 模块 1.6：小振动与耦合振子
 

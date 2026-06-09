@@ -1,9 +1,3 @@
----
-title: "Module 9.2 — Atomic & Molecular Physics"
-parent: "Phase 9 — Applied & Specialized Physics"
-nav_order: 2
----
-
 # Module 9.2 — Atomic & Molecular Physics
 **模块 9.2 — 原子与分子物理**
 

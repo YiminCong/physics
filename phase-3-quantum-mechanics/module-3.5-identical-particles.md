@@ -1,9 +1,3 @@
----
-title: "Module 3.5 — Identical Particles"
-parent: "Phase 3 — Quantum Mechanics (the core)"
-nav_order: 5
----
-
 # Module 3.5 — Identical Particles ⭐
 **模块 3.5 — 全同粒子 ⭐**
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 0.3: Differential Equations"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 0.3: Differential Equations
 # 推导 — 模块 0.3：微分方程
 

@@ -1,8 +1,3 @@
----
-title: "The Gauge Principle — A Thread Through the Curriculum"
-nav_exclude: true
----
-
 # The Gauge Principle — A Thread Through the Curriculum
 # 规范原理 — 贯穿课程的主线
 

@@ -1,9 +1,3 @@
----
-title: "Module 3.1 — The Wave Function"
-parent: "Phase 3 — Quantum Mechanics (the core)"
-nav_order: 1
----
-
 # Module 3.1 — The Wave Function
 **模块 3.1 — 波函数**
 

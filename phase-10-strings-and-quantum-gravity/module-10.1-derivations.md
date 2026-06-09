@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 10.1: String Theory & Superstrings"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 10.1: String Theory & Superstrings
 # 推导 — 模块 10.1：弦论与超弦
 

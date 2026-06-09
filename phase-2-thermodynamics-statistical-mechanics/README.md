@@ -1,9 +1,3 @@
----
-title: "Phase 2 — Thermodynamics & Statistical Mechanics"
-nav_order: 3
-has_children: true
----
-
 # Phase 2 — Thermodynamics & Statistical Mechanics
 **第 2 阶段 — 热力学与统计力学**
 

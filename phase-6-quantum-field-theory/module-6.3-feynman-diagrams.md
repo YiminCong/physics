@@ -1,9 +1,3 @@
----
-title: "Module 6.3 — Feynman Diagrams & Perturbation Theory"
-parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
-nav_order: 3
----
-
 # Module 6.3 — Feynman Diagrams & Perturbation Theory
 **模块 6.3 — 费曼图与微扰论**
 

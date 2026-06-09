@@ -1,9 +1,3 @@
----
-title: "Module 5.5 — BCS Theory"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 5
----
-
 # Module 5.5 — BCS Theory ⭐⭐
 **模块 5.5 — BCS 理论 ⭐⭐**
 

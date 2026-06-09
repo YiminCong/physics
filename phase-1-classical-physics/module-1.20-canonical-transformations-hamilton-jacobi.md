@@ -1,9 +1,3 @@
----
-title: "Module 1.20 — Canonical Transformations, Hamilton–Jacobi Theory & Action–Angle Variables"
-parent: "Phase 1 — Classical Physics"
-nav_order: 20
----
-
 # Module 1.20 — Canonical Transformations, Hamilton–Jacobi Theory & Action–Angle Variables
 **模块 1.20 — 正则变换、哈密顿–雅可比理论与作用量–角变量**
 

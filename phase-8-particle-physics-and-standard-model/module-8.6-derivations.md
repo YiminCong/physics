@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 8.6: Particle Physics & Cosmology"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 8.6: Particle Physics & Cosmology
 # 推导 — 模块 8.6：粒子物理与宇宙学
 

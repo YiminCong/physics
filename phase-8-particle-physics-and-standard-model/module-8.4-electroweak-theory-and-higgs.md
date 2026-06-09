@@ -1,9 +1,3 @@
----
-title: "Module 8.4 — Electroweak Theory & the Higgs"
-parent: "Phase 8 — Particle Physics & the Standard Model"
-nav_order: 4
----
-
 # Module 8.4 — Electroweak Theory & the Higgs ⭐⭐
 **模块 8.4 — 电弱理论与希格斯机制 ⭐⭐**
 

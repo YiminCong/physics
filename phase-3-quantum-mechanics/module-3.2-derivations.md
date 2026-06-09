@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.2: Time-Independent Schrödinger Equation"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.2: Time-Independent Schrödinger Equation
 # 推导 — 模块 3.2：定态薛定谔方程
 

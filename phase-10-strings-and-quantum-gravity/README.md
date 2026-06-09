@@ -1,9 +1,3 @@
----
-title: "Phase 10 — Strings & Quantum Gravity"
-nav_order: 11
-has_children: true
----
-
 # Phase 10 — Strings & Quantum Gravity
 **第 10 阶段 — 弦论与量子引力**
 

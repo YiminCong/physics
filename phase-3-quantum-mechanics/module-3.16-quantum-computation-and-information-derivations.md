@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.16: Quantum Computation & Information"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.16: Quantum Computation & Information
 # 推导 — 模块 3.16：量子计算与量子信息
 

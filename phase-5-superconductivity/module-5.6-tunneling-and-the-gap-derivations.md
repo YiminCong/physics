@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 5.6: Tunneling & the Gap"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 5.6: Tunneling & the Gap
 # 推导 — 模块 5.6：隧穿与能隙
 

@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.1: Newtonian Mechanics"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.1: Newtonian Mechanics
 # 推导 — 模块 1.1：牛顿力学
 

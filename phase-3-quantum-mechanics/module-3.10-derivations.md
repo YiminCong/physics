@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 3.10: Quantum Dynamics"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 3.10: Quantum Dynamics
 # 推导 — 模块 3.10：量子动力学
 

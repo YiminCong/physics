@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.18: Continuum Mechanics & Elasticity"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.18: Continuum Mechanics & Elasticity
 # 推导 — 模块 1.18：连续介质力学与弹性理论
 

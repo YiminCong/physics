@@ -1,9 +1,3 @@
----
-title: "Module 0.4 — Complex Analysis"
-parent: "Phase 0 — Mathematical Foundations"
-nav_order: 4
----
-
 # Module 0.4 — Complex Analysis ⭐
 **模块 0.4 — 复分析 ⭐**
 

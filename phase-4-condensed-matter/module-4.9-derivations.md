@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 4.9: Topological Matter & Berry Phase"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 4.9: Topological Matter & Berry Phase
 # 推导 — 模块 4.9：拓扑物质与贝里相位
 

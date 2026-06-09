@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 5.8: Josephson Effects"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 5.8: Josephson Effects
 # 推导 — 模块 5.8：约瑟夫森效应
 

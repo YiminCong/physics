@@ -1,9 +1,3 @@
----
-title: "Module 5.6 — Tunneling & the Gap"
-parent: "Phase 5 — Superconductivity (the destination)"
-nav_order: 6
----
-
 # Module 5.6 — Tunneling & the Gap
 **模块 5.6 — 隧穿与能隙**
 

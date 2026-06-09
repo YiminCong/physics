@@ -1,9 +1,3 @@
----
-title: "Derivations — Module 1.23: Waveguides, Cavity Resonators & Transmission Lines"
-nav_exclude: true
-search_exclude: false
----
-
 # Derivations — Module 1.23: Waveguides, Cavity Resonators & Transmission Lines
 # 推导 — 模块 1.23：波导、谐振腔与传输线
 

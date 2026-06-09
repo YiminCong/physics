@@ -1,9 +1,3 @@
----
-title: "Module 7.3 — Geodesics & the Motion of Particles"
-parent: "Phase 7 — General Relativity & Cosmology"
-nav_order: 3
----
-
 # Module 7.3 — Geodesics & the Motion of Particles
 **模块 7.3 — 测地线与粒子运动**
 

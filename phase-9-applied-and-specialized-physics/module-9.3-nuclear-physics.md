@@ -1,9 +1,3 @@
----
-title: "Module 9.3 — Nuclear Physics"
-parent: "Phase 9 — Applied & Specialized Physics"
-nav_order: 3
----
-
 # Module 9.3 — Nuclear Physics
 **模块 9.3 — 核物理**
 
