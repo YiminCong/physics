@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.6: Renormalization & the Renormalization Group"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.6: Renormalization & the Renormalization Group
 # 推导 — 模块 6.6：重整化与重整化群
 

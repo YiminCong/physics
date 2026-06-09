@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.2: Green's Functions & Propagators"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.2: Green's Functions & Propagators
 # 推导 — 模块 6.2：格林函数与传播子
 

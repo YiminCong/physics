@@ -1,3 +1,9 @@
+---
+title: "Module 3.17 — Quantum Algorithms & Error Correction"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 17
+---
+
 # Module 3.17 — Quantum Algorithms & Error Correction
 **模块 3.17 — 量子算法与量子纠错**
 

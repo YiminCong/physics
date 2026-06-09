@@ -1,3 +1,9 @@
+---
+title: "Module 4.4 — Electrons in a Periodic Potential"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 4
+---
+
 # Module 4.4 — Electrons in a Periodic Potential ⭐
 **模块 4.4 — 周期势中的电子 ⭐**
 

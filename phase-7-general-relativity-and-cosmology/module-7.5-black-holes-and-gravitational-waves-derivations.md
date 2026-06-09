@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 7.5: Black Holes & Gravitational Waves"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 7.5: Black Holes & Gravitational Waves
 # 推导 — 模块 7.5：黑洞与引力波
 

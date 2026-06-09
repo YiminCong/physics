@@ -1,3 +1,9 @@
+---
+title: "Module 5.7 — Type II Superconductors & Vortices"
+parent: "Phase 5 — Superconductivity (the destination)"
+nav_order: 7
+---
+
 # Module 5.7 — Type II Superconductors & Vortices ⭐
 **模块 5.7 — II 型超导体与涡旋 ⭐**
 

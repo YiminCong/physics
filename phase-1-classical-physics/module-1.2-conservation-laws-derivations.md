@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.2: Conservation Laws"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.2: Conservation Laws
 # 推导 — 模块 1.2：守恒定律
 

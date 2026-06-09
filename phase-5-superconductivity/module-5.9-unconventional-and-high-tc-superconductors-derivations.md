@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 5.9: Unconventional & High-Tᶜ Superconductors"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 5.9: Unconventional & High-Tᶜ Superconductors
 # 推导 — 模块 5.9：非常规与高温超导体
 

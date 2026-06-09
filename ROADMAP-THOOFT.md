@@ -1,3 +1,8 @@
+---
+title: "Roadmap — 't Hooft's \"How to become a GOOD Theoretical Physicist\""
+nav_exclude: true
+---
+
 # Roadmap — 't Hooft's "How to become a GOOD Theoretical Physicist"
 # 路线图 — 特·胡夫特《如何成为一名优秀的理论物理学家》
 

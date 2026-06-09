@@ -1,3 +1,9 @@
+---
+title: "Module 1.12 — Optics & Interference"
+parent: "Phase 1 — Classical Physics"
+nav_order: 12
+---
+
 # Module 1.12 — Optics & Interference
 **模块 1.12 — 光学与干涉**
 

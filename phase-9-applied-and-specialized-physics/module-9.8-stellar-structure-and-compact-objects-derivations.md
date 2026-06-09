@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 9.8: Stellar Structure & Compact Objects"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 9.8: Stellar Structure & Compact Objects
 # 推导 — 模块 9.8：恒星结构与致密天体
 

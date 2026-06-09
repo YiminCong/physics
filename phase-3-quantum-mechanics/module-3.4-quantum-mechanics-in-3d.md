@@ -1,3 +1,9 @@
+---
+title: "Module 3.4 — Quantum Mechanics in 3D (Angular Momentum, Hydrogen, Spin)"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 4
+---
+
 # Module 3.4 — Quantum Mechanics in 3D (Angular Momentum, Hydrogen, Spin) ⭐
 **模块 3.4 — 三维量子力学（角动量、氢原子、自旋）⭐**
 

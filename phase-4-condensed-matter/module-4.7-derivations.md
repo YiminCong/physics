@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 4.7: Semiconductor Physics"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 4.7: Semiconductor Physics
 # 推导 — 模块 4.7：半导体物理
 

@@ -1,3 +1,9 @@
+---
+title: "Module 6.8 — Scattering, the S-Matrix & LSZ Reduction"
+parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
+nav_order: 8
+---
+
 # Module 6.8 — Scattering, the S-Matrix & LSZ Reduction
 **模块 6.8 — 散射、S 矩阵与 LSZ 约化**
 

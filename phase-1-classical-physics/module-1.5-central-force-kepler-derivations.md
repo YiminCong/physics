@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.5: Central Force & Kepler"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.5: Central Force & Kepler
 # 推导 — 模块 1.5：有心力与开普勒定律
 

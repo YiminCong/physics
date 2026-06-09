@@ -1,3 +1,9 @@
+---
+title: "Phase 8 — Particle Physics & the Standard Model"
+nav_order: 9
+has_children: true
+---
+
 # Phase 8 — Particle Physics & the Standard Model
 **第 8 阶段 — 粒子物理与标准模型**
 

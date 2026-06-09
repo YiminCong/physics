@@ -1,3 +1,9 @@
+---
+title: "Module 1.15 — Covariant Electromagnetism"
+parent: "Phase 1 — Classical Physics"
+nav_order: 15
+---
+
 # Module 1.15 — Covariant Electromagnetism
 **模块 1.15 — 协变电磁学**
 

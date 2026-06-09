@@ -1,3 +1,9 @@
+---
+title: "Module 7.8 — Global Structure & Singularity Theorems"
+parent: "Phase 7 — General Relativity & Cosmology"
+nav_order: 8
+---
+
 # Module 7.8 — Global Structure & Singularity Theorems
 **模块 7.8 — 整体结构与奇点定理**
 

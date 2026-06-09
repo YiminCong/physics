@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.8: Electrostatics & Boundary-Value Problems"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.8: Electrostatics & Boundary-Value Problems
 # 推导 — 模块 1.8：静电学与边值问题
 

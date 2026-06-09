@@ -1,3 +1,9 @@
+---
+title: "Module 4.11 — Linear Response, Transport & the Kubo Formula"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 11
+---
+
 # Module 4.11 — Linear Response, Transport & the Kubo Formula
 **模块 4.11 — 线性响应、输运与久保公式**
 

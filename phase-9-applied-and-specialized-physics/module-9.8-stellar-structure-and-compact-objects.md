@@ -1,3 +1,9 @@
+---
+title: "Module 9.8 — Stellar Structure & Compact Objects"
+parent: "Phase 9 — Applied & Specialized Physics"
+nav_order: 8
+---
+
 # Module 9.8 — Stellar Structure & Compact Objects
 **模块 9.8 — 恒星结构与致密天体**
 

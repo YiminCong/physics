@@ -1,3 +1,9 @@
+---
+title: "Module 1.19 — Nonlinear Dynamics & Chaos"
+parent: "Phase 1 — Classical Physics"
+nav_order: 19
+---
+
 # Module 1.19 — Nonlinear Dynamics & Chaos
 **模块 1.19 — 非线性动力学与混沌**
 

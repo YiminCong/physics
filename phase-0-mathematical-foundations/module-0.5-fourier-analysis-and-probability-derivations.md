@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 0.5: Fourier Analysis & Probability"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 0.5: Fourier Analysis & Probability
 # 推导 — 模块 0.5：傅里叶分析与概率
 

@@ -1,3 +1,9 @@
+---
+title: "Module 8.5 — The Standard Model & Beyond"
+parent: "Phase 8 — Particle Physics & the Standard Model"
+nav_order: 5
+---
+
 # Module 8.5 — The Standard Model & Beyond
 **模块 8.5 — 标准模型及其超越**
 

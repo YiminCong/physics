@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.13: Special Relativity — Kinematics"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.13: Special Relativity — Kinematics
 # 推导 — 模块 1.13：狭义相对论——运动学
 

@@ -1,3 +1,9 @@
+---
+title: "Module 1.14 — Relativistic Dynamics & E = mc²"
+parent: "Phase 1 — Classical Physics"
+nav_order: 14
+---
+
 # Module 1.14 — Relativistic Dynamics & E = mc² ⭐
 **模块 1.14 — 相对论动力学与 E = mc² ⭐**
 

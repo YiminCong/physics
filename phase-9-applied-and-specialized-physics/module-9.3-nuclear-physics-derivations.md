@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 9.3: Nuclear Physics"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 9.3: Nuclear Physics
 # 推导 — 模块 9.3：核物理
 

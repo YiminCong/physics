@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 8.9: Deep Inelastic Scattering & Partons"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 8.9: Deep Inelastic Scattering & Partons
 # 推导 — 模块 8.9：深度非弹性散射与部分子
 

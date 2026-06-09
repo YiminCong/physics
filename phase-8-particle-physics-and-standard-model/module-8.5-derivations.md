@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 8.5: The Standard Model & Beyond"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 8.5: The Standard Model & Beyond
 # 推导 — 模块 8.5：标准模型及其超越
 

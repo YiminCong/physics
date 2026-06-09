@@ -1,3 +1,9 @@
+---
+title: "Module 4.8 — Quantum Hall Effect"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 8
+---
+
 # Module 4.8 — Quantum Hall Effect
 **模块 4.8 — 量子霍尔效应**
 

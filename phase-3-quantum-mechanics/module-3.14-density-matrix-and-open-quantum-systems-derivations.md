@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.14: Density Matrix & Open Quantum Systems"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.14: Density Matrix & Open Quantum Systems
 # 推导 — 模块 3.14：密度矩阵与开放量子系统
 

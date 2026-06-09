@@ -1,3 +1,9 @@
+---
+title: "Module 4.6 — Magnetism & Spin Waves"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 6
+---
+
 # Module 4.6 — Magnetism & Spin Waves
 **模块 4.6 — 磁性与自旋波**
 

@@ -1,3 +1,9 @@
+---
+title: "Module 0.5 — Fourier Analysis & Probability"
+parent: "Phase 0 — Mathematical Foundations"
+nav_order: 5
+---
+
 # Module 0.5 — Fourier Analysis & Probability ⭐
 **模块 0.5 — 傅里叶分析与概率 ⭐**
 

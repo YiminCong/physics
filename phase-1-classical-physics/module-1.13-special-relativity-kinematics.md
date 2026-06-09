@@ -1,3 +1,9 @@
+---
+title: "Module 1.13 — Special Relativity — Kinematics"
+parent: "Phase 1 — Classical Physics"
+nav_order: 13
+---
+
 # Module 1.13 — Special Relativity — Kinematics ⭐
 **模块 1.13 — 狭义相对论——运动学 ⭐**
 

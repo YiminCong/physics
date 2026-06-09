@@ -1,3 +1,9 @@
+---
+title: "Module 6.4 — Path Integrals & Field Theory"
+parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
+nav_order: 4
+---
+
 # Module 6.4 — Path Integrals & Field Theory ⭐
 **模块 6.4 — 路径积分与场论 ⭐**
 

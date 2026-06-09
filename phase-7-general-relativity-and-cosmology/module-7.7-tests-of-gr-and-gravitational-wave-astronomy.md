@@ -1,3 +1,9 @@
+---
+title: "Module 7.7 — Tests of GR & Gravitational-Wave Astronomy"
+parent: "Phase 7 — General Relativity & Cosmology"
+nav_order: 7
+---
+
 # Module 7.7 — Tests of GR & Gravitational-Wave Astronomy
 **模块 7.7 — 广义相对论的检验与引力波天文学**
 

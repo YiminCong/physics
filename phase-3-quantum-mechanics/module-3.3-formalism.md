@@ -1,3 +1,9 @@
+---
+title: "Module 3.3 — Formalism"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 3
+---
+
 # Module 3.3 — Formalism ⭐
 **模块 3.3 — 形式化框架 ⭐**
 

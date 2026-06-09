@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.3: Feynman Diagrams & Perturbation Theory"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.3: Feynman Diagrams & Perturbation Theory
 # 推导 — 模块 6.3：费曼图与微扰论
 

@@ -1,3 +1,9 @@
+---
+title: "Module 10.2 — Quantum Gravity & Holography"
+parent: "Phase 10 — Strings & Quantum Gravity"
+nav_order: 2
+---
+
 # Module 10.2 — Quantum Gravity & Holography
 **模块 10.2 — 量子引力与全息原理**
 

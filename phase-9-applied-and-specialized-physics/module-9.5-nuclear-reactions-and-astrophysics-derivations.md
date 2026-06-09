@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 9.5: Nuclear Reactions & Astrophysics"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 9.5: Nuclear Reactions & Astrophysics
 # 推导 — 模块 9.5：核反应与天体物理
 

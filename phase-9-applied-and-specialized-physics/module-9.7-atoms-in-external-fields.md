@@ -1,3 +1,9 @@
+---
+title: "Module 9.7 — Atoms in External Fields & Precision Spectroscopy"
+parent: "Phase 9 — Applied & Specialized Physics"
+nav_order: 7
+---
+
 # Module 9.7 — Atoms in External Fields & Precision Spectroscopy
 **模块 9.7 — 外场中的原子与精密光谱学**
 

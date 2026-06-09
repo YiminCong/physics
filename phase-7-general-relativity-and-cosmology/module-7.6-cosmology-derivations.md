@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 7.6: Cosmology"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 7.6: Cosmology
 # 推导 — 模块 7.6：宇宙学
 

@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.9: Fundamental Concepts (Sakurai)"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.9: Fundamental Concepts (Sakurai)
 # 推导 — 模块 3.9：基本概念（樱井）
 

@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 9.4: Plasma Physics"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 9.4: Plasma Physics
 # 推导 — 模块 9.4：等离子体物理
 

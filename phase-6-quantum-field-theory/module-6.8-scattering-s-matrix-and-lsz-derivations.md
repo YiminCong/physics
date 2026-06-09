@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.8: Scattering, the S-Matrix & LSZ Reduction"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.8: Scattering, the S-Matrix & LSZ Reduction
 # 推导 — 模块 6.8：散射、S 矩阵与 LSZ 约化
 

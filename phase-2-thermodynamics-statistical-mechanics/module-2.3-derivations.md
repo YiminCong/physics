@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 2.3: Free Energy & Phase Transitions"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 2.3: Free Energy & Phase Transitions
 # 推导 — 模块 2.3：自由能与相变
 

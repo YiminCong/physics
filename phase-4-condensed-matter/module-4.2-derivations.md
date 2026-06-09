@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 4.2: Crystal Structure & Reciprocal Space"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 4.2: Crystal Structure & Reciprocal Space
 # 推导 — 模块 4.2：晶体结构与倒格子空间
 

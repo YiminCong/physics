@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 2.4: Classical Statistical Mechanics"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 2.4: Classical Statistical Mechanics
 # 推导 — 模块 2.4：经典统计力学
 

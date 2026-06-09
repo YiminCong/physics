@@ -1,3 +1,9 @@
+---
+title: "Module 6.12 — Finite-Temperature Field Theory (the Matsubara Formalism)"
+parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
+nav_order: 12
+---
+
 # Module 6.12 — Finite-Temperature Field Theory (the Matsubara Formalism)
 **模块 6.12 — 有限温度场论（松原形式）**
 

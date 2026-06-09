@@ -1,3 +1,9 @@
+---
+title: "Module 3.14 — Density Matrix & Open Quantum Systems"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 14
+---
+
 # Module 3.14 — Density Matrix & Open Quantum Systems
 **模块 3.14 — 密度矩阵与开放量子系统**
 

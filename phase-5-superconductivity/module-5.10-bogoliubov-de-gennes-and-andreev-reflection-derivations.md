@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 5.10: Bogoliubov–de Gennes & Andreev Reflection"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 5.10: Bogoliubov–de Gennes & Andreev Reflection
 # 推导 — 模块 5.10：Bogoliubov–de Gennes 方程与安德烈夫反射
 

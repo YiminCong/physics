@@ -1,3 +1,9 @@
+---
+title: "Module 9.1 — Electronics: Circuits, Semiconductors & Amplifiers"
+parent: "Phase 9 — Applied & Specialized Physics"
+nav_order: 1
+---
+
 # Module 9.1 — Electronics: Circuits, Semiconductors & Amplifiers
 **模块 9.1 — 电子学：电路、半导体与放大器**
 

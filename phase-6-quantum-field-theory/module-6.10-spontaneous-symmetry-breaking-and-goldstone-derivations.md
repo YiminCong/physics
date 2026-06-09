@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.10: Spontaneous Symmetry Breaking & Goldstone's Theorem"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.10: Spontaneous Symmetry Breaking & Goldstone's Theorem
 # 推导 — 模块 6.10：自发对称性破缺与戈德斯通定理
 

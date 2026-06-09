@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.8: Time-Dependent Perturbation Theory & Scattering"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.8: Time-Dependent Perturbation Theory & Scattering
 # 推导 — 模块 3.8：含时微扰理论与散射
 

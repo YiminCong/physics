@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 2.2: Thermodynamic Potentials & Maxwell Relations"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 2.2: Thermodynamic Potentials & Maxwell Relations
 # 推导 — 模块 2.2：热力学势与麦克斯韦关系
 

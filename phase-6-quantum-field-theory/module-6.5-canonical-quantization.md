@@ -1,3 +1,9 @@
+---
+title: "Module 6.5 — Canonical Quantization of Fields"
+parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
+nav_order: 5
+---
+
 # Module 6.5 — Canonical Quantization of Fields ⭐
 **模块 6.5 — 场的正则量子化 ⭐**
 

@@ -1,3 +1,9 @@
+---
+title: "Module 3.15 — Relativistic Quantum Mechanics"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 15
+---
+
 # Module 3.15 — Relativistic Quantum Mechanics
 **模块 3.15 — 相对论量子力学**
 

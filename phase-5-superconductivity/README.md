@@ -1,3 +1,9 @@
+---
+title: "Phase 5 — Superconductivity (the destination)"
+nav_order: 6
+has_children: true
+---
+
 # Phase 5 — Superconductivity (the destination)
 **第 5 阶段 — 超导（目的地）**
 

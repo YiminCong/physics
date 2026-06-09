@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.7: Variational & WKB Methods"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.7: Variational & WKB Methods
 # 推导 — 模块 3.7：变分法与 WKB 方法
 

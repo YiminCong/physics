@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 7.8: Global Structure & Singularity Theorems"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 7.8: Global Structure & Singularity Theorems
 # 推导 — 模块 7.8：整体结构与奇点定理
 
