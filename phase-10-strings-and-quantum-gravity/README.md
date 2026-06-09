@@ -25,16 +25,16 @@ This phase stands at the absolute frontier of theoretical physics and marks the 
 ## Phase 10 Checkpoint (blank page)
 
 1. Write down the Nambu–Goto and Polyakov string actions; explain why they are classically equivalent and what advantage the Polyakov form offers for quantization.
-2. Derive the open-string mass formula M² = (N − 1)/α′ and explain how the intercept a = 1 and the requirement of Lorentz covariance force the critical dimension D = 26 for the bosonic string.
+2. Derive the open-string mass formula $M^2 = (N - 1)/\alpha'$ and explain how the intercept $a = 1$ and the requirement of Lorentz covariance force the critical dimension $D = 26$ for the bosonic string.
 3. State why general relativity is perturbatively non-renormalizable; identify the graviton in the closed-string spectrum and explain how string theory sidesteps the UV divergence problem.
-4. State the Bekenstein–Hawking entropy formula S = k_B A / 4ℓ_P² and the Hawking temperature T = ℏc³ / 8πGMk_B; sketch the Euclidean-time-periodicity argument that yields the temperature.
+4. State the Bekenstein–Hawking entropy formula $S = k_B A / 4\ell_P^2$ and the Hawking temperature $T = \hbar c^3 / 8\pi G M k_B$; sketch the Euclidean-time-periodicity argument that yields the temperature.
 
 **自测（空白页）**
 
 1. 写出 Nambu–Goto 和 Polyakov 弦作用量；解释为何二者在经典上等价，以及 Polyakov 形式在量子化方面的优势。
-2. 推导开弦质量公式 M² = (N − 1)/α′，并解释截距 a = 1 以及洛伦兹协变性的要求如何迫使玻色弦的临界维数为 D = 26。
+2. 推导开弦质量公式 $M^2 = (N - 1)/\alpha'$，并解释截距 $a = 1$ 以及洛伦兹协变性的要求如何迫使玻色弦的临界维数为 $D = 26$。
 3. 说明为何广义相对论在微扰论中不可重整；指出引力子在闭弦谱中的位置，并解释弦论如何规避紫外发散问题。
-4. 陈述 Bekenstein–Hawking 熵公式 S = k_B A / 4ℓ_P² 和霍金温度 T = ℏc³ / 8πGMk_B；概述得出该温度的欧氏时间周期性论证。
+4. 陈述 Bekenstein–Hawking 熵公式 $S = k_B A / 4\ell_P^2$ 和霍金温度 $T = \hbar c^3 / 8\pi G M k_B$；概述得出该温度的欧氏时间周期性论证。
 
 ---
 

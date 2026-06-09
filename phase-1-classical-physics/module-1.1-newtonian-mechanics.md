@@ -10,13 +10,13 @@
 
 ## 1. Newton's Laws and Equations of Motion · 牛顿定律与运动方程
 
-**Definition.** Classical mechanics rests on Newton's three laws. (1) **Inertia**: a body remains at rest or in uniform motion unless acted on by a net force. (2) **Second law**: the net force equals the rate of change of momentum, **F = ma** (for constant mass). (3) **Action–reaction**: forces come in equal and opposite pairs. An **inertial frame** is one in which the first law holds; all inertial frames are related by Galilean transformations (v ≪ c). A **force** is any interaction that causes acceleration; common examples are gravity (F = mg near the surface), spring restoring force (F = −kx), normal force, tension, and friction.
+**Definition.** Classical mechanics rests on Newton's three laws. (1) **Inertia**: a body remains at rest or in uniform motion unless acted on by a net force. (2) **Second law**: the net force equals the rate of change of momentum, $\mathbf{F} = m\mathbf{a}$ (for constant mass). (3) **Action–reaction**: forces come in equal and opposite pairs. An **inertial frame** is one in which the first law holds; all inertial frames are related by Galilean transformations ($v \ll c$). A **force** is any interaction that causes acceleration; common examples are gravity ($F = mg$ near the surface), spring restoring force ($F = -kx$), normal force, tension, and friction.
 
-**定义。** 经典力学建立在牛顿三定律之上。(1) **惯性定律**：物体静止或匀速运动，除非受到合力的作用。(2) **第二定律**：合力等于动量的变化率，**F = ma**（质量恒定时）。(3) **作用与反作用定律**：力成对出现，大小相等、方向相反。**惯性系**是第一定律成立的参考系；所有惯性系通过伽利略变换相联系（v ≪ c）。**力**是引起加速度的任何相互作用；常见例子有重力（近地面 F = mg）、弹簧恢复力（F = −kx）、法向力、张力和摩擦力。
+**定义。** 经典力学建立在牛顿三定律之上。(1) **惯性定律**：物体静止或匀速运动，除非受到合力的作用。(2) **第二定律**：合力等于动量的变化率，$\mathbf{F} = m\mathbf{a}$（质量恒定时）。(3) **作用与反作用定律**：力成对出现，大小相等、方向相反。**惯性系**是第一定律成立的参考系；所有惯性系通过伽利略变换相联系（$v \ll c$）。**力**是引起加速度的任何相互作用；常见例子有重力（近地面 $F = mg$）、弹簧恢复力（$F = -kx$）、法向力、张力和摩擦力。
 
-**Demonstration.** Consider a block of mass m on a frictionless surface connected by a string over a pulley to a hanging mass M. Writing Newton's second law for each body and eliminating the tension T gives a = Mg/(m + M), the standard Atwood result. The method — isolate the body, identify all forces, apply F = ma along each axis, solve the coupled algebraic or differential equations — is the universal template.
+**Demonstration.** Consider a block of mass $m$ on a frictionless surface connected by a string over a pulley to a hanging mass $M$. Writing Newton's second law for each body and eliminating the tension $T$ gives $a = Mg/(m + M)$, the standard Atwood result. The method — isolate the body, identify all forces, apply $\mathbf{F} = m\mathbf{a}$ along each axis, solve the coupled algebraic or differential equations — is the universal template.
 
-**演示。** 考虑质量为 m 的滑块在无摩擦表面上，通过绳子绕过滑轮连接到悬挂质量 M。对每个物体写出牛顿第二定律并消去张力 T，得 a = Mg/(m + M)，即标准的阿特伍德机结果。该方法——隔离物体、辨识所有力、沿各轴应用 F = ma、求解耦合代数或微分方程——是通用模板。
+**演示。** 考虑质量为 $m$ 的滑块在无摩擦表面上，通过绳子绕过滑轮连接到悬挂质量 $M$。对每个物体写出牛顿第二定律并消去张力 $T$，得 $a = Mg/(m + M)$，即标准的阿特伍德机结果。该方法——隔离物体、辨识所有力、沿各轴应用 $\mathbf{F} = m\mathbf{a}$、求解耦合代数或微分方程——是通用模板。
 
 **Application.** Every subsequent reformulation of mechanics is built on the same physics encoded here. The Lagrangian approach (Module 1.3) re-derives the same trajectories without resolving constraint forces; the Hamiltonian approach (Module 1.4) recasts the same dynamics in phase space. Knowing Newton's laws is therefore knowing what the more powerful formalisms must reproduce.
 
@@ -24,13 +24,13 @@
 
 ## 2. Solving Equations of Motion · 求解运动方程
 
-**Definition.** Newton's second law is a second-order ordinary differential equation (ODE) in the position vector r(t): m r̈ = F(r, ṙ, t). The general solution contains two integration constants fixed by initial conditions r(0) and ṙ(0) = v₀.
+**Definition.** Newton's second law is a second-order ordinary differential equation (ODE) in the position vector $\mathbf{r}(t)$: $m\ddot{\mathbf{r}} = \mathbf{F}(\mathbf{r}, \dot{\mathbf{r}}, t)$. The general solution contains two integration constants fixed by initial conditions $\mathbf{r}(0)$ and $\dot{\mathbf{r}}(0) = \mathbf{v}_0$.
 
-**定义。** 牛顿第二定律是位置向量 r(t) 的二阶常微分方程：m r̈ = F(r, ṙ, t)。通解包含两个由初始条件 r(0) 和 ṙ(0) = v₀ 确定的积分常数。
+**定义。** 牛顿第二定律是位置向量 $\mathbf{r}(t)$ 的二阶常微分方程：$m\ddot{\mathbf{r}} = \mathbf{F}(\mathbf{r}, \dot{\mathbf{r}}, t)$。通解包含两个由初始条件 $\mathbf{r}(0)$ 和 $\dot{\mathbf{r}}(0) = \mathbf{v}_0$ 确定的积分常数。
 
-**Demonstration.** Projectile motion under constant gravity: ẍ = 0, ÿ = −g. Integrating twice gives x(t) = v₀ cos θ · t, y(t) = v₀ sin θ · t − ½gt². The range is R = v₀² sin 2θ / g, maximised at θ = 45°.
+**Demonstration.** Projectile motion under constant gravity: $\ddot{x} = 0$, $\ddot{y} = -g$. Integrating twice gives $x(t) = v_0 \cos\theta \cdot t$, $y(t) = v_0 \sin\theta \cdot t - \tfrac12 g t^2$. The range is $R = v_0^2 \sin 2\theta / g$, maximised at $\theta = 45^\circ$.
 
-**演示。** 匀重力场中的抛体运动：ẍ = 0，ÿ = −g。积分两次得 x(t) = v₀ cos θ · t，y(t) = v₀ sin θ · t − ½gt²。射程为 R = v₀² sin 2θ / g，在 θ = 45° 时最大。
+**演示。** 匀重力场中的抛体运动：$\ddot{x} = 0$，$\ddot{y} = -g$。积分两次得 $x(t) = v_0 \cos\theta \cdot t$，$y(t) = v_0 \sin\theta \cdot t - \tfrac12 g t^2$。射程为 $R = v_0^2 \sin 2\theta / g$，在 $\theta = 45^\circ$ 时最大。
 
 **Application.** The same ODE machinery applies to planetary orbits (Module 1.5), coupled oscillators (Module 1.6), and charged-particle motion in EM fields — all reduce to solving or approximating Newton's equations in appropriate coordinates. ODEs of this type are treated systematically in Module 0.3.
 
@@ -41,16 +41,16 @@
 **Self-test (blank page)**
 
 1. State Newton's three laws and give one everyday example of each.
-2. An object of mass m slides down a frictionless incline of angle θ. Derive its acceleration along the slope using Newton's second law.
-3. Two blocks of masses m₁ and m₂ are connected by a light string over a frictionless pulley. Find the tension in the string.
-4. Why must Newton's laws be stated in an inertial frame? How would F = ma appear to an observer in an accelerating car?
+2. An object of mass $m$ slides down a frictionless incline of angle $\theta$. Derive its acceleration along the slope using Newton's second law.
+3. Two blocks of masses $m_1$ and $m_2$ are connected by a light string over a frictionless pulley. Find the tension in the string.
+4. Why must Newton's laws be stated in an inertial frame? How would $\mathbf{F} = m\mathbf{a}$ appear to an observer in an accelerating car?
 
 **自测（空白页）**
 
 1. 陈述牛顿三定律，并各举一个日常生活中的例子。
-2. 质量为 m 的物体沿倾角为 θ 的无摩擦斜面下滑。用牛顿第二定律推导其沿斜面的加速度。
-3. 质量分别为 m₁ 和 m₂ 的两个滑块通过轻绳绕过无摩擦滑轮相连。求绳中张力。
-4. 为什么牛顿定律必须在惯性系中陈述？在加速行驶的汽车中，F = ma 对于观察者会呈现出怎样的形式？
+2. 质量为 $m$ 的物体沿倾角为 $\theta$ 的无摩擦斜面下滑。用牛顿第二定律推导其沿斜面的加速度。
+3. 质量分别为 $m_1$ 和 $m_2$ 的两个滑块通过轻绳绕过无摩擦滑轮相连。求绳中张力。
+4. 为什么牛顿定律必须在惯性系中陈述？在加速行驶的汽车中，$\mathbf{F} = m\mathbf{a}$ 对于观察者会呈现出怎样的形式？
 
 ---
 
