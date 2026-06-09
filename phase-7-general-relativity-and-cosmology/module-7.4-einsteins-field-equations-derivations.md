@@ -1,8 +1,8 @@
 # Derivations — Module 7.4: Einstein's Field Equations
 # 推导 — 模块 7.4：爱因斯坦场方程
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 7.4](./module-7.4-einsteins-field-equations.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 7.4](./module-7.4-einsteins-field-equations.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -51,14 +51,7 @@ Therefore, effectively: δ(R) = R_{μν} δg^{μν} (plus a discarded surface te
 
 **第 2 步 — 对 √(−g) 变分。** 行列式变分为 δg = g · g^{μν} δg_{μν}。注意 δg^{μν} 与 δg_{μν} 的关系为 δg_{μν} = −g_{μα} g_{νβ} δg^{αβ}，故 g · g^{μν} δg_{μν} = −g · g_{μν} δg^{μν}。因此：
 
-  δ√(−g) = −(1/(2√(−g))) δg = −(1/(2√(−g))) g · g^{μν} δg_{μν}
-           = (1/2) √(−g) · g_{μν} δg^{μν}   (correcting the sign: δg^{μν} gets a minus sign)
-
-Wait — let us be careful. From g_{μρ} g^{ρν} = δ^ν_μ, differentiating: δg_{μρ} g^{ρν} + g_{μρ} δg^{ρν} = 0, so δg_{μν} = −g_{μα} g_{νβ} δg^{αβ}. Also δ(det g)/det g = g^{μν} δg_{μν} = −g_{μν} δg^{μν}. Thus:
-
-等等——需要仔细处理符号。由 g_{μρ} g^{ρν} = δ^ν_μ 微分得：δg_{μρ} g^{ρν} + g_{μρ} δg^{ρν} = 0，故 δg_{μν} = −g_{μα} g_{νβ} δg^{αβ}。又 δ(det g)/det g = g^{μν} δg_{μν} = −g_{μν} δg^{μν}。因此：
-
-  δ√(−g) = − δ(−g)/(2√(−g)) = −(δg)/(2√(−g)) = −(g · g^{μν} δg_{μν})/(2√(−g))
+  δ√(−g) = −δ(−g)/(2√(−g)) = −(δg)/(2√(−g)) = −(g · g^{μν} δg_{μν})/(2√(−g))
            = (1/2) √(−g) g_{μν} δg^{μν}.
 
 (Here we used g^{μν} δg_{μν} = −g_{μν} δg^{μν}, with an overall sign flip from g < 0.)

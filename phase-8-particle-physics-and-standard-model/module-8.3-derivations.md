@@ -1,8 +1,8 @@
 # Derivations — Module 8.3: Quantum Chromodynamics (QCD)
 # 推导 — 模块 8.3：量子色动力学
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 8.3](./module-8.3-quantum-chromodynamics.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 8.3](./module-8.3-quantum-chromodynamics.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -85,9 +85,9 @@ The β function is β(g_s) = μ dg_s/dμ. At one loop, δZ_g receives contributi
 
 **第 2 步 — +11/3 项的起源。** 胶子自能在单圈阶有两个贡献：
 
-(a) **Gluon loop** (three-gluon vertex): This arises because gluons self-interact via the f^{abc} structure constant. The loop integral gives a contribution to the β function of +5/2 × (color factor). In SU(N) the adjoint Casimir is C_A = N (for SU(3), C_A = 3). The gluon loop contribution is +(5/2)·(2/3)·C_A... more carefully: the transverse part of the gluon self-energy from the three-gluon vertex gives +5C_A/3 × (1/16π²) per unit g_s².
+(a) **Gluon loop** (three-gluon vertex): This arises because gluons self-interact via the f^{abc} structure constant. In SU(N) the adjoint Casimir is C_A = N (for SU(3), C_A = 3). The transverse part of the gluon self-energy from the three-gluon vertex contributes +5C_A/3 × (1/16π²) per unit g_s² to the β function.
 
-(a) **胶子圈**（三胶子顶角）：这来自胶子通过结构常数 f^{abc} 自相互作用。圈积分对 β 函数贡献 +5/2 × （色因子）。在 SU(N) 中，伴随卡西米尔算符为 C_A = N（对于 SU(3)，C_A = 3）。胶子圈贡献为 +(5C_A/3)/(16π²) 每单位 g_s²。
+(a) **胶子圈**（三胶子顶角）：这来自胶子通过结构常数 f^{abc} 自相互作用。在 SU(N) 中，伴随卡西米尔算符为 C_A = N（对于 SU(3)，C_A = 3）。来自三胶子顶角的胶子自能横向部分对 β 函数贡献 +5C_A/3 × (1/16π²) 每单位 g_s²。
 
 (b) **Ghost loop** (Faddeev-Popov ghosts): In non-abelian gauge theory, gauge fixing introduces ghost fields c^a (anticommuting scalars in the adjoint representation) to cancel unphysical gluon polarizations. Their loop gives −C_A/6 per unit g_s².
 
@@ -101,13 +101,13 @@ The (5/3) and (−1/6) values above are the gauge-boson and ghost pieces of the 
 
 **第 3 步 — −2n_f/3 项的起源。** 每种夸克味对胶子自能贡献一个费米子圈。这在结构上与 QED 中的电子圈相同。在 QED 中，电子圈给出正的 β 函数（屏蔽）。在 QCD 中，夸克圈贡献：
 
-  Quark loop contribution to b₀: −2/3 × T_F × n_f,
+  Quark loop contribution to b₀: −(4/3) × T_F × n_f,
 
 where T_F = 1/2 for the fundamental representation (from Tr(T^aT^b) = T_Fδ^{ab} = (1/2)δ^{ab}). So:
 
 其中 T_F = 1/2 用于基本表示（来自 Tr(T^aT^b) = T_Fδ^{ab} = (1/2)δ^{ab}）。故：
 
-  Quark contribution: −2T_F n_f/3 = −2×(1/2)×n_f/3 = −n_f/3... 
+  Quark contribution: −(4/3)T_F n_f = −(4/3)×(1/2)×n_f = −2n_f/3.
 
 The standard normalization gives the total b₀ = (11C_A − 4T_Fn_f)/3 = (11×3 − 4×(1/2)×n_f)/3 = (33 − 2n_f)/3 = 11 − 2n_f/3.
 

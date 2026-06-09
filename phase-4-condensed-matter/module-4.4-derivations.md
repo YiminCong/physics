@@ -1,8 +1,8 @@
 # Derivations — Module 4.4: Electrons in a Periodic Potential
 # 推导 — 模块 4.4：周期势中的电子
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 4.4](./module-4.4-electrons-in-a-periodic-potential.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 4.4](./module-4.4-electrons-in-a-periodic-potential.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -197,12 +197,11 @@ More directly: apply H to |k⟩ and use ⟨k|H|k⟩:
 
 更直接地：将 H 作用在 |k⟩ 上并利用 ⟨k|H|k⟩：
 
-  H|k⟩ = E₀|k⟩ − (t/√N) Σ_n e^{ikna}(|n−1⟩ + |n+1⟩)
-        = E₀|k⟩ − (t/√N) Σ_n e^{ikna}(e^{−ika} + e^{ika})|n⟩ · (reindexing)
+  H|k⟩ = E₀|k⟩ − (t/√N) Σ_n e^{ikna}(|n−1⟩ + |n+1⟩).
 
-Wait — more carefully: collecting the |n⟩ coefficient:
+Reindex each sum so the kets become |n⟩ (shift n∓1 → n), which collects the coefficient of each |n⟩:
 
-仔细整理 |n⟩ 的系数：
+对每个求和重新编号使右矢变为 |n⟩（移位 n∓1 → n），收集每个 |n⟩ 的系数：
 
   H|k⟩ = (1/√N) Σ_n [E₀ − t(e^{ika} + e^{−ika})] e^{ikna} |n⟩ = [E₀ − 2t cos(ka)] |k⟩.
 

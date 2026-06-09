@@ -1,8 +1,8 @@
 # Derivations — Module 7.7: Tests of GR & Gravitational-Wave Astronomy
 # 推导 — 模块 7.7：广义相对论的检验与引力波天文学
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 7.7](./module-7.7-tests-of-gr-and-gravitational-wave-astronomy.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 7.7](./module-7.7-tests-of-gr-and-gravitational-wave-astronomy.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -300,21 +300,11 @@ More cleanly, using Ω = π f_GW:
 
   P = (32G^{7/3}/5c⁵) μ² M^{4/3} (π f_GW)^{10/3}
 
-**Step 3 — Energy of the orbit.** The total orbital energy is:
+**Step 3 — Energy of the orbit.** The total orbital energy of a circular binary is E_orb = −Gm₁m₂/(2r) = −GμM/(2r) (using m₁m₂ = μM). From Kepler's third law Ω² = GM/r³, the separation is r = (GM)^{1/3}Ω^{−2/3} = (GM)^{1/3}(π f_GW)^{−2/3} (since Ω = π f_GW). Substituting:
 
-**第 3 步 — 轨道能量。** 总轨道能量为：
+**第 3 步 — 轨道能量。** 圆形双星的总轨道能量为 E_orb = −Gm₁m₂/(2r) = −GμM/(2r)（利用 m₁m₂ = μM）。由开普勒第三定律 Ω² = GM/r³，间距为 r = (GM)^{1/3}(π f_GW)^{−2/3}（因 Ω = π f_GW）。代入：
 
-  E_orb = −Gm₁m₂/(2r) = −(G μ M)/(2r) = −(G μ M)^{5/3} / (2 (GM)^{2/3}) × ... 
-
-Using r = (GM)^{1/3}/Ω^{2/3} = (GM)^{1/3}/(π f_GW)^{2/3}:
-
-利用 r = (GM)^{1/3}/(π f_GW)^{2/3}：
-
-  E_orb = −(G μ M / 2) (π f_GW)^{2/3} / (GM)^{1/3} = −(μ/2)(G²M² π² f_GW²)^{1/3} ... 
-
-Using E_orb = −G μ M/(2r) with r = [(GM)/(π f_GW)²]^{1/3}:
-
-  E_orb = −(μ/2)(G M π f_GW)^{2/3}
+  E_orb = −(GμM/2)·(π f_GW)^{2/3}/(GM)^{1/3} = −(μ/2)(GM)^{2/3}(π f_GW)^{2/3} = −(μ/2)(GMπ f_GW)^{2/3}.
 
 **Step 4 — Frequency evolution.** From energy conservation: dE_orb/dt = −P. Differentiate E_orb with respect to f_GW:
 
@@ -326,93 +316,23 @@ So df/dt = −P / (dE_orb/df) = P × 3/[μ (GMπ)^{2/3} f_GW^{-1/3}]:
 
 故 df/dt = P × 3/[μ (GMπ)^{2/3} f_GW^{-1/3}]：
 
-  df/dt = (32G^{7/3} μ² M^{4/3} (π)^{10/3}) / (5c⁵) × f_GW^{10/3} × 3/[μ (GMπ)^{2/3} f_GW^{-1/3}]
+  df/dt = [(32G^{7/3} μ² M^{4/3} π^{10/3})/(5c⁵)] f_GW^{10/3} × 3/[μ (GM)^{2/3} π^{2/3} f_GW^{-1/3}].
 
-Collect powers: G^{7/3} μ M^{4/3} π^{10/3−2/3} f_GW^{10/3+1/3} × (3·32)/(5c⁵):
+Collect powers — the (GM)^{2/3} in the denominator reduces G^{7/3}M^{4/3} to G^{5/3}M^{2/3}:
 
-收集幂次：
+收集幂次——分母中的 (GM)^{2/3} 将 G^{7/3}M^{4/3} 降为 G^{5/3}M^{2/3}：
 
-  df/dt = (96/5c⁵) G^{7/3} μ M^{4/3} π^{8/3} f_GW^{11/3}
+  df/dt = (96/5c⁵) G^{5/3} μ M^{2/3} π^{8/3} f_GW^{11/3}
 
-**Step 5 — Introduce the chirp mass.** Define Mc = μ^{3/5} M^{2/5}. Then μ M^{4/3} = μ^{3/5}·μ^{2/5} M^{4/3}. Note (GMc)^{5/3} = G^{5/3} μ M^{4/3}... actually check: Mc^{5/3} = (μ^{3/5}M^{2/5})^{5/3} = μ M^{2/3}. So G^{5/3}Mc^{5/3} = G^{5/3} μ M^{2/3}. But we have G^{7/3} μ M^{4/3} = G^2 · (G^{1/3} μ^{1} M^{4/3}). And (GMc/c³)^{5/3} = G^{5/3}Mc^{5/3}/c^5 = G^{5/3} μ M^{2/3}/c^5. Hmm, G^{7/3} μ M^{4/3} = G^2 · G^{1/3} μ M^{4/3} and G^{5/3}μM^{2/3} = G^{5/3} μ M^{2/3}; the ratio is G^{2/3} M^{2/3}. So:
+**Step 5 — Introduce the chirp mass.** Define the **chirp mass** Mc = μ^{3/5} M^{2/5} = (m₁m₂)^{3/5}/(m₁+m₂)^{1/5}. Raising to the 5/3 power, Mc^{5/3} = (μ^{3/5}M^{2/5})^{5/3} = μ M^{2/3}, so the mass-and-G combination in the result above collapses to a single power of the chirp mass:
 
-**第 5 步 — 引入啁啾质量。** 定义 Mc = μ^{3/5} M^{2/5}。注意 (GMc)^{5/3} = G^{5/3} μ M^{2/3}。因此：
+**第 5 步 — 引入啁啾质量。** 定义**啁啾质量** Mc = μ^{3/5} M^{2/5} = (m₁m₂)^{3/5}/(m₁+m₂)^{1/5}。取 5/3 次幂，Mc^{5/3} = μ M^{2/3}，故上式中的质量与 G 组合化为啁啾质量的单一幂次：
 
-  G^{7/3} μ M^{4/3} = G^2 M · G^{1/3} μ M^{1/3}  ...
+  G^{5/3} μ M^{2/3} = G^{5/3} Mc^{5/3} = (G Mc)^{5/3}.
 
-Let us verify directly: (G Mc)^{5/3}/c^5 = G^{5/3} (μ^{3/5} M^{2/5})^{5/3}/c^5 = G^{5/3} μ M^{2/3}/c^5. And the right combination needed:
+Substituting into df/dt = (96/5c⁵) G^{5/3} μ M^{2/3} π^{8/3} f_GW^{11/3} and writing it with the dimensionless combination GMc/c³:
 
-直接验证：(GMc)^{5/3} = G^{5/3} μ M^{2/3}，而我们需要 G^{7/3} μ M^{4/3} = (GM)^{4/3}·(Gμ). Note that (GMc/c³)^{5/3} f^{11/3} appears. Let us factor: G^{7/3} μ M^{4/3} = (G^{5/3} μ M^{2/3}) · (G^{2/3} M^{2/3}) = (GMc)^{5/3} · (GM)^{2/3}/G ... This is getting algebraically messy; use the cleaner route:
-
-换用更简洁的路线：
-
-  G^{7/3} μ M^{4/3} = G^{5/3} (μ M^{2/3}) · G^{2/3}M^{2/3}/1... 
-
-The standard result follows by writing μM^{4/3} = M^{2/3} · μ M^{2/3} = (M/μ)^{-2/5} (μM)^{6/5} M^{1/15}... Instead, just note:
-
-标准结果由以下方式得出。注意：
-
-  μ M^{4/3} = μ^{3/5} · μ^{2/5} · M^{4/3}
-
-And Mc^{5/3} = μ M^{2/3}, so Mc^{5/3} M^{2/3} = μ M^{4/3}. Therefore:
-
-而 Mc^{5/3} = μ M^{2/3}，故 Mc^{5/3} M^{2/3} = μ M^{4/3}。
-
-Wait, let us just check: Mc = (m₁m₂)^{3/5}/(m₁+m₂)^{1/5} = μ^{3/5} M^{2/5}. Then Mc^{5/3} = μ^1 M^{2/3}. So μ M^{4/3} = Mc^{5/3} M^{2/3}. Then G^{7/3} μ M^{4/3} = G^{7/3} Mc^{5/3} M^{2/3}. And (G Mc)^{5/3} = G^{5/3} Mc^{5/3}. So G^{7/3} Mc^{5/3} M^{2/3} = (G Mc)^{5/3} G^{2/3} M^{2/3} = (G Mc)^{5/3} (GM)^{2/3}/G^{1/3}...
-
-Actually the correct identification is simpler. The standard expression in terms of Mc uses (GMc/c³) as the single combination:
-
-实际上正确的写法更简单。以 Mc 表达时使用组合 (GMc/c³)：
-
-  df/dt = (96π^{8/3}/5) (GMc/c³)^{5/3} f_GW^{11/3}
-
-This follows because G^{7/3} μ M^{4/3} π^{8/3} / c^5 = (π^{8/3}/c^5) · Mc^{5/3} · (GM)^{2/3} ... and after careful tracking:
-
-直接验证：取 (GMc/c³)^{5/3} = G^{5/3} Mc^{5/3}/c^5 = G^{5/3} μ M^{2/3}/c^5。而
-
-  (96/5) π^{8/3} (GMc/c³)^{5/3} f^{11/3} = (96/5c^5) π^{8/3} G^{5/3} μ M^{2/3} f^{11/3}
-
-Compare with our result (96/5c^5) G^{7/3} μ M^{4/3} π^{8/3} f^{11/3}. These match only if G^{5/3} M^{2/3} = G^{7/3} M^{4/3}, i.e. if GM = 1... which suggests we need to absorb factors of G·M into the chirp mass definition more carefully. The resolution is:
-
-比较两式，要使它们相等，需要 G^{5/3} M^{2/3} = G^{7/3} M^{4/3}，即 (GMc/c³)^{5/3} = G^{7/3} Mc^{5/3}/(c^5) = G^{7/3} μ M^{2/3}/c^5. So indeed (GMc)^{5/3} includes G to power 5/3. But we have G^{7/3} μ M^{4/3} in our expression.
-
-The key step: (GM)^{4/3} · Gμ = G^{7/3} μ M^{4/3}. And (GMc)^{5/3} = G^{5/3} μ M^{2/3}. So G^{7/3} μ M^{4/3} = (GMc)^{5/3} · (GM)^{2/3}. But also (GM)^{2/3} appears in the orbital energy denominator. The standard derivation absorbs this by noting Ω^{2/3} = (π f_GW)^{2/3}:
-
-关键步骤：G^{7/3} μ M^{4/3} = (GMc)^{5/3}·(GM)^{2/3}，而这里 (GM)^{2/3} 来自开普勒关系，正确吸收后：
-
-  P = (32/5c^5)(2π f_GW)^{10/3} G^{7/3} μ^2 M^{4/3} · (1/(2^{10/3}))...
-
-Let us restart this step cleanly using the standard textbook route. From Kepler r³ = GM/Ω², and P = (32G^4/5c^5) μ^2 M^3/r^5 (the Peters formula for circular orbits):
-
-用标准教材方式重新整理。由 r³ = GM/Ω²，以及彼得斯公式 P = (32G^4/5c^5) μ^2 M^3/r^5（圆形轨道）：
-
-  r = (GM)^{1/3} Ω^{-2/3},  r^5 = (GM)^{5/3} Ω^{-10/3}
-
-  P = (32G^4/5c^5) μ^2 M^3 Ω^{10/3}/(GM)^{5/3} = (32/5c^5) G^{7/3} μ^2 M^{4/3} Ω^{10/3}
-
-With Ω = 2π f_orb = π f_GW:
-
-  P = (32π^{10/3}/5c^5) G^{7/3} μ^2 M^{4/3} f_GW^{10/3}
-
-Energy: E = −Gm₁m₂/(2r) = −G μ M /(2r) = −(Gμ M/2)(GM)^{-1/3} Ω^{2/3} = −(μ/2)(GM)^{2/3} Ω^{2/3}. With Ω = π f_GW:
-
-能量：E = −(μ/2)(GM π f_GW)^{2/3}·... actually E = −(Gμ M)/(2r) = −(Gμ M)/2 · (Ω²/(GM))^{1/3} = −(μ/2)(G²M²Ω²)^{1/3} = −(μ/2)(G²M²π²f_GW²)^{1/3}.
-
-So dE/df = −(μ/2)(G²M²π²)^{1/3} · (2/3) f_GW^{-1/3} = −(μ/3)(G M π)^{2/3} G^{0} f_GW^{-1/3}
-
-wait: (G²M²π²)^{1/3} = G^{2/3}M^{2/3}π^{2/3}. So dE/df = −(μ/3) G^{2/3} M^{2/3} π^{2/3} f_GW^{-1/3}.
-
-Setting −P = dE/dt = (dE/df)(df/dt):
-
-令 −P = dE/dt = (dE/df)(df/dt)：
-
-  df/dt = P/(−dE/df) = [(32π^{10/3}/5c^5) G^{7/3} μ^2 M^{4/3} f^{10/3}] / [(μ/3) G^{2/3} M^{2/3} π^{2/3} f^{-1/3}]
-
-  df/dt = (96 π^{8/3}/5c^5) G^{5/3} μ M^{2/3} f^{11/3}
-
-Now G^{5/3} μ M^{2/3} = G^{5/3} (Mc^{5/3}/M^{2/3}) M^{2/3} = ... no: Mc^{5/3} = μ M^{2/3}, so G^{5/3} μ M^{2/3} = G^{5/3} Mc^{5/3} = (G Mc)^{5/3}. Therefore:
-
-现在 G^{5/3} μ M^{2/3} = G^{5/3} Mc^{5/3} = (GMc)^{5/3}（因为 Mc^{5/3} = μ M^{2/3}）。所以：
+代入 df/dt = (96/5c⁵) G^{5/3} μ M^{2/3} π^{8/3} f_GW^{11/3}，并以无量纲组合 GMc/c³ 表示：
 
   **df/dt = (96π^{8/3}/5) (GMc/c³)^{5/3} f_GW^{11/3}**   ∎
 

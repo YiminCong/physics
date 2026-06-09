@@ -1,8 +1,8 @@
 # Derivations — Module 7.8: Global Structure & Singularity Theorems
 # 推导 — 模块 7.8：整体结构与奇点定理
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 7.8](./module-7.8-global-structure-and-singularity-theorems.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 7.8](./module-7.8-global-structure-and-singularity-theorems.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -102,7 +102,7 @@ The singularity at r = 0 is genuine: as r → 0, the prefactor → ∞ (e^{−rc
 **第 5 步 — 四个区域。** 在克鲁斯卡尔坐标中：
 
 - Region I: X > |T|, i.e. U < 0 and V > 0, corresponds to r > r_s exterior.
-- Region II: T > |X|, i.e. U < 0 and V > 0... more precisely T > 0 and T > |X|: UV > 0 with T > 0, so V > 0 and U > 0, giving r < r_s (future interior).
+- Region II: T > |X|, i.e. U > 0 and V > 0 (T > X ⟹ U = T − X > 0; T > −X ⟹ V = T + X > 0), giving r < r_s (future interior).
 - Region III: T < −|X|: V < 0 and U < 0, also r < r_s (past interior = white hole).
 - Region IV: X < −|T|: U > 0 and V < 0 → UV < 0 → r > r_s (second exterior).
 

@@ -1,8 +1,8 @@
 # Derivations — Module 8.8: The Quark Model & Hadron Spectroscopy
 # 推导 — 模块 8.8：夸克模型与强子谱学
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 8.8](./module-8.8-quark-model-and-hadron-spectroscopy.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 8.8](./module-8.8-quark-model-and-hadron-spectroscopy.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -213,39 +213,32 @@ where a, b, c are representation-dependent constants (a is the SU(3)-symmetric m
 
 **第 3 步 — 应用于重子十重态。** 十重态成员及其 (I, Y) 量子数为：
 
-  Δ(1232):  I = 3/2, Y = +1  → M_Δ = a + b − (9/4 − 1/4)c = a + b − 2c
-                                                 Wait: I(I+1) = (3/2)(5/2) = 15/4, Y²/4 = 1/4
-                                                 M_Δ = a + b(1) + c(15/4 − 1/4) = a + b + 3c.
-  Σ*(1385): I = 1,   Y = 0   → I(I+1) = 2, Y²/4 = 0 → M_{Σ*} = a + 0 + 2c = a + 2c.
-  Ξ*(1530): I = 1/2, Y = −1  → I(I+1) = 3/4, Y²/4 = 1/4 → M_{Ξ*} = a − b + c(3/4 − 1/4) = a − b + c/2.
-  Ω⁻:      I = 0,   Y = −2  → I(I+1) = 0, Y²/4 = 1  → M_{Ω⁻} = a − 2b + c(0 − 1) = a − 2b − c.
+  Δ(1232):  I = 3/2, Y = +1  →  I(I+1) − Y²/4 = 15/4 − 1/4 = 7/2  →  M_Δ = a + b + (7/2)c,
+  Σ*(1385): I = 1,   Y = 0   →  I(I+1) − Y²/4 = 2 − 0     = 2    →  M_{Σ*} = a + 2c,
+  Ξ*(1530): I = 1/2, Y = −1  →  I(I+1) − Y²/4 = 3/4 − 1/4 = 1/2  →  M_{Ξ*} = a − b + (1/2)c,
+  Ω⁻(1672): I = 0,   Y = −2  →  I(I+1) − Y²/4 = 0 − 1     = −1   →  M_{Ω⁻} = a − 2b − c.
 
-**第 3 步（续）** 以正确形式整理：
+**Step 4 — Equal spacing rule for the decuplet.** The decuplet members obey a linear relation between isospin and hypercharge, I = 1 + Y/2 (check: Δ has Y=1, I=3/2; Σ* has Y=0, I=1; Ξ* has Y=−1, I=1/2; Ω⁻ has Y=−2, I=0). Substituting this relation makes the Casimir combination **linear in Y**:
 
-  M_Δ = a + b + 3c,
-  M_{Σ*} = a + 2c,
-  M_{Ξ*} = a − b + c/2,
-  M_{Ω⁻} = a − 2b − c.
+**第 4 步 — 十重态等间距规则。** 十重态成员满足同位旋与超荷的线性关系 I = 1 + Y/2（验证：Δ 有 Y=1, I=3/2；Σ* 有 Y=0, I=1；Ξ* 有 Y=−1, I=1/2；Ω⁻ 有 Y=−2, I=0）。代入此关系使卡西米尔组合**关于 Y 线性**：
 
-**Step 4 — Equal spacing rule for the decuplet.** The key observation is that for the decuplet, the formula simplifies dramatically. Notice the differences:
+  I(I+1) − Y²/4 = (1 + Y/2)(2 + Y/2) − Y²/4 = 2 + (3/2)Y + Y²/4 − Y²/4 = 2 + (3/2)Y.
 
-**第 4 步 — 十重态等间距规则。** 关键观察是，对于十重态，公式大幅简化。注意差值：
+Therefore the Gell-Mann–Okubo mass is manifestly linear in Y — **for any value of c**, no assumption c = 0 is needed:
 
-  M_{Σ*} − M_Δ = (a + 2c) − (a + b + 3c) = −b − c,
-  M_{Ξ*} − M_{Σ*} = (a − b + c/2) − (a + 2c) = −b − 3c/2,
-  M_{Ω⁻} − M_{Ξ*} = (a − 2b − c) − (a − b + c/2) = −b − 3c/2.
+因此盖尔曼–大久保质量显式地关于 Y 线性——**对任意 c 成立**，无需假设 c = 0：
 
-For these to be equal (equal spacing), we need: −b − c = −b − 3c/2, i.e. c = 0. With c = 0 (which holds for the decuplet because the decuplet has a unique SU(3) structure — the coefficient c of I(I+1) − Y²/4 vanishes for the fully symmetric decuplet by the Wigner-Eckart theorem applied to SU(3)), the formula reduces to:
+  M = a + bY + c[2 + (3/2)Y] = (a + 2c) + (b + (3/2)c)Y.
 
-为使这些差值相等（等间距），需要：−b − c = −b − 3c/2，即 c = 0。令 c = 0（对十重态成立，因为 Wigner-Eckart 定理应用于 SU(3) 时，全对称十重态中 I(I+1) − Y²/4 的系数 c 消失），公式化简为：
+Successive decuplet levels differ by ΔY = −1, so the mass spacing is **constant**:
 
-  M = a + bY,  i.e. mass is linear in Y alone.
+相邻十重态层次相差 ΔY = −1，故质量间距**恒定**：
 
-So the mass splitting between successive strangeness levels is constant:
+  M_{Σ*} − M_Δ = M_{Ξ*} − M_{Σ*} = M_{Ω⁻} − M_{Ξ*} = −(b + (3/2)c) ≡ Δm.
 
-故相邻奇异数层次间的质量差恒定：
+(Direct check: M_{Σ*} − M_Δ = (a+2c) − (a+b+7c/2) = −b − 3c/2, and the other two differences give the same −b − 3c/2.) The equal spacing is a consequence of the decuplet's linear I–Y geometry, **not** of c vanishing.
 
-  M_{Σ*} − M_Δ = M_{Ξ*} − M_{Σ*} = M_{Ω⁻} − M_{Ξ*} = −b ≡ Δm.
+（直接验证：M_{Σ*} − M_Δ = (a+2c) − (a+b+7c/2) = −b − 3c/2，另两个差值同样给出 −b − 3c/2。）等间距是十重态线性 I–Y 几何的结果，**并非**由于 c = 0。
 
 **Step 5 — Numerical prediction.** From the known masses (1964 values used by Gell-Mann):
 

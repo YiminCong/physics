@@ -1,8 +1,8 @@
 # Derivations — Module 8.4: Electroweak Theory & the Higgs
 # 推导 — 模块 8.4：电弱理论与希格斯机制
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 8.4](./module-8.4-electroweak-theory-and-higgs.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 8.4](./module-8.4-electroweak-theory-and-higgs.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -62,25 +62,18 @@ This is an orthogonal rotation in (W^3, B) space by angle θ_W (the Weinberg/wea
 
 **第 4 步 — 电荷条件。** 到电子的电磁耦合（电荷 −e）必须正确涌现。电子到 W^3_μ 和 B_μ 的耦合（来自协变导数，e_L 的 I^3 = −1/2，L 的 Y = −1/2）：
 
-  Coupling of e_L to W^3_μ: −g·(1/2)·(−1) = g/2 (from −gI^3W^3_μ, I^3 = −1/2 for e_L).
-  Coupling of e_L to B_μ: −g'·Y = −g'·(−1/2) = g'/2.
+  Coupling of e_L to W^3_μ: gI^3 = g·(−1/2) = −g/2   (from the covariant-derivative term gI^3 W^3_μ, with I^3 = −1/2 for e_L).
+  Coupling of e_L to B_μ: g'Y = g'·(−1/2) = −g'/2.
 
 In the rotated (A, Z) basis, the photon A_μ = W^3_μsinθ_W + B_μcosθ_W couples to e_L with:
 
 在旋转的 (A, Z) 基中，光子 A_μ = W^3_μsinθ_W + B_μcosθ_W 与 e_L 的耦合为：
 
-  e_L coupling to A_μ = (g/2)(−1)sinθ_W + (g'/2)cosθ_W.
-  
-  Wait — more carefully. The coupling of e_L to W^3_μ is gI^3 = g·(−1/2) and to B_μ is g'Y = g'·(−1/2). So:
+  e_L coupling to A_μ = (gI^3)sinθ_W + (g'Y)cosθ_W = −(g/2)sinθ_W − (g'/2)cosθ_W.
 
-  更仔细地说：e_L 到 W^3_μ 的耦合为 gI^3 = g·(−1/2)，到 B_μ 的耦合为 g'Y = g'·(−1/2)。故：
+Requiring the photon to couple to every field as eQ = e(I^3 + Y) (so that e_L, with Q = −1, has coupling −e), the I^3 and Y pieces must match *separately* (not just their sum for e_L):
 
-  e_L–photon coupling = [gI^3 sinθ_W + g'Y cosθ_W]
-                      = −(g sinθ_W)/2 − (g' cosθ_W)/2.
-
-Requiring the photon to couple to every field as −eQ = −e(I^3 + Y), the I^3 and Y pieces must match *separately* (not just their sum for e_L):
-
-要求光子对每个场的耦合为 −eQ = −e(I^3 + Y)，I^3 与 Y 两部分必须*分别*相等（而非仅对 e_L 的和相等）：
+要求光子对每个场的耦合为 eQ = e(I^3 + Y)（使得 Q = −1 的 e_L 耦合为 −e），I^3 与 Y 两部分必须*分别*相等（而非仅对 e_L 的和相等）：
 
   g sinθ_W = e   (coefficient of I^3),    g' cosθ_W = e   (coefficient of Y).
 
@@ -226,11 +219,9 @@ Magnitude squared:
 
 模的平方：
 
-  |D_μ⟨φ⟩|² = (gv)²/4 · W+_μW−^μ + (v²/8)(g²+g'²)(W^3_μ ... 
+Compute it term by term. The upper component squared:
 
-Wait. Let me compute more carefully term by term. The upper component squared:
-
-等一下。让我逐项更仔细地计算。上分量的平方：
+逐项计算。上分量的平方：
 
   |upper|² = (g²v²/4)|W+_μ|² = (g²v²/4)W+_μW−^μ.
 
@@ -244,11 +235,11 @@ The lower component squared:
 
 下分量的平方：
 
-  |lower|² = (v²/8)(g²+g'²) · (gW^3_μ−g'B_μ)²/(g²+g'²) ... 
+  |lower|² = (v²/8)(gW^3_μ − g'B_μ)².
 
-More precisely: |lower|² = (v²/8)(gW^3_μ − g'B_μ)² where the combination gW^3_μ − g'B_μ = √(g²+g'²) Z_μ (using the Weinberg rotation where Z_μ = (gW^3_μ − g'B_μ)/√(g²+g'²)).
+The combination gW^3_μ − g'B_μ = √(g²+g'²) Z_μ (the Weinberg rotation Z_μ = (gW^3_μ − g'B_μ)/√(g²+g'²)), so |lower|² = (v²/8)(g²+g'²) Z_μZ^μ.
 
-更精确地：|lower|² = (v²/8)(gW^3_μ − g'B_μ)²，其中组合 gW^3_μ − g'B_μ = √(g²+g'²) Z_μ（利用温伯格旋转，Z_μ = (gW^3_μ − g'B_μ)/√(g²+g'²)）。
+组合 gW^3_μ − g'B_μ = √(g²+g'²) Z_μ（温伯格旋转 Z_μ = (gW^3_μ − g'B_μ)/√(g²+g'²)），故 |lower|² = (v²/8)(g²+g'²) Z_μZ^μ。
 
   ℒ_mass ⊃ (v²/8)(g²+g'²)Z_μZ^μ = (1/2)m²_Z Z_μZ^μ  ⟹  **m_Z = v√(g²+g'²)/2**.
 
