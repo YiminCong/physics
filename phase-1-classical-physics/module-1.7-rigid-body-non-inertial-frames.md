@@ -1,3 +1,9 @@
+---
+title: "Module 1.7 — Rigid-Body Dynamics & Non-Inertial Frames"
+parent: "Phase 1 — Classical Physics"
+nav_order: 7
+---
+
 # Module 1.7 — Rigid-Body Dynamics & Non-Inertial Frames
 **模块 1.7 — 刚体动力学与非惯性系**
 

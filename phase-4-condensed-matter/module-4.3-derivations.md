@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 4.3: Lattice Vibrations & Phonons"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 4.3: Lattice Vibrations & Phonons
 # 推导 — 模块 4.3：晶格振动与声子
 

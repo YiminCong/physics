@@ -1,3 +1,9 @@
+---
+title: "Module 4.9 — Topological Matter & Berry Phase"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 9
+---
+
 # Module 4.9 — Topological Matter & Berry Phase
 **模块 4.9 — 拓扑物质与贝里相位**
 

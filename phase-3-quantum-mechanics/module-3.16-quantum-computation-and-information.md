@@ -1,3 +1,9 @@
+---
+title: "Module 3.16 — Quantum Computation & Information"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 16
+---
+
 # Module 3.16 — Quantum Computation & Information
 **模块 3.16 — 量子计算与量子信息**
 

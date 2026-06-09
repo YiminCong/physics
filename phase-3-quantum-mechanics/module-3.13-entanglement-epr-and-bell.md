@@ -1,3 +1,9 @@
+---
+title: "Module 3.13 — Entanglement, EPR & Bell's Theorem"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 13
+---
+
 # Module 3.13 — Entanglement, EPR & Bell's Theorem ⭐
 **模块 3.13 — 纠缠、EPR 与贝尔定理 ⭐**
 

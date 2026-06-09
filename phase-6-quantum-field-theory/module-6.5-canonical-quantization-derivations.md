@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.5: Canonical Quantization of Fields"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.5: Canonical Quantization of Fields
 # 推导 — 模块 6.5：场的正则量子化
 

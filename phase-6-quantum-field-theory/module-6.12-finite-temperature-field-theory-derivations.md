@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.12: Finite-Temperature Field Theory"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.12: Finite-Temperature Field Theory
 # 推导 — 模块 6.12：有限温度场论
 

@@ -1,3 +1,9 @@
+---
+title: "Module 3.2 — Time-Independent Schrödinger Equation"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 2
+---
+
 # Module 3.2 — Time-Independent Schrödinger Equation ⭐
 **模块 3.2 — 定态薛定谔方程 ⭐**
 

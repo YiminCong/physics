@@ -1,3 +1,9 @@
+---
+title: "Module 2.6 — Quantum Gases & Applications"
+parent: "Phase 2 — Thermodynamics & Statistical Mechanics"
+nav_order: 6
+---
+
 # Module 2.6 — Quantum Gases & Applications
 **模块 2.6 — 量子气体与应用**
 

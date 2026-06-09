@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 5.11: Topological Superconductivity & Majorana Modes"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 5.11: Topological Superconductivity & Majorana Modes
 # 推导 — 模块 5.11：拓扑超导与马约拉纳模
 

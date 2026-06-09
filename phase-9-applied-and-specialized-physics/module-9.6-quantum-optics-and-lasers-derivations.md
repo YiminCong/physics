@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 9.6: Quantum Optics & Laser Physics"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 9.6: Quantum Optics & Laser Physics
 # 推导 — 模块 9.6：量子光学与激光物理
 

@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 0.2: Linear Algebra"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 0.2: Linear Algebra
 # 推导 — 模块 0.2：线性代数
 

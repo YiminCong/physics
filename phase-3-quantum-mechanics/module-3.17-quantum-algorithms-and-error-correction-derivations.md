@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.17: Quantum Algorithms & Error Correction"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.17: Quantum Algorithms & Error Correction
 # 推导 — 模块 3.17：量子算法与量子纠错
 

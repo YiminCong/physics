@@ -1,3 +1,9 @@
+---
+title: "Module 3.9 — Fundamental Concepts (Graduate, Sakurai)"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 9
+---
+
 # Module 3.9 — Fundamental Concepts (Graduate, Sakurai)
 **模块 3.9 — 基本概念（研究生，樱井）**
 

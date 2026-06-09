@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.13: Entanglement, EPR & Bell's Theorem"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.13: Entanglement, EPR & Bell's Theorem
 # 推导 — 模块 3.13：纠缠、EPR 与贝尔定理
 

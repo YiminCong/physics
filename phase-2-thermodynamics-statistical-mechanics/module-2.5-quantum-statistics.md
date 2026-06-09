@@ -1,3 +1,9 @@
+---
+title: "Module 2.5 — Quantum Statistics"
+parent: "Phase 2 — Thermodynamics & Statistical Mechanics"
+nav_order: 5
+---
+
 # Module 2.5 — Quantum Statistics ⭐
 **模块 2.5 — 量子统计 ⭐**
 

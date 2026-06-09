@@ -1,3 +1,9 @@
+---
+title: "Module 4.10 — Landau Fermi-Liquid Theory"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 10
+---
+
 # Module 4.10 — Landau Fermi-Liquid Theory
 **模块 4.10 — 朗道费米液体理论**
 

@@ -1,3 +1,9 @@
+---
+title: "Module 1.6 — Small Oscillations & Coupled Oscillators"
+parent: "Phase 1 — Classical Physics"
+nav_order: 6
+---
+
 # Module 1.6 — Small Oscillations & Coupled Oscillators ⭐
 **模块 1.6 — 小振动与耦合振子 ⭐**
 

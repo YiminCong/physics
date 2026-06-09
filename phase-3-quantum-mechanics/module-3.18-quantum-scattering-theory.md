@@ -1,3 +1,9 @@
+---
+title: "Module 3.18 — Quantum Scattering Theory"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 18
+---
+
 # Module 3.18 — Quantum Scattering Theory
 **模块 3.18 — 量子散射理论**
 

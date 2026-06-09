@@ -1,3 +1,9 @@
+---
+title: "Module 1.18 — Continuum Mechanics & Elasticity"
+parent: "Phase 1 — Classical Physics"
+nav_order: 18
+---
+
 # Module 1.18 — Continuum Mechanics & Elasticity
 **模块 1.18 — 连续介质力学与弹性理论**
 

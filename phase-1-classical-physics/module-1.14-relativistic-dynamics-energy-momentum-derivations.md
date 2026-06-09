@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.14: Relativistic Dynamics & $E = mc^2$"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.14: Relativistic Dynamics & $E = mc^2$
 # 推导 — 模块 1.14：相对论动力学与 $E = mc^2$
 

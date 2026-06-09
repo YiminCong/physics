@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.4: Hamiltonian Mechanics & Noether's Theorem"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.4: Hamiltonian Mechanics & Noether's Theorem
 # 推导 — 模块 1.4：哈密顿力学与诺特定理
 

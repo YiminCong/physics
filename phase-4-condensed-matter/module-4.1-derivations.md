@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 4.1: Electrons and Heat in Solids"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 4.1: Electrons and Heat in Solids
 # 推导 — 模块 4.1：固体中的电子与热
 

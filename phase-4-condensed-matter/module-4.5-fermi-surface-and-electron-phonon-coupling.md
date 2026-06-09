@@ -1,3 +1,9 @@
+---
+title: "Module 4.5 — Fermi Surface & Electron–Phonon Coupling"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 5
+---
+
 # Module 4.5 — Fermi Surface & Electron–Phonon Coupling ⭐
 **模块 4.5 — 费米面与电子–声子耦合 ⭐**
 

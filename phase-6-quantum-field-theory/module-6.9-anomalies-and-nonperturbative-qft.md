@@ -1,3 +1,9 @@
+---
+title: "Module 6.9 — Anomalies & Non-Perturbative QFT"
+parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
+nav_order: 9
+---
+
 # Module 6.9 — Anomalies & Non-Perturbative QFT
 **模块 6.9 — 反常与非微扰量子场论**
 

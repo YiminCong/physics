@@ -1,3 +1,9 @@
+---
+title: "Module 7.6 — Cosmology"
+parent: "Phase 7 — General Relativity & Cosmology"
+nav_order: 6
+---
+
 # Module 7.6 — Cosmology
 **模块 7.6 — 宇宙学**
 

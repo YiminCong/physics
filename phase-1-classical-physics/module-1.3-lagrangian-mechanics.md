@@ -1,3 +1,9 @@
+---
+title: "Module 1.3 — Lagrangian Mechanics & the Variational Principle"
+parent: "Phase 1 — Classical Physics"
+nav_order: 3
+---
+
 # Module 1.3 — Lagrangian Mechanics & the Variational Principle ⭐
 **模块 1.3 — 拉格朗日力学与变分原理 ⭐**
 

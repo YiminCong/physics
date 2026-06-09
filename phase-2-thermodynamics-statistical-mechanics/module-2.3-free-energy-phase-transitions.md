@@ -1,3 +1,9 @@
+---
+title: "Module 2.3 — Free Energy & Phase Transitions"
+parent: "Phase 2 — Thermodynamics & Statistical Mechanics"
+nav_order: 3
+---
+
 # Module 2.3 — Free Energy & Phase Transitions ⭐
 **模块 2.3 — 自由能与相变 ⭐**
 

@@ -1,3 +1,9 @@
+---
+title: "Module 5.1 — Phenomenology"
+parent: "Phase 5 — Superconductivity (the destination)"
+nav_order: 1
+---
+
 # Module 5.1 — Phenomenology
 **模块 5.1 — 现象学**
 

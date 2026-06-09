@@ -1,3 +1,9 @@
+---
+title: "Module 1.10 — Electrodynamics & Maxwell's Equations"
+parent: "Phase 1 — Classical Physics"
+nav_order: 10
+---
+
 # Module 1.10 — Electrodynamics & Maxwell's Equations ⭐
 **模块 1.10 — 电动力学与麦克斯韦方程组 ⭐**
 

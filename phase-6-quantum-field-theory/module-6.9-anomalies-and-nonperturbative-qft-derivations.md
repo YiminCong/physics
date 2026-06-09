@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.9: Anomalies & Non-Perturbative QFT"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.9: Anomalies & Non-Perturbative QFT
 # 推导 — 模块 6.9：反常与非微扰量子场论
 

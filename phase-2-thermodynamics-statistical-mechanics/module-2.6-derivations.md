@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 2.6: Quantum Gases & Applications"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 2.6: Quantum Gases & Applications
 # 推导 — 模块 2.6：量子气体与应用
 

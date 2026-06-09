@@ -1,3 +1,9 @@
+---
+title: "Module 2.4 — Classical Statistical Mechanics"
+parent: "Phase 2 — Thermodynamics & Statistical Mechanics"
+nav_order: 4
+---
+
 # Module 2.4 — Classical Statistical Mechanics
 **模块 2.4 — 经典统计力学**
 

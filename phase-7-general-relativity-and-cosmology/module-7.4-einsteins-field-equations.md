@@ -1,3 +1,9 @@
+---
+title: "Module 7.4 — Einstein's Field Equations"
+parent: "Phase 7 — General Relativity & Cosmology"
+nav_order: 4
+---
+
 # Module 7.4 — Einstein's Field Equations ⭐⭐
 **模块 7.4 — 爱因斯坦场方程 ⭐⭐**
 

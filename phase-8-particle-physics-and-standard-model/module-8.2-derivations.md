@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 8.2: Quantum Electrodynamics (QED)"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 8.2: Quantum Electrodynamics (QED)
 # 推导 — 模块 8.2：量子电动力学
 

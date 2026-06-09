@@ -1,3 +1,9 @@
+---
+title: "Phase 0 — Mathematical Foundations"
+nav_order: 1
+has_children: true
+---
+
 # Phase 0 — Mathematical Foundations
 **第 0 阶段 — 数学基础**
 

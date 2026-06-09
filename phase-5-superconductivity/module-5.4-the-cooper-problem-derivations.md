@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 5.4: The Cooper Problem"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 5.4: The Cooper Problem
 # 推导 — 模块 5.4：库珀问题
 

@@ -1,3 +1,9 @@
+---
+title: "Module 3.6 — Time-Independent Perturbation Theory"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 6
+---
+
 # Module 3.6 — Time-Independent Perturbation Theory
 **模块 3.6 — 定态微扰理论**
 

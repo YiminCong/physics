@@ -1,3 +1,9 @@
+---
+title: "Module 10.1 — String Theory & Superstrings"
+parent: "Phase 10 — Strings & Quantum Gravity"
+nav_order: 1
+---
+
 # Module 10.1 — String Theory & Superstrings
 **模块 10.1 — 弦论与超弦**
 

@@ -1,3 +1,9 @@
+---
+title: "Module 1.4 — Hamiltonian Mechanics, Action & Noether's Theorem"
+parent: "Phase 1 — Classical Physics"
+nav_order: 4
+---
+
 # Module 1.4 — Hamiltonian Mechanics, Action & Noether's Theorem ⭐
 **模块 1.4 — 哈密顿力学、作用量与诺特定理 ⭐**
 

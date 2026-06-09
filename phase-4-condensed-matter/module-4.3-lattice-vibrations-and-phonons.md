@@ -1,3 +1,9 @@
+---
+title: "Module 4.3 — Lattice Vibrations & Phonons"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 3
+---
+
 # Module 4.3 — Lattice Vibrations & Phonons ⭐
 **模块 4.3 — 晶格振动与声子 ⭐**
 

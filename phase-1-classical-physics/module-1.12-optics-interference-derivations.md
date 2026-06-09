@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.12: Optics & Interference"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.12: Optics & Interference
 # 推导 — 模块 1.12：光学与干涉
 

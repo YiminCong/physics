@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.22: Retarded Potentials, Multipole Radiation & Radiation Reaction"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.22: Retarded Potentials, Multipole Radiation & Radiation Reaction
 # 推导 — 模块 1.22：推迟势、多极辐射与辐射阻尼
 

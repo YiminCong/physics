@@ -1,3 +1,9 @@
+---
+title: "Module 6.10 — Spontaneous Symmetry Breaking & Goldstone's Theorem"
+parent: "Phase 6 — Quantum Field Theory & Many-Body Physics"
+nav_order: 10
+---
+
 # Module 6.10 — Spontaneous Symmetry Breaking & Goldstone's Theorem
 **模块 6.10 — 自发对称性破缺与戈德斯通定理**
 

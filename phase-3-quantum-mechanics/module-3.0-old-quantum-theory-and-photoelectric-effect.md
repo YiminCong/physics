@@ -1,3 +1,9 @@
+---
+title: "Module 3.0 — Old Quantum Theory & the Photoelectric Effect"
+parent: "Phase 3 — Quantum Mechanics (the core)"
+nav_order: 0
+---
+
 # Module 3.0 — Old Quantum Theory & the Photoelectric Effect
 **模块 3.0 — 旧量子论与光电效应**
 

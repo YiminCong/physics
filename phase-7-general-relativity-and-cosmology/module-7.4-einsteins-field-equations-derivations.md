@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 7.4: Einstein's Field Equations"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 7.4: Einstein's Field Equations
 # 推导 — 模块 7.4：爱因斯坦场方程
 

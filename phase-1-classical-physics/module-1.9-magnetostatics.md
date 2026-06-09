@@ -1,3 +1,9 @@
+---
+title: "Module 1.9 — Magnetostatics"
+parent: "Phase 1 — Classical Physics"
+nav_order: 9
+---
+
 # Module 1.9 — Magnetostatics
 **模块 1.9 — 静磁学**
 

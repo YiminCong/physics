@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 4.5: Fermi Surface & Electron–Phonon Coupling"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 4.5: Fermi Surface & Electron–Phonon Coupling
 # 推导 — 模块 4.5：费米面与电子–声子耦合
 

@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 6.11: Effective Field Theory & the Wilsonian Renormalization Group"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 6.11: Effective Field Theory & the Wilsonian Renormalization Group
 # 推导 — 模块 6.11：有效场论与威尔逊重整化群
 

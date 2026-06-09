@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 9.7: Atoms in External Fields & Precision Spectroscopy"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 9.7: Atoms in External Fields & Precision Spectroscopy
 # 推导 — 模块 9.7：外场中的原子与精密光谱学
 

@@ -1,3 +1,9 @@
+---
+title: "Module 4.2 — Crystal Structure & Reciprocal Space"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 2
+---
+
 # Module 4.2 — Crystal Structure & Reciprocal Space ⭐
 **模块 4.2 — 晶体结构与倒格子空间 ⭐**
 

@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 7.7: Tests of GR & Gravitational-Wave Astronomy"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 7.7: Tests of GR & Gravitational-Wave Astronomy
 # 推导 — 模块 7.7：广义相对论的检验与引力波天文学
 

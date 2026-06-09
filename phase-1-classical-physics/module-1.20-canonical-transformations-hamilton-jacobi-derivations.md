@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 1.20: Canonical Transformations, Hamilton–Jacobi & Action–Angle"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 1.20: Canonical Transformations, Hamilton–Jacobi & Action–Angle
 # 推导 — 模块 1.20：正则变换、哈密顿–雅可比与作用量–角变量
 

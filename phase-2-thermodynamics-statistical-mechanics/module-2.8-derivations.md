@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 2.8: Brownian Motion & the Einstein Relation"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 2.8: Brownian Motion & the Einstein Relation
 # 推导 — 模块 2.8：布朗运动与爱因斯坦关系
 

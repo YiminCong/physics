@@ -1,3 +1,9 @@
+---
+title: "Module 0.1 — Calculus & Taylor Series"
+parent: "Phase 0 — Mathematical Foundations"
+nav_order: 1
+---
+
 # Module 0.1 — Calculus & Taylor Series
 **模块 0.1 — 微积分与泰勒级数**
 

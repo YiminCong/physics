@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.3: Formalism"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.3: Formalism
 # 推导 — 模块 3.3：形式化框架
 

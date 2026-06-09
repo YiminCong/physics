@@ -1,3 +1,9 @@
+---
+title: "Module 9.6 — Quantum Optics & Laser Physics"
+parent: "Phase 9 — Applied & Specialized Physics"
+nav_order: 6
+---
+
 # Module 9.6 — Quantum Optics & Laser Physics
 **模块 9.6 — 量子光学与激光物理**
 

@@ -1,3 +1,9 @@
+---
+title: "Module 4.7 — Semiconductor Physics"
+parent: "Phase 4 — Condensed Matter / Solid State"
+nav_order: 7
+---
+
 # Module 4.7 — Semiconductor Physics
 **模块 4.7 — 半导体物理**
 

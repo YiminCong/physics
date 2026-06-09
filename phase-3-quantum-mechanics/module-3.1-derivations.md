@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.1: The Wave Function"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.1: The Wave Function
 # 推导 — 模块 3.1：波函数
 

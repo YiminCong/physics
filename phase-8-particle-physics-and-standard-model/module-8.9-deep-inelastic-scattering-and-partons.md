@@ -1,3 +1,9 @@
+---
+title: "Module 8.9 — Deep Inelastic Scattering & Partons"
+parent: "Phase 8 — Particle Physics & the Standard Model"
+nav_order: 9
+---
+
 # Module 8.9 — Deep Inelastic Scattering & Partons
 **模块 8.9 — 深度非弹性散射与部分子**
 

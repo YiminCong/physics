@@ -1,3 +1,9 @@
+---
+title: "Derivations — Module 3.6: Time-Independent Perturbation Theory"
+nav_exclude: true
+search_exclude: false
+---
+
 # Derivations — Module 3.6: Time-Independent Perturbation Theory
 # 推导 — 模块 3.6：定态微扰理论
 
