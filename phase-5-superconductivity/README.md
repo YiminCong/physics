@@ -28,29 +28,29 @@ second quantization and singlet pairing (3.11–3.12), and the complex phase (0.
 ## Phase 5 Checkpoint (blank page)
 
 1. Explain why the Meissner effect is more than perfect conductivity; state the isotope effect and what it implies.
-2. Derive B(x) = B₀e^{−x/λ_L} from the London equation.
-3. Write the GL free energy, minimize it for |ψ|², define ξ, λ, κ, and the type-I/II boundary; explain why Φ₀ = h/2e.
+2. Derive $B(x) = B_0 e^{-x/\lambda_L}$ from the London equation.
+3. Write the GL free energy, minimize it for $|\psi|^2$, define $\xi$, $\lambda$, $\kappa$, and the type-I/II boundary; explain why $\Phi_0 = h/2e$.
 4. Set up the Cooper problem and explain why the binding is non-perturbative.
 5. Write the BCS Hamiltonian in second quantization, identify the pair operator, and state the gap equation and the 3.5 ratio.
 6. Sketch the superconducting DOS and the tunneling I–V.
 7. Describe the vortex (mixed) state and why flux pinning enables high currents.
 8. State the DC and AC Josephson relations and how a SQUID works.
-9. Explain why high-T_c cuprates resist a simple BCS (phonon, s-wave) description.
-10. Write down the BdG Hamiltonian in Nambu space, state the self-consistency condition on Δ(r), and explain Andreev reflection and retro-reflection at a clean N–S interface.
+9. Explain why high-$T_c$ cuprates resist a simple BCS (phonon, s-wave) description.
+10. Write down the BdG Hamiltonian in Nambu space, state the self-consistency condition on $\Delta(r)$, and explain Andreev reflection and retro-reflection at a clean N–S interface.
 11. Define a Majorana fermion operator; state the topological criterion for the Kitaev chain; and explain why non-Abelian braiding enables fault-tolerant quantum computation.
 
 **自测（空白页）**
 
 1. 解释为何迈斯纳效应不仅仅是完美导电性；陈述同位素效应及其含义。
-2. 从伦敦方程推导 B(x) = B₀e^{−x/λ_L}。
-3. 写出金兹堡–朗道自由能，对 |ψ|² 求极小值，定义 ξ、λ、κ 以及 I 型/II 型分界；解释为何 Φ₀ = h/2e。
+2. 从伦敦方程推导 $B(x) = B_0 e^{-x/\lambda_L}$。
+3. 写出金兹堡–朗道自由能，对 $|\psi|^2$ 求极小值，定义 $\xi$、$\lambda$、$\kappa$ 以及 I 型/II 型分界；解释为何 $\Phi_0 = h/2e$。
 4. 建立库珀问题，并解释为何配对能量是非微扰的。
 5. 用二次量子化写出 BCS 哈密顿量，指出对算符，陈述能隙方程和 3.5 比值。
 6. 画出超导态态密度和隧穿 I–V 曲线的示意图。
 7. 描述涡旋（混合）态，以及为何磁通钉扎能使高电流成为可能。
 8. 陈述直流和交流约瑟夫森关系，以及 SQUID 的工作原理。
 9. 解释为何高温铜氧化物超导体难以用简单的 BCS（声子、s 波）描述。
-10. 写出 Nambu 空间中的 BdG 哈密顿量，陈述 Δ(r) 的自洽条件，并解释洁净 N–S 界面处的安德烈夫反射与逆反射。
+10. 写出 Nambu 空间中的 BdG 哈密顿量，陈述 $\Delta(r)$ 的自洽条件，并解释洁净 N–S 界面处的安德烈夫反射与逆反射。
 11. 定义马约拉纳费米子算符；陈述基塔耶夫链的拓扑判据；并解释为何非阿贝尔编织能够实现容错量子计算。
 
 When these are automatic, continue to the optional

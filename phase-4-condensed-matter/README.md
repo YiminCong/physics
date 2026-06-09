@@ -27,27 +27,27 @@ order, semiconductor devices, and topological states of matter. Almost everythin
 
 ## Phase 4 Checkpoint (blank page)
 
-1. Explain why the electronic heat capacity is linear in T and small; write C = γT + βT³ and say what each term probes.
+1. Explain why the electronic heat capacity is linear in $T$ and small; write $C = \gamma T + \beta T^3$ and say what each term probes.
 2. Construct the reciprocal lattice and first Brillouin zone for a simple lattice; state the Bragg condition.
 3. Derive the monatomic-chain phonon dispersion; distinguish acoustic vs optical branches; explain the isotope effect.
-4. State Bloch's theorem; show how a gap opens at the zone boundary; give the tight-binding band E(k) = E₀ − 2t cos(ka); classify metal/insulator/semiconductor by band filling.
-5. Define the Fermi surface and g(E_F); explain the phonon-mediated electron–electron attraction and why only electrons near E_F matter.
-6. State the Curie law and derive it from a spin partition function; write the Heisenberg model H = −J Σ S_i·S_j and give mean-field T_c = zJS(S+1)/(3k_B); state the Bloch T^{3/2} law for magnons and explain why it is T^{3/2}.
-7. Define effective mass m* = ℏ²/(d²E/dk²) and holes; write n_i ∝ T^{3/2} exp(−E_g/2k_BT) for intrinsic carriers; describe the p–n junction built-in voltage and the Shockley diode equation.
-8. Derive the Landau level spectrum E_n = ℏω_c(n+½) and give the degeneracy eB/h per unit area; state the IQHE result σ_xy = νe²/h and explain it via chiral edge states; describe the Laughlin state and its fractional charge e/m.
-9. Define the Berry connection A(k) = i⟨u|∇_k|u⟩ and Chern number C = (1/2π)∫Ω d²k; explain why C is an integer; give the SSH winding number and explain why |t₂| > |t₁| leads to protected zero-energy edge states.
+4. State Bloch's theorem; show how a gap opens at the zone boundary; give the tight-binding band $E(k) = E_0 - 2t \cos(ka)$; classify metal/insulator/semiconductor by band filling.
+5. Define the Fermi surface and $g(E_F)$; explain the phonon-mediated electron–electron attraction and why only electrons near $E_F$ matter.
+6. State the Curie law and derive it from a spin partition function; write the Heisenberg model $H = -J \sum \mathbf{S}_i\cdot\mathbf{S}_j$ and give mean-field $T_c = zJS(S+1)/(3k_B)$; state the Bloch $T^{3/2}$ law for magnons and explain why it is $T^{3/2}$.
+7. Define effective mass $m^* = \hbar^2/(d^2E/dk^2)$ and holes; write $n_i \propto T^{3/2} \exp(-E_g/2k_BT)$ for intrinsic carriers; describe the p–n junction built-in voltage and the Shockley diode equation.
+8. Derive the Landau level spectrum $E_n = \hbar\omega_c(n+\tfrac12)$ and give the degeneracy $eB/h$ per unit area; state the IQHE result $\sigma_{xy} = \nu e^2/h$ and explain it via chiral edge states; describe the Laughlin state and its fractional charge $e/m$.
+9. Define the Berry connection $\mathbf{A}(\mathbf{k}) = i\langle u|\nabla_{\mathbf{k}}|u\rangle$ and Chern number $C = (1/2\pi)\int\Omega\,d^2k$; explain why $C$ is an integer; give the SSH winding number and explain why $|t_2| > |t_1|$ leads to protected zero-energy edge states.
 
 **自测（空白页）**
 
-1. 解释为何电子热容对温度 T 呈线性关系且数值较小；写出 C = γT + βT³ 并说明每项探测的物理量。
+1. 解释为何电子热容对温度 $T$ 呈线性关系且数值较小；写出 $C = \gamma T + \beta T^3$ 并说明每项探测的物理量。
 2. 为简单格子构造倒格子和第一布里渊区；陈述布拉格条件。
 3. 推导单原子链的声子色散关系；区分声学支与光学支；解释同位素效应。
-4. 陈述布洛赫定理；说明能隙如何在区边界打开；给出紧束缚能带 E(k) = E₀ − 2t cos(ka)；按能带填充对金属/绝缘体/半导体分类。
-5. 定义费米面和 g(E_F)；解释声子媒介的电子–电子吸引以及为何只有费米面附近的电子才起作用。
-6. 陈述居里定律并由自旋配分函数推导；写出海森堡模型 H = −J Σ S_i·S_j 并给出平均场 T_c = zJS(S+1)/(3k_B)；陈述磁振子的布洛赫 T^{3/2} 定律并解释为何是 T^{3/2}。
-7. 定义有效质量 m* = ℏ²/(d²E/dk²) 与空穴；写出本征载流子浓度 n_i ∝ T^{3/2} exp(−E_g/2k_BT)；描述 p–n 结内建电压与肖克利二极管方程。
-8. 推导朗道能级谱 E_n = ℏω_c(n+½) 并给出每单位面积简并度 eB/h；陈述 IQHE 结果 σ_xy = νe²/h 并用手征边缘态解释；描述劳夫林态及其分数电荷 e/m。
-9. 定义贝里联络 A(k) = i⟨u|∇_k|u⟩ 和陈数 C = (1/2π)∫Ω d²k；解释 C 为何是整数；给出 SSH 缠绕数，并解释为何 |t₂| > |t₁| 导致受保护的零能边缘态。
+4. 陈述布洛赫定理；说明能隙如何在区边界打开；给出紧束缚能带 $E(k) = E_0 - 2t \cos(ka)$；按能带填充对金属/绝缘体/半导体分类。
+5. 定义费米面和 $g(E_F)$；解释声子媒介的电子–电子吸引以及为何只有费米面附近的电子才起作用。
+6. 陈述居里定律并由自旋配分函数推导；写出海森堡模型 $H = -J \sum \mathbf{S}_i\cdot\mathbf{S}_j$ 并给出平均场 $T_c = zJS(S+1)/(3k_B)$；陈述磁振子的布洛赫 $T^{3/2}$ 定律并解释为何是 $T^{3/2}$。
+7. 定义有效质量 $m^* = \hbar^2/(d^2E/dk^2)$ 与空穴；写出本征载流子浓度 $n_i \propto T^{3/2} \exp(-E_g/2k_BT)$；描述 p–n 结内建电压与肖克利二极管方程。
+8. 推导朗道能级谱 $E_n = \hbar\omega_c(n+\tfrac12)$ 并给出每单位面积简并度 $eB/h$；陈述 IQHE 结果 $\sigma_{xy} = \nu e^2/h$ 并用手征边缘态解释；描述劳夫林态及其分数电荷 $e/m$。
+9. 定义贝里联络 $\mathbf{A}(\mathbf{k}) = i\langle u|\nabla_{\mathbf{k}}|u\rangle$ 和陈数 $C = (1/2\pi)\int\Omega\,d^2k$；解释 $C$ 为何是整数；给出 SSH 缠绕数，并解释为何 $|t_2| > |t_1|$ 导致受保护的零能边缘态。
 
 When the Fermi-surface picture and the electron–phonon attraction feel solid, you're ready
 for **[Phase 5 — Superconductivity](../phase-5-superconductivity/)**, where all of this

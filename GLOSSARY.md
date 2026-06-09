@@ -25,41 +25,41 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Derivative | 导数 | The instantaneous rate of change of a function; the slope of its tangent. |
 | Integral | 积分 | The signed area under a curve; the limit of Riemann sums. |
 | Fundamental Theorem of Calculus | 微积分基本定理 | States that differentiation and integration are inverse operations. |
-| Taylor series | 泰勒级数 | Expansion of a smooth function as a power series in (x − a). |
-| Gaussian integral | 高斯积分 | The integral of exp(−x²), equal to √π; central to wave packets and probability. |
-| Small-angle approximation | 小角近似 | Replacing sin θ ≈ θ and cos θ ≈ 1 − θ²/2 for small θ. |
+| Taylor series | 泰勒级数 | Expansion of a smooth function as a power series in $(x - a)$. |
+| Gaussian integral | 高斯积分 | The integral of $\exp(-x^2)$, equal to $\sqrt{\pi}$; central to wave packets and probability. |
+| Small-angle approximation | 小角近似 | Replacing $\sin\theta \approx \theta$ and $\cos\theta \approx 1 - \theta^2/2$ for small $\theta$. |
 | Linearization | 线性化 | Keeping only first-order terms to make a problem tractable. |
 | Vector space | 向量空间 | A set closed under addition and scalar multiplication. |
 | Inner product | 内积 | A bilinear/sesquilinear product giving lengths and angles. |
 | Basis | 基 | A minimal set of vectors spanning a space. |
-| Eigenvalue / eigenvector | 本征值 / 本征向量 | A scalar λ and vector v with A v = λ v. |
+| Eigenvalue / eigenvector | 本征值 / 本征向量 | A scalar $\lambda$ and vector $v$ with $A v = \lambda v$. |
 | Hermitian operator | 厄米算符 | A self-adjoint operator with real eigenvalues; represents observables. |
 | Unitary operator | 幺正算符 | A norm-preserving operator; represents reversible evolution. |
 | Diagonalization | 对角化 | Re-expressing an operator in its eigenbasis. |
 | Spectral theorem | 谱定理 | Hermitian operators have a complete orthonormal eigenbasis. |
-| Pauli matrices | 泡利矩阵 | The three 2×2 Hermitian matrices generating spin-½. |
+| Pauli matrices | 泡利矩阵 | The three $2\times 2$ Hermitian matrices generating spin-$\tfrac12$. |
 | Ordinary differential equation (ODE) | 常微分方程 | An equation relating a function of one variable to its derivatives. |
 | Partial differential equation (PDE) | 偏微分方程 | A differential equation in several variables. |
 | Separation of variables | 分离变量法 | Solving a PDE by assuming a product solution. |
 | Characteristic equation | 特征方程 | The algebraic equation fixing exponents of a linear ODE. |
 | Special functions | 特殊函数 | Hermite, Legendre, Laguerre, Bessel polynomials/functions from physics ODEs. |
-| Complex number | 复数 | A number z = a + bi with i² = −1. |
-| Complex conjugate | 复共轭 | z* = a − bi; reflects z across the real axis. |
-| Modulus | 模 | The magnitude of a complex number, √(a² + b²). |
-| Euler's formula | 欧拉公式 | exp(iθ) = cos θ + i sin θ. |
+| Complex number | 复数 | A number $z = a + bi$ with $i^2 = -1$. |
+| Complex conjugate | 复共轭 | $z^* = a - bi$; reflects $z$ across the real axis. |
+| Modulus | 模 | The magnitude of a complex number, $\sqrt{a^2 + b^2}$. |
+| Euler's formula | 欧拉公式 | $\exp(i\theta) = \cos\theta + i\sin\theta$. |
 | Analytic (holomorphic) function | 解析（全纯）函数 | A complex-differentiable function. |
 | Cauchy–Riemann equations | 柯西–黎曼方程 | The conditions for a complex function to be analytic. |
-| Residue theorem | 留数定理 | A contour integral equals 2πi times the sum of enclosed residues. |
+| Residue theorem | 留数定理 | A contour integral equals $2\pi i$ times the sum of enclosed residues. |
 | Contour integration | 围道积分 | Integration along a path in the complex plane. |
 | Fourier series | 傅里叶级数 | Expansion of a periodic function in sines and cosines. |
 | Fourier transform | 傅里叶变换 | Decomposition of a function into frequency components. |
-| Dirac delta function | 狄拉克 δ 函数 | A unit-area spike used as an idealized point source. |
+| Dirac delta function | 狄拉克 $\delta$ 函数 | A unit-area spike used as an idealized point source. |
 | Convolution | 卷积 | An integral blending two functions; multiplication in Fourier space. |
 | Probability distribution | 概率分布 | Assignment of probabilities to outcomes. |
 | Mean / variance | 均值 / 方差 | The average value and the spread of a distribution. |
 | Central limit theorem | 中心极限定理 | Sums of many independent variables tend to a Gaussian. |
 | Gradient / divergence / curl | 梯度 / 散度 / 旋度 | The three first-order vector differential operators. |
-| Laplacian | 拉普拉斯算子 | The divergence of the gradient, ∇². |
+| Laplacian | 拉普拉斯算子 | The divergence of the gradient, $\nabla^2$. |
 | Divergence theorem | 散度定理 | Relates a volume integral of divergence to a surface flux. |
 | Stokes' theorem | 斯托克斯定理 | Relates a surface integral of curl to a boundary line integral. |
 | Tensor | 张量 | A multilinear object generalizing scalars, vectors, and matrices. |
@@ -67,7 +67,7 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Metric tensor | 度规张量 | The object defining distances and inner products on a space. |
 | Group | 群 | A set with an associative product, identity, and inverses. |
 | Representation | 表示 | A realization of a group by matrices acting on a vector space. |
-| Lie algebra | 李代数 | The algebra of generators with [T_a,T_b]=if_{abc}T_c. |
+| Lie algebra | 李代数 | The algebra of generators with $[T_a, T_b] = i f_{abc} T_c$. |
 | Casimir operator | 卡西米尔算符 | An operator commuting with all generators; labels irreps. |
 
 ---
@@ -81,12 +81,12 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Conservation law | 守恒律 | A quantity constant in time (energy, momentum, charge). |
 | Work–energy theorem | 功能定理 | Net work equals the change in kinetic energy. |
 | Momentum / angular momentum | 动量 / 角动量 | Conserved quantities tied to translation and rotation. |
-| Lagrangian | 拉格朗日量 | L = T − V, the function whose action is extremized. |
-| Action | 作用量 | The time integral of the Lagrangian, S = ∫ L dt. |
+| Lagrangian | 拉格朗日量 | $L = T - V$, the function whose action is extremized. |
+| Action | 作用量 | The time integral of the Lagrangian, $S = \int L\, dt$. |
 | Principle of least action | 最小作用量原理 | Physical paths extremize the action. |
 | Euler–Lagrange equations | 欧拉–拉格朗日方程 | The equations of motion from extremizing the action. |
 | Generalized coordinates | 广义坐标 | Independent variables describing a system's configuration. |
-| Hamiltonian | 哈密顿量 | H(q, p), usually total energy; generates time evolution. |
+| Hamiltonian | 哈密顿量 | $H(q, p)$, usually total energy; generates time evolution. |
 | Hamilton's equations | 哈密顿方程 | First-order equations of motion in phase space. |
 | Phase space | 相空间 | The space of positions and momenta. |
 | Poisson bracket | 泊松括号 | A bracket on phase space; classical analog of the commutator. |
@@ -103,10 +103,10 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Coriolis force | 科里奥利力 | A fictitious force in a rotating frame. |
 | Coulomb's law | 库仑定律 | The inverse-square force between charges. |
 | Electric field | 电场 | Force per unit charge. |
-| Gauss's law | 高斯定律 | Electric flux through a surface equals enclosed charge over ε₀. |
+| Gauss's law | 高斯定律 | Electric flux through a surface equals enclosed charge over $\varepsilon_0$. |
 | Electric potential | 电势 | Potential energy per unit charge. |
-| Poisson's equation | 泊松方程 | ∇²φ = −ρ/ε₀ for the potential of a charge density. |
-| Laplace's equation | 拉普拉斯方程 | ∇²φ = 0 in charge-free regions. |
+| Poisson's equation | 泊松方程 | $\nabla^2\phi = -\rho/\varepsilon_0$ for the potential of a charge density. |
+| Laplace's equation | 拉普拉斯方程 | $\nabla^2\phi = 0$ in charge-free regions. |
 | Biot–Savart law | 毕奥–萨伐尔定律 | The magnetic field of a current element. |
 | Ampère's law | 安培定律 | Relates circulating magnetic field to enclosed current. |
 | Vector potential | 矢势 | The field A whose curl is the magnetic field. |
@@ -129,8 +129,8 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Four-momentum | 四动量 | The 4-vector of energy and momentum. |
 | Proper time | 固有时 | Time measured by a co-moving clock. |
 | Rest mass | 静止质量 | The Lorentz-invariant mass of a particle. |
-| Mass–energy equivalence | 质能等价 | E = mc²; mass is a form of energy. |
-| Field tensor (Fμν) | 场张量 | The antisymmetric tensor packaging E and B. |
+| Mass–energy equivalence | 质能等价 | $E = mc^2$; mass is a form of energy. |
+| Field tensor ($F_{\mu\nu}$) | 场张量 | The antisymmetric tensor packaging E and B. |
 | Four-potential | 四势 | The 4-vector combining scalar and vector potentials. |
 | Mechanical wave | 机械波 | A disturbance propagating through a medium. |
 | Wave equation | 波动方程 | The PDE governing wave propagation. |
@@ -169,9 +169,9 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Entropy | 熵 | A measure of disorder / the number of microstates. |
 | Internal energy | 内能 | The total energy of a thermodynamic system. |
 | Carnot cycle | 卡诺循环 | The ideal reversible cycle of maximum efficiency. |
-| Enthalpy | 焓 | H = U + PV, the heat content at constant pressure. |
-| Helmholtz free energy | 亥姆霍兹自由能 | F = U − TS, minimized at fixed temperature and volume. |
-| Gibbs free energy | 吉布斯自由能 | G = U − TS + PV, minimized at fixed temperature and pressure. |
+| Enthalpy | 焓 | $H = U + PV$, the heat content at constant pressure. |
+| Helmholtz free energy | 亥姆霍兹自由能 | $F = U - TS$, minimized at fixed temperature and volume. |
+| Gibbs free energy | 吉布斯自由能 | $G = U - TS + PV$, minimized at fixed temperature and pressure. |
 | Maxwell relations | 麦克斯韦关系 | Identities among thermodynamic derivatives. |
 | Free energy minimization | 自由能极小化 | The principle fixing equilibrium at constant T. |
 | Phase transition | 相变 | A qualitative change of state (melting, condensation). |
@@ -180,8 +180,8 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Microstate / macrostate | 微观态 / 宏观态 | A detailed configuration vs. a coarse-grained state. |
 | Ensemble | 系综 | A statistical collection: microcanonical, canonical, grand canonical. |
 | Partition function | 配分函数 | The sum over states Z that encodes thermodynamics. |
-| Boltzmann factor | 玻尔兹曼因子 | The weight exp(−E/k_BT) of a state at temperature T. |
-| Equipartition theorem | 能均分定理 | Each quadratic degree of freedom carries ½k_BT. |
+| Boltzmann factor | 玻尔兹曼因子 | The weight $\exp(-E/k_B T)$ of a state at temperature $T$. |
+| Equipartition theorem | 能均分定理 | Each quadratic degree of freedom carries $\tfrac12 k_B T$. |
 | Fermi–Dirac distribution | 费米–狄拉克分布 | The occupation of fermion states. |
 | Bose–Einstein distribution | 玻色–爱因斯坦分布 | The occupation of boson states. |
 | Chemical potential | 化学势 | The energy to add one particle at fixed entropy. |
@@ -189,15 +189,15 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Black-body radiation | 黑体辐射 | Thermal EM radiation described by Planck's law. |
 | Planck distribution | 普朗克分布 | The spectral distribution of black-body photons. |
 | Bose–Einstein condensation | 玻色–爱因斯坦凝聚 | Macroscopic occupation of the ground state by bosons. |
-| Debye model | 德拜模型 | Phonon model giving the T³ low-temperature heat capacity. |
+| Debye model | 德拜模型 | Phonon model giving the $T^3$ low-temperature heat capacity. |
 | Maxwell–Boltzmann distribution | 麦克斯韦–玻尔兹曼分布 | The classical distribution of molecular speeds. |
 | Mean free path | 平均自由程 | The average distance between molecular collisions. |
 | Boltzmann transport equation | 玻尔兹曼输运方程 | The evolution equation for a non-equilibrium distribution. |
 | Relaxation time | 弛豫时间 | The timescale for a system to return to equilibrium. |
 | Transport coefficients | 输运系数 | Conductivity, viscosity, diffusivity relating flux to gradient. |
-| Drude conductivity | 德鲁德电导 | σ = ne²τ/m for electrons in a metal. |
+| Drude conductivity | 德鲁德电导 | $\sigma = ne^2\tau/m$ for electrons in a metal. |
 | Brownian motion | 布朗运动 | Random jittering of a microscopic particle from molecular collisions. |
-| Einstein relation | 爱因斯坦关系 | D = μ k_B T, linking diffusion to mobility and temperature. |
+| Einstein relation | 爱因斯坦关系 | $D = \mu k_B T$, linking diffusion to mobility and temperature. |
 | Fluctuation–dissipation theorem | 涨落–耗散定理 | Relates random fluctuations of a system to its dissipative response. |
 
 ---
@@ -206,27 +206,27 @@ A bilingual reference of the key terminology used across the curriculum — **En
 
 | Term | 中文 | Definition |
 |------|------|------------|
-| Wave function | 波函数 | The complex ψ encoding a quantum state. |
-| Born rule | 玻恩定则 | The squared magnitude of ψ gives probability density. |
+| Wave function | 波函数 | The complex $\psi$ encoding a quantum state. |
+| Born rule | 玻恩定则 | The squared magnitude of $\psi$ gives probability density. |
 | Schrödinger equation | 薛定谔方程 | The evolution equation of a quantum state. |
 | Operator | 算符 | A linear map representing an observable or transformation. |
 | Expectation value | 期望值 | The mean of an observable in a given state. |
 | Uncertainty principle | 不确定性原理 | A bound limiting joint precision of conjugate observables. |
 | Stationary state | 定态 | An energy eigenstate with time-independent probabilities. |
-| Time-independent Schrödinger equation | 定态薛定谔方程 | The energy eigenvalue equation Ĥψ = Eψ. |
+| Time-independent Schrödinger equation | 定态薛定谔方程 | The energy eigenvalue equation $\hat{H}\psi = E\psi$. |
 | Infinite square well | 无限深势阱 | A particle confined to a box; the simplest quantized system. |
 | Harmonic oscillator | 谐振子 | The quadratic-potential system with evenly spaced levels. |
 | Ladder operators | 升降算符 | Raising/lowering operators that step between levels. |
-| Zero-point energy | 零点能 | The irreducible ground-state energy ½ℏω. |
+| Zero-point energy | 零点能 | The irreducible ground-state energy $\tfrac12 \hbar\omega$. |
 | Tunneling | 隧穿 | Quantum penetration through a classically forbidden barrier. |
 | Hilbert space | 希尔伯特空间 | The complex vector space of quantum states. |
-| Dirac notation (bra–ket) | 狄拉克符号 | The bra ⟨ ⟩ and ket notation for states. |
-| Commutator | 对易子 | The difference AB − BA; measures incompatibility. |
+| Dirac notation (bra–ket) | 狄拉克符号 | The bra $\langle\,\rangle$ and ket notation for states. |
+| Commutator | 对易子 | The difference $AB - BA$; measures incompatibility. |
 | Compatible observables | 相容可观测量 | Observables that commute and are simultaneously measurable. |
 | Spherical harmonics | 球谐函数 | Angular eigenfunctions of angular momentum. |
 | Angular momentum | 角动量 | The rotational quantum observable with quantized spectrum. |
 | Hydrogen atom | 氢原子 | The exactly solvable Coulomb bound-state problem. |
-| Quantum numbers | 量子数 | The integers labeling quantum states (n, ℓ, m). |
+| Quantum numbers | 量子数 | The integers labeling quantum states $(n, \ell, m)$. |
 | Spin | 自旋 | Intrinsic angular momentum of a particle. |
 | Identical particles | 全同粒子 | Indistinguishable particles with symmetry constraints. |
 | Boson / fermion | 玻色子 / 费米子 | Particles with symmetric / antisymmetric wave functions. |
@@ -240,10 +240,10 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Fermi's golden rule | 费米黄金规则 | The transition rate into a continuum of final states. |
 | Cross section | 截面 | An effective area quantifying scattering probability. |
 | Born approximation | 玻恩近似 | First-order scattering amplitude as a Fourier transform of the potential. |
-| Time-evolution operator | 时间演化算符 | The unitary operator exp(−iĤt/ℏ). |
+| Time-evolution operator | 时间演化算符 | The unitary operator $\exp(-i\hat{H}t/\hbar)$. |
 | Schrödinger / Heisenberg picture | 薛定谔 / 海森堡绘景 | States evolve vs. operators evolve. |
 | Propagator | 传播子 | The amplitude to go from one point to another. |
-| Path integral | 路径积分 | A sum over histories weighted by exp(iS/ℏ). |
+| Path integral | 路径积分 | A sum over histories weighted by $\exp(iS/\hbar)$. |
 | Clebsch–Gordan coefficients | 克莱布希–戈尔丹系数 | Coefficients for adding angular momenta. |
 | Singlet / triplet | 单态 / 三重态 | Total-spin-0 and total-spin-1 two-particle states. |
 | Parity | 宇称 | Behavior under spatial inversion. |
@@ -253,26 +253,26 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Anticommutator | 反对易子 | The sum AB + BA; defines fermion algebra. |
 | Occupation number | 占据数 | The number of particles in a given mode. |
 | Fock space | 福克空间 | The state space of variable particle number. |
-| Photoelectric effect | 光电效应 | Ejection of electrons by light when hν exceeds the work function. |
+| Photoelectric effect | 光电效应 | Ejection of electrons by light when $h\nu$ exceeds the work function. |
 | Wave–particle duality | 波粒二象性 | Quantum objects show both wave and particle behaviour. |
-| de Broglie wavelength | 德布罗意波长 | The matter wavelength λ = h/p. |
+| de Broglie wavelength | 德布罗意波长 | The matter wavelength $\lambda = h/p$. |
 | Bohr model | 玻尔模型 | Early quantized-orbit model of the hydrogen atom. |
 | Compton effect | 康普顿效应 | X-ray wavelength shift on scattering off electrons; shows photon momentum. |
 | Entanglement | 量子纠缠 | A joint state that cannot be factorized into independent parts. |
 | EPR paradox | EPR 佯谬 | The Einstein–Podolsky–Rosen argument questioning QM's completeness. |
 | Bell's theorem | 贝尔定理 | Local hidden-variable theories obey an inequality that QM violates. |
-| Density matrix | 密度矩阵 | The operator ρ describing a pure or mixed quantum state. |
-| Mixed state | 混合态 | A statistical ensemble of pure states (Tr ρ² < 1). |
-| Von Neumann entropy | 冯·诺依曼熵 | S = −Tr(ρ ln ρ); the entanglement entropy of a subsystem. |
+| Density matrix | 密度矩阵 | The operator $\rho$ describing a pure or mixed quantum state. |
+| Mixed state | 混合态 | A statistical ensemble of pure states ($\text{Tr}\, \rho^2 < 1$). |
+| Von Neumann entropy | 冯·诺依曼熵 | $S = -\text{Tr}(\rho \ln \rho)$; the entanglement entropy of a subsystem. |
 | Lindblad equation | 林德布拉德方程 | The master equation for a Markovian open quantum system. |
 | Decoherence | 退相干 | Environment-induced decay of quantum coherences. |
 | Klein–Gordon equation | 克莱因–戈尔登方程 | The relativistic wave equation for a spin-0 field. |
-| Dirac equation | 狄拉克方程 | The relativistic equation for spin-½; predicts antimatter. |
+| Dirac equation | 狄拉克方程 | The relativistic equation for spin-$\tfrac12$; predicts antimatter. |
 | Antiparticle | 反粒子 | The charge-conjugate partner predicted by the Dirac equation. |
 | Qubit | 量子比特 | A two-level quantum system; the unit of quantum information. |
 | No-cloning theorem | 不可克隆定理 | An unknown quantum state cannot be copied. |
 | Quantum teleportation | 量子隐形传态 | Transfer of a state using entanglement + 2 classical bits. |
-| Grover's algorithm | 格罗弗算法 | Quantum search in O(√N) instead of O(N). |
+| Grover's algorithm | 格罗弗算法 | Quantum search in $O(\sqrt{N})$ instead of $O(N)$. |
 | Shor's algorithm | 秀尔算法 | Quantum factoring in polynomial time via period finding. |
 | Quantum error correction | 量子纠错 | Encoding logical qubits to protect against decoherence. |
 
@@ -290,29 +290,29 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Basis | 基元 | The atoms attached to each lattice point. |
 | Reciprocal lattice | 倒格子 | The Fourier transform of the real-space lattice. |
 | Brillouin zone | 布里渊区 | The primitive cell of the reciprocal lattice. |
-| Bragg condition | 布拉格条件 | The diffraction condition 2d sin θ = nλ. |
-| Crystal momentum | 晶体动量 | The conserved ℏk label of a Bloch state. |
+| Bragg condition | 布拉格条件 | The diffraction condition $2d \sin\theta = n\lambda$. |
+| Crystal momentum | 晶体动量 | The conserved $\hbar k$ label of a Bloch state. |
 | Phonon | 声子 | A quantum of lattice vibration. |
 | Acoustic / optical branch | 声学支 / 光学支 | Low- and high-frequency phonon dispersion branches. |
-| Dispersion relation | 色散关系 | The relation ω(k) between frequency and wavevector. |
+| Dispersion relation | 色散关系 | The relation $\omega(k)$ between frequency and wavevector. |
 | Electron–phonon interaction | 电子–声子相互作用 | Coupling of electrons to lattice vibrations. |
-| Isotope effect | 同位素效应 | T_c dependence on ion mass, evidence for phonon pairing. |
+| Isotope effect | 同位素效应 | $T_c$ dependence on ion mass, evidence for phonon pairing. |
 | Bloch's theorem | 布洛赫定理 | Eigenstates in a periodic potential are plane waves times a periodic function. |
 | Energy band | 能带 | A continuous range of allowed electron energies. |
 | Band gap | 能隙 | A forbidden energy range between bands. |
 | Nearly-free-electron model | 近自由电子模型 | Bands from a weak periodic perturbation of free electrons. |
 | Tight-binding model | 紧束缚模型 | Bands from overlapping localized atomic orbitals. |
 | Metal / insulator / semiconductor | 金属 / 绝缘体 / 半导体 | Classification by band filling and gap. |
-| Fermi surface | 费米面 | The surface in k-space dividing filled from empty states. |
+| Fermi surface | 费米面 | The surface in $k$-space dividing filled from empty states. |
 | Density of states | 态密度 | The number of states per unit energy. |
 | Exchange interaction | 交换相互作用 | The Coulomb+Pauli effect that aligns spins; source of magnetism. |
-| Heisenberg model | 海森堡模型 | H = −J Σ S_i·S_j, the canonical model of magnetism. |
-| Curie–Weiss law | 居里–外斯定律 | χ ∝ 1/(T−T_c), the mean-field susceptibility of a magnet. |
+| Heisenberg model | 海森堡模型 | $H = -J \sum S_i \cdot S_j$, the canonical model of magnetism. |
+| Curie–Weiss law | 居里–外斯定律 | $\chi \propto 1/(T - T_c)$, the mean-field susceptibility of a magnet. |
 | Magnon | 磁振子 | The quantized spin wave; elementary excitation of a magnet. |
-| Effective mass | 有效质量 | m* = ℏ²/(d²E/dk²), the band-curvature mass of a carrier. |
+| Effective mass | 有效质量 | $m^* = \hbar^2/(d^2E/dk^2)$, the band-curvature mass of a carrier. |
 | Hole | 空穴 | The positively charged absence of an electron in a band. |
-| Landau level | 朗道能级 | The quantized energy E_n = ℏω_c(n+½) of an electron in a magnetic field. |
-| Quantum Hall effect | 量子霍尔效应 | Quantized Hall conductance σ_xy = ν e²/h. |
+| Landau level | 朗道能级 | The quantized energy $E_n = \hbar\omega_c(n+\tfrac12)$ of an electron in a magnetic field. |
+| Quantum Hall effect | 量子霍尔效应 | Quantized Hall conductance $\sigma_{xy} = \nu e^2/h$. |
 | Berry phase | 贝里相位 | A geometric phase acquired under adiabatic transport. |
 | Chern number | 陈数 | The quantized integral of Berry curvature; a topological invariant. |
 | Topological insulator | 拓扑绝缘体 | A bulk insulator with protected conducting edge/surface states. |
@@ -323,24 +323,24 @@ A bilingual reference of the key terminology used across the curriculum — **En
 
 | Term | 中文 | Definition |
 |------|------|------------|
-| Critical temperature | 临界温度 | The temperature T_c below which superconductivity appears. |
+| Critical temperature | 临界温度 | The temperature $T_c$ below which superconductivity appears. |
 | Meissner effect | 迈斯纳效应 | Active expulsion of magnetic field from a superconductor. |
 | Perfect diamagnetism | 完全抗磁性 | Complete exclusion of magnetic flux. |
 | Critical field | 临界磁场 | The field that destroys superconductivity. |
 | London equations | 伦敦方程 | The electrodynamics relating supercurrent to fields. |
-| Penetration depth | 穿透深度 | The depth λ over which a field decays inside a superconductor. |
-| Coherence length | 相干长度 | The length ξ over which the order parameter varies. |
-| Order parameter | 序参量 | The complex ψ whose magnitude squared is the superfluid density. |
+| Penetration depth | 穿透深度 | The depth $\lambda$ over which a field decays inside a superconductor. |
+| Coherence length | 相干长度 | The length $\xi$ over which the order parameter varies. |
+| Order parameter | 序参量 | The complex $\psi$ whose magnitude squared is the superfluid density. |
 | Ginzburg–Landau theory | 金兹堡–朗道理论 | Macroscopic free-energy theory of superconductivity. |
-| GL parameter | 金兹堡–朗道参数 | The ratio κ = λ/ξ setting the type. |
+| GL parameter | 金兹堡–朗道参数 | The ratio $\kappa = \lambda/\xi$ setting the type. |
 | Type I / II superconductor | 第一类 / 第二类超导体 | Full flux expulsion vs. a mixed vortex state. |
-| Flux quantum | 磁通量子 | The quantized unit of magnetic flux, h/2e. |
+| Flux quantum | 磁通量子 | The quantized unit of magnetic flux, $h/2e$. |
 | Cooper pair | 库珀对 | A bound pair of electrons; the carrier of supercurrent. |
 | Cooper problem | 库珀问题 | The result that any weak attraction binds a pair at the Fermi surface. |
 | BCS theory | BCS 理论 | The microscopic theory of conventional superconductivity. |
-| Energy gap | 能隙 | The gap Δ in the excitation spectrum. |
+| Energy gap | 能隙 | The gap $\Delta$ in the excitation spectrum. |
 | Bogoliubov quasiparticle | 博戈留波夫准粒子 | The elementary excitation of the superconducting state. |
-| Gap equation | 能隙方程 | The self-consistency equation fixing Δ. |
+| Gap equation | 能隙方程 | The self-consistency equation fixing $\Delta$. |
 | Giaever tunneling | 贾埃弗隧穿 | Single-particle tunneling that maps the gap. |
 | Josephson effect | 约瑟夫森效应 | Coherent Cooper-pair tunneling across a junction. |
 | SQUID | 超导量子干涉仪 | A loop of two junctions; an ultra-sensitive magnetometer. |
@@ -353,7 +353,7 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Bogoliubov–de Gennes equations | 博戈留波夫–德热纳方程 | The real-space BCS equations for inhomogeneous superconductors. |
 | Andreev reflection | 安德列耶夫反射 | An electron retro-reflected as a hole at a normal–superconductor interface. |
 | Proximity effect | 邻近效应 | Induced superconducting pairing in a normal metal near a superconductor. |
-| Majorana fermion | 马约拉纳费米子 | A particle that is its own antiparticle (γ = γ†); a zero mode in topological SCs. |
+| Majorana fermion | 马约拉纳费米子 | A particle that is its own antiparticle ($\gamma = \gamma^\dagger$); a zero mode in topological SCs. |
 | Kitaev chain | 基塔耶夫链 | The 1D p-wave model hosting Majorana end modes. |
 
 ---
@@ -379,7 +379,7 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Functional integral | 泛函积分 | A path integral over field configurations. |
 | Effective action | 有效作用量 | The action including quantum corrections. |
 | Klein–Gordon field | 克莱因–戈尔登场 | The relativistic scalar field. |
-| Dirac field | 狄拉克场 | The relativistic spin-½ field; electrons and positrons. |
+| Dirac field | 狄拉克场 | The relativistic spin-$\tfrac12$ field; electrons and positrons. |
 | Antiparticle | 反粒子 | The charge-conjugate partner of a particle. |
 | Vacuum | 真空 | The ground state of a quantum field. |
 | Renormalization | 重整化 | Absorbing divergences into redefined parameters. |
@@ -390,15 +390,15 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Bethe ansatz | 贝特拟设 | An exact method for solving certain 1D quantum many-body models. |
 | Lee–Yang theorem | 李–杨定理 | Transitions occur where partition-function zeros approach the real axis. |
 | Off-diagonal long-range order (ODLRO) | 非对角长程序 | Yang's rigorous criterion for superfluid / superconducting order. |
-| Byers–Yang theorem | 拜尔斯–杨定理 | Gauge invariance forces flux quantization in units of h/2e. |
+| Byers–Yang theorem | 拜尔斯–杨定理 | Gauge invariance forces flux quantization in units of $h/2e$. |
 | S-matrix | S 矩阵 | The unitary operator mapping free in-states to free out-states. |
 | LSZ reduction | LSZ 约化 | Relates S-matrix elements to on-shell amputated Green's functions. |
-| Mandelstam variables | 曼德尔斯坦变量 | The invariants s, t, u of a 2→2 scattering process. |
+| Mandelstam variables | 曼德尔斯坦变量 | The invariants $s, t, u$ of a $2\to 2$ scattering process. |
 | Optical theorem | 光学定理 | Unitarity relating the forward amplitude to the total cross-section. |
 | Chiral anomaly | 手征反常 | A classical symmetry (axial current) broken by quantization. |
 | Instanton | 瞬子 | A finite-action solution describing tunnelling between vacua. |
 | Lattice gauge theory | 格点规范理论 | Non-perturbative QFT on a discretized spacetime. |
-| Strong CP problem | 强 CP 问题 | Why the QCD θ-term is unobservably small; solved by the axion. |
+| Strong CP problem | 强 CP 问题 | Why the QCD $\theta$-term is unobservably small; solved by the axion. |
 
 ---
 
@@ -416,12 +416,12 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Geodesic | 测地线 | The straightest possible path / extremal proper time. |
 | Gravitational redshift | 引力红移 | Light loses frequency climbing out of a gravity well. |
 | Stress–energy tensor | 能动张量 | The source of gravity: energy, momentum, and stress. |
-| Einstein field equations | 爱因斯坦场方程 | G = 8πG/c⁴ T, relating curvature to matter. |
+| Einstein field equations | 爱因斯坦场方程 | $G = 8\pi G/c^4\, T$, relating curvature to matter. |
 | Einstein–Hilbert action | 爱因斯坦–希尔伯特作用量 | The action whose variation gives the field equations. |
-| Cosmological constant | 宇宙学常数 | The term Λ driving accelerated expansion. |
+| Cosmological constant | 宇宙学常数 | The term $\Lambda$ driving accelerated expansion. |
 | Schwarzschild solution | 史瓦西解 | The spacetime around a spherical mass. |
 | Event horizon | 事件视界 | The boundary beyond which nothing escapes. |
-| Schwarzschild radius | 史瓦西半径 | The horizon radius 2GM/c². |
+| Schwarzschild radius | 史瓦西半径 | The horizon radius $2GM/c^2$. |
 | Black hole | 黑洞 | A region of spacetime bounded by an event horizon. |
 | Kerr black hole | 克尔黑洞 | A rotating black hole solution. |
 | Gravitational waves | 引力波 | Propagating ripples of spacetime curvature. |
@@ -434,7 +434,7 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Dark energy | 暗能量 | The component driving accelerated expansion. |
 | Perihelion precession | 近日点进动 | The GR advance of an orbit's perihelion (Mercury, 43″/century). |
 | Gravitational lensing | 引力透镜 | Bending of light by mass, forming multiple images / Einstein rings. |
-| Chirp mass | 啁啾质量 | The mass combination Mc setting a binary's gravitational-wave inspiral. |
+| Chirp mass | 啁啾质量 | The mass combination $\mathcal{M}_c$ setting a binary's gravitational-wave inspiral. |
 | Penrose diagram | 彭罗斯图 | A conformal diagram showing the causal structure of spacetime. |
 | Ergosphere | 能层 | The region outside a Kerr horizon where energy can be extracted. |
 | Raychaudhuri equation | 雷乔杜里方程 | The focusing equation for a geodesic congruence. |
@@ -452,15 +452,15 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Gauge field | 规范场 | The field introduced to maintain local symmetry. |
 | Yang–Mills theory | 杨–米尔斯理论 | Non-abelian gauge theory of the forces. |
 | Gauge boson | 规范玻色子 | A force-carrying particle (photon, gluon, W, Z). |
-| Quantum electrodynamics (QED) | 量子电动力学 | The U(1) gauge theory of electrons and photons. |
-| Fine-structure constant | 精细结构常数 | The dimensionless strength α ≈ 1/137 of electromagnetism. |
-| Quantum chromodynamics (QCD) | 量子色动力学 | The SU(3) gauge theory of quarks and gluons. |
+| Quantum electrodynamics (QED) | 量子电动力学 | The $U(1)$ gauge theory of electrons and photons. |
+| Fine-structure constant | 精细结构常数 | The dimensionless strength $\alpha \approx 1/137$ of electromagnetism. |
+| Quantum chromodynamics (QCD) | 量子色动力学 | The $SU(3)$ gauge theory of quarks and gluons. |
 | Color charge | 色荷 | The strong-force charge carried by quarks and gluons. |
 | Quark / gluon | 夸克 / 胶子 | The matter and force carriers of the strong interaction. |
 | Confinement | 夸克禁闭 | Quarks cannot be isolated; only color-singlets exist. |
 | Asymptotic freedom | 渐近自由 | The strong coupling weakens at short distances. |
 | Hadron (baryon / meson) | 强子（重子 / 介子） | Composite particles bound by the strong force. |
-| Electroweak theory | 电弱理论 | The unified SU(2)×U(1) theory of EM and the weak force. |
+| Electroweak theory | 电弱理论 | The unified $SU(2)\times U(1)$ theory of EM and the weak force. |
 | W and Z bosons | W 及 Z 玻色子 | The massive carriers of the weak interaction. |
 | Weinberg angle | 温伯格角 | The mixing angle of electroweak symmetry breaking. |
 | Spontaneous symmetry breaking | 自发对称性破缺 | A symmetric theory with an asymmetric ground state. |
@@ -478,16 +478,16 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | Parity | 宇称 | Symmetry under spatial inversion (mirror reflection). |
 | Parity violation | 宇称不守恒 | The weak interaction is not mirror-symmetric (Lee–Yang; Wu experiment). |
 | Chirality (handedness) | 手征性 | The weak force couples only to left-handed fermions. |
-| Quark model | 夸克模型 | Classifies hadrons as q q̄ (mesons) and qqq (baryons) bound states. |
-| Flavor SU(3) / eightfold way | 味 SU(3) / 八重法 | Approximate u,d,s symmetry organizing hadrons into multiplets. |
-| Isospin | 同位旋 | The approximate SU(2) symmetry between the u and d quarks. |
-| Deep inelastic scattering (DIS) | 深度非弹性散射 | High-Q² lepton–proton scattering probing quark/parton structure. |
-| Bjorken scaling | 比约肯标度 | Q²-independence of structure functions; sign of pointlike partons. |
-| Callan–Gross relation | 卡兰–格罗斯关系 | 2xF₁ = F₂, showing the charged partons are spin-½. |
-| Parton distribution function (PDF) | 部分子分布函数 | The probability density f(x) for a parton to carry momentum fraction x. |
+| Quark model | 夸克模型 | Classifies hadrons as $q\bar{q}$ (mesons) and $qqq$ (baryons) bound states. |
+| Flavor $SU(3)$ / eightfold way | 味 $SU(3)$ / 八重法 | Approximate $u, d, s$ symmetry organizing hadrons into multiplets. |
+| Isospin | 同位旋 | The approximate $SU(2)$ symmetry between the $u$ and $d$ quarks. |
+| Deep inelastic scattering (DIS) | 深度非弹性散射 | High-$Q^2$ lepton–proton scattering probing quark/parton structure. |
+| Bjorken scaling | 比约肯标度 | $Q^2$-independence of structure functions; sign of pointlike partons. |
+| Callan–Gross relation | 卡兰–格罗斯关系 | $2xF_1 = F_2$, showing the charged partons are spin-$\tfrac12$. |
+| Parton distribution function (PDF) | 部分子分布函数 | The probability density $f(x)$ for a parton to carry momentum fraction $x$. |
 | PMNS matrix | PMNS 矩阵 | The neutrino flavor-mixing matrix. |
 | MSW effect | MSW 效应 | Resonant neutrino flavor conversion in matter. |
-| Luminosity | 亮度 | The factor relating collider event rate to cross-section, N = L_int σ. |
+| Luminosity | 亮度 | The factor relating collider event rate to cross-section, $N = L_\text{int} \sigma$. |
 
 ---
 
@@ -500,12 +500,12 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | p–n junction | pn 结 | The semiconductor diode; a one-way valve for current. |
 | Hund's rules | 洪德规则 | Rules for the ground-state term of a multi-electron atom. |
 | LS coupling | LS 耦合 | Russell–Saunders coupling of orbital and spin angular momenta. |
-| Selection rules | 选择定则 | Constraints (e.g. Δℓ=±1) on allowed radiative transitions. |
+| Selection rules | 选择定则 | Constraints (e.g. $\Delta\ell = \pm 1$) on allowed radiative transitions. |
 | Semi-empirical mass formula | 半经验质量公式 | The Bethe–Weizsäcker formula for nuclear binding energy. |
 | Shell model | 壳层模型 | Nuclear model explaining the magic numbers. |
-| Gamow factor | 伽莫夫因子 | The tunnelling exponent governing α-decay rates. |
+| Gamow factor | 伽莫夫因子 | The tunnelling exponent governing $\alpha$-decay rates. |
 | Debye length | 德拜长度 | The screening length of a plasma. |
-| Plasma frequency | 等离子体频率 | The natural oscillation frequency of a plasma, √(ne²/ε₀m). |
+| Plasma frequency | 等离子体频率 | The natural oscillation frequency of a plasma, $\sqrt{ne^2/\varepsilon_0 m}$. |
 | Landau damping | 朗道阻尼 | Collisionless damping of plasma waves by resonant particles. |
 | Breit–Wigner resonance | 布莱特–维格纳共振 | The Lorentzian cross-section of a compound-nucleus resonance. |
 | Gamow peak | 伽莫夫峰 | The energy window where thermonuclear reactions occur in stars. |
@@ -523,7 +523,7 @@ A bilingual reference of the key terminology used across the curriculum — **En
 | D-brane | D 膜 | A surface on which open strings can end. |
 | M-theory | M 理论 | The conjectured 11D theory unifying the five superstring theories. |
 | Planck scale | 普朗克尺度 | The energy/length where quantum gravity becomes essential. |
-| Bekenstein–Hawking entropy | 贝肯斯坦–霍金熵 | Black-hole entropy S = k_B A/4ℓ_P², proportional to horizon area. |
+| Bekenstein–Hawking entropy | 贝肯斯坦–霍金熵 | Black-hole entropy $S = k_B A/4\ell_P^2$, proportional to horizon area. |
 | Hawking radiation | 霍金辐射 | Thermal radiation emitted by a black hole. |
 | Holographic principle | 全息原理 | A volume of space is encoded on its boundary. |
 | AdS/CFT correspondence | AdS/CFT 对偶 | A duality between gravity in AdS and a boundary gauge theory. |

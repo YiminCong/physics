@@ -50,7 +50,7 @@ records how the gaps were filled.
 
 ## Gaps filled to complete the roadmap · 为补全路线图新增的内容
 
-- **Module 0.7 — Group Theory & Lie Algebras** (advanced mathematics: groups, representations, Lie groups/algebras, SU(2)/SU(3) — the language of symmetry and gauge theory).
+- **Module 0.7 — Group Theory & Lie Algebras** (advanced mathematics: groups, representations, Lie groups/algebras, $SU(2)$/$SU(3)$ — the language of symmetry and gauge theory).
 - **Phase 9 — Applied & Specialized Physics**: 9.1 Electronics · 9.2 Atomic & Molecular Physics · 9.3 Nuclear Physics · 9.4 Plasma Physics.
 - **Phase 10 — Strings & Quantum Gravity**: 10.1 String Theory & Superstrings · 10.2 Approaches to Quantum Gravity.
 

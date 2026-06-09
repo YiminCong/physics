@@ -34,14 +34,14 @@ file. There are **120 modules** in total.
   (so re-verification can skip everything still marked ✅).
 - Keep the **[bilingual glossary (English ｜ 中文)](./GLOSSARY.md)** open as you read — it lists the key terminology of every phase with Chinese equivalents and short definitions.
 - See **[`ROADMAP-THOOFT.md`](./ROADMAP-THOOFT.md)** for how this curriculum maps onto Nobel laureate Gerard 't Hooft's *How to become a GOOD Theoretical Physicist*.
-- Read **[`THREAD-GAUGE-THEORY.md`](./THREAD-GAUGE-THEORY.md)** to follow the **gauge principle** as one storyline from Maxwell's U(1) through Yang–Mills to the Standard Model (with the BRST/Faddeev–Popov machinery).
+- Read **[`THREAD-GAUGE-THEORY.md`](./THREAD-GAUGE-THEORY.md)** to follow the **gauge principle** as one storyline from Maxwell's $U(1)$ through Yang–Mills to the Standard Model (with the BRST/Faddeev–Popov machinery).
 - **Re-derive the ⭐ results by hand** — that's where real understanding comes from.
 
 - **遵循下方的[推荐学习路径](#recommended-learning-path)**——它按依赖顺序串联起 9 个阶段。
 - 每个阶段目录都有一个 **README**，列出该阶段的模块、**预备知识**和一份**空白页检查点**（自测）。通过检查点后再继续。
 - 每个模块都以**上一个 / 下一个导航**结尾，便于将一个阶段连续读完。
 - 阅读时请打开**[双语术语表（英文 ｜ 中文）](./GLOSSARY.md)**——它列出每个阶段的关键术语及其中文对应词和简短定义。
-- 阅读**[`THREAD-GAUGE-THEORY.md`](./THREAD-GAUGE-THEORY.md)**，将**规范原理**作为一条故事线，从麦克斯韦的 U(1) 经杨–米尔斯到标准模型（含 BRST／法捷耶夫–波波夫机制）连贯地读完。
+- 阅读**[`THREAD-GAUGE-THEORY.md`](./THREAD-GAUGE-THEORY.md)**，将**规范原理**作为一条故事线，从麦克斯韦的 $U(1)$ 经杨–米尔斯到标准模型（含 BRST／法捷耶夫–波波夫机制）连贯地读完。
 - **亲手重新推导 ⭐ 结果**——真正的理解正源于此。
 
 ---
@@ -130,7 +130,7 @@ Mechanics, electromagnetism, waves & fluids, nonlinear dynamics, and special rel
 | 1.11 | [Electromagnetic Waves & Radiation](./phase-1-classical-physics/module-1.11-em-waves-radiation.md) | |
 | 1.12 | [Optics & Interference](./phase-1-classical-physics/module-1.12-optics-interference.md) | |
 | 1.13 | [Special Relativity — Kinematics](./phase-1-classical-physics/module-1.13-special-relativity-kinematics.md) | ⭐ |
-| 1.14 | [Relativistic Dynamics & E = mc²](./phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum.md) | ⭐ |
+| 1.14 | [Relativistic Dynamics & $E = mc^2$](./phase-1-classical-physics/module-1.14-relativistic-dynamics-energy-momentum.md) | ⭐ |
 | 1.15 | [Covariant Electromagnetism](./phase-1-classical-physics/module-1.15-covariant-electromagnetism.md) | |
 | 1.16 | [Mechanical Waves & Acoustics](./phase-1-classical-physics/module-1.16-mechanical-waves-acoustics.md) | |
 | 1.17 | [Fluid Mechanics](./phase-1-classical-physics/module-1.17-fluid-mechanics.md) | |
@@ -207,7 +207,7 @@ Where it all converges. Modules 5.1–5.9. · 一切汇聚之处。模块 5.1–
 | 5.6 | [Tunneling & the Gap](./phase-5-superconductivity/module-5.6-tunneling-and-the-gap.md) | |
 | 5.7 | [Type II Superconductors & Vortices](./phase-5-superconductivity/module-5.7-type-ii-superconductors-and-vortices.md) | ⭐ |
 | 5.8 | [Josephson Effects](./phase-5-superconductivity/module-5.8-josephson-effects.md) | ⭐ |
-| 5.9 | [Unconventional & High-Tᶜ Superconductors](./phase-5-superconductivity/module-5.9-unconventional-and-high-tc-superconductors.md) | |
+| 5.9 | [Unconventional & High-$T_c$ Superconductors](./phase-5-superconductivity/module-5.9-unconventional-and-high-tc-superconductors.md) | |
 | 5.10 | [Bogoliubov–de Gennes & Andreev Reflection](./phase-5-superconductivity/module-5.10-bogoliubov-de-gennes-and-andreev-reflection.md) | |
 | 5.11 | [Topological Superconductivity & Majorana](./phase-5-superconductivity/module-5.11-topological-superconductivity-and-majorana.md) | |
 
