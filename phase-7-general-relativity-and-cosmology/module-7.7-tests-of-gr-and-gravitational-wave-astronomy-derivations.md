@@ -123,28 +123,9 @@ where now τ is an affine parameter (not proper time). Define the impact paramet
 
   d²u₁/dφ² + u₁ = (3GM/c²)(sin φ/b)² = (3GM/c²b²)(1 − cos²φ)
 
-The particular solution is:
+To solve for the particular solution, write the right-hand side using sin²φ = (1 − cos 2φ)/2:
 
-特解为：
-
-  u₁ = (GM/c²b²)(1 + cos²φ + 2) ... 
-
-Let us work this carefully. The right-hand side is (3GM)/(c²b²) sin²φ = (3GM)/(c²b²) · (1/2)(1 − cos 2φ). Using undetermined coefficients, the particular solution to d²u₁/dφ² + u₁ = A(1 − cos 2φ) where A = 3GM/(2c²b²):
-
-精确计算如下。右侧为 (3GM)/(c²b²) sin²φ = (3GM)/(c²b²)·(1/2)(1 − cos 2φ)。令 A = 3GM/(2c²b²)，用待定系数法求 d²u₁/dφ² + u₁ = A(1 − cos 2φ) 的特解：
-
-  - Constant term A: particular solution u_p1 = A.
-  - Term −A cos 2φ: particular solution u_p2 = (A/3) cos 2φ  (since d²/dφ²(cos 2φ) = −4 cos 2φ, so (−4+1)(A/3)cos 2φ = −A cos 2φ gives A/3... actually: coefficient −A cos 2φ, try u = C cos 2φ: d²/dφ²(C cos 2φ) + C cos 2φ = (−4C + C) cos 2φ = −3C cos 2φ = −A cos 2φ, so C = A/3).
-
-So the total particular solution is u₁ = A + (A/3) cos 2φ = (GM)/(c²b²)(3/2 + (1/2)cos 2φ) ... Let us use a cleaner approach. Use the standard result: the particular solution to d²f/dφ² + f = (3GM/c²b²) sin²φ is:
-
-因此特解为 u₁ = A + (A/3) cos 2φ。用标准结果，d²f/dφ² + f = (3GM/c²b²) sin²φ 的特解为：
-
-  u₁ = (GM/c²b²)(1 + (1/2)(1 + cos 2φ) / (something)...)
-
-More directly: write sin²φ = (1 − cos 2φ)/2. Then:
-
-更直接地，写 sin²φ = (1 − cos 2φ)/2：
+将右侧用 sin²φ = (1 − cos 2φ)/2 改写以求特解：
 
   d²u₁/dφ² + u₁ = (3GM)/(2c²b²) − (3GM)/(2c²b²) cos 2φ
 
@@ -274,29 +255,17 @@ Computing the third time derivative and contracting (the algebra yields a factor
 
 **第 2 步 — 开普勒第三定律。** 圆形轨道：Ω² = GM/r³ → r = (GM)^{1/3}/Ω^{2/3}。代入 r = (GM/Ω²)^{1/3}：
 
-  P = (32G⁴/5c⁵) μ² M³ Ω^{10/3} / (GM)^{4/3} ... 
+  P = (32G/5c⁵) μ² r⁴ Ω⁶   (from Step 1).
 
-Let us keep it clean. With r⁴ = (GM)^{4/3}/Ω^{8/3}:
+With r = (GM)^{1/3} Ω^{−2/3}, we have r⁴ Ω⁶ = [(GM)^{1/3} Ω^{−2/3}]⁴ Ω⁶ = (GM)^{4/3} Ω^{−8/3} Ω⁶ = (GM)^{4/3} Ω^{10/3}, so
 
-保持整洁地写：r⁴ = (GM)^{4/3}/Ω^{8/3}，故：
+代入 r = (GM)^{1/3} Ω^{−2/3}，得 r⁴ Ω⁶ = (GM)^{4/3} Ω^{10/3}，故
 
-  P = (32G/5c⁵) μ² (GM)^{4/3} Ω^{6 − 8/3} = (32G⁴/5c⁵) μ² M^{4/3} · M^{-1/3}... 
+  P = (32G/5c⁵) μ² (GM)^{4/3} Ω^{10/3} = (32G^{7/3}/5c⁵) μ² M^{4/3} Ω^{10/3}.
 
-Actually: r⁴ Ω⁶ = [(GM)^{1/3} Ω^{-2/3}]⁴ Ω⁶ = (GM)^{4/3} Ω^{-8/3} Ω⁶ = (GM)^{4/3} Ω^{10/3}. So:
+Using Ω = π f_GW (since f_GW = 2 f_orb = Ω/π):
 
-实际上：r⁴ Ω⁶ = (GM)^{4/3} Ω^{10/3}，故：
-
-  P = (32G/5c⁵) μ² (GM)^{4/3} Ω^{10/3} = (32/5c⁵) G^{7/3} μ² M^{4/3} Ω^{10/3}
-
-Since f_GW = 2 f_orb = Ω/π:
-
-由于 f_GW = 2 f_orb = Ω/π：
-
-  P = (32/5)(2π)^{10/3} G^{7/3} μ² M^{4/3} f_GW^{10/3} / (2^{10/3} ... )
-
-More cleanly, using Ω = π f_GW:
-
-更简洁地，利用 Ω = π f_GW：
+利用 Ω = π f_GW（因 f_GW = 2 f_orb = Ω/π）：
 
   P = (32G^{7/3}/5c⁵) μ² M^{4/3} (π f_GW)^{10/3}
 

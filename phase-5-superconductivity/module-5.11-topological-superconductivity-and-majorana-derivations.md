@@ -1,8 +1,8 @@
 # Derivations — Module 5.11: Topological Superconductivity & Majorana Modes
 # 推导 — 模块 5.11：拓扑超导与马约拉纳模
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 5.11](./module-5.11-topological-superconductivity-and-majorana.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 5.11](./module-5.11-topological-superconductivity-and-majorana.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -32,9 +32,7 @@ These satisfy γ_{j,A}† = γ_{j,A}, γ_{j,B}† = γ_{j,B} (Hermitian), and th
 **第 2 步 — 改写每一项。** 计算 H = −μ Σ_j c_j†c_j − t Σ_j(c_j†c_{j+1} + c_{j+1}†c_j) + Δ Σ_j(c_j c_{j+1} + c_{j+1}†c_j†) 中的三类项：
 
 *On-site number operator:*
-  c_j†c_j = (γ_{j,A} − iγ_{j,B})(γ_{j,A} + iγ_{j,B})/4 = (1 + iγ_{j,A}γ_{j,B})/2 − 1/4 ... 
-
-More precisely: c_j†c_j = (1 − iγ_{j,B}γ_{j,A})/2. So:
+  c_j†c_j = (γ_{j,A} − iγ_{j,B})(γ_{j,A} + iγ_{j,B})/4 = (1 + iγ_{j,A}γ_{j,B})/2 = (1 − iγ_{j,B}γ_{j,A})/2. So:
   −μ c_j†c_j = −μ/2 + (iμ/2) γ_{j,B} γ_{j,A}.
 
 *格点占据数算符：*
@@ -51,20 +49,11 @@ Expanding and taking real part (the h.c. doubles the real terms and cancels the 
   c_j†c_{j+1} + h.c. = (i/2)(γ_{j,B}γ_{j+1,A} − γ_{j,A}γ_{j+1,B})。
 
 *Pairing term:*
-  c_j c_{j+1} + h.c. = [(γ_{j,A} + iγ_{j,B})(γ_{j+1,A} + iγ_{j+1,B})]/4 + h.c.
-  = (i/2)(γ_{j,A}γ_{j+1,B} − γ_{j,B}γ_{j+1,A}) × (−1) ... 
+  c_j c_{j+1} = (γ_{j,A} + iγ_{j,B})(γ_{j+1,A} + iγ_{j+1,B})/4
+              = (γ_{j,A}γ_{j+1,A} + iγ_{j,A}γ_{j+1,B} + iγ_{j,B}γ_{j+1,A} − γ_{j,B}γ_{j+1,B})/4.
 
-Working this out:
-  c_j c_{j+1} + h.c. = −(i/2)(γ_{j,A}γ_{j+1,B} + γ_{j,B}γ_{j+1,A})? 
-
-Let us be careful. c_j c_{j+1} = (γ_{j,A}+iγ_{j,B})(γ_{j+1,A}+iγ_{j+1,B})/4. Expand:
-  = (γ_{j,A}γ_{j+1,A} + iγ_{j,A}γ_{j+1,B} + iγ_{j,B}γ_{j+1,A} − γ_{j,B}γ_{j+1,B})/4.
-
-Adding h.c. = c_{j+1}†c_j† = (γ_{j+1,A}−iγ_{j+1,B})(γ_{j,A}−iγ_{j,B})/4:
-  c_j c_{j+1} + h.c. = (i/2)(γ_{j,A}γ_{j+1,B} + γ_{j,B}γ_{j+1,A})/2 ...
-
-After careful algebra (using γ_{α}γ_{β} = −γ_{β}γ_{α} for α≠β and γ² = 1):
-  c_j c_{j+1} + h.c. = (i/2)(γ_{j,B}γ_{j+1,A} + γ_{j,A}γ_{j+1,B}).
+Adding the h.c. c_{j+1}†c_j† = (γ_{j+1,A} − iγ_{j+1,B})(γ_{j,A} − iγ_{j,B})/4 and using γ_{j+1,α}γ_{j,β} = −γ_{j,β}γ_{j+1,α}, the γγ-symmetric (real) parts cancel and the imaginary parts double:
+  c_j c_{j+1} + h.c. = (i/2)(γ_{j,A}γ_{j+1,B} + γ_{j,B}γ_{j+1,A}).
 
 (Note: this has the same structure as the hopping term but with opposite relative sign between the two Majorana cross-products.)
 

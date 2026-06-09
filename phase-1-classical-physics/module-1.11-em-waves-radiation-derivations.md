@@ -1,8 +1,8 @@
 # Derivations — Module 1.11: Electromagnetic Waves & Radiation
 # 推导 — 模块 1.11：电磁波与辐射
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 1.11](./module-1.11-em-waves-radiation.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 1.11](./module-1.11-em-waves-radiation.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -196,9 +196,9 @@ where r̂ is the unit vector from the (retarded) position of the charge to the f
 
 **第 2 步 — 辐射磁场。** 由关系 B_rad = (r̂ × E_rad)/c：
 
-  B_rad = (q / 4πε₀ c³) · [r̂ × (r̂ × a)] × r̂ / r = (q / 4πε₀ c³) · [a − (a·r̂)r̂] × r̂ / r... 
+  B_rad = (r̂ × E_rad)/c,   so |B_rad| = |E_rad|/c   (E_rad, B_rad, and r̂ are mutually orthogonal).
 
-More directly, both fields have magnitude |E_rad| = (q a sin θ)/(4πε₀ c² r), where θ is the angle between a and r̂.
+Both fields have magnitude |E_rad| = (q a sin θ)/(4πε₀ c² r), where θ is the angle between a and r̂.
 
 更直接地，两个场的大小均为 |E_rad| = (q a sin θ)/(4πε₀ c² r)，其中 θ 是 a 与 r̂ 之间的夹角。
 

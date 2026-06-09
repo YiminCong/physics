@@ -171,11 +171,9 @@ This is an underestimate at low scale because threshold corrections and higher-l
 
 **第 2 步 — 色因子计算。** 对于夸克发射胶子并回到同一色态（截面中出现的色因子）：
 
-  Σ_a (T^a)_{ij}(T^a)_{ji} = [Σ_a T^aT^a]_{ii} = (C_F)_{ii} = C_F δ_{ii}/N_c... 
+This colour factor is the **quadratic Casimir** of the fundamental representation:
 
-More precisely, the **quadratic Casimir** in the fundamental representation:
-
-更精确地，基本表示中的**二次卡西米尔算符**：
+此色因子是基本表示的**二次卡西米尔算符**：
 
   Σ_{a=1}^{8} (T^a)_{ij}(T^a)_{jk} = C_F δ_{ik},
 

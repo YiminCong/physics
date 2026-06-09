@@ -318,7 +318,7 @@ where x₀ is the **instanton position** (4 moduli), ρ is the **instanton size*
 
 其中 x₀ 是**瞬子位置**（4 个模参数），ρ 是**瞬子大小**（1 个模参数），η^a_{μν} 是 **'t Hooft 符号**（μ,ν = 1,2,3 时 η^a_{μν} = ε_{aμν}；η^a_{4ν} = −δ_{aν}；关于 μ↔ν 反对称）。η 符号编码 SU(2) 生成元嵌入 4D 转动的方式；它满足
 
-  η^a_{μρ} η^b_{νρ}  =  δ^{ab} δ_{μν}  −  δ_{μν is 4}…  (see 't Hooft 1976 for the full identity).
+  η^a_{μρ} η^b_{νρ}  =  δ^{ab} δ_{μν} + ε^{abc} η^c_{μν},   with the full contraction η^a_{μν} η^a_{μν} = 12 (summed over a, μ, ν).
 
 The corresponding field strength is G^a_{μν} = G̃^a_{μν} (self-dual), with
 
@@ -330,31 +330,29 @@ The corresponding field strength is G^a_{μν} = G̃^a_{μν} (self-dual), with
 
 **第 4 步 — 计算瞬子作用量。** 将 G^a_{μν} 代入 S_E：
 
-  S_E  =  (1/2g²) ∫ d⁴x Tr[G_{μν}²]  =  (1/g²) ∫ d⁴x Σ_{a,μ,ν} (G^a_{μν})² / 2.
+  S_E  =  (1/2) ∫ d⁴x Tr[G_{μν} G_{μν}]  =  (1/4) ∫ d⁴x Σ_{a,μ,ν} (G^a_{μν})²,
 
-Using Tr[T^a T^b] = δ^{ab}/2 (generators of SU(2)) and η^a_{μν} η^a_{μν} = 12 (for fixed a, summed over μ,ν and then over a=1,2,3: Σ_{a,μ,ν} (η^a_{μν})² = 3 · 4 = 12 after accounting for antisymmetry), one obtains
+using Tr[T^a T^b] = δ^{ab}/2 (SU(2) generators). Note there is no explicit 1/g² prefactor here because the BPST field strength already carries it: G^a ∝ 1/g. With G^a_{μν} = (4ρ²/g) η^a_{μν}/[(x−x₀)²+ρ²]² and the 't Hooft-symbol sum Σ_{a,μ,ν}(η^a_{μν})² = 12:
 
-利用 Tr[T^a T^b] = δ^{ab}/2（SU(2) 生成元）和 η^a_{μν} η^a_{μν} = 12（对固定 a 及 μ,ν 求和，然后对 a=1,2,3 求和：Σ_{a,μ,ν} (η^a_{μν})² = 12，计入反对称性），得到
+利用 Tr[T^a T^b] = δ^{ab}/2（SU(2) 生成元）。此处没有显式的 1/g² 前因子，因为 BPST 场强已携带它：G^a ∝ 1/g。代入 G^a_{μν} = (4ρ²/g) η^a_{μν}/[(x−x₀)²+ρ²]² 及 't Hooft 符号求和 Σ_{a,μ,ν}(η^a_{μν})² = 12：
 
-  S_E  =  (12/g²) · (4ρ²)² · ∫ d⁴x / [(x−x₀)² + ρ²]⁴  / 2.
+  S_E  =  (1/4) · (16ρ⁴/g²) · 12 · ∫ d⁴x / [(x−x₀)² + ρ²]⁴  =  (48ρ⁴/g²) ∫ d⁴x / (r²+ρ²)⁴.
 
-The integral in 4D Euclidean space: let r² = (x−x₀)², ∫ d⁴x/(r²+ρ²)⁴ = 2π² ∫₀^∞ r³ dr/(r²+ρ²)⁴ = 2π² · π/(2·(2ρ²)³)·(1/6)·...
+The 4D integral uses the solid angle 2π² and the standard Beta-function result ∫₀^∞ r³ dr/(r²+ρ²)⁴ = 1/(12ρ⁴):
 
-Actually, using the standard result ∫₀^∞ r³/(r²+ρ²)⁴ dr = 1/(6ρ⁴) and the 4D solid angle 2π²:
+4D 积分用到立体角 2π² 与标准 Beta 函数结果 ∫₀^∞ r³ dr/(r²+ρ²)⁴ = 1/(12ρ⁴)：
 
-实际上，利用标准结果 ∫₀^∞ r³/(r²+ρ²)⁴ dr = 1/(6ρ⁴) 和 4D 立体角 2π²：
-
-  ∫ d⁴x / (r²+ρ²)⁴  =  2π² · ∫₀^∞ r³ dr / (r²+ρ²)⁴  =  2π² · 1/(6ρ⁴)  =  π²/(3ρ⁴).
+  ∫ d⁴x / (r²+ρ²)⁴  =  2π² ∫₀^∞ r³ dr/(r²+ρ²)⁴  =  2π² · 1/(12ρ⁴)  =  π²/(6ρ⁴).
 
 Inserting:
 
 代入：
 
-  S_E  =  (12/g²) · 16ρ⁴ · π²/(3ρ⁴) · (1/2)  =  (12 · 16 · π²) / (g² · 3 · 2)  =  8π²/g². ∎
+  S_E  =  (48ρ⁴/g²) · π²/(6ρ⁴)  =  8π²/g². ∎
 
-(The factors are: 12 from the η-symbol sum, 16ρ⁴ from the numerator squared, π²/(3ρ⁴) from the integral, and 1/2 from the normalization convention — all combining to give 8π²/g².)
+(The factors combine as (1/4) × 16ρ⁴ × 12 × π²/(6ρ⁴) = 8π²; the 1/g² is supplied by G^a ∝ 1/g.)
 
-（各因子为：12 来自 η 符号求和，16ρ⁴ 来自分子的平方，π²/(3ρ⁴) 来自积分，1/2 来自归一化约定——所有这些合起来给出 8π²/g²。）
+（各因子组合为 (1/4) × 16ρ⁴ × 12 × π²/(6ρ⁴) = 8π²；1/g² 由 G^a ∝ 1/g 提供。）
 
 **Step 5 — The θ-vacuum.** The QCD Hamiltonian has degenerate vacua labeled by winding number n ∈ Z (the Pontryagin index of the spatial gauge field configuration). Tunneling between |n⟩ and |n+1⟩ is mediated by instantons with action 8π²/g². The physical ground state is constructed by a Bloch-wave superposition:
 

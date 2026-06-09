@@ -167,12 +167,9 @@ At zeroth order in h (setting h = 0 to find mass terms, then h enters as interac
 
 **第 3 步 — 计算 σ^a 作用于 ⟨φ⟩。** 利用泡利矩阵：
 
-  (σ^1/2)(0, v/√2) = (1/2)(v/√2, 0),
-  (σ^2/2)(0, v/√2) = (i/2)(−v/√2, 0)... 
+For the doublet φ = (φ^+, φ^0) = (0, v/√2):
 
-Let me be careful. For the doublet φ = (φ^+, φ^0) = (0, v/√2):
-
-让我仔细处理。对于双重态 φ = (φ^+, φ^0) = (0, v/√2)：
+对于双重态 φ = (φ^+, φ^0) = (0, v/√2)：
 
   σ^1φ = (0,1;1,0)(0; v/√2) = (v/√2; 0),  so (σ^1/2)φ = (v/(2√2); 0),
   σ^2φ = (0,−i;i,0)(0; v/√2) = (−iv/√2; 0),  so (σ^2/2)φ = (−iv/(2√2); 0),
@@ -188,17 +185,9 @@ Therefore:
 
 **第 4 步 — |D_μφ|² 的 h 零阶。** 质量项来自 |(D_μ⟨φ⟩)|²：
 
-  |D_μ⟨φ⟩|² = (g²v²/8)|W^1_μ + iW^2_μ|² + (v²/8)|gW^3_μ − g'B_μ|² × ... 
+Introduce the charged W bosons W±_μ = (W^1_μ ∓ iW^2_μ)/√2. Inverting:
 
-More explicitly, the upper and lower components:
-
-更明确地，上下分量：
-
-  Upper: −ig(v/(2√2))(W^1_μ − iW^2_μ) = −ig(v/(2√2))·√2 W−_μ = −igv W−_μ/(2)...
-
-Let me use the W± directly: W±_μ = (W^1_μ ∓ iW^2_μ)/√2. Then:
-
-直接使用 W±：W±_μ = (W^1_μ ∓ iW^2_μ)/√2。则：
+引入带电 W 玻色子 W±_μ = (W^1_μ ∓ iW^2_μ)/√2。反解：
 
   W^1_μ = (W+_μ + W−_μ)/√2,  W^2_μ = i(W+_μ − W−_μ)/√2.
 
@@ -287,9 +276,9 @@ Expand (v+h)² = v² + 2vh + h² and (v+h)⁴ = v⁴ + 4v³h + 6v²h² + 4vh³ +
 
 **第 2 步 — 真空能（常数项）。** h 无关的部分：
 
-  V_0 = −μ²v²/2 + λv⁴/4 = −μ²v²/2 + (μ²/λ)·λ·v²/4... 
+Using v² = μ²/λ:
 
-Using v² = μ²/λ: V_0 = −μ²v²/2 + λv⁴/4 = −μ⁴/(2λ) + μ⁴/(4λ) = −μ⁴/(4λ) < 0 (the Mexican hat bottom is below zero).
+  V_0 = −μ²v²/2 + λv⁴/4 = −μ⁴/(2λ) + μ⁴/(4λ) = −μ⁴/(4λ) < 0   (the Mexican-hat bottom is below zero).
 
 利用 v² = μ²/λ：V_0 = −μ²v²/2 + λv⁴/4 = −μ⁴/(2λ) + μ⁴/(4λ) = −μ⁴/(4λ) < 0（墨西哥帽底部低于零）。
 

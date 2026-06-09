@@ -1,8 +1,8 @@
 # Derivations — Module 1.19: Nonlinear Dynamics & Chaos
 # 推导 — 模块 1.19：非线性动力学与混沌
 
-> ✅ **Verified 2026-06-08** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-08 -->
-> ✅ **已校验 2026-06-08** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
+> ✅ **Verified 2026-06-09** — derivations reviewed line-by-line and confirmed (or corrected) against standard results; safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-09 -->
+> ✅ **已校验 2026-06-09** — 推导已逐行复核，并对照标准结果确认（或更正）；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 1.19](./module-1.19-nonlinear-dynamics-chaos.md). Full step-by-step proofs of the results quoted there. English first, then 中文.
 > [模块 1.19](./module-1.19-nonlinear-dynamics-chaos.md) 的配套文档：对该模块所引用结果的完整逐步证明。先英文，后中文。
@@ -265,13 +265,17 @@ For ρ > ρ_c ≈ 24.74, all three fixed points are unstable, yet bounded trajec
 
   dV/dt = 2x ẋ + 2y ẏ + 2(z−σ−ρ) ż
         = 2x·σ(y−x) + 2y·(x(ρ−z)−y) + 2(z−σ−ρ)·(xy − βz)
-        = 2σxy − 2σx² + 2ρxy − 2xyz − 2y² + 2xyz − 2βz(z−σ−ρ) − 2σρz + 2σρz... 
+        = −2σx² − 2y² − 2βz² + 2β(σ+ρ)z.
 
-The key result (which requires careful algebra) is that there exists a large ellipsoid in phase space such that on its boundary dV/dt < 0. This proves that all trajectories eventually enter and remain within a bounded region — the attractor is compact.
+All xy and xyz cross-terms cancel. Completing the square in z:
 
-关键结论（需要仔细代数验证）是：在相空间中存在一个足够大的椭球，使得在其边界上 dV/dt < 0。这证明所有轨迹最终都进入并保持在有界区域内——吸引子是紧的。
+所有 xy 与 xyz 交叉项相消。对 z 配方：
 
-More explicitly: dV/dt = −2(σx² + y² + β(z − (σ+ρ)/2)² − β(σ+ρ)²/4). For large |**x**|, the negative definite terms dominate, so dV/dt < 0 outside a compact set.
+  dV/dt = −2σx² − 2y² − 2β(z − (σ+ρ)/2)² + β(σ+ρ)²/2.
+
+The first three terms are negative definite, so dV/dt < 0 whenever 2σx² + 2y² + 2β(z − (σ+ρ)/2)² > β(σ+ρ)²/2 — i.e. everywhere outside a bounded ellipsoid E. Hence every trajectory eventually enters E and never leaves it: the Lorenz attractor lies in a compact region. ∎
+
+前三项负定，故只要在有界椭球 E 之外（2σx² + 2y² + 2β(z − (σ+ρ)/2)² > β(σ+ρ)²/2），便有 dV/dt < 0。因此每条轨迹最终进入 E 且不再离开：洛伦兹吸引子位于紧致区域内。∎
 
 更明确地：dV/dt = −2(σx² + y² + β(z − (σ+ρ)/2)² − β(σ+ρ)²/4)。对大 |**x**|，负定项主导，故在紧集之外 dV/dt < 0。
 
