@@ -123,9 +123,9 @@ where $L^{\mu\nu}$ is the **leptonic tensor** (calculable in QED) and $W_{\mu\nu
 
 $$ L^{\mu\nu} = 2(k^\mu k'^\nu + k'^\mu k^\nu - g^{\mu\nu} k\cdot k'). $$
 
-(This follows from the standard trace technology: $L^{\mu\nu} = \text{Tr}[\gamma^\mu \slashed k \gamma^\nu \slashed{k}'] / 2$, using $\text{Tr}[\gamma^\mu \gamma^\alpha \gamma^\nu \gamma^\beta] = 4(g^{\mu\alpha}g^{\nu\beta} - g^{\mu\nu}g^{\alpha\beta} + g^{\mu\beta}g^{\nu\alpha})$.)
+(This follows from the standard trace technology: $L^{\mu\nu} = \text{Tr}[\gamma^\mu \not{k} \gamma^\nu \not{k}'] / 2$, using $\text{Tr}[\gamma^\mu \gamma^\alpha \gamma^\nu \gamma^\beta] = 4(g^{\mu\alpha}g^{\nu\beta} - g^{\mu\nu}g^{\alpha\beta} + g^{\mu\beta}g^{\nu\alpha})$.)
 
-（这源于标准迹技术：$L^{\mu\nu} = \text{Tr}[\gamma^\mu \slashed k \gamma^\nu \slashed{k}'] / 2$，利用 $\text{Tr}[\gamma^\mu \gamma^\alpha \gamma^\nu \gamma^\beta] = 4(g^{\mu\alpha}g^{\nu\beta} - g^{\mu\nu}g^{\alpha\beta} + g^{\mu\beta}g^{\nu\alpha})$。）
+（这源于标准迹技术：$L^{\mu\nu} = \text{Tr}[\gamma^\mu \not{k} \gamma^\nu \not{k}'] / 2$，利用 $\text{Tr}[\gamma^\mu \gamma^\alpha \gamma^\nu \gamma^\beta] = 4(g^{\mu\alpha}g^{\nu\beta} - g^{\mu\nu}g^{\alpha\beta} + g^{\mu\beta}g^{\nu\alpha})$。）
 
 **Step 3 — Constraints on the hadronic tensor.** $W_{\mu\nu}$ must satisfy:
 (i) **Current conservation** (Ward identity): $q^\mu W_{\mu\nu} = 0$ and $q^\nu W_{\mu\nu} = 0$.
@@ -272,7 +272,7 @@ Equivalently, $R \equiv \sigma_L/\sigma_T$ measures the ratio of longitudinal to
 
 **第 2 步 — 自旋-$\tfrac12$ 部分子的张量结构。** 无质量自旋-$\tfrac12$ 狄拉克粒子的弹性电磁流为 $j^\mu = \bar e(p') \gamma^\mu u(p)$。对自旋求和后的矩阵元平方为：
 
-$$ \sum_{\text{spins}} |\langle p'|j^\mu|p\rangle|^2 = \text{Tr}[\gamma^\mu \slashed{p}' \gamma^\nu \slashed p] = 4(p'^\mu p^\nu + p'^\nu p^\mu - g^{\mu\nu} p'\cdot p). $$
+$$ \sum_{\text{spins}} |\langle p'|j^\mu|p\rangle|^2 = \text{Tr}[\gamma^\mu \not{p}' \gamma^\nu \not{p}] = 4(p'^\mu p^\nu + p'^\nu p^\mu - g^{\mu\nu} p'\cdot p). $$
 
 Using $p = \xi p_{\text{proton}}$ and $p' = p + q$ ($= \xi p + q$), the parton-level hadronic tensor is:
 

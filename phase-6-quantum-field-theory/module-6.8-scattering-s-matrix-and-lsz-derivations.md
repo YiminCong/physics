@@ -173,7 +173,7 @@ $$ i\, \langle i|T^\dagger - T|i\rangle = \langle i|T^\dagger T|i\rangle. $$
 
 $$ \langle i|T^\dagger|i\rangle = (\langle i|T|i\rangle)^* = \mathcal{M}^*(i\to i) \quad (\text{up to the } (2\pi)^4\delta^4 \text{ factor, which equals } (2\pi)^4\delta^4(0) = VT \text{ for forward scattering in large-volume normalization}). $$
 
-$$ \langle i|T^\dagger|i\rangle = (\langle i|T|i\rangle)^* = \mathcal{M}^*(i\to i) \quad (\text{不计 } (2\pi)^4\delta^4 \text{ 因子，在大体积归一化下前向散射时 } (2\pi)^4\delta^4(0) = VT)。 $$
+$$ \langle i|T^\dagger|i\rangle = (\langle i|T|i\rangle)^* = \mathcal{M}^*(i\to i) \quad (\text{不计 } (2\pi)^4\delta^4 \text{ 因子，在大体积归一化下前向散射时 } (2\pi)^4\delta^4(0) = VT)\text{。} $$
 
 Therefore the left side is $i(\mathcal{M}^* - \mathcal{M}) \cdot (2\pi)^4\delta^4(0) = 2\, \mathrm{Im}\, \mathcal{M}(i\to i, \text{forward}) \cdot (2\pi)^4\delta^4(0)$.
 

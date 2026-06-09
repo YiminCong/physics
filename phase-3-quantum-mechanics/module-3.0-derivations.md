@@ -237,9 +237,9 @@ Therefore:
 
 $$ \boxed{\, \Delta\lambda = \lambda' - \lambda = \frac{h}{mc}(1 - \cos\theta) \,} \qquad \blacksquare $$
 
-**Step 5 — Properties.** The Compton wavelength $\lambda_C = h/mc \approx 2.426 \times 10^{-12}\ \text{m}$. The shift $\Delta\lambda$ depends only on the scattering angle $\theta$, not on the initial wavelength — a purely particle-collision result. Maximum shift $2\lambda_C$ occurs at $\theta = 180°$ (backscattering). No shift at $\theta = 0°$ (forward scattering, no collision).
+**Step 5 — Properties.** The Compton wavelength $\lambda_C = h/mc \approx 2.426 \times 10^{-12}\ \text{m}$. The shift $\Delta\lambda$ depends only on the scattering angle $\theta$, not on the initial wavelength — a purely particle-collision result. Maximum shift $2\lambda_C$ occurs at $\theta = 180^\circ$ (backscattering). No shift at $\theta = 0^\circ$ (forward scattering, no collision).
 
-**第 5 步 — 性质。** 康普顿波长 $\lambda_C = h/mc \approx 2.426 \times 10^{-12}\ \text{m}$。偏移 $\Delta\lambda$ 仅取决于散射角 $\theta$，与初始波长无关——这是纯粒子碰撞的结果。最大偏移 $2\lambda_C$ 在 $\theta = 180°$（反向散射）时发生。$\theta = 0°$（前向散射，无碰撞）时无偏移。$\blacksquare$
+**第 5 步 — 性质。** 康普顿波长 $\lambda_C = h/mc \approx 2.426 \times 10^{-12}\ \text{m}$。偏移 $\Delta\lambda$ 仅取决于散射角 $\theta$，与初始波长无关——这是纯粒子碰撞的结果。最大偏移 $2\lambda_C$ 在 $\theta = 180^\circ$（反向散射）时发生。$\theta = 0^\circ$（前向散射，无碰撞）时无偏移。$\blacksquare$
 
 ---
 

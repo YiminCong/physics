@@ -163,7 +163,7 @@ This is achieved by $\text{CNOT}_{12}$ (qubit 1 control, qubit 2 target) followe
 
 通过 $\text{CNOT}_{12}$（量子比特 1 为控制，2 为目标）然后 $\text{CNOT}_{13}$ 实现，量子比特 2 和 3 初态为 $|0\rangle$：
 
-$$ (\alpha|0\rangle + \beta|1\rangle)|00\rangle \xrightarrow{\text{CNOT}_{12}} \alpha|000\rangle + \beta|110\rangle \xrightarrow{\text{CNOT}_{13}} \alpha|000\rangle + \beta|111\rangle. \quad ✓ $$
+$$ (\alpha|0\rangle + \beta|1\rangle)|00\rangle \xrightarrow{\text{CNOT}_{12}} \alpha|000\rangle + \beta|110\rangle \xrightarrow{\text{CNOT}_{13}} \alpha|000\rangle + \beta|111\rangle. \quad \checkmark $$
 
 **Step 2 — Error model.** A single bit-flip error on qubit $j$ applies $X_j$, mapping the codeword to one of:
 

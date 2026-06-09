@@ -249,7 +249,7 @@ This is the **Hermite recursion relation**. It shows that the coefficients of ev
 
 $$ \begin{aligned} n=0:&\quad a_0 = 1, \text{ all odd terms zero} \to H_0(x) = 1. \\ n=1:&\quad a_1 = 1 \;(\text{set } a_0 = 0),\; a_3 = 0 \to H_1(x) = 2x \text{ (with physicist's normalization)}. \\ n=2:&\quad a_0 = 1,\; a_2 = \tfrac{2(0-2)}{1\cdot 2} a_0 = -2,\; a_4 = 0 \to H_2(x) = 4x^2 - 2. \\ n=3:&\quad a_1 = 1,\; a_3 = \tfrac{2(1-3)}{2\cdot 3} a_1 = -\tfrac23 \to H_3(x) = 8x^3 - 12x. \end{aligned} $$
 
-$$ \begin{aligned} n=0:&\quad a_0 = 1\text{，所有奇数项为零} \to H_0(x) = 1。 \\ n=1:&\quad a_1 = 1\;(\text{令 } a_0 = 0),\; a_3 = 0 \to H_1(x) = 2x\text{（物理学家归一化）}。 \\ n=2:&\quad a_0 = 1,\; a_2 = \tfrac{2(0-2)}{1\cdot 2} a_0 = -2,\; a_4 = 0 \to H_2(x) = 4x^2 - 2。 \\ n=3:&\quad a_1 = 1,\; a_3 = \tfrac{2(1-3)}{2\cdot 3} a_1 = -\tfrac23 \to H_3(x) = 8x^3 - 12x。 \end{aligned} $$
+$$ \begin{aligned} n=0:&\quad a_0 = 1\text{，所有奇数项为零} \to H_0(x) = 1\text{。} \\ n=1:&\quad a_1 = 1\;(\text{令 } a_0 = 0),\; a_3 = 0 \to H_1(x) = 2x\text{（物理学家归一化）}\text{。} \\ n=2:&\quad a_0 = 1,\; a_2 = \tfrac{2(0-2)}{1\cdot 2} a_0 = -2,\; a_4 = 0 \to H_2(x) = 4x^2 - 2\text{。} \\ n=3:&\quad a_1 = 1,\; a_3 = \tfrac{2(1-3)}{2\cdot 3} a_1 = -\tfrac23 \to H_3(x) = 8x^3 - 12x\text{。} \end{aligned} $$
 
 The quantum harmonic oscillator wavefunctions are $\psi_n(x) \propto H_n(\sqrt{m\omega/\hbar}\, x)\, e^{-m\omega x^2/2\hbar}$, normalized in $L^2(\mathbb{R})$. $\blacksquare$
 

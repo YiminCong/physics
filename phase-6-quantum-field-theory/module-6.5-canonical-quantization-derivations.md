@@ -165,9 +165,9 @@ $$ :\hat H: = \int \frac{d^3k}{(2\pi)^3} \sum_s \omega_k\, (b^{s\dagger}_\mathbf
 
 **Step 4 — Derive $\{\psi_\alpha(\mathbf x,t), \psi^\dagger_\beta(\mathbf y,t)\} = \delta_{\alpha\beta}\delta^3(\mathbf x-\mathbf y)$.** Insert the mode expansions into the anticommutator. Using the anticommutation relations for $b$ and $d$, and the completeness relations for the Dirac spinors:
 
-$$ \sum_s u^s_\alpha(k)\, \bar u^s_\beta(k) = (\slashed{k} + m)_{\alpha\beta}, \qquad \sum_s v^s_\alpha(k)\, \bar v^s_\beta(k) = (\slashed{k} - m)_{\alpha\beta}, $$
+$$ \sum_s u^s_\alpha(k)\, \bar u^s_\beta(k) = (\not{k} + m)_{\alpha\beta}, \qquad \sum_s v^s_\alpha(k)\, \bar v^s_\beta(k) = (\not{k} - m)_{\alpha\beta}, $$
 
-(where $\slashed{k} = \gamma^\mu k_\mu$ and the bar denotes $\bar\psi = \psi^\dagger\gamma^0$), the spatial Fourier integral selects equal momenta and the spinor completeness sums reduce to:
+(where $\not{k} = \gamma^\mu k_\mu$ and the bar denotes $\bar\psi = \psi^\dagger\gamma^0$), the spatial Fourier integral selects equal momenta and the spinor completeness sums reduce to:
 
 $$ \{\hat\psi_\alpha(\mathbf x,t), \hat\psi^\dagger_\beta(\mathbf y,t)\} = \int \frac{d^3k}{(2\pi)^3}\, \frac{1}{2\omega_k} \sum_s [u^s_\alpha(k)\, u^{s*}_\beta(k) + v^{s*}_\alpha(k)\, v^s_\beta(k)]\, e^{i\mathbf k\cdot(\mathbf x-\mathbf y)}. $$
 
@@ -177,9 +177,9 @@ $$ \boxed{\, \{\hat\psi_\alpha(\mathbf x,t), \hat\psi^\dagger_\beta(\mathbf y,t)
 
 **第 4 步 — 推导 $\{\psi_\alpha(\mathbf x,t), \psi^\dagger_\beta(\mathbf y,t)\} = \delta_{\alpha\beta}\delta^3(\mathbf x-\mathbf y)$。** 将模式展开代入反对易子。利用 $b$ 和 $d$ 的反对易关系以及狄拉克旋量的完备性关系：
 
-$$ \sum_s u^s_\alpha(k)\, \bar u^s_\beta(k) = (\slashed{k} + m)_{\alpha\beta}, \qquad \sum_s v^s_\alpha(k)\, \bar v^s_\beta(k) = (\slashed{k} - m)_{\alpha\beta}, $$
+$$ \sum_s u^s_\alpha(k)\, \bar u^s_\beta(k) = (\not{k} + m)_{\alpha\beta}, \qquad \sum_s v^s_\alpha(k)\, \bar v^s_\beta(k) = (\not{k} - m)_{\alpha\beta}, $$
 
-（其中 $\slashed{k} = \gamma^\mu k_\mu$，上横杆表示 $\bar\psi = \psi^\dagger\gamma^0$），空间傅里叶积分选出等动量，旋量完备性求和化简为：
+（其中 $\not{k} = \gamma^\mu k_\mu$，上横杆表示 $\bar\psi = \psi^\dagger\gamma^0$），空间傅里叶积分选出等动量，旋量完备性求和化简为：
 
 $$ \{\hat\psi_\alpha(\mathbf x,t), \hat\psi^\dagger_\beta(\mathbf y,t)\} = \int \frac{d^3k}{(2\pi)^3}\, \frac{1}{2\omega_k} \sum_s [u^s_\alpha(k)\, u^{s*}_\beta(k) + v^{s*}_\alpha(k)\, v^s_\beta(k)]\, e^{i\mathbf k\cdot(\mathbf x-\mathbf y)}. $$
 
