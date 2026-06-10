@@ -8,7 +8,33 @@
 
 ---
 
-## 1. Reduction to a One-Dimensional Problem · 化为一维问题
+## 1. Newton's Law of Universal Gravitation · 牛顿万有引力定律
+
+**Definition.** Any two point masses attract along the line joining them with a force proportional to the product of their masses and inversely proportional to the square of their separation:
+
+$$ \mathbf{F} = -G\,\frac{m_1 m_2}{r^2}\,\hat{r}, \qquad G = 6.674\times10^{-11}\ \text{N}\cdot\text{m}^2/\text{kg}^2. $$
+
+The minus sign with $\hat{r}$ (pointing from the source toward the test mass) marks the force as **attractive**. Its potential energy is $V(r) = -Gm_1 m_2/r$, so that $\mathbf{F} = -\nabla V = -dV/dr\,\hat{r}$. This is a **central**, conservative, inverse-square force — exactly the case analyzed in the rest of this module.
+
+**定义。** 任意两个质点沿其连线相互吸引，作用力正比于两者质量之积，反比于间距的平方：
+
+$$ \mathbf{F} = -G\,\frac{m_1 m_2}{r^2}\,\hat{r}, \qquad G = 6.674\times10^{-11}\ \text{N}\cdot\text{m}^2/\text{kg}^2. $$
+
+负号与 $\hat{r}$（由源指向检验质量）表明它是**吸引力**。其势能为 $V(r) = -Gm_1 m_2/r$，满足 $\mathbf{F} = -\nabla V = -dV/dr\,\hat{r}$。这是一种**有心**、保守、平方反比的力——正是本模块其余部分所分析的对象。
+
+**Demonstration.** The inverse-square form is not arbitrary. By the **shell theorem** (provable from the gravitational Gauss law $\oint \mathbf{g}\cdot d\mathbf{A} = -4\pi G\, M_\text{enc}$), a spherically symmetric body attracts external objects as if all its mass sat at its center — which is why we may treat planets as points. The same $1/r^2$ law also guarantees **closed, non-precessing elliptical orbits** (Bertrand's theorem), a property shared only with the harmonic oscillator $V\propto r^2$.
+
+**演示。** 平方反比的形式并非任意。由**壳层定理**（可由引力高斯定律 $\oint \mathbf{g}\cdot d\mathbf{A} = -4\pi G\, M_\text{enc}$ 证明），球对称物体对外部物体的吸引等同于其全部质量集中于球心——这正是我们可以把行星当作质点处理的原因。同样的 $1/r^2$ 定律还保证了**闭合、不进动的椭圆轨道**（伯特兰定理），这一特性只有它与谐振子 $V\propto r^2$ 共有。
+
+**Application.** Balancing gravity against the centripetal requirement $Gm_1 M/r^2 = m_1 v^2/r$ gives orbital speeds, and with $v = 2\pi r/T$ recovers Kepler's third law $T^2 = 4\pi^2 r^3/(GM)$ for circular orbits. The same law fixes surface gravity $g = GM_\oplus/R_\oplus^2 \approx 9.8\ \text{m/s}^2$, governs planets and satellites, and is the **weak-field, low-speed limit** of general relativity (Phase 7).
+
+**应用。** 令引力与向心力平衡 $Gm_1 M/r^2 = m_1 v^2/r$ 可得轨道速度，并结合 $v = 2\pi r/T$ 重新得到圆轨道的开普勒第三定律 $T^2 = 4\pi^2 r^3/(GM)$。同一定律确定了地表重力 $g = GM_\oplus/R_\oplus^2 \approx 9.8\ \text{m/s}^2$，支配着行星与卫星，并且是广义相对论的**弱场、低速极限**（第 7 阶段）。
+
+> **Analogy with Coulomb's law · 与库仑定律的类比.** Gravity $\mathbf{F} = -Gm_1 m_2/r^2\,\hat{r}$ and the electrostatic Coulomb force $\mathbf{F} = k_e q_1 q_2/r^2\,\hat{r}$ ($k_e = 1/4\pi\varepsilon_0$) share the same inverse-square structure, so the central-force machinery below applies to both. The differences: gravity is **always attractive** (there is no negative mass), and it is vastly weaker — between two protons the electric-to-gravitational force ratio is $\sim 10^{36}$.
+>
+> 引力 $\mathbf{F} = -Gm_1 m_2/r^2\,\hat{r}$ 与静电库仑力 $\mathbf{F} = k_e q_1 q_2/r^2\,\hat{r}$（$k_e = 1/4\pi\varepsilon_0$）具有相同的平方反比结构，因此下文的有心力框架对两者都适用。区别在于：引力**始终为吸引力**（不存在负质量），且弱得多——两个质子之间电力与引力之比约为 $10^{36}$。
+
+## 2. Reduction to a One-Dimensional Problem · 化为一维问题
 
 **Definition.** A **central force** depends only on the separation $r = |\mathbf{r}_1 - \mathbf{r}_2|$ and points along the line joining two bodies: $\mathbf{F} = F(r)\,\hat{r}$. Introducing the **reduced mass** $\mu = m_1 m_2/(m_1 + m_2)$, the two-body problem reduces to the one-body problem of a particle of mass $\mu$ in the potential $V(r)$. Since $\mathbf{F}$ is central, angular momentum $L = \mu r^2\dot{\phi}$ is conserved (Noether, Module 1.4), and motion is confined to a plane. Writing the total energy in polar coordinates and eliminating $\dot{\phi}$ via $L$ introduces the **effective potential**:
 
@@ -28,7 +54,7 @@ The second term is the centrifugal barrier. Radial motion satisfies $\tfrac12 \m
 
 **应用。** 开普勒三定律直接得出。(1) 轨道为以太阳为焦点的椭圆（$\varepsilon < 1$ 解）。(2) 等面积定律——这就是 $L$ 守恒：$dA/dt = L/(2\mu) = \text{常数}$。(3) $T^2 \propto a^3$，其中 $a$ 为半长轴，由用椭圆几何积分周期得出。
 
-## 2. Connection to the Quantum Hydrogen Atom · 与量子氢原子的联系
+## 3. Connection to the Quantum Hydrogen Atom · 与量子氢原子的联系
 
 **Definition.** The quantum version of the central-force problem replaces the classical orbit with the Schrödinger equation in spherical symmetry. The $-k/r$ potential of the hydrogen atom ($k = e^2/4\pi\varepsilon_0$) is the quantum analogue of the gravitational $-Gm_1 m_2/r$, with $L$ replaced by the quantum number $\ell$ and the discrete energy levels $E_n = -13.6\,\text{eV}/n^2$.
 
