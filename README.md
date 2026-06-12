@@ -58,31 +58,27 @@ file. There are **120 modules** in total.
 >
 > 阶段编号*本身*就是学习顺序——自上而下从 0 读到 10。狭义相对论紧接在第 1 阶段的电磁学之后（它是经典电磁学的相对论性完善），因此所有预备知识都按顺序满足：相对论先于场论，场论先于标准模型，量子引力则在量子场论（第 6 阶段）与广义相对论（第 7 阶段）二者之后。
 
+```mermaid
+flowchart TD
+    P0["Phase 0 · Mathematical Foundations"] --> P1["Phase 1 · Classical Physics<br/>+ Special Relativity"]
+    P1 --> P2["Phase 2 · Thermodynamics &<br/>Statistical Mechanics"]
+    P2 --> P3["Phase 3 · Quantum Mechanics<br/>◀ the core"]
+    P3 --> P4["Phase 4 · Condensed Matter"]
+    P4 --> P5["Phase 5 · Superconductivity"]
+    P1 --> P6["Phase 6 · Quantum Field Theory<br/>& Many-Body Physics"]
+    P3 --> P6
+    P6 --> P8["Phase 8 · Particle Physics &<br/>the Standard Model"]
+    P1 --> P7["Phase 7 · General Relativity<br/>& Cosmology"]
+    P3 --> P9["Phase 9 · Applied &<br/>Specialized Physics"]
+    P6 --> P10["Phase 10 · Strings &<br/>Quantum Gravity"]
+    P7 --> P10
+    classDef core fill:#5b8def,color:#fff,stroke:#345;
+    classDef summit fill:#9b59b6,color:#fff,stroke:#534;
+    class P3 core;
+    class P10 summit;
 ```
-Phase 0  Mathematical Foundations
-   │     calculus · linear algebra · ODEs · complex analysis · Fourier · tensors
-   ▼
-Phase 1  Classical Physics
-   │     mechanics → Lagrangian/Hamiltonian → electromagnetism → special relativity
-   ▼
-Phase 2  Thermodynamics & Statistical Mechanics
-   │     entropy · free energy · partition function · quantum statistics
-   ▼
-Phase 3  Quantum Mechanics  ◀── the core
-   │     wave function → formalism → 3D/spin → identical particles → second quantization
-   ├─────────────► Phase 4  Condensed Matter ──► Phase 5  Superconductivity
-   ├─────────────► Phase 9  Applied & Specialized Physics
-   ▼
-Phase 6  Quantum Field Theory & Many-Body Physics
-   │     second quantization → Green's functions → path integrals → renormalization
-   ├─────────────► Phase 8  Particle Physics & the Standard Model
-   ▼
-Phase 7  General Relativity & Cosmology
-   │     curved spacetime → Einstein's equations → black holes → the expanding universe
-   ▼
-Phase 10 Strings & Quantum Gravity
-         string theory · holography · unifying quantum field theory with gravity
-```
+
+*Arrows are prerequisites; the vertical spine $0\to1\to2\to3\to6\to7$ is the main reading order, with Phases 4–5, 8, and 9 branching off the core. · 箭头表示先修依赖；竖直主干 $0\to1\to2\to3\to6\to7$ 是主要阅读顺序，第 4–5、8、9 阶段从核心分支出去。*
 
 A few **threads worth watching** across the whole curriculum:
 
@@ -103,6 +99,23 @@ A few **threads worth watching** across the whole curriculum:
 - **对称性 → 守恒**（诺特，1.4）发展为规范理论和标准模型。
 - **复数相位**（0.4）携带干涉、超导电流和约瑟夫森效应。
 - **自发对称性破缺**在超导体（5.3）和粒子物理的希格斯部分（8.4）中*实际上是同一种机制*——即安德森–希格斯联系。
+
+```mermaid
+flowchart LR
+    subgraph HO["Harmonic oscillator · 谐振子"]
+        direction LR
+        a1["1.6 coupled<br/>oscillators"] --> a2["3.2 quantum<br/>oscillator"] --> a3["4.3 phonons"] --> a4["6.1 quantum<br/>fields"]
+    end
+    subgraph VAR["Variational / free energy · 变分／自由能"]
+        direction LR
+        b1["1.3 least<br/>action"] --> b2["2.3 free<br/>energy"] --> b3["3.7 variational<br/>method"] --> b4["5.3 Ginzburg–<br/>Landau"] --> b5["7.4 Einstein–<br/>Hilbert"] --> b6["8.4 Higgs"]
+    end
+    subgraph SYM["Symmetry → gauge · 对称性→规范"]
+        direction LR
+        c1["1.4 Noether"] --> c2["8.1 gauge<br/>theory"] --> c3["8.4 Standard<br/>Model"]
+    end
+    b4 -. "same SSB mechanism<br/>Anderson–Higgs" .- b6
+```
 
 ---
 
