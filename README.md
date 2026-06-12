@@ -33,6 +33,7 @@ file. There are **120 modules** in total.
   status index and a one-liner that lists only the files changed since they were last verified
   (so re-verification can skip everything still marked ✅).
 - Keep the **[bilingual glossary (English ｜ 中文)](./GLOSSARY.md)** open as you read — it lists the key terminology of every phase with Chinese equivalents and short definitions.
+- Check **[`CONVENTIONS.md`](./CONVENTIONS.md)** for the unit systems, metric signature, index, and notation conventions used throughout — including the mostly-minus $(+,-,-,-)$ vs mostly-plus $(-,+,+,+)$ signature split between particle physics and general relativity.
 - See **[`ROADMAP-THOOFT.md`](./ROADMAP-THOOFT.md)** for how this curriculum maps onto Nobel laureate Gerard 't Hooft's *How to become a GOOD Theoretical Physicist*.
 - Read **[`THREAD-GAUGE-THEORY.md`](./THREAD-GAUGE-THEORY.md)** to follow the **gauge principle** as one storyline from Maxwell's $U(1)$ through Yang–Mills to the Standard Model (with the BRST/Faddeev–Popov machinery).
 - **Re-derive the ⭐ results by hand** — that's where real understanding comes from.
@@ -41,6 +42,7 @@ file. There are **120 modules** in total.
 - 每个阶段目录都有一个 **README**，列出该阶段的模块、**预备知识**和一份**空白页检查点**（自测）。通过检查点后再继续。
 - 每个模块都以**上一个 / 下一个导航**结尾，便于将一个阶段连续读完。
 - 阅读时请打开**[双语术语表（英文 ｜ 中文）](./GLOSSARY.md)**——它列出每个阶段的关键术语及其中文对应词和简短定义。
+- 查阅**[`CONVENTIONS.md`](./CONVENTIONS.md)**了解全程使用的单位制、度规号差、指标与记号约定——包括粒子物理与广义相对论之间「mostly-minus $(+,-,-,-)$」与「mostly-plus $(-,+,+,+)$」的号差分工。
 - 阅读**[`THREAD-GAUGE-THEORY.md`](./THREAD-GAUGE-THEORY.md)**，将**规范原理**作为一条故事线，从麦克斯韦的 $U(1)$ 经杨–米尔斯到标准模型（含 BRST／法捷耶夫–波波夫机制）连贯地读完。
 - **亲手重新推导 ⭐ 结果**——真正的理解正源于此。
 
