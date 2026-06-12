@@ -38,6 +38,13 @@
 
 **应用。** 希格斯玻色子于 2012 年在欧洲核子研究中心大型强子对撞机（ATLAS 和 CMS 实验）上被发现，质量 $m_h \approx 125$ GeV——这是 45 年前建立的标准模型的巨大胜利。它与 $W$、$Z$ 及费米子的耦合随质量的缩放完全符合预言。希格斯机制是课程中最优美的单一交叉联系：同一套自发对称性破缺数学，既解释了超导体中的迈斯纳效应（第 5 阶段），也解释了为何弱力是短程的以及为何所有基本粒子都有质量。
 
+## Key results · 核心结果
+
+- Gauge group $SU(2)_L \times U(1)_Y \to U(1)_\text{EM}$; mixing $Z^0 = W^3\cos\theta_W - B\sin\theta_W$, $A = W^3\sin\theta_W + B\cos\theta_W$, $e = g\sin\theta_W$ · 规范群破缺与场混合
+- $V(\phi) = -\mu^2\phi^\dagger\phi + \lambda(\phi^\dagger\phi)^2$, vev $v = \sqrt{\mu^2/\lambda} \approx 246$ GeV — Mexican-hat potential · 墨西哥帽势与真空期望值
+- $m_W = gv/2$, $m_Z = m_W/\cos\theta_W$, $m_h = \sqrt{2\lambda}\, v \approx 125$ GeV · 规范玻色子与希格斯质量
+- $m_f = y_f v/\sqrt2$ — fermion masses from Yukawa couplings · 费米子质量来自汤川耦合
+
 ---
 
 ## Self-test (blank page)
