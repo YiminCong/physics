@@ -448,3 +448,9 @@ nav:
       - "Module 10.2 — Quantum Gravity & Holography":
           - phase-10-strings-and-quantum-gravity/module-10.2-quantum-gravity-and-holography.md
           - Derivations (proofs): phase-10-strings-and-quantum-gravity/module-10.2-derivations.md
+  - "Reference · 参考":
+      - Conventions & Notation: CONVENTIONS.md
+      - Glossary (EN · 中文): GLOSSARY.md
+      - "Thread: Gauge Theory": THREAD-GAUGE-THEORY.md
+      - "Roadmap: 't Hooft": ROADMAP-THOOFT.md
+      - Verification status: VERIFICATION.md
