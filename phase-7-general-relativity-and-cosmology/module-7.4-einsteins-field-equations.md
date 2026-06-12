@@ -98,6 +98,13 @@ The EFE, derived from the simplest possible covariant action linear in $R$, are 
 
 EFE 由关于 $R$ 最简单的协变作用量（对 $R$ 线性）推导而来，可以说是物理学中最优美的基本定律。
 
+## Key results · 核心结果
+
+- $G_{\mu\nu} = R_{\mu\nu} - \tfrac12 R g_{\mu\nu} = \dfrac{8\pi G}{c^4} T_{\mu\nu}$ — Einstein's field equations (add $+\Lambda g_{\mu\nu}$ for dark energy) · 爱因斯坦场方程（含 $\Lambda$ 项）
+- $\nabla_\mu T^{\mu\nu} = 0$ — local energy–momentum conservation, from the Bianchi identity $\nabla_\mu G^{\mu\nu} = 0$ · 由比安基恒等式给出的能动量守恒
+- $S = \dfrac{c^4}{16\pi G} \int (R - 2\Lambda) \sqrt{-g}\, d^4 x + S_\text{matter}$ — Einstein–Hilbert action · 爱因斯坦–希尔伯特作用量
+- *Matter tells spacetime how to curve; spacetime tells matter how to move.* · 物质告诉时空如何弯曲，时空告诉物质如何运动
+
 ---
 
 **Self-test (blank page)**

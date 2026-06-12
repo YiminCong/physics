@@ -46,6 +46,13 @@ Near a fixed point, perturbations grow as $(\mu/\mu_0)^{\Delta}$ where $\Delta$ 
 
 **应用。** 重整化群统一了四个表面上无关的思想：（i）QFT 中紫外发散的消除，（ii）统计力学中普适临界指数的涌现，（iii）有效场论的概念（在能量 $E$ 处，积掉尺度 $\gg E$ 的自由度；结果是在 $E$ 以下有效的重整化有效场论），以及（iv）对撞机测量的耦合常数的跑动。它解释了为什么 QED 预言是有限且精确的，为什么伊辛磁体和临界点附近的液体具有相同的临界指数，以及为什么宏观宇宙可以在不了解普朗克尺度物理细节的情况下加以描述。Altland & Simons 第 8 章和 Coleman 的 "Introduction to Many-Body Physics" 第 15–16 章给出互补的凝聚态处理；Peskin & Schroeder 第 II 部分给出 QFT 处理。
 
+## Key results · 核心结果
+
+- Regularize ($d = 4 - \varepsilon$ or cutoff $\Lambda$) → absorb divergences into renormalized $m, e, \phi$ + counterterms; **renormalizable** = finitely many counterterms · 正规化后将发散吸收进重整化参数与抵消项；可重整＝有限个抵消项
+- $\beta(g) = \mu\, dg/d\mu$ — beta function; $\mu\, d/d\mu\, G^{(n)} = 0$ Callan–Symanzik · β 函数与卡兰–西曼兹克方程
+- Fixed points $\beta(g^*) = 0$; relevant vs irrelevant operators ⟹ **universality** · 不动点与相关／无关算符给出普适性
+- QCD is asymptotically free; QED gives $a_e = (g-2)/2$ to 1 part in $10^{12}$ · QCD 渐近自由；QED 的 $a_e$ 精度达 $10^{-12}$
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）

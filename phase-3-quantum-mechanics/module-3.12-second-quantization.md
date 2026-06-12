@@ -28,6 +28,14 @@
 
 **应用。** **这是进入超导性最重要的单一工具。** BCS 哈密顿量（第 5 阶段）完全用 $c_k^\dagger$ 和 $c_k$ 书写；库珀配对即算符 $c_{k\uparrow}^\dagger c_{-k\downarrow}^\dagger$；凝聚态场论的全部机制（第 6 阶段）都是二次量子化。若第 3 阶段只能有一个模块做到炉火纯青，就是这个（以及它所依赖的 3.2 和 3.5）。
 
+## Key results · 核心结果
+
+- $[a_k, a_{k'}^\dagger] = \delta_{kk'}$ (bosons) vs $\{c_k, c_{k'}^\dagger\} = \delta_{kk'}$ (fermions) — commutation vs anticommutation · 对易／反对易关系
+- $\hat{n}_k = c_k^\dagger c_k$ — number operator · 粒子数算符
+- $(c_k^\dagger)^2 = 0$ — Pauli exclusion, automatic antisymmetry · 泡利不相容，自动反对称
+- $|\Psi\rangle = c_1^\dagger c_2^\dagger \cdots |0\rangle$ — many-body states from the vacuum · 由真空构建多体态
+- $c_{k\uparrow}^\dagger c_{-k\downarrow}^\dagger$ — the Cooper-pair operator carried into Phase 5 · 进入第 5 阶段的库珀对算符
+
 ---
 
 **Self-test (blank page)**

@@ -40,6 +40,15 @@ $$ \Delta \approx 2\, \hbar\omega_D\, e^{-1/(g N(0))}, $$
 
 **应用。** 这是将整个课程贯穿起来的成就：它解释了零电阻、能隙、同位素效应和热力学——并使用了*每一个*关键模块（二次量子化、费米面、声子、自由能、单态配对）。如果你理解了能隙方程，就理解了常规超导性。
 
+## Key results · 核心结果
+
+- $H = \sum_k \varepsilon_k\, c_k^\dagger c_k - g \sum_{k,k'} c_{k'\uparrow}^\dagger c_{-k'\downarrow}^\dagger c_{-k\downarrow} c_{k\uparrow}$ — the BCS pairing Hamiltonian · BCS 配对哈密顿量
+- $\Delta \approx 2\hbar\omega_D\, e^{-1/(gN(0))}$ — energy gap, non-perturbative in $g$ · 能隙，对 $g$ 非微扰
+- $2\Delta(0) \approx 3.5\, k_B T_c$ — universal BCS ratio · 普适的 BCS 比值
+- Cooper pairs condense into a single macroscopic state with a gap in the excitation spectrum · 库珀对凝聚为单一宏观态，激发谱中出现能隙
+
+---
+
 **Self-test (blank page)**
 
 1. Write the BCS gap equation in the weak-coupling limit and show that its solution is $\Delta \approx 2\hbar\omega_D\, e^{-1/(g N(0))}$. What is the physical meaning of the Debye frequency $\omega_D$ appearing here?

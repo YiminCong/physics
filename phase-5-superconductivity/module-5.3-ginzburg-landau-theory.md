@@ -38,6 +38,15 @@ Requiring $\psi$ to be single-valued forces magnetic flux to come in quanta $\Ph
 
 **应用。** 金兹堡–朗道理论是强大的宏观理论：它从自由能极小化加上复数相位（模块 0.4）出发，预言了临界磁场、I 型/II 型区别以及涡旋态（5.7）。后来证明它可以在 $T_c$ 附近由 BCS 理论导出。
 
+## Key results · 核心结果
+
+- $F = F_n + \alpha|\psi|^2 + \tfrac{\beta}{2}|\psi|^4 + \frac{1}{2m^*}\left|(-i\hbar\nabla - e^* A)\psi\right|^2 + \frac{B^2}{2\mu_0}$ — GL free-energy functional · 金兹堡–朗道自由能泛函
+- Two length scales: coherence length $\xi$ and penetration depth $\lambda$; GL parameter $\kappa = \lambda/\xi$ · 两个长度尺度与 GL 参数
+- $\kappa < 1/\sqrt2$ Type I, $\kappa > 1/\sqrt2$ Type II · 第一类／第二类的判据
+- $\Phi_0 = h/2e$ — flux quantum (the $2e$ reveals pairing) · 磁通量子（$2e$ 揭示配对）
+
+---
+
 **Self-test (blank page)**
 
 1. Write the Ginzburg–Landau free energy density including the $\alpha|\psi|^2 + \tfrac{\beta}{2}|\psi|^4$ terms and the gradient/kinetic term. In the uniform case, minimize over $|\psi|$ to find the equilibrium order parameter below $T_c$.
