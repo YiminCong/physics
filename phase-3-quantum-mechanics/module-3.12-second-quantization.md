@@ -52,6 +52,19 @@
 3. 写出多费米子态 $|\Psi\rangle = c_1^\dagger c_2^\dagger \ldots c_n^\dagger |0\rangle$，描述真空态 $|0\rangle$ 的作用。交换两个产生算符的顺序如何说明该态自动满足反对称性？
 4. 用二次量子化符号写出 BCS 配对算符，并指出被配对的单粒子态。为什么库珀对算符 $c_{k\uparrow}^\dagger c_{-k\downarrow}^\dagger$ 要写成动量相反、自旋相反的形式？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Bosons: $[a_k,a^\dagger_{k'}]=\delta_{kk'}$; fermions: $\{c_k,c^\dagger_{k'}\}=\delta_{kk'}$. Setting $k=k'$ in $\{c_k^\dagger,c_k^\dagger\}=2(c_k^\dagger)^2=0$ gives $(c_k^\dagger)^2=0$: you cannot create two fermions in the same mode — the Pauli principle. · 费米子反对易关系取 $k=k'$ 即得 $(c_k^\dagger)^2=0$,无法在同一模式产生两个费米子,即泡利不相容。
+
+**2.** Occupation-number representation labels a state by *how many* particles occupy each mode, $|n_1,n_2,\dots\rangle$, not by which labelled particle sits where. (Anti)symmetry is built into the operator algebra, and creation/annihilation operators change $N$, so variable particle number is natural. · 占据数表象按各模式的粒子数标记态,(反)对称性内建于算符代数,且能自然处理可变粒子数。
+
+**3.** $|\Psi\rangle=c_1^\dagger\cdots c_n^\dagger|0\rangle$ with $|0\rangle$ the no-particle vacuum ($c_k|0\rangle=0$). Swapping two creation operators costs a sign by $\{c_i^\dagger,c_j^\dagger\}=0$, so the state is automatically antisymmetric. · 真空满足 $c_k|0\rangle=0$;交换两个产生算符因反对易关系变号,故态自动反对称。
+
+**4.** $c_{k\uparrow}^\dagger c_{-k\downarrow}^\dagger$ creates a Cooper pair from the states $(\mathbf{k}\uparrow)$ and $(-\mathbf{k}\downarrow)$. Opposite momenta ⟹ zero total momentum (a condensate at rest); opposite spins ⟹ a spin-singlet, the attractive $s$-wave channel. · 相反动量给出零总动量,相反自旋给出自旋单态($s$ 波吸引道)。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.11 — Angular Momentum, Advanced](./module-3.11-angular-momentum-advanced.md) · [Phase 3 index](./README.md) · Next: [Module 3.13 — Entanglement, EPR & Bell's Theorem](./module-3.13-entanglement-epr-and-bell.md) →

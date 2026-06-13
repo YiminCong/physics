@@ -63,6 +63,19 @@ $$ \Delta \approx 2\, \hbar\omega_D\, e^{-1/(g N(0))}, $$
 3. 写出博戈留波夫准粒子能量 $E_k = \sqrt{\varepsilon_k^2 + \Delta^2}$。产生一个激发所需的最小能量是多少？能隙 $\Delta$ 对隧穿电导意味着什么？
 4. 描述 BCS 理论预言的在 $T_c$ 处电子热容的特征跳变。相对于正常态值 $\gamma T_c$，跳变的大小如何检验该理论？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** The gap equation $1=gN(0)\int_0^{\hbar\omega_D}\frac{d\varepsilon}{\sqrt{\varepsilon^2+\Delta^2}}=gN(0)\,\text{arcsinh}(\hbar\omega_D/\Delta)$. For weak coupling $\hbar\omega_D\gg\Delta$ this inverts to $\Delta\approx2\hbar\omega_D e^{-1/gN(0)}$. $\omega_D$ (Debye frequency) is the phonon cutoff: only electrons within $\hbar\omega_D$ of $E_F$ feel the phonon-mediated attraction. · 能隙方程在弱耦合下给出 $\Delta\approx2\hbar\omega_D e^{-1/gN(0)}$;$\omega_D$ 是声子截断频率。
+
+**2.** $2\Delta(0)\approx3.5\,k_BT_c$. Both $\Delta(0)$ and $k_BT_c$ are $\propto\hbar\omega_D e^{-1/gN(0)}$, so the non-universal $\omega_D$ and $g$ cancel in the ratio — it is material-independent in weak-coupling BCS (strong coupling raises it). · 比值中非普适因子相消,弱耦合下与材料无关。
+
+**3.** $E_k=\sqrt{\varepsilon_k^2+\Delta^2}$; the minimum excitation energy is $\Delta$ (at the Fermi surface $\varepsilon_k=0$). No states lie within $\pm\Delta$, so the tunneling conductance has a gap with onset at $eV=\Delta$ — a direct measurement of $\Delta$. · 最小激发能为 $\Delta$,隧穿电导在 $eV=\Delta$ 处开启。
+
+**4.** The electronic heat capacity jumps discontinuously at $T_c$ with the universal value $\Delta C/\gamma T_c\approx1.43$, then falls exponentially $\sim e^{-\Delta/k_BT}$ below (gapped spectrum). The 1.43 jump is a sharp quantitative test of BCS. · 比热在 $T_c$ 跳变 $\Delta C/\gamma T_c\approx1.43$,以下指数衰减。
+
+</details>
+
 ---
 
 ← Previous: [Module 5.4 — The Cooper Problem](./module-5.4-the-cooper-problem.md) · [Phase 5 index](./README.md) · Next: [Module 5.6 — Tunneling & the Gap](./module-5.6-tunneling-and-the-gap.md) →

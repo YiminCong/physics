@@ -67,6 +67,17 @@ Near a fixed point, perturbations grow as $(\mu/\mu_0)^{\Delta}$ where $\Delta$ 
 2. 定义 $\beta$ 函数 $\beta(g)$。$\beta(g) > 0$ 与 $\beta(g) < 0$ 分别对高能下耦合常数的行为意味着什么？各给出一个物理例子。
 3. 两个系统——单轴铁磁体和液-气临界点附近的液体——尽管微观物理完全不同，却具有相同的临界指数。用重整化群不动点和相关算符的语言解释这种普适性。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** *Regularization* makes a divergent integral finite by introducing a parameter (a momentum cutoff $\Lambda$, or dimensional regularization $d=4-\varepsilon$). *Renormalization* then absorbs the divergences into redefinitions of the physical parameters (mass, charge, field normalization) plus counterterms. Example: dim. reg. (regularization) + charge renormalization in QED (renormalization). · 正规化使积分有限(截断或维数正规化);重整化将发散吸收进物理参数与抵消项。
+
+**2.** $\beta(g)=\mu\,dg/d\mu$. $\beta>0$: the coupling grows at high energy (QED, heading toward a Landau pole). $\beta<0$: the coupling shrinks at high energy — asymptotic freedom (QCD), which justifies perturbation theory at collider energies. · $\beta>0$ 高能增强(QED),$\beta<0$ 高能渐弱(QCD 渐近自由)。
+
+**3.** Both systems flow under coarse-graining to the *same* RG fixed point (Wilson–Fisher), governed by the same relevant operators — fixed by symmetry, dimensionality, and the number of order-parameter components. Irrelevant microscopic details are washed out, so the long-distance exponents coincide: one universality class. · 两系统流向同一不动点,相关算符相同,无关细节被抹去,故临界指数相同。
+
+</details>
+
 ---
 
 ← Previous: [Module 6.5 — Canonical Quantization of Fields](./module-6.5-canonical-quantization.md) · [Phase 6 index](./README.md) · Next: [Module 6.7 — Exactly Solvable Models & Long-Range Order](./module-6.7-exactly-solvable-models-and-long-range-order.md) →

@@ -119,6 +119,17 @@ EFE 由关于 $R$ 最简单的协变作用量（对 $R$ 线性）推导而来，
 2. 证明 $\nabla_\mu T^{\mu\nu} = 0$ 由 EFE 和缩并比安基恒等式 $\nabla_\mu G^{\mu\nu} = 0$ 自动得出。为何这在物理上令人满意？
 3. 写出完美流体的 $T_{\mu\nu}$。在非相对论极限（$p \ll \rho c^2$）下，EFE 化为什么？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $G_{\mu\nu}=R_{\mu\nu}-\tfrac12 Rg_{\mu\nu}=\dfrac{8\pi G}{c^4}T_{\mu\nu}$. The left side is pure geometry (curvature of spacetime); the right side is the energy–momentum of matter. The coupling $8\pi G/c^4\approx2\times10^{-43}\ \text{N}^{-1}$ is minuscule, so spacetime is extremely *stiff* — an enormous energy density is needed to curve it appreciably. · 左侧几何,右侧物质;耦合极小,时空极「硬」。
+
+**2.** The contracted Bianchi identity $\nabla_\mu G^{\mu\nu}=0$ is a geometric identity true for *any* metric. The EFE then forces $\nabla_\mu T^{\mu\nu}=0$. This is satisfying because local energy–momentum conservation is not an extra assumption — it is guaranteed by the geometry itself. · 比安基恒等式 $\nabla_\mu G^{\mu\nu}=0$ 经 EFE 强制 $\nabla_\mu T^{\mu\nu}=0$,守恒由几何保证。
+
+**3.** Perfect fluid: $T^{\mu\nu}=(\rho+p/c^2)u^\mu u^\nu+p\,g^{\mu\nu}$. In the weak-field, non-relativistic limit ($p\ll\rho c^2$) the EFE reduces to the Newtonian Poisson equation $\nabla^2\Phi=4\pi G\rho$, with $g_{00}\approx-(1+2\Phi/c^2)$. · 理想流体能动张量;弱场非相对论极限退化为泊松方程 $\nabla^2\Phi=4\pi G\rho$。
+
+</details>
+
 ---
 
 ← Previous: [Module 7.3 — Geodesics & the Motion of Particles](./module-7.3-geodesics-and-motion-of-particles.md) · [Phase 7 index](./README.md) · Next: [Module 7.5 — Black Holes & Gravitational Waves](./module-7.5-black-holes-and-gravitational-waves.md) →
