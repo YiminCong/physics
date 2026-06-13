@@ -28,6 +28,13 @@
 
 **应用。** 所有量子力学的概率层；期望值/不确定性就是模块 0.5 中的均值/方差应用于 $|\psi|^2$。
 
+## Key results · 核心结果
+
+- Born rule: $|\psi(x,t)|^2$ = probability density; $\int|\psi|^2 dx=1$ · 玻恩定则与归一化
+- TDSE $i\hbar\partial_t\psi=\hat H\psi$, $\hat H=-\tfrac{\hbar^2}{2m}\partial_x^2+V$ · 含时薛定谔方程
+- $\langle Q\rangle=\int\psi^*\hat Q\psi\,dx$ · 期望值
+- $\Delta x\,\Delta p\ge\hbar/2$ · 不确定性原理
+
 ---
 
 **Self-test (blank page)**
@@ -41,6 +48,15 @@
 1. 陈述玻恩定则：$|\psi(x,t)|^2$ 代表什么物理量？波函数 $\psi$ 必须满足怎样的归一化条件？
 2. 写出含时薛定谔方程，并指出一维粒子哈密顿量 $\hat{H}$ 中的动能项和势能项。
 3. 用 $\psi$ 定义可观测量 $\hat{Q}$ 的期望值 $\langle Q\rangle$ 及其不确定度 $\Delta Q$，再陈述位置与动量的海森堡不确定性原理。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $|\psi(x,t)|^2$ is the probability density of finding the particle at $x$; normalization requires $\int|\psi|^2\,dx=1$. · 概率密度;归一化 $\int|\psi|^2=1$。
+**2.** $i\hbar\partial_t\psi=\hat H\psi$ with $\hat H=-\tfrac{\hbar^2}{2m}\partial_x^2+V(x)$ — first term kinetic ($\hat p^2/2m$), second potential. · 动能项与势能项。
+**3.** $\langle Q\rangle=\int\psi^*\hat Q\psi\,dx$, $\Delta Q=\sqrt{\langle Q^2\rangle-\langle Q\rangle^2}$; Heisenberg $\Delta x\,\Delta p\ge\hbar/2$. · 期望、方差与测不准。
+
+</details>
 
 ---
 

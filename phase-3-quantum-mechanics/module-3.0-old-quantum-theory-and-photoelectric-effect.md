@@ -40,6 +40,13 @@
 
 **应用。** 这种"旧量子论"是量子化规则的拼凑，但其核心——量子化能量、波粒二象性、$\lambda = h/p$——正是模块 3.1 中**波函数** $\psi$ 所精确化的内容。德布罗意的波*就是*量子力学的 $\psi$；玻尔的能级从薛定谔方程（模块 3.4）中精确重现。
 
+## Key results · 核心结果
+
+- Photoelectric $KE_\text{max}=h\nu-W$ · 光电方程
+- Bohr $E_n=-13.6\,\text{eV}/n^2$ from $L=n\hbar$ · 玻尔能级
+- de Broglie $\lambda=h/p$ · 德布罗意波长
+- Energy is quantized in units of $h\nu$ (Planck) · 能量以 $h\nu$ 量子化
+
 ---
 
 **Self-test (blank page)**
@@ -55,6 +62,16 @@
 2. 绘出截止电压–频率关系直线，指出其斜率和截距分别代表什么。
 3. 利用 $L = n\hbar$ 简述玻尔如何得到 $E_n = -13.6\ \text{eV} / n^2$。
 4. 陈述德布罗意关系，并举出一个证实物质波的实验。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $KE_\text{max}=h\nu-W$: each photon carries fixed energy $h\nu$, so electron energy depends on frequency; below $\nu=W/h$ none are emitted regardless of intensity (intensity = photon number, not energy per photon). · 能量取决于频率,不取决于强度。
+**2.** $eV_0=h\nu-W$: a plot of $V_0$ vs $\nu$ has slope $h/e$ (Planck's constant) and intercept $-W/e$ (work function). · 斜率 $h/e$,截距 $-W/e$。
+**3.** $L=n\hbar$ with Coulomb = centripetal force gives $r_n\propto n^2$ and $E_n=-13.6\,\text{eV}/n^2$. · 量子化给玻尔能级。
+**4.** $\lambda=h/p$; the Davisson–Germer electron-diffraction experiment confirmed matter waves. · 德布罗意;戴维孙–革末实验。
+
+</details>
 
 ---
 
