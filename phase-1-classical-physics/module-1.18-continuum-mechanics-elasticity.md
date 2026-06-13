@@ -36,6 +36,13 @@
 
 **应用。** 弹性波是**地震学**的基础——地震产生的 P 波和 S 波探测地球内部，S 波阴影区揭示了液态外核的存在。从连续到晶格的联系是从这一经典模块到驱动热容和超导性的声子（第 4–5 阶段）的桥梁。
 
+## Key results · 核心结果
+
+- Stress $\sigma_{ij}$ and strain $\varepsilon_{ij}$ tensors (both symmetric) · 应力与应变张量
+- Isotropic Hooke's law; 1D $\sigma=E\varepsilon$ · 各向同性胡克定律
+- Longitudinal (P) and transverse (S) elastic waves · 纵波与横波
+- Acoustic phonons are the quantized elastic waves · 声学声子即量子化弹性波
+
 ---
 
 **Self-test (blank page)**
@@ -51,6 +58,16 @@
 2. 写出各向同性固体的胡克定律，并在一维情形下将其化简为 $\sigma = E\varepsilon$。
 3. 命名固体中两种弹性波的类型，并物理地解释为什么它们传播速度不同。
 4. 解释晶体的声学声子支如何与经典弹性波方程相联系。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\sigma_{ij}$ = force per area ($i$-component on the $j$-face); $\varepsilon_{ij}=\tfrac12(\partial_i u_j+\partial_j u_i)$. Stress is symmetric by torque (angular-momentum) balance; strain by construction (rigid rotations removed). · 二者对称的原因。
+**2.** Isotropic $\sigma_{ij}=\lambda\delta_{ij}\varepsilon_{kk}+2\mu\varepsilon_{ij}$; uniaxial 1D reduces to $\sigma=E\varepsilon$ ($E$ = Young's modulus). · 一维 $\sigma=E\varepsilon$。
+**3.** Longitudinal (compression, P) and transverse (shear, S) waves; P is faster because the compression modulus exceeds the shear modulus. · 纵波快于横波。
+**4.** The acoustic phonon branch ($\omega=v_s k$ as $k\to0$) is the quantized long-wavelength elastic/sound wave — same linear dispersion. · 声学声子即长波弹性波的量子化。
+
+</details>
 
 ---
 

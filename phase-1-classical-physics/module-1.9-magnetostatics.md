@@ -48,6 +48,13 @@ Because $\nabla \cdot \mathbf{B} = 0$, one can always write $\mathbf{B} = \nabla
 
 **应用。** 静磁学直接进入电动力学（模块 1.10）：法拉第电磁感应定律是静态毕奥–萨伐尔/安培框架的时变推广。$\mathbf{A}$ 的规范结构预示了协变电磁学（模块 1.15）和量子电动力学（第 8 阶段）中的四矢量势 $A^\mu$。
 
+## Key results · 核心结果
+
+- Biot–Savart $\mathbf B=\dfrac{\mu_0}{4\pi}\int\dfrac{\mathbf J\times(\mathbf r-\mathbf r')}{|\mathbf r-\mathbf r'|^3}dV'$ · 毕奥–萨伐尔定律
+- $\nabla\cdot\mathbf B=0$, $\nabla\times\mathbf B=\mu_0\mathbf J$ (static) · 静磁麦克斯韦方程
+- Vector potential $\mathbf B=\nabla\times\mathbf A$; gauge freedom $\mathbf A\to\mathbf A+\nabla\chi$ · 矢势与规范自由度
+- Aharonov–Bohm: $\mathbf A$ is physically meaningful in QM · 阿哈罗诺夫–玻姆效应
+
 ---
 
 **Self-test (blank page)**
@@ -63,6 +70,16 @@ Because $\nabla \cdot \mathbf{B} = 0$, one can always write $\mathbf{B} = \nabla
 2. 定义磁矢量势 $\mathbf{A}$。证明规范变换 $\mathbf{A} \to \mathbf{A} + \nabla\chi$ 不改变 $\mathbf{B}$。库仑规范条件是什么？
 3. 半径为 $R$ 的圆形线圈载流 $I$。用毕奥–萨伐尔定律求轴线上距中心 $z$ 处的磁场。
 4. 阿哈罗诺夫–玻姆效应是什么？它为什么证明了 $\mathbf{A}$（而不仅仅是 $\mathbf{B}$）在量子力学中具有物理意义？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Long solenoid: $\mathbf B=\mu_0 nI$ uniform inside, $\mathbf B=0$ outside. · 螺线管内 $\mu_0 nI$,外为零。
+**2.** $\mathbf B=\nabla\times\mathbf A$; under $\mathbf A\to\mathbf A+\nabla\chi$, $\nabla\times\nabla\chi=0$ so $\mathbf B$ is unchanged. Coulomb gauge: $\nabla\cdot\mathbf A=0$. · 规范不变;库仑规范 $\nabla\cdot\mathbf A=0$。
+**3.** On-axis loop: $B=\dfrac{\mu_0 I R^2}{2(R^2+z^2)^{3/2}}$. · 轴上磁场。
+**4.** Aharonov–Bohm: a charge's phase shifts by $\tfrac{q}{\hbar}\oint\mathbf A\cdot d\mathbf l=q\Phi/\hbar$ even where $\mathbf B=0$, observable in interference — so $\mathbf A$ is physical in QM. · 相位移 $q\Phi/\hbar$,$\mathbf A$ 物理。
+
+</details>
 
 ---
 

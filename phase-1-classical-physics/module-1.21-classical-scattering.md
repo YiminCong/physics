@@ -36,6 +36,13 @@
 
 **应用。** 卢瑟福 1911 年对 $\alpha$ 粒子散射金箔（模块 9.3）的分析揭示了罕见的大角度偏转，这要求存在一个微小而致密的原子核，推翻了枣糕模型原子。值得注意的是，**量子**计算（模块 3.8，玻恩近似）给出*完全相同*的公式——$1/\sin^4(\theta/2)$ 定律在过渡到波动力学时依然成立。同样的逻辑放大到 GeV 能标，构成了深度非弹性散射（模块 8.9）的基础，其大角度的超出揭示了质子内部点状的夸克。
 
+## Key results · 核心结果
+
+- Impact parameter $b$; differential cross section $\dfrac{d\sigma}{d\Omega}=\dfrac{b}{\sin\theta}\left|\dfrac{db}{d\theta}\right|$ · 碰撞参数与微分截面
+- Rutherford $\dfrac{d\sigma}{d\Omega}=\left(\dfrac{k}{4E}\right)^2\dfrac1{\sin^4(\theta/2)}$ · 卢瑟福散射
+- Total cross section by integrating over solid angle · 总截面
+- Coulomb total $\sigma$ diverges (infinite range); screening makes it finite · 库仑总截面发散
+
 ---
 
 **Self-test (blank page)**
@@ -51,6 +58,16 @@
 2. 从物理上解释为何排斥势下 $db/d\theta < 0$，以及为何需要绝对值。
 3. 从 $b = (k/2E) \cot(\theta/2)$ 出发，复现卢瑟福截面 $d\sigma/d\Omega = (k/4E)^2/\sin^4(\theta/2)$。
 4. 为何库仑总截面发散？对屏蔽（有限力程）势又有何变化？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Number conservation: particles in the ring $2\pi b\,db$ scatter into $d\Omega=2\pi\sin\theta\,d\theta$, so $\dfrac{d\sigma}{d\Omega}=\dfrac{b}{\sin\theta}\left|\dfrac{db}{d\theta}\right|$. · 由粒子数守恒导出。
+**2.** For a repulsive potential a larger $b$ gives a smaller deflection $\theta$, so $db/d\theta<0$; the absolute value keeps the cross section positive. · 排斥势 $db/d\theta<0$。
+**3.** $b=\dfrac{k}{2E}\cot(\theta/2)$, $db/d\theta=-\dfrac{k}{4E}\csc^2(\theta/2)$, giving $\dfrac{d\sigma}{d\Omega}=\left(\dfrac{k}{4E}\right)^2\dfrac1{\sin^4(\theta/2)}$. · 得卢瑟福公式。
+**4.** $\sigma=\int d\sigma$ diverges because $1/\sin^4(\theta/2)$ blows up at small $\theta$ — the $1/r$ potential never vanishes. Screening cuts off small-angle (large-$b$) scattering, making $\sigma$ finite. · 库仑发散;屏蔽给有限截面。
+
+</details>
 
 ---
 

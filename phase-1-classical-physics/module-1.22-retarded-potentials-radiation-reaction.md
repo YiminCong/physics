@@ -50,6 +50,13 @@
 
 **应用。** 辐射阻尼设定受驱振子的阻尼（谱线的自然线宽），限制储存环与激光中电荷的能量，并在超强激光–电子相互作用中至关重要。概念上它是电子**自能**的经典影子，只有在量子电动力学（模块 8.2 / 6.x）中才能自洽处理，其中发散通过重整化被吸收。
 
+## Key results · 核心结果
+
+- Retarded potentials evaluated at $t_r=t-|\mathbf r-\mathbf r'|/c$ · 推迟势
+- Liénard–Wiechert potentials; the $\kappa=1-\mathbf n\cdot\boldsymbol\beta$ factor · 李纳–维谢尔势
+- Dipole radiation power → Larmor formula · 偶极辐射→拉莫尔
+- Abraham–Lorentz force $\mathbf F=m\tau\dot{\mathbf a}$, $\tau=q^2/6\pi\epsilon_0 mc^3$ · 阿布拉罕–洛伦兹力
+
 ---
 
 **Self-test (blank page)**
@@ -65,6 +72,16 @@
 2. 推导李纳–维谢尔势中的 $\kappa = 1 - \mathbf{n}\cdot\boldsymbol{\beta}$ 因子，并解释其物理起源。
 3. 从 $dP/d\Omega = (\mu_0 \ddot{p}^2/16\pi^2 c) \sin^2\theta$ 出发积分得到偶极总功率，并说明在 $\mathbf{p} = q\mathbf{d}$ 时退化为拉莫尔公式。
 4. 写出阿布拉罕–洛伦兹力，由能量平衡推导它，并解释失控/预加速病态及 $\tau$ 的数值。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Sources are evaluated at the retarded time $t_r=t-|\mathbf r-\mathbf r'|/c$ (signals travel at $c$). The advanced solution ($t+|\mathbf r-\mathbf r'|/c$) violates causality (effect before cause) and is discarded. · 推迟时间;舍去超前解(违因果)。
+**2.** $\kappa=1-\mathbf n\cdot\boldsymbol\beta$ arises because the source moves during emission, compressing the retarded contribution along the direction of motion (relativistic beaming). · 源运动使推迟贡献沿运动方向压缩。
+**3.** $\int\sin^2\theta\,d\Omega=8\pi/3$, so $P=\mu_0\ddot p^2/6\pi c$; with $\mathbf p=q\mathbf d$, $\ddot{\mathbf p}=q\mathbf a$ gives $P=q^2 a^2/6\pi\epsilon_0 c^3$ (Larmor). · 积分得拉莫尔公式。
+**4.** $\mathbf F_\text{AL}=m\tau\dot{\mathbf a}$, $\tau=q^2/6\pi\epsilon_0 mc^3$ (from energy balance). It has runaway ($a\propto e^{t/\tau}$) and pre-acceleration pathologies — the breakdown of classical point-charge electrodynamics. · 阿布拉罕–洛伦兹力及其病态。
+
+</details>
 
 ---
 

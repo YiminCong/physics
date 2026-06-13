@@ -36,6 +36,13 @@
 
 **应用。** 同样的常微分方程机制适用于行星轨道（模块 1.5）、耦合振子（模块 1.6）以及带电粒子在电磁场中的运动——所有这些都归结为在适当坐标系下求解或近似牛顿方程。此类常微分方程在模块 0.3 中有系统处理。
 
+## Key results · 核心结果
+
+- Three laws: inertia; $\mathbf F=m\mathbf a$; action–reaction · 牛顿三定律
+- $\mathbf F=m\mathbf a$ holds only in inertial frames · 仅在惯性系成立
+- Free-body diagrams resolve the forces on each body · 受力分析
+- Constraint forces (tension, normal) follow from the equations of motion · 约束力由运动方程定
+
 ---
 
 **Self-test (blank page)**
@@ -51,6 +58,16 @@
 2. 质量为 $m$ 的物体沿倾角为 $\theta$ 的无摩擦斜面下滑。用牛顿第二定律推导其沿斜面的加速度。
 3. 质量分别为 $m_1$ 和 $m_2$ 的两个滑块通过轻绳绕过无摩擦滑轮相连。求绳中张力。
 4. 为什么牛顿定律必须在惯性系中陈述？在加速行驶的汽车中，$\mathbf{F} = m\mathbf{a}$ 对于观察者会呈现出怎样的形式？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Inertia — a puck glides on ice; $\mathbf F=m\mathbf a$ — pushing a cart; action–reaction — rocket recoil. · 三定律各举一例。
+**2.** Along the slope $mg\sin\theta=ma\Rightarrow a=g\sin\theta$. · $a=g\sin\theta$。
+**3.** Atwood machine: $a=\dfrac{(m_1-m_2)g}{m_1+m_2}$, tension $T=\dfrac{2m_1m_2g}{m_1+m_2}$. · 阿特伍德张力。
+**4.** $\mathbf F=m\mathbf a$ defines force via acceleration, which requires an inertial frame; in an accelerating car a pseudo-force $-m\mathbf a_\text{frame}$ appears (you feel pushed back). · 加速系出现赝力。
+
+</details>
 
 ---
 
