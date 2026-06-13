@@ -101,6 +101,21 @@ In 3D the $\mathbb{Z}_2$ classification gives four invariants $(\nu_0; \nu_1\nu_
 4. 什么是体–边界对应？用 SSH 模型说明。
 5. 描述二维 $\mathbb{Z}_2$ 拓扑绝缘体的螺旋边缘态，并解释为何时间反演对称性禁止背向散射。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\mathbf A(\mathbf k)=i\langle u_{\mathbf k}|\nabla_{\mathbf k}|u_{\mathbf k}\rangle$ and $\Omega(\mathbf k)=\nabla_{\mathbf k}\times\mathbf A$. By Stokes' theorem the Berry phase around a loop equals the flux of $\Omega$ through it: $\gamma=\oint\mathbf A\cdot d\mathbf k=\int\Omega\,d^2k$. · 贝里相位 = 曲率通量(斯托克斯定理)。
+
+**2.** $C=\tfrac1{2\pi}\int_\text{BZ}\Omega\,d^2k\in\mathbb Z$ is an integer because it is the total Berry flux through the closed BZ (a torus). It gives the IQHE Hall conductivity $\sigma_{xy}=C\,e^2/h$ (TKNN). · 陈数为整数(闭曲面通量),$\sigma_{xy}=Ce^2/h$。
+
+**3.** $H(k)=(t_1+t_2\cos k)\sigma_x+t_2\sin k\,\sigma_y$. Winding $w=0$ for $|t_1|>|t_2|$ (trivial), $w=1$ for $|t_2|>|t_1|$ (topological); at the boundary the gap closes. · SSH 缠绕数 0 或 1,相界处能隙闭合。
+
+**4.** Bulk–boundary correspondence: a jump in the bulk invariant forces gapless protected states at the boundary. In SSH, the topological phase ($w=1$) hosts zero-energy edge modes. · 体–边对应;SSH 拓扑相有零能边缘态。
+
+**5.** A 2D $\mathbb Z_2$ insulator has helical edges: counter-propagating spin-up/spin-down states forming a Kramers pair. Time-reversal symmetry forbids elastic backscattering between Kramers partners, protecting the edge transport. · 螺旋边缘态;时间反演禁止背散射。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.8 — Quantum Hall Effect](./module-4.8-quantum-hall-effect.md) · [Phase 4 index](./README.md) · Next: [Module 4.10 — Landau Fermi-Liquid Theory](./module-4.10-landau-fermi-liquid-theory.md) →

@@ -49,6 +49,19 @@
 3. SQUID 由超导回路中的两个约瑟夫森结组成。解释 SQUID 的总临界电流如何依赖于穿过回路的磁通量，以及为何这使 SQUID 成为超灵敏磁强计。
 4. 约瑟夫森效应源于序参量的宏观量子相位。当 $V \neq 0$ 时，相位差 $\Delta\phi$ 如何随时间变化？这对凝聚态的量子力学说明了什么？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $I=I_c\sin(\Delta\phi)$ and $df/dt=2eV/h$. $\Delta\phi$ is the phase difference of the order parameter across the junction; the DC effect carries a supercurrent at *zero* voltage because a fixed $\Delta\phi$ gives a steady current — any $V$ makes $\Delta\phi$ evolve (AC). · $\Delta\phi$ 为相位差;直流效应在零压下载流。
+
+**2.** $f=2eV/h$. For $V=1\ \mu$V: $f=2(1.6\times10^{-19})(10^{-6})/(6.63\times10^{-34})\approx483.6\ \text{MHz}\approx0.48$ GHz. · $V=1\,\mu$V 对应 $f\approx483.6$ MHz。
+
+**3.** A SQUID's critical current $I_c(\Phi)=2I_0|\cos(\pi\Phi/\Phi_0)|$ oscillates with period $\Phi_0$ in the enclosed flux (two-junction interference). A flux change of a small fraction of $\Phi_0$ shifts $I_c$ measurably — an ultra-sensitive magnetometer. · SQUID 临界电流随磁通以 $\Phi_0$ 为周期振荡,极灵敏。
+
+**4.** With $V\neq0$, $\dfrac{d(\Delta\phi)}{dt}=\dfrac{2eV}{\hbar}$ — the phase winds linearly, so the condensate is a macroscopic quantum state whose phase evolves as $e^{-i(2e)Vt/\hbar}$ (energy $2eV$ per pair). · $V\ne0$ 时相位线性增长,凝聚体为宏观量子态。
+
+</details>
+
 ---
 
 ← Previous: [Module 5.7 — Type II Superconductors & Vortices](./module-5.7-type-ii-superconductors-and-vortices.md) · [Phase 5 index](./README.md) · Next: [Module 5.9 — Unconventional & High-Tᶜ Superconductors](./module-5.9-unconventional-and-high-tc-superconductors.md) →

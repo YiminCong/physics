@@ -45,6 +45,19 @@
 3. 为何库珀对在 $(k\uparrow, -k\downarrow)$ 通道中形成？哪些对称性论证——时间反演和泡利原理——支持这种组合而非例如 $(k\uparrow, k'\uparrow)$？
 4. 若费米能级处的态密度 $N(0)$ 加倍（例如通过更换材料），库珀对结合能如何变化？根据指数公式，$T_c$ 增大还是减小，变化量级是多少？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Cooper's theorem: any weak attraction binds a pair *above a filled Fermi sea*. The sea is essential — Pauli blocking confines the pair to a thin shell of large density of states; in vacuum (no sea) a weak 3D attraction has a binding threshold and would not bind. · 费米海(泡利阻塞)是必要条件;真空中弱吸引不成束缚。
+
+**2.** $e^{-1/gN(0)}$ is non-analytic at $g=0$ — every derivative vanishes, so its Taylor series is identically zero. No finite order of perturbation theory in $g$ can ever produce it; pairing is intrinsically non-perturbative. · 该函数在 $g=0$ 非解析,微扰论任意阶都得不到。
+
+**3.** Pairing $(k\uparrow,-k\downarrow)$: time reversal maps $k\uparrow\to-k\downarrow$, so pairing time-reversed partners maximizes the attractive matrix element; opposite spins give a symmetric ($s$-wave) orbital with the antisymmetric spin singlet, satisfying Pauli. · 时间反演配对最优;自旋单态满足泡利($s$ 波)。
+
+**4.** Doubling $N(0)$ halves the exponent: binding $\propto e^{-1/(2gN(0))}$, so the binding energy, $\Delta$, and $T_c$ all rise **exponentially**. · $N(0)$ 翻倍使指数减半,$T_c$ 指数增大。
+
+</details>
+
 ---
 
 ← Previous: [Module 5.3 — Ginzburg–Landau Theory](./module-5.3-ginzburg-landau-theory.md) · [Phase 5 index](./README.md) · Next: [Module 5.5 — BCS Theory](./module-5.5-bcs-theory.md) →

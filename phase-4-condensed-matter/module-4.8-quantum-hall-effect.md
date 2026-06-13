@@ -93,6 +93,21 @@ where $z_i = x_i + i y_i$ is the complex position of the $i$-th electron and $l_
 4. 解释 IQHE 的边缘态（比特克）图像：为什么纵向电阻消失而 $R_H$ 量子化？
 5. 什么是劳夫林态，为什么它支持电荷为 $e/3$ 的准粒子？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $H=(\mathbf p-e\mathbf A)^2/2m$ in a field maps (Landau gauge) to a 1D harmonic oscillator of frequency $\omega_c=eB/m$, giving $E_n=\hbar\omega_c(n+\tfrac12)$. · 朗道能级 $E_n=\hbar\omega_c(n+\tfrac12)$。
+
+**2.** Degeneracy per unit area $=eB/h=1/2\pi\ell_B^2$ (with $\ell_B=\sqrt{\hbar/eB}$). · 每单位面积简并度 $eB/h$。
+
+**3.** $\nu=n_s/(eB/h)=n_s h/eB$. Sweeping $B$: $R_{xx}$ oscillates and vanishes on plateaus, while $R_H$ shows quantized plateaus $R_H=h/\nu e^2$. · 填充因子 $\nu=n_sh/eB$;$R_H$ 出现量子化平台。
+
+**4.** On a plateau the bulk is gapped (incompressible); current flows only in chiral edge channels that cannot backscatter (the return channel is on the far edge), so $R_{xx}=0$; $\nu$ channels each give $e^2/h$, quantizing $R_H$. · 边缘态图像:体能隙,手征边缘无背散射,$R_{xx}=0$,$R_H$ 量子化。
+
+**5.** The Laughlin state $\Psi_{1/3}\propto\prod_{i<j}(z_i-z_j)^3 e^{-\sum|z_i|^2/4\ell_B^2}$ describes the $\nu=1/3$ FQHE; inserting one flux quantum creates a quasihole of fractional charge $e/3$. · 拉夫林态;准粒子带分数电荷 $e/3$。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.7 — Semiconductor Physics](./module-4.7-semiconductor-physics.md) · [Phase 4 index](./README.md) · Next: [Module 4.9 — Topological Matter & Berry Phase](./module-4.9-topological-matter-and-berry-phase.md) →

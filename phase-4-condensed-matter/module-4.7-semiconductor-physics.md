@@ -92,6 +92,21 @@ where $I_0$ is the reverse saturation current. The exponential rectification is 
 4. 推导或陈述肖克利二极管方程，并解释其指数形式的物理原因。
 5. 区分 n 型和 p 型掺杂，并解释每种掺杂如何将费米能级移动到带隙内。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $1/m^*=\dfrac1{\hbar^2}\dfrac{d^2E}{dk^2}$. Near a band *top* the curvature is negative, so $m^*<0$; such carriers respond like positive-charge **holes**. · 有效质量由带曲率定;带顶曲率负,载流子为空穴。
+
+**2.** $n_i\propto T^{3/2}e^{-E_g/2k_BT}$: the $T^{3/2}$ is the effective density of states $\propto(m^*k_BT)^{3/2}$; the exponential is the Boltzmann factor for thermal excitation across the gap (the $\tfrac12$ because electron and hole share $E_g$). · $T^{3/2}$ 来自态密度,指数为跨隙激发玻尔兹曼因子。
+
+**3.** At a p–n junction carriers diffuse and recombine, leaving a depletion region with a built-in field; the bands bend by $eV_\text{bi}$ and the Fermi level is flat across the junction in equilibrium. · 耗尽区与内建电势 $V_\text{bi}$,平衡时费米能级拉平。
+
+**4.** Shockley $I=I_0(e^{eV/k_BT}-1)$. Forward bias lowers the barrier by $eV$, and the diffusion current over that barrier follows the Boltzmann factor $e^{eV/k_BT}$. · 肖克利二极管方程,指数源于势垒玻尔兹曼因子。
+
+**5.** n-type doping (donors) adds electrons and pushes $E_F$ up toward the conduction band; p-type (acceptors) adds holes and pulls $E_F$ down toward the valence band. · n 型费米能近导带,p 型近价带。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.6 — Magnetism & Spin Waves](./module-4.6-magnetism-and-spin-waves.md) · [Phase 4 index](./README.md) · Next: [Module 4.8 — Quantum Hall Effect](./module-4.8-quantum-hall-effect.md) →

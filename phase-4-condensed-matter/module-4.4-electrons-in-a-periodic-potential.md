@@ -55,6 +55,19 @@
 3. 写出一维链的紧束缚色散 $E(k) = E_0 - 2t \cos(ka)$。带宽由什么决定？能带底部附近的有效质量是多少？
 4. 写出能带填充与金属/绝缘体行为的判据。为何超导必须发生在金属中，以及本模块如何为 BCS 理论铺垫？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\psi_{\mathbf k}(\mathbf r)=e^{i\mathbf k\cdot\mathbf r}u_{\mathbf k}(\mathbf r)$ with $u_{\mathbf k}$ lattice-periodic. Since $[H,T_{\mathbf R}]=0$ for lattice translations, eigenstates are simultaneous eigenstates of $T_{\mathbf R}$ with eigenvalue $e^{i\mathbf k\cdot\mathbf R}$ — forcing the Bloch form. · 平移对称性迫使布洛赫形式,$u_{\mathbf k}$ 具晶格周期。
+
+**2.** At the zone boundary the degenerate plane waves $\mathbf k$ and $\mathbf k-\mathbf G$ are Bragg-coupled by the potential's Fourier component $V_{\mathbf G}$; mixing splits them by $2|V_{\mathbf G}|$. Only $V_{\mathbf G}$ matters because it connects exactly those two degenerate states. · 仅 $V_{\mathbf G}$ 耦合两简并平面波,开 $2|V_{\mathbf G}|$ 带隙。
+
+**3.** $E(k)=E_0-2t\cos(ka)$; bandwidth $W=4t$. Near the bottom $E\approx E_0-2t+ta^2k^2$, so $m^*=\hbar^2/(2ta^2)$. · 带宽 $4t$,带底 $m^*=\hbar^2/2ta^2$。
+
+**4.** A filled band is an insulator, a partially filled band a metal (odd electrons/cell ⟹ metal). Superconductivity needs mobile electrons at $E_F$ — a metal — which BCS then pairs. · 满带绝缘、半满金属;超导需金属态,BCS 配对费米面电子。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.3 — Lattice Vibrations & Phonons](./module-4.3-lattice-vibrations-and-phonons.md) · [Phase 4 index](./README.md) · Next: [Module 4.5 — Fermi Surface & Electron–Phonon Coupling](./module-4.5-fermi-surface-and-electron-phonon-coupling.md) →

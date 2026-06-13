@@ -45,6 +45,19 @@
 3. 当 $T \to T_c$ 时 $\lambda_L$ 如何随温度变化？趋近转变温度时迈斯纳效应发生什么变化？
 4. $\lambda_L$ 是超导性的两个基本长度尺度之一。写出另一个，说明它描述什么物理长度，并解释二者之比如何决定超导体的类型。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $B(x)=B_0 e^{-x/\lambda_L}$ with $\lambda_L=\sqrt{m/\mu_0 n_s e^2}$. · 磁场指数衰减,$\lambda_L=\sqrt{m/\mu_0 n_s e^2}$。
+
+**2.** The second London equation $\nabla\times\mathbf J_s=-(n_s e^2/m)\mathbf B$ with Ampère's law $\nabla\times\mathbf B=\mu_0\mathbf J_s$ gives $\nabla^2\mathbf B=\mathbf B/\lambda_L^2$ — the field decays exponentially into the bulk (Meissner expulsion). · 联立得 $\nabla^2 B=B/\lambda_L^2$,磁场被排出体内。
+
+**3.** $\lambda_L\propto1/\sqrt{n_s}$, and $n_s\to0$ as $T\to T_c$, so $\lambda_L\to\infty$: the field penetrates fully and the Meissner effect vanishes at $T_c$. · $T\to T_c$ 时 $\lambda_L\to\infty$,迈斯纳效应消失。
+
+**4.** The other scale is the coherence length $\xi$ (over which the order parameter varies); the ratio $\kappa=\lambda/\xi$ sets the type — $\kappa<1/\sqrt2$ type-I, $\kappa>1/\sqrt2$ type-II. · 另一尺度为相干长度 $\xi$;$\kappa=\lambda/\xi$ 判型。
+
+</details>
+
 ---
 
 ← Previous: [Module 5.1 — Phenomenology](./module-5.1-phenomenology.md) · [Phase 5 index](./README.md) · Next: [Module 5.3 — Ginzburg–Landau Theory](./module-5.3-ginzburg-landau-theory.md) →

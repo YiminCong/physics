@@ -47,6 +47,19 @@
 3. 解释为何晶体中的电子态用布里渊区内的波矢 $\mathbf{k}$ 标记而非整个 $\mathbf{k}$ 空间。"晶体动量"是什么，它在何种意义下守恒？
 4. FCC 正格子的倒格子与 BCC 格子有何关系？这对绘制费米面有何意义？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\mathbf b_i=2\pi\dfrac{\mathbf a_j\times\mathbf a_k}{\mathbf a_1\cdot(\mathbf a_2\times\mathbf a_3)}$, satisfying $\mathbf a_i\cdot\mathbf b_j=2\pi\delta_{ij}$. The first Brillouin zone is the Wigner–Seitz cell of the reciprocal lattice. · 倒格矢定义;第一布里渊区是倒格子的维格纳–赛茨原胞。
+
+**2.** $2d\sin\theta=n\lambda$ ⟺ the scattering wavevector $\Delta\mathbf k$ equals a reciprocal-lattice vector $\mathbf G$. They are equivalent: constructive interference from planes of spacing $d$ is the same condition as momentum transfer matching $\mathbf G$ (Laue = Bragg). · 布拉格条件等价于 $\Delta\mathbf k=\mathbf G$(劳厄=布拉格)。
+
+**3.** Bloch states with $\mathbf k$ and $\mathbf k+\mathbf G$ are physically identical, so $\mathbf k$ is defined modulo $\mathbf G$ — restrict to the BZ. Crystal momentum $\hbar\mathbf k$ is conserved only modulo $\hbar\mathbf G$ (umklapp), reflecting discrete rather than continuous translation symmetry. · $\mathbf k$ 模 $\mathbf G$ 等价;晶体动量模 $\hbar\mathbf G$ 守恒。
+
+**4.** The reciprocal of FCC is BCC (and vice versa), so an FCC crystal's BZ is the BCC Wigner–Seitz cell (a truncated octahedron) — the arena in which its Fermi surface is drawn. · FCC 的倒格子为 BCC,其布里渊区是费米面的舞台。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.1 — Electrons and Heat in Solids](./module-4.1-electrons-and-heat-in-solids.md) · [Phase 4 index](./README.md) · Next: [Module 4.3 — Lattice Vibrations & Phonons](./module-4.3-lattice-vibrations-and-phonons.md) →
