@@ -30,6 +30,13 @@
 
 **应用。** 谐振子梯形算符*原封不动地*作为声子算符重现于第 4 阶段，并出现在 BCS 哈密顿量（第 5 阶段）中。量子化能级和隧穿效应是后续所有内容的基础。
 
+## Key results · 核心结果
+
+- $\hat{H}\psi = E\psi$, $\psi(x,t) = \psi(x)\,e^{-iEt/\hbar}$ — stationary states · 定态
+- Harmonic oscillator $E_n = (n + \tfrac12)\hbar\omega$; infinite well $E_n = n^2\pi^2\hbar^2/2mL^2$ · 谐振子与无限深势阱能级
+- General solution $\Psi = \sum_n c_n\psi_n e^{-iE_n t/\hbar}$ · 一般解为定态叠加
+- Quantization comes from boundary conditions / normalizability · 量子化源于边界条件
+
 ---
 
 **Self-test (blank page)**

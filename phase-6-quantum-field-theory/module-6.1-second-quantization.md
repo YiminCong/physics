@@ -42,6 +42,13 @@
 
 **应用。** Fock 空间是普遍的舞台：非相对论凝聚态（第 4–5 阶段）、相对论 QFT（模块 6.5 和第 8 阶段）以及有限温度场论（模块 6.4）。Coleman 的 "Introduction to Many-Body Physics" 和 Fetter & Walecka 的 "Quantum Theory of Many-Particle Systems" 都以这一形式主义开篇，原因正在于此。
 
+## Key results · 核心结果
+
+- Field operator $\hat\psi(x) = \sum_k a_k\,\phi_k(x)$ creates/destroys particles at a point · 场算符
+- $[a_k, a^\dagger_{k'}] = \delta_{kk'}$ (bosons) / $\{c_k, c^\dagger_{k'}\} = \delta_{kk'}$ (fermions) · 玻色／费米(反)对易关系
+- Fock space handles variable particle number naturally · Fock 空间处理可变粒子数
+- One- and two-body operators rewrite cleanly in $a^\dagger, a$ — the language of many-body physics · 多体算符的统一语言
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）

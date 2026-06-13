@@ -90,6 +90,13 @@ which is far smaller than the classical equipartition value $\tfrac32 N k_B$ bec
 - **声子和光子**：两者均为玻色子（整数自旋）。它们的化学势为零（不守恒），故 $n_\text{BE}(\varepsilon) = 1/(e^{\varepsilon/k_B T} - 1)$ 直接给出光子的普朗克分布和声子模式的玻色占据——支配黑体辐射和晶格热容（模块 2.6、模块 4.3）。
 - **超导性**：库珀对是复合玻色子；它们的凝聚由 BCS 理论描述的费米面不稳定性所驱动（第 5 阶段）。
 
+## Key results · 核心结果
+
+- $\bar{n} = \dfrac{1}{e^{(\varepsilon - \mu)/k_B T} \mp 1}$ — Bose–Einstein ($-$) / Fermi–Dirac ($+$) · 玻色／费米分布
+- Both → Boltzmann $e^{-(\varepsilon-\mu)/k_B T}$ when occupancy is dilute · 稀疏极限退化为玻尔兹曼
+- $E_F = \dfrac{\hbar^2}{2m}(3\pi^2 n)^{2/3}$ — Fermi energy of the 3D electron gas · 费米能
+- Sommerfeld: $C_\text{el} = \tfrac{\pi^2}{3} k_B^2 T\, g(E_F) \propto T$ · 电子热容线性正比于 $T$
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）

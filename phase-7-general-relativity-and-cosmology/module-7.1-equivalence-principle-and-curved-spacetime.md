@@ -44,6 +44,13 @@
 
 **应用。** 这一概念飞跃——将引力视为几何——将自由落体的普遍性（所有物体无论成分如何都沿相同测地线运动，因为轨迹仅取决于度规）与引力的场论描述统一起来。它为完整的数学机制（模块 7.2）、测地线运动（模块 7.3）和爱因斯坦场方程（模块 7.4）奠定基础。它也标志着与牛顿引力（将引力视为瞬时力，见模块 1.5）的决裂：曲率信息以 $c$ 的速度传播。
 
+## Key results · 核心结果
+
+- Equivalence principle: free fall is locally indistinguishable from inertial motion · 等效原理
+- $ds^2 = \eta_{\mu\nu}\,dx^\mu dx^\nu$, $\eta_{\mu\nu} = \text{diag}(-1,+1,+1,+1)$ — flat (mostly-plus, GR convention) · 平坦度规(GR 号差)
+- Gravity is curvature of spacetime, not a force · 引力即时空弯曲
+- Free particles follow geodesics · 自由粒子沿测地线运动
+
 ---
 
 **Self-test (blank page)**

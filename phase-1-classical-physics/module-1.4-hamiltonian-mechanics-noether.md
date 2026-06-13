@@ -42,6 +42,13 @@ The state of the system is a point in **phase space** $(q, p)$, and Hamilton's e
 
 **应用。** 诺特定理可以说是整个物理学中最深刻的组织原理。在场论中，局域（规范）对称性产生电荷守恒和传力玻色子的存在（第 8 阶段）。量子力学的整体 U(1) 对称性产生电荷守恒；SU(2) 和 SU(3) 规范对称性产生弱力和强力。每一种基本相互作用都是某种对称性的结果——这一逻辑从这里开始。
 
+## Key results · 核心结果
+
+- $\dot q_i = \dfrac{\partial H}{\partial p_i}$, $\dot p_i = -\dfrac{\partial H}{\partial q_i}$ — Hamilton's equations; $H = T + V$ · 哈密顿方程
+- $\{f, g\}$ Poisson brackets → quantum commutators (Phase 3) · 泊松括号通往量子对易子
+- **Noether's theorem:** every continuous symmetry ⟹ a conserved quantity · 诺特定理:连续对称性给出守恒量
+- Time / space / rotation invariance ⟹ energy / momentum / angular momentum · 时间、空间、转动不变性给出能量、动量、角动量守恒
+
 ---
 
 **Self-test (blank page)**

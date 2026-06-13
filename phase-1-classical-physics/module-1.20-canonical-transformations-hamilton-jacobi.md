@@ -50,6 +50,13 @@
 
 **应用。** 作用量–角变量是可积系统和微扰理论的基础（KAM 定理，环面在小微扰下的持续性直接建立于其上）。绝热不变量解释了为何缓慢缩短的单摆其能量随频率变化，是带电粒子磁镜约束的基础，并在历史上启发了玻尔–索末菲量子化规则 $\oint p\,dq = nh$——通往旧量子论并最终通往正则量子化（模块 3.3）的桥梁。
 
+## Key results · 核心结果
+
+- Canonical transformations preserve Hamilton's equations; generating functions $F_1\ldots F_4$ relate old and new variables · 正则变换与生成函数
+- $H(q, \partial S/\partial q, t) + \partial S/\partial t = 0$ — Hamilton–Jacobi equation; $S$ is the action · 哈密顿–雅可比方程
+- Action–angle variables $(J, \theta)$ make integrable systems trivial; $J$ are adiabatic invariants · 作用量–角变量与绝热不变量
+- The HJ equation is the classical limit of the Schrödinger equation (eikonal) · HJ 方程是薛定谔方程的经典极限
+
 ---
 
 **Self-test (blank page)**

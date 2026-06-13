@@ -28,6 +28,13 @@
 
 **应用。** 原子结构与元素周期表；角动量机制在各处反复出现；**自旋对于**泡利不相容原理（3.5）和库珀对的单态结构（第 5 阶段）**至关重要**。
 
+## Key results · 核心结果
+
+- $\hat{L}^2$ eigenvalue $\hbar^2\ell(\ell+1)$, $\hat{L}_z$ eigenvalue $m\hbar$ — quantized angular momentum · 角动量量子化
+- Hydrogen $E_n = -13.6\,\text{eV}/n^2$ · 氢原子能级
+- Spin-$\tfrac12$ adds a two-state degree of freedom; state labels $(n,\ell,m,m_s)$ · 自旋与量子数
+- Spherical harmonics $Y_\ell^m$ separate angular from radial physics · 球谐函数分离角向与径向
+
 ---
 
 **Self-test (blank page)**

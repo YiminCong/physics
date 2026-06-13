@@ -88,6 +88,13 @@ where the **Lindblad operators** (jump operators) $L_k$ encode the system–envi
 
 **应用。** 退相干解释了从量子到经典的转变：环境纠缠抑制了指针基下的非对角元，使宏观叠加态在实际上不可观测。这将密度矩阵形式主义直接联系到量子测量理论（模块 3.3）和纠缠（模块 3.13）——退相干就是系统与不受控环境自由度之间的纠缠。在量子计算中，退相干是误差的主要来源；量子纠错码正是为对抗它而设计的。
 
+## Key results · 核心结果
+
+- $\rho = \sum_i p_i|\psi_i\rangle\langle\psi_i|$, $\langle A\rangle = \text{Tr}(\rho A)$ — pure ($\rho^2=\rho$) vs mixed states · 密度算符
+- $\rho_A = \text{Tr}_B(\rho_{AB})$ — reduced density matrix for a subsystem · 约化密度矩阵
+- $S(\rho) = -\text{Tr}(\rho\ln\rho)$ — von Neumann entropy (entanglement measure) · 冯·诺依曼熵
+- $\dot\rho = -\tfrac{i}{\hbar}[\hat{H},\rho] + \sum_k\gamma_k(L_k\rho L_k^\dagger - \tfrac12\{L_k^\dagger L_k,\rho\})$ — Lindblad master equation · Lindblad 主方程
+
 ---
 
 **Self-test (blank page)**

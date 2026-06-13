@@ -78,6 +78,13 @@ From $R^{\rho}{}_{\sigma\mu\nu}$ one constructs:
 
 **应用。** 克里斯托费尔符号进入描述粒子路径的测地线方程（模块 7.3）。爱因斯坦张量 $G_{\mu\nu}$ 完全由 $g_{\mu\nu}$ 及其前两阶导数构成，是爱因斯坦场方程（模块 7.4）的几何一侧。缩并后的比安基恒等式 $\nabla_\mu G^{\mu\nu} = 0$ 保证了能量-动量守恒 $\nabla_\mu T^{\mu\nu} = 0$ 作为几何的必然结果。这是弯曲时空完整的数学工具箱，将模块 0.6 的张量微积分与模块 1.13 的洛伦兹几何综合在一起。
 
+## Key results · 核心结果
+
+- $ds^2 = g_{\mu\nu}\,dx^\mu dx^\nu$ — the metric defines all geometry · 度规张量
+- $\Gamma^\rho{}_{\mu\nu} = \tfrac12 g^{\rho\sigma}(\partial_\mu g_{\sigma\nu} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu})$ — Christoffel symbols · 克里斯托费尔符号
+- $\nabla_\mu V^\nu = \partial_\mu V^\nu + \Gamma^\nu{}_{\mu\rho}V^\rho$ — covariant derivative · 协变导数
+- $[\nabla_\mu,\nabla_\nu]V^\rho = R^\rho{}_{\sigma\mu\nu}V^\sigma$ — Riemann curvature · 黎曼曲率张量
+
 ---
 
 **Self-test (blank page)**

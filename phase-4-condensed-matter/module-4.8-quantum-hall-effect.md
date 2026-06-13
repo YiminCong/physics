@@ -68,6 +68,13 @@ where $z_i = x_i + i y_i$ is the complex position of the $i$-th electron and $l_
 
 其中 $z_i = x_i + i y_i$ 是第 i 个电子的复数坐标，$l_B = \sqrt{\hbar/eB}$ 是磁长度。三次方 $(z_i - z_j)^3$ 同时强制费米子反对称性和稳定分数态的不可压缩性。该基态之上的准空穴激发携带电荷 $e/3$。劳夫林因此工作荣获诺贝尔奖（1998 年，与崔琦和施特默共享）。FQHE 是已知最干净的**拓扑序**和**分数统计**（任意子）的例子。
 
+## Key results · 核心结果
+
+- $E_n = \hbar\omega_c(n + \tfrac12)$, $\omega_c = eB/m^*$ — Landau levels · 朗道能级
+- Degeneracy per level $g = eB/h$; filling factor $\nu = n_s h/eB$ · 简并度与填充因子
+- $\sigma_{xy} = \nu\,e^2/h$ — quantized Hall conductance (IQHE) · 量子化霍尔电导
+- Laughlin $\Psi_{1/3} \propto \prod_{i<j}(z_i - z_j)^3 e^{-\sum|z_i|^2/4l_B^2}$ — fractional QHE · 分数量子霍尔
+
 ---
 
 **Self-test (blank page)**

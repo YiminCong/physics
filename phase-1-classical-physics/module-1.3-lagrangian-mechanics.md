@@ -42,6 +42,13 @@ A coordinate $q_i$ that does not appear explicitly in $L$ is **cyclic**; its con
 
 **应用。** 这种坐标自由度在有心力问题（模块 1.5）中不可或缺——极坐标将二维问题化为一维；在刚体动力学（模块 1.7）中，欧拉角是自然的广义坐标。
 
+## Key results · 核心结果
+
+- $S = \int L\, dt$, $L = T - V$; $\delta S = 0$ — principle of least action · 最小作用量原理
+- $\dfrac{d}{dt}\!\left(\dfrac{\partial L}{\partial \dot q_i}\right) - \dfrac{\partial L}{\partial q_i} = 0$ — Euler–Lagrange equations · 欧拉–拉格朗日方程
+- Generalized coordinates handle constraints automatically · 广义坐标自动处理约束
+- The action principle recurs everywhere: QM path integrals, field theory, GR · 作用量原理贯穿路径积分、场论、广义相对论
+
 ---
 
 **Self-test (blank page)**

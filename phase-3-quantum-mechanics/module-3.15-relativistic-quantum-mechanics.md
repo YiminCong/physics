@@ -78,6 +78,13 @@ $$ E_{nj} = m_e c^2 \left[ 1 + \left( \frac{\alpha}{n - (j+\tfrac12) + \sqrt{(j+
 
 **应用。** 狄拉克方程是**量子电动力学（QED）**及整个标准模型的单粒子基础。其场论推广（模块 6.5）用量子场替换波函数，自动纳入粒子的产生、湮灭及完整的重整化机制。此处推导的自旋–轨道耦合是原子光谱中观测到的精细结构的相对论起源，**兰姆位移**（超越狄拉克的 QED 修正），以及拓扑绝缘体（第 4 阶段）中**能带反转**背后的自旋–轨道相互作用。$g = 2$ 的结果经 QED 圈图修正为 $g = 2 + \alpha/\pi + \cdots$——这是物理学中检验最精确的预言。
 
+## Key results · 核心结果
+
+- Klein–Gordon $(\Box + (mc/\hbar)^2)\psi = 0$ — relativistic scalar wave equation · 克莱因–戈登方程
+- Dirac $(i\hbar\,\gamma^\mu\partial_\mu - mc)\psi = 0$ — first-order, requires 4-spinors · 狄拉克方程
+- Predicts spin-$\tfrac12$, $g = 2$, and antiparticles · 预言自旋、$g=2$ 与反粒子
+- Non-relativistic limit gives spin–orbit coupling and fine structure · 非相对论极限给出自旋–轨道耦合与精细结构
+
 ---
 
 **Self-test (blank page)**

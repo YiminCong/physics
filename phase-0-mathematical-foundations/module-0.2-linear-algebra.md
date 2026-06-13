@@ -74,6 +74,13 @@ These two orthonormal eigenvectors are the **$|{+}x\rangle, |{-}x\rangle$ basis*
 
 **应用。** 量子力学的核心是希尔伯特空间中的线性代数：物理**可观测量是厄米算符**，其实数本征值是唯一允许的测量结果；**时间演化是幺正的**（模块 3.10），从而保持概率守恒。谱定理保证任何可观测量都可以被对角化，其本征态可用作基——这正是能量本征态和动量本征态在模块 3.3 中如此核心的原因。此外，寻找耦合振子的**简正模式**（模块 1.6）恰好就是质量加权刚度矩阵的本征值问题。
 
+## Key results · 核心结果
+
+- $A v = \lambda v$ — eigenvalue problem; $\det(A - \lambda I) = 0$ · 本征值问题与特征方程
+- Hermitian operators ($A = A^\dagger$) have real eigenvalues and orthogonal eigenvectors — the basis of QM observables · 厄米算符本征值为实、本征矢正交
+- Spectral decomposition $A = \sum_n \lambda_n |n\rangle\langle n|$ · 谱分解
+- Pauli matrices $\sigma_x, \sigma_y, \sigma_z$ — the spin-$\tfrac12$ building blocks · 泡利矩阵
+
 ---
 
 ## Module 0.2 Self-Test (blank page)

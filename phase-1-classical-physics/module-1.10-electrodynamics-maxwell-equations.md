@@ -67,6 +67,13 @@ The gauge transformations $\phi \to \phi - \partial\chi/\partial t$, $\mathbf{A}
 
 **应用。** 势 $(\phi, \mathbf{A})$ 自然地统一为狭义相对论中的四矢量势 $A^\mu$（模块 1.15），使规范不变性明显协变。它们直接进入量子力学——带电粒子的正则动量为 $\mathbf{p} - q\mathbf{A}$——并且是规范场论（第 8 阶段）的基本对象。
 
+## Key results · 核心结果
+
+- $\nabla\times\mathbf{E} = -\partial_t\mathbf{B}$, $\nabla\times\mathbf{B} = \mu_0\mathbf{J} + \mu_0\epsilon_0\,\partial_t\mathbf{E}$ — Faraday + displacement current complete Maxwell's equations · 法拉第与位移电流补全麦克斯韦方程
+- $\nabla^2\mathbf{E} = \mu_0\epsilon_0\,\partial_t^2\mathbf{E}$ — light is a wave, $c = 1/\sqrt{\mu_0\epsilon_0}$ · 光是波,速度 $c=1/\sqrt{\mu_0\epsilon_0}$
+- $\mathbf{E} = -\nabla\phi - \partial_t\mathbf{A}$, $\mathbf{B} = \nabla\times\mathbf{A}$ — potentials · 电磁势
+- Gauge freedom in $(\phi, \mathbf{A})$ — the seed of gauge theory (Phase 8) · 规范自由度通往规范理论
+
 ---
 
 **Self-test (blank page)**

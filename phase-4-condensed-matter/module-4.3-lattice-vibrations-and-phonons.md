@@ -28,6 +28,13 @@
 
 **应用。** 声子传递热量并散射电子（造成电阻）。最重要的是，**电子–声子相互作用**提供了将电子束缚成库珀对的*吸引力*（传统超导体中）。**同位素效应**——$T_c \propto M^{-1/2}$ 对离子质量——是声子驱动超导性的确凿证据（第 5 阶段）。
 
+## Key results · 核心结果
+
+- $\omega(k) = 2\sqrt{K/M}\,|\sin(ka/2)|$ — dispersion of the 1D chain · 一维链色散关系
+- Acoustic vs optical branches; a basis of $p$ atoms gives $3p$ branches · 声学支与光学支
+- Phonons = quantized normal modes (one harmonic oscillator per mode, 1.6 → 3.2) · 声子即量子化简正模
+- Phonons carry heat and mediate the electron attraction behind BCS · 声子输运热并介导 BCS 吸引
+
 ---
 
 **Self-test (blank page)**

@@ -32,6 +32,13 @@
 
 **应用。** 纠缠不仅是一个悖论，更是一种**资源**：它驱动**量子计算**、**量子隐形传态**和**量子密码学**，并是量子信息理论的基础。它直接联系到单态/三重态结构（模块 3.11）、全同粒子关联（模块 3.5），以及——作为宏观相干态——超导性中的配对凝聚体（第 5 阶段）。
 
+## Key results · 核心结果
+
+- Singlet $(\uparrow\downarrow - \downarrow\uparrow)/\sqrt2$ — an entangled, non-factorizable state · 纠缠单态不可分解
+- EPR: entanglement gives perfectly correlated distant measurements · EPR 关联
+- Bell/CHSH: local hidden variables obey $\langle S\rangle \leq 2$; QM gives $2\sqrt2$ · 贝尔不等式与量子越界
+- Experiment confirms $\langle S\rangle > 2$ — nature is not locally realistic · 实验排除定域实在论
+
 ---
 
 **Self-test (blank page)**

@@ -48,6 +48,13 @@ $$ s^2 = (c\,\Delta t)^2 - (\Delta x)^2 - (\Delta y)^2 - (\Delta z)^2 $$
 
 **应用。** 闵可夫斯基的几何表述使狭义相对论成为四维伪黎曼几何的理论，推广到广义相对论（第 7 阶段）中的弯曲时空。这里发展的四矢量形式（四位置 $x^\mu$、四速度、四动量）是所有相对论物理的语言：粒子运动学（模块 1.14）、协变电磁学（模块 1.15）以及量子场论（第 6 阶段）。
 
+## Key results · 核心结果
+
+- $x' = \gamma(x - vt)$, $t' = \gamma(t - vx/c^2)$, $\gamma = 1/\sqrt{1 - v^2/c^2}$ — Lorentz transformation · 洛伦兹变换
+- $s^2 = (c\,\Delta t)^2 - \Delta\mathbf{x}^2$ — invariant interval (all observers agree) · 不变间隔
+- Time dilation $\Delta t = \gamma\,\Delta\tau$, length contraction $L = L_0/\gamma$ · 时间膨胀与长度收缩
+- Simultaneity is relative; the constant $c$ is built into spacetime geometry · 同时性的相对性
+
 ---
 
 **Self-test (blank page)**

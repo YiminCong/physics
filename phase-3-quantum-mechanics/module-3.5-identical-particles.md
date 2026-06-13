@@ -24,6 +24,13 @@
 
 **应用。** 通往固体和超导性的桥梁：**自由电子气**、能带填充和**费米面**（第 4 阶段）都由此而来。**库珀对**（第 5 阶段）是两个费米子结合成表现出玻色子行为的复合体——正是这里的交换规则使其特殊。
 
+## Key results · 核心结果
+
+- $\psi_S \propto \psi_a(1)\psi_b(2) + \psi_a(2)\psi_b(1)$ (bosons) vs $\psi_A \propto \psi_a(1)\psi_b(2) - \psi_a(2)\psi_b(1)$ (fermions) · 对称／反对称波函数
+- Pauli exclusion: two fermions cannot share a state ($\psi_A \to 0$) · 泡利不相容
+- Exchange symmetry produces an effective exchange force · 交换对称性给出交换力
+- Many-fermion states ⟶ Slater determinant ⟶ second quantization (3.12) · 通往斯莱特行列式与二次量子化
+
 ---
 
 **Self-test (blank page)**

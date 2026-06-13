@@ -28,6 +28,13 @@
 
 **应用。** 能带填充解释了导电性：**部分填充的能带 → 金属**；**能隙以下的满带 → 绝缘体/半导体**。超导需要金属（费米能级处存在电子），因此本模块决定了哪些材料甚至具备候选资格，并确定了 BCS 理论所依赖的正常态电子结构。
 
+## Key results · 核心结果
+
+- Bloch's theorem $\psi_k(x) = e^{ikx}u_k(x)$ — eigenstates in a periodic potential · 布洛赫定理
+- $E(k) = E_0 - 2t\cos(ka)$ — tight-binding band · 紧束缚能带
+- Band gaps open at Brillouin-zone boundaries — metal vs insulator · 带隙区分金属与绝缘体
+- Nearly-free vs tight-binding are the two complementary pictures · 近自由与紧束缚两种图像
+
 ---
 
 **Self-test (blank page)**

@@ -22,6 +22,15 @@
 
 **应用。** 这证明了正常态必定重组为配对态，从而为完整的 BCS 多体处理（5.5）提供了动机。配对 $(k\uparrow, -k\downarrow)$ 正是模块 3.11 中的**自旋单态**，用模块 3.12 的算符写出。
 
+## Key results · 核心结果
+
+- Two electrons above a filled Fermi sea bind for *any* attractive interaction · 费米海之上任意吸引都能成对
+- Binding energy $\propto e^{-1/(g\,N(0))}$ — non-perturbative in the coupling $g$ · 结合能对耦合非微扰
+- The Fermi sea is unstable to pair formation — the gateway to BCS · 费米海对配对不稳定,通往 BCS
+- Pairing is between $(\mathbf{k}\uparrow, -\mathbf{k}\downarrow)$ · 配对发生于 $(\mathbf{k}\uparrow,-\mathbf{k}\downarrow)$
+
+---
+
 **Self-test (blank page)**
 
 1. State Cooper's theorem: two electrons just above a filled Fermi sea, subject to any arbitrarily weak attraction, form a bound pair. Why is the filled Fermi sea essential — would the same argument work in vacuum?

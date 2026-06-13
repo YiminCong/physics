@@ -22,6 +22,13 @@
 
 **应用。** 海森堡绘景和算符运动方程是多体理论和场论（第 6 阶段）的自然语言；路径积分直接将量子动力学与经典作用量联系起来。
 
+## Key results · 核心结果
+
+- $\hat{U}(t) = e^{-i\hat{H}t/\hbar}$ — unitary time evolution · 幺正时间演化
+- Heisenberg picture: $d\hat{A}/dt = (i/\hbar)[\hat{H},\hat{A}]$ · 海森堡绘景运动方程
+- Schrödinger vs Heisenberg pictures give identical predictions · 两种绘景预言一致
+- Propagator $\langle x'|\hat{U}|x\rangle \sim e^{iS/\hbar}$ — the bridge to path integrals (6.4) · 传播子通往路径积分
+
 ---
 
 **Self-test (blank page)**

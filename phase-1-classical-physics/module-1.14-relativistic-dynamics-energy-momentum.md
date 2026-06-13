@@ -48,6 +48,13 @@ or equivalently $E^2 = (pc)^2 + (mc^2)^2$. For a photon $m = 0$, so $E = pc = h\
 
 **应用。** 相对论运动学支撑着高能物理中的每一个计算。粒子产生的阈能（例如 $e^+ e^- \to \mu^+ \mu^-$ 要求 $E_\text{cm} \geq 2m_\mu c^2$）、短寿命粒子的不变质量重建以及粒子衰变运动学，都使用 $E^2 = (pc)^2 + (mc^2)^2$ 和四动量守恒。洛伦兹协变形式直接连接到量子场论（第 6 阶段）和标准模型（第 8 阶段）。
 
+## Key results · 核心结果
+
+- $p^\mu = (E/c, \mathbf{p})$ — four-momentum · 四动量
+- $p^\mu p_\mu = (mc)^2 \Rightarrow E^2 = (pc)^2 + (mc^2)^2$ — energy–momentum relation · 能量–动量关系
+- $E = \gamma mc^2$, rest energy $E = mc^2$ · 总能与静能
+- Conservation of four-momentum governs collisions and decays · 四动量守恒支配碰撞与衰变
+
 ---
 
 **Self-test (blank page)**
