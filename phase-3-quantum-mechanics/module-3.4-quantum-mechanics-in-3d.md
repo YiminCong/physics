@@ -49,6 +49,17 @@
 2. 写出氢原子的能级 $E_n$，并说明三个量子数 ($n$, $\ell$, $m$) 及其取值范围。
 3. 描述自旋-$\tfrac12$：$\hat{S}_z$ 的本征值是什么？如何用泡利矩阵表示自旋态？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\hat{L}^2 Y_\ell^m=\hbar^2\ell(\ell+1)Y_\ell^m$ and $\hat{L}_z Y_\ell^m=m\hbar\,Y_\ell^m$, with $\ell=0,1,2,\dots$ and $m=-\ell,-\ell+1,\dots,+\ell$ ($2\ell+1$ values). · 角动量本征值 $\hbar^2\ell(\ell+1)$ 与 $m\hbar$,$m=-\ell,\dots,\ell$。
+
+**2.** $E_n=-13.6\,\text{eV}/n^2$, with $n=1,2,\dots$; $\ell=0,1,\dots,n-1$; $m=-\ell,\dots,+\ell$. · 氢原子 $E_n=-13.6\,\text{eV}/n^2$;$\ell<n$,$|m|\le\ell$。
+
+**3.** Spin-$\tfrac12$: $\hat{S}_z$ has eigenvalues $\pm\hbar/2$ on $|\!\uparrow\rangle=(1,0)^T$, $|\!\downarrow\rangle=(0,1)^T$; the spin operator is $\hat{\mathbf{S}}=\tfrac{\hbar}{2}\boldsymbol{\sigma}$ with $\boldsymbol{\sigma}$ the Pauli matrices. · 自旋-½:$\hat S_z$ 本征值 $\pm\hbar/2$,$\hat{\mathbf S}=\tfrac\hbar2\boldsymbol\sigma$。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.3 — Formalism](./module-3.3-formalism.md) · [Phase 3 index](./README.md) · Next: [Module 3.5 — Identical Particles](./module-3.5-identical-particles.md) →

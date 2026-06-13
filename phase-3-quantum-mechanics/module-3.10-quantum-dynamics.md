@@ -43,6 +43,17 @@
 2. 写出算符 $\hat{A}(t)$ 的海森堡运动方程。将其应用于谐振子的湮灭算符 $a$，证明 $a(t) = a(0)\, e^{-i\omega t}$。
 3. 用文字描述费曼路径积分：对什么求和？每条路径的权重是什么？经典作用量 $S$ 如何出现在这一表述中？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\hat{U}(t)=e^{-i\hat{H}t/\hbar}$. Since $\hat{H}=\hat{H}^\dagger$, $\hat{U}^\dagger\hat{U}=e^{+i\hat{H}t/\hbar}e^{-i\hat{H}t/\hbar}=\mathbb{1}$, so $\hat{U}$ is unitary; then $\langle\psi(t)|\psi(t)\rangle=\langle\psi(0)|\psi(0)\rangle$ is constant — total probability is conserved. · $\hat U=e^{-i\hat Ht/\hbar}$ 幺正,故总概率守恒。
+
+**2.** Heisenberg: $\dfrac{d\hat{A}}{dt}=\dfrac{i}{\hbar}[\hat{H},\hat{A}]$. For the oscillator $[\hat{H},a]=-\hbar\omega\,a$, so $\dot{a}=-i\omega a\Rightarrow a(t)=a(0)e^{-i\omega t}$. · 海森堡方程对 $a$ 给出 $a(t)=a(0)e^{-i\omega t}$。
+
+**3.** The path integral sums over *all* paths from initial to final configuration; each path carries the phase weight $e^{iS/\hbar}$ with $S=\int L\,dt$ the classical action. Stationary-phase ($\delta S=0$) makes the classical path dominate in the $\hbar\to0$ limit. · 路径积分对所有路径求和,权重 $e^{iS/\hbar}$,稳相极限给出经典路径。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.9 — Fundamental Concepts](./module-3.9-fundamental-concepts.md) · [Phase 3 index](./README.md) · Next: [Module 3.11 — Angular Momentum, Advanced](./module-3.11-angular-momentum-advanced.md) →

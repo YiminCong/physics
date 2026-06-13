@@ -45,6 +45,17 @@
 2. 写出费米子处于单粒子态 $\psi_a$ 和 $\psi_b$ 时的两粒子反对称态 $\psi_A$。明确证明当 $a = b$ 时 $\psi_A$ 为零，从而推导出泡利不相容原理。
 3. 什么是斯莱特行列式？它如何将两粒子反对称态推广到 $N$ 个费米子的情形？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Identical particles are indistinguishable, so exchanging them leaves $|\psi|^2$ unchanged; the exchange operator has eigenvalue $\pm1$. Symmetric ($+$) states are bosons (integer spin), antisymmetric ($-$) are fermions (half-integer spin) — the spin-statistics connection. · 交换不改变 $|\psi|^2$,本征值 $\pm1$:对称为玻色子,反对称为费米子。
+
+**2.** $\psi_A=\tfrac{1}{\sqrt2}[\psi_a(1)\psi_b(2)-\psi_a(2)\psi_b(1)]$. Setting $a=b$ gives $\psi_A=0$: two fermions cannot occupy the same single-particle state — the Pauli exclusion principle. · 令 $a=b$ 得 $\psi_A=0$,即泡利不相容。
+
+**3.** A Slater determinant writes the $N$-fermion state as $\det[\psi_i(j)]/\sqrt{N!}$. Swapping two particles swaps two columns (sign flip ⟹ antisymmetry); two identical states give two equal rows ⟹ determinant $=0$ ⟹ Pauli. · 斯莱特行列式 $\det[\psi_i(j)]/\sqrt{N!}$ 自动反对称,两态相同则为零。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.4 — Quantum Mechanics in 3D](./module-3.4-quantum-mechanics-in-3d.md) · [Phase 3 index](./README.md) · Next: [Module 3.6 — Time-Independent Perturbation Theory](./module-3.6-time-independent-perturbation-theory.md) →

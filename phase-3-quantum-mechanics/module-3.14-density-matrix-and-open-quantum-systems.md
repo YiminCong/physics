@@ -113,6 +113,21 @@ where the **Lindblad operators** (jump operators) $L_k$ encode the system–envi
 4. 写出 Lindblad 主方程，指明各项，并解释"马尔可夫"的含义。
 5. 对速率为 $\gamma$ 的量子比特纯退相位，求解 $\rho_{01}(t)$ 并定义 $T_2$。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\rho$ is (i) Hermitian, (ii) positive semidefinite ($\rho\ge0$), (iii) unit trace ($\text{Tr}\,\rho=1$). Pure iff $\rho^2=\rho$ (equivalently $\text{Tr}\,\rho^2=1$); mixed if $\text{Tr}\,\rho^2<1$. · 厄米、半正定、迹为 1;纯态 $\rho^2=\rho$,否则混态。
+
+**2.** $\langle A\rangle=\text{Tr}(\rho A)$. For a pure state $\rho=|\psi\rangle\langle\psi|$: $\text{Tr}(|\psi\rangle\langle\psi|A)=\langle\psi|A|\psi\rangle$, the usual formula. · $\langle A\rangle=\text{Tr}(\rho A)$,纯态退化为 $\langle\psi|A|\psi\rangle$。
+
+**3.** $\rho_A=\text{Tr}_B\rho_{AB}=\sum_j\langle b_j|\rho_{AB}|b_j\rangle$. For $|\Phi^+\rangle=\tfrac1{\sqrt2}(|00\rangle+|11\rangle)$: $\rho_A=\tfrac12(|0\rangle\langle0|+|1\rangle\langle1|)=\tfrac12\mathbb{1}$, so $S(\rho_A)=\ln2$ — maximally entangled (1 bit). · 约化得 $\rho_A=\tfrac12\mathbb 1$,$S=\ln2$,最大纠缠。
+
+**4.** $\dot\rho=-\tfrac{i}{\hbar}[\hat{H},\rho]+\sum_k\gamma_k\big(L_k\rho L_k^\dagger-\tfrac12\{L_k^\dagger L_k,\rho\}\big)$: the commutator is unitary evolution; the dissipator gives decoherence/dissipation through jump operators $L_k$ at rates $\gamma_k$. "Markovian" = memoryless (bath correlations decay fast compared with the system's dynamics). · 第一项幺正演化,第二项耗散;马尔可夫即无记忆。
+
+**5.** Pure dephasing gives $\dot\rho_{01}=-\gamma\rho_{01}$, so $\rho_{01}(t)=\rho_{01}(0)e^{-\gamma t}$; the coherence time is $T_2=1/\gamma$. · 纯退相干 $\rho_{01}(t)=\rho_{01}(0)e^{-\gamma t}$,$T_2=1/\gamma$。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.13 — Entanglement, EPR & Bell's Theorem](./module-3.13-entanglement-epr-and-bell.md) · [Phase 3 index](./README.md) · Next: [Module 3.15 — Relativistic Quantum Mechanics](./module-3.15-relativistic-quantum-mechanics.md) →

@@ -53,6 +53,19 @@
 3. 定义谐振子的梯形算符 $a$ 和 $a^\dagger$，并写出能谱 $E_n$。为什么零点能 $\tfrac12\hbar\omega$ 在物理上有重要意义？
 4. 定性描述量子隧穿：粒子如何能穿透 $E < V$ 的势垒区域？什么决定透射概率？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Separation gives $\psi(x,t)=\psi(x)e^{-iEt/\hbar}$; the spatial part obeys the time-independent Schrödinger equation $\hat{H}\psi=E\psi$, i.e. $-\frac{\hbar^2}{2m}\psi''+V\psi=E\psi$. · 分离变量得 $\psi(x,t)=\psi(x)e^{-iEt/\hbar}$,空间部分满足定态方程 $\hat H\psi=E\psi$。
+
+**2.** Infinite well of width $L$: $E_n=\dfrac{n^2\pi^2\hbar^2}{2mL^2}$, $\psi_n(x)=\sqrt{2/L}\,\sin(n\pi x/L)$, $n=1,2,\dots$ · 无限深方阱:$E_n=n^2\pi^2\hbar^2/2mL^2$,$\psi_n=\sqrt{2/L}\sin(n\pi x/L)$。
+
+**3.** $a=\sqrt{\tfrac{m\omega}{2\hbar}}(x+\tfrac{i}{m\omega}p)$, $a^\dagger$ its conjugate; $E_n=(n+\tfrac12)\hbar\omega$. The zero-point energy $\tfrac12\hbar\omega$ cannot be removed — the uncertainty principle forbids a particle from sitting at rest at the potential minimum (it shows up in zero-point motion and the Casimir effect). · 梯形算符给出 $E_n=(n+\tfrac12)\hbar\omega$;零点能 $\tfrac12\hbar\omega$ 源于测不准原理,不可消除。
+
+**4.** In the region $E<V$ the wavefunction does not stop abruptly but decays exponentially, $\psi\sim e^{-\kappa x}$ with $\kappa=\sqrt{2m(V-E)}/\hbar$, so a finite amplitude survives beyond the barrier. The transmission is $T\sim e^{-2\kappa a}$ — exponentially sensitive to barrier width $a$, height $V-E$, and mass $m$. · 势垒内波函数指数衰减,透射概率 $T\sim e^{-2\kappa a}$,对宽度、高度、质量指数敏感。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.1 — The Wave Function](./module-3.1-the-wave-function.md) · [Phase 3 index](./README.md) · Next: [Module 3.3 — Formalism](./module-3.3-formalism.md) →

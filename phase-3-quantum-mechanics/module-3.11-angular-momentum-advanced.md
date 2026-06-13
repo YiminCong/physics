@@ -45,6 +45,17 @@
 2. 合成两个自旋-$\tfrac12$ 粒子。列出四个直积基态，用 $|\uparrow\rangle$ 和 $|\downarrow\rangle$ 明确写出单态和三重态。每个态的总自旋量子数 $(S, M)$ 是多少？
 3. 什么是克莱布施–高登系数？当合成角动量 $j_1$ 和 $j_2$ 时，总角动量 $j$ 的允许取值规则是什么？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $[\hat{J}_i,\hat{J}_j]=i\hbar\,\varepsilon_{ijk}\hat{J}_k$; $J_\pm=\hat{J}_x\pm i\hat{J}_y$ act as $J_\pm|j,m\rangle=\hbar\sqrt{j(j+1)-m(m\pm1)}\,|j,m\pm1\rangle$ (raising/lowering $m$). · $J_\pm$ 升降 $m$,系数 $\hbar\sqrt{j(j+1)-m(m\pm1)}$。
+
+**2.** Product basis $\{\uparrow\uparrow,\uparrow\downarrow,\downarrow\uparrow,\downarrow\downarrow\}$. Singlet $(S,M)=(0,0)$: $\tfrac{1}{\sqrt2}(\uparrow\downarrow-\downarrow\uparrow)$. Triplet $S=1$: $\uparrow\uparrow\,(M{=}1)$, $\tfrac{1}{\sqrt2}(\uparrow\downarrow+\downarrow\uparrow)\,(M{=}0)$, $\downarrow\downarrow\,(M{=}{-}1)$. · 单态 $(0,0)$;三重态 $S=1$,$M=1,0,-1$。
+
+**3.** Clebsch–Gordan coefficients $\langle j_1 m_1; j_2 m_2 | j\,m\rangle$ expand the coupled basis $|j,m\rangle$ in the product basis. Allowed totals: $j=|j_1-j_2|,\dots,j_1+j_2$ (triangle rule), with $m=m_1+m_2$. · CG 系数;$j$ 取 $|j_1-j_2|$ 到 $j_1+j_2$,$m=m_1+m_2$。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.10 — Quantum Dynamics](./module-3.10-quantum-dynamics.md) · [Phase 3 index](./README.md) · Next: [Module 3.12 — Second Quantization](./module-3.12-second-quantization.md) →
