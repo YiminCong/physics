@@ -28,6 +28,13 @@
 
 **应用。** 色是 **QCD** 的荷(模块 8.3);来自色的因子 3 由 R 比值 $\sigma(e^+e^- \to \text{强子})/\sigma(e^+e^- \to \mu^+\mu^-)$ 和 $\pi^0 \to \gamma\gamma$ 率(模块 6.9)证实。夸克模型对整个强子谱进行分类,是 QCD 的静态、低能侧面,而其动态、高能侧面由深度非弹性散射探测(模块 8.9)。
 
+## Key results · 核心结果
+
+- Six quarks ($u,d,c,s,t,b$); $u,d,s$ form an approximate flavor $SU(3)$ · 六味夸克
+- Mesons $3\otimes\bar3=8\oplus1$; baryons $3\otimes3\otimes3=10\oplus8\oplus8\oplus1$ · 介子与重子多重态
+- $\Delta^{++}=uuu$ requires color to satisfy Fermi statistics · 色拯救泡利原理
+- $R=3\sum q^2$ confirms three colors · $R$ 比值验证三色
+
 ---
 
 **Self-test (blank page)**
@@ -43,6 +50,16 @@
 2. 将介子($3 \otimes \bar{3}$)和重子($3 \otimes 3 \otimes 3$)分解为多重态;说出八重态与十重态。
 3. 为何 $\Delta^{++}$ 需要色?色如何恢复费米统计?
 4. 列举来自色的因子 3 的两个实验验证。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $u,c,t$ have charge $+\tfrac23$; $d,s,b$ have $-\tfrac13$. The three light quarks $u,d,s$ form an approximate flavor $SU(3)$ (since $m_{u,d,s}\ll\Lambda_\text{QCD}$). · 六味电荷;$u,d,s$ 近似 $SU(3)$。
+**2.** Mesons $3\otimes\bar3=8\oplus1$ (octet + singlet); baryons $3\otimes3\otimes3=10\oplus8\oplus8\oplus1$ — the spin-$\tfrac32$ decuplet and spin-$\tfrac12$ octet. · 介子八重态,重子十重态与八重态。
+**3.** $\Delta^{++}=uuu$ (spin-$\tfrac32$, symmetric spin & space) would be totally symmetric — forbidden for identical fermions. The antisymmetric color factor $\varepsilon_{ijk}$ makes the total wavefunction antisymmetric, restoring Fermi statistics. · 色因子 $\varepsilon_{ijk}$ 恢复泡利。
+**4.** $R=\sigma(e^+e^-\to\text{hadrons})/\sigma(\to\mu^+\mu^-)=3\sum q^2$ matches data; the $\pi^0\to\gamma\gamma$ rate ($\propto N_c^2$) confirms $N_c=3$. · $R$ 与 $\pi^0$ 衰变证实三色。
+
+</details>
 
 ---
 

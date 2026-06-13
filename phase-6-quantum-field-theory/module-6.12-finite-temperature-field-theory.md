@@ -102,6 +102,13 @@ $$ \frac{F}{V} = -\frac{\pi^2}{90} g T^4, \qquad P = -\frac{F}{V} = \frac{\pi^2}
 
 **应用。** KMS（久保–马丁–施温格）条件表明：热格林函数在虚时间中的（反）周期性*等价于*系统处于温度 T 的热平衡——它是此形式中平衡的严格定义。虚时间（松原）形式是有限温度 QFT、重离子碰撞中探测的夸克–胶子等离子体物态方程，以及驱动早期宇宙电弱相变的高温对称性恢复（模块 8.6）的基础；同样的 $T^4$ 标度支配早期宇宙热力学。在凝聚态中它就是模块 6.2 的松原格林函数机器，并决定 BCS 能隙的温度依赖（模块 5.5）。对真正的非平衡问题，虚时间形式被实时的 **Keldysh（闭合时间路径）**形式取代。
 
+## Key results · 核心结果
+
+- $Z=\text{Tr}\,e^{-\beta H}$ → Euclidean path integral on a $\tau$-circle of length $\beta$ · 欧氏时间圆
+- Bosons periodic, fermions antiperiodic in $\tau$ · 玻色周期、费米反周期
+- Matsubara frequencies: $\omega_n=2\pi nT$ (boson), $(2n+1)\pi T$ (fermion) · 松原频率
+- Massless gas $F/V=-(\pi^2/90)gT^4$ (Stefan–Boltzmann) · 无质量气体自由能
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）
@@ -117,6 +124,16 @@ $$ \frac{F}{V} = -\frac{\pi^2}{90} g T^4, \qquad P = -\frac{F}{V} = \frac{\pi^2}
 2. 从（反）周期性边界条件推导玻色与费米松原频率。为何频率是离散而非连续的？
 3. 写出玻色松原求和 $T \sum_n 1/(\omega_n^2 + E^2)$ 的结果。玻色–爱因斯坦与费米–狄拉克占据数如何从 $\coth$ 与 $\tanh$ 中涌现？
 4. 对无质量玻色气体，从自由能推导 $F/V = -(\pi^2/90) g T^4$。KMS 条件是什么？松原形式的实时替代方案是什么？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $Z=\text{Tr}\,e^{-\beta H}$ is a path integral with $\tau\in[0,\beta]$ whose trace identifies the endpoints → a circle of circumference $\beta$. The trace makes bosons periodic, while anticommuting (Grassmann) fermions are antiperiodic, $\psi(\beta)=-\psi(0)$. · 迹使玻色周期、费米反周期。
+**2.** (Anti)periodicity quantizes the frequencies: bosons $\omega_n=2\pi nT$, fermions $\omega_n=(2n+1)\pi T$. Discrete because the $\tau$-direction is a finite compact circle (Fourier series). · 边界条件给离散松原频率。
+**3.** $T\sum_n\frac1{\omega_n^2+E^2}=\frac1{2E}\coth\frac{E}{2T}=\frac1{2E}(1+2n_B(E))$; the $\coth$/$\tanh$ generate the Bose–Einstein / Fermi–Dirac occupations. · 松原求和给出 BE/FD 占据数。
+**4.** Massless boson gas $F/V=-(\pi^2/90)gT^4$ ($g$ = degrees of freedom), the Stefan–Boltzmann result. KMS: thermal correlators are (anti)periodic in imaginary time. Real-time alternative: the Schwinger–Keldysh (closed-time-path) formalism. · 自由能;KMS 条件与施温格–凯尔迪什形式。
+
+</details>
 
 ---
 

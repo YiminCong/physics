@@ -32,6 +32,13 @@
 
 **应用。** 非对角长程序是金兹堡–朗道序参量（模块 5.3）和玻色–爱因斯坦凝聚（模块 2.6）背后的精确表述：它准确说明了"宏观量子相干"的含义。这些精确结果——可积性和非对角长程序——是现代凝聚态和冷原子物理的严格骨架，也是本阶段近似场论机器的检验场。
 
+## Key results · 核心结果
+
+- Yang–Baxter equation ⟹ integrability (factorized scattering) · 杨–巴克斯特方程与可积性
+- Bethe ansatz, transfer-matrix methods rely on it · 贝特拟设
+- Lee–Yang zeros: phase transitions from partition-function zeros · 李–杨零点
+- ODLRO; Byers–Yang $h/2e$ flux period reveals pairing · 非对角长程序与 $h/2e$
+
 ---
 
 **Self-test (blank page)**
@@ -45,6 +52,15 @@
 1. 杨–巴克斯特方程保证了什么？哪些求解方法依赖于它？
 2. 用配分函数零点的语言陈述相变的李–杨图像。
 3. 定义非对角长程序，并解释 Byers–Yang $h/2e$ 磁通量子如何揭示电子配对。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Yang–Baxter guarantees that multi-particle scattering factorizes consistently into two-body events (order-independent) → integrability; the Bethe ansatz and quantum inverse-scattering/transfer-matrix methods rely on it. · 散射可因子化,贝特拟设依赖它。
+**2.** Lee–Yang: the partition function's zeros in the complex fugacity (or field) plane pinch the real axis in the thermodynamic limit; a phase transition occurs exactly where they touch (non-analyticity of $F$). · 配分函数零点触及实轴处发生相变。
+**3.** ODLRO: the reduced density matrix stays finite at large separation — the hallmark of condensation. The Byers–Yang period $h/2e$ (not $h/e$) shows the carriers are charge-$2e$ pairs. · 非对角长程序;$h/2e$ 揭示电子配对。
+
+</details>
 
 ---
 

@@ -38,6 +38,13 @@
 
 **应用。** 戈德斯通玻色子出现在任何连续对称性破缺之处。$\pi$ 介子是 QCD 中自发破缺手征 $SU(2)\times SU(2) \to SU(2)$ 的（赝）戈德斯通玻色子——轻但非严格无质量，因为夸克质量显式破缺手征对称性（模块 8.7）。磁振子（自旋波）是铁磁体或反铁磁体破缺的自旋旋转对称性的戈德斯通模（模块 4.6）；声子是晶体中破缺平移对称性的戈德斯通玻色子。该定理有两个重要的限定条件：在低维中，本应的戈德斯通模涨落如此剧烈以至于*完全阻止*对称性破缺（Mermin–Wagner 定理，推导 D 节），而当被破缺的对称性是*规范*的而非整体的时，戈德斯通玻色子被规范场吞噬，不存在物理的无质量粒子——希格斯机制（E 节；在模块 8.4 中完整推导）。
 
+## Key results · 核心结果
+
+- Mexican hat: $\langle\varphi\rangle=\pm\mu/\sqrt\lambda$; radial mass $m^2=2\mu^2$ · 墨西哥帽与真空期望值
+- Goldstone's theorem: one massless boson per broken continuous generator · 戈德斯通定理
+- Counting #Goldstones $=\dim G-\dim H$ · 戈德斯通计数
+- Gauged SSB: the Goldstone is eaten (Higgs mechanism) · 规范化时戈德斯通被吃
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）
@@ -53,6 +60,16 @@
 2. 精确陈述戈德斯通定理。在复标量 $U(1)$ 模型中，哪个场组合有质量、哪个是无质量戈德斯通玻色子，角向方向为何平坦？
 3. 给出破缺模式 $G \to H$ 中戈德斯通玻色子数目的计数规则。将其应用于（a）带 $U(1)$ 的单个复标量，和（b）手征 $SU(2)\times SU(2) \to SU(2)$。
 4. 当被破缺的对称性是规范的而非整体的时，为何不出现物理的无质量戈德斯通玻色子？取而代之，该自由度发生了什么？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\langle\varphi\rangle=\pm\mu/\sqrt\lambda$; the fluctuation mass is $m^2=V''=2\mu^2>0$. $\varphi=0$ is a local maximum ($V''=-\mu^2<0$, unstable), not the ground state. · 真空期望值与径向质量;$\varphi=0$ 不稳定。
+**2.** Goldstone: each spontaneously broken continuous global generator gives one massless boson. In the $U(1)$ model the radial mode is massive and the angular (phase) mode is the massless Goldstone — flat because $V$ depends only on $|\varphi|$. · 径向有质量,角向为无质量戈德斯通。
+**3.** $\#=\dim G-\dim H$: (a) $U(1)\to\{e\}$: 1 Goldstone; (b) $SU(2)\times SU(2)\to SU(2)$: $6-3=3$ Goldstones (the pions). · 计数规则;3 个(π 介子)。
+**4.** When gauged, the would-be Goldstone is eaten — it becomes the longitudinal polarization of the now-massive gauge boson. The degree of freedom is conserved (massless gauge boson 2 → massive 3). · 规范化时戈德斯通成为规范玻色子纵向极化。
+
+</details>
 
 ---
 

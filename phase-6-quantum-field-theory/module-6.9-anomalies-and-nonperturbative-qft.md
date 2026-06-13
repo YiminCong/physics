@@ -30,6 +30,13 @@ $$ \partial_\mu j^{\mu 5} = \frac{e^2}{16\pi^2} \epsilon^{\mu\nu\rho\sigma} F_{\
 
 **应用。** **格点 QCD** 从第一性原理计算强子质量和禁闭弦张力(补充模块 8.3、8.8)。瞬子是**强 CP 问题**的根源——为何允许的 $\theta$ 项 $\theta(g^2/32\pi^2)G\cdot\tilde{G}$ 小到不可观测——其主要解 **轴子** 是暗物质候选者(模块 8.6)。禁闭本身就是一个本质上非微扰的陈述。
 
+## Key results · 核心结果
+
+- Anomaly: a classical symmetry broken by quantization · 反常
+- Chiral anomaly $\partial_\mu j^{\mu5}=\dfrac{e^2}{16\pi^2}\varepsilon^{\mu\nu\rho\sigma}F_{\mu\nu}F_{\rho\sigma}$ (triangle diagram) · 手征反常
+- Gauge-anomaly cancellation constrains SM content · 反常相消约束粒子谱
+- Instantons & the $\theta$-vacuum; strong-CP → axion · 瞬子、$\theta$ 真空与轴子
+
 ---
 
 **Self-test (blank page)**
@@ -45,6 +52,16 @@ $$ \partial_\mu j^{\mu 5} = \frac{e^2}{16\pi^2} \epsilon^{\mu\nu\rho\sigma} F_{\
 2. 反常相消如何约束标准模型的粒子内容?
 3. 什么是瞬子?什么是 $\theta$ 真空?
 4. 格点 QCD 能计算微扰论无法计算的什么?强 CP 问题如何导出轴子?
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** An anomaly is a classical symmetry broken by quantization (the path-integral measure). Chiral: $\partial_\mu j^{\mu5}=\tfrac{e^2}{16\pi^2}\varepsilon^{\mu\nu\rho\sigma}F_{\mu\nu}F_{\rho\sigma}$, from the Adler–Bell–Jackiw **triangle** diagram. · 量子化破坏经典对称性;三角图。
+**2.** Gauge anomalies must cancel for consistency, requiring the summed charges/traces over each generation to vanish; the SM quark+lepton content is exactly anomaly-free (tying quarks to leptons). · 规范反常相消把夸克与轻子绑定。
+**3.** An instanton is a finite-action Euclidean solution tunnelling between topologically distinct vacua; the true vacuum is the $\theta$-vacuum $|\theta\rangle=\sum_n e^{in\theta}|n\rangle$. · 瞬子与 $\theta$ 真空。
+**4.** Lattice QCD computes nonperturbative quantities (hadron masses, confinement, condensates). The strong-CP problem (why $\theta\approx0$) is solved by promoting $\theta$ to a dynamical **axion** that relaxes to zero. · 格点 QCD;强 CP 问题给出轴子。
+
+</details>
 
 ---
 

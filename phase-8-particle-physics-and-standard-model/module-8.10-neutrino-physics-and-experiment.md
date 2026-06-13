@@ -98,6 +98,13 @@ $$ M^2_\text{inv} = \Big(\sum_i p_i\Big)^2 = \Big(\sum_i E_i\Big)^2 - \Big|\sum_
 
 在共振处等于 $M^2$。**布莱特–维格纳峰**出现在 $M_\text{inv}$ 分布中，位于 $M$ 处，宽度正比于 $\Gamma$，叠加在光滑的 QCD 本底之上。**$Z$ 玻色子**就是以这种方式在 1983 年于 SPS 被发现的（衰变到 $e^+e^-$ 和 $\mu^+\mu^-$）；**希格斯玻色子**（模块 8.4）于 2012 年在 LHC 以 $\gamma\gamma$ 和 $ZZ^* \to 4\ell$ 不变质量分布中 $125\ \text{GeV}$ 处的峰值被发现。
 
+## Key results · 核心结果
+
+- Flavor vs mass eigenstates; PMNS matrix (3 angles + CP phase) · 味与质量本征态;PMNS 矩阵
+- SNO resolved the solar neutrino problem via NC + CC reactions · SNO 实验
+- MSW matter effect; resonant flavor conversion · MSW 效应
+- Dirac vs Majorana; $0\nu\beta\beta$; seesaw · 狄拉克/马约拉纳与无中微子双 β 衰变
+
 ---
 
 **Self-test (blank page)**
@@ -117,6 +124,16 @@ $$ M^2_\text{inv} = \Big(\sum_i p_i\Big)^2 = \Big(\sum_i E_i\Big)^2 - \Big|\sum_
 4. 狄拉克中微子与马约拉纳中微子的区别是什么？无中微子双 $\beta$ 衰变如何检验这一区别，跷跷板机制如何预言小的中微子质量？
 5. 定义积分亮度并解释关系式 $N = L_\text{int} \cdot \sigma$。$\text{fb}^{-1}$ 的单位是什么，LHC 探测的截面量级是多少？
 6. 解释如何通过不变质量峰发现新粒子。用衰变产物四动量写出 $M^2_\text{inv}$，并解释为何该量在母粒子质量处出现峰值。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Flavor eigenstates $(\nu_e,\nu_\mu,\nu_\tau)$ couple to charged leptons; mass eigenstates $(\nu_1,\nu_2,\nu_3)$ propagate. The PMNS matrix relates them, with 3 mixing angles $(\theta_{12},\theta_{23},\theta_{13})$ and 1 Dirac CP phase (+2 Majorana phases). · 味↔质量本征态;PMNS 含 3 角 + CP 相位。
+**2.** SNO used charged-current ($\nu_e$ only) and neutral-current (all flavors) reactions on deuterium. The NC total matched the solar-model flux while the CC was $\sim1/3$ — proving $\nu_e$ oscillate into $\nu_{\mu,\tau}$, resolving the solar neutrino problem. · SNO 用 NC + CC 证明味转换。
+**3.** MSW: matter (electron density) shifts $\nu_e$ oscillations via coherent forward scattering; resonance when $2\sqrt2 G_F n_e E=\Delta m^2\cos2\theta$, driving efficient flavor conversion in the Sun's varying density. · MSW 共振条件。
+**4.** Dirac: $\nu\neq\bar\nu$ (lepton number conserved). Majorana: $\nu=\bar\nu$ (its own antiparticle, $L$ violated). Neutrinoless double-beta decay occurs only for Majorana neutrinos — observing it proves their nature. The seesaw ($m_\nu\sim m_D^2/M_R$) explains their tiny masses. · 狄拉克/马约拉纳;$0\nu\beta\beta$ 与跷跷板。
+
+</details>
 
 ---
 
