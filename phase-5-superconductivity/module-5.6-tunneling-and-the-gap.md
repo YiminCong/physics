@@ -22,6 +22,15 @@
 
 **应用。** 这是对 BCS 理论决定性的实验验证，也是约瑟夫森结（5.8）的概念基础。
 
+## Key results · 核心结果
+
+- BCS DOS $N_s(E)=N(0)\,E/\sqrt{E^2-\Delta^2}$ for $E>\Delta$, zero inside the gap · BCS 态密度
+- NIS tunneling current onsets at $eV=\Delta$ — a direct gap measurement · 隧穿在 $eV=\Delta$ 开启
+- Giaever tunneling maps $N_s(E)$ via $dI/dV$ · 贾埃弗隧穿
+- As $T\to T_c$, $\Delta(T)\to0$ · 能隙随温度消失
+
+---
+
 **Self-test (blank page)**
 
 1. Write the BCS quasiparticle density of states $N_s(E) = N(0) \cdot E/\sqrt{E^2 - \Delta^2}$ for $E > \Delta$, and state its value for $E < \Delta$. Sketch the shape and explain the divergence just above $\Delta$.
@@ -35,6 +44,16 @@
 2. 在正常金属/绝缘体/超导体隧道结中，解释为何在偏压满足 $eV \geq \Delta$ 之前没有单粒子电流流动。这如何提供对能隙的直接测量？
 3. 贾埃弗隧穿实验通过费米黄金法则（模块 3.8）和 BCS 态密度计算得出。正常金属态密度在简化结果中起什么作用？I–V 特性曲线是什么形状？
 4. 当温度升高趋近 $T_c$ 时，隧穿谱如何变化？随着 $\Delta(T) \to 0$，能隙边缘特征发生什么变化？这如何证实 BCS 能隙的温度依赖性？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $N_s(E)=N(0)E/\sqrt{E^2-\Delta^2}$ for $E>\Delta$, and $0$ for $|E|<\Delta$. States expelled from the gap pile up at the edge, giving the divergent coherence peak just above $\Delta$. · 能隙内为零,边缘发散。
+**2.** With no states in the gap, single-particle tunneling needs $eV\ge\Delta$ to reach the first quasiparticle states → current onset at $eV=\Delta$, directly measuring $\Delta$. · $eV=\Delta$ 开启,直接测能隙。
+**3.** The normal metal's flat DOS near $E_F$ means $dI/dV$ directly maps $N_s(eV)$; the I–V is flat until $eV=\Delta$, then rises. · 正常金属平 DOS 使 $dI/dV$ 映射 $N_s$。
+**4.** As $T\to T_c$, $\Delta(T)\to0$: the gap edge moves to zero bias and the I–V becomes ohmic — confirming the BCS $\Delta(T)$. · $\Delta(T)\to0$,I–V 趋欧姆。
+
+</details>
 
 ---
 

@@ -22,6 +22,13 @@
 
 **应用。** 任何理论都必须重现这些事实。**同位素效应**——$T_c \propto M^{-1/2}$（$M$ 为离子质量）——是**声子**（第 4 阶段）介导配对的关键线索，为 BCS 理论指引了方向。
 
+## Key results · 核心结果
+
+- Two hallmarks: zero DC resistance and the Meissner effect (perfect diamagnetism) · 两大标志
+- Critical $T_c$, field $H_c$, current density $j_c$ bound the superconducting state · 临界温度/场/电流
+- Isotope effect $T_c\propto M^{-1/2}$ → phonon-mediated pairing · 同位素效应
+- Type I vs Type II response to a field · 第一/第二类
+
 ---
 
 **Self-test (blank page)**
@@ -37,6 +44,16 @@
 2. 分别描述（a）完美导体和（b）超导体的场冷与零场冷实验结果。什么结果能区分两者？
 3. 写出同位素效应，并解释它对传统超导体中微观配对机制的含义。
 4. 超过临界磁场 $H_c$ 或临界电流密度 $j_c$ 时超导性被破坏。定性解释为何大电流会破坏超导性。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Zero DC resistance and the Meissner effect ($B=0$ inside). Meissner $\neq$ perfect conductivity: a perfect conductor only *freezes* the existing flux ($E=0\Rightarrow\dot B=0$), whereas a superconductor actively *expels* flux to $B=0$ regardless of history. · 迈斯纳是主动排磁,不同于完美导电。
+**2.** A perfect conductor traps whatever flux was present on cooling (FC keeps $B$, ZFC excludes it); a superconductor expels flux in **both** cases — that distinguishes them. · 超导两种冷却都排磁。
+**3.** $T_c\propto M^{-1/2}$ means $T_c$ depends on ionic mass → lattice phonons mediate the pairing. · 同位素效应指向声子配对。
+**4.** A large current adds kinetic energy / self-field exceeding $H_c$; once the pair-breaking cost exceeds the condensation energy, superconductivity is destroyed. · 大电流破坏配对。
+
+</details>
 
 ---
 

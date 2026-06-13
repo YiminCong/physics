@@ -86,6 +86,13 @@ The Friedmann equation with $\Omega_m + \Omega_\Lambda = 1$ predicts deceleratio
 - *结构形成*：暴胀期间的量子涨落被拉伸至宏观尺度，播下 CMB 各向异性的种子，这些各向异性在引力塌缩（暗物质提供势阱）下形成宇宙网——由纤维状结构、空洞、星系团和星系构成。
 - *与粒子物理的联系*：$T \gtrsim 100$ GeV 的早期宇宙探测了电弱尺度及更高能量的物理（模块 8.6）。暗物质候选粒子、重子产生和轻子产生是联系宇宙学与标准模型的活跃前沿。
 
+## Key results · 核心结果
+
+- FLRW metric $ds^2=-c^2dt^2+a(t)^2[\tfrac{dr^2}{1-kr^2}+r^2d\Omega^2]$ · FLRW 度规
+- Friedmann $(\dot a/a)^2=\tfrac{8\pi G}{3}\rho-\tfrac{kc^2}{a^2}+\tfrac{\Lambda c^2}{3}$ · 弗里德曼方程
+- $\rho_m\propto a^{-3}$ (dust), $\rho_r\propto a^{-4}$ (radiation) · 物质与辐射稀释
+- $\Lambda$ behaves as $w=-1$ dark energy → acceleration · 暗能量 $w=-1$
+
 ---
 
 **Self-test (blank page)**
@@ -99,6 +106,15 @@ The Friedmann equation with $\Omega_m + \Omega_\Lambda = 1$ predicts deceleratio
 1. 将 EFE 的 00 分量应用于 FLRW 度规，推导第一弗里德曼方程。标明曲率、物质和 $\Lambda$ 各自的贡献。
 2. 证明连续性方程 $\dot{\rho} + 3H(\rho + p/c^2) = 0$ 给出尘埃的 $\rho_m \propto a^{-3}$ 和辐射的 $\rho_r \propto a^{-4}$。为何辐射稀释得更快？
 3. 解释为何正宇宙学常数 $\Lambda > 0$ 等效于状态方程 $w = p/(\rho c^2) = -1$ 的流体。这如何导致加速膨胀？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** The 00-Einstein equation on FLRW gives $(\dot a/a)^2=\tfrac{8\pi G}{3}\rho-\tfrac{kc^2}{a^2}+\tfrac{\Lambda c^2}{3}$: matter ($\tfrac{8\pi G}{3}\rho$), spatial curvature ($-kc^2/a^2$), and dark energy ($\Lambda c^2/3$). · 三项贡献。
+**2.** Continuity $\dot\rho+3H(\rho+p/c^2)=0$: dust ($p=0$) → $\rho\propto a^{-3}$; radiation ($p=\rho c^2/3$) → $\rho\propto a^{-4}$. Radiation dilutes faster by the extra $1/a$ from each photon's cosmological redshift. · 辐射多一个红移因子。
+**3.** $\Lambda$ has constant $\rho_\Lambda=\Lambda c^2/8\pi G$ and $p_\Lambda=-\rho_\Lambda c^2$ → $w=-1$. Constant density doesn't dilute, so it dominates and drives $\ddot a>0$ (acceleration). · $w=-1$,密度不变驱动加速。
+
+</details>
 
 ---
 

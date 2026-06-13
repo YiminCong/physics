@@ -126,6 +126,13 @@ Measuring the frequency chirp rate $df/dt$ and the frequency $f$ directly gives 
 
 *GW170817*（2017 年 8 月 17 日）：首次在引力波中探测到双中子星并合，同时在全电磁波段观测到（光学/红外*千新星*、短伽马射线暴 GRB 170817A 以及 X 射线/射电余辉）——*多信使天文学*的黎明。主要结果：尽管经过约 40 Mpc 的传播，引力波和伽马射线信号仅相差 1.7 s 到达，将引力波速度约束在 $|v_\text{GW} - c|/c < 10^{-15}$；千新星抛射物显示出 r 过程核合成（证实中子星并合是重元素产生地）；引力波与电磁波联合给出的距离和红移测得 $H_0 = 70^{+12}_{-8}$ km s$^{-1}$ Mpc$^{-1}$（首次标准汽笛哈勃测量）。
 
+## Key results · 核心结果
+
+- Perihelion precession $\Delta\varphi=\dfrac{6\pi GM}{c^2 a(1-e^2)}$ (43″/century for Mercury) · 近日点进动
+- Light deflection $\alpha=4GM_\odot/c^2 b=1.75''$ · 光线偏折
+- Chirp mass $\mathcal M_c$ sets the GW frequency sweep · 啁啾质量
+- GW170817: multi-messenger neutron-star merger · 多信使事件
+
 ---
 
 **Self-test (blank page)**
@@ -141,6 +148,16 @@ Measuring the frequency chirp rate $df/dt$ and the frequency $f$ directly gives 
 2. 牛顿光线偏折给出 $0.87''$；广义相对论结果为 $1.75''$。超出牛顿势中直线粒子的额外物理（因子 2）是什么？
 3. 定义啁啾质量 $\mathcal{M}_c$，并解释为何仅凭引力波频率演化就能读出它。还需要什么额外信息才能解除质量比的简并？
 4. 描述 GW170817 多信使观测的意义。它对引力波传播速度、中子星物理和哈勃常数分别给出了哪些约束？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** The GR orbit equation has an extra $-GM\ell^2/c^2 r^3$ term (relativistic correction to $V_\text{eff}$), so the orbit doesn't quite close → the perihelion precesses; for Mercury $43''$/century. · 额外项给进动,水星 43″/世纪。
+**2.** The factor of 2: light deflection gets equal contributions from time dilation (the Newtonian-like part) **and** the curvature of space; the Newtonian-particle calculation includes only the first half. · 时间膨胀 + 空间弯曲各贡献一半。
+**3.** $\mathcal M_c=(m_1m_2)^{3/5}/(m_1+m_2)^{1/5}$; the frequency sweep $df/dt$ depends only on $\mathcal M_c$, so it is read off the chirp. Breaking the mass-ratio degeneracy needs higher post-Newtonian effects, spins, or the merger/ringdown. · 啁啾质量由频率演化得;打破简并需高阶效应。
+**4.** GW170817 (binary neutron star) plus its gamma-ray/optical counterpart: GW and light arrived within $\sim1.7$ s over $\sim130$ Mly → $|c_\text{GW}-c|/c<10^{-15}$; constrained the neutron-star equation of state (tidal deformability); and gave a standard-siren measurement of $H_0$. · 限制引力波速度、中子星物态与哈勃常数。
+
+</details>
 
 ---
 

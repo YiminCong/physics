@@ -58,6 +58,13 @@ The **proximity effect** is the spatial version: a superconductor induces finite
 
 **应用。** 安德烈耶夫反射支撑了**安德烈耶夫干涉测量**（配对的相敏探测）、**超导近邻量子比特**的工作原理，以及**拓扑安德烈耶夫束缚态**的形成（模块 5.11）。近邻效应被应用于**超导自旋电子学**（通过磁性界面诱导三重态配对）以及工程化马约拉纳模所需的有效 p 波配对。
 
+## Key results · 核心结果
+
+- BdG Hamiltonian $H_\text{BdG}=\begin{pmatrix}H_0&\Delta\\\Delta^*&-H_0^*\end{pmatrix}$ in Nambu space · BdG 哈密顿量
+- Self-consistent $\Delta(\mathbf r)=g\langle\psi_\downarrow\psi_\uparrow\rangle$ · 自洽能隙
+- Andreev reflection: an $E<\Delta$ electron reflects as a hole, injecting a Cooper pair · 安德列耶夫反射
+- Retro-reflection (path retraced); Andreev bound states carry the Josephson current · 回溯反射与安德列耶夫束缚态
+
 ---
 
 **Self-test (blank page)**
@@ -75,6 +82,16 @@ The **proximity effect** is the spatial version: a superconductor induces finite
 3. 什么是逆向反射？它与普通镜面反射有何不同？
 4. 推导短 SNS 结中安德烈耶夫束缚态的能量，并将其与约瑟夫森电流联系起来。
 5. 陈述洁净极限下近邻效应衰减长度 $\xi_N$，并解释其温度依赖性。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $H_\text{BdG}=\begin{pmatrix}H_0(\mathbf r)&\Delta(\mathbf r)\\\Delta^*(\mathbf r)&-H_0^*(\mathbf r)\end{pmatrix}$: diagonal = normal Hamiltonian and its hole conjugate, off-diagonal = pairing. Self-consistency: $\Delta(\mathbf r)=g\langle\psi_\downarrow\psi_\uparrow\rangle$ from the BdG eigenstates. · 各块含义与自洽条件。
+**2.** An $E<\Delta$ electron has no quasiparticle state to enter (the gap), so it Andreev-reflects as a hole, transferring a Cooper pair (charge $2e$) into the condensate. · 安德列耶夫反射注入库珀对。
+**3.** Retro-reflection: the reflected hole retraces the incident electron's path (all velocity components reversed), unlike specular reflection which reverses only the normal component. · 回溯反射沿原路返回。
+**4.** Short SNS: Andreev bound states $E_\pm(\varphi)=\pm\Delta\cos(\varphi/2)$ (perfect transmission); the Josephson current $I(\varphi)=\tfrac{2e}{\hbar}\sum_n\partial E_n/\partial\varphi\propto\sin(\varphi/2)$. · 安德列耶夫束缚态承载约瑟夫森电流。
+
+</details>
 
 ---
 
