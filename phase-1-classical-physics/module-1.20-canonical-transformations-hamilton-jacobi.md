@@ -73,6 +73,19 @@
 3. 定义一维周期系统的作用量变量 $J$，并说明为何共轭角以常速率 $\omega(J) = \partial H/\partial J$ 推进。
 4. 对谐振子，计算 $J = \oint p\,dq$ 并得到频率 $\nu = \partial E/\partial J$。说明称 $J$ 为绝热不变量是什么意思。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** From $p\,dq-H\,dt=P\,dQ-K\,dt+dF_1(q,Q,t)$, matching differentials gives $p=\partial F_1/\partial q$, $P=-\partial F_1/\partial Q$, $K=H+\partial F_1/\partial t$. The type-2 generator $F_2=qP$ gives $p=\partial F_2/\partial q=P$, $Q=\partial F_2/\partial P=q$ — the identity. · 一类生成函数关系;$F_2=qP$ 生成恒等变换。
+
+**2.** Time-dependent: $H(q,\partial S/\partial q,t)+\partial S/\partial t=0$; time-independent: $H(q,\partial W/\partial q)=E$ with $S=W-Et$. $S$ = principal function (the action), $W$ = characteristic function, $\alpha$ = constant new momenta (e.g. $E$), $\beta$ = constant new coordinates. · 含时/不含时 HJ 方程;$S,W,\alpha,\beta$ 含义。
+
+**3.** $J=\tfrac1{2\pi}\oint p\,dq$. Since $H=H(J)$ alone, the conjugate angle obeys $\dot\theta=\partial H/\partial J=\omega(J)=$ const. · $J=\tfrac1{2\pi}\oint p\,dq$;$\dot\theta=\partial H/\partial J$ 恒定。
+
+**4.** For the SHO $\oint p\,dq=2\pi E/\omega$, so $J=E/\omega$ and the frequency is $\nu=\tfrac1{2\pi}\partial E/\partial J=\omega/2\pi$. $J$ is an *adiabatic invariant*: it stays (nearly) constant when parameters change slowly. · 谐振子 $J=E/\omega$;$J$ 为绝热不变量。
+
+</details>
+
 ---
 
 ← Previous: [Module 1.19 — Nonlinear Dynamics & Chaos](./module-1.19-nonlinear-dynamics-chaos.md) · [Phase 1 index](./README.md) · Next: [Module 1.21 — Classical Scattering Theory](./module-1.21-classical-scattering.md) →

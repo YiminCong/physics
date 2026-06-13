@@ -71,6 +71,19 @@ In charge-free regions this reduces to **Laplace's equation** $\nabla^2\phi = 0$
 3. 静电边值问题的唯一性定理是什么？为什么它在实践中很重要？
 4. 解释为什么静电学中 $\nabla \times \mathbf{E} = 0$ 允许引入标量电势。在电动力学（模块 1.10）中，什么打破了这一条件，什么取而代之？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\oint\mathbf E\cdot d\mathbf A=Q_\text{enc}/\epsilon_0\Leftrightarrow\nabla\cdot\mathbf E=\rho/\epsilon_0$. For an infinite charged plane, a pillbox gives $E=\sigma/2\epsilon_0$, directed away from the plane on both sides. · 高斯定律;无限大带电平面 $E=\sigma/2\epsilon_0$。
+
+**2.** $E_\text{in}=\rho r/3\epsilon_0$, $E_\text{out}=\rho R^3/3\epsilon_0 r^2$; integrating, $\phi_\text{out}=\rho R^3/3\epsilon_0 r$ and $\phi_\text{in}=\rho(3R^2-r^2)/6\epsilon_0$ (matched at $r=R$). · 均匀带电球的电势(内外匹配)。
+
+**3.** The uniqueness theorem: a solution of Poisson's equation satisfying the given boundary conditions (Dirichlet or Neumann) is unique. Practically, any solution you find by any trick (images, guessing) is *the* answer. · 唯一性定理:满足边界条件的解唯一。
+
+**4.** $\nabla\times\mathbf E=0$ makes $\mathbf E$ conservative, so $\mathbf E=-\nabla\phi$. A time-varying $\mathbf B$ breaks it (Faraday $\nabla\times\mathbf E=-\partial_t\mathbf B$); then $\mathbf E=-\nabla\phi-\partial_t\mathbf A$. · 静电中 $\mathbf E=-\nabla\phi$;变化磁场破坏之,改为 $-\nabla\phi-\partial_t\mathbf A$。
+
+</details>
+
 ---
 
 ← Previous: [Module 1.7 — Rigid-Body Dynamics & Non-Inertial Frames](./module-1.7-rigid-body-non-inertial-frames.md) · [Phase 1 index](./README.md) · Next: [Module 1.9 — Magnetostatics](./module-1.9-magnetostatics.md) →

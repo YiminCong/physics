@@ -75,6 +75,19 @@ $$ s^2 = (c\,\Delta t)^2 - (\Delta x)^2 - (\Delta y)^2 - (\Delta z)^2 $$
 3. 将事件 $A = (0, 0, 0, 0)$ 和 $B = (c\cdot 3\text{ s}, 5\text{ m}, 0, 0)$ 之间的间隔 $s^2$ 分类为类时、类光或类空。$B$ 能否因果影响 $A$？
 4. 用移动火车和闪电的具体例子解释同时性的相对性。为什么这不会导致悖论？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\Delta t=\gamma\Delta\tau$. At $v=0.6c$, $\gamma=1.25$, so the lab lifetime is $12.5\ \mu$s and the distance is $v\Delta t=0.6c\times12.5\ \mu\text{s}\approx2.25\ \text{km}$. · $\gamma=1.25$,实验室寿命 $12.5\,\mu$s,飞行约 2.25 km。
+
+**2.** The $S$ separation is proper time, so $s^2=(c\Delta t)^2=(c\Delta t')^2-\Delta x'^2$, giving $\Delta x'=c\sqrt{\Delta t'^2-\Delta t^2}=c\sqrt{25-16}=3c\cdot\text{s}\approx9\times10^8\ \text{m}$. · 由不变间隔得 $\Delta x'\approx9\times10^8$ m。
+
+**3.** $s^2=(c\cdot3\,\text{s})^2-(5\,\text{m})^2>0$ (since $c\cdot3\,\text{s}\approx9\times10^8\,\text{m}\gg5\,\text{m}$): **timelike**, so $B$ *can* causally affect $A$. · $s^2>0$ 类时,$B$ 可因果影响 $A$。
+
+**4.** Lightning strikes the two ends of a train simultaneously in the platform frame; in the train frame the strike toward which the train moves is seen first. No paradox: simultaneity is frame-dependent, and the order of *causally connected* events is preserved. · 同时性相对;不导致悖论,因有因果关系的事件次序不变。
+
+</details>
+
 ---
 
 ← Previous: [Module 1.12 — Optics & Interference](./module-1.12-optics-interference.md) · [Phase 1 index](./README.md) · Next: [Module 1.14 — Relativistic Dynamics & E = mc²](./module-1.14-relativistic-dynamics-energy-momentum.md) →

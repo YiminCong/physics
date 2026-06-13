@@ -109,6 +109,25 @@ A full rotation $\theta = 2\pi$ gives $\exp(i\pi \sigma_3) = -I$, not $+I$ — t
 6. 什么是指数映射，为什么酉表示的生成元必须是厄米的？
 7. 命名标准模型规范群的李代数，并指出哪个模块涵盖了每个因子。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Closure, associativity, identity, inverse. $SU(2)$ (unitary $2\times2$, $\det=1$): products stay unitary with $\det=1$ (closure), matrix multiplication is associative, $\mathbb 1$ is the identity, $U^{-1}=U^\dagger$. · 四公理;$SU(2)$ 满足。
+
+**2.** A representation is a homomorphism $G\to GL(V)$ (the group acting by matrices). *Irreducible* = no nontrivial invariant subspace. · 表示是群同态;不可约即无非平凡不变子空间。
+
+**3.** Schur: (i) an operator commuting with every element of an irrep is a multiple of the identity; (ii) an intertwiner between inequivalent irreps is zero. Consequence: irrep labels are good quantum numbers and give selection rules. · 舒尔引理;后果:不可约标号为好量子数,给出选择定则。
+
+**4.** $[T_a,T_b]=if_{abc}T_c$; the structure constants $f_{abc}$ fix the algebra and hence the group near the identity. · 结构常数决定李代数与群的局部结构。
+
+**5.** $\mathfrak{su}(2)$: $[J_i,J_j]=i\varepsilon_{ijk}J_k$. Irreps labelled by $j=0,\tfrac12,1,\dots$ with dimension $2j+1$. · $\mathfrak{su}(2)$ 不可约维数 $2j+1$。
+
+**6.** The exponential map is $g=\exp(i\theta_a T_a)$. For $g$ to be unitary, $g^\dagger g=\mathbb 1$ requires the generators to be Hermitian, $T_a=T_a^\dagger$. · 指数映射;幺正要求生成元厄米。
+
+**7.** $\mathfrak{su}(3)\oplus\mathfrak{su}(2)\oplus\mathfrak{u}(1)$: $SU(3)$ color (QCD, Module 8.3), $SU(2)_L\times U(1)_Y$ electroweak (Module 8.4). · 标准模型规范代数;QCD(8.3)与电弱(8.4)。
+
+</details>
+
 ---
 
 ← Previous: [Module 0.6 — Vector Calculus, Tensors & Differential Forms](./module-0.6-vector-calculus-tensors-and-differential-forms.md) · [Phase 0 index](./README.md)

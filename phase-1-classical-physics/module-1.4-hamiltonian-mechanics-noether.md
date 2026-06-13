@@ -65,6 +65,19 @@ The state of the system is a point in **phase space** $(q, p)$, and Hamilton's e
 3. 利用诺特定理证明：若 $V$ 仅依赖两粒子间距 $|\mathbf{r}_1 - \mathbf{r}_2|$，则总动量守恒。
 4. 经典泊松括号 $\{q, p\} = 1$ 的量子对应是什么？为什么它在物理上意义重大？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $p=\partial L/\partial\dot q=m\dot q$; $H=p\dot q-L=\dfrac{p^2}{2m}+V(q)$; Hamilton: $\dot q=\partial H/\partial p=p/m$, $\dot p=-\partial H/\partial q=-V'(q)$. · 勒让德变换得 $H=p^2/2m+V$ 与哈密顿方程。
+
+**2.** $\{L_x,L_y\}=L_z$ (cyclically). The components do not Poisson-commute, so they are not simultaneously sharp — the classical root of $[\hat L_x,\hat L_y]=i\hbar\hat L_z$. · $\{L_x,L_y\}=L_z$,角动量分量不对易。
+
+**3.** $V=V(|\mathbf r_1-\mathbf r_2|)$ is invariant under the common translation $\mathbf r_i\to\mathbf r_i+\mathbf a$; Noether's theorem then makes the total momentum $\mathbf P=\mathbf p_1+\mathbf p_2$ conserved. · 平移不变性给出总动量守恒。
+
+**4.** $\{q,p\}=1\to[\hat q,\hat p]=i\hbar$ (canonical quantization). It is the bridge from classical Poisson structure to quantum commutators, and the origin of the uncertainty principle. · 对应 $[\hat q,\hat p]=i\hbar$,经典到量子的桥梁。
+
+</details>
+
 ---
 
 ← Previous: [Module 1.3 — Lagrangian Mechanics & the Variational Principle](./module-1.3-lagrangian-mechanics.md) · [Phase 1 index](./README.md) · Next: [Module 1.5 — Central-Force Problem & Kepler](./module-1.5-central-force-kepler.md) →
