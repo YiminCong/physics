@@ -102,6 +102,13 @@ $$ \frac{v_\text{out}}{v_\text{in}} = -\frac{R_f}{R_\text{in}}. $$
 
 **应用。** 运放实现积分器、微分器、求和放大器、比较器和有源滤波器——这些是模拟计算和信号调理的基本模块。同相放大器给出增益 $+(1 + R_f/R_\text{in})$；电压跟随器（$R_f = 0$，$R_\text{in} \to \infty$）给出单位增益，用作阻抗缓冲器。
 
+## Key results · 核心结果
+
+- KCL (node currents sum to zero), KVL (loop voltages sum to zero) · 基尔霍夫定律
+- RC charging $Q(t)=CV_0(1-e^{-t/RC})$ · RC 充电
+- Series RLC resonance $\omega_0=1/\sqrt{LC}$, $Q=\tfrac1R\sqrt{L/C}$ · RLC 共振
+- Diode $I=I_0(e^{V/V_T}-1)$; CE amplifier gain $-g_m R_C$ · 二极管与放大器
+
 ---
 
 **Self-test (blank page)**
@@ -119,6 +126,16 @@ $$ \frac{v_\text{out}}{v_\text{in}} = -\frac{R_f}{R_\text{in}}. $$
 3. 画出理想二极管的 I–V 曲线；解释指数依赖关系的物理起源。
 4. 在共射极放大器中，用 $g_m$ 和 $R_C$ 推导电压增益 $v_\text{out}/v_\text{in}$。
 5. 利用虚地规则，推导带反馈电阻 $R_f$ 和输入电阻 $R_\text{in}$ 的反相运放的增益。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** KCL: currents into a node sum to zero; KVL: voltages around a loop sum to zero. RC charging: $Q(t)=CV_0(1-e^{-t/RC})$. · 基尔霍夫定律;RC 充电曲线。
+**2.** $Z_R=R$, $Z_L=i\omega L$, $Z_C=1/i\omega C$; series resonance $\omega_0=1/\sqrt{LC}$, $Q=\omega_0 L/R=\tfrac1R\sqrt{L/C}$. · 阻抗与共振、品质因数。
+**3.** $I=I_0(e^{V/V_T}-1)$, $V_T=k_BT/e$; exponential from the Boltzmann factor of carriers crossing the junction barrier lowered by $V$. · 指数源于结势垒玻尔兹曼因子。
+**4.** Common-emitter gain $v_\text{out}/v_\text{in}=-g_m R_C$ ($g_m=I_C/V_T$). · 共射放大增益。
+
+</details>
 
 ---
 

@@ -164,6 +164,13 @@ $$ \gamma \approx -\sqrt{\frac{\pi}{8}}\, \frac{\omega_p}{|k|^3\lambda_D^3}\, \e
 
 **应用。** 朗道阻尼支配托卡马克中用于等离子体加热的低杂波和电子回旋波的吸收。它负责太阳风中静电涨落的阻尼，并决定束–等离子体系统的稳定性和天体物理激波中的魏贝尔不稳定性。
 
+## Key results · 核心结果
+
+- Plasma criteria: quasineutrality, $\lambda_D\ll L$, many particles per Debye sphere · 等离子体三条件
+- Debye length $\lambda_D=\sqrt{\epsilon_0 k_BT/ne^2}$ · 德拜长度
+- Plasma frequency $\omega_p=\sqrt{ne^2/\epsilon_0 m}$ · 等离子体频率
+- $\mathbf E\times\mathbf B$ drift is charge-independent · $E\times B$ 漂移
+
 ---
 
 **Self-test (blank page)**
@@ -181,6 +188,16 @@ $$ \gamma \approx -\sqrt{\frac{\pi}{8}}\, \frac{\omega_p}{|k|^3\lambda_D^3}\, \e
 3. 推导或陈述等离子体频率；解释为何 $\omega < \omega_p$ 的电磁波无法在等离子体内传播。
 4. 解释 $\mathbf{E}\times\mathbf{B}$ 漂移：为何它与电荷无关？为何这在简单环面中造成向外漂移？
 5. 用文字（不用公式）描述朗道阻尼的物理机制，以及为何它需要粒子速度的分布。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** (i) quasineutrality ($n_e\approx n_i$), (ii) $\lambda_D\ll$ system size, (iii) many particles per Debye sphere (collective behaviour). Natural: the solar wind / ionosphere; lab: a tokamak / fluorescent tube. · 三条件与例子。
+**2.** $\lambda_D=\sqrt{\epsilon_0 k_BT/ne^2}$ is the charge-screening length. $\lambda_D\propto\sqrt T$, so doubling $T$ raises it by $\sqrt2$. · 德拜长度;翻倍 $T$ 增大 $\sqrt2$。
+**3.** $\omega_p=\sqrt{ne^2/\epsilon_0 m}$. Waves with $\omega<\omega_p$ have an imaginary wavevector (evanescent) and are reflected — e.g. radio reflecting off the ionosphere. · $\omega<\omega_p$ 的波被反射。
+**4.** $\mathbf v=\mathbf E\times\mathbf B/B^2$ is charge-independent ($q$ cancels), so ions and electrons drift together. In a simple torus the curvature/$\nabla B$ drifts separate charges, building a vertical $\mathbf E$ whose $\mathbf E\times\mathbf B$ drift pushes plasma outward. · $E\times B$ 与电荷无关;简单环位形向外漂移。
+
+</details>
 
 ---
 

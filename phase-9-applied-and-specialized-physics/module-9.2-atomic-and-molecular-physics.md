@@ -132,6 +132,13 @@ $$ \begin{aligned}
 
 **应用。** 转动谱给出精确的键长（由 $B$ 获得）。振动谱识别官能团（红外光谱）。拉曼光谱可获得红外禁戒的模式。大气中 $\text{CO}_2$ 和 $\text{H}_2\text{O}$ 的振转谱是温室效应物理的核心。
 
+## Key results · 核心结果
+
+- Energy depends on $n$ and $l$ (screening / penetration); Madelung $n+l$ ordering · 能量依赖 $n,l$
+- Hund's rules give ground-state term symbols · 洪德规则
+- Electric-dipole selection rules $\Delta l=\pm1$, $\Delta m=0,\pm1$ · 偶极选择定则
+- LCAO bonding/antibonding orbitals · 成键/反键轨道
+
 ---
 
 **Self-test (blank page)**
@@ -149,6 +156,16 @@ $$ \begin{aligned}
 3. 陈述所有电偶极跃迁选择规则。哪条规则禁戒钠的 4s → 3s 跃迁？
 4. 写出 $\text{H}_2^+$ 的 LCAO 成键和反键组合；从物理上解释为何成键轨道能量更低。
 5. 写出转动能量公式并推导相邻微波吸收谱线的间距。间距测量什么？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Inner electrons screen the nucleus; low-$l$ (penetrating) orbitals feel more charge → lower energy. Ordering: $1s,2s,2p,3s,3p,4s,3d,4p$ (Madelung $n+l$ rule). · 屏蔽与穿透;马德隆顺序。
+**2.** N $2p^3$ (half-filled): $S=\tfrac32$, $L=0$, $J=\tfrac32$ → $^4S_{3/2}$. Fe $3d^6$ (more than half-filled): $S=2$, $L=2$, $J=4$ → $^5D_4$. · 氮 $^4S_{3/2}$,铁 $^5D_4$。
+**3.** $\Delta l=\pm1$, $\Delta m=0,\pm1$, $\Delta s=0$, $\Delta J=0,\pm1$ (no $0\to0$). $4s\to3s$ is forbidden by $\Delta l=\pm1$ (both $l=0$). · 选择定则;$4s\to3s$ 被 $\Delta l$ 禁戒。
+**4.** $\psi_\pm=\tfrac1{\sqrt2}(\varphi_A\pm\varphi_B)$; the bonding $\psi_+$ piles density between the nuclei (extra electron–nucleus attraction, lower kinetic energy) → lower energy; antibonding $\psi_-$ has a node → higher. · 成键轨道电子密度集中于核间,能量更低。
+
+</details>
 
 ---
 

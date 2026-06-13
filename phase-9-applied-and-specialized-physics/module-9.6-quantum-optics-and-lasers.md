@@ -54,6 +54,13 @@
 
 **应用。** 远高于阈值的激光器发射相干态，故 $\sqrt{\langle n\rangle}$ 泊松噪声是限制所有经典光学测量的**散粒噪声**。压缩光突破此极限，被注入 LIGO/Virgo 以提高引力波应变灵敏度。耦合到单个原子的单模场由杰恩斯–卡明斯模型描述（推导 E），其真空拉比劈裂 $2g$ 是腔量子电动力学的标志性特征。
 
+## Key results · 核心结果
+
+- Einstein $A,B$ coefficients; $g_1 B_{12}=g_2 B_{21}$, $A_{21}/B_{21}=8\pi h\nu^3/c^3$ · 爱因斯坦系数
+- Population inversion required to lase; need 3- or 4-level schemes · 粒子数反转
+- Rabi oscillations $P_e=\sin^2(\Omega t/2)$; $\pi$-pulse inverts · 拉比振荡
+- Coherent state $|\alpha\rangle$: Poissonian photons, $\Delta n=\sqrt{\langle n\rangle}$ · 相干态
+
 ---
 
 **Self-test (blank page)**
@@ -69,6 +76,16 @@
 2. 陈述粒子数反转条件，并解释为何纯辐射泵浦的二能级系统永不能激射。三能级与四能级方案如何解决此问题？
 3. 对共振驱动的二能级原子，画出 $P_e(t)$。什么是 $\pi$ 脉冲，它对布居做什么？
 4. 定义相干态 $|\alpha\rangle$，证明它是 $a$ 的本征态，并推导其光子数统计、$\langle n\rangle$ 和 $\Delta n^2$。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Absorption ($B_{12}$), stimulated emission ($B_{21}$), spontaneous emission ($A_{21}$). Detailed balance + Planck law give $g_1 B_{12}=g_2 B_{21}$ and $A_{21}/B_{21}=8\pi h\nu^3/c^3$. The $\nu^3$ makes spontaneous emission dominate at high $\nu$ → hard to sustain inversion → X-ray lasers are difficult. · 三过程与系数关系;$\nu^3$ 使 X 射线激光困难。
+**2.** Need $N_2>N_1$. A radiatively pumped two-level system can at best reach $N_1=N_2$ (since $B_{12}=B_{21}$), never invert; three-/four-level schemes use a fast-decaying pump band and a metastable upper laser level to build inversion. · 二能级无法反转,需三/四能级。
+**3.** $P_e(t)=\sin^2(\Omega t/2)$ (resonant Rabi flopping). A $\pi$-pulse ($\Omega t=\pi$) fully transfers population ground → excited. · 拉比振荡;$\pi$ 脉冲完全反转。
+**4.** $|\alpha\rangle=e^{-|\alpha|^2/2}\sum_n\frac{\alpha^n}{\sqrt{n!}}|n\rangle$ satisfies $a|\alpha\rangle=\alpha|\alpha\rangle$; the photon number is Poissonian with $\langle n\rangle=|\alpha|^2$ and $\Delta n^2=|\alpha|^2=\langle n\rangle$. · 相干态;泊松光子统计。
+
+</details>
 
 ---
 
