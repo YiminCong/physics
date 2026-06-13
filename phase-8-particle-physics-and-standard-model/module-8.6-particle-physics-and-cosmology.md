@@ -38,6 +38,13 @@
 
 **应用。** 最小尺度（粒子物理）与最大尺度（宇宙学，模块 7.6）之间的联系是物理学的前沿：同一个描述对撞机实验的标准模型拉格朗日量，支配着宇宙的热演化历史、大爆炸核合成以及暗物质遗迹丰度。未解之谜——暗物质的本质、重子不对称性的起源、暴胀的性质——既是宇宙学问题，也是粒子物理问题，它们的解答几乎必然需要超越标准模型的物理（模块 8.5）。下一代实验（CMB-S4、欧几里得卫星、LZ、XENONnT、ADMX、SKA）将从多个方向探测这一前沿。
 
+## Key results · 核心结果
+
+- Sakharov conditions: B-violation, C/CP violation, out-of-equilibrium · 萨哈罗夫三条件
+- WIMP miracle: weak-scale $\langle\sigma v\rangle$ → $\Omega_\text{DM}\approx0.26$ · WIMP 奇迹
+- Axion: non-thermal (misalignment) dark matter · 轴子暗物质
+- BBN tests $N_\text{eff}$ and the baryon density · 大爆炸核合成
+
 ---
 
 ## Self-test (blank page)
@@ -51,6 +58,15 @@
 1. 陈述萨哈罗夫的三个重子生成条件，并解释标准模型的哪个成分满足每个条件。为何标准模型的电弱重子生成不足以解释观测？
 2. 推导 WIMP 奇迹估算：为何具有弱力尺度相互作用的粒子自然地产生 $\Omega_\text{DM} \approx 0.26$？轴子作为暗物质候选者在质上有何不同？
 3. 大爆炸核合成如何提供对早期宇宙的粒子物理检验？一种额外的轻中微子物种对预言的 $^4$He 丰度有何影响？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Sakharov: (i) baryon-number violation (SM sphalerons), (ii) C & CP violation (CKM phase), (iii) departure from equilibrium (EW phase transition). SM electroweak baryogenesis fails: the CP violation is far too small and, for $m_h=125$ GeV, the EW transition is a crossover (not strongly first-order). · 三条件;标准模型不足。
+**2.** WIMP miracle: a thermal relic freezes out at $\Gamma\sim H$ with $\Omega\propto1/\langle\sigma v\rangle$; a weak-scale $\langle\sigma v\rangle\sim10^{-26}\ \text{cm}^3/\text{s}$ naturally gives $\Omega_\text{DM}\approx0.26$. The axion is produced non-thermally (misalignment) — cold and feebly coupled, not a thermal relic. · WIMP 奇迹;轴子非热产生。
+**3.** BBN: light-element abundances depend on the baryon-to-photon ratio and the $T\sim1$ MeV expansion rate. An extra light neutrino species speeds up expansion → earlier $n/p$ freeze-out → more neutrons → higher $^4$He (constrains $N_\text{eff}$). · BBN 检验 $N_\text{eff}$,额外中微子增大 $^4$He。
+
+</details>
 
 ---
 

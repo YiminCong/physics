@@ -42,6 +42,13 @@ Each term in the expansion is labeled by a Feynman diagram: a directed line repr
 
 **应用。** RPA 既是相互作用电子气最简单的一致近似，也是等离激元的推导：$W(q,\omega)$ 在 $\varepsilon(q,\omega) = 0$ 处的极点是集体电荷振荡。同样的图逻辑——确定相关图类、对其求和、读出物理——是凝聚态和粒子物理的日常货币。Altland & Simons 的 "Condensed Matter Field Theory" 用这一框架构建了该书后半部分的大量内容。
 
+## Key results · 核心结果
+
+- Wick's theorem: time-ordered products → sums of contractions (propagators) · 维克定理
+- Hartree (direct) and Fock (exchange) self-energies $\Sigma$ · 哈特里与福克自能
+- Dyson equation $G=G^0+G^0\Sigma G\Rightarrow G=1/((G^0)^{-1}-\Sigma)$ · 戴森方程
+- Large $\text{Im}\,\Sigma$ ⟹ short quasiparticle lifetime · 大虚部自能=短寿命
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）
@@ -55,6 +62,15 @@ Each term in the expansion is labeled by a Feynman diagram: a directed line repr
 1. 陈述 Wick 定理。为什么它允许将算符期望值表达为自由格林函数的求和？
 2. 画出并标注 Hartree 和 Fock 自能图。用 $U(q)$ 和 $G^0$ 写出 Fock 自能 $\Sigma_F(k)$ 的代数表达式。
 3. 写出戴森方程 $G = G^0 + G^0 \Sigma G$ 并求解 $G(k,\omega)$。$\mathrm{Im}\, \Sigma$ 较大对准粒子意味着什么？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Wick's theorem: a time-ordered product of free fields equals the sum over all full contractions (pairings into propagators). It works because free fields are Gaussian, so every correlator reduces to products of two-point Green's functions. · 自由场为高斯,关联函数化为传播子之积。
+**2.** Hartree (tadpole/direct) and Fock (exchange) diagrams; $\Sigma_F(k)=-\int\frac{d^dq}{(2\pi)^d}U(q)G^0(k-q)$. · 福克交换自能。
+**3.** $G=G^0+G^0\Sigma G\Rightarrow G(k,\omega)=1/(\omega-\varepsilon_k-\Sigma)$. Large $\text{Im}\,\Sigma$ → short lifetime $\tau\sim1/\text{Im}\,\Sigma$ (broad, ill-defined quasiparticle). · 戴森解;虚部自能给寿命。
+
+</details>
 
 ---
 

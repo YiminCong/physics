@@ -38,6 +38,13 @@
 
 **应用。** 大型强子对撞机已在 $\sim 2$ TeV 以下对超对称伴子进行了详尽搜索，未有发现，这对自然性论证提出了质疑。未来对撞机（FCC、ILC）将更精确地探测希格斯部分，并扩展超对称/大统一理论的搜索。三个跑动耦合常数（模块 8.2）的相互关系、中微子质量以及暗物质的宇宙学证据（模块 8.6），是探索超越标准模型物理最具体的实验抓手。
 
+## Key results · 核心结果
+
+- 19 SM parameters: gauge (3), Higgs (2), fermion masses + CKM (13), $\theta_\text{QCD}$ (1) · 19 个参数
+- Hierarchy problem: $\delta m_h^2\sim\Lambda^2$ needs fine-tuning · 等级问题
+- SUSY cancels the quadratic divergence · 超对称
+- Seesaw $m_\nu\sim m_D^2/M_R$ · 跷跷板机制
+
 ---
 
 ## Self-test (blank page)
@@ -51,6 +58,15 @@
 1. 列出标准模型的 19 个参数，并按部分（规范、希格斯、汤川）分组。为何恰好三代费米子的存在无法解释？
 2. 解释等级问题。超对称如何解决它，大型强子对撞机未发现超伴子对自然性意味着什么？
 3. 描述中微子质量的跷跷板机制。对于约 0.1 eV 量级的观测中微子质量，右手中微子的质量尺度应为多少？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Gauge: $g_s,g,g'$ (3). Higgs: $\mu,\lambda$ (2). Fermion sector: 9 charged-fermion masses + 4 CKM (13). Plus $\theta_\text{QCD}$ (1) = 19. Three generations are an unexplained input — no principle fixes the number. · 三部分参数;三代无解释。
+**2.** Hierarchy: $\delta m_h^2\sim\Lambda^2$, so keeping $m_h=125$ GeV with $\Lambda\sim M_\text{Planck}$ needs $\sim30$-digit tuning. SUSY cancels the quadratic divergences (boson–fermion loops); the LHC's null superpartner searches raise their scale → a "little hierarchy" / reduced naturalness. · 等级问题;超对称相消,LHC 未见超伴子。
+**3.** Seesaw: a heavy right-handed $M_R$ gives $m_\nu\sim m_D^2/M_R$. For $m_\nu\sim0.1$ eV and $m_D\sim100$ GeV, $M_R\sim10^{14}$–$10^{15}$ GeV (near the GUT scale). · 跷跷板给 $M_R\sim10^{14}$ GeV。
+
+</details>
 
 ---
 

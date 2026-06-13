@@ -28,6 +28,13 @@
 
 **应用。** LSZ 是从用费曼图(6.3)和路径积分(6.4)计算的*离壳*关联函数,通向可测量的*在壳*振幅的严格桥梁。每一个截面计算——包括模块 8.2 的 QED 过程 $e^+e^-\to\mu^+\mu^-$——都以它为基础。
 
+## Key results · 核心结果
+
+- $S=1+iT$; $d\sigma,d\Gamma\propto|\mathcal M|^2\times$ phase space · S 矩阵
+- Mandelstam $s+t+u=\sum m^2$ · 曼德尔斯塔姆变量
+- Optical theorem from unitarity $S^\dagger S=1$ · 光学定理来自幺正性
+- LSZ amputates external legs and supplies $\sqrt Z$ per leg · LSZ 约化
+
 ---
 
 **Self-test (blank page)**
@@ -43,6 +50,16 @@
 2. 写出曼德尔斯坦变量及约束 $s+t+u = \Sigma m^2$。
 3. 陈述光学定理并追溯到幺正性 $S^\dagger S = 1$。
 4. LSZ 公式对每条外腿做了什么?为何需要因子 $\sqrt{Z}$?
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $S=\langle\text{out}|\text{in}\rangle$; $S=1+iT$ removes the no-scattering part. Cross section $d\sigma$ and decay rate $d\Gamma$ are $\propto|\mathcal M|^2\times$ phase space. · S 矩阵;$d\sigma,d\Gamma\propto|\mathcal M|^2$。
+**2.** $s=(p_1+p_2)^2$, $t=(p_1-p_3)^2$, $u=(p_1-p_4)^2$, with $s+t+u=\sum_i m_i^2$. · 三个不变量之和等于四质量平方和。
+**3.** Optical theorem $2\,\text{Im}\,\mathcal M(\text{fwd})=\sum_f\int|\mathcal M_{i\to f}|^2$, following from $S^\dagger S=1\Rightarrow -i(T-T^\dagger)=T^\dagger T$. · 由 $S^\dagger S=1$ 得光学定理。
+**4.** LSZ amputates each external propagator (legs on-shell) and multiplies by $\sqrt Z$ per leg, where $Z$ is the residue of the full propagator at the physical pole — converting Green's functions to S-matrix elements. · LSZ 截外腿并乘 $\sqrt Z$。
+
+</details>
 
 ---
 

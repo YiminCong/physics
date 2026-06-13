@@ -28,6 +28,13 @@
 
 **应用。** 这种手征性直接编码在**电弱理论**（模块 8.4）中：$SU(2)$ 规范群仅作用于左手双重态，这正是电弱对称性破缺和希格斯机制呈现其特定形式的*原因*。宇称不守恒与 $CP$ 破坏（模块 8.5）共同使弱相互作用成为四种基本力中最奇特的一种，并且对于物质–反物质的起源故事（模块 8.6）至关重要。
 
+## Key results · 核心结果
+
+- Parity $P$: spatial inversion $\mathbf x\to-\mathbf x$ · 宇称操作
+- Strong & EM conserve $P$; the weak force violates it maximally · 弱力极大破坏宇称
+- Wu experiment demonstrated parity violation in $\beta$ decay · 吴健雄实验
+- Weak force couples only to left-handed fermions (V−A) · 弱力只耦合左手费米子
+
 ---
 
 **Self-test (blank page)**
@@ -41,6 +48,15 @@
 1. 定义宇称操作，并说明哪些力遵守它、哪种力不遵守。
 2. 描述吴健雄实验及其结果所揭示的内容。
 3. 弱力仅耦合于左手费米子意味着什么，这在标准模型的何处体现？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Parity $P$ is spatial inversion $\mathbf x\to-\mathbf x$. Gravity, electromagnetism, and the strong force conserve $P$; the weak force violates it (maximally). · 宇称为空间反演;弱力破坏之。
+**2.** Wu experiment: polarized $^{60}$Co emitted $\beta$ electrons preferentially **opposite** to the nuclear spin — a pseudoscalar correlation that flips under $P$, demonstrating parity violation. · 吴实验:电子偏好逆核自旋方向。
+**3.** The weak force couples only to left-handed fermions (and right-handed antifermions): only left-handed fields are $SU(2)_L$ doublets, right-handed ones are singlets. This chiral (V−A) structure is built into the SM electroweak Lagrangian. · 只有左手场在 $SU(2)_L$ 双重态中。
+
+</details>
 
 ---
 

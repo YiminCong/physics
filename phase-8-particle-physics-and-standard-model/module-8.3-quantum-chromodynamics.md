@@ -38,6 +38,13 @@
 
 **应用。** 质子和中子的结构，乃至所有核物理，均从量子色动力学中涌现。强子之间的**核力**（负责束缚原子核）是一种剩余色力——色中性物体之间的范德华力类比——在长程由 $\pi$ 介子交换传递。量子色动力学还预言在温度 $T \gtrsim 150$ MeV 下（在 RHIC 和大型强子对撞机的重离子碰撞中实现）存在**夸克–胶子等离子体**，再现了大爆炸后数微秒内宇宙的状态（模块 8.6）。
 
+## Key results · 核心结果
+
+- $\beta(g_s)<0$ — asymptotic freedom; opposite sign to QED · 渐近自由
+- Confinement: linear potential $V(r)\sim\sigma r$; only color singlets observed · 夸克禁闭
+- Mesons $q\bar q$, baryons $qqq$; color antisymmetric · 介子与重子的色结构
+- Running $\alpha_s$ links high-energy freedom to low-energy confinement · 跑动 $\alpha_s$
+
 ---
 
 ## Self-test (blank page)
@@ -51,6 +58,15 @@
 1. 陈述量子色动力学的 $\beta$ 函数，并解释其符号为何与量子电动力学不同。渐近自由和夸克禁闭是什么，它们与 $\alpha_s$ 的跑动有何关系？
 2. 解释为何从未观测到孤立的夸克。描述两个夸克被拉开时发生了什么，以及色单态强子如何形成。
 3. 指出介子和重子的色波函数，并解释为何费米统计约束在基态重子中迫使自旋、味和色量子数之间存在特定关系。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\beta=-(11-\tfrac23 n_f)\tfrac{g_s^3}{16\pi^2}<0$ — the gluon self-interaction ($+11$) beats fermion screening, opposite to QED. Asymptotic freedom ($\alpha_s\to0$ at high energy) and confinement ($\alpha_s$ large at low energy) are the two limits of the running $\alpha_s$. · $\beta<0$;渐近自由与禁闭。
+**2.** The potential rises linearly $V(r)\sim\sigma r$ (a color flux tube), so pulling quarks apart costs ever-more energy until a $q\bar q$ pair is created → new hadrons. Only color singlets are finite-energy / observable. · 线性势,弦断裂产生新强子。
+**3.** Meson singlet $\tfrac1{\sqrt3}\sum_i q_i\bar q_i$; baryon $\varepsilon_{ijk}q_iq_jq_k$ (antisymmetric in color). Since color is antisymmetric, the spin⊗flavor part of a ground-state baryon must be symmetric — linking spin and flavor. · 色波函数;色反对称迫使自旋⊗味对称。
+
+</details>
 
 ---
 

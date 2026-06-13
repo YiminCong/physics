@@ -28,6 +28,13 @@
 
 **应用。** QCD 预言标度被**弱破坏**:PDF 随 $Q^2$ 按 **DGLAP 方程** 演化,这是渐近自由(模块 8.3)的直接后果。测得的对数标度破坏证实了胶子与跑动耦合。DIS 中测得的 PDF 随后被*用作输入*,用于每一个强子对撞机预言,包括 LHC 上的希格斯产生(模块 8.4)——DIS 是微扰 QCD 的实验基础。
 
+## Key results · 核心结果
+
+- Bjorken $x=Q^2/2p\cdot q$ = parton momentum fraction; structure functions $F_1,F_2$ · 比约肯 $x$ 与结构函数
+- Bjorken scaling ($F_2$ depends only on $x$) ⟹ pointlike partons · 比约肯标度
+- Callan–Gross $F_2=2xF_1$ ⟹ spin-$\tfrac12$ partons · 卡兰–格罗斯关系
+- PDFs + DGLAP evolution confirm QCD · 部分子分布与 DGLAP
+
 ---
 
 **Self-test (blank page)**
@@ -43,6 +50,16 @@
 2. 什么是比约肯标度?为何它意味着点状组分?
 3. 陈述卡兰–格罗斯关系及其揭示的部分子性质。
 4. 部分子分布函数编码了什么?标度破坏的 DGLAP 演化证实了什么?
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $x=Q^2/2p\cdot q$ is the fraction of the nucleon momentum carried by the struck parton; $F_1,F_2$ parametrize the cross section. DIS probes the nucleon's quark/gluon structure at resolution $\sim1/Q$. · $x$ 为动量分数;DIS 探测核子内部结构。
+**2.** Bjorken scaling: $F_2$ depends (approximately) only on $x$, not $Q^2$ — meaning scattering off **pointlike** constituents with no intrinsic scale (a structured object would show $Q^2$-dependent form factors). · 标度无关意味点状组分。
+**3.** Callan–Gross $F_2=2xF_1$ holds for spin-$\tfrac12$ partons (it would fail for spin-0), revealing that the quarks are spin-$\tfrac12$. · 卡兰–格罗斯关系揭示自旋 $\tfrac12$。
+**4.** PDFs $f_i(x)$ = probability of finding parton $i$ with momentum fraction $x$. The logarithmic scaling violations follow the DGLAP equations, confirming QCD (gluon radiation makes the distributions evolve with $Q^2$). · 部分子分布;DGLAP 演化证实 QCD。
+
+</details>
 
 ---
 
