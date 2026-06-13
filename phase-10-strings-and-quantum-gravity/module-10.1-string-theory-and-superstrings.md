@@ -243,6 +243,21 @@ The **GSO projection** (Gliozzi–Scherk–Olive) projects onto states with defi
 4. T 对偶是什么，它对五种超弦理论意味着什么？
 5. D 膜是什么，为何 T 对偶要求其存在？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $S_P=-\dfrac1{4\pi\alpha'}\int d\tau d\sigma\sqrt{-\gamma}\,\gamma^{ab}\partial_a X^\mu\partial_b X_\mu$. Symmetries: target-space Poincaré, worldsheet diffeomorphisms, and Weyl invariance. Solving the auxiliary metric $\gamma_{ab}$ equation of motion gives $\gamma_{ab}\propto$ the induced metric, and substituting back reproduces Nambu–Goto. · Polyakov 作用量;消去辅助度规回到 Nambu–Goto。
+
+**2.** $\alpha' M^2=N-1$: (a) $N=0$ ⟹ $M^2=-1/\alpha'<0$, the tachyon; (b) $N=1$ ⟹ $M^2=0$, the massless vector (gauge boson); (c) $N=2$ ⟹ $M^2=1/\alpha'$, the first massive level. · 质量公式;快子、无质量矢量、首个有质量能级。
+
+**3.** Quantization introduces a Weyl (conformal) anomaly proportional to the central charge; cancelling it ($c_X=D$ against ghost $c=-26$) forces $D=26$ for the bosonic string. Worldsheet supersymmetry changes the ghost count to give $D=10$ for the superstring. · 共形反常相消(鬼场 $-26$)迫使 $D=26$;超弦 $D=10$。
+
+**4.** T-duality: a string on a circle of radius $R$ is identical to one on radius $\alpha'/R$, exchanging momentum and winding modes. It relates the five superstring theories (IIA↔IIB, the two heterotic theories), unifying them — with S-duality and M-theory — into one framework. · T 对偶 $R\leftrightarrow\alpha'/R$,联系五种超弦理论。
+
+**5.** A D-brane is a dynamical hypersurface on which open strings end (Dirichlet boundary conditions). T-duality requires it: T-dualizing Neumann endpoints turns them into Dirichlet ones, confining the string ends to a lower-dimensional surface. · D 膜是开弦端点所在的超曲面;T 对偶必然要求其存在。
+
+</details>
+
 ---
 
 [Phase 10 index](./README.md) · Next: [Module 10.2 — Quantum Gravity & Holography](./module-10.2-quantum-gravity-and-holography.md) →
