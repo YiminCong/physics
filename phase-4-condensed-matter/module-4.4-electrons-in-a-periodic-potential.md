@@ -14,6 +14,10 @@
 
 **定义。** 在周期势中，电子本征态取**布洛赫形式** $\psi_{\mathbf{k}}(\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}} u_{\mathbf{k}}(\mathbf{r})$，其中 $u_{\mathbf{k}}$ 是周期函数。能量组织成被**能隙**分隔的**能带** $E_n(\mathbf{k})$。
 
+![Tight-binding band E(k) = E0 - 2t cos(ka), a cosine band of width 4t over the Brillouin zone.](../assets/figures/tight-binding-band.svg)
+
+*The tight-binding band $E(k)=E_0-2t\cos(ka)$: a single band of width $W=4t$ across the Brillouin zone. Filling it controls metal vs insulator. · 紧束缚能带 $E(k)=E_0-2t\cos(ka)$，带宽 $W=4t$；填充情况决定金属还是绝缘体。*
+
 ## 2. Two Complementary Pictures · 两种互补图像
 
 **Demonstration.**

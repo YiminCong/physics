@@ -48,6 +48,10 @@ $$ s^2 = (c\,\Delta t)^2 - (\Delta x)^2 - (\Delta y)^2 - (\Delta z)^2 $$
 
 **应用。** 闵可夫斯基的几何表述使狭义相对论成为四维伪黎曼几何的理论，推广到广义相对论（第 7 阶段）中的弯曲时空。这里发展的四矢量形式（四位置 $x^\mu$、四速度、四动量）是所有相对论物理的语言：粒子运动学（模块 1.14）、协变电磁学（模块 1.15）以及量子场论（第 6 阶段）。
 
+![Minkowski spacetime diagram: future and past timelike cones, spacelike 'elsewhere', a light cone, and a timelike worldline.](../assets/figures/minkowski-light-cone.svg)
+
+*The light cone $ct=\pm x$ splits spacetime into the timelike future/past ($s^2>0$, causally connected) and the spacelike "elsewhere" ($s^2<0$). A massive particle's worldline stays inside the cone. · 光锥 $ct=\pm x$ 将时空分为类时的未来/过去（$s^2>0$，因果相连）与类空的「他处」（$s^2<0$）；有质量粒子的世界线始终在光锥内。*
+
 ## Key results · 核心结果
 
 - $x' = \gamma(x - vt)$, $t' = \gamma(t - vx/c^2)$, $\gamma = 1/\sqrt{1 - v^2/c^2}$ — Lorentz transformation · 洛伦兹变换

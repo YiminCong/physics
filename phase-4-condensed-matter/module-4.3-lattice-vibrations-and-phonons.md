@@ -18,6 +18,10 @@
 
 **演示。** **单原子一维链**给出 $\omega(k) = 2\sqrt{K/M}\,\lvert\sin(ka/2)\rvert$。**双原子链**分裂为两支：低频的**声学**支和高频的**光学**支。
 
+![Phonon dispersion of the 1D monatomic chain: omega(k) = 2 sqrt(K/M) |sin(ka/2)|, linear near k=0 and flat at the zone boundary.](../assets/figures/phonon-dispersion.svg)
+
+*Dispersion of the 1D chain, $\omega(k)=2\sqrt{K/M}\,|\sin(ka/2)|$: linear (sound-like) at small $k$, flattening to $\omega_{\max}=2\sqrt{K/M}$ at the Brillouin-zone boundary. · 一维链色散关系：小 $k$ 处线性（似声波），在布里渊区边界趋于平坦。*
+
 ## 2. Phonons · 声子
 
 **Definition.** Quantizing each vibrational mode (each is a harmonic oscillator, Module 3.2) gives quanta called **phonons** — bosons with energy $\hbar\omega$, occupied according to Bose–Einstein statistics (Module 2.5).
