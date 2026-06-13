@@ -40,6 +40,10 @@ $$ \Delta \approx 2\, \hbar\omega_D\, e^{-1/(g N(0))}, $$
 
 **应用。** 这是将整个课程贯穿起来的成就：它解释了零电阻、能隙、同位素效应和热力学——并使用了*每一个*关键模块（二次量子化、费米面、声子、自由能、单态配对）。如果你理解了能隙方程，就理解了常规超导性。
 
+![BCS density of states: zero inside the gap from -Delta to +Delta, with divergent coherence peaks just above the gap edges.](../assets/figures/bcs-density-of-states.svg)
+
+*The BCS quasiparticle density of states $N_s(E)=N(0)\,E/\sqrt{E^2-\Delta^2}$: no states within $\pm\Delta$ of $E_F$, with divergent coherence peaks at the gap edges — directly seen in tunneling. · BCS 准粒子态密度:费米能附近 $\pm\Delta$ 内无态,能隙边缘出现发散的相干峰,可由隧穿直接观测。*
+
 ## Key results · 核心结果
 
 - $H = \sum_k \varepsilon_k\, c_k^\dagger c_k - g \sum_{k,k'} c_{k'\uparrow}^\dagger c_{-k'\downarrow}^\dagger c_{-k\downarrow} c_{k\uparrow}$ — the BCS pairing Hamiltonian · BCS 配对哈密顿量

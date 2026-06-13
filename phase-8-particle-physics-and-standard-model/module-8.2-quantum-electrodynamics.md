@@ -38,6 +38,10 @@
 
 **应用。** 跑动耦合常数是理解所有规范理论耦合常数的原型。在标准模型中，$SU(3)\times SU(2)\times U(1)$ 的三个耦合常数随能量跑动，若推广到超对称谱，它们在 $10^{16}$ GeV 附近汇聚于一点，这是**大统一**的诱人迹象（模块 8.5）。这一汇聚的精确性依赖于量子电动力学检验所测定的 $\alpha$ 的精度。
 
+![Feynman diagram for electron-electron scattering: two electron lines exchanging a single photon, with two vertices.](../assets/figures/qed-feynman-diagram.svg)
+
+*Lowest-order $e^-e^-\to e^-e^-$ in QED: one-photon ($\gamma$) exchange between two electrons, each vertex contributing a factor $-ie\gamma^\mu$. · QED 中最低阶 $e^-e^-$ 散射:两电子交换一个光子,每个顶点贡献因子 $-ie\gamma^\mu$。*
+
 ## Key results · 核心结果
 
 - QED is the $U(1)$ gauge theory of electrons and photons · QED 是 $U(1)$ 规范理论
