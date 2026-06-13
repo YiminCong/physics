@@ -52,6 +52,13 @@ $$ \Delta S = \int_A^B (\delta Q/T)_\text{rev}. $$
 
 **应用。** 熵是宏观热力学与微观世界之间的纽带。玻尔兹曼关系 $S = k_B \ln \Omega$（其中 $\Omega$ 为可及微观态数目）将在模块 2.4 中从统计力学推导出来，并支撑模块 2.5 中的量子统计。
 
+## Key results · 核心结果
+
+- First law $dU=\delta Q-\delta W$ (energy conservation) · 第一定律
+- Second law $dS\ge0$; Carnot $\eta=1-T_C/T_H$ · 第二定律与卡诺效率
+- Entropy $\Delta S=\int(\delta Q/T)_\text{rev}$ · 熵
+- Zeroth (temperature) and third ($S\to0$ as $T\to0$) laws · 第零、第三定律
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）
@@ -67,6 +74,16 @@ $$ \Delta S = \int_A^B (\delta Q/T)_\text{rev}. $$
 2. 仅利用循环可逆（$\Delta S_\text{universe} = 0$）的条件，推导卡诺效率 $\eta = 1 - T_C/T_H$。
 3. 一台冰箱将热量从 $T_C = 250$ K 传输到 $T_H = 300$ K。从冷源取出每焦耳热量所需的最小功是多少？
 4. 为什么 $dU$ 是恰当微分，而 $\delta Q$ 和 $\delta W$ 单独来看不是？给出一个具体例子说明 $\delta Q$ 的路径依赖性。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** 0th: thermal equilibrium is transitive → temperature. 1st: $dU=\delta Q-\delta W$ → internal energy. 2nd: isolated-system entropy never decreases → entropy/arrow of time. 3rd: $S\to0$ as $T\to0$ → absolute entropy. · 四定律各引入一个量。
+**2.** Reversible cycle has $\Delta S_\text{univ}=0$, so $Q_H/T_H=Q_C/T_C$ and $\eta=1-Q_C/Q_H=1-T_C/T_H$. · 可逆给出卡诺效率。
+**3.** $\text{COP}_\text{max}=T_C/(T_H-T_C)=250/50=5$, so minimum work $=1/5=0.2$ J per joule extracted. · 最小功 0.2 J。
+**4.** $dU$ is exact ($\oint dU=0$, state function); $\delta Q,\delta W$ are path-dependent. Example: isothermal vs adiabatic-then-isochoric paths between the same endpoints exchange different heat. · $dU$ 全微分,$\delta Q$ 路径相关。
+
+</details>
 
 ---
 

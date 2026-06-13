@@ -69,6 +69,13 @@ which is correctly extensive and has a well-defined $T \to 0$ limit connecting t
 
 **应用。** 配分函数编码了一切：它给出理想气体的状态方程 $PV = N k_B T$、热容、涨落（$\langle E^2\rangle - \langle E\rangle^2 = k_B T^2 C_V$），以及——通过巨正则推广——化学平衡常数。在量子统计力学（模块 2.5）中，同样的逻辑适用，但对态的求和须遵守费米–狄拉克或玻色–爱因斯坦统计，从根本上改变了哪些微观态可以被占据。
 
+## Key results · 核心结果
+
+- $S=k_B\ln\Omega$ (Boltzmann) · 玻尔兹曼熵
+- Partition function $Z=\sum_i e^{-E_i/k_BT}$; Boltzmann factor $e^{-E_i/k_BT}$ · 配分函数
+- $U=-\partial\ln Z/\partial\beta$, $F=-k_BT\ln Z$ · 由 $Z$ 得热力学量
+- Gibbs $1/N!$ for indistinguishability (Sackur–Tetrode entropy) · 吉布斯 $1/N!$
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）
@@ -84,6 +91,16 @@ which is correctly extensive and has a well-defined $T \to 0$ limit connecting t
 2. 由定义 $Z = \sum e^{-\beta E_i}$ 和表达式 $\langle E\rangle = \sum p_i E_i$，推导平均能量 $U = -\partial(\ln Z)/\partial\beta$。
 3. 对具有 3 个平动 + 2 个转动 + 2 个振动（动能 + 势能）自由度的双原子气体应用能均分定理。每个分子的 $C_V$ 是多少？
 4. 为什么对于经典全同粒子，$Z$ 必须除以 $N!$？这解决了什么佯谬？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Postulate: all accessible microstates of an isolated system are equally probable; the entropy is the log of their number, $S=k_B\ln\Omega$. · 等概率假设给 $S=k_B\ln\Omega$。
+**2.** With $p_i=e^{-\beta E_i}/Z$, $U=\sum p_i E_i=\tfrac1Z\sum E_i e^{-\beta E_i}=-\tfrac1Z\partial_\beta Z=-\partial_\beta\ln Z$. · $U=-\partial_\beta\ln Z$。
+**3.** Equipartition gives $\tfrac12 k_B$ per quadratic degree of freedom; $3+2+2=7$ → $C_V=\tfrac72 k_B$ per molecule (high $T$). · 能量均分 $C_V=\tfrac72 k_B$。
+**4.** The $1/N!$ corrects overcounting of permutations of identical particles, resolving the Gibbs paradox (spurious mixing entropy). · $1/N!$ 解决吉布斯佯谬。
+
+</details>
 
 ---
 

@@ -36,6 +36,13 @@
 
 **应用。** 输运理论将平衡态统计力学与真实材料的*动力学*联系起来——包括电导率、热导率、扩散和粘度。玻尔兹曼方程至今仍是固体中电子和声子输运（第 4 阶段）以及等离子体研究的主要工具，它还提供宏观纳维–斯托克斯方程（模块 1.17）所需的耗散系数。
 
+## Key results · 核心结果
+
+- Maxwell–Boltzmann speed distribution; $v_\text{rms}=\sqrt{3k_BT/m}$ · 麦–玻速率分布
+- $PV=Nk_BT$ from molecular momentum flux on the wall · 由动量通量得理想气体律
+- Mean free path $\ell=1/(\sqrt2\,n\sigma)$ · 平均自由程
+- Transport coefficients $\sim\ell\bar v$ (viscosity, conductivity, diffusion) · 输运系数 $\sim\ell\bar v$
+
 ---
 
 **Self-test (blank page)**
@@ -51,6 +58,16 @@
 2. 通过计算分子对壁面的动量通量推导 $PV = N k_B T$。
 3. 定义平均自由程，并解释它如何进入输运系数。
 4. 从弛豫时间玻尔兹曼方程出发，概述德鲁德电导率 $\sigma = ne^2\tau/m$ 是如何得出的。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $f(v)\propto v^2 e^{-mv^2/2k_BT}$; $v_\text{rms}=\sqrt{3k_BT/m}$. As $T$ rises the peak shifts to higher $v$ and the distribution broadens. · 速率分布,随 $T$ 右移变宽。
+**2.** Pressure = momentum flux on the wall: $P=\tfrac13 nm\langle v^2\rangle=\tfrac13 nm(3k_BT/m)=nk_BT$, i.e. $PV=Nk_BT$. · 动量通量给理想气体律。
+**3.** Mean free path $\ell=1/(\sqrt2\,n\sigma)$ is the average distance between collisions; transport coefficients scale as $\ell\bar v$ (e.g. $\eta\sim\tfrac13 nm\bar v\ell$). · 平均自由程进入输运系数。
+**4.** Relaxation-time Boltzmann: a steady field gives drift $v_d=-e\tau E/m$, so $J=nev_d$ and $\sigma=ne^2\tau/m$. · 弛豫时间近似给德鲁德电导。
+
+</details>
 
 ---
 

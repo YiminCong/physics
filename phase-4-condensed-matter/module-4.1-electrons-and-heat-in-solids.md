@@ -28,6 +28,13 @@
 
 **应用。** 低温总热容 $C = \gamma T + \beta T^3$：线性项探测电子，三次方项探测声子。测量 $\gamma$ 可以得到 $E_F$ 处的态密度——而 **$T_c$ 处热容的跳跃**是超导转变的经典特征之一（第 5 阶段）。
 
+## Key results · 核心结果
+
+- Sommerfeld electronic heat capacity $C_\text{el}=\gamma T$, with $\gamma\propto g(E_F)$ · 索末菲电子热容
+- Low-$T$ total $C=\gamma T+\beta T^3$ (electrons + Debye phonons) · 低温总热容
+- Fermi statistics suppress $C_\text{el}$ by $\sim T/T_F$ vs the classical value · 费米统计压低电子热容
+- $\Delta C/\gamma T_c\approx1.43$ jump at the superconducting $T_c$ · 超导转变处的比热跳变
+
 ---
 
 **Self-test (blank page)**
@@ -43,6 +50,16 @@
 2. 写出低温总热容 $C = \gamma T + \beta T^3$，分别解释两项的物理来源，并说明如何从实验数据中提取 $\gamma$ 和 $\beta$。
 3. 德鲁德模型与索末菲模型都能给出欧姆定律，但在热容上差别很大。索末菲模型加入了什么关键物理成分？为何它使电子热容减小了量级为 $T/T_F$ 的因子？
 4. 在超导转变温度 $T_c$ 处热容发生跳跃是重要的实验特征。其大小（相对于 $\gamma T_c$）能告诉我们关于转变本质的什么信息？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $C_\text{el}=\gamma T=\tfrac{\pi^2}{3}k_B^2 g(E_F)T$: linear because only the fraction $\sim k_BT/E_F$ of electrons near $E_F$ are thermally active (Pauli); $\gamma$ measures $g(E_F)$. · 线性正比 $T$,$\gamma$ 测 $g(E_F)$。
+**2.** $C=\gamma T+\beta T^3$: $\gamma T$ electronic, $\beta T^3$ Debye phonons. Plot $C/T$ vs $T^2$ — intercept $\gamma$, slope $\beta$. · 画 $C/T$–$T^2$ 提取 $\gamma,\beta$。
+**3.** Sommerfeld adds Fermi–Dirac statistics; only $\sim T/T_F$ of electrons near $E_F$ contribute, reducing $C_\text{el}$ by that factor vs the classical $\tfrac32 Nk_B$. · 费米统计,压低因子 $\sim T/T_F$。
+**4.** $\Delta C/\gamma T_c\approx1.43$ (universal BCS), signalling a second-order transition into a gapped paired state. · 跳变 1.43,二阶相变。
+
+</details>
 
 ---
 

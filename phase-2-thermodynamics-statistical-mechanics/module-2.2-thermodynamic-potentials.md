@@ -75,6 +75,13 @@ and correspondingly $dG = -S\, dT + V\, dP + \mu\, dN$, so $\mu = \left(\frac{\p
 
 **应用。** 化学势是量子统计（模块 2.5）中的核心量：它确定金属中的费米能 $E_F$，并控制玻色–爱因斯坦凝聚。在固定 $T$、$P$ 条件下 $G$ 极小的条件也是理解模块 2.3 中相变的基础，在那里 $G$（或 $F$）被展开为序参量的幂级数。
 
+## Key results · 核心结果
+
+- $dU=TdS-PdV$, $dH=TdS+VdP$, $dF=-SdT-PdV$, $dG=-SdT+VdP$ · 四个势的微分
+- Each is a Legendre transform with its own natural variables · 勒让德变换与自然变量
+- Maxwell relations, e.g. $(\partial S/\partial V)_T=(\partial P/\partial T)_V$ · 麦克斯韦关系
+- $G$ is minimized at fixed $T,P$ (reactions, phase equilibria) · 定 $T,P$ 下 $G$ 极小
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）
@@ -90,6 +97,16 @@ and correspondingly $dG = -S\, dT + V\, dP + \mu\, dN$, so $\mu = \left(\frac{\p
 2. 从吉布斯自由能推导麦克斯韦关系 $\left(\frac{\partial S}{\partial P}\right)_T = -\left(\frac{\partial V}{\partial T}\right)_P$。
 3. 用一句话解释为什么 $G$ 是在恒温恒压下进行的化学反应的相关热力学势。
 4. 利用 $F$ 的麦克斯韦关系，证明对于理想气体（$PV = N k_B T$），内能 $U$ 在固定 $T$ 时不依赖于体积。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $dU=TdS-PdV$ $(S,V)$; $dH=TdS+VdP$ $(S,P)$; $dF=-SdT-PdV$ $(T,V)$; $dG=-SdT+VdP$ $(T,P)$. · 四势及自然变量。
+**2.** From $dG=-SdT+VdP$, equality of mixed second derivatives gives $(\partial S/\partial P)_T=-(\partial V/\partial T)_P$. · 由 $G$ 得麦克斯韦关系。
+**3.** $G$ is minimized at constant $T$ and $P$ — exactly the conditions of a bench-top chemical reaction. · 定 $T,P$ 下反应取 $G$ 极小。
+**4.** From $F$: $(\partial U/\partial V)_T=T(\partial P/\partial T)_V-P$. Ideal gas $P=Nk_BT/V$ gives $T(\partial P/\partial T)_V=P$, so $(\partial U/\partial V)_T=0$. · 理想气体 $U$ 与体积无关。
+
+</details>
 
 ---
 

@@ -68,6 +68,13 @@ The most important special cases (all expanded around 0):
 
 **应用。** 级数 $e^x = \sum x^n/n!$ 逐项求导后仍为其本身，从而验证 $d/dx(e^x) = e^x$——这直接推动了所有解为指数函数的常微分方程（模块 0.3），并通过代入 $i\theta$ 得出欧拉公式 $e^{i\theta} = \cos\theta + i\sin\theta$，奠定了复分析的基础（模块 0.4）。**高斯积分** $\int_{-\infty}^{\infty} e^{-x^2}\, dx = \sqrt{\pi}$ 是一个基石性结果：它支撑了波包和概率分布的归一化（模块 0.5），并贯穿统计力学和量子场论。二项式展开 $(1+x)^n \approx 1 + nx$（当 $|x| \ll 1$）出现在 $v/c \ll 1$ 的狭义相对论、微扰论以及度规的弱场展开中（第 7 阶段）。
 
+## Key results · 核心结果
+
+- Fundamental theorem of calculus: $\int_a^b f'(x)\,dx=f(b)-f(a)$ — differentiation and integration are inverse · 微积分基本定理
+- Taylor series $f(x)=\sum_n\dfrac{f^{(n)}(a)}{n!}(x-a)^n$ · 泰勒级数
+- $e^x=1+x+\tfrac{x^2}{2}+\cdots$, $\sin x=x-\tfrac{x^3}{6}+\cdots$, $\cos x=1-\tfrac{x^2}{2}+\cdots$ · 关键展开
+- Linearization (small-angle $\sin\theta\approx\theta$) underlies the harmonic oscillator everywhere · 线性化是谐振子的基础
+
 ---
 
 ## Module 0.1 Self-Test (blank page)
@@ -85,6 +92,17 @@ The most important special cases (all expanded around 0):
 3. 写出 $e^x$、$\sin x$ 和 $\cos x$ 的泰勒展开式至三个非零项。
 4. 用小角近似对摆方程进行线性化，并写出其解。
 5. 解释为何 $d/dx(e^x) = e^x$ 使指数函数成为常系数常微分方程的自然解，并指出通过代入 $i\theta$ 直接依赖 $e^x$ 的另一个模块。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** FTC: $\int_a^b f'(x)\,dx=f(b)-f(a)$. So $\int_0^1 3x^2\,dx=[x^3]_0^1=1$. · 微积分基本定理;积分为 1。
+**2.** $\dfrac{d}{dx}(e^{ax}\sin bx)=e^{ax}(a\sin bx+b\cos bx)$. · 乘积法则。
+**3.** $e^x=1+x+\tfrac{x^2}{2}$; $\sin x=x-\tfrac{x^3}{6}+\tfrac{x^5}{120}$; $\cos x=1-\tfrac{x^2}{2}+\tfrac{x^4}{24}$. · 三项展开。
+**4.** $\sin\theta\approx\theta$: $\ddot\theta+(g/L)\theta=0$, $\theta(t)=\theta_0\cos(\sqrt{g/L}\,t)$. · 小角度摆。
+**5.** $\tfrac{d}{dx}e^x=e^x$ makes $e^{\lambda x}$ the eigenfunction of $d/dx$, hence the natural solution of constant-coefficient ODEs; Module 0.4 builds on $e^{i\theta}=\cos\theta+i\sin\theta$. · 指数为 $d/dx$ 本征函数;0.4 由 $i\theta$ 代入展开。
+
+</details>
 
 ---
 

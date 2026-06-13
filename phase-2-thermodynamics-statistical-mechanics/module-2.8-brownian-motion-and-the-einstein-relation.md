@@ -28,6 +28,13 @@
 
 **应用。** 除证实原子论之外，这还开创了**随机过程**理论——郎之万方程、随机游走和噪声。同样的逻辑给出了电路中的**约翰逊–奈奎斯特热噪声**，并支撑着模块 2.7 的输运系数。它至今仍是建模一切事物的主要工具，从胶体和聚合物到金融时间序列皆然。
 
+## Key results · 核心结果
+
+- $\langle x^2\rangle=2Dt$ — diffusive spreading ($\propto\sqrt t$, not ballistic) · 扩散 $\langle x^2\rangle=2Dt$
+- Einstein relation $D=\mu k_BT$ · 爱因斯坦关系
+- Stokes–Einstein $D=k_BT/6\pi\eta a$ · 斯托克斯–爱因斯坦
+- Fluctuation–dissipation: random force ↔ friction · 涨落–耗散定理
+
 ---
 
 **Self-test (blank page)**
@@ -41,6 +48,15 @@
 1. 写出爱因斯坦结果 $\langle x^2\rangle = 2Dt$，并将扩散式扩展与弹道运动进行对比。
 2. 陈述爱因斯坦关系 $D = \mu k_B T$ 和斯托克斯–爱因斯坦形式；解释它如何给出阿伏加德罗常数。
 3. 涨落–耗散定理联系了什么，为什么两侧是相互关联的？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\langle x^2\rangle=2Dt$: the displacement grows as $\sqrt t$ (diffusive), in contrast to ballistic $x\propto t$; there is no net drift. · 扩散 $\propto\sqrt t$,无净漂移。
+**2.** $D=\mu k_BT$, Stokes–Einstein $D=k_BT/6\pi\eta a$. Measuring $D$ and $a$ gives $k_B$, hence $N_A=R/k_B$ (Perrin). · 由此得 $k_B$ 与阿伏加德罗常数。
+**3.** The fluctuation–dissipation theorem links the random thermal force to the dissipative friction — both come from the same molecular collisions, so the noise strength is fixed by the drag and temperature. · 涨落与耗散同源,由阻力与温度决定。
+
+</details>
 
 ---
 

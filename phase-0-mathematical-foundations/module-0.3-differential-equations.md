@@ -106,6 +106,13 @@ This splits into $T' = -D\lambda T$ (giving $T \propto e^{-D\lambda t}$) and $X'
 
 **应用。** **薛定谔方程**正是用这种方法分离为空间部分（定态薛定谔方程）和时间部分 $e^{-iEt/\hbar}$（第 3 阶段）。**拉普拉斯方程**是第 1 阶段将要求解的静电学边值问题。同样的分离变量逻辑贯穿整个课程。
 
+## Key results · 核心结果
+
+- First-order separable: $dy/dx=-ky\Rightarrow y=y_0 e^{-kx}$ · 一阶可分离
+- Constant-coefficient $y''+2\gamma y'+\omega_0^2 y=0$: characteristic roots set over/critical/under-damping · 常系数二阶,阻尼分类
+- $y''+\omega^2 y=0\Rightarrow y=A\cos\omega t+B\sin\omega t$ · 简谐解
+- PDE separation of variables → ODEs + eigenvalue $\lambda$ (special functions) · 分离变量法
+
 ---
 
 ## Module 0.3 Self-Test (blank page)
@@ -125,6 +132,17 @@ If solid, advance to **[Module 0.4 — Complex Analysis](./module-0.4-complex-an
 3. 写出与谐振子、角动量和氢原子相关的特殊函数名称。
 4. 对热传导方程进行变量分离，写出模式解。
 5. 解释分离变量法如何应用于薛定谔方程。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $dy/dx=-ky\Rightarrow y=y_0 e^{-kx}$ — radioactive decay, RC discharge, Newton cooling. · 指数衰减(放射性、RC、冷却)。
+**2.** $y''+\omega^2 y=0\Rightarrow A\cos\omega t+B\sin\omega t$. $y''+2\gamma y'+\omega_0^2 y=0$: roots $-\gamma\pm\sqrt{\gamma^2-\omega_0^2}$ — $\gamma<\omega_0$ underdamped, $\gamma=\omega_0$ critical, $\gamma>\omega_0$ overdamped. · 阻尼三区。
+**3.** Hermite (oscillator), Legendre / spherical harmonics (angular momentum), Laguerre (hydrogen radial). · 厄米、勒让德、拉盖尔。
+**4.** $\partial_t T=D\partial_x^2 T$: $XT'=DX''T\Rightarrow T'/DT=X''/X=-\lambda$, so $T\propto e^{-D\lambda t}$, $X\propto\sin/\cos(\sqrt\lambda x)$. · 热方程分离。
+**5.** $\Psi(x,t)=\psi(x)e^{-iEt/\hbar}$: separating time leaves the stationary equation $\hat H\psi=E\psi$. · 薛定谔方程分离时间得定态方程。
+
+</details>
 
 ---
 
