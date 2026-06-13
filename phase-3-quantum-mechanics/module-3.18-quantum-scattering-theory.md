@@ -86,6 +86,13 @@ At $E = E_R$ the cross section reaches the **unitarity limit** $\sigma_\ell^\tex
 
 **应用。** 散射长度支配超冷原子物理：在 **Feshbach 共振**附近，用磁场可将 $a$ 调过 $\pm\infty$，在吸引与排斥之间切换有效相互作用，从而实现玻色-爱因斯坦凝聚与 BEC–BCS 渡越。Breit–Wigner 共振无处不在：核反应堆中慢中子俘获截面、$\pi$-核子散射中的 $\Delta(1232)$ 重子共振，以及高能物理中的不稳定粒子（模块 6.8、8.9），其中共振宽度 $\Gamma$ 与寿命互为倒数 $\tau = \hbar/\Gamma$。同样的低能 s 波机制是模块 3.4 中心势束缚态问题（球谐函数与径向方程）的基础。
 
+## Key results · 核心结果
+
+- $\psi(\mathbf r)\to e^{ikz}+f(\theta)\dfrac{e^{ikr}}{r}$ (incident + scattered) · 散射态渐近形式
+- $d\sigma/d\Omega=|f(\theta)|^2$ · 微分截面
+- Partial waves $\sigma=\dfrac{4\pi}{k^2}\sum_\ell(2\ell+1)\sin^2\delta_\ell$ · 分波展开
+- Optical theorem $\sigma_\text{tot}=\dfrac{4\pi}{k}\,\text{Im}\,f(0)$ · 光学定理
+
 ---
 
 **Self-test (blank page)**
@@ -101,6 +108,16 @@ At $E = E_R$ the cross section reaches the **unitarity limit** $\sigma_\ell^\tex
 2. 从概率流出发，推导 $d\sigma/d\Omega = |f(\theta)|^2$。
 3. 定义相移 $\delta_\ell$ 并写出 $f(\theta)$ 的分波展开；由此得到 $\sigma = (4\pi/k^2) \sum_\ell (2\ell+1) \sin^2\delta_\ell$。
 4. 陈述并证明光学定理 $\sigma_\text{tot} = (4\pi/k)\, \text{Im}\, f(0)$。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\psi(\mathbf r)\to e^{ikz}+f(\theta)\,e^{ikr}/r$ as $r\to\infty$: incident plane wave plus an outgoing spherical wave; $f(\theta)$ is the scattering amplitude. · 入射平面波 + 出射球面波。
+**2.** Incident flux $j_\text{inc}=\hbar k/m$; the scattered radial flux through $r^2 d\Omega$ is $|f|^2\hbar k/m$, so $d\sigma/d\Omega=$ scattered/incident $=|f(\theta)|^2$. · 由概率流得 $|f|^2$。
+**3.** $\delta_\ell$ = phase shift of the $\ell$-th partial wave; $f(\theta)=\tfrac1k\sum_\ell(2\ell+1)e^{i\delta_\ell}\sin\delta_\ell P_\ell(\cos\theta)$, and integrating $|f|^2$ gives $\sigma=\tfrac{4\pi}{k^2}\sum_\ell(2\ell+1)\sin^2\delta_\ell$. · 相移与分波截面。
+**4.** Optical theorem $\sigma_\text{tot}=\tfrac{4\pi}{k}\text{Im}\,f(0)$ follows from unitarity: the forward amplitude's imaginary part accounts for flux removed from the beam. Comparing $\text{Im}\,f(0)=\tfrac1k\sum_\ell(2\ell+1)\sin^2\delta_\ell$ with the partial-wave $\sigma$ proves it. · 由幺正性(概率守恒)证明。
+
+</details>
 
 ---
 

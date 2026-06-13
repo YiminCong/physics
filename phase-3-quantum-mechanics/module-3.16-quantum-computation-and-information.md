@@ -140,6 +140,13 @@ Superdense coding achieves 2 classical bits per qubit sent, exceeding the classi
 
 **应用。** 量子隐形传态与超密编码揭示了一种深刻的对偶性：隐形传态将 1 ebit $+$ 2 经典比特转换为 1 量子比特的量子通信；超密编码将 1 ebit $+$ 1 量子比特转换为 2 经典比特。两者共同表明**纠缠是一种资源**，可以替代或放大通信。**密度矩阵形式体系**（模块 3.14）描述 Bob 在收到 Alice 经典比特前所持有的状态：最大混合态 $\rho = I/2$，与无信号条件一致。经典比特到达后，Bob 的态坍缩为纯态——态投影精确由偏迹和条件密度矩阵描述。
 
+## Key results · 核心结果
+
+- Qubit $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$, $|\alpha|^2+|\beta|^2=1$ · 量子比特
+- Bloch sphere $(\theta,\varphi)$ parametrizes a pure qubit · 布洛赫球
+- Gates $X,Z,H,T$ (unitary); CNOT entangles two qubits · 量子门
+- $H$ then CNOT on $|00\rangle$ makes a Bell state · 制备贝尔态
+
 ---
 
 **Self-test (blank page)**
@@ -163,6 +170,16 @@ Superdense coding achieves 2 classical bits per qubit sent, exceeding the classi
 6. 列出量子隐形传态的五个步骤，并说明它消耗什么资源。
 7. 解释超密编码：每个量子比特发送多少经典比特，为何纠缠必不可少？
 8. 为何隐形传态不违反狭义相对论？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $|\psi\rangle=\cos\tfrac\theta2|0\rangle+e^{i\varphi}\sin\tfrac\theta2|1\rangle$; $\theta$ is the polar angle, $\varphi$ the azimuth on the Bloch sphere. · 布洛赫球角 $(\theta,\varphi)$。
+**2.** $X=\begin{pmatrix}0&1\\1&0\end{pmatrix}$, $Z=\begin{pmatrix}1&0\\0&-1\end{pmatrix}$, $H=\tfrac1{\sqrt2}\begin{pmatrix}1&1\\1&-1\end{pmatrix}$, $T=\text{diag}(1,e^{i\pi/4})$; each satisfies $U^\dagger U=\mathbb 1$. · 各门均幺正。
+**3.** CNOT: $|00\rangle\to|00\rangle$, $|01\rangle\to|01\rangle$, $|10\rangle\to|11\rangle$, $|11\rangle\to|10\rangle$ (flip the target iff the control is 1). · CNOT 作用。
+**4.** $H$ on qubit 1: $|00\rangle\to\tfrac1{\sqrt2}(|00\rangle+|10\rangle)$; CNOT $\to\tfrac1{\sqrt2}(|00\rangle+|11\rangle)=|\Phi^+\rangle$, a Bell state. · 得贝尔态 $|\Phi^+\rangle$。
+
+</details>
 
 ---
 

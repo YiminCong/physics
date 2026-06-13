@@ -22,6 +22,13 @@
 
 **应用。** 几乎没有实际系统可以精确求解；微扰理论是普适的一阶近似，贯穿整个课程用于估算能级移动、能隙和响应。
 
+## Key results · 核心结果
+
+- $E_n^{(1)}=\langle n|\hat H'|n\rangle$ · 一阶能量修正
+- $E_n^{(2)}=\sum_{m\neq n}\dfrac{|\langle m|\hat H'|n\rangle|^2}{E_n^{(0)}-E_m^{(0)}}$ · 二阶能量修正
+- Ground-state $E_0^{(2)}\le0$ · 基态二阶修正非正
+- Degenerate case: diagonalize $\hat H'$ within the degenerate subspace · 简并情形对角化
+
 ---
 
 **Self-test (blank page)**
@@ -35,6 +42,15 @@
 1. 写出非简并态 $|n\rangle$ 在微扰 $\hat{H}'$ 下的一阶能量修正 $E_n^{(1)}$ 和二阶能量修正 $E_n^{(2)}$。基态的二阶修正符号如何？
 2. 解释简并情形：为何普通非简并微扰理论会失效？正确的处理方法是什么？
 3. 描述一个将微扰理论应用于氢原子的物理例子（如精细结构或塞曼效应），指出微扰 $\hat{H}'$ 的形式和所得能级分裂。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $E_n^{(1)}=\langle n|\hat H'|n\rangle$; $E_n^{(2)}=\sum_{m\neq n}|\langle m|\hat H'|n\rangle|^2/(E_n^{(0)}-E_m^{(0)})$. For the ground state every $E_0-E_m<0$, so $E_0^{(2)}\le0$ (it is always lowered). · 基态二阶修正非正。
+**2.** Degenerate states make the denominators vanish, so the formula diverges. Correct procedure: diagonalize $\hat H'$ within the degenerate subspace; its eigenvectors are the proper zeroth-order states. · 简并时分母为零,需在简并子空间对角化。
+**3.** Hydrogen fine structure: $\hat H'$ = spin–orbit + relativistic corrections, splitting levels by $j$ at order $\alpha^2$ Ry. (Or Zeeman: $\hat H'=-\boldsymbol\mu\cdot\mathbf B$ splits $m_\ell$ by $\mu_B B$.) · 精细结构(或塞曼效应)。
+
+</details>
 
 ---
 

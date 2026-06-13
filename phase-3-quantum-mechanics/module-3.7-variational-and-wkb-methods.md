@@ -28,6 +28,13 @@
 
 **应用。** 变分法是量子化学和试探态方法的基础（包括 BCS 变分基态，第 5 阶段）。WKB 隧穿解释了 $\alpha$ 衰变、扫描隧道显微镜，以及探测超导能隙的隧道效应（第 5 阶段）。
 
+## Key results · 核心结果
+
+- Variational: $E_0\le\dfrac{\langle\psi|\hat H|\psi\rangle}{\langle\psi|\psi\rangle}$ for any trial $\psi$ · 变分原理
+- Optimize the trial-function parameter to get the best bound · 优化试探参数
+- WKB $\psi\sim p^{-1/2}\exp(\pm\tfrac{i}{\hbar}\int p\,dx)$ · WKB 近似
+- Tunneling $T\sim\exp[-\tfrac{2}{\hbar}\int_a^b|p|\,dx]$ · 隧穿透射
+
 ---
 
 **Self-test (blank page)**
@@ -41,6 +48,15 @@
 1. 以不等式形式陈述变分原理。为什么它给出的是基态能量的上界而非精确值？
 2. 描述如何用含可调宽度参数 $\alpha$ 的高斯试探波函数估计给定势的基态能量，优化步骤是什么？
 3. 写出 WKB 波函数形式和隧穿透射公式 $T \propto \exp[-(2/\hbar)\int|p(x)|\,dx]$，指出积分上下限，并解释什么决定隧穿率。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $E_0\le\langle\psi|\hat H|\psi\rangle/\langle\psi|\psi\rangle$ for any trial state. It is an upper bound because any trial $\psi$ is a superposition of the true eigenstates, and the excited states ($E>E_0$) only raise the average. · 任意试探态给上界。
+**2.** Take a Gaussian $\psi_\alpha\propto e^{-\alpha x^2}$, compute $E(\alpha)=\langle\hat H\rangle$, then minimize: $dE/d\alpha=0$ gives the best width and the variational estimate. · 高斯试探,$dE/d\alpha=0$。
+**3.** $\psi\sim p^{-1/2}\exp(\pm\tfrac{i}{\hbar}\int p\,dx)$; tunneling $T\sim\exp[-\tfrac{2}{\hbar}\int_a^b|p(x)|\,dx]$ between the classical turning points $a,b$ (where $E=V$). The rate is set by the barrier "area" $\int|p|\,dx$. · 积分限为经典转折点,速率由势垒面积决定。
+
+</details>
 
 ---
 

@@ -88,6 +88,14 @@ $$ |0_L\rangle = (|000\rangle+|111\rangle)^{\otimes 3} / 2\sqrt{2}, \qquad |1_L\
 
 **应用——物理平台。** 当前的量子硬件平台各自在不同的错误来源和连接性之间进行权衡。**超导量子比特**（见模块 5.8）在毫开尔文温度下工作；其快速门操作时间（约 10–100 ns）和与光刻制造的兼容性使其成为近期处理器（Google、IBM）的领先平台，但其退相干时间 $T_1$、$T_2 \sim 10\text{–}500$ µs 需要高效的纠错。**囚禁离子量子比特**（$^{171}\text{Yb}^+$、$^{40}\text{Ca}^+$）利用窄光学跃迁获得长相干时间（$> 1$ 秒）和高保真双量子比特门（$> 99.9\%$），但门操作速率较慢（约 1 µs–1 ms）且面临可扩展性挑战。**拓扑量子比特**（见模块 5.11）——基于拓扑超导体中 Majorana 零模等非阿贝尔任意子——非局域地存储量子信息，使其本征地受到局域错误的保护；硬件演示仍是一个活跃的研究前沿。
 
+## Key results · 核心结果
+
+- Deutsch–Jozsa: one quantum query decides constant vs balanced · 多伊奇–约萨
+- Grover search $\sim\tfrac{\pi}{4}\sqrt N$ iterations · 格罗弗搜索
+- QFT gate complexity $O(n^2)$ · 量子傅里叶变换
+- Shor: factoring = period finding (QFT) · 秀尔算法
+- 3-qubit code $|0_L\rangle=|000\rangle$, $|1_L\rangle=|111\rangle$ · 三比特纠错码
+
 ---
 
 **Self-test (blank page)**
@@ -115,6 +123,16 @@ $$ |0_L\rangle = (|000\rangle+|111\rangle)^{\otimes 3} / 2\sqrt{2}, \qquad |1_L\
 8. Shor 9 量子比特码如何在防护比特翻转错误之外还防护相位翻转错误？
 9. 陈述容错阈值定理，并给出表面码的典型 $p_\text{th}$ 值。
 10. 从量子计算平台角度比较超导量子比特和囚禁离子量子比特。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Deutsch–Jozsa decides whether $f$ is constant or balanced. A superposition queries all inputs at once and interference exposes the global property in one query (vs $2^{n-1}+1$ classically). · 一次量子查询足够。
+**2.** $G$ = reflection about the mean followed by reflection about the target — a rotation toward the marked state by $2\theta$ in a 2D plane; it needs $\sim\tfrac\pi4\sqrt N$ iterations. · 几何上为旋转,$\sim\tfrac\pi4\sqrt N$ 次。
+**3.** The quantum Fourier transform has gate complexity $O(n^2)$ for $n$ qubits, versus the classical FFT's $O(n2^n)$ on $2^n$ amplitudes. · QFT 复杂度 $O(n^2)$。
+**4.** Shor reduces factoring $N$ to finding the period $r$ of $f(x)=a^x\bmod N$; the QFT extracts $r$, then $\gcd(a^{r/2}\pm1,N)$ yields a factor. · 因数分解化为求周期。
+
+</details>
 
 ---
 
