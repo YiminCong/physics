@@ -68,6 +68,10 @@ If $b < 0$ (with a stabilizing $c\, \eta^6$ term), the potential develops a seco
 - **希格斯机制**（模块 8.4）是同一双势阱势的相对论性场论版本：复标量场的墨西哥帽势，其戈德斯通方向成为纵向规范玻色子。
 - **重正化群**（模块 6.6）解释了为什么平均场指数（$\beta = 1/2$，$\gamma = 1$）在低维的 $T_c$ 附近是错误的：被鞍点极小化所忽略的 $\eta$ 涨落变得占主导地位，并将指数移至普适的、依赖维数的值。
 
+![Landau free energy F = a(T) eta^2 + b eta^4: single well above Tc, flat at Tc, double well below Tc.](../assets/figures/landau-free-energy.svg)
+
+*Landau free energy $F=a(T)\eta^2+b\eta^4$ with $a(T)=a_0(T-T_c)$: a single minimum at $\eta=0$ above $T_c$, developing into a symmetric double well below $T_c$ with $\pm\eta_0\propto(T_c-T)^{1/2}$ — a continuous (second-order) transition. · 朗道自由能：$T_c$ 以上单一极小，以下变为对称双阱，$\pm\eta_0\propto(T_c-T)^{1/2}$，即连续（二阶）相变。*
+
 ## Key results · 核心结果
 
 - $F(T, \eta) = F_0 + a(T)\eta^2 + b\eta^4 + \cdots$ — Landau free energy in the order parameter $\eta$ · 朗道自由能
