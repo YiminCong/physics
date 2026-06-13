@@ -111,6 +111,21 @@ If solid, advance to **Module 0.5 — Fourier Analysis & Probability**.
 4. 验证 $f(z) = z^2$ 满足柯西–黎曼方程。
 5. 用留数定理计算 $\oint dz/z$ 绕原点的积分。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $(a+bi)(c+di)=(ac-bd)+(ad+bc)i$; $|z|=\sqrt{a^2+b^2}$. · 复数乘法与模。
+
+**2.** $e^{i\theta}=\cos\theta+i\sin\theta$, obtained by matching the Taylor series of $e^{i\theta}$ with those of $\cos$ and $\sin$. Then $e^{i\theta_1}e^{i\theta_2}=e^{i(\theta_1+\theta_2)}$ — multiplication adds phases. · 欧拉公式由泰勒级数得;乘法相位相加。
+
+**3.** A plane wave is $e^{i(kx-\omega t)}$; its phase $kx-\omega t$ encodes where in the oscillation cycle you are, hence interference. · 平面波 $e^{i(kx-\omega t)}$,相位编码振荡所处位置(干涉)。
+
+**4.** $f=z^2=(x^2-y^2)+i(2xy)$, so $u=x^2-y^2$, $v=2xy$: $u_x=2x=v_y$ and $u_y=-2y=-v_x$ ✓. · 柯西–黎曼方程对 $z^2$ 成立。
+
+**5.** $\oint dz/z=2\pi i\,\text{Res}_{z=0}(1/z)=2\pi i$. · $\oint dz/z=2\pi i$。
+
+</details>
+
 ---
 
 ← Previous: [Module 0.3 — Differential Equations](./module-0.3-differential-equations.md) · [Phase 0 index](./README.md) · Next: [Module 0.5 — Fourier Analysis & Probability](./module-0.5-fourier-analysis-and-probability.md) →

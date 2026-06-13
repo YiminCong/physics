@@ -117,6 +117,19 @@ which is far smaller than the classical equipartition value $\tfrac32 N k_B$ bec
 3. 对于 $T = 0$ 的自由费米气体，利用所有低于 $E_F$ 的态均被填满的条件，推导用数密度 $n$ 表示的费米能 $E_F$。
 4. 为什么玻色子的化学势必须满足 $\mu < \varepsilon_0$（基态能量）？当 $\mu \to \varepsilon_0$ 时会发生什么？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Fermi–Dirac $\bar n=\dfrac1{e^{(\varepsilon-\mu)/k_BT}+1}$ (electrons) and Bose–Einstein $\bar n=\dfrac1{e^{(\varepsilon-\mu)/k_BT}-1}$ (helium-4; photons with $\mu=0$). Classical limit (dilute, $e^{(\varepsilon-\mu)/k_BT}\gg1$): Boltzmann $e^{-(\varepsilon-\mu)/k_BT}$. · FD(电子)/BE(氦-4、光子);稀疏极限为玻尔兹曼。
+
+**2.** Only electrons within $\sim k_BT$ of $E_F$ can be excited (Pauli blocks the rest), a fraction $\sim k_BT/E_F$, so $C_\text{el}\sim Nk_B(k_BT/E_F)\propto T$. · 仅费米面附近 $\sim k_BT$ 的电子有贡献,故 $C_\text{el}\propto T$。
+
+**3.** At $T=0$ all states up to $E_F$ are filled: $N=2\cdot\dfrac{V}{(2\pi)^3}\cdot\dfrac{4\pi}{3}k_F^3\Rightarrow k_F=(3\pi^2 n)^{1/3}$, hence $E_F=\dfrac{\hbar^2}{2m}(3\pi^2 n)^{2/3}$. · 填满至 $E_F$ 得 $E_F=\tfrac{\hbar^2}{2m}(3\pi^2 n)^{2/3}$。
+
+**4.** Bose occupancy $\bar n\ge0$ requires $e^{(\varepsilon_0-\mu)/k_BT}>1$, i.e. $\mu<\varepsilon_0$. As $\mu\to\varepsilon_0$ the ground-state occupancy diverges — Bose–Einstein condensation. · 玻色子需 $\mu<\varepsilon_0$;$\mu\to\varepsilon_0$ 时基态占据发散,即玻色–爱因斯坦凝聚。
+
+</details>
+
 ---
 
 ← Previous: [Module 2.4 — Classical Statistical Mechanics](./module-2.4-classical-statistical-mechanics.md) · [Phase 2 index](./README.md) · Next: [Module 2.6 — Quantum Gases & Applications](./module-2.6-quantum-gases-applications.md) →

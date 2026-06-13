@@ -95,6 +95,19 @@ If $b < 0$ (with a stabilizing $c\, \eta^6$ term), the potential develops a seco
 3. 用一句话解释一阶和二阶相变在物理上的区别。哪一种有潜热？
 4. 指出后续哪两个模块中再次出现朗道自由能展开，并分别给出各情况下的序参量。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $T>T_c$ ($a>0$): single minimum at $\eta=0$. $T=T_c$ ($a=0$): flat quartic minimum at $\eta=0$. $T<T_c$ ($a<0$): symmetric double well, minima at $\eta=\pm\eta_0$. · $T>T_c$ 单阱,$T<T_c$ 双阱,极小在 $\pm\eta_0$。
+
+**2.** $\partial F/\partial\eta=2a_0(T-T_c)\eta+4b\eta^3=0\Rightarrow\eta^2=\dfrac{a_0(T_c-T)}{2b}$, so $\eta\propto(T_c-T)^{1/2}$ and the mean-field exponent is $\beta=\tfrac12$. · 极小化得 $\eta\propto(T_c-T)^{1/2}$,$\beta=\tfrac12$。
+
+**3.** A first-order transition has a discontinuous order parameter and a latent heat; a second-order transition has a continuous order parameter and no latent heat. The **first-order** one carries the latent heat. · 一阶有潜热(序参量跳变),二阶无潜热(序参量连续)。
+
+**4.** Module 5.3 Ginzburg–Landau (order parameter = superconducting $\psi$) and Module 8.4 the Higgs mechanism (order parameter = Higgs field $\phi$). · 5.3(超导 $\psi$)与 8.4(希格斯 $\phi$)。
+
+</details>
+
 ---
 
 ← Previous: [Module 2.2 — Thermodynamic Potentials & Maxwell Relations](./module-2.2-thermodynamic-potentials.md) · [Phase 2 index](./README.md) · Next: [Module 2.4 — Classical Statistical Mechanics](./module-2.4-classical-statistical-mechanics.md) →

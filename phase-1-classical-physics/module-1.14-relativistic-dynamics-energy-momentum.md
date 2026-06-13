@@ -71,6 +71,19 @@ or equivalently $E^2 = (pc)^2 + (mc^2)^2$. For a photon $m = 0$, so $E = pc = h\
 3. 电子从静止通过 2 MV 加速。求其末态 $\gamma$、速度 $v/c$ 和动能。比较相对论结果与非相对论结果。
 4. 解释为什么"$\mathbf{F} = m\mathbf{a}$"在狭义相对论中必须修改。写出正确的相对论运动方程，并在非相对论极限下恢复牛顿定律。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $p^\mu p_\mu=(E/c)^2-|\mathbf p|^2$ is a Lorentz scalar; evaluating it in the rest frame ($\mathbf p=0$, $E=mc^2$) gives $(mc)^2$, so $(E/c)^2-p^2=(mc)^2\Rightarrow E^2=(pc)^2+(mc^2)^2$. · 四动量平方为不变量 $(mc)^2$,得能量–动量关系。
+
+**2.** By momentum conservation the two photons are back-to-back; each has $E=m_\pi c^2/2=67.5$ MeV and $|p|=67.5$ MeV$/c$. · 两光子背靠背,各 $E=67.5$ MeV。
+
+**3.** $KE=2$ MeV, $E=KE+mc^2=2.511$ MeV, $\gamma=E/mc^2\approx4.9$, $v/c=\sqrt{1-1/\gamma^2}\approx0.98$. Non-relativistically $\tfrac12 mv^2=2$ MeV would give $v>c$ — nonsense; relativity is essential. · $\gamma\approx4.9$,$v\approx0.98c$;非相对论给出 $v>c$,失效。
+
+**4.** $\mathbf F=m\mathbf a$ fails because inertia grows with speed; the correct law is $\mathbf F=d\mathbf p/dt$ with $\mathbf p=\gamma m\mathbf v$, reducing to $m\mathbf a$ as $\gamma\to1$. · 正确为 $\mathbf F=d\mathbf p/dt$,$\mathbf p=\gamma m\mathbf v$。
+
+</details>
+
 ---
 
 ← Previous: [Module 1.13 — Special Relativity — Kinematics](./module-1.13-special-relativity-kinematics.md) · [Phase 1 index](./README.md) · Next: [Module 1.15 — Covariant Electromagnetism](./module-1.15-covariant-electromagnetism.md) →

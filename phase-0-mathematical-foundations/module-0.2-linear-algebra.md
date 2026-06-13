@@ -99,6 +99,21 @@ These two orthonormal eigenvectors are the **$|{+}x\rangle, |{-}x\rangle$ basis*
 4. 求 $\sigma_z$ 的本征值和归一化本征向量。
 5. 解释为何量子力学中的可观测量必须是厄米的，时间演化必须是幺正的。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** An inner product $\langle u|v\rangle$ is linear, conjugate-symmetric, and positive-definite. Orthonormal: $\langle e_i|e_j\rangle=\delta_{ij}$. Then $v=\sum_i\langle e_i|v\rangle\,e_i$. · 内积线性、共轭对称、正定;正交归一 $\langle e_i|e_j\rangle=\delta_{ij}$,展开 $v=\sum_i\langle e_i|v\rangle e_i$。
+
+**2.** Spectral theorem: a Hermitian operator has **real eigenvalues** and an **orthonormal eigenbasis** (it is unitarily diagonalizable). Consequences: measurement outcomes are real, and any state expands in that complete basis. · 谱定理:厄米算符本征值为实、本征基正交完备。
+
+**3.** $\sigma_x=\begin{pmatrix}0&1\\1&0\end{pmatrix}$, $\sigma_y=\begin{pmatrix}0&-i\\i&0\end{pmatrix}$, $\sigma_z=\begin{pmatrix}1&0\\0&-1\end{pmatrix}$; $\sigma_x\sigma_y=i\sigma_z$. · 泡利矩阵,$\sigma_x\sigma_y=i\sigma_z$。
+
+**4.** $\sigma_z$ has eigenvalues $+1$ (eigenvector $(1,0)^T$) and $-1$ (eigenvector $(0,1)^T$). · $\sigma_z$ 本征值 $\pm1$,本征矢 $(1,0)^T,(0,1)^T$。
+
+**5.** Observables are Hermitian so their eigenvalues (measured values) are real; time evolution is unitary ($U^\dagger U=\mathbb 1$) so the norm — total probability — is preserved. · 厄米保证实测量值,幺正保证概率守恒。
+
+</details>
+
 ---
 
 ← Previous: [Module 0.1 — Calculus & Taylor Series](./module-0.1-calculus-and-taylor-series.md) · [Phase 0 index](./README.md) · Next: [Module 0.3 — Differential Equations](./module-0.3-differential-equations.md) →

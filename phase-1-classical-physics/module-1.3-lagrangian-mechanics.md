@@ -65,6 +65,19 @@ A coordinate $q_i$ that does not appear explicitly in $L$ is **cyclic**; its con
 3. 作用量"取驻值"是什么意思？为什么"最小作用量"这一说法略有误导？
 4. 与牛顿方法相比，拉格朗日方法如何处理约束在导线上运动的珠子？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $L=\tfrac12 m(\dot r^2+r^2\dot\phi^2)-V(r)$. $\phi$ is cyclic ($\partial L/\partial\phi=0$), so $p_\phi=mr^2\dot\phi$ — the angular momentum — is conserved. · $\phi$ 为循环坐标,角动量 $mr^2\dot\phi$ 守恒。
+
+**2.** $L=\tfrac12 m\dot x^2-\tfrac12 kx^2$; Euler–Lagrange $\tfrac{d}{dt}(m\dot x)+kx=0\Rightarrow m\ddot x=-kx=F$. ✓ · 回到 $m\ddot x=-kx=F$。
+
+**3.** "Stationary" means $\delta S=0$ to first order — the action is an extremum *or* saddle, not necessarily a minimum, so "least action" is a slight misnomer. · 平稳即 $\delta S=0$(极值/鞍点),「最小」是不严格的说法。
+
+**4.** Generalized coordinates automatically respect the constraint (one coordinate along the wire), so no constraint forces appear — unlike Newton, which needs the explicit normal force. · 广义坐标自动满足约束,无需约束力。
+
+</details>
+
 ---
 
 ← Previous: [Module 1.2 — Conservation Laws](./module-1.2-conservation-laws.md) · [Phase 1 index](./README.md) · Next: [Module 1.4 — Hamiltonian Mechanics, Action & Noether's Theorem](./module-1.4-hamiltonian-mechanics-noether.md) →

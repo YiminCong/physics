@@ -90,6 +90,19 @@ The gauge transformations $\phi \to \phi - \partial\chi/\partial t$, $\mathbf{A}
 3. 证明 $\mathbf{E} = -\nabla\phi - \partial\mathbf{A}/\partial t$ 和 $\mathbf{B} = \nabla \times \mathbf{A}$ 恒等地满足法拉第定律和无磁单极条件。
 4. 在洛伦兹规范中，写出 $\phi$ 和 $\mathbf{A}$ 的波动方程。达朗贝尔算符 $\Box^2$ 是什么？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Source: $\nabla\cdot\mathbf E=\rho/\epsilon_0$, $\nabla\cdot\mathbf B=0$. Curl: $\nabla\times\mathbf E=-\partial_t\mathbf B$, $\nabla\times\mathbf B=\mu_0\mathbf J+\mu_0\epsilon_0\partial_t\mathbf E$. Taking $\nabla\cdot$ of Ampère's law gives $0=\mu_0\nabla\cdot\mathbf J+\mu_0\partial_t\rho$, i.e. $\partial_t\rho+\nabla\cdot\mathbf J=0$. · 四方程;由安培定律取散度得连续性方程。
+
+**2.** Without $\epsilon_0\partial_t\mathbf E$, $\nabla\cdot(\nabla\times\mathbf B)=0$ would force $\nabla\cdot\mathbf J=0$, false while a capacitor charges. The displacement current restores charge conservation. · 位移电流恢复电荷守恒(充电电容反例)。
+
+**3.** $\mathbf B=\nabla\times\mathbf A\Rightarrow\nabla\cdot\mathbf B=0$ identically; $\mathbf E=-\nabla\phi-\partial_t\mathbf A\Rightarrow\nabla\times\mathbf E=-\partial_t(\nabla\times\mathbf A)=-\partial_t\mathbf B$ (Faraday). · 势自动满足无磁单极与法拉第定律。
+
+**4.** In Lorenz gauge $\Box\phi=-\rho/\epsilon_0$, $\Box\mathbf A=-\mu_0\mathbf J$, with the d'Alembertian $\Box=\nabla^2-\tfrac1{c^2}\partial_t^2$. · 洛伦兹规范下势满足波动方程,$\Box=\nabla^2-c^{-2}\partial_t^2$。
+
+</details>
+
 ---
 
 ← Previous: [Module 1.9 — Magnetostatics](./module-1.9-magnetostatics.md) · [Phase 1 index](./README.md) · Next: [Module 1.11 — Electromagnetic Waves & Radiation](./module-1.11-em-waves-radiation.md) →

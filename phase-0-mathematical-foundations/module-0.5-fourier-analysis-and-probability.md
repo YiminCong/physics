@@ -93,6 +93,21 @@ It is its own Fourier transform (up to rescaling), normalized to 1, and maximize
 4. 用一句话解释高斯函数的傅里叶变换结果如何成为海森堡不确定性原理。
 5. 陈述中心极限定理，并给出两个物理情景，说明其中高斯分布为何出现。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\tilde f(k)=\int f(x)e^{-ikx}dx$, $f(x)=\tfrac1{2\pi}\int\tilde f(k)e^{ikx}dk$. Convolution theorem: $\widetilde{f*g}=\tilde f\,\tilde g$. · 傅里叶变换对与卷积定理。
+
+**2.** $\text{FT}[e^{-x^2/2\sigma^2}]\propto e^{-\sigma^2 k^2/2}$: a Gaussian of width $\sigma$ in $x$ has width $1/\sigma$ in $k$ — narrow in one domain ⟹ broad in the other. · 高斯变高斯,宽度互逆。
+
+**3.** $\langle x\rangle=\int x p\,dx$, $\langle x^2\rangle=\int x^2 p\,dx$, $\sigma^2=\langle x^2\rangle-\langle x\rangle^2$. For $p(x)=e^{-x}$ on $[0,\infty)$: $\langle x\rangle=1$, $\langle x^2\rangle=2$, $\sigma^2=1$. · 对 $e^{-x}$:$\langle x\rangle=1$,$\sigma^2=1$。
+
+**4.** Setting $p=\hbar k$, the reciprocal width relation $\Delta x\,\Delta k\gtrsim1$ becomes $\Delta x\,\Delta p\gtrsim\hbar$. · $p=\hbar k$ 时互逆宽度即海森堡不确定性。
+
+**5.** Central limit theorem: the sum of many independent random variables tends to a Gaussian. Physics: the Maxwell velocity distribution, and the displacement in a random walk / diffusion. · 中心极限定理;例:麦克斯韦分布、随机行走/扩散。
+
+</details>
+
 ---
 
 ← Previous: [Module 0.4 — Complex Analysis](./module-0.4-complex-analysis.md) · [Phase 0 index](./README.md) · Next: [Module 0.6 — Vector Calculus, Tensors & Differential Forms](./module-0.6-vector-calculus-tensors-and-differential-forms.md) →
