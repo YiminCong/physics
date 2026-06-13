@@ -107,6 +107,25 @@ $$ E_{nj} = m_e c^2 \left[ 1 + \left( \frac{\alpha}{n - (j+\tfrac12) + \sqrt{(j+
 6. 写出狄拉克展开中的自旋–轨道耦合项，并陈述 $E_{nj}$ 中的量子数。
 7. 狄拉克方程对兰姆位移有何预言，什么修正了它？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $(\Box+(mc/\hbar)^2)\psi=0$. Problems: negative-energy solutions, and a non-positive-definite probability density (it is second order in $\partial_t$). · 克莱因–戈登方程;问题:负能解与非正定概率密度。
+
+**2.** $(i\hbar\gamma^\mu\partial_\mu-mc)\psi=0$ with $\bar\psi=\psi^\dagger\gamma^0$ and current $j^\mu=c\,\bar\psi\gamma^\mu\psi$ (its density $j^0=c\,\psi^\dagger\psi\ge0$). · 狄拉克方程,$\bar\psi=\psi^\dagger\gamma^0$,流 $j^\mu=c\bar\psi\gamma^\mu\psi$。
+
+**3.** $\{\gamma^\mu,\gamma^\nu\}=2\eta^{\mu\nu}\mathbb{1}$. This Clifford algebra ensures that squaring the Dirac operator reproduces the Klein–Gordon equation, i.e. the correct relativistic dispersion $E^2=(pc)^2+(mc^2)^2$. · 克利福德代数保证狄拉克算符平方回到 KG,给出正确色散。
+
+**4.** Dirac sea: all negative-energy states are filled; a hole in the sea behaves as a positive-energy antiparticle (positron), and the Pauli principle stabilizes the vacuum. (Modern QFT reinterprets this via creation/annihilation operators.) · 狄拉克海:负能态填满,空穴即正电子;现代由量子场论重新诠释。
+
+**5.** Minimal coupling in the non-relativistic limit yields the Pauli equation with the term $-\frac{e\hbar}{2m}\boldsymbol\sigma\cdot\mathbf{B}$, i.e. a magnetic moment $\boldsymbol\mu=g\frac{e}{2m}\mathbf{S}$ with $g=2$. · 非相对论极限给出 $-\frac{e\hbar}{2m}\boldsymbol\sigma\cdot\mathbf B$,即 $g=2$。
+
+**6.** $H_\text{SO}=\frac{\hbar}{2m^2c^2}\frac1r\frac{dV}{dr}\,\mathbf{S}\cdot\mathbf{L}$; the fine-structure levels $E_{nj}$ depend on $n$ and the total $j=\ell\pm\tfrac12$ (states of the same $j$ are degenerate). · 自旋–轨道项;$E_{nj}$ 依赖 $n$ 与 $j=\ell\pm\tfrac12$。
+
+**7.** The Dirac equation predicts states of equal $n,j$ (e.g. $2s_{1/2}$ and $2p_{1/2}$) to be exactly degenerate. The observed **Lamb shift** splits them — explained not by Dirac theory but by QED radiative corrections (vacuum fluctuations). · 狄拉克预言 $2s_{1/2}$ 与 $2p_{1/2}$ 简并;兰姆移位由 QED 辐射修正解释。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.14 — Density Matrix & Open Quantum Systems](./module-3.14-density-matrix-and-open-quantum-systems.md) · [Phase 3 index](./README.md) · Next: [Module 3.16 — Quantum Computation & Information](./module-3.16-quantum-computation-and-information.md) →

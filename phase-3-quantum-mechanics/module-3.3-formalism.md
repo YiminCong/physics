@@ -49,6 +49,17 @@
 2. 若态 $|\psi\rangle = \sum_n c_n|n\rangle$ 展开于某可观测量的本征基，测量得到本征值 $\lambda_n$ 的概率是多少？测量后态立即变为什么？
 3. 计算对易子 $[\hat{x}, \hat{p}]$，并说明其非零结果对同时测量位置和动量意味着什么。由广义不确定关系 $\Delta A\,\Delta B \geq \tfrac12|\langle[\hat{A},\hat{B}]\rangle|$ 推导出 $\Delta x\,\Delta p \geq \hbar/2$。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Measurement outcomes must be real, and Hermitian operators ($A=A^\dagger$) have *real* eigenvalues plus a *complete, orthonormal* eigenbasis — so any state expands in measurement outcomes with well-defined probabilities. · 厄米算符本征值为实、本征基完备正交,保证测量结果实且概率良定义。
+
+**2.** The probability of outcome $\lambda_n$ is $|c_n|^2=|\langle n|\psi\rangle|^2$ (Born rule); immediately after, the state collapses to the corresponding eigenstate $|n\rangle$. · 概率为 $|c_n|^2$(玻恩规则),测后态坍缩到 $|n\rangle$。
+
+**3.** $[\hat{x},\hat{p}]=i\hbar\neq0$, so $x$ and $p$ cannot be simultaneously sharp. Substituting into $\Delta A\,\Delta B\ge\tfrac12|\langle[\hat A,\hat B]\rangle|$ gives $\Delta x\,\Delta p\ge\tfrac12|\langle i\hbar\rangle|=\hbar/2$. · $[\hat x,\hat p]=i\hbar$ 代入普遍不确定关系得 $\Delta x\,\Delta p\ge\hbar/2$。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.2 — Time-Independent Schrödinger Equation](./module-3.2-time-independent-schrodinger-equation.md) · [Phase 3 index](./README.md) · Next: [Module 3.4 — Quantum Mechanics in 3D](./module-3.4-quantum-mechanics-in-3d.md) →

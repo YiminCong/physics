@@ -55,6 +55,19 @@
 3. 陈述 CHSH 不等式和量子界；测量值为 $2\sqrt{2}$ 意味着什么？
 4. 列举两种将纠缠作为资源的技术。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** An entangled state cannot be written as a product $|\psi_A\rangle\otimes|\psi_B\rangle$. The singlet $\tfrac{1}{\sqrt2}(\uparrow\downarrow-\downarrow\uparrow)$ has no such factorization — measuring one spin instantly determines the other. · 纠缠态不可分解为直积;单态测一个即定另一个。
+
+**2.** EPR assumes *local realism*: outcomes reflect pre-existing "elements of reality" and no influence travels faster than light. With these assumptions QM's perfect anticorrelations would force QM to be incomplete. · EPR 假设定域实在论,据此推出量子力学「不完备」。
+
+**3.** CHSH: local hidden variables obey $|S|\le2$; quantum mechanics allows up to $2\sqrt2$ (Tsirelson). A measured $2\sqrt2>2$ rules out *all* local-realistic theories — nature violates Bell's inequality. · 定域隐变量 $|S|\le2$,量子上限 $2\sqrt2$;实测越界排除定域实在论。
+
+**4.** Quantum key distribution (e.g. E91) and quantum teleportation (also entanglement-based quantum computing). · 量子密钥分发与量子隐形传态(及量子计算)。
+
+</details>
+
 ---
 
 ← Previous: [Module 3.12 — Symmetry, Identical Particles & Second Quantization](./module-3.12-second-quantization.md) · [Phase 3 index](./README.md) · Next: [Module 3.14 — Density Matrix & Open Quantum Systems](./module-3.14-density-matrix-and-open-quantum-systems.md) →
