@@ -48,6 +48,13 @@ For a charge undergoing simple harmonic oscillation (a **Hertzian dipole**), $P 
 
 **应用。** 拉莫尔辐射对经典原子模型施加了根本性限制——轨道电子将在约 $10^{-11}$ s 内螺旋向内坠落，这正是量子力学（模块 3.1）所解决的危机。相对论带电粒子的同步辐射（相对论推广，其中 $P = q^2 c\,\gamma^4 a_\perp^2/(6\pi\epsilon_0(m c^2)^2)$）为现代 X 射线光源提供动力。将辐射场量子化产生光子和量子电动力学（第 6、8 阶段）。
 
+## Key results · 核心结果
+
+- Wave equation $\nabla^2\mathbf E=\mu_0\epsilon_0\partial_t^2\mathbf E$, speed $c=1/\sqrt{\mu_0\epsilon_0}$ · 电磁波方程
+- $\mathbf E\perp\mathbf B\perp\mathbf k$; $|\mathbf E|/|\mathbf B|=c$ · 横波关系
+- Poynting vector $\mathbf S=\mathbf E\times\mathbf B/\mu_0$; intensity $\langle S\rangle=\tfrac12 c\epsilon_0 E_0^2$ · 坡印廷矢量与强度
+- Larmor $P=q^2 a^2/6\pi\epsilon_0 c^3$ · 拉莫尔公式
+
 ---
 
 **Self-test (blank page)**
@@ -63,6 +70,16 @@ For a charge undergoing simple harmonic oscillation (a **Hertzian dipole**), $P 
 2. 对于平面电磁波，证明 $\mathbf{E}$ 和 $\mathbf{B}$ 相互垂直，且均垂直于传播方向。$|\mathbf{E}|/|\mathbf{B}|$ 的比值是多少？
 3. 定义坡印亭矢量并解释其物理意义。计算峰值电场振幅为 $E_0$ 的平面波的时间平均强度。
 4. 陈述拉莫尔公式。用它解释为什么经典玻尔轨道是不稳定的，以及缺少了哪些物理。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Curl of Faraday + Ampère (vacuum) gives $\nabla^2\mathbf E=\mu_0\epsilon_0\partial_t^2\mathbf E$; speed $c=1/\sqrt{\mu_0\epsilon_0}\approx3\times10^8$ m/s. · 波方程,$c=1/\sqrt{\mu_0\epsilon_0}$。
+**2.** $\nabla\cdot\mathbf E=0\Rightarrow\mathbf E\perp\mathbf k$; Faraday $\Rightarrow\mathbf B\perp\mathbf E,\mathbf k$; $|\mathbf E|/|\mathbf B|=c$. · 横波,$|E|/|B|=c$。
+**3.** $\mathbf S=\mathbf E\times\mathbf B/\mu_0$ is the energy flux (power per area); $\langle I\rangle=\tfrac12 c\epsilon_0 E_0^2$. · 坡印廷矢量与平均强度。
+**4.** Larmor: an electron in a Bohr orbit accelerates, radiates, and spirals into the nucleus in $\sim10^{-11}$ s — classical atoms are unstable. The missing physics is quantum mechanics (stationary states do not radiate). · 经典轨道不稳,缺量子力学。
+
+</details>
 
 ---
 

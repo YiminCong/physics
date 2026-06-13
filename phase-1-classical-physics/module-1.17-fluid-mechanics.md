@@ -36,6 +36,13 @@
 
 **应用。** 纳维–斯托克斯方程支配天气、洋流、血流、空气动力学和等离子体。其三维解是否始终保持光滑是一个未解决的克雷千禧年大奖问题。流体思想在物理学中也作为类比重现：**超流体**和超导体的无耗散流动（第 5 阶段）是量子流体，其流动受宏观相位约束。
 
+## Key results · 核心结果
+
+- Continuity $\partial_t\rho+\nabla\cdot(\rho\mathbf v)=0$ · 连续性方程
+- Bernoulli $P+\tfrac12\rho v^2+\rho gh=$ const · 伯努利定理
+- Reynolds number $\mathrm{Re}=\rho vL/\eta$ (inertia / viscosity) · 雷诺数
+- The convective term $(\mathbf v\cdot\nabla)\mathbf v$ makes Navier–Stokes nonlinear → turbulence · 对流项给出非线性与湍流
+
 ---
 
 **Self-test (blank page)**
@@ -51,6 +58,16 @@
 2. 已知机翼上下表面速度，用伯努利定理估算升力压差。
 3. 雷诺数比较什么？估算水以 1 m/s 流过直径 1 cm 管道时的 $\mathrm{Re}$（$\eta/\rho \approx 10^{-6}$ m$^2$/s）。
 4. 指出纳维–斯托克斯方程中引起湍流的那一项，并解释为什么它使方程非线性。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Mass balance in a fixed control volume: rate of change $=-$(flux out), giving $\partial_t\rho+\nabla\cdot(\rho\mathbf v)=0$. · 质量守恒给连续性方程。
+**2.** Bernoulli $\Delta P=\tfrac12\rho(v_\text{top}^2-v_\text{bottom}^2)$: faster flow over the top → lower pressure → net upward lift. · 伯努利给升力。
+**3.** $\mathrm{Re}=vL/(\eta/\rho)$ compares inertial to viscous forces. Water: $\mathrm{Re}=1\cdot0.01/10^{-6}=10^4$ (turbulent). · $\mathrm{Re}=10^4$,湍流。
+**4.** The convective term $(\mathbf v\cdot\nabla)\mathbf v$ is quadratic in $\mathbf v$ — it makes Navier–Stokes nonlinear and drives turbulence. · 对流项非线性,导致湍流。
+
+</details>
 
 ---
 

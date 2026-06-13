@@ -64,6 +64,13 @@ The second term is the centrifugal barrier. Radial motion satisfies $\tfrac12 \m
 
 **应用。** 这里的经典分析——通过角动量守恒化简、有效势、轨道的能量分类——直接对应于氢原子的量子处理（模块 3.4）。从经典角度理解开普勒问题，能建立量子解所需的几何和物理直觉。
 
+## Key results · 核心结果
+
+- Newtonian gravity $\mathbf F=-G\dfrac{m_1 m_2}{r^2}\hat r$ · 牛顿引力
+- Effective potential $V_\text{eff}=V(r)+\dfrac{L^2}{2\mu r^2}$ · 有效势
+- Orbit type by energy: $E<0$ ellipse, $E=0$ parabola, $E>0$ hyperbola · 轨道由能量定
+- Reduced mass $\mu=\dfrac{m_1 m_2}{m_1+m_2}$ reduces two-body to one-body · 约化质量
+
 ---
 
 **Self-test (blank page)**
@@ -79,6 +86,16 @@ The second term is the centrifugal barrier. Radial motion satisfies $\tfrac12 \m
 2. 将开普勒第二定律（等面积定律）作为角动量守恒的直接推论推导出来。
 3. 什么决定引力轨道是椭圆、抛物线还是双曲线？用总能量 $E$ 给出条件。
 4. 约化质量的技巧如何将二体问题转化为单体问题？地球–太阳系统的约化质量是多少？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $V_\text{eff}=-k/r+L^2/2\mu r^2$; the circular-orbit radius is at the minimum $dV_\text{eff}/dr=0$, giving $r_0=L^2/\mu k$. · 圆轨道在 $V_\text{eff}$ 极小处。
+**2.** $\tfrac{dA}{dt}=\tfrac12 r^2\dot\theta=L/2\mu=$ const (no torque) — equal areas in equal times. · 等面积律。
+**3.** $E<0$ bound ellipse; $E=0$ parabola (marginal escape); $E>0$ unbound hyperbola. · 能量判轨道。
+**4.** The relative coordinate obeys $\mu\ddot{\mathbf r}=\mathbf F(r)$ with $\mu=m_1m_2/(m_1+m_2)$. For Earth–Sun, $\mu\approx m_\text{Earth}$ (since $m_\text{Sun}\gg m_\text{Earth}$). · 约化质量近似地球质量。
+
+</details>
 
 ---
 

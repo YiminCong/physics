@@ -36,6 +36,13 @@
 
 **应用。** 声学是乐器、超声波成像、声纳和地震学的基础。波动方程及其色散/群速度机制直接延伸到电磁波（模块 1.11）、晶格波和声子（模块 4.3）以及量子力学的物质波（模块 3.1）。
 
+## Key results · 核心结果
+
+- String wave speed $c=\sqrt{T/\mu}$ · 弦上波速
+- d'Alembert $y=f(x-ct)+g(x+ct)$ · 达朗贝尔解
+- Standing waves on a fixed–fixed string $f_n=nc/2L$ · 驻波频率
+- Phase velocity $\omega/k$ vs group velocity $d\omega/dk$ (dispersion) · 相速度与群速度
+
 ---
 
 **Self-test (blank page)**
@@ -51,6 +58,16 @@
 2. 写出达朗贝尔解，并用它描述一个脉冲在固定端的反射。
 3. 一根两端固定、长 1 m 的弦，c = 200 m/s。求其最低的三个驻波频率。
 4. 解释相速度和群速度的区别，以及它们何时不同。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** A small element feels a net transverse force $T\,\partial_x^2 y\,dx=\mu\,dx\,\partial_t^2 y$, giving the wave equation with $c=\sqrt{T/\mu}$. · 牛顿第二定律给 $c=\sqrt{T/\mu}$。
+**2.** $y=f(x-ct)+g(x+ct)$. At a fixed end the reflected pulse is **inverted** (sign flip) to keep $y=0$ there. · 固定端反射倒相。
+**3.** $f_n=nc/2L$; with $c=200$, $L=1$: $f_1=100$, $f_2=200$, $f_3=300$ Hz. · $100,200,300$ Hz。
+**4.** Phase velocity $v_p=\omega/k$ (crest speed); group velocity $v_g=d\omega/dk$ (envelope / energy speed); they differ in a dispersive medium where $\omega$ is nonlinear in $k$. · 色散介质中二者不同。
+
+</details>
 
 ---
 

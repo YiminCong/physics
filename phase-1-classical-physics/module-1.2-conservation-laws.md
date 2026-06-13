@@ -36,6 +36,13 @@
 
 **应用。** 守恒量比产生它们的力要基本得多：每条守恒定律都反映了自然界的一种对称性。这一点由**诺特定理**（模块 1.4）精确阐述：时间平移对称性 → 能量守恒，空间平移对称性 → 动量守恒，旋转对称性 → 角动量守恒。对称性与守恒定律的规律通过规范理论（第 8 阶段）组织了整个现代物理学。
 
+## Key results · 核心结果
+
+- Energy $\tfrac12 mv^2+V$ conserved when forces are conservative · 能量守恒
+- Total momentum conserved with no external force; the centre of mass moves uniformly · 动量守恒,质心匀速
+- Angular momentum conserved with no torque → Kepler's second law · 角动量守恒→开普勒第二定律
+- Elastic collisions conserve both kinetic energy and momentum · 弹性碰撞守 KE 与动量
+
 ---
 
 **Self-test (blank page)**
@@ -51,6 +58,16 @@
 2. 推导两体系统质心的速度，并证明在无外力作用时质心匀速运动。
 3. 一个 3 kg 的球以 4 m/s 速度与静止的 1 kg 球发生弹性正碰。求两球的末速度。
 4. 为什么行星绕太阳运动时角动量守恒？利用此推导开普勒第二定律（等面积定律）。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $mgh=\tfrac12 mv^2\Rightarrow v=\sqrt{2gh}=\sqrt{2\cdot9.8\cdot5}\approx9.9$ m/s. · $v\approx9.9$ m/s。
+**2.** $\mathbf V_\text{cm}=\dfrac{m_1\mathbf v_1+m_2\mathbf v_2}{m_1+m_2}$; with $\mathbf F_\text{ext}=0$, $\dot{\mathbf P}=0$ so $\mathbf V_\text{cm}$ is constant. · 质心匀速。
+**3.** Elastic 1D: $v_1'=\dfrac{m_1-m_2}{m_1+m_2}v_1=2$ m/s, $v_2'=\dfrac{2m_1}{m_1+m_2}v_1=6$ m/s. · $2$ 与 $6$ m/s。
+**4.** Gravity is central → no torque about the Sun → $L=mr^2\dot\theta$ constant; the areal rate $\tfrac{dA}{dt}=\tfrac12 r^2\dot\theta=L/2m$ is constant (equal areas). · 角动量守恒给等面积。
+
+</details>
 
 ---
 

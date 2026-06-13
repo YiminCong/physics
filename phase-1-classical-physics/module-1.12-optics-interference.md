@@ -40,6 +40,13 @@
 
 **应用。** 衍射从根本上是一种**傅里叶现象**（模块 0.5）：孔径函数 $f(x)$ 的远场（夫琅禾费）衍射图样是其傅里叶变换 $\tilde{F}(k_x)$。衍射光栅是波长的傅里叶分析器；晶体的 X 射线衍射（布拉格定律：$2d \sin\theta = m\lambda$）是对晶格的傅里叶分析，是晶体学和蛋白质结构测定的基础。干涉还支撑着灵敏度远低于 $\lambda$ 的干涉测量传感器（LIGO 引力波探测）。
 
+## Key results · 核心结果
+
+- Snell $n_1\sin\theta_1=n_2\sin\theta_2$; total internal reflection $\theta_c=\arcsin(n_2/n_1)$ · 斯涅尔定律
+- Double-slit maxima $d\sin\theta=m\lambda$ · 双缝极大
+- Single-slit minima $a\sin\theta=m\lambda$; pattern = Fourier transform of the aperture · 单缝衍射
+- Grating resolving power $R=mN$; Rayleigh criterion · 光栅分辨本领
+
 ---
 
 **Self-test (blank page)**
@@ -55,6 +62,16 @@
 2. 在缝间距为 $d$、波长为 $\lambda$ 的双缝实验中，求前三个亮纹的角位置。如果 $d$ 减半，条纹间距如何变化？
 3. 解释为什么单缝衍射产生宽度为 $2\lambda/a$ 的中央主极大和逐渐减弱的次极大。该图样与孔径的傅里叶变换有何关系？
 4. 衍射光栅的分辨本领是多少，由什么决定？这与角分辨率的瑞利判据有何关系？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $n_1\sin\theta_1=n_2\sin\theta_2$ (Huygens: wavefronts bend where the speed changes). Critical angle glass→air: $\sin\theta_c=1/1.5\Rightarrow\theta_c\approx41.8^\circ$. · 临界角 $41.8^\circ$。
+**2.** $d\sin\theta=m\lambda\Rightarrow\theta_m=\arcsin(m\lambda/d)$, $m=0,1,2$. Spacing $\propto1/d$, so halving $d$ doubles the spacing. · 间距 $\propto1/d$。
+**3.** Central max width $2\lambda/a$; the diffraction pattern is the Fourier transform of the aperture (slit → $\text{sinc}^2$). · 中央极大宽 $2\lambda/a$,图样是孔径的傅里叶变换。
+**4.** Resolving power $R=\lambda/\Delta\lambda=mN$ ($m$ order, $N$ illuminated lines); Rayleigh: two lines are just resolved when one maximum sits on the adjacent minimum. · $R=mN$,瑞利判据。
+
+</details>
 
 ---
 

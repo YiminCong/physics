@@ -60,6 +60,13 @@ Charge conservation $\partial_\mu J^\mu = 0$ follows from the antisymmetry of $F
 
 **应用。** 协变电磁学是**相对论规范场论**的原型。其模式——由规范势 $A^\mu$ 推导出反对称场张量 $F^{\mu\nu}$，场方程为 $\partial_\mu F^{\mu\nu} = J^\nu$——是以下理论的模板：量子电动力学（替换 $U(1)$ 规范群，加入量子场，第 8.2 阶段）；弱力和强力的杨–米尔斯理论（将 $U(1)$ 替换为 $SU(2)$ 和 $SU(3)$，第 8.1 阶段）；以及正则场量子化（模块 6.5）。电磁场张量 $F_{\mu\nu}$ 及其作用量 $-\tfrac14 F^{\mu\nu} F_{\mu\nu}$ 是整个标准模型推广的出发点。
 
+## Key results · 核心结果
+
+- Four-potential $A^\mu=(\varphi/c,\mathbf A)$; field tensor $F^{\mu\nu}=\partial^\mu A^\nu-\partial^\nu A^\mu$ · 四势与场强张量
+- $\mathbf E$ and $\mathbf B$ are components of $F^{\mu\nu}$ · $E,B$ 为 $F^{\mu\nu}$ 分量
+- Covariant Maxwell $\partial_\mu F^{\mu\nu}=\mu_0 J^\nu$ · 协变麦克斯韦方程
+- Invariants $F_{\mu\nu}F^{\mu\nu}\propto B^2-E^2/c^2$ and $F_{\mu\nu}\tilde F^{\mu\nu}\propto\mathbf E\cdot\mathbf B$ · 两个洛伦兹不变量
+
 ---
 
 **Self-test (blank page)**
@@ -75,6 +82,16 @@ Charge conservation $\partial_\mu J^\mu = 0$ follows from the antisymmetry of $F
 2. 对静止在 $S$ 系中的电荷 $q$，应用 $F^{\mu\nu}$ 的洛伦兹变换求 $\mathbf{E}'$ 和 $\mathbf{B}'$。验证在 $S'$ 系（相对 $S$ 以速度 $v$ 运动）中，变换后的 $\mathbf{B}'$ 与运动电荷的毕奥–萨伐尔结果一致。
 3. 写出协变形式的麦克斯韦非齐次方程 $\partial_\mu F^{\mu\nu} = \mu_0 J^\nu$，并展开 $\nu = 0$ 和 $\nu = 1$ 分量以恢复熟悉的三维麦克斯韦方程。
 4. 由 $F^{\mu\nu}$ 构造的两个独立洛伦兹标量是什么？它们的物理意义是什么？为什么它们必须是不变的？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $A^\mu=(\varphi/c,\mathbf A)$; $F^{0i}=E_i/c$ (time–space components) and $F^{ij}=-\varepsilon_{ijk}B_k$ (space–space). · $E$ 在时空分量,$B$ 在空间分量。
+**2.** Boosting the static-charge $F^{\mu\nu}$: $\mathbf E'_\parallel$ unchanged, $\mathbf E'_\perp$ enhanced by $\gamma$, and $\mathbf B'=-(\mathbf v/c^2)\times\mathbf E'$ — the Biot–Savart field of a moving charge. · 变换给运动电荷的 $\mathbf B'$。
+**3.** $\partial_\mu F^{\mu\nu}=\mu_0 J^\nu$: $\nu=0\Rightarrow\nabla\cdot\mathbf E=\rho/\epsilon_0$; $\nu=i\Rightarrow\nabla\times\mathbf B-\tfrac1{c^2}\partial_t\mathbf E=\mu_0\mathbf J$. · 展开得高斯与安培定律。
+**4.** $F_{\mu\nu}F^{\mu\nu}\propto B^2-E^2/c^2$ and $F_{\mu\nu}\tilde F^{\mu\nu}\propto\mathbf E\cdot\mathbf B$; both are frame-independent, so e.g. a pure light wave has both invariants zero in every frame. · 两不变量在所有参考系相同。
+
+</details>
 
 ---
 

@@ -50,6 +50,13 @@
 
 **应用。** 阻抗匹配是每个射频与高速数字系统（模块 9.1）的核心设计准则：50 $\Omega$ 电缆馈送 50 $\Omega$ 天线时无反射，而失配产生驻波、信号回波和功率损失。电报方程是支配波导与光学的同一波动物理的工程表现形式。
 
+## Key results · 核心结果
+
+- Transverse fields obey $(\nabla_t^2+\gamma^2)\psi=0$; a single hollow conductor has no TEM mode · 横向场方程,单导体无 TEM
+- $\text{TE}_{mn}$ cutoff $\omega_c$; $v_p v_g=c^2$ · 截止频率,$v_p v_g=c^2$
+- Cavity resonances; $Q\propto(V/S)/\delta_\text{skin}$ · 腔模与品质因数
+- Telegrapher's equations; reflection $\Gamma=\dfrac{Z_L-Z_0}{Z_L+Z_0}$ · 电报方程与反射系数
+
 ---
 
 **Self-test (blank page)**
@@ -65,6 +72,16 @@
 2. 推导矩形波导 $\text{TE}_{mn}$ 模式的截止频率 $\omega_c$，并证明 $v_p v_g = c^2$。
 3. 写出矩形腔的谐振频率，并从物理上解释为何 $Q$ 正比于 $(\text{体积}/\text{表面积})\cdot(1/\delta_\text{skin})$。
 4. 推导电报方程和反射系数 $\Gamma = (Z_L - Z_0)/(Z_L + Z_0)$；给出匹配、短路和开路情形下 $\Gamma$ 的值。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** For fields $\propto e^{i(k_z z-\omega t)}$, Maxwell's equations reduce the transverse parts to $(\nabla_t^2+\gamma^2)\psi=0$ with $\gamma^2=\omega^2/c^2-k_z^2$. A single hollow conductor supports no TEM mode (a TEM field needs two conductors; the one-boundary transverse Laplace problem has only the trivial solution). · 横向场方程;单导体无 TEM。
+**2.** $\gamma^2=(m\pi/a)^2+(n\pi/b)^2$, cutoff $\omega_c=c\sqrt{(m\pi/a)^2+(n\pi/b)^2}$; with $v_p=\omega/k_z>c$ and $v_g=d\omega/dk_z<c$, $v_p v_g=c^2$. · 截止频率与 $v_pv_g=c^2$。
+**3.** $\omega_{lmn}=c\pi\sqrt{(l/a)^2+(m/b)^2+(n/d)^2}$; $Q\propto$ stored/loss $\propto(V/S)/\delta_\text{skin}$ because losses live in surface currents within a skin depth. · 腔频率与 $Q\propto(V/S)/\delta$。
+**4.** Telegrapher's: $\partial_z V=-L\partial_t I$, $\partial_z I=-C\partial_t V$, with $Z_0=\sqrt{L/C}$. $\Gamma=(Z_L-Z_0)/(Z_L+Z_0)$: matched $\Gamma=0$, shorted $\Gamma=-1$, open $\Gamma=+1$. · 电报方程;反射系数三种情形。
+
+</details>
 
 ---
 

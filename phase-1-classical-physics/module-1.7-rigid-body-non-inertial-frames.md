@@ -48,6 +48,13 @@ The three extra terms are: **Coriolis force** ($-2m\,\boldsymbol{\Omega} \times 
 
 **应用。** 非惯性系分析在地球物理学（天气模式、洋流）、航空航天（导航系统）以及经典混沌（转动系中的限制性三体问题）中不可或缺。其数学结构——在参考系间变换导数——是广义相对论（第 7 阶段）协变导数的先驱。
 
+## Key results · 核心结果
+
+- Moment-of-inertia tensor $I_{ij}=\int\rho(r^2\delta_{ij}-x_i x_j)\,dV$; principal axes diagonalize it · 惯量张量
+- Euler's equations $I_1\dot\omega_1-(I_2-I_3)\omega_2\omega_3=\tau_1$ (cyclic) · 欧拉方程
+- Coriolis $-2m\boldsymbol\Omega\times\mathbf v$, centrifugal $-m\boldsymbol\Omega\times(\boldsymbol\Omega\times\mathbf r)$ · 科里奥利与离心力
+- Foucault pendulum precesses with the rotating frame · 傅科摆进动
+
 ---
 
 **Self-test (blank page)**
@@ -63,6 +70,16 @@ The three extra terms are: **Coriolis force** ($-2m\,\boldsymbol{\Omega} \times 
 2. 写出无力矩刚体的欧拉方程。定性解释为什么绕中间主轴的转动是不稳定的（"网球拍定理"）。
 3. 推导在角速度为 $\boldsymbol{\Omega}$ 的转动系中以速度 $\mathbf{v}$ 运动的粒子所受科里奥利力的表达式。在北半球，它使水平运动物体向哪个方向偏转？
 4. 北纬 $45^\circ$ 处的傅科摆完成一次完整进动需要多少小时？展示你的推理过程。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $I_{ij}=\int\rho(r^2\delta_{ij}-x_ix_j)\,dV$. A uniform solid sphere has all three principal moments equal to $\tfrac25 mR^2$. · 实心球 $\tfrac25 mR^2$。
+**2.** Torque-free Euler equations: rotation about the **intermediate** principal axis is unstable — small perturbations grow exponentially (the tennis-racket / Dzhanibekov effect). · 中间轴旋转不稳定。
+**3.** $\mathbf F_\text{Cor}=-2m\boldsymbol\Omega\times\mathbf v$; in the Northern Hemisphere it deflects horizontally-moving objects to the **right**. · 科里奥利力北半球右偏。
+**4.** Precession period $T=24\,\text{h}/\sin\lambda$; at $45^\circ$, $T=24/\sin45^\circ\approx33.9$ h. · 约 33.9 小时。
+
+</details>
 
 ---
 

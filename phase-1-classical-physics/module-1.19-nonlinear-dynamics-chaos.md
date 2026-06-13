@@ -36,6 +36,13 @@
 
 **应用。** 混沌为可预测性设定了极限——最著名的是**天气**（模块 1.17 的高雷诺数湍流是时空混沌）。倍周期路径的*普适性*——不同系统共享同一费根鲍姆常数——预示了临界现象的普适性和重整化群（模块 6.6）。
 
+## Key results · 核心结果
+
+- Phase portraits; fixed points (stable/unstable nodes, saddles, centres) · 相图与不动点
+- Lyapunov exponent $\lambda$; $\lambda>0$ signals chaos · 李雅普诺夫指数
+- Logistic map: period-doubling cascade to chaos · 逻辑斯蒂映射倍周期分岔
+- Feigenbaum universality ($\delta\approx4.669$) · 费根鲍姆普适性
+
 ---
 
 **Self-test (blank page)**
@@ -51,6 +58,16 @@
 2. 定义李雅普诺夫指数，解释其符号告诉你关于长期可预测性的什么。
 3. 在 $r = 3.2$ 和 $r = 4$ 处各迭代逻辑斯蒂映射几步，定性描述两者有何不同。
 4. 通往混沌的倍周期路径是"普适"的，这意味着什么？它预示了哪个后续概念？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Damped pendulum: a stable spiral (focus) at the bottom $\theta=0$, and a saddle at the top $\theta=\pi$. · 底部稳定焦点,顶部鞍点。
+**2.** $\lambda$ is the exponential divergence rate of nearby trajectories, $\delta(t)\sim\delta_0 e^{\lambda t}$. $\lambda>0$ ⟹ chaos (sensitive dependence, no long-term prediction); $\lambda<0$ ⟹ convergence. · $\lambda>0$ 即混沌。
+**3.** $r=3.2$: settles to a period-2 cycle (two alternating values). $r=4$: fully chaotic, aperiodic, filling the interval. · $r=3.2$ 周期 2,$r=4$ 混沌。
+**4.** "Universal": the period-doubling cascade and the Feigenbaum constant $\delta\approx4.669$ are independent of the map's details — anticipating RG universality (Module 6.6). · 普适性预示重整化群普适类。
+
+</details>
 
 ---
 
