@@ -61,6 +61,19 @@ Requiring $\psi$ to be single-valued forces magnetic flux to come in quanta $\Ph
 3. 推导（或说明）从序参量相位在闭合回路上单值性要求得出磁通量子化 $\Phi_0 = h/2e$。为何出现因子 $2e$ 而非 $e$？这意味着什么？
 4. 在 GL 展开中，$\alpha$ 的符号在 $T_c$ 两侧如何改变？它在 $T_c$ 附近的假定温度依赖形式是什么？为何这导致二阶相变？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $f=f_n+\alpha|\psi|^2+\tfrac{\beta}{2}|\psi|^4+\frac{1}{2m^*}|(-i\hbar\nabla-e^*A)\psi|^2+\frac{B^2}{2\mu_0}$. Uniform, $A=0$: $\partial f/\partial|\psi|^2=0$ gives $|\psi|^2=-\alpha/\beta$ for $\alpha<0$ (below $T_c$), and $|\psi|=0$ for $\alpha>0$. · 均匀无场时极小化得 $|\psi|^2=-\alpha/\beta$($T<T_c$),否则为 0。
+
+**2.** $\xi=\hbar/\sqrt{2m^*|\alpha|}$ is the order-parameter healing length; $\lambda=\sqrt{m^*/\mu_0 n_s e^{*2}}$ is the field penetration depth. $\kappa=\lambda/\xi$: type-I ($\kappa<1/\sqrt2$) has positive wall energy and expels field; type-II ($\kappa>1/\sqrt2$) has negative wall energy and admits vortices. · $\xi$ 为序参量恢复长度,$\lambda$ 为穿透深度,$\kappa=\lambda/\xi$ 判别两类超导体。
+
+**3.** Single-valuedness of $\psi=|\psi|e^{i\theta}$ forces $\oint\nabla\theta\cdot d\mathbf{l}=2\pi n$. Deep inside the current vanishes, so $\hbar\nabla\theta=e^*\mathbf{A}$ and $\oint\mathbf{A}\cdot d\mathbf{l}=\Phi=n\,h/e^*=n\,h/2e$. The factor $2e$ appears because the carriers are Cooper *pairs* — direct evidence of pairing. · 相位单值性给出 $\Phi=nh/2e$;$2e$ 表明载流子是库珀对。
+
+**4.** $\alpha(T)=\alpha_0(T-T_c)$ changes sign at $T_c$: $\alpha>0$ above (minimum at $\psi=0$), $\alpha<0$ below (minimum at $\psi\neq0$). The order parameter grows continuously as $|\psi|\propto(T_c-T)^{1/2}$, with no latent heat — a second-order transition. · $\alpha$ 在 $T_c$ 变号,$|\psi|\propto(T_c-T)^{1/2}$ 连续生长,无潜热,故二阶相变。
+
+</details>
+
 ---
 
 ← Previous: [Module 5.2 — London Theory](./module-5.2-london-theory.md) · [Phase 5 index](./README.md) · Next: [Module 5.4 — The Cooper Problem](./module-5.4-the-cooper-problem.md) →

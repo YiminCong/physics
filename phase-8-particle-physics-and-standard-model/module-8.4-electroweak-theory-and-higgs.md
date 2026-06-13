@@ -59,6 +59,17 @@
 2. 画出墨西哥帽势。指出戈德斯通模式和希格斯方向。解释 $W$ 和 $Z$ 的纵向极化从何而来。
 3. 写出顶夸克的汤川耦合，并证明它如何产生狄拉克质量 $m_t = y_t v/\sqrt2$。在此框架下，为何顶夸克质量相比电子质量如此之大？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\langle\phi\rangle=(0,v/\sqrt2)$ breaks $SU(2)_L\times U(1)_Y\to U(1)_\text{EM}$. The three broken generators give mass to $W^\pm$ and $Z^0$ through $|D_\mu\phi|^2$; the unbroken combination — electric charge $Q=T_3+Y$ — annihilates the vacuum, so the photon stays massless. Preserved symmetry: $U(1)_\text{EM}$. · 真空破缺三个生成元给 $W,Z$ 质量,未破缺的 $U(1)_\text{EM}$ 使光子无质量。
+
+**2.** The Mexican-hat $V=-\mu^2\phi^\dagger\phi+\lambda(\phi^\dagger\phi)^2$ has its minimum on a circle $|\phi|=v/\sqrt2$. The angular (flat) directions are the three Goldstone modes; the radial direction is the Higgs $h$. The Goldstones are "eaten" to become the longitudinal polarizations of $W^\pm$ and $Z^0$ (each gauge boson goes from 2 to 3 polarizations). · 角向为戈德斯通模,径向为希格斯;戈德斯通被吃成 $W,Z$ 纵向极化。
+
+**3.** $\mathcal{L}_\text{Yuk}=-y_t\bar\psi_L\phi\psi_R+\text{h.c.}$ gives $m_t=y_t v/\sqrt2$ after symmetry breaking. The top mass is large simply because its Yukawa coupling $y_t\approx1$ is of order unity, whereas $y_e\sim10^{-6}$; the masses are set by *arbitrary* Yukawa couplings, not predicted by the theory. · 顶夸克 $y_t\approx1$ 故质量大,电子 $y_e\sim10^{-6}$;质量由任意汤川耦合给定。
+
+</details>
+
 ---
 
 ← Previous: [Module 8.3 — The Strong Interaction (QCD)](./module-8.3-quantum-chromodynamics.md) · [Phase 8 index](./README.md) · Next: [Module 8.5 — The Standard Model & Beyond](./module-8.5-standard-model-and-beyond.md) →
