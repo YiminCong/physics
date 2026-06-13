@@ -100,6 +100,13 @@ Because these transformations do not commute ($U_{12} U_{23} \neq U_{23} U_{12}$
 
 **应用。** 基于马约拉纳模的拓扑量子比特是量子计算研究的核心目标（尤其是微软 Station Q 项目）。一旦得到演示，非阿贝尔编织操作将在硬件层面实现量子门，具有对退相干的本征保护——这是与超导或囚禁离子平台中纠错量子比特根本不同的方法。
 
+## Key results · 核心结果
+
+- Majorana operator $\gamma=\gamma^\dagger$, $\{\gamma_i,\gamma_j\}=2\delta_{ij}$ — "half a fermion" · 马约拉纳算符
+- Kitaev chain; topological phase for $|\mu|<2t$ · 基塔耶夫链
+- At $t=\Delta$, $\mu=0$: unpaired Majorana zero modes at the ends · 端部马约拉纳零模
+- Lutchyn–Oreg: SOC + Zeeman + $s$-wave SC; criterion $V_Z>\sqrt{\Delta_\text{ind}^2+\mu^2}$ · 拉特钦–奥雷格方案
+
 ---
 
 **Self-test (blank page)**
@@ -119,6 +126,16 @@ Because these transformations do not commute ($U_{12} U_{23} \neq U_{23} U_{12}$
 4. 解释 Lutchyn–Oreg 方案：需要哪三种物理成分？用 $V_Z$、$\Delta_\text{ind}$ 和 $\mu$ 表达拓扑判据。
 5. 什么是零偏置电导峰？为何马约拉纳零模产生高度为 $2e^2/h$ 的零偏置峰？
 6. 陈述两个马约拉纳模的编织规则，并解释非阿贝尔统计如何实现容错量子计算。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** A Majorana operator is its own antiparticle, $\gamma=\gamma^\dagger$; it is "half a fermion" because one Dirac fermion splits as $c=(\gamma_1+i\gamma_2)/2$, $c^\dagger=(\gamma_1-i\gamma_2)/2$. · 自共轭,半个费米子。
+**2.** $H=-\mu\sum c_j^\dagger c_j-t\sum(c_j^\dagger c_{j+1}+\text{h.c.})+\Delta\sum(c_jc_{j+1}+\text{h.c.})$; topological for $|\mu|<2t$ (with $\Delta\neq0$). · 基塔耶夫链,$|\mu|<2t$ 拓扑。
+**3.** At $t=\Delta$, $\mu=0$ the bulk pairs $\gamma_{B,j}$ with $\gamma_{A,j+1}$, leaving $\gamma_{A,1}$ and $\gamma_{B,N}$ **unpaired** at the two ends — zero-energy Majorana modes. · 端部两个马约拉纳未配对。
+**4.** Lutchyn–Oreg needs (i) strong spin–orbit coupling, (ii) a Zeeman field $V_Z$, (iii) proximity-induced $s$-wave $\Delta_\text{ind}$; topological when $V_Z>\sqrt{\Delta_\text{ind}^2+\mu^2}$. · 三要素与拓扑判据。
+
+</details>
 
 ---
 

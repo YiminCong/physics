@@ -140,6 +140,13 @@ The proof uses the Raychaudhuri equation: once a null congruence has $\theta < 0
 
 **应用——宇宙审查猜想。** 奇点定理证明了奇点的存在，但对奇点是否隐藏于事件视界后面没有说明。彭罗斯的*弱宇宙审查猜想*指出，对一般初始数据，所有奇点对遥远观测者都是隐藏的（不存在*裸奇点*）。*强宇宙审查猜想*指出，一般初始数据的极大柯西发展是不可延拓的——黑洞内的观测者看不到柯西视界之外的内容。两个猜想在完整的一般性意义上均未被证明，但得到了大量数值证据和微扰理论的支持。
 
+## Key results · 核心结果
+
+- Event horizon (global) vs apparent horizon (local trapped surface) · 事件视界与表观视界
+- Penrose theorem: a trapped surface ⟹ geodesic incompleteness (singularity) · 彭罗斯奇点定理
+- Kruskal coordinates remove the $r=r_s$ coordinate singularity; $r=0$ is physical · 克鲁斯卡尔坐标
+- Kerr ergosphere & the Penrose process extract rotational energy · 克尔能层与彭罗斯过程
+
 ---
 
 **Self-test (blank page)**
@@ -157,6 +164,16 @@ The proof uses the Raychaudhuri equation: once a null congruence has $\theta < 0
 3. 解释克鲁斯卡尔坐标变换如何消除 $r = 2GM/c^2$ 处的坐标奇点。克鲁斯卡尔图中的物理奇点是什么，如何表示？
 4. 定义克尔黑洞的能层并描述彭罗斯过程。最大效率是多少，提取的能量来自哪里？
 5. 什么是强能量条件？各给出一个满足它和违反它的应力-能量张量的例子。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Event horizon = global boundary of the region that can never signal infinity; apparent horizon = outermost local trapped surface. They coincide in stationary spacetimes (Schwarzschild); in a dynamic (collapsing/accreting) one the apparent horizon lies inside the event horizon. · 静态时重合,动态时表观在内。
+**2.** Hypotheses: (i) a closed trapped surface, (ii) the null energy condition, (iii) global hyperbolicity (non-compact Cauchy surface). Key step: the Raychaudhuri equation drives the trapped congruence's expansion $\theta\to-\infty$ in finite affine parameter → geodesic incompleteness. · 三条件 + 雷查德胡里方程。
+**3.** Kruskal coordinates are smooth at $r=2GM/c^2$, so the metric is regular there — the "singularity" was a coordinate artifact. The true curvature singularity is $r=0$, drawn as a spacelike hyperbola in the future of the Kruskal diagram. · $r_s$ 为坐标奇点,$r=0$ 为物理奇点。
+**4.** The ergosphere (between the static limit and the horizon) is where frame dragging forbids any static observer. Penrose process: a particle splits there, one piece falling in with negative energy, the other escaping with more energy than the original — extracting the hole's rotational energy (max efficiency $\sim29\%$ for extremal Kerr). · 能层与彭罗斯过程,效率约 29%。
+
+</details>
 
 ---
 

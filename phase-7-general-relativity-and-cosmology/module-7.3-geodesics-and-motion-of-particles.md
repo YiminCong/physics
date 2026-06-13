@@ -44,6 +44,13 @@ which is precisely Newton's law of gravity (Module 1.1). The geometry reproduces
 - *GPS 修正*：GPS 卫星在约 $20\,200$ km 高度轨道运行，该处 $\varphi$ 较地面更不负。引力时间膨胀使卫星时钟每天快约 $+45.9\ \mu\text{s}$；狭义相对论速度时间膨胀（模块 1.14）使其每天慢约 $-7.2\ \mu\text{s}$；净修正约 $+38.7\ \mu\text{s/}$天。若不作此修正，GPS 定位每天将漂移约 $10$ km。
 - *水星近日点进动*：史瓦西时空中行星的测地线给出的轨道不是封闭椭圆（模块 1.5），而是每圈进动 $\Delta\varphi = 6\pi GM/(a(1-e^2)c^2)$。对水星而言约为 $43$ 弧秒/世纪——这是牛顿引力无法解释的著名异常，被广义相对论精确证实。
 
+## Key results · 核心结果
+
+- Geodesic equation $\dfrac{d^2x^\mu}{d\tau^2}+\Gamma^\mu{}_{\nu\rho}\dfrac{dx^\nu}{d\tau}\dfrac{dx^\rho}{d\tau}=0$ · 测地线方程
+- Newtonian limit $\ddot x^i=-\partial^i\varphi$ · 牛顿极限
+- $g_{00}\approx-(1+2\varphi/c^2)$ encodes the gravitational potential · 引力势编码于 $g_{00}$
+- Gravitational redshift $z\approx\Delta\varphi/c^2$ · 引力红移
+
 ---
 
 **Self-test (blank page)**
@@ -57,6 +64,15 @@ which is precisely Newton's law of gravity (Module 1.1). The geometry reproduces
 1. 从变分原理 $\delta\int d\tau = 0$ 推导测地线方程。克里斯托费尔符号在哪一步出现？
 2. 证明在牛顿极限下，测地线方程化为 $d^2 x^i/dt^2 = -\nabla\varphi$。需要哪些近似？
 3. 一个光子从太阳表面（$\varphi_\text{surface} \approx -1.91 \times 10^{11}$ J/kg）向无穷远爬升。估算其引力红移 $z$。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Extremize $\delta\int d\tau=0$; the Euler–Lagrange equations of the proper-time functional give the geodesic equation, and the Christoffel symbols appear when differentiating $g_{\mu\nu}(x)$ (the $\partial g$ terms assemble into $\Gamma$). · 变分给测地线;微分度规处出现 $\Gamma$。
+**2.** Weak field $g_{00}\approx-(1+2\varphi/c^2)$, slow motion, static: the only surviving term is $\Gamma^i{}_{00}(dx^0/d\tau)^2\approx\partial^i\varphi$, giving $\ddot x^i=-\partial^i\varphi$. · 弱场慢速静态极限。
+**3.** $z\approx\Delta\varphi/c^2=|\varphi_\text{surface}|/c^2=1.91\times10^{11}/(9\times10^{16})\approx2.1\times10^{-6}$. · 红移约 $2.1\times10^{-6}$。
+
+</details>
 
 ---
 

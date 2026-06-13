@@ -22,6 +22,15 @@
 
 **应用。** 这是活跃的研究前沿，**室温超导**是其圣杯。理解它需要第 6 阶段的多体理论机制（自旋涨落配对、强关联）。
 
+## Key results · 核心结果
+
+- $d$-wave gap $\Delta(\mathbf k)=\Delta_0(\cos k_x-\cos k_y)$ with nodes and sign changes · $d$ 波能隙与节点
+- Cuprate phase diagram: AF Mott → pseudogap → SC dome → strange metal · 铜氧化物相图
+- Nodal quasiparticles → power-law (not exponential) low-$T$ observables · 节点准粒子给幂律
+- Pairing likely non-phonon (spin fluctuations) · 非声子配对
+
+---
+
 **Self-test (blank page)**
 
 1. What is d-wave pairing? Describe how the gap function $\Delta(\mathbf{k})$ differs from the isotropic s-wave BCS gap, including where its nodes lie on the Fermi surface and what sign changes it undergoes.
@@ -35,6 +44,16 @@
 2. 描述铜氧化物相图：从反铁磁莫特绝缘体母体化合物出发，追踪空穴掺杂增大时发生的变化，标明赝能隙区域、超导穹顶和奇异金属区。
 3. 与完全有隙的 s 波超导体相比，d 波超导体中能隙节点的存在如何改变物理可观测量（如穿透深度 $\lambda(T)$、比热）的低温行为？
 4. 高温铜氧化物超导体中的配对机制被认为不同于传统声子介导的 BCS 机制。概括反对声子配对的主要实验证据，并举出一种被提出的替代"胶水"机制。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $d$-wave $\Delta(\mathbf k)=\Delta_0(\cos k_x-\cos k_y)$ changes sign ($+$ along $k_x$, $-$ along $k_y$) with nodes along the zone diagonals $|k_x|=|k_y|$ where $\Delta=0$ — unlike the isotropic $s$-wave gap. · $d$ 波变号,对角线有节点。
+**2.** Undoped = antiferromagnetic Mott insulator; doping holes destroys AF order, opens a pseudogap, then a superconducting dome (peaking at optimal doping), with a linear-in-$T$ strange-metal regime above. · AF→赝隙→超导穹顶→奇异金属。
+**3.** Nodes give low-energy quasiparticles even at low $T$ → power laws: $\lambda(T)-\lambda(0)\propto T$ and $C\propto T^2$ (vs exponential for fully-gapped $s$-wave). · 节点给幂律(λ∝T,C∝T²)。
+**4.** Evidence against phonons: weak isotope effect, $d$-wave symmetry, proximity to antiferromagnetism, very high $T_c$. Proposed alternative glue: antiferromagnetic spin fluctuations. · 证据反对声子;替代为自旋涨落。
+
+</details>
 
 ---
 
