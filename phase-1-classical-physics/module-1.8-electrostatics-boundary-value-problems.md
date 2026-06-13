@@ -48,6 +48,13 @@ In charge-free regions this reduces to **Laplace's equation** $\nabla^2\phi = 0$
 
 **应用。** 边值方法确定任意几何形状的电容、波导内部的场以及分子电荷分布的静电能。镜像法为平面和球面导体提供了优雅的捷径。这里的球谐函数解与氢原子角向波函数（模块 3.4）完全相同，使本节成为量子有心力问题的直接经典基础。
 
+## Key results · 核心结果
+
+- $\nabla\cdot\mathbf{E} = \rho/\epsilon_0$ (Gauss's law) · 高斯定律
+- $\nabla^2\phi = -\rho/\epsilon_0$ — Poisson equation; $\nabla^2\phi = 0$ Laplace in free space · 泊松／拉普拉斯方程
+- Separation of variables + boundary conditions solve BVPs (multipoles, image charges) · 分离变量与边界条件求解边值问题
+- $\mathbf{E} = -\nabla\phi$ — field from potential · 由电势得电场
+
 ---
 
 **Self-test (blank page)**

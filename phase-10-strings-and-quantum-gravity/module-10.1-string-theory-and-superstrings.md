@@ -218,6 +218,13 @@ The **GSO projection** (Gliozzi–Scherk–Olive) projects onto states with defi
 
 **应用。** D 膜的意义远超对偶网络。在 II 型理论中，$N$ 张重合的 D3 膜在其世界体上支持 $U(N)$ 规范理论；取 $N$ 大且弦耦合小，世界体理论是 4 维 $\mathcal{N}=4$ 超杨–Mills——正是 **AdS/CFT 对应**（模块 10.2）一侧的场论。杂化 $E_8 \times E_8$ 理论紧化在 Calabi–Yau 三重上，历史上是最有前景的弦论现象学，因为 $E_8 \times E_8$ 自然包含 GUT 群如 $E_6$ 和 $SO(10)$。M 理论的统一意味着这不是五个独立理论，而是一个——暗示真正的基本理论既非弦论也非场论，而是更丰富的东西——其本质仍是理论物理的核心未解问题。
 
+## Key results · 核心结果
+
+- Nambu–Goto $S = -\dfrac{1}{2\pi\alpha'}\int d\tau\,d\sigma\sqrt{-\det h_{ab}}$ — worldsheet area action ($\alpha'$ = Regge slope) · 南部–后藤作用量
+- Polyakov form $S = -\dfrac{1}{4\pi\alpha'}\int d\tau\,d\sigma\sqrt{-\gamma}\,\gamma^{ab}\partial_a X^\mu\partial_b X_\mu$ · 波利亚科夫形式
+- Mode expansion $X^\mu(\tau,\sigma)$: vibrational modes = the particle spectrum · 振动模式即粒子谱
+- Closed strings contain a massless spin-2 mode — the graviton · 闭弦含无质量自旋-2 模(引力子)
+
 ---
 
 **Self-test (blank page)**

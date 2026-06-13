@@ -46,6 +46,13 @@ The Dirac field (for spin-$\tfrac12$ particles) requires Lorentz covariance from
 
 **应用。** 正则场量子化是真正的相对论 QFT。QED 的每一个预言——电子反常磁矩 $g-2 = \alpha/\pi + \ldots$（与实验符合到 12 位有效数字）、兰姆移位、康普顿散射——都来自于量子化狄拉克场和麦克斯韦场并在此框架内计算费曼图。同样的程序应用于非阿贝尔规范场（第 8 阶段），给出电弱理论和量子色动力学（QCD）。在凝聚态物理中，非相对论极限（$|k| \ll mc/\hbar$）还原了模块 6.1 的场算符，证实二次量子化就是低能下的正则 QFT。
 
+## Key results · 核心结果
+
+- $\pi(x) = \partial\mathcal{L}/\partial(\partial_t\phi)$ — conjugate momentum of a field · 场的共轭动量
+- $[\phi(x,t), \pi(x',t)] = i\hbar\,\delta^3(x - x')$ — equal-time field commutator · 等时场对易关系
+- Mode expansion ⟹ creation/annihilation operators, particles **and** antiparticles · 模式展开给出粒子与反粒子
+- The vacuum is the no-particle state with zero-point energy · 真空是零粒子态(含零点能)
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）

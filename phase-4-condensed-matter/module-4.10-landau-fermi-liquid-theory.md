@@ -148,6 +148,13 @@ which admits an undamped solution with $s > 1$ (a velocity slightly above $v_F$)
 
 **失效。** 当准粒子不再良好定义时，费米液体理论失效：在**一维**中相互作用彻底破坏准粒子极点，系统成为**拉廷格液体**（自旋–电荷分离，无锐利费米面台阶）；在**量子临界点**附近，$(\varepsilon - \varepsilon_F)^2$ 寿命定律被违反，出现非费米液体（如"奇异金属"）行为。费米液体也是 BCS 超导（第 5 阶段）配对所源出的**正常态**。
 
+## Key results · 核心结果
+
+- Quasiparticles: interacting electrons map adiabatically onto weakly-interacting excitations · 准粒子与绝热连续性
+- $1/\tau \propto (\varepsilon - \varepsilon_F)^2$ — long-lived near the Fermi surface (so the picture is sharp) · 费米面附近寿命发散
+- $E = E_0 + \sum_k\varepsilon_k^0\,\delta n_k + \tfrac{1}{2V}\sum_{kk'}f_{kk'}\,\delta n_k\,\delta n_{k'}$ — Landau energy functional · 朗道能量泛函
+- Landau parameters renormalize mass, compressibility, susceptibility · 朗道参数重整化质量与响应
+
 ---
 
 **Self-test (blank page)**

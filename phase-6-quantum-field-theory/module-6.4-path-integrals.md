@@ -42,6 +42,13 @@ Passing to a field theory, $x(t)$ is replaced by a field configuration $\phi(x,t
 
 **应用。** 路径积分语言是凝聚态与粒子物理的共同词汇。在凝聚态中：Hubbard–Stratonovich 变换通过引入玻色辅助场 $\Delta(x,\tau)$ 解耦四费米子相互作用（如 BCS 配对），所得玻色作用量的鞍点还原 BCS 能隙方程；鞍点附近的涨落给出 Goldstone 模式和金兹堡–朗道有效理论（模块 5.3）。在粒子物理中：对规范场的路径积分定义了 QED 和标准模型（第 8 阶段），Fadeev–Popov 程序处理规范冗余。
 
+## Key results · 核心结果
+
+- $\langle f|i\rangle = \int\mathcal{D}\phi\; e^{iS[\phi]/\hbar}$ — sum over histories · 历史求和
+- Stationary phase $\delta S = 0$ recovers the classical path · 稳相近似给出经典路径
+- Wick rotation to imaginary time ($\beta = 1/k_B T$) links QFT to statistical mechanics · 虚时间将场论与统计力学相连
+- Fermions need anticommuting Grassmann fields · 费米子需反对易的格拉斯曼场
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）

@@ -28,6 +28,13 @@
 
 **应用。** 这是超导的直接触发机制。因为**只有费米面附近的电子才能配对**，且**声子媒介的吸引力**能够克服屏蔽库仑排斥，两个电子形成**库珀对**（第 5 阶段，模块 5.4）。态密度 $g(E_F)$ 直接进入 **BCS 能隙方程**——更大的 $g(E_F)$ 和更强的耦合给出更高的 $T_c$。
 
+## Key results · 核心结果
+
+- The Fermi surface (constant-energy surface at $E_F$) controls transport and thermodynamics · 费米面主宰输运与热力学
+- Low-energy excitations and heat capacity scale with $g(E_F)$ · 低能激发与热容正比于 $g(E_F)$
+- Electron–phonon coupling gives an effective electron–electron attraction · 电子–声子耦合给出有效吸引
+- That attraction is the microscopic seed of Cooper pairing (5.4, 5.5) · 这正是库珀配对的微观起点
+
 ---
 
 **Self-test (blank page)**

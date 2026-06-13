@@ -116,6 +116,13 @@ $$ H_{t\text{–}J} = -t \sum_{\langle ij\rangle,\sigma} P\,(c^\dagger_{i\sigma}
 
 其中 $P$ 是投影到无双占据的 Gutzwiller 投影算符。**掺杂莫特绝缘体**——向反铁磁母体中加入空穴——是通往高温铜氧化物超导体的途径（模块 5.9）：t–J 模型是它们最主要的候选有效理论。在中等 $U/W$ 下两个可解极限都不适用，定量结果需要 DMFT 与大规模数值。因此哈伯德 / t–J 模型连接了紧束缚能带（模块 4.4）、海森堡磁体（模块 4.6）、精确可解模型（模块 6.7）与高温超导（模块 5.9）。
 
+## Key results · 核心结果
+
+- $H = -t\sum_{\langle ij\rangle\sigma}(c^\dagger_{i\sigma}c_{j\sigma} + \text{h.c.}) + U\sum_i n_{i\uparrow}n_{i\downarrow}$ — Hubbard model · 哈伯德模型
+- Large $U$ at half-filling ⟹ Mott insulator, gap $\Delta_\text{Mott} \approx U - W$ · 莫特绝缘体与能隙
+- Superexchange $H_\text{eff} = J\sum\mathbf{S}_i\cdot\mathbf{S}_j$, $J = 4t^2/U > 0$ (antiferromagnetic) · 超交换
+- The $t$–$J$ model is the leading candidate for cuprate superconductivity · t–J 模型与铜氧化物超导
+
 ---
 
 **Self-test (blank page)**

@@ -84,6 +84,13 @@ $$ \oint_C f(z)\, dz = 2\pi i \sum \operatorname{Res}(f, z_k). $$
 
 **应用。** 围道积分是量子场论和多体物理中计算积分的标准工具，**格林函数**和**克喇末–克朗尼希关系**也借助它来处理（第 6 阶段）。直到高级阶段才会大量用到它，但现在认识它会有所回报。
 
+## Key results · 核心结果
+
+- $e^{i\theta} = \cos\theta + i\sin\theta$ — Euler's formula, the bridge to oscillations and quantum phase · 欧拉公式
+- Cauchy–Riemann equations ⟺ analyticity · 柯西–黎曼方程与解析性
+- $\oint_C f(z)\, dz = 2\pi i \sum_k \operatorname{Res}(f, z_k)$ — residue theorem · 留数定理
+- Contour integration evaluates real integrals and underlies Green's functions / propagators · 围道积分支撑格林函数与传播子
+
 ---
 
 ## Module 0.4 Self-Test (blank page)

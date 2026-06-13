@@ -22,6 +22,15 @@
 
 **应用。** 每一种实用高场超导磁体——**核磁共振扫描仪、聚变反应堆、粒子加速器**——都依赖于钉扎的 II 型超导体。金兹堡–朗道理论（5.3）预言了整个涡旋态。
 
+## Key results · 核心结果
+
+- Type-II: a mixed state for $H_{c1} < H < H_{c2}$ — field enters as vortices · 第二类的混合态
+- Each vortex carries one flux quantum $\Phi_0 = h/2e$ · 每个涡旋携带一个磁通量子
+- Vortices form an Abrikosov lattice; pinning enables high-field magnets · 阿布里科索夫涡旋格子与钉扎
+- $\kappa = \lambda/\xi > 1/\sqrt2$ distinguishes Type II from Type I · GL 参数判据
+
+---
+
 **Self-test (blank page)**
 
 1. State the two critical fields $H_{c1}$ and $H_{c2}$ of a type-II superconductor and describe what happens in each of the three regions ($H < H_{c1}$, $H_{c1} < H < H_{c2}$, $H > H_{c2}$). How does this differ from a type-I superconductor?

@@ -22,6 +22,13 @@
 
 **应用。** 这是迈斯纳效应的定量描述：磁场被排斥在厚度为 $\lambda$ 的薄表面层之外。$\lambda$ 是超导性的**两个基本长度尺度**之一（另一个是相干长度，见下一模块）。
 
+## Key results · 核心结果
+
+- $\nabla^2\mathbf{B} = \mathbf{B}/\lambda_L^2$ ⟹ $\mathbf{B}(x) = \mathbf{B}_0\,e^{-x/\lambda_L}$ — the Meissner effect · 迈斯纳效应
+- $\lambda_L = \sqrt{m/\mu_0 n_s e^2}$ — London penetration depth · 伦敦穿透深度
+- The field is expelled; superconductivity is more than perfect conductivity · 磁场被排出,超导不只是完美导电
+- A phenomenological warm-up for Ginzburg–Landau (5.3) · 金兹堡–朗道的唯象前奏
+
 ---
 
 **Self-test (blank page)**

@@ -28,6 +28,13 @@
 
 **应用。** 这是量子力学的严格骨架——具有物理意义的线性代数（模块 0.2）。厄米性 = 实数测量；对易子 = 不确定性与守恒。
 
+## Key results · 核心结果
+
+- $|\psi\rangle = \sum_n c_n|n\rangle$, $c_n = \langle n|\psi\rangle$ — states in Hilbert space (Dirac notation) · 希尔伯特空间中的态
+- Measurement yields eigenvalue $a_n$ with probability $|c_n|^2$, then collapse · 测量得本征值,概率 $|c_n|^2$
+- $[\hat{A},\hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$; compatible observables commute · 对易子与共同可测量
+- $\Delta A\,\Delta B \geq \tfrac12|\langle[\hat{A},\hat{B}]\rangle|$ — generalized uncertainty · 普遍不确定性关系
+
 ---
 
 **Self-test (blank page)**

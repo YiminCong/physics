@@ -24,6 +24,13 @@
 
 **应用。** **自旋单态正是常规库珀对的配对结构**（两个自旋相反的电子），而对称/反对称分裂与全同粒子统计（3.5）相连。光谱学中的选择定则也由此而来。
 
+## Key results · 核心结果
+
+- $[\hat{J}_i,\hat{J}_j] = i\hbar\,\varepsilon_{ijk}\hat{J}_k$ — the angular-momentum algebra · 角动量代数
+- $\hat{J}^2$ eigenvalue $\hbar^2 j(j+1)$, $\hat{J}_z$ eigenvalue $m\hbar$; ladder operators $J_\pm$ · 本征值与升降算符
+- Addition $\mathbf{J} = \mathbf{J}_1 + \mathbf{J}_2$ via Clebsch–Gordan coefficients · 角动量合成与 CG 系数
+- The same $SU(2)$ algebra recurs as spin, isospin, weak isospin · 同一 $SU(2)$ 代数贯穿自旋／同位旋／弱同位旋
+
 ---
 
 **Self-test (blank page)**

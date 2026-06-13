@@ -80,6 +80,13 @@ A full rotation $\theta = 2\pi$ gives $\exp(i\pi \sigma_3) = -I$, not $+I$ — t
 
 **应用。** 群论和李代数是现代物理学书写所用的语言。**角动量**（模块 3.11）就是 su(2) 的表示论：每个自旋 $j$ 的多重态是一个不可约表示，角动量的合成是不可约表示的张量积，而克莱布施-高登系数是其分解。**规范理论**（模块 8.1）建立在李群之上：标准模型规范群为 $SU(3) \times SU(2) \times U(1)$，规范玻色子（$SU(3)$ 的胶子，$SU(2)$ 的 $W/Z$）处于各自代数的伴随表示中。su(3) 的 Gell-Mann 矩阵支配量子色动力学（模块 8.3）。洛伦兹群及其表示决定所有相对论量子场的自旋内容（模块 6.2）。只要对称性是连续且严格的，就有一个李群在运作。
 
+## Key results · 核心结果
+
+- $g = \exp(i\theta_a T_a)$ — Lie group elements from generators · 由生成元指数化得李群元素
+- $[T_a, T_b] = i f_{abc} T_c$ — Lie algebra; $f_{abc}$ structure constants · 李代数与结构常数
+- $SU(2)$ generators $= \sigma_a/2$; the same algebra is spin, isospin, and weak isospin · $SU(2)$ 生成元贯穿自旋／同位旋／弱同位旋
+- Representations classify particle multiplets — the language of gauge theory (Phase 8) · 表示论给出粒子多重态,通往规范理论
+
 ---
 
 ## Module 0.7 Self-Test (blank page)

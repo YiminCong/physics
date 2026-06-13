@@ -38,6 +38,13 @@
 
 **应用。** 跑动耦合常数是理解所有规范理论耦合常数的原型。在标准模型中，$SU(3)\times SU(2)\times U(1)$ 的三个耦合常数随能量跑动，若推广到超对称谱，它们在 $10^{16}$ GeV 附近汇聚于一点，这是**大统一**的诱人迹象（模块 8.5）。这一汇聚的精确性依赖于量子电动力学检验所测定的 $\alpha$ 的精度。
 
+## Key results · 核心结果
+
+- QED is the $U(1)$ gauge theory of electrons and photons · QED 是 $U(1)$ 规范理论
+- Vertex $-ie\gamma^\mu$, fermion propagator $i(\gamma^\mu p_\mu + m)/(p^2 - m^2)$ — Feynman rules · 费曼规则
+- Coupling $\alpha = e^2/4\pi\epsilon_0\hbar c \approx 1/137$; e.g. $\sigma(e^+e^-\to\mu^+\mu^-) = 4\pi\alpha^2/3s$ · 精细结构常数与截面
+- $\alpha(\mu)$ runs (grows) with energy — toward a Landau pole · 耦合随能量跑动增大
+
 ---
 
 ## Self-test (blank page)

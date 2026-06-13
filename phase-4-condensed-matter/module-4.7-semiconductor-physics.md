@@ -67,6 +67,13 @@ where $I_0$ is the reverse saturation current. The exponential rectification is 
 - **Optoelectronics:** forward-biased junctions in direct-gap semiconductors (GaAs, InGaN) recombine electrons and holes to emit photons — the **LED** and **laser diode**. Reverse-biased junctions absorb photons and generate electron–hole pairs — the **photodiode** and **solar cell**. These applications connect to the photon–matter interaction discussed in Module 9.1.
 - **光电器件：** 直接带隙半导体（GaAs、InGaN）中正向偏置结中电子与空穴复合发射光子——**LED** 和**激光二极管**。反向偏置结吸收光子产生电子–空穴对——**光电二极管**和**太阳能电池**。这些应用与模块 9.1 中讨论的光子–物质相互作用相关。
 
+## Key results · 核心结果
+
+- $\dfrac{1}{m^*} = \dfrac{1}{\hbar^2}\dfrac{d^2E}{dk^2}$ — effective mass from band curvature · 有效质量
+- Holes = empty valence states with positive charge · 空穴
+- $n_i = \sqrt{N_c N_v}\,e^{-E_g/2k_B T}$ — intrinsic carrier density · 本征载流子浓度
+- Diode $I = I_0(e^{eV/k_B T} - 1)$ — the p–n junction · 二极管方程
+
 ---
 
 **Self-test (blank page)**

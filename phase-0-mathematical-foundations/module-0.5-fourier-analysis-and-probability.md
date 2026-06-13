@@ -68,6 +68,13 @@ It is its own Fourier transform (up to rescaling), normalized to 1, and maximize
 
 **应用。** 在量子力学中，$|\psi(x)|^2$ 是概率密度：位置的期望值为 $\langle x\rangle = \int x|\psi|^2\, dx$，不确定度 $\Delta x = \sqrt{\langle x^2\rangle - \langle x\rangle^2}$ 恰好是对 $|\psi|^2$ 应用的标准差（模块 3.1）。中心极限定理解释了为何高斯分布出现在热噪声、扩散以及谐振子基态波函数中。**态密度**——在能量 $E$ 附近找到能级的概率密度——直接进入费米黄金规则（模块 3.8）以及统计力学中的费米–狄拉克和玻色–爱因斯坦分布。
 
+## Key results · 核心结果
+
+- $\tilde{f}(k) = \int f(x)\, e^{-ikx}\, dx$, $f(x) = \tfrac{1}{2\pi}\int \tilde{f}(k)\, e^{ikx}\, dk$ — Fourier transform pair · 傅里叶变换对
+- A Gaussian transforms to a Gaussian; width$\,\times\,$width $\sim 1$ (the uncertainty seed) · 高斯变高斯,宽度互逆(测不准之源)
+- $\langle x\rangle = \int x\, p(x)\, dx$, $\sigma^2 = \langle x^2\rangle - \langle x\rangle^2$ · 期望与方差
+- Normal distribution $p(x) = \tfrac{1}{\sigma\sqrt{2\pi}} e^{-(x-\mu)^2/2\sigma^2}$ · 正态分布
+
 ---
 
 ## Module 0.5 Self-Test (blank page)

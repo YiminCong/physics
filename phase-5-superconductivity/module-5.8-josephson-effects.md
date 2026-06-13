@@ -26,6 +26,15 @@
 
 **应用。** SQUID（脑/心磁成像、地球物理学）、**约瑟夫森电压标准**以及**超导量子比特**——量子计算的领先硬件平台——都基于这些效应运行。
 
+## Key results · 核心结果
+
+- DC Josephson $I = I_c\sin(\Delta\phi)$ — supercurrent with zero voltage · 直流约瑟夫森效应
+- AC Josephson $\hbar\,\dfrac{d(\Delta\phi)}{dt} = 2eV$ — voltage drives an oscillating current · 交流约瑟夫森效应
+- The macroscopic phase $\phi$ is a real, measurable observable · 宏观相位是可测量
+- Basis of SQUIDs and superconducting qubits · SQUID 与超导量子比特的基础
+
+---
+
 **Self-test (blank page)**
 
 1. State the DC Josephson relation $I = I_c \sin(\Delta\phi)$ and the AC Josephson relation $df/dt = 2eV/h$. What physical quantity is $\Delta\phi$, and why does the DC effect require zero voltage across the junction?

@@ -38,6 +38,13 @@
 
 **应用。** 杨–米尔斯理论是量子色动力学（$SU(3)$）和电弱理论（$SU(2)\times U(1)$）的基础。胶子的自耦合通过量子色动力学真空能负责夸克禁闭和可见质量的主要来源。同样的数学框架描述了除引力之外的所有力——甚至引力也有规范理论的诠释（微分同胚不变性），从而与第 7 阶段相联系。
 
+## Key results · 核心结果
+
+- Promoting a global symmetry $\psi \to e^{i\alpha}\psi$ to a local one $\alpha(x)$ **forces** a gauge field via $D_\mu = \partial_\mu - igA_\mu$ · 局域化对称性必然引入规范场
+- Field strength $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu (- ig[A_\mu,A_\nu])$ · 场强张量
+- Yang–Mills: non-Abelian groups give self-interacting gauge bosons · 杨–米尔斯规范玻色子自相互作用
+- The gauge principle builds QED, QCD, and the electroweak theory · 规范原理构建整个标准模型
+
 ---
 
 ## Self-test (blank page)

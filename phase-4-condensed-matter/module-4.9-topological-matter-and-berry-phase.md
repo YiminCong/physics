@@ -76,6 +76,13 @@ In 3D the $\mathbb{Z}_2$ classification gives four invariants $(\nu_0; \nu_1\nu_
 
 在三维中，$\mathbb{Z}_2$ 分类给出四个不变量（$\nu_0$；$\nu_1\nu_2\nu_3$）：当 $\nu_0 = 1$ 时，材料是**强拓扑绝缘体**，每个表面上有奇数个狄拉克锥。$\text{Bi}_2\text{Se}_3$ 和 $\text{Bi}_2\text{Te}_3$ 是典型的强三维拓扑绝缘体，每个表面上有单个狄拉克锥，首先由 ARPES 观测到。**体–边界对应**——体内的拓扑不变量意味着受保护的边界态——是整个拓扑物质领域的统一原理，将量子霍尔效应（模块 4.8）、拓扑绝缘体、外尔半金属和拓扑超导体联系起来。
 
+## Key results · 核心结果
+
+- $\gamma = \oint \mathbf{A}(\mathbf{R})\cdot d\mathbf{R}$, $\mathbf{A} = i\langle u|\nabla_\mathbf{R}|u\rangle$ — Berry phase / connection · 贝里相位与联络
+- $\Omega_n(\mathbf{k}) = \nabla_\mathbf{k}\times\mathbf{A}_n$ — Berry curvature · 贝里曲率
+- $C_n = \tfrac{1}{2\pi}\int_\text{BZ}\Omega_n\,d^2k \in \mathbb{Z}$ — Chern number (a topological invariant) · 陈数
+- Bulk topology ⟹ protected edge states (bulk–boundary correspondence) · 体拓扑给出受保护边缘态
+
 ---
 
 **Self-test (blank page)**

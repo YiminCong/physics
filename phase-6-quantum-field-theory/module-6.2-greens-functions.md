@@ -46,6 +46,13 @@ The analytic structure follows from causality (Module 0.4): $G^R(k,\omega)$ is a
 
 **应用。** Nambu–Gor'kov 形式主义是现代超导理论的基础：它允许系统地用图的方法自洽地计算 $\Delta$、态密度 $N(\omega) \propto |\omega|/\sqrt{\omega^2-\Delta^2}$（由隧道谱测量）以及输运所需的响应函数。它可以直接推广到非常规超导体（d 波等）和拓扑系统中的 Nambu 旋量。
 
+## Key results · 核心结果
+
+- $G^0(k,\omega) = \dfrac{1}{\omega - \varepsilon_k/\hbar + i\eta}$ — free propagator; poles give excitation energies · 自由格林函数,极点即激发能
+- The spectral function $A(k,\omega)$ encodes the measurable excitation spectrum · 谱函数给出可测激发谱
+- Self-energy $\Sigma$ dresses bare particles into quasiparticles · 自能将裸粒子修饰为准粒子
+- Nambu–Gor'kov anomalous propagator encodes BCS pairing · Nambu–Gor'kov 反常传播子编码 BCS 配对
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）

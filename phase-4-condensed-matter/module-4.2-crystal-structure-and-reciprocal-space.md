@@ -24,6 +24,13 @@
 
 **应用。** 晶体中的电子由布里渊区内的波矢 $\mathbf{k}$ 标记；"晶体动量" $\hbar\mathbf{k}$ 是守恒量。所有的能带结构（4.4）和费米面（4.5）都在这个倒格子空间中描绘。
 
+## Key results · 核心结果
+
+- $\mathbf{a}_i\cdot\mathbf{b}_j = 2\pi\delta_{ij}$ — real ↔ reciprocal lattice · 正格子与倒格子
+- $2d\sin\theta = n\lambda$ — Bragg diffraction condition · 布拉格衍射条件
+- The first Brillouin zone is the natural cell for electron and phonon states · 第一布里渊区是电子／声子态的天然元胞
+- Reciprocal space is where band structure and diffraction both live · 倒空间统一能带与衍射
+
 ---
 
 **Self-test (blank page)**

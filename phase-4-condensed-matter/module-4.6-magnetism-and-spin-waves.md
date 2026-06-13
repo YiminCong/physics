@@ -102,6 +102,13 @@ $$ M(T) = M(0)\left[\,1 - A\,T^{3/2} + \dots\,\right] \qquad \text{(布洛赫定
 
 **定义——反铁磁性与奈尔有序。** 当 $J < 0$ 时，两个子晶格（记为 A 和 B）上的自旋在**奈尔温度** $T_N$ 以下反平行排列。**奈尔态**具有零净磁化强度，但有交错磁化强度（**序参量**）。反铁磁磁振子在长波极限下具有**线性**色散 $\omega \propto k$——这是与铁磁性 $\omega \propto k^2$ 的关键区别——并因双子晶格结构而形成两个支。
 
+## Key results · 核心结果
+
+- Curie law $\chi = C/T$, $C = n\mu_0\mu_\text{eff}^2/k_B$ — paramagnet · 居里定律
+- Heisenberg $H = -J\sum_{\langle ij\rangle}\mathbf{S}_i\cdot\mathbf{S}_j$; $J>0$ ferromagnet · 海森堡模型
+- Curie–Weiss $\chi = C/(T - T_c)$, $T_c = zJS(S+1)/3k_B$ (mean field) · 居里–外斯定律
+- Spin waves (magnons) are the quantized excitations of the ordered state · 自旋波（磁振子）是有序态的量子化激发
+
 ---
 
 **Self-test (blank page)**
