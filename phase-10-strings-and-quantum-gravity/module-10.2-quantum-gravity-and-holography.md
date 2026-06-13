@@ -168,6 +168,13 @@ $$ A = 8\pi\gamma\, \ell_P^2 \sum_e \sqrt{j_e(j_e + 1)}, $$
 
 **应用。** LQG 和弦论代表量子引力研究的两大主流，在基本假设上根本不同。LQG 保留了背景无关性（GR 的核心特征），但目前尚未重现标准模型，也未提供包含 GR 加物质的自然低能极限。弦论通过紧化和 D 膜自然包含标准模型和引力，但需要额外维度并且（在大多数表述中）需要固定背景。两种理论目前都尚未做出超越有效场论范围的经证实的实验预言。量子引力是否唯一、是否可被检验，这个深刻问题仍悬而未决。
 
+## Key results · 核心结果
+
+- GR is perturbatively non-renormalizable: $[\kappa]<0$, loop expansion in $(E/E_\text{Planck})^2$ · 引力微扰不可重整
+- Planck scale $\ell_P=\sqrt{G\hbar/c^3}\sim10^{-35}$ m, $E_\text{Planck}\sim10^{19}$ GeV · 普朗克尺度
+- Bekenstein–Hawking $S=k_B A/4\ell_P^2$; Hawking $T_H=\hbar c^3/8\pi GMk_B$ · 黑洞熵与温度
+- Holographic principle; AdS/CFT realizes it exactly (Module 10.3) · 全息原理与 AdS/CFT
+
 ---
 
 **Self-test (blank page)**
@@ -185,6 +192,17 @@ $$ A = 8\pi\gamma\, \ell_P^2 \sum_e \sqrt{j_e(j_e + 1)}, $$
 3. 全息原理是什么？黑洞热力学如何为其提供动机？
 4. 陈述 AdS/CFT 对应（具体说明哪些理论对偶）。给出一个纯引力以外的系统的应用。
 5. 比较圈量子引力与弦论作为量子引力方法的异同：各自的出发点是什么，各自的关键预言或特征是什么？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** The graviton coupling $\kappa$ has negative mass dimension, so each loop needs a new higher-derivative counterterm — infinitely many — hence non-renormalizable. The Planck scale $E_\text{Planck}\sim10^{19}$ GeV is where $(E/E_\text{Planck})^2\sim1$ and the expansion breaks down. · 负量纲耦合→无穷抵消项;普朗克尺度处展开失效。
+**2.** $S=k_B A/4\ell_P^2$, $T_H=\hbar c^3/8\pi GMk_B$. As it evaporates $M$ falls so $T_H$ rises (negative heat capacity) — a runaway that ends in a final burst. · 蒸发时 $M\downarrow\Rightarrow T_H\uparrow$。
+**3.** Holographic principle: the maximum information in a region scales with its boundary **area** (since $S_{BH}\propto A$), not its volume. Black-hole entropy = area motivates encoding bulk data on the boundary. · 信息正比于边界面积。
+**4.** AdS/CFT: type IIB strings on $\mathrm{AdS}_5\times S^5$ ↔ $\mathcal N=4$ $SU(N)$ SYM on the 4D boundary. Application: $\eta/s=\hbar/4\pi k_B$ for the quark–gluon plasma. · AdS/CFT 对偶;应用 $\eta/s$。
+**5.** LQG starts from canonical quantization of GR (spin networks; discrete area/volume). String theory starts from 1D strings in higher dimensions, automatically contains a graviton, and unifies the forces (requiring extra dimensions / SUSY). · LQG 离散几何;弦论含引力子、统一各力。
+
+</details>
 
 ---
 

@@ -106,6 +106,13 @@ $$ \frac{\kappa}{\sigma T} = \frac{\pi^2}{3}\left(\frac{k_B}{e}\right)^2 \equiv 
 
 **应用——无序、剩余电阻率与安德森局域化。** 独立散射道的速率相加：$1/\tau = 1/\tau_{\text{imp}} + 1/\tau_{\text{phonon}} + \ldots$，故电阻率相加——**马蒂森定则** $\rho = \rho_{\text{imp}} + \rho_{\text{phonon}}(T)$。杂质给出与温度无关的**剩余电阻率** $\rho_{\text{imp}}$，在 $T \to 0$ 时残留。然而强无序会彻底破坏半经典图像：散射电子波的量子干涉可使扩散停止。**局域化标度理论**预言，在 **$d \leq 2$ 中任意非零无序下所有态都局域化**（无真正金属），而在 **$d = 3$ 中存在迁移率边**，将扩展（金属）态与局域（绝缘）态分开——即**安德森金属–绝缘体转变**。即便在弱无序金属中，相干背散射也产生 **弱局域化**量子修正 $\Delta\sigma < 0$，是可在磁电阻中测量的局域化先兆。这将散射（模块 4.5）与费米液体理论（模块 4.10）同常规输运的崩溃联系起来。
 
+## Key results · 核心结果
+
+- Boltzmann equation + relaxation time; $\delta f=-e\tau(\mathbf E\cdot\mathbf v)\partial f_0/\partial\varepsilon$ · 玻尔兹曼方程与弛豫时间
+- Drude $\sigma=ne^2\tau/m$, mobility $\mu=e\tau/m$ · 德鲁德电导率
+- Kubo: $\sigma$ from a current–current correlation (fluctuation–dissipation) · 久保公式
+- Wiedemann–Franz $\kappa/\sigma T=L_0=\pi^2 k_B^2/3e^2$ · 维德曼–弗兰兹定律
+
 ---
 
 **Self-test (blank page)**
@@ -121,6 +128,16 @@ $$ \frac{\kappa}{\sigma T} = \frac{\pi^2}{3}\left(\frac{k_B}{e}\right)^2 \equiv 
 2. 写出电导率作为电流–电流关联函数的久保公式。涨落–耗散定理对 $\operatorname{Re}\sigma$ 有何陈述？
 3. 写出爱因斯坦关系 $\sigma = e^2 N(E_F)D$，并用 $D = v_F^2\tau/d$ 恢复三维中的德鲁德电导率。
 4. 陈述并从物理上论证维德曼–弗兰兹定律；给出洛伦兹数 $L_0$ 的数值并解释其普适性。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\partial_t f+\mathbf v\cdot\nabla_r f+\tfrac{\mathbf F}{\hbar}\cdot\nabla_k f=-(f-f_0)/\tau$. Static uniform field: $\delta f=-e\tau(\mathbf E\cdot\mathbf v)\partial f_0/\partial\varepsilon$, and $\mathbf J=-e\int\mathbf v\,\delta f$ gives $\sigma=ne^2\tau/m$. Only $E_F$ electrons contribute since $\partial f_0/\partial\varepsilon\approx-\delta(\varepsilon-E_F)$. · 线性化得 $\sigma=ne^2\tau/m$。
+**2.** Kubo: $\sigma\sim\int\langle J(t)J(0)\rangle\,dt$. Fluctuation–dissipation: $\text{Re}\,\sigma$ (dissipation) is fixed by the equilibrium current-fluctuation spectrum. · 久保:电导=电流关联;涨落–耗散。
+**3.** Einstein $\sigma=e^2 N(E_F)D$ with $D=v_F^2\tau/3$ (3D) recovers $\sigma=ne^2\tau/m$. · 爱因斯坦关系回到德鲁德。
+**4.** Wiedemann–Franz $\kappa/\sigma T=L_0=\pi^2 k_B^2/3e^2\approx2.44\times10^{-8}\ \text{W}\,\Omega/\text{K}^2$ — universal because the same electrons carry both charge and heat, so $\tau$ cancels. · WF 定律,$L_0$ 普适($\tau$ 相消)。
+
+</details>
 
 ---
 

@@ -58,6 +58,13 @@ The **metric tensor** $g_{\mu\nu}$ encodes the geometry of the space: the invari
 
 **应用。** 向量微积分（$\nabla$、$\nabla\cdot$、$\nabla\times$）是模块 1.8–1.11 中所有经典电磁学的语言。张量指标记号和度规 $g_{\mu\nu}$ 对协变电动力学（模块 1.15）不可或缺，也是广义相对论（第 7 阶段）的全部技术基础——在那里 $g_{\mu\nu}$ 变为动力学量，即场本身。微分形式给出麦克斯韦方程组最紧凑的表述，并出现在规范理论的几何表述中（第 6 阶段）。
 
+## Key results · 核心结果
+
+- Divergence theorem $\oint_S\mathbf F\cdot d\mathbf A=\int_V\nabla\cdot\mathbf F\,dV$; Stokes $\oint_C\mathbf F\cdot d\mathbf l=\int_S(\nabla\times\mathbf F)\cdot d\mathbf A$ · 积分定理
+- $\nabla\cdot\mathbf E=\rho/\epsilon_0$ (Gauss), $\nabla\times\mathbf E=-\partial_t\mathbf B$ (Faraday) · 麦克斯韦方程示例
+- Einstein summation; invariant interval $ds^2=g_{\mu\nu}dx^\mu dx^\nu$ · 爱因斯坦求和与度规
+- Indices raised/lowered with $g_{\mu\nu}$; $p^\mu p_\mu$ is a Lorentz invariant · 指标升降与不变量
+
 ---
 
 ## Module 0.6 Self-Test (blank page)
@@ -77,6 +84,17 @@ The **metric tensor** $g_{\mu\nu}$ encodes the geometry of the space: the invari
 4. 定义爱因斯坦求和约定；用 $g_{\mu\nu}$ 写出不变间隔 $ds^2$。
 5. 证明相对论粒子满足 $p^\mu p_\mu = -(mc)^2$，并解释其含义。
 6. 陈述微分形式是什么，以及 $d^2 = 0$ 推广了什么。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\nabla\cdot\mathbf F$ = net source/sink density (flux per volume); $\nabla\times\mathbf F$ = local circulation. Gauss $\nabla\cdot\mathbf E=\rho/\epsilon_0$ (div); Faraday $\nabla\times\mathbf E=-\partial_t\mathbf B$ (curl). · 散度=源,旋度=环量。
+**2.** Divergence theorem converts Gauss's law (integral ↔ differential); Stokes converts Ampère/Faraday. · 高斯定理↔高斯定律,斯托克斯↔安培/法拉第。
+**3.** $\nabla^2=\tfrac1{r^2}\partial_r(r^2\partial_r)+\tfrac1{r^2\sin\theta}\partial_\theta(\sin\theta\,\partial_\theta)+\tfrac1{r^2\sin^2\theta}\partial_\phi^2$; it is the kinetic term of the hydrogen Schrödinger equation. · 球坐标拉普拉斯算子,见于氢原子。
+**4.** Einstein summation: a repeated upper/lower index is summed. $ds^2=g_{\mu\nu}dx^\mu dx^\nu$. · 求和约定与线元。
+**5.** With $(-,+,+,+)$, $p^\mu p_\mu=-(E/c)^2+|\mathbf p|^2=-(mc)^2$ (evaluate in the rest frame); it is the Lorentz-invariant mass. · $p^\mu p_\mu=-(mc)^2$,不变质量。
+
+</details>
 
 ---
 

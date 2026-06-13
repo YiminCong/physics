@@ -88,6 +88,13 @@ where the first term is electronic (Fermi gas) and the second is phononic (Debye
 
 **应用。** 这些结果直接进入模块 4.1（固体热容）：德拜模型取代了经典的杜隆–珀蒂值 $C = 3 N k_B$（仅在高温下所有模式均经典激活时才正确），并解释了低温下观察到的热容下降。模块 4.3（声子）将此推广到完整声子色散和声子–声子相互作用。玻色–爱因斯坦凝聚于 1995 年首次在稀薄碱金属气体中实现，已成为研究量子多体物理、超流性和精密测量的实验室。
 
+## Key results · 核心结果
+
+- Degenerate Fermi gas $C_\text{el}=\tfrac{\pi^2}{2}Nk_B\,\dfrac{k_BT}{E_F}\propto T$ · 简并费米气体热容
+- Planck $u(\nu,T)=\dfrac{8\pi h}{c^3}\dfrac{\nu^3}{e^{h\nu/k_BT}-1}$ · 普朗克分布
+- BEC $T_\text{BEC}=\dfrac{2\pi\hbar^2}{mk_B}\big(\tfrac{n}{\zeta(3/2)}\big)^{2/3}$, $N_0/N=1-(T/T_\text{BEC})^{3/2}$ · 玻色–爱因斯坦凝聚
+- Debye $C\propto T^3$ at low $T$ · 德拜 $T^3$ 律
+
 ---
 
 ## Self-test (blank page) · 自测（空白页）
@@ -103,6 +110,16 @@ where the first term is electronic (Fermi gas) and the second is phononic (Debye
 2. 解释为什么金属的电子热容 $\propto T$ 而非常数，并估算铜在 300 K 时的比值 $C_\text{el} / C_\text{classical}$（使用 $E_F \approx 7$ eV）。
 3. 陈述玻色–爱因斯坦凝聚的条件，并从物理上解释为什么在 $T_\text{BEC}$ 以下会出现宏观的基态占据。
 4. 德拜模型在晶格热容方面比爱因斯坦模型有何改进？低温预测是什么，哪种实验测量证实了它？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Rayleigh–Jeans ($h\nu\ll k_BT$, $u\propto\nu^2 T$) at low $\nu$; Wien (exponential cutoff) at high $\nu$. $\int u\,d\nu\propto T^4$ (Stefan–Boltzmann). · 两极限;积分给 $T^4$。
+**2.** $C_\text{el}\propto T$ because only $\sim k_BT/E_F$ of electrons are active (Pauli). Cu at 300 K: $C_\text{el}/C_\text{class}\sim k_BT/E_F\sim0.026/7\approx0.004$. · 电子热容线性,Cu 约 0.4%。
+**3.** BEC when the thermal de Broglie wavelength $\sim$ interparticle spacing ($n\lambda_T^3\sim1$); below $T_\text{BEC}$ the excited states saturate so the ground state is macroscopically occupied. · 凝聚条件与机制。
+**4.** Debye includes the full acoustic spectrum ($\omega\propto k$) → $C\propto T^3$ at low $T$ (Einstein gives an exponential, wrong). Confirmed by low-$T$ heat-capacity data. · 德拜给 $T^3$,实验证实。
+
+</details>
 
 ---
 
