@@ -1,8 +1,8 @@
 # Derivations — Module 10.3: AdS/CFT & Black-Hole Information
 # 推导 — 模块 10.3：AdS/CFT 与黑洞信息
 
-> ⏳ **Not yet independently verified.** These derivations follow standard references (Maldacena 1997; Witten 1998; Ryu–Takayanagi 2006) but have not yet passed line-by-line re-verification.
-> ⏳ **尚未独立校验。** 这些推导遵循标准参考文献（Maldacena 1997；Witten 1998；Ryu–Takayanagi 2006），但尚未通过逐行复核。
+> ✅ **Verified 2026-06-13** — derivations reviewed line-by-line and confirmed against standard results (Maldacena 1997; Witten 1998; Ryu–Takayanagi 2006); safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-13 -->
+> ✅ **已校验 2026-06-13** — 推导已逐行复核，并对照标准结果（Maldacena 1997；Witten 1998；Ryu–Takayanagi 2006）确认；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 10.3](./module-10.3-ads-cft-and-black-hole-information.md). English first, then 中文.
 > [模块 10.3](./module-10.3-ads-cft-and-black-hole-information.md) 的配套文档。先英文，后中文。

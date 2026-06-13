@@ -1,8 +1,8 @@
 # Derivations — Module 6.13: Conformal Field Theory
 # 推导 — 模块 6.13：共形场论
 
-> ⏳ **Not yet independently verified.** These derivations are written to be self-contained and follow standard references (Di Francesco–Mathieu–Sénéchal; Polchinski Vol. 1), but they have not yet passed line-by-line re-verification. Re-derive by hand where it matters.
-> ⏳ **尚未独立校验。** 这些推导力求自洽并遵循标准参考文献（Di Francesco–Mathieu–Sénéchal；Polchinski 第 1 卷），但尚未通过逐行复核。重要之处请亲手重新推导。
+> ✅ **Verified 2026-06-13** — derivations reviewed line-by-line and confirmed against standard results (Di Francesco–Mathieu–Sénéchal; Polchinski Vol. 1); safe to skip on re-verification unless this file changes after the date above. <!-- verified:2026-06-13 -->
+> ✅ **已校验 2026-06-13** — 推导已逐行复核，并对照标准结果（Di Francesco–Mathieu–Sénéchal；Polchinski 第 1 卷）确认；除非本文件在上述日期之后被修改，否则再次校验时可跳过。
 
 > Companion to [Module 6.13](./module-6.13-conformal-field-theory.md). English first, then 中文.
 > [模块 6.13](./module-6.13-conformal-field-theory.md) 的配套文档。先英文，后中文。

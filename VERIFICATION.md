@@ -1,7 +1,7 @@
 # Verification Status · 校验状态
 
 
-**120 / 120 derivation files verified.**
+**122 / 122 derivation files verified.**
 
 > ✅ = derivation reviewed line-by-line and confirmed (or corrected) against standard results. Most were verified on **2026-06-08**; files revised later carry a newer date in their badge.
 
@@ -58,6 +58,7 @@ done
 
 - ✅ [`10.1`](phase-10-strings-and-quantum-gravity/module-10.1-derivations.md) — String Theory & Superstrings
 - ✅ [`10.2`](phase-10-strings-and-quantum-gravity/module-10.2-derivations.md) — Quantum Gravity & Holography
+- ✅ [`10.3`](phase-10-strings-and-quantum-gravity/module-10.3-derivations.md) — AdS/CFT & Black-Hole Information
 
 ## Phase 2 Thermodynamics Statistical Mechanics
 
@@ -135,6 +136,7 @@ done
 - ✅ [`6.10`](phase-6-quantum-field-theory/module-6.10-spontaneous-symmetry-breaking-and-goldstone-derivations.md) — Spontaneous Symmetry Breaking & Goldstone's Theorem
 - ✅ [`6.11`](phase-6-quantum-field-theory/module-6.11-effective-field-theory-and-the-renormalization-group-derivations.md) — Effective Field Theory & the Wilsonian Renormalization Group
 - ✅ [`6.12`](phase-6-quantum-field-theory/module-6.12-finite-temperature-field-theory-derivations.md) — Finite-Temperature Field Theory
+- ✅ [`6.13`](phase-6-quantum-field-theory/module-6.13-conformal-field-theory-derivations.md) — Conformal Field Theory
 
 ## Phase 7 General Relativity And Cosmology
 
