@@ -188,4 +188,4 @@ $$ A = 8\pi\gamma\, \ell_P^2 \sum_e \sqrt{j_e(j_e + 1)}, $$
 
 ---
 
-← Previous: [Module 10.1 — String Theory & Superstrings](./module-10.1-string-theory-and-superstrings.md) · [Phase 10 index](./README.md)
+← Previous: [Module 10.1 — String Theory & Superstrings](./module-10.1-string-theory-and-superstrings.md) · Next: [Module 10.3 — AdS/CFT & Black-Hole Information](./module-10.3-ads-cft-and-black-hole-information.md) · [Phase 10 index](./README.md)

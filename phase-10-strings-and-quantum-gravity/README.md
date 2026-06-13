@@ -21,6 +21,7 @@ This phase stands at the absolute frontier of theoretical physics and marks the 
 |---|---|
 | 10.1 | [String Theory & Superstrings](./module-10.1-string-theory-and-superstrings.md) · 弦论与超弦 |
 | 10.2 | [Quantum Gravity & Holography](./module-10.2-quantum-gravity-and-holography.md) · 量子引力与全息原理 |
+| 10.3 | [The AdS/CFT Correspondence & Black-Hole Information](./module-10.3-ads-cft-and-black-hole-information.md) · AdS/CFT 对应与黑洞信息 |
 
 ## Phase 10 Checkpoint (blank page)
 
@@ -28,6 +29,7 @@ This phase stands at the absolute frontier of theoretical physics and marks the 
 2. Derive the open-string mass formula $M^2 = (N - 1)/\alpha'$ and explain how the intercept $a = 1$ and the requirement of Lorentz covariance force the critical dimension $D = 26$ for the bosonic string.
 3. State why general relativity is perturbatively non-renormalizable; identify the graviton in the closed-string spectrum and explain how string theory sidesteps the UV divergence problem.
 4. State the Bekenstein–Hawking entropy formula $S = k_B A / 4\ell_P^2$ and the Hawking temperature $T = \hbar c^3 / 8\pi G M k_B$; sketch the Euclidean-time-periodicity argument that yields the temperature.
+5. State the AdS/CFT correspondence and the Ryu–Takayanagi formula $S_A = \text{Area}(\gamma_A)/4G_N$. Explain how the unitarity of the boundary CFT addresses the black-hole information paradox and the shape of the Page curve.
 
 **自测（空白页）**
 
@@ -35,9 +37,10 @@ This phase stands at the absolute frontier of theoretical physics and marks the 
 2. 推导开弦质量公式 $M^2 = (N - 1)/\alpha'$，并解释截距 $a = 1$ 以及洛伦兹协变性的要求如何迫使玻色弦的临界维数为 $D = 26$。
 3. 说明为何广义相对论在微扰论中不可重整；指出引力子在闭弦谱中的位置，并解释弦论如何规避紫外发散问题。
 4. 陈述 Bekenstein–Hawking 熵公式 $S = k_B A / 4\ell_P^2$ 和霍金温度 $T = \hbar c^3 / 8\pi G M k_B$；概述得出该温度的欧氏时间周期性论证。
+5. 陈述 AdS/CFT 对应与 Ryu–Takayanagi 公式 $S_A = \text{Area}(\gamma_A)/4G_N$。解释边界 CFT 的幺正性如何应对黑洞信息悖论以及 Page 曲线的形状。
 
 ---
 
-This is the **summit of the curriculum**. Mastering these two modules means you have traced the entire arc from Newtonian mechanics to the frontiers of modern theoretical physics, touching every major revolution along the way.
+This is the **summit of the curriculum**. Mastering these modules means you have traced the entire arc from Newtonian mechanics to the frontiers of modern theoretical physics, touching every major revolution along the way.
 
-这是**课程的顶峰**。掌握这两个模块意味着你已经走过了从牛顿力学到现代理论物理前沿的完整旅程，沿途触及了每一次重大革命。
+这是**课程的顶峰**。掌握这些模块意味着你已经走过了从牛顿力学到现代理论物理前沿的完整旅程，沿途触及了每一次重大革命。
