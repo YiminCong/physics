@@ -55,6 +55,19 @@
 3. 什么是声子？写出其统计类型和能量，并解释为何德拜模型在低温下给出 $C \propto T^3$ 而爱因斯坦模型不能正确重现这一结果。
 4. 写出同位素效应 $T_c \propto M^{-1/2}$，并解释它对传统超导中声子所起作用的含义。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\omega(k)=2\sqrt{K/M}\,|\sin(ka/2)|$. At the zone boundary $k=\pi/a$ the group velocity $v_g=d\omega/dk=0$ — the mode is a standing wave (Bragg-reflected). · 区边界群速度为零(驻波)。
+
+**2.** A diatomic chain opens a gap at the zone boundary between $\sqrt{2K/M_1}$ and $\sqrt{2K/M_2}$ (width set by $|1/M_1-1/M_2|$). At $k=0$: acoustic = both atoms move in phase; optical = they move out of phase (centre of mass fixed). · 声学支同相、光学支反相;边界处开能隙。
+
+**3.** Phonons are quantized lattice vibrations, obey Bose–Einstein statistics, energy $\hbar\omega$. Debye's linear dispersion + $\omega^2$ mode density give $C\propto T^3$ at low $T$; Einstein's single frequency freezes out exponentially and misses the $T^3$ law. · 声子(玻色子);德拜给出 $C\propto T^3$,爱因斯坦模型不能。
+
+**4.** $T_c\propto M^{-1/2}$ (isotope effect) tracks the phonon frequency $\omega_D\propto M^{-1/2}$, proving phonons mediate conventional (BCS) pairing. · 同位素效应证明声子介导常规超导配对。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.2 — Crystal Structure & Reciprocal Space](./module-4.2-crystal-structure-and-reciprocal-space.md) · [Phase 4 index](./README.md) · Next: [Module 4.4 — Electrons in a Periodic Potential](./module-4.4-electrons-in-a-periodic-potential.md) →

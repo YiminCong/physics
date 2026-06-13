@@ -127,6 +127,21 @@ $$ M(T) = M(0)\left[\,1 - A\,T^{3/2} + \dots\,\right] \qquad \text{(布洛赫定
 4. 陈述布洛赫 $T^{3/2}$ 定律，并从磁振子统计的角度解释其物理起源。
 5. 反铁磁体的磁振子色散与铁磁体有何不同，原因是什么？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Curie law $\chi=C/T$: a spin's field energy $\sim\mu B$ competes with $k_BT$, giving alignment $\sim\mu B/k_BT$ per spin, hence $\chi\sim n\mu^2/k_BT\propto1/T$. · 居里定律,$\chi\propto1/T$。
+
+**2.** $H=-J\sum_{\langle ij\rangle}\mathbf S_i\cdot\mathbf S_j$. $J>0$ favours parallel spins → ferromagnet below $T_c$; $J<0$ favours antiparallel → antiferromagnet below $T_N$. · $J>0$ 铁磁,$J<0$ 反铁磁。
+
+**3.** A magnon is a quantized spin wave. The ferromagnetic dispersion is $\omega\propto k^2$ (quadratic) because the magnetization is conserved — the Goldstone mode of a ferromagnet is quadratic, not linear. · 磁振子;铁磁色散 $\omega\propto k^2$。
+
+**4.** Bloch $T^{3/2}$ law: the magnetization deficit $\Delta M\propto T^{3/2}$, from integrating the magnon Bose occupation over the quadratic dispersion (mode density $\propto\sqrt\omega$). · 布洛赫 $T^{3/2}$ 定律源于磁振子统计。
+
+**5.** An antiferromagnet has a *linear* dispersion $\omega\propto|k|$ (two sublattices, staggered order parameter not conserved), unlike the ferromagnet's quadratic one. · 反铁磁色散线性 $\omega\propto|k|$。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.5 — Fermi Surface & Electron–Phonon Coupling](./module-4.5-fermi-surface-and-electron-phonon-coupling.md) · [Phase 4 index](./README.md) · Next: [Module 4.7 — Semiconductor Physics](./module-4.7-semiconductor-physics.md) →

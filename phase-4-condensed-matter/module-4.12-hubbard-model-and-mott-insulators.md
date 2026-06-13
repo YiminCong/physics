@@ -139,6 +139,19 @@ $$ H_{t\text{–}J} = -t \sum_{\langle ij\rangle,\sigma} P\,(c^\dagger_{i\sigma}
 3. 解释为何半填充哈伯德模型在大 $U$ 下变为绝缘体。估计莫特能隙并对比莫特绝缘体与能带绝缘体。
 4. 推导（至少勾勒）为何超交换给出*反铁磁*海森堡耦合 $J = 4t^2/U$，并说明泡利原理的作用。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $H=-t\sum_{\langle ij\rangle\sigma}(c^\dagger_{i\sigma}c_{j\sigma}+\text{h.c.})+U\sum_i n_{i\uparrow}n_{i\downarrow}$. The hopping $t$ sets the bandwidth $W=2zt$ ($z$ neighbours); $U$ is the on-site Coulomb cost of double occupancy. · 跳跃项给带宽 $W=2zt$,$U$ 为同位库仑排斥。
+
+**2.** $U=0$: free band $\varepsilon_k=-2t\sum_a\cos(k_a a)$, metallic at half-filling (half-full band). $t=0$ (atomic limit): site energies are $0$ (empty/singly occupied) and $U$ (doubly occupied). · $U=0$ 半满金属;$t=0$ 原子极限单/双占据能 $0,U$。
+
+**3.** At half-filling and large $U$, double occupancy costs $U$, so electrons localize one-per-site → **Mott insulator**, gap $\Delta_\text{Mott}\approx U-W$. Unlike a band insulator (gap from filled bands), the Mott gap is interaction-driven. · 莫特绝缘体,$\Delta\approx U-W$,源于相互作用。
+
+**4.** Virtual hopping to a neighbour and back lowers the energy by $\sim t^2/U$, but only if the two spins are antiparallel (Pauli forbids hopping onto a same-spin site). Second-order perturbation theory gives the antiferromagnetic $J=4t^2/U>0$. · 超交换:虚跳跃给反铁磁 $J=4t^2/U$(泡利限制)。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.11 — Linear Response & Transport](./module-4.11-linear-response-and-transport.md) · [Phase 4 index](./README.md)

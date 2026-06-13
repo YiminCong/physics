@@ -181,6 +181,19 @@ which admits an undamped solution with $s > 1$ (a velocity slightly above $v_F$)
 7. 为何比热只被 $m^*/m$ 重整化而非直接被 f 相互作用重整化，而 $\chi$ 却涉及 $F_0^a$？
 8. 勾画费米液体、格林函数准粒子极点权重 $Z$（模块 6.2）与 BCS 正常态（第 5 阶段）之间的关系。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Adiabatic continuity: switching on interactions slowly maps free electrons onto **quasiparticles** (dressed electrons) with the same quantum numbers. Luttinger's theorem fixes the Fermi-surface *volume* by the density, independent of interactions — a powerful constraint. · 绝热连续性给出准粒子;拉廷格定理固定费米面体积。
+
+**2.** A quasiparticle at energy $\varepsilon-\varepsilon_F$ can scatter only into a thin shell: both the available final states and available holes scale as $(\varepsilon-\varepsilon_F)$, so $1/\tau\propto(\varepsilon-\varepsilon_F)^2$. Since $(1/\tau)/(\varepsilon-\varepsilon_F)\to0$, quasiparticles are sharply defined near $E_F$. · 相空间计数给 $1/\tau\propto(\varepsilon-\varepsilon_F)^2$。
+
+**3.** $E=E_0+\sum_k\varepsilon_k^0\delta n_k+\tfrac1{2V}\sum_{kk'}f_{kk'}\delta n_k\delta n_{k'}$; the Landau parameters $F_l^{s,a}$ are the Legendre components of $f$ on the Fermi surface. One expands in $P_l(\cos\theta)$ because $f$ depends on the angle between $\mathbf k,\mathbf k'$ on the (spherical) surface. · 朗道能量泛函与勒让德展开的朗道参数。
+
+**4.** $m^*/m=1+F_1^s/3$. Galilean invariance ties the current to the bare mass, while the **backflow** of the medium as a quasiparticle moves renormalizes the mass through $F_1^s$. · $m^*/m=1+F_1^s/3$,源于伽利略不变性与回流。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.9 — Topological Matter & Berry Phase](./module-4.9-topological-matter-and-berry-phase.md) · [Phase 4 index](./README.md) · Next: [Module 4.11 — Linear Response & Transport](./module-4.11-linear-response-and-transport.md) →

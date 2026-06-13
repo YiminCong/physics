@@ -51,6 +51,19 @@
 3. 定性描述费米面附近两个电子之间由声子介导的吸引力。尽管电子之间存在库仑排斥，为何净相互作用可以是吸引的？
 4. 态密度 $g(E_F)$ 如何进入 BCS 能隙方程？更大的 $g(E_F)$ 对 $T_c$ 意味着什么？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** The Fermi surface is the constant-energy surface at $E_F$. Filling states to $E_F$: $k_F=(3\pi^2 n)^{1/3}$, $E_F=\hbar^2 k_F^2/2m=\dfrac{\hbar^2}{2m}(3\pi^2 n)^{2/3}$. · 费米面;$k_F=(3\pi^2n)^{1/3}$,$E_F=\tfrac{\hbar^2}{2m}(3\pi^2n)^{2/3}$。
+
+**2.** States below $E_F$ are Pauli-blocked; only those within $\sim k_BT$ of $E_F$ have empty neighbours to scatter into. The fraction $\sim k_BT/E_F$ explains the small heat capacity $C\propto T$. · 仅费米面附近 $\sim k_BT$ 的电子参与,故 $C\propto T$。
+
+**3.** One electron distorts the lattice, leaving a transient region of excess positive (ionic) charge; a second electron is attracted to it. This retarded, phonon-mediated attraction can beat the screened Coulomb repulsion for electrons near $E_F$ with opposite momenta. · 电子畸变晶格留下正电区吸引另一电子(声子介导,推迟)。
+
+**4.** The gap is $\Delta\approx2\hbar\omega_D e^{-1/gN(0)}$: a larger $g(E_F)$ enlarges the exponent, raising $\Delta$ and $T_c$ exponentially. · $g(E_F)$ 越大,$\Delta$、$T_c$ 指数升高。
+
+</details>
+
 ---
 
 ← Previous: [Module 4.4 — Electrons in a Periodic Potential](./module-4.4-electrons-in-a-periodic-potential.md) · [Phase 4 index](./README.md) · Next: [Module 4.6 — Magnetism & Spin Waves](./module-4.6-magnetism-and-spin-waves.md) →

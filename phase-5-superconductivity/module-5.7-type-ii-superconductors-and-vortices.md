@@ -45,6 +45,19 @@
 3. 解释磁通钉扎的概念。为何运动的涡旋会耗散能量？钉扎在缺陷上如何使 II 型超导体即便在高外加磁场中也能承载大的无耗散电流？
 4. 从涡旋核心（每个面积约为 $\xi^2$）开始重叠的条件估算 $H_{c2} \sim \Phi_0/(2\pi\xi^2)$。这对设计高场磁体意味着什么——$\xi$ 应该大还是小？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $H<H_{c1}$: full Meissner (flux expelled). $H_{c1}<H<H_{c2}$: mixed Abrikosov vortex state (partial penetration). $H>H_{c2}$: normal. A type-I superconductor has a single $H_c$ with an abrupt Meissner→normal transition and no vortex state. · 三区域;I 型只有单一 $H_c$,无涡旋态。
+
+**2.** Single-valuedness of the pair wavefunction quantizes flux as $\Phi=n\Phi_0$, $\Phi_0=h/2e$ (the $2e$ = pair charge). A vortex has $\psi\to0$ over $\xi$ (normal core) and circulating supercurrent screening the field over $\lambda$. · 磁通量子化 $\Phi_0=h/2e$;涡旋核 $\sim\xi$,电流衰减 $\sim\lambda$。
+
+**3.** Flux pinning: vortices anchor at defects (where condensation energy is already lost). Moving vortices generate an electric field $\propto v$ and dissipate; pinning immobilizes them, allowing large dissipation-free currents at high field. · 钉扎使涡旋不动,实现高场无耗散电流。
+
+**4.** $H_{c2}\sim\Phi_0/2\pi\xi^2$ (cores of area $\sim\xi^2$ overlap). High-field magnets therefore want a **small** $\xi$ (large $H_{c2}$). · $H_{c2}\sim\Phi_0/2\pi\xi^2$;高场磁体需小 $\xi$。
+
+</details>
+
 ---
 
 ← Previous: [Module 5.6 — Tunneling & the Gap](./module-5.6-tunneling-and-the-gap.md) · [Phase 5 index](./README.md) · Next: [Module 5.8 — Josephson Effects](./module-5.8-josephson-effects.md) →
