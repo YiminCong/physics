@@ -28,6 +28,10 @@ Renormalization absorbs divergences into redefinitions of the physical parameter
 
 ---
 
+![Running couplings: QCD coupling decreasing with energy (asymptotic freedom), QED coupling increasing with energy.](../assets/figures/running-coupling.svg)
+
+*Scale-dependent couplings set by the $\beta$ function. $\beta<0$ (QCD) ⟹ the coupling weakens at high energy — asymptotic freedom; $\beta>0$ (QED) ⟹ it grows toward a Landau pole. · 由 $\beta$ 函数决定的跑动耦合:$\beta<0$(QCD)高能渐弱(渐近自由),$\beta>0$(QED)高能增强趋向朗道极点。*
+
 ## 2. The Renormalization Group and Universality · 重整化群与普适性
 
 **Definition.** The renormalization group (RG) is not a group in the strict sense but a semigroup of scale transformations: physical observables must be independent of the arbitrary renormalization scale $\mu$, so $\mu\, d/d\mu\, G^{(n)} = 0$ gives the Callan–Symanzik equation. The beta function $\beta(g) = \mu\, dg/d\mu$ encodes how a coupling $g$ flows with scale. Fixed points $\beta(g^*) = 0$ are the universal, scale-invariant theories: free field theory ($g^* = 0$, UV fixed point of asymptotically free theories) and interacting Wilson–Fisher fixed points (in $d = 4 - \varepsilon$ dimensions, $g^* = O(\varepsilon)$).

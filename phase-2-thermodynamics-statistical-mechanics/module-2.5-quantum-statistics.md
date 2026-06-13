@@ -56,6 +56,10 @@ This defines the Fermi surface in momentum space — the central object of elect
 
 ---
 
+![Mean occupancy versus (epsilon-mu)/kT for Fermi-Dirac, Bose-Einstein, and Maxwell-Boltzmann statistics.](../assets/figures/quantum-statistics-distributions.svg)
+
+*Mean occupancy of a single level. Fermi–Dirac saturates at $\bar n\le1$ (Pauli); Bose–Einstein diverges as $\varepsilon\to\mu$; both approach the classical Boltzmann tail when $\bar n\ll1$. · 单能级的平均占据数:费米–狄拉克受泡利限制 $\bar n\le1$,玻色–爱因斯坦在 $\varepsilon\to\mu$ 时发散,稀疏时皆退化为玻尔兹曼。*
+
 ## 2. Chemical Potential and the Pauli Principle in Practice · 化学势与泡利原理的实际应用
 
 **Definition.** The chemical potential $\mu$ is the free-energy cost of adding one particle at fixed $T$ and $V$: $\mu = \left(\frac{\partial F}{\partial N}\right)_{T,V}$. At $T = 0$ for fermions, $\mu = E_F$ exactly. At finite $T$, $\mu$ shifts slightly below $E_F$ (for a metal, the shift is of order $(k_B T)^2/E_F$ — tiny at room temperature since $k_B T \approx 0.025$ eV while $E_F \approx 5$–$10$ eV). For bosons in three dimensions, $\mu < \varepsilon_0$ (ground-state energy) at all $T$ above the condensation temperature $T_\text{BEC}$.
