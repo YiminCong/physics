@@ -86,6 +86,13 @@ $$ E_F = \frac{A}{2}[F(F+1) - I(I+1) - J(J+1)], $$
 
 **应用。** 二次斯塔克效应是原子钟频移和里德伯原子电场传感器的基础。线性斯塔克效应实现冷原子的电场操控。21 cm 线绘制银河系乃至宇宙黑暗时代的中性氢分布。兰姆移位是 QED 的首个胜利，至今仍是该理论的精密检验。
 
+## Key results · 核心结果
+
+- Fine structure ($O(\alpha^4)$): relativistic KE, spin–orbit, Darwin (only $l=0$) · 精细结构
+- $E_{nj}$ depends on $j$ not $l$; Landé $g_J$, Zeeman $\Delta E=g_J\mu_B B\,m_j$ · 朗德因子与塞曼效应
+- Linear Stark (hydrogen $n=2$) vs quadratic Stark · 斯塔克效应
+- 21-cm hyperfine line; Lamb shift from QED · 21 厘米线与兰姆移位
+
 ---
 
 **Self-test (blank page)**
@@ -101,6 +108,16 @@ $$ E_F = \frac{A}{2}[F(F+1) - I(I+1) - J(J+1)], $$
 2. 推导朗德 g 因子并陈述弱场分裂 $\Delta E = g_J \mu_B B\, m_j$。在帕邢–巴克极限和正常塞曼（$s = 0$）情形下它变为什么？
 3. 区分氢基态的二次斯塔克效应与 $n = 2$ 流形的线性斯塔克效应。为何线性效应为氢所独有？
 4. 解释 21 cm 线的起源，写出 $\mathbf{I}\cdot\mathbf{J}$ 耦合的 $E_F$，并说明超精细结构与精细结构的大小关系。兰姆移位是什么，由什么引起？
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** The three $O(\alpha^4)$ terms: relativistic kinetic correction, spin–orbit, and the Darwin term (acts only on $l=0$). $E_{nj}=-\tfrac{13.6\,\text{eV}}{n^2}\big[1+\tfrac{\alpha^2}{n^2}(\tfrac{n}{j+1/2}-\tfrac34)\big]$; it depends on $j$, not $l$, because the relativistic + spin–orbit pieces combine so equal-$j$ states are degenerate. · 三项精细结构;$E_{nj}$ 只依赖 $j$。
+**2.** $g_J=1+\dfrac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}$; weak field $\Delta E=g_J\mu_B B\,m_j$. Paschen–Back (strong field): $\Delta E=(m_l+2m_s)\mu_B B$. Normal Zeeman ($s=0$): $g_J=1$, three equally-spaced lines. · 朗德因子;强场与正常塞曼极限。
+**3.** Hydrogen's $l=0$ ground state has no permanent dipole → quadratic Stark $\Delta E\propto -E^2$. The $n=2$ manifold has degenerate $2s,2p$ mixed by the field → linear Stark $\Delta E\propto E$. The linear effect is unique to hydrogen's accidental $l$-degeneracy. · 基态二次、$n=2$ 线性斯塔克;线性为氢独有。
+**4.** The 21-cm line is the hyperfine transition between parallel and antiparallel proton–electron spins in hydrogen's ground state; $E_F=A\,\mathbf I\cdot\mathbf J$. Hyperfine is $\sim m_e/m_p$ smaller than fine structure. The Lamb shift ($2s_{1/2}$–$2p_{1/2}$, $\sim1$ GHz) is caused by QED vacuum fluctuations. · 21 厘米线;超精细结构与兰姆移位。
+
+</details>
 
 ---
 

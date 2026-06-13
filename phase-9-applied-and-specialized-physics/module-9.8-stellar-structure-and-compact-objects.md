@@ -150,6 +150,13 @@ $$ \frac{dP}{dr} = -\frac{G[\rho + P/c^2][m + 4\pi r^3 P/c^2]}{r^2(1 - 2Gm/rc^2)
 
 **应用。** 中子星被观测为**脉冲星**（旋转的磁化中子星发出射电脉冲）和 X 射线双星。超过 TOV 最大质量，没有已知的压力能抵抗引力，天体坍缩为**黑洞**（模块 7.5/7.6）。两颗中子星的并合产生引力波和千新星，而核物态方程——仍不确定——正在被引力波潮汐测量和脉冲星质量–半径数据约束。
 
+## Key results · 核心结果
+
+- Hydrostatic equilibrium $dP/dr=-Gm\rho/r^2$ · 流体静力学平衡
+- Lane–Emden equation for polytropes $P=K\rho^{(n+1)/n}$ · 莱恩–埃姆登方程
+- Degeneracy pressure $P\propto\rho^{5/3}$ (NR), $\rho^{4/3}$ (UR) · 简并压
+- Chandrasekhar mass $M_\text{Ch}\approx1.4\,M_\odot$ · 钱德拉塞卡极限
+
 ---
 
 **Self-test (blank page)**
@@ -165,6 +172,16 @@ $$ \frac{dP}{dr} = -\frac{G[\rho + P/c^2][m + 4\pi r^3 P/c^2]}{r^2(1 - 2Gm/rc^2)
 2. 从 $P = K \rho^{(n+1)/n}$ 和 $\rho = \rho_c \theta^n$ 出发，推导莱恩–埃姆登方程。陈述 $n = 0, 1, 5$ 的闭式解，并解释 $\xi_1$ 如何确定恒星半径。
 3. 从 $T = 0$ 费米气体推导非相对论（$P \propto \rho^{5/3}$）和超相对论（$P \propto \rho^{4/3}$）电子简并压，并指出对应的多方指数。
 4. 解释为何非相对论白矮星服从 $R \propto M^{-1/3}$，以及为何超相对论极限产生唯一的、与中心密度无关的质量 $M_\text{Ch} \approx 1.4\, M_\odot$。
+
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Shell force balance: $dP/dr=-Gm(r)\rho/r^2$. The virial theorem ($2K+U=0$) gives $P_c\sim GM^2/R^4$ and $T_c\sim GMm_p/k_B R\sim10^7$ K for the Sun. · 流体静力学平衡;位力定理估算 $P_c,T_c$。
+**2.** Substituting $P=K\rho^{(n+1)/n}$, $\rho=\rho_c\theta^n$ gives $\tfrac1{\xi^2}\tfrac{d}{d\xi}(\xi^2\tfrac{d\theta}{d\xi})=-\theta^n$. Closed forms: $n=0$ ($\theta=1-\xi^2/6$), $n=1$ ($\theta=\sin\xi/\xi$), $n=5$ ($\theta=1/\sqrt{1+\xi^2/3}$). The first zero $\xi_1$ fixes the radius $R=\alpha\xi_1$. · 莱恩–埃姆登方程;三个解析解;$\xi_1$ 定半径。
+**3.** $T=0$ Fermi gas: non-relativistic $P\propto n_e^{5/3}\propto\rho^{5/3}$ ($n=3/2$ polytrope); ultra-relativistic $P\propto n_e^{4/3}\propto\rho^{4/3}$ ($n=3$ polytrope). · 非相对论与极端相对论简并压。
+**4.** NR white dwarf ($P\propto\rho^{5/3}$): $R\propto M^{-1/3}$ (more mass compresses harder against the soft EOS). In the UR limit ($P\propto\rho^{4/3}$) gravity and pressure scale identically with $\rho$, so equilibrium fixes a unique mass independent of central density — $M_\text{Ch}\approx1.4\,M_\odot$. · 白矮星 $R\propto M^{-1/3}$;极端相对论给唯一的钱德拉塞卡质量。
+
+</details>
 
 ---
 
