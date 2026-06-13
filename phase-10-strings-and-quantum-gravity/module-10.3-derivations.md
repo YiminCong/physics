@@ -28,7 +28,7 @@ The boundary sits at $z \to 0$, where the overall factor $L^2/z^2$ diverges; one
 **Claim.** A scalar of mass $m$ in $\mathrm{AdS}_{d+1}$ is dual to a boundary operator of dimension $\Delta_\pm = \tfrac{d}{2} \pm \sqrt{\tfrac{d^2}{4} + m^2 L^2}$.
 
 **Proof.** Solve the free wave equation $(\Box - m^2)\phi = 0$ in the Poincaré metric for a mode independent of $x^\mu$ (zero boundary momentum). With $\phi = z^\alpha$, the Laplacian gives
-$$ \frac{1}{\sqrt{-g}}\partial_z(\sqrt{-g}\,g^{zz}\partial_z z^\alpha) = z^{d+1}\partial_z\big(z^{-d+1}\,\tfrac{z^2}{L^2}\,\alpha z^{\alpha-1}\big) = \frac{\alpha(\alpha-d)}{L^2}z^\alpha. $$
+$$ \frac{1}{\sqrt{-g}}\partial_z(\sqrt{-g}\,g^{zz}\partial_z z^\alpha) = z^{d+1}\partial_z\big(z^{-d-1}\,\tfrac{z^2}{L^2}\,\alpha z^{\alpha-1}\big) = \frac{\alpha(\alpha-d)}{L^2}z^\alpha. $$
 The wave equation $\alpha(\alpha-d)/L^2 = m^2$ has roots $\alpha = \Delta_\pm = \tfrac{d}{2}\pm\sqrt{\tfrac{d^2}{4}+m^2L^2}$. Near the boundary $\phi \sim \phi_0\,z^{d-\Delta} + \langle\mathcal{O}\rangle\,z^{\Delta}$: the leading (non-normalizable) coefficient $\phi_0$ is the **source** for the dual operator $\mathcal{O}$, and the subleading (normalizable) coefficient is its **expectation value** $\langle\mathcal{O}\rangle$. Identifying $\Delta = \Delta_+$ gives the relation $\Delta(\Delta - d) = m^2 L^2$. Note that $m^2$ may be slightly negative (down to the Breitenlohner–Freedman bound $m^2 L^2 \geq -d^2/4$) while keeping $\Delta$ real — AdS stabilizes modes that would be tachyonic in flat space.
 
 **证明。** 在 Poincaré 度规中求解自由波动方程 $(\Box - m^2)\phi = 0$，取 $\phi = z^\alpha$，得 $\alpha(\alpha-d)/L^2 = m^2$，根为 $\Delta_\pm = \tfrac{d}{2}\pm\sqrt{\tfrac{d^2}{4}+m^2L^2}$。边界附近 $\phi \sim \phi_0 z^{d-\Delta} + \langle\mathcal{O}\rangle z^\Delta$：$\phi_0$ 是对偶算符 $\mathcal{O}$ 的源，次主导系数为其期望值。由此得 $\Delta(\Delta-d) = m^2 L^2$。在 Breitenlohner–Freedman 界 $m^2L^2 \geq -d^2/4$ 内 $m^2$ 可略负而 $\Delta$ 仍为实。
@@ -38,7 +38,7 @@ The wave equation $\alpha(\alpha-d)/L^2 = m^2$ has roots $\alpha = \Delta_\pm = 
 ## C. Bekenstein–Hawking Entropy from Microstate Counting
 ## C. 由微观态计数得 Bekenstein–Hawking 熵
 
-**Claim.** $S_{BH} = k_B A / 4 G_N \hbar$ (here $\ell_P^2 = G_N\hbar/c^3$) is the logarithm of the number of microstates of the black hole.
+**Claim.** $S_{BH} = k_B A / 4\ell_P^2 = k_B c^3 A / 4 G_N \hbar$ (with $\ell_P^2 = G_N\hbar/c^3$) is the logarithm of the number of microstates of the black hole.
 
 **Sketch (Strominger–Vafa).** Consider a 5D extremal black hole carrying charges $(Q_1, Q_5, N)$, built in string theory from $Q_1$ D1-branes and $Q_5$ D5-branes wrapping a compact space, with $N$ units of momentum along a circle. At weak string coupling this is a bound state of branes whose degeneracy is computed by counting the states of the $1{+}1$-dimensional CFT living on the brane intersection. The asymptotic state count follows from the **Cardy formula** of 2D CFT,
 $$ S = 2\pi\sqrt{\frac{c}{6}\Big(L_0 - \frac{c}{24}\Big)} \;\xrightarrow{\;c,\,L_0\,\text{from charges}\;}\; S = 2\pi\sqrt{Q_1 Q_5 N}. $$
