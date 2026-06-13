@@ -63,6 +63,17 @@
 2. 用量纲分析或已知结果，以 $\alpha$ 和 $s$ 推导 $e^+e^- \to \mu^+\mu^-$ 的树图截面；从物理上解释为何它随 $1/s$ 下降。
 3. 解释量子电动力学中 $\alpha$ 跑动的物理起源。为何 $\alpha$ 随能量增大（屏蔽），这与量子色动力学有何不同？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\mathcal L=-\tfrac14 F_{\mu\nu}F^{\mu\nu}+\bar\psi(i\gamma^\mu D_\mu-m)\psi$ with $D_\mu=\partial_\mu+ieA_\mu$: gauge-invariant kinetic $-\tfrac14F^2$, mass $-m\bar\psi\psi$, interaction $-e\bar\psi\gamma^\mu\psi A_\mu$. Vertex rule: $-ie\gamma^\mu$. · QED 拉氏量;顶角 $-ie\gamma^\mu$。
+
+**2.** $\sigma(e^+e^-\to\mu^+\mu^-)=\dfrac{4\pi\alpha^2}{3s}$. A cross-section has dimension (energy)$^{-2}$; the only scale is $s$ and the amplitude is $O(\alpha)$ at each vertex ($O(\alpha^2)$ in $\sigma$), so $\sigma\sim\alpha^2/s$ — it falls as $1/s$ at high energy. · 截面 $4\pi\alpha^2/3s$,量纲与单一标度 $s$ 给出 $1/s$。
+
+**3.** Vacuum polarization: virtual $e^+e^-$ pairs **screen** the bare charge, so at higher energy (shorter distance) you see more bare charge and $\alpha$ increases. In QCD gluon self-interaction **anti-screens**, so $\alpha_s$ *decreases* at high energy — asymptotic freedom. · 真空极化屏蔽使 $\alpha$ 随能量增大;QCD 反屏蔽相反。
+
+</details>
+
 ---
 
 ← Previous: [Module 8.1 — Symmetries & Gauge Theory](./module-8.1-symmetries-and-gauge-theory.md) · [Phase 8 index](./README.md) · Next: [Module 8.3 — The Strong Interaction (QCD)](./module-8.3-quantum-chromodynamics.md) →

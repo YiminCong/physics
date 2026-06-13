@@ -59,6 +59,17 @@
 2. 解释诺特定理（模块 1.4）关于全局 $U(1)$ 对称性所对应守恒流的论述。对于色 $SU(3)$，类似的陈述是什么？
 3. 杨–米尔斯拉格朗日量中出现了哪些麦克斯韦理论中没有的新相互作用项，它们有什么物理后果？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\mathcal L=\bar\psi(i\gamma^\mu\partial_\mu-m)\psi$. Under $\psi\to e^{i\alpha(x)}\psi$ the derivative picks up $i\partial_\mu\alpha$, breaking invariance. Introduce $A_\mu$ with $D_\mu=\partial_\mu+ieA_\mu$ and require $A_\mu\to A_\mu-\tfrac1e\partial_\mu\alpha$; then $D_\mu\psi\to e^{i\alpha}D_\mu\psi$ and $\mathcal L$ is invariant. · 局域 $U(1)$ 迫使引入 $A_\mu$,$A_\mu\to A_\mu-\tfrac1e\partial_\mu\alpha$。
+
+**2.** Global $U(1)$ gives the conserved current $j^\mu=\bar\psi\gamma^\mu\psi$ with $\partial_\mu j^\mu=0$ (charge conservation). For color $SU(3)$ there are eight currents $j^\mu_a=\bar\psi\gamma^\mu T_a\psi$, covariantly conserved $D_\mu j^\mu_a=0$. · 诺特流 $j^\mu=\bar\psi\gamma^\mu\psi$;$SU(3)$ 有八条色流。
+
+**3.** The Yang–Mills field strength $F^a_{\mu\nu}=\partial_\mu A^a_\nu-\partial_\nu A^a_\mu+gf^{abc}A^b_\mu A^c_\nu$ has a quadratic/cubic $A$ term, giving **gauge-boson self-interactions** (3- and 4-gluon vertices) absent in Maxwell — gluons carry color, leading to confinement and asymptotic freedom. · 杨–米尔斯含规范玻色子自相互作用,导致禁闭与渐近自由。
+
+</details>
+
 ---
 
 ← [Phase 8 index](./README.md) · Next: [Module 8.2 — Quantum Electrodynamics (QED)](./module-8.2-quantum-electrodynamics.md) →

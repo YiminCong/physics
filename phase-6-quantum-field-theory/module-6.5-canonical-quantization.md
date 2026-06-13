@@ -67,6 +67,17 @@ The Dirac field (for spin-$\tfrac12$ particles) requires Lorentz covariance from
 2. 为什么狄拉克场必须用反对易子而非对易子量子化？陈述自旋-统计定理。
 3. 从场的展开来看，什么是反粒子？费曼 $i\varepsilon$ 处方如何编码传播子的粒子/反粒子诠释？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** From $\mathcal L=\tfrac12(\partial\phi)^2-\tfrac12 m^2\phi^2$, $\pi=\partial\mathcal L/\partial\dot\phi=\dot\phi$, and $[\phi(x,t),\pi(x',t)]=i\hbar\delta^3(x-x')$. Inserting the mode expansion $\phi\sim\int\frac{d^3k}{(2\pi)^3}\frac{1}{\sqrt{2\omega_k}}(a_k e^{ikx}+a^\dagger_k e^{-ikx})$ forces $[a_k,a^\dagger_{k'}]=(2\pi)^3\delta^3(k-k')$. · 正则量子化迫使 $[a_k,a^\dagger_{k'}]=\delta^3(k-k')$。
+
+**2.** Quantizing the Dirac field with commutators gives a Hamiltonian unbounded below and violates microcausality; anticommutators fix both. **Spin-statistics theorem:** integer-spin fields commute (bosons), half-integer-spin fields anticommute (fermions). · 狄拉克场须用反对易子;自旋-统计定理。
+
+**3.** An antiparticle is the coefficient $b^\dagger_k$ of the negative-frequency mode in $\psi\sim\sum(a_k u_k e^{-ikx}+b^\dagger_k v_k e^{+ikx})$. The Feynman $i\varepsilon$ displaces the propagator poles so that positive-energy particles propagate forward and antiparticles backward in time (Feynman–Stückelberg). · 反粒子为负频模 $b^\dagger_k$;$i\varepsilon$ 给出费曼–斯蒂克尔贝格诠释。
+
+</details>
+
 ---
 
 ← Previous: [Module 6.4 — Path Integrals & Field Theory](./module-6.4-path-integrals.md) · [Phase 6 index](./README.md) · Next: [Module 6.6 — Renormalization & the Renormalization Group](./module-6.6-renormalization.md) →

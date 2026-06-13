@@ -67,6 +67,17 @@ The analytic structure follows from causality (Module 0.4): $G^R(k,\omega)$ is a
 2. 陈述 $G^R(k,\omega)$ 的克喇末–克朗尼希关系，并解释它编码了哪条物理原理。
 3. 反常格林函数 $F(k,\omega)$ 是什么？为什么它在正常金属中为零，而在 BCS 超导体中不为零？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $G^0(k,\omega)=\dfrac1{\omega-\varepsilon_k/\hbar+i\eta}$, a sharp pole at $\omega=\varepsilon_k/\hbar$. An interaction $\Sigma$ shifts the pole to $\omega=\varepsilon_k/\hbar+\text{Re}\,\Sigma$ (renormalized energy) and broadens it by $\text{Im}\,\Sigma$ (finite quasiparticle lifetime). · 极点在 $\omega=\varepsilon_k/\hbar$;自能移动并展宽之。
+
+**2.** $\text{Re}\,G^R(\omega)=\dfrac1\pi\mathcal P\!\int\dfrac{\text{Im}\,G^R(\omega')}{\omega'-\omega}d\omega'$. It encodes **causality** ($G^R$ is analytic in the upper half-plane: no response before the cause). · 克喇末–克朗尼希关系编码因果性。
+
+**3.** $F(k,\omega)\sim\langle T\,c_{k\uparrow}c_{-k\downarrow}\rangle$ is the anomalous propagator. It vanishes in a normal metal (particle number conserved, $\langle cc\rangle=0$) but is nonzero in BCS, where the condensate breaks $U(1)$ and $\langle cc\rangle\neq0$. · 反常格林函数在正常金属为零,BCS 中非零(破缺 $U(1)$)。
+
+</details>
+
 ---
 
 ← Previous: [Module 6.1 — Second Quantization & the Many-Body Problem](./module-6.1-second-quantization.md) · [Phase 6 index](./README.md) · Next: [Module 6.3 — Feynman Diagrams & Perturbation Theory](./module-6.3-feynman-diagrams.md) →

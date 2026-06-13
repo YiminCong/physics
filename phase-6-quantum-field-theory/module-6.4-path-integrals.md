@@ -63,6 +63,17 @@ Passing to a field theory, $x(t)$ is replaced by a field configuration $\phi(x,t
 2. 进行维克转动 $t \to -i\tau$。证明量子配分函数 $Z = \mathrm{Tr}\, e^{-\beta\hat{H}}$ 变成欧几里得泛函积分。玻色子场和费米子场各满足什么边界条件？
 3. 为什么费米子路径积分必须使用 Grassmann 变量？高斯 Grassmann 积分与玻色子情形在符号上有何不同，这反映了什么物理原理？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\langle x_f|e^{-i\hat H T/\hbar}|x_i\rangle=\int\mathcal D x\,e^{iS[x]/\hbar}$, $S=\int L\,dt$. As $\hbar\to0$ the phase oscillates wildly and paths cancel except where $\delta S=0$ (stationary phase) — the classical path dominates. · 路径积分;稳相极限给出经典路径。
+
+**2.** Wick rotation $t\to-i\tau$ turns $e^{-i\hat H T/\hbar}$ into $e^{-\beta\hat H}$, so $Z=\text{Tr}\,e^{-\beta\hat H}=\int\mathcal D\phi\,e^{-S_E[\phi]}$ over fields on a circle of circumference $\beta\hbar$. Bosons are **periodic** $\phi(\tau+\beta)=\phi(\tau)$; fermions **antiperiodic** $\psi(\tau+\beta)=-\psi(\tau)$. · 维克转动给欧氏积分;玻色周期、费米反周期。
+
+**3.** Fermionic fields must anticommute to reproduce $\{\psi,\psi^\dagger\}=\delta$ (Pauli/antisymmetry), so they are Grassmann numbers. The Gaussian Grassmann integral gives $\det M$ (vs $1/\sqrt{\det M}$ for bosons) — the determinant in the numerator versus denominator reflects Fermi versus Bose statistics. · 费米子用格拉斯曼变量;高斯积分给 $\det M$(玻色为 $1/\sqrt{\det}$)。
+
+</details>
+
 ---
 
 ← Previous: [Module 6.3 — Feynman Diagrams & Perturbation Theory](./module-6.3-feynman-diagrams.md) · [Phase 6 index](./README.md) · Next: [Module 6.5 — Canonical Quantization of Fields](./module-6.5-canonical-quantization.md) →

@@ -76,6 +76,21 @@ $$ [L_m, L_n] = (m - n)\,L_{m+n} + \frac{c}{12}\,m(m^2 - 1)\,\delta_{m+n,0}. $$
 4. 写出 Virasoro 代数并指出中心荷 $c$。给出自由玻色子和临界二维伊辛模型的 $c$ 值，并陈述 c-定理。
 5. 解释二维 CFT 在课程其他部分的两个角色：弦世界面（以及 $c$ 如何固定临界维数）与 AdS/CFT 全息的边界。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** A conformal transformation preserves angles (rescales the metric by a local factor). At an RG fixed point $\beta(g^*)=0$ the coupling stops running, so there is no scale — scale invariance, which together with locality and unitarity enhances to full conformal invariance. A mass or correlation length is a fixed scale and breaks it. · 不动点无标度,标度不变性增强为共形不变;质量/关联长度破坏之。
+
+**2.** Translation + rotation make it $f(r)$; scale invariance $f(\lambda r)=\lambda^{-2\Delta}f(r)$ forces $f\propto r^{-2\Delta}$. The three-point function is fixed up to a single constant $C_{ijk}$. · 标度不变给 $r^{-2\Delta}$;三点函数定到常数 $C_{ijk}$。
+
+**3.** OPE: $\mathcal O_i(x)\mathcal O_j(0)=\sum_k C_{ijk}|x|^{\Delta_k-\Delta_i-\Delta_j}\mathcal O_k(0)$. The CFT data are the dimensions $\{\Delta_i\}$ and OPE coefficients $\{C_{ijk}\}$; "solving" a CFT means determining this data (e.g. by the bootstrap) — all correlators follow. · CFT 数据 $\{\Delta_i,C_{ijk}\}$;求解即定出它们。
+
+**4.** $[L_m,L_n]=(m-n)L_{m+n}+\tfrac{c}{12}m(m^2-1)\delta_{m+n,0}$; $c$ = central charge. Free boson $c=1$, critical 2D Ising $c=\tfrac12$. c-theorem: $c$ decreases monotonically under RG flow, $c_\text{UV}\ge c_\text{IR}$. · Virasoro 代数;$c=1$/$\tfrac12$;c-定理。
+
+**5.** (i) The string worldsheet is a 2D CFT; cancelling the conformal anomaly (total $c=0$, ghosts contribute $-26$) fixes $D=26$ (bosonic) or $D=10$ (super). (ii) In AdS/CFT a $d$-dimensional CFT is the holographic boundary dual of $(d{+}1)$-dimensional AdS gravity. · 弦世界面($c$ 定临界维数)与 AdS/CFT 边界。
+
+</details>
+
 ---
 
 ← Previous: [Module 6.12 — Finite-Temperature Field Theory (Matsubara)](./module-6.12-finite-temperature-field-theory.md) · Next: [Phase 7 — General Relativity & Cosmology](../phase-7-general-relativity-and-cosmology/) · Related: [Module 10.3 — AdS/CFT & Black-Hole Information](../phase-10-strings-and-quantum-gravity/module-10.3-ads-cft-and-black-hole-information.md) · [Phase 6 index](./README.md)

@@ -99,6 +99,17 @@ From $R^{\rho}{}_{\sigma\mu\nu}$ one constructs:
 2. 列出黎曼曲率张量 $R_{\mu\nu\rho\sigma}$ 的全部对称性（反对称性、对偶对称性、第一比安基恒等式）。在四维时空中它有多少个独立分量？
 3. 验证 $\nabla_\rho g_{\mu\nu} = 0$ 由 $\Gamma$ 的定义导出——这是度规相容性条件。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** $\Gamma^\rho{}_{\mu\nu}=\tfrac12 g^{\rho\sigma}(\partial_\mu g_{\sigma\nu}+\partial_\nu g_{\sigma\mu}-\partial_\sigma g_{\mu\nu})$. They are not tensors because they transform with an inhomogeneous second-derivative term — and that very term cancels the non-tensorial part of $\partial_\mu V^\nu$, making $\nabla_\mu V^\nu$ a tensor. · 克氏符非张量,但其非齐次项恰使协变导数成张量。
+
+**2.** $R_{\mu\nu\rho\sigma}=-R_{\nu\mu\rho\sigma}=-R_{\mu\nu\sigma\rho}=R_{\rho\sigma\mu\nu}$, and the first Bianchi identity $R_{\mu[\nu\rho\sigma]}=0$. In 4D it has **20** independent components. · 黎曼张量对称性;四维 20 个独立分量。
+
+**3.** $\nabla_\rho g_{\mu\nu}=\partial_\rho g_{\mu\nu}-\Gamma^\lambda{}_{\rho\mu}g_{\lambda\nu}-\Gamma^\lambda{}_{\rho\nu}g_{\mu\lambda}$; substituting the Christoffel formula, the terms cancel and $\nabla_\rho g_{\mu\nu}=0$ — metric compatibility (the Levi-Civita connection). · 代入克氏符定义得 $\nabla_\rho g_{\mu\nu}=0$(度规相容)。
+
+</details>
+
 ---
 
 ← Previous: [Module 7.1 — The Equivalence Principle & Curved Spacetime](./module-7.1-equivalence-principle-and-curved-spacetime.md) · [Phase 7 index](./README.md) · Next: [Module 7.3 — Geodesics & the Motion of Particles](./module-7.3-geodesics-and-motion-of-particles.md) →

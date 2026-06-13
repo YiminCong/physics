@@ -63,6 +63,17 @@
 2. 用动量空间中的场算符将动能算符 $T = \sum_i p^2_i/2m$ 表达为二次量子化形式。粒子数态 $|n_{k_1}, n_{k_2}, \ldots\rangle$ 在物理上代表什么？
 3. 为什么 BCS 基态的自然描述需要 Fock 空间（而非固定 $N$ 的希尔伯特空间）？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** With $\psi(x)=\sum_k c_k\varphi_k(x)$, $\{\psi(x),\psi^\dagger(x')\}=\sum_{kk'}\varphi_k(x)\varphi^*_{k'}(x')\{c_k,c^\dagger_{k'}\}=\sum_k\varphi_k(x)\varphi^*_k(x')=\delta(x-x')$ by completeness. · 由模式反对易子与完备性得 $\{\psi(x),\psi^\dagger(x')\}=\delta(x-x')$。
+
+**2.** $T=\sum_k\dfrac{\hbar^2k^2}{2m}c^\dagger_k c_k$. The state $|n_{k_1},n_{k_2},\dots\rangle$ specifies how many particles occupy each mode — the occupation-number (Fock) representation. · $T=\sum_k\tfrac{\hbar^2k^2}{2m}c^\dagger_kc_k$;占据数态记录各模式粒子数。
+
+**3.** The BCS ground state $|\text{BCS}\rangle=\prod_k(u_k+v_k c^\dagger_{k\uparrow}c^\dagger_{-k\downarrow})|0\rangle$ is a superposition of different particle numbers — not an eigenstate of $\hat N$ — so it lives naturally only in Fock space, not a fixed-$N$ Hilbert space. · BCS 基态是不同粒子数的叠加,需 Fock 空间。
+
+</details>
+
 ---
 
 ← [Phase 6 index](./README.md) · Next: [Module 6.2 — Green's Functions & Propagators](./module-6.2-greens-functions.md) →

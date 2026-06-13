@@ -65,6 +65,17 @@
 2. 仅利用等效原理和多普勒效应推导引力红移公式 $z \approx \Delta\varphi/c^2$——无需场方程。
 3. 为何广义相对论预言太阳对光线的偏折是牛顿值的两倍？哪个物理效应贡献了"额外"的那一半？
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Strong equivalence principle: in a sufficiently small freely-falling frame *all* physics is that of special relativity — gravity is locally indistinguishable from acceleration. Hence freely-falling frames are locally inertial. Tidal forces (true curvature) are the non-uniformity of the field; they limit "local" to regions small enough that tidal effects are negligible. · 强等效原理;自由下落局域惯性,潮汐力(曲率)限制其「局域」范围。
+
+**2.** A photon climbing through potential difference $\Delta\varphi$: by equivalence, treat the receiver as accelerating, so during light travel it acquires $\Delta v=g h/c$, giving a Doppler shift $z=\Delta v/c=gh/c^2=\Delta\varphi/c^2$. · 等效 + 多普勒得 $z=\Delta\varphi/c^2$。
+
+**3.** Newtonian "falling light" gives half the deflection; the other half comes from the **curvature of space** (the spatial metric components), which a time-dilation-only Newtonian argument omits. · 牛顿仅得一半,另一半来自空间弯曲。
+
+</details>
+
 ---
 
 ← [Phase 7 index](./README.md) · Next: [Module 7.2 — Tensors, the Metric & Curvature](./module-7.2-tensors-metric-and-curvature.md) →

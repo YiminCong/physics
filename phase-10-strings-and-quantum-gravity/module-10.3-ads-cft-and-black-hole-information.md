@@ -70,6 +70,21 @@ geometrizing quantum entanglement (Module 3.13) as a literal surface in a curved
 4. 陈述 Ryu–Takayanagi 公式，并解释「纠缠构建时空」的含义。
 5. 陈述黑洞信息悖论与 Page 曲线的形状。解释边界 CFT 的幺正性以及微观态计数 $S = A/4G_N$ 如何在原则上解决它。
 
+<details>
+<summary><strong>Answer key · 参考答案</strong></summary>
+
+**1.** Gravity (string theory) in $(d{+}1)$-dimensional anti-de Sitter space equals a CFT on its $d$-dimensional boundary. Original example: type IIB strings on $\mathrm{AdS}_5\times S^5$ ↔ $\mathcal N=4$ $SU(N)$ super-Yang–Mills in 4D. It realizes holography — a $(d{+}1)$-dim gravitational theory fully encoded by a $d$-dim non-gravitational one. · AdS/CFT;$\mathrm{AdS}_5\times S^5\leftrightarrow\mathcal N=4$ SYM,全息原理的实现。
+
+**2.** $Z_\text{grav}[\phi_0]=\langle\exp\!\int\phi_0\mathcal O\rangle_\text{CFT}$: the bulk field's boundary value $\phi_0$ is the **source** for the dual operator $\mathcal O$. Field–operator map: $\Delta(\Delta-d)=m^2L^2$ (bulk mass $m$ ↔ boundary dimension $\Delta$). · GKP–Witten;$\phi_0$ 为源,$\Delta(\Delta-d)=m^2L^2$。
+
+**3.** It is strong–weak: when the CFT coupling is strong, the dual geometry is weakly curved and classical gravity applies — so hard strongly-coupled field-theory problems become tractable gravity problems. Application: the viscosity-to-entropy ratio $\eta/s=\hbar/4\pi k_B$ of the quark–gluon plasma. · 强–弱对偶;应用如 $\eta/s=\hbar/4\pi k_B$。
+
+**4.** $S_A=\text{Area}(\gamma_A)/4G_N$, with $\gamma_A$ the minimal bulk surface anchored on $\partial A$. "Entanglement builds spacetime": the bulk's geometry and connectivity reflect entanglement in the boundary state — remove the entanglement and the geometry pinches apart. · RT 公式;纠缠构建时空几何。
+
+**5.** Paradox: Hawking radiation looks thermal, suggesting pure→mixed (non-unitary) evolution and information loss. The Page curve says the radiation entropy should rise then fall back to zero. Resolution: the boundary CFT evolves unitarily (no horizon there), so information is preserved, and $S=A/4G_N$ counts a finite set of microstates (Strominger–Vafa) — a black hole is an ordinary quantum system. · 信息悖论与 Page 曲线;边界 CFT 幺正 + 微观态计数解决之。
+
+</details>
+
 ---
 
 ← Previous: [Module 10.2 — Quantum Gravity & Holography](./module-10.2-quantum-gravity-and-holography.md) · Related: [Module 6.13 — Conformal Field Theory](../phase-6-quantum-field-theory/module-6.13-conformal-field-theory.md) · [Phase 10 index](./README.md)
