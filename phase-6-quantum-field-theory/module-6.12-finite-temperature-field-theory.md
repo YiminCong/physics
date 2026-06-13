@@ -120,4 +120,4 @@ $$ \frac{F}{V} = -\frac{\pi^2}{90} g T^4, \qquad P = -\frac{F}{V} = \frac{\pi^2}
 
 ---
 
-← Previous: [Module 6.11 — Effective Field Theory & the Renormalization Group](./module-6.11-effective-field-theory-and-the-renormalization-group.md) · [Phase 6 index](./README.md)
+← Previous: [Module 6.11 — Effective Field Theory & the Renormalization Group](./module-6.11-effective-field-theory-and-the-renormalization-group.md) · Next: [Module 6.13 — Conformal Field Theory](./module-6.13-conformal-field-theory.md) · [Phase 6 index](./README.md)

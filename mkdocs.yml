@@ -360,6 +360,9 @@ nav:
       - "Module 6.12 — Finite-Temperature Field Theory (the Matsubara Formalism)":
           - phase-6-quantum-field-theory/module-6.12-finite-temperature-field-theory.md
           - Derivations (proofs): phase-6-quantum-field-theory/module-6.12-finite-temperature-field-theory-derivations.md
+      - "Module 6.13 — Conformal Field Theory":
+          - phase-6-quantum-field-theory/module-6.13-conformal-field-theory.md
+          - Derivations (proofs): phase-6-quantum-field-theory/module-6.13-conformal-field-theory-derivations.md
   - "Phase 7 — General Relativity & Cosmology":
       - phase-7-general-relativity-and-cosmology/README.md
       - "Module 7.1 — The Equivalence Principle & Curved Spacetime":
@@ -452,6 +455,9 @@ nav:
       - "Module 10.2 — Quantum Gravity & Holography":
           - phase-10-strings-and-quantum-gravity/module-10.2-quantum-gravity-and-holography.md
           - Derivations (proofs): phase-10-strings-and-quantum-gravity/module-10.2-derivations.md
+      - "Module 10.3 — AdS/CFT & Black-Hole Information":
+          - phase-10-strings-and-quantum-gravity/module-10.3-ads-cft-and-black-hole-information.md
+          - Derivations (proofs): phase-10-strings-and-quantum-gravity/module-10.3-derivations.md
   - "Reference · 参考":
       - Conventions & Notation: CONVENTIONS.md
       - Glossary (EN · 中文): GLOSSARY.md
